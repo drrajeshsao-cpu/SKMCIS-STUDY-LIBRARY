@@ -1,0 +1,219 @@
+{
+  "id": "SKM-CSP-0001",
+  "slug": "cervical-radiculopathy",
+  "name": "Cervical Radiculopathy",
+  "ayurveda": "Phenotype-based Ayurveda correlation: Vishwachi / Greeva Stambha framework where clinically appropriate; no one-to-one equivalence",
+  "category": "Spine & Neurology",
+  "status": "Gold chapter draft - source checked, clinician validation pending",
+  "version": "1.0-draft",
+  "updated": "2026-08-06",
+  "synonyms": [
+    "Cervical nerve-root syndrome",
+    "Cervicobrachial radicular pain",
+    "Pinched nerve in the neck"
+  ],
+  "definition": "A clinical syndrome caused by compression and/or irritation of a cervical nerve root, producing neck and/or scapular pain with radiating arm pain and possible dermatomal sensory change, myotomal weakness, or reflex asymmetry. It must be distinguished from cervical myelopathy, shoulder disorders, peripheral nerve entrapments and other serious causes of neck-arm pain.",
+  "anatomy": [
+    "Cervical nerve roots exit through the neural foramina; degenerative disc-height loss, uncovertebral/facet osteophytes, foraminal stenosis and disc herniation can compromise a root.",
+    "C5-C8 are the most clinically relevant roots for typical upper-limb radicular syndromes; T1 may contribute to hand intrinsic weakness or medial forearm sensory symptoms.",
+    "Imaging abnormalities are common in asymptomatic adults, so level and side must match the clinical neurological pattern."
+  ],
+  "etiology": [
+    "Cervical spondylosis with foraminal narrowing from disc degeneration, uncovertebral/facet hypertrophy and osteophytes.",
+    "Cervical disc herniation, especially in younger or more acutely symptomatic patients.",
+    "Less common causes include trauma, instability, infection, tumor, inflammatory disease, postoperative change or other space-occupying pathology."
+  ],
+  "riskFactors": [
+    "Age-related degenerative cervical change.",
+    "Prior neck injury or repetitive occupational/mechanical loading may contribute in selected patients.",
+    "Smoking and general musculoskeletal deconditioning may adversely affect spinal health and recovery; they are modifiers rather than stand-alone diagnostic criteria."
+  ],
+  "presentation": [
+    "Neck, periscapular or shoulder-girdle pain with radiation into one arm; arm pain may dominate over neck pain.",
+    "Burning, electric, sharp or aching pain following a root-related distribution.",
+    "Paresthesia or numbness in the forearm/hand/fingers.",
+    "Focal weakness in a root-related myotomal pattern; grip or fine-motor function may be affected.",
+    "Reduced deep tendon reflex may occur, particularly triceps in C7 involvement.",
+    "Symptoms may worsen with cervical extension/rotation or foraminal-loading positions; some patients obtain temporary relief with the hand placed on top of the head."
+  ],
+  "redFlags": [
+    "MYELOPATHY: gait imbalance, leg stiffness/weakness, hand clumsiness, loss of dexterity, hyperreflexia, clonus, pathologic reflexes, or new bowel/bladder dysfunction.",
+    "Rapidly progressive or severe motor weakness in the arm/hand or objective neurological deterioration on repeat examination.",
+    "Major trauma, suspected fracture/instability, osteoporosis or high-risk mechanism.",
+    "Fever, immunosuppression, IV drug use, recent infection/procedure or concern for discitis/epidural abscess.",
+    "Known cancer, unexplained weight loss, constitutional symptoms or destructive/night pain suspicious for malignancy.",
+    "Severe unremitting pain with systemic illness or a clinical pattern inconsistent with uncomplicated radiculopathy.",
+    "Acute neck-arm symptoms with chest pain, dyspnea, diaphoresis or other features suggesting a non-spinal emergency should be evaluated for that emergency first."
+  ],
+  "history": [
+    "Exact pain map: neck, medial scapula, shoulder, arm, forearm, hand and individual fingers.",
+    "Onset, trauma/mechanism, duration, progression, recurrence and effect of neck position/cough/strain.",
+    "Sensory symptoms: numbness, tingling, altered temperature or patchy hand symptoms.",
+    "Motor symptoms: shoulder abduction, elbow flexion/extension, wrist motion, finger extension/flexion, grip, pinch and intrinsic-hand tasks.",
+    "Screen specifically for myelopathy: gait imbalance, falls, leg stiffness, bilateral hand symptoms, loss of dexterity, buttoning/writing difficulty and sphincter change.",
+    "Systemic red flags: fever/infection risk, malignancy history, weight loss, immunosuppression, inflammatory disease.",
+    "Previous cervical imaging, injections, surgery, medication, physiotherapy and response.",
+    "Workstation/occupation, driving, overhead work, sleep position, exercise and psychosocial/work barriers."
+  ],
+  "exam": [
+    "General observation, vitals if clinically indicated, posture and cervical active range of motion.",
+    "Motor examination C5-T1 with side-to-side comparison; document Medical Research Council grade where weakness exists.",
+    "Dermatomal sensory testing and comparison with peripheral nerve territories.",
+    "Deep tendon reflexes: biceps, brachioradialis and triceps; look for asymmetry.",
+    "Spurling test may help rule in radiculopathy when positive in the appropriate clinical context.",
+    "Upper Limb Tension Test (ULTT) is useful as a sensitive provocative test; a negative result can help make radiculopathy less likely.",
+    "Cervical distraction and shoulder-abduction relief sign can support the diagnosis but are not stand-alone tests.",
+    "Mandatory myelopathy screen when indicated: gait/tandem gait, lower-limb tone/reflexes, Hoffmann/pathologic reflexes, clonus and hand dexterity.",
+    "Shoulder examination, peripheral nerve provocation and vascular screen when the presentation is atypical or a competing diagnosis is likely."
+  ],
+  "rootMap": [
+    {
+      "root": "C5",
+      "sensory": "lateral upper arm / deltoid region tendency",
+      "motor": "shoulder abduction; elbow flexion contribution",
+      "reflex": "biceps may be reduced (C5-C6 arc)"
+    },
+    {
+      "root": "C6",
+      "sensory": "lateral forearm, thumb and index-finger tendency",
+      "motor": "elbow flexion; wrist extension",
+      "reflex": "brachioradialis and/or biceps may be reduced"
+    },
+    {
+      "root": "C7",
+      "sensory": "middle-finger / central hand tendency",
+      "motor": "elbow extension; wrist flexion; finger extension",
+      "reflex": "triceps may be reduced"
+    },
+    {
+      "root": "C8",
+      "sensory": "ring/little-finger and ulnar-hand tendency",
+      "motor": "finger flexion; thumb/finger extension contribution",
+      "reflex": "no single routinely reliable deep-tendon reflex"
+    },
+    {
+      "root": "T1",
+      "sensory": "medial forearm tendency",
+      "motor": "finger abduction/adduction and intrinsic hand muscles",
+      "reflex": "no standard deep-tendon reflex"
+    }
+  ],
+  "differentials": [
+    "Cervical myelopathy / myeloradiculopathy",
+    "Rotator-cuff disease, adhesive capsulitis or other shoulder pathology",
+    "Median neuropathy / carpal tunnel syndrome",
+    "Ulnar neuropathy at elbow or wrist",
+    "Radial/posterior interosseous neuropathy",
+    "Brachial plexopathy, including neuralgic amyotrophy (Parsonage-Turner syndrome)",
+    "Thoracic outlet syndrome",
+    "Peripheral polyneuropathy",
+    "Herpes zoster / zoster sine herpete in an appropriate dermatomal pain syndrome",
+    "Pancoast/apical lung lesion or other malignancy when systemic/respiratory features are present",
+    "Cervical infection, epidural abscess or discitis",
+    "Inflammatory spondyloarthritis",
+    "Referred cardiac or visceral pain when clinical features suggest a non-spinal source"
+  ],
+  "investigations": [
+    "History and physical examination can establish the clinical diagnosis in many uncomplicated cases.",
+    "For acute or increasing cervical pain with radiculopathy and no trauma/red flags, the 2024 ACR update rates cervical radiographs and noncontrast MRI as potential initial options depending on the scenario; MRI is particularly useful for nerve-root definition.",
+    "MRI cervical spine without contrast is generally preferred when symptoms persist despite an appropriate nonoperative trial, when objective neurological deficit is progressive/significant, or when results will guide injection/surgical planning.",
+    "MRI with and without contrast is selected for specific concerns such as infection, malignancy, inflammatory disease or selected postoperative questions.",
+    "CT is useful for fracture/bony anatomy, ossification or when MRI is contraindicated; CT myelography is a specialist alternative when MRI cannot answer the question.",
+    "Electrodiagnostic testing is not routinely required when the diagnosis is clear; it is useful when peripheral entrapment, plexopathy, polyneuropathy or level localization remains uncertain.",
+    "Targeted laboratory tests (for example CBC, ESR/CRP and disease-specific tests) are reserved for suspected infection, inflammatory disease or malignancy rather than routine uncomplicated radiculopathy."
+  ],
+  "imagingCorrelation": [
+    "Match the symptomatic side, root level, foraminal zone and neurological deficits to the MRI finding.",
+    "Do not diagnose solely from cervical spondylosis, disc bulge or foraminal stenosis on imaging because asymptomatic degenerative findings are common.",
+    "Document central canal compromise and spinal-cord signal change separately from foraminal/root compression; cord findings shift the problem toward myelopathy/myeloradiculopathy."
+  ],
+  "management": [
+    "Reassure appropriate patients that many cases improve with time and nonoperative care; provide a clear safety-net for progressive deficit or myelopathy.",
+    "Maintain tolerable activity and use an individualized physical-therapy program emphasizing cervical/scapulothoracic/upper-limb mobility, strengthening and functional restoration.",
+    "Traction may be tried selectively as part of a rehabilitation program; response is variable and it should not be used casually when myelopathy or instability is suspected.",
+    "If analgesic/anti-inflammatory medication is used, choose it according to individual gastrointestinal, renal, cardiovascular, hepatic, pregnancy and drug-interaction risk; avoid turning a study chapter into an automatic prescription protocol.",
+    "A soft collar, if used at all, should generally be short-term because prolonged use can contribute to deconditioning.",
+    "Cervical epidural/selective nerve-root steroid injection may be considered for persistent severe radicular pain in a specialist pathway after imaging confirmation, with explicit counselling that rare but serious complications can occur.",
+    "Urgent spine/neurosurgical assessment is required for progressive neurological deficit or myelopathy.",
+    "Surgical opinion is appropriate for persistent disabling radicular pain or objective deficit that has not improved with adequate nonoperative care when imaging shows concordant nerve-root compression; procedure choice depends on pathology, level, alignment and patient factors."
+  ],
+  "rehab": [
+    "High-irritability phase: education, symptom-modifying positions, gentle pain-limited cervical/shoulder motion and maintenance of general activity.",
+    "Recovery phase: progressive deep-neck and scapular control, shoulder-girdle strength, thoracic mobility and graded upper-limb loading based on clinical response.",
+    "Neural-mobility exercises may be used selectively when they reduce rather than exacerbate symptoms.",
+    "Workstation, driving, lifting and overhead-work exposures should be modified temporarily and then reintroduced progressively.",
+    "Stop and reassess if weakness is increasing, gait/hand dexterity deteriorates, or new myelopathic/systemic red flags appear."
+  ],
+  "outcomes": [
+    "Arm pain NRS/VAS",
+    "Neck pain NRS/VAS",
+    "Neck Disability Index (NDI)",
+    "Patient-specific functional goals",
+    "Motor power by root/myotome",
+    "Dermatomal sensory findings",
+    "Deep tendon reflexes",
+    "Grip/pinch or hand dexterity where clinically relevant",
+    "Work/ADL participation",
+    "Patient Global Impression of Change"
+  ],
+  "ayurvedaFramework": {
+    "vyadhi": "No single universal classical equivalent should be assigned. Depending on phenotype, Vishwachi and/or Greeva Stambha/Greevagraha concepts may be documented as correlations after Ayurvedic clinical assessment.",
+    "principle": "Keep the modern structural/neurological diagnosis and the Ayurvedic functional-pathology assessment as parallel layers. Cervical myelopathy, infection, tumor, fracture and progressive motor deficit remain priority red-flag pathways.",
+    "assessment": [
+      "Nidana Panchaka",
+      "Dosha and Doshabheda with relevant Vata subtypes",
+      "Guna predominance",
+      "Vriddhi/Kshaya and Samanya-Vishesha assessment",
+      "Ama/Nirama",
+      "Agni and Koshtha",
+      "Dushya/Dhatu involvement",
+      "Mala and Ojas",
+      "Srotas and Srotodushti",
+      "Rogamarga",
+      "Shatkriyakala where clinically defensible",
+      "Bala/Avastha",
+      "Samprapti Ghataka"
+    ],
+    "clinicalFeatures": "Record neck stiffness/pain, scapular-arm radiation, sensory symptoms, weakness and functional loss without forcing every modern radiculopathy into one classical label.",
+    "treatmentSafety": "Nidana Parivarjana, Shamana/Shodhana, external procedures, Nasya/Basti or other Panchakarma choices require individualized assessment and contraindication review. Forceful cervical manipulation should not be used where instability, myelopathy, severe neurological deficit, fracture, infection or other structural danger is suspected."
+  },
+  "patientHandout": [
+    "Cervical radiculopathy means that a nerve root in the neck is irritated or compressed, causing pain, tingling, numbness or weakness that can travel into the shoulder, arm or hand.",
+    "Many cases improve without surgery. Keep moving within tolerance and follow the prescribed exercise/rehabilitation plan.",
+    "An MRI is not automatically needed for every episode; it becomes more important when symptoms persist, neurological deficit is progressing, red flags are present or a procedure/surgery is being considered.",
+    "Seek urgent assessment for new walking imbalance, leg stiffness/weakness, hand clumsiness affecting fine tasks, rapidly increasing arm/hand weakness, or new bowel/bladder problems.",
+    "Do not judge severity only from an MRI report; clinical symptoms, neurological examination and imaging must match."
+  ],
+  "sources": [
+    {
+      "short": "ACR 2024 Update",
+      "title": "ACR Appropriateness Criteria: Cervical Pain or Cervical Radiculopathy - 2024 Update",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40409873/",
+      "role": "current imaging appropriateness framework"
+    },
+    {
+      "short": "AAOS OrthoInfo",
+      "title": "Cervical Radiculopathy (Pinched Nerve)",
+      "url": "https://orthoinfo.aaos.org/en/diseases--conditions/cervical-radiculopathy-pinched-nerve/",
+      "role": "anatomy, symptoms, examination and conservative/surgical treatment overview"
+    },
+    {
+      "short": "AAFP 2016",
+      "title": "Nonoperative Management of Cervical Radiculopathy",
+      "url": "https://www.aafp.org/pubs/afp/issues/2016/0501/p746.html",
+      "role": "history/examination, provocative tests, differential, electrodiagnostics, nonoperative care and referral"
+    },
+    {
+      "short": "AAFP 2020",
+      "title": "Neck Pain: Initial Evaluation and Management",
+      "url": "https://www.aafp.org/pubs/afp/issues/2020/0801/p150.html",
+      "role": "red flags and distinction between radiculopathy and myelopathy"
+    },
+    {
+      "short": "NASS",
+      "title": "Diagnosis and Treatment of Cervical Radiculopathy from Degenerative Disorders",
+      "url": "https://www.spine.org/Portals/0/assets/downloads/researchclinicalcare/guidelines/cervicalradiculopathy.pdf",
+      "role": "specialty guideline background; older guideline retained as secondary historical reference"
+    }
+  ]
+}

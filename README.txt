@@ -25,3 +25,11 @@ V1.0.1 FIX:
 - Disease Library Sciatica/Gridhrasi search results are now clickable/tappable and open the full Gold Chapter.
 - Added keyboard accessibility and visible 'Open details' hint.
 - Service-worker cache bumped so GitHub Pages refresh receives the fix.
+
+V1.1 GOLD CHAPTER UPDATE:
+- Added Cervical Radiculopathy as Gold Chapter #2.
+- Search rows mapped to Gold chapters now open the correct disease detail.
+- Gold Chapter screen has a chapter selector.
+- Patient Education and Sources views follow the selected Gold chapter.
+- Added C5-T1 clinical root map, myelopathy red flags, imaging rules and phenotype-based Ayurveda correlation.
+- Master index now includes 133 records and 2 Gold chapters.

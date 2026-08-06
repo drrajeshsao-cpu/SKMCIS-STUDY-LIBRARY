@@ -273,7 +273,8 @@
     "ayurveda": "Gridhrasi",
     "contentStatus": "Structured clinical pack",
     "validationStatus": "Recovered compact pack - full chapter pending",
-    "provenance": "Later integrated SKMCIS build"
+    "provenance": "Later integrated SKMCIS build",
+    "goldChapterId": "SKM-SPN-0001"
   },
   {
     "recordId": "PACK-SPN-002",
@@ -285,7 +286,8 @@
     "ayurveda": "Individualized correlation",
     "contentStatus": "Structured clinical pack",
     "validationStatus": "Recovered compact pack - full chapter pending",
-    "provenance": "Later integrated SKMCIS build"
+    "provenance": "Later integrated SKMCIS build",
+    "goldChapterId": "SKM-CSP-0001"
   },
   {
     "recordId": "PACK-SPN-003",
@@ -1545,7 +1547,8 @@
     "ayurveda": "Gridhrasi",
     "contentStatus": "Reference mapping only",
     "validationStatus": "Not a canonical SKMCIS chapter",
-    "provenance": "Paper 2R march 2026 anukta Vyadhi"
+    "provenance": "Paper 2R march 2026 anukta Vyadhi",
+    "goldChapterId": "SKM-SPN-0001"
   },
   {
     "recordId": "ANU-099",
@@ -1581,6 +1584,20 @@
     "ayurveda": "Gridhrasi correlation",
     "contentStatus": "Full structured chapter v1.0-draft",
     "validationStatus": "Source checked; clinician validation pending",
-    "provenance": "Recovered SKMCIS + NICE/ACR/WHO/NHS synthesis"
+    "provenance": "Recovered SKMCIS + NICE/ACR/WHO/NHS synthesis",
+    "goldChapterId": "SKM-SPN-0001"
+  },
+  {
+    "recordId": "SKM-CSP-0001",
+    "name": "Cervical Radiculopathy",
+    "category": "Spine & Neurology",
+    "sourceLayer": "Gold Chapter",
+    "sourceId": "PACK-SPN-002 + new source-checked synthesis",
+    "modernName": "Cervical radiculopathy",
+    "ayurveda": "Vishwachi / Greeva Stambha phenotype correlation (non-equivalence)",
+    "contentStatus": "Full structured chapter v1.0-draft",
+    "validationStatus": "Source checked; clinician validation pending",
+    "provenance": "Recovered SKMCIS clinical pack + ACR/AAOS/AAFP/NASS synthesis",
+    "goldChapterId": "SKM-CSP-0001"
   }
 ]
