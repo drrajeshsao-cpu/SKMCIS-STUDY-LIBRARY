@@ -1,0 +1,112 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-SPN-SLY-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Lumbar Spondylolysis",
+  "synonyms": [
+    "Pars interarticularis stress fracture",
+    "Pars defect"
+  ],
+  "category": "Spine > Lumbar > Structural",
+  "tags": [
+    "lumbar",
+    "spondylolysis",
+    "pars defect",
+    "stress fracture"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-06"
+  },
+  "definition": "A defect or stress fracture of the pars interarticularis, commonly in the lower lumbar spine; it may occur with or without vertebral slip.",
+  "clinicalPattern": {
+    "typical": [
+      "Activity-related low-back pain",
+      "Pain may increase with lumbar extension",
+      "Often seen in athletes exposed to repetitive extension/loading",
+      "May coexist with spondylolisthesis"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Major neurological deficit is atypical and needs urgent alternate evaluation"
+    },
+    {
+      "level": "RED",
+      "item": "High-energy trauma or systemic red flags require separate pathway"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Lumbar ROM",
+      "Extension-provocation assessment",
+      "Hamstring flexibility",
+      "Neurological exam when leg symptoms are present"
+    ]
+  },
+  "differentials": [
+    "Mechanical low-back pain",
+    "Facet-mediated pain",
+    "Spondylolisthesis",
+    "Discogenic pain",
+    "Stress fracture or other osseous lesion"
+  ],
+  "investigations": {
+    "principle": "Imaging selection depends on age, duration, suspected pars lesion and neurological context.",
+    "radiographs": "Can show pars-related abnormalities/slip but may miss early stress injury.",
+    "MRI": "Useful for alternative pathology and selected stress-reaction assessment; CT may better define a bony pars defect when needed."
+  },
+  "management": {
+    "green": [
+      "Relative activity modification when symptoms are load-related",
+      "Core and flexibility rehabilitation",
+      "Graduated return to activity"
+    ],
+    "amber": [
+      "Bracing and operative decisions are individualized; persistent pain, high-grade slip or neurological symptoms need specialist review."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Katishoola/Vata-related symptom overlap is possible but not a validated classical identity for a pars defect."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "A defect or stress fracture of the pars interarticularis, commonly in the lower lumbar spine; it may occur with or without vertebral slip.",
+    "urgent": "Seek urgent assessment for new/progressive major weakness, gait deterioration, bladder/bowel dysfunction, saddle sensory loss, fever/systemic illness with severe spinal pain, or cancer-associated neurological symptoms."
+  },
+  "sources": [
+    {
+      "organization": "AAOS OrthoInfo",
+      "title": "Spondylolysis and Spondylolisthesis",
+      "url": "https://orthoinfo.aaos.org/en/diseases--conditions/spondylolysis-and-spondylolisthesis",
+      "checked": "2026-08-06"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V1.5-BATCH-8",
+    "doNotOverwriteLegacyIds": [
+      "DIS-0006",
+      "DIS-0007",
+      "DIS-0008",
+      "DIS-0009",
+      "DIS-0010",
+      "DIS-0011",
+      "DIS-0012",
+      "DIS-0013",
+      "DIS-0014",
+      "DIS-0015"
+    ],
+    "proposedGoldChapterNumber": 7
+  }
+}

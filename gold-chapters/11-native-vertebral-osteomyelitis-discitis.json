@@ -1,0 +1,122 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-SPN-NVO-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Native Vertebral Osteomyelitis / Discitis",
+  "synonyms": [
+    "Spondylodiscitis",
+    "Vertebral osteomyelitis",
+    "Spinal discitis"
+  ],
+  "category": "Spine > Infection",
+  "tags": [
+    "infection",
+    "discitis",
+    "vertebral osteomyelitis",
+    "spondylodiscitis"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-06"
+  },
+  "definition": "Infection involving vertebral bodies and/or adjacent disc space, commonly hematogenous in adults; delayed recognition can cause neurological injury, deformity or sepsis.",
+  "clinicalPattern": {
+    "typical": [
+      "Persistent focal back or neck pain",
+      "Fever may be absent",
+      "Elevated ESR/CRP can support suspicion",
+      "Risk increases with bloodstream infection, endocarditis or susceptible host states"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Sepsis or hemodynamic instability"
+    },
+    {
+      "level": "RED",
+      "item": "Progressive neurological deficit"
+    },
+    {
+      "level": "RED",
+      "item": "Epidural/paraspinal extension with neurological compromise"
+    },
+    {
+      "level": "RED",
+      "item": "Progressive deformity or instability"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Full motor/sensory neurological examination",
+      "Spinal tenderness",
+      "Temperature and systemic infection assessment"
+    ]
+  },
+  "differentials": [
+    "Degenerative spine disease",
+    "Spinal metastasis",
+    "Tuberculous spondylitis",
+    "Inflammatory spondyloarthritis",
+    "Compression fracture"
+  ],
+  "investigations": {
+    "principle": "In suspected native vertebral osteomyelitis, obtain microbiological and inflammatory-marker evidence and define spinal involvement.",
+    "labs": "IDSA recommends two sets of blood cultures plus baseline ESR and CRP.",
+    "MRI": "IDSA recommends spine MRI in suspected native vertebral osteomyelitis.",
+    "microbiology": "When stable and without neurological compromise/sepsis, establish microbiological diagnosis before empiric antibiotics when feasible."
+  },
+  "management": {
+    "green": [
+      "Early infectious-disease/spine collaboration when suspected",
+      "Culture-directed therapy framework",
+      "Monitor clinical response and inflammatory markers"
+    ],
+    "amber": [
+      "Hemodynamic instability, sepsis or severe/progressive neurological symptoms require urgent empiric treatment alongside attempts to establish microbiological diagnosis."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Do not label pyogenic or tuberculous spinal infection as an Ayurvedic disease equivalent. Any Ayurveda supportive discussion must remain separate from antimicrobial/surgical standards of care."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Infection involving vertebral bodies and/or adjacent disc space, commonly hematogenous in adults; delayed recognition can cause neurological injury, deformity or sepsis.",
+    "urgent": "Seek urgent assessment for new/progressive major weakness, gait deterioration, bladder/bowel dysfunction, saddle sensory loss, fever/systemic illness with severe spinal pain, or cancer-associated neurological symptoms."
+  },
+  "sources": [
+    {
+      "organization": "Infectious Diseases Society of America (IDSA)",
+      "title": "Clinical Practice Guidelines for Native Vertebral Osteomyelitis in Adults",
+      "url": "https://www.idsociety.org/practice-guideline/vertebral-osteomyelitis/",
+      "checked": "2026-08-06",
+      "note": "Published 2015; still used here as an authoritative specialty guideline; evidence date is explicitly retained."
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V1.5-BATCH-8",
+    "doNotOverwriteLegacyIds": [
+      "DIS-0006",
+      "DIS-0007",
+      "DIS-0008",
+      "DIS-0009",
+      "DIS-0010",
+      "DIS-0011",
+      "DIS-0012",
+      "DIS-0013",
+      "DIS-0014",
+      "DIS-0015"
+    ],
+    "proposedGoldChapterNumber": 11
+  }
+}

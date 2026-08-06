@@ -1,0 +1,118 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-SPN-MET-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Spinal Metastases / Metastatic Spinal Cord Compression",
+  "synonyms": [
+    "Spinal metastasis",
+    "MSCC",
+    "Metastatic spinal cord compression"
+  ],
+  "category": "Spine > Oncology/Emergency",
+  "tags": [
+    "oncology",
+    "metastasis",
+    "MSCC",
+    "cord compression",
+    "emergency"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-06"
+  },
+  "definition": "Malignant involvement of the spine, with metastatic spinal cord compression representing an oncological emergency because delay can cause permanent neurological injury.",
+  "clinicalPattern": {
+    "typical": [
+      "Severe unremitting or progressive spinal pain",
+      "Night pain or pain aggravated by straining can occur",
+      "Radicular pain",
+      "Gait disturbance, weakness or sensory symptoms when neural compression develops"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Cancer history plus bladder/bowel dysfunction"
+    },
+    {
+      "level": "RED",
+      "item": "Cancer history plus gait disturbance/difficulty walking"
+    },
+    {
+      "level": "RED",
+      "item": "Cancer history plus limb weakness, sensory loss or neurological signs of cord/cauda equina compression"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Urgent neurological examination",
+      "Gait if safe",
+      "Motor/sensory/reflex assessment",
+      "Spinal tenderness and stability precautions"
+    ]
+  },
+  "differentials": [
+    "Degenerative stenosis",
+    "Vertebral compression fracture",
+    "Spinal infection",
+    "Primary spinal tumor",
+    "Cauda equina syndrome from disc disease"
+  ],
+  "investigations": {
+    "principle": "NICE NG234 uses urgent cancer/MSCC pathways for suspected cord compression and defines this as an oncological emergency.",
+    "MRI": "Urgent MRI pathway is central when MSCC is suspected; exact timing and whole-spine protocol should follow the local oncology/MSCC pathway.",
+    "stability": "Assess spinal stability and immobilization needs according to specialist pathway."
+  },
+  "management": {
+    "green": [
+      "Recognize cancer-associated warning patterns early",
+      "Coordinate urgently with oncology/MSCC/spine services"
+    ],
+    "amber": [
+      "Do not manage suspected MSCC as routine mechanical back pain; neurological signs in a patient with current/past cancer require immediate escalation."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "No Ayurvedic correlation should delay or substitute for the oncological emergency pathway."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Malignant involvement of the spine, with metastatic spinal cord compression representing an oncological emergency because delay can cause permanent neurological injury.",
+    "urgent": "Seek urgent assessment for new/progressive major weakness, gait deterioration, bladder/bowel dysfunction, saddle sensory loss, fever/systemic illness with severe spinal pain, or cancer-associated neurological symptoms."
+  },
+  "sources": [
+    {
+      "organization": "NICE",
+      "title": "NG234 Spinal metastases and metastatic spinal cord compression",
+      "url": "https://www.nice.org.uk/guidance/ng234",
+      "checked": "2026-08-06",
+      "note": "Published 2023; last reviewed 19 March 2026."
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V1.5-BATCH-8",
+    "doNotOverwriteLegacyIds": [
+      "DIS-0006",
+      "DIS-0007",
+      "DIS-0008",
+      "DIS-0009",
+      "DIS-0010",
+      "DIS-0011",
+      "DIS-0012",
+      "DIS-0013",
+      "DIS-0014",
+      "DIS-0015"
+    ],
+    "proposedGoldChapterNumber": 12
+  }
+}

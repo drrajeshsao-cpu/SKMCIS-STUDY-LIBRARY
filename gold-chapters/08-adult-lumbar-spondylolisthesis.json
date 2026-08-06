@@ -1,0 +1,117 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-SPN-SPL-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Adult Lumbar Spondylolisthesis",
+  "synonyms": [
+    "Degenerative spondylolisthesis",
+    "Isthmic spondylolisthesis"
+  ],
+  "category": "Spine > Lumbar > Structural/Degenerative",
+  "tags": [
+    "lumbar",
+    "spondylolisthesis",
+    "slip",
+    "stenosis"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-06"
+  },
+  "definition": "Anterior translation of one vertebra relative to the one below; adult forms commonly include degenerative and isthmic spondylolisthesis.",
+  "clinicalPattern": {
+    "typical": [
+      "Low-back pain",
+      "Leg pain or numbness may occur",
+      "Standing/walking intolerance may reflect associated stenosis",
+      "Flexion or sitting may relieve stenotic leg symptoms"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Progressive weakness, frequent falls or cauda equina features"
+    },
+    {
+      "level": "RED",
+      "item": "Severe/progressive slip with neurological compromise"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Standing alignment",
+      "Gait",
+      "Motor/reflex/sensory exam",
+      "Functional walking tolerance"
+    ]
+  },
+  "differentials": [
+    "Lumbar spinal stenosis",
+    "Lumbar disc herniation",
+    "Spondylolysis",
+    "Hip disease",
+    "Vascular claudication"
+  ],
+  "investigations": {
+    "principle": "Assess slip, instability and neural compression according to symptoms.",
+    "radiographs": "Standing radiographs can demonstrate slip; dynamic views may be used selectively for instability.",
+    "MRI": "Useful for associated neural compression/stenosis and concordant radicular symptoms."
+  },
+  "management": {
+    "green": [
+      "Education and individualized exercise/rehabilitation",
+      "Track walking tolerance and neurological status"
+    ],
+    "amber": [
+      "Persistent disabling symptoms, neurological deterioration or clinically important instability may require spine-surgical assessment."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Possible Gridhrasi/Katishoola symptom correlations remain descriptive only and do not replace the structural diagnosis."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Anterior translation of one vertebra relative to the one below; adult forms commonly include degenerative and isthmic spondylolisthesis.",
+    "urgent": "Seek urgent assessment for new/progressive major weakness, gait deterioration, bladder/bowel dysfunction, saddle sensory loss, fever/systemic illness with severe spinal pain, or cancer-associated neurological symptoms."
+  },
+  "sources": [
+    {
+      "organization": "AAOS OrthoInfo",
+      "title": "Adult Spondylolisthesis of the Low Back",
+      "url": "https://orthoinfo.aaos.org/en/diseases--conditions/adult-spondylolisthesis-in-the-low-back/",
+      "checked": "2026-08-06"
+    },
+    {
+      "organization": "AAOS OrthoInfo",
+      "title": "Spondylolysis and Spondylolisthesis",
+      "url": "https://orthoinfo.aaos.org/en/diseases--conditions/spondylolysis-and-spondylolisthesis",
+      "checked": "2026-08-06"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V1.5-BATCH-8",
+    "doNotOverwriteLegacyIds": [
+      "DIS-0006",
+      "DIS-0007",
+      "DIS-0008",
+      "DIS-0009",
+      "DIS-0010",
+      "DIS-0011",
+      "DIS-0012",
+      "DIS-0013",
+      "DIS-0014",
+      "DIS-0015"
+    ],
+    "proposedGoldChapterNumber": 8
+  }
+}

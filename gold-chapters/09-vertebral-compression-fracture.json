@@ -1,0 +1,126 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-SPN-VCF-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Vertebral Compression Fracture",
+  "synonyms": [
+    "Osteoporotic vertebral compression fracture",
+    "Vertebral wedge fracture"
+  ],
+  "category": "Spine > Thoracolumbar > Fracture",
+  "tags": [
+    "fracture",
+    "vertebral compression fracture",
+    "osteoporosis",
+    "wedge"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-06"
+  },
+  "definition": "Compression failure of a vertebral body, frequently related to osteoporosis in older adults but also possible with trauma, malignancy or other bone disease.",
+  "clinicalPattern": {
+    "typical": [
+      "Acute focal back pain",
+      "Pain often worsens with movement or position change",
+      "Height loss or kyphotic deformity may develop",
+      "Some fractures are discovered incidentally"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Neurological deficit"
+    },
+    {
+      "level": "RED",
+      "item": "High-energy trauma"
+    },
+    {
+      "level": "RED",
+      "item": "Known/suspected malignancy"
+    },
+    {
+      "level": "RED",
+      "item": "Systemic infection features"
+    },
+    {
+      "level": "RED",
+      "item": "Multiple or recurrent fragility fractures require bone-health assessment"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Focal spinal tenderness",
+      "Neurological exam",
+      "Posture/height and kyphosis",
+      "Falls and osteoporosis risk assessment"
+    ]
+  },
+  "differentials": [
+    "Muscular/mechanical pain",
+    "Malignant pathologic fracture",
+    "Spinal infection",
+    "Disc disease",
+    "Renal/visceral referred pain"
+  ],
+  "investigations": {
+    "principle": "Determine fracture acuity, stability, neurological involvement and possible pathological cause.",
+    "radiographs": "Common first-line demonstration of vertebral height loss/deformity.",
+    "MRI": "Useful for marrow edema/acuity, neurological compromise, malignancy or uncertain diagnosis.",
+    "boneHealth": "Assess osteoporosis and future-fracture risk, including DXA when clinically appropriate."
+  },
+  "management": {
+    "green": [
+      "Analgesia strategy individualized to risk",
+      "Early safe mobilization as appropriate",
+      "Osteoporosis evaluation and secondary-fracture prevention",
+      "Falls-risk management"
+    ],
+    "amber": [
+      "Persistent severe pain, instability, neurological compromise or suspected pathological fracture needs specialist evaluation; vertebral augmentation is not an automatic default."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Bhagna-related classical concepts may be relevant to fracture care broadly, but osteoporotic vertebral compression fracture requires modern structural and bone-health classification."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Compression failure of a vertebral body, frequently related to osteoporosis in older adults but also possible with trauma, malignancy or other bone disease.",
+    "urgent": "Seek urgent assessment for new/progressive major weakness, gait deterioration, bladder/bowel dysfunction, saddle sensory loss, fever/systemic illness with severe spinal pain, or cancer-associated neurological symptoms."
+  },
+  "sources": [
+    {
+      "organization": "AAOS OrthoInfo",
+      "title": "Osteoporosis and Spinal Fractures",
+      "url": "https://orthoinfo.aaos.org/en/diseases--conditions/osteoporosis-and-spinal-fractures",
+      "checked": "2026-08-06"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V1.5-BATCH-8",
+    "doNotOverwriteLegacyIds": [
+      "DIS-0006",
+      "DIS-0007",
+      "DIS-0008",
+      "DIS-0009",
+      "DIS-0010",
+      "DIS-0011",
+      "DIS-0012",
+      "DIS-0013",
+      "DIS-0014",
+      "DIS-0015"
+    ],
+    "proposedGoldChapterNumber": 9
+  }
+}

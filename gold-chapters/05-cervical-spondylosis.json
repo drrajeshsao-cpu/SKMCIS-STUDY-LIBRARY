@@ -1,0 +1,118 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-SPN-CSP-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Cervical Spondylosis",
+  "synonyms": [
+    "Cervical osteoarthritis",
+    "Degenerative cervical spondylosis"
+  ],
+  "category": "Spine > Cervical > Degenerative",
+  "tags": [
+    "cervical",
+    "degenerative",
+    "neck pain",
+    "spondylosis"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-06"
+  },
+  "definition": "Age-related degenerative change of cervical discs, facet/uncovertebral joints and adjacent bone; imaging abnormalities are common and require clinical correlation.",
+  "clinicalPattern": {
+    "typical": [
+      "Neck pain or stiffness",
+      "Reduced range of motion",
+      "Occipital headache may occur",
+      "Radiculopathy or myelopathy may coexist if neural structures are compressed"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Progressive limb weakness, gait imbalance or falls suggests cord/root compromise"
+    },
+    {
+      "level": "RED",
+      "item": "Major trauma, infection or malignancy features require alternate urgent pathway"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Cervical ROM",
+      "Upper-limb motor, reflex and sensory exam",
+      "Gait/balance when neurological symptoms are present",
+      "Screen for myelopathic signs"
+    ]
+  },
+  "differentials": [
+    "Cervical radiculopathy",
+    "Degenerative cervical myelopathy",
+    "Shoulder pathology",
+    "Inflammatory arthritis",
+    "Infection or malignancy"
+  ],
+  "investigations": {
+    "principle": "Imaging is guided by clinical context and red flags; degenerative findings alone do not prove the pain generator.",
+    "MRI": "Use when neurological compromise or other clinically important soft-tissue/neural pathology is suspected.",
+    "radiographs": "May demonstrate alignment, disc-height loss and osteophytes."
+  },
+  "management": {
+    "green": [
+      "Education and activity modification",
+      "Individualized exercise/physical therapy",
+      "Posture and ergonomic review"
+    ],
+    "amber": [
+      "Medication/procedural choices require individualized risk review; progressive neurological features merit specialist assessment."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Possible Greeva-shoola/Vata-related symptom overlap may be discussed only as a correlation, not a one-to-one classical equivalent."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Age-related degenerative change of cervical discs, facet/uncovertebral joints and adjacent bone; imaging abnormalities are common and require clinical correlation.",
+    "urgent": "Seek urgent assessment for new/progressive major weakness, gait deterioration, bladder/bowel dysfunction, saddle sensory loss, fever/systemic illness with severe spinal pain, or cancer-associated neurological symptoms."
+  },
+  "sources": [
+    {
+      "organization": "AAOS OrthoInfo",
+      "title": "Cervical Spondylosis (Arthritis of the Neck)",
+      "url": "https://orthoinfo.aaos.org/en/diseases--conditions/cervical-spondylosis-arthritis-of-the-neck/",
+      "checked": "2026-08-06"
+    },
+    {
+      "organization": "American College of Radiology (ACR)",
+      "title": "ACR Appropriateness Criteria® Cervical Pain or Cervical Radiculopathy — Revised 2024",
+      "url": "https://acsearch.acr.org/docs/69426/Narrative/",
+      "checked": "2026-08-06"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V1.5-BATCH-8",
+    "doNotOverwriteLegacyIds": [
+      "DIS-0006",
+      "DIS-0007",
+      "DIS-0008",
+      "DIS-0009",
+      "DIS-0010",
+      "DIS-0011",
+      "DIS-0012",
+      "DIS-0013",
+      "DIS-0014",
+      "DIS-0015"
+    ],
+    "proposedGoldChapterNumber": 5
+  }
+}

@@ -1,0 +1,107 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-SPN-SCO-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Scoliosis",
+  "synonyms": [
+    "Spinal scoliosis",
+    "Coronal spinal curvature"
+  ],
+  "category": "Spine > Deformity",
+  "tags": [
+    "deformity",
+    "scoliosis",
+    "Cobb angle",
+    "curve"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-06"
+  },
+  "definition": "A three-dimensional spinal deformity characterized clinically by lateral curvature with vertebral rotation; causes and management differ substantially by age and etiology.",
+  "clinicalPattern": {
+    "typical": [
+      "Visible trunk asymmetry",
+      "Shoulder or waist asymmetry",
+      "Rib prominence",
+      "Pain/function issues vary by age and etiology"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "New neurological deficit, severe pain, constitutional symptoms or atypical curve features require evaluation for secondary causes"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Standing posture",
+      "Shoulder/pelvic balance",
+      "Forward-bend assessment",
+      "Neurological examination when indicated"
+    ]
+  },
+  "differentials": [
+    "Postural asymmetry",
+    "Leg-length discrepancy",
+    "Kyphosis",
+    "Neuromuscular or congenital deformity",
+    "Spinal tumor/infection in atypical presentations"
+  ],
+  "investigations": {
+    "principle": "Standing radiographs are used to characterize structural curves and measure magnitude when clinically indicated.",
+    "radiographs": "Cobb-angle measurement and skeletal alignment guide classification/follow-up.",
+    "MRI": "Not routine for every uncomplicated case; used when neurological or atypical features suggest intraspinal pathology."
+  },
+  "management": {
+    "green": [
+      "Observation or scoliosis-specific rehabilitation according to age/curve/context",
+      "Maintain activity and function"
+    ],
+    "amber": [
+      "Bracing/surgery thresholds depend on growth status, curve magnitude, progression, symptoms and etiology; specialist assessment is required for treatment decisions."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "No single classical Ayurvedic disease is assigned as equivalent to scoliosis; deformity-related correlations remain unvalidated."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "A three-dimensional spinal deformity characterized clinically by lateral curvature with vertebral rotation; causes and management differ substantially by age and etiology.",
+    "urgent": "Seek urgent assessment for new/progressive major weakness, gait deterioration, bladder/bowel dysfunction, saddle sensory loss, fever/systemic illness with severe spinal pain, or cancer-associated neurological symptoms."
+  },
+  "sources": [
+    {
+      "organization": "AAOS OrthoInfo",
+      "title": "Scoliosis: Frequently Asked Questions",
+      "url": "https://orthoinfo.aaos.org/en/diseases--conditions/scoliosis-frequently-asked-questions",
+      "checked": "2026-08-06"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V1.5-BATCH-8",
+    "doNotOverwriteLegacyIds": [
+      "DIS-0006",
+      "DIS-0007",
+      "DIS-0008",
+      "DIS-0009",
+      "DIS-0010",
+      "DIS-0011",
+      "DIS-0012",
+      "DIS-0013",
+      "DIS-0014",
+      "DIS-0015"
+    ],
+    "proposedGoldChapterNumber": 10
+  }
+}

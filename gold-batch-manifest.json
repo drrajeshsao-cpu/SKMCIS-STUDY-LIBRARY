@@ -1,0 +1,116 @@
+{
+  "batchId": "SKMCIS-V1.5-BATCH-8",
+  "batchVersion": "1.0.0",
+  "prepared": "2026-08-06",
+  "expectedExistingGoldChapters": 4,
+  "newGoldChapters": 8,
+  "expectedGoldChapterCountAfterIntegration": 12,
+  "records": [
+    {
+      "chapterNumber": 5,
+      "canonicalId": "SKM-SPN-CSP-001",
+      "name": "Cervical Spondylosis",
+      "category": "Spine > Cervical > Degenerative",
+      "file": "gold-chapters/05-cervical-spondylosis.json",
+      "validationStatus": "AMBER_CLINICIAN_REVIEW",
+      "provenance": "NEW_SOURCE_CHECKED_DRAFT",
+      "ayurvedaStatus": "GRAY_UNVALIDATED_CORRELATION"
+    },
+    {
+      "chapterNumber": 6,
+      "canonicalId": "SKM-SPN-DCM-001",
+      "name": "Degenerative Cervical Myelopathy",
+      "category": "Spine > Cervical > Myelopathy",
+      "file": "gold-chapters/06-degenerative-cervical-myelopathy.json",
+      "validationStatus": "AMBER_CLINICIAN_REVIEW",
+      "provenance": "NEW_SOURCE_CHECKED_DRAFT",
+      "ayurvedaStatus": "GRAY_UNVALIDATED_CORRELATION"
+    },
+    {
+      "chapterNumber": 7,
+      "canonicalId": "SKM-SPN-SLY-001",
+      "name": "Lumbar Spondylolysis",
+      "category": "Spine > Lumbar > Structural",
+      "file": "gold-chapters/07-lumbar-spondylolysis.json",
+      "validationStatus": "AMBER_CLINICIAN_REVIEW",
+      "provenance": "NEW_SOURCE_CHECKED_DRAFT",
+      "ayurvedaStatus": "GRAY_UNVALIDATED_CORRELATION"
+    },
+    {
+      "chapterNumber": 8,
+      "canonicalId": "SKM-SPN-SPL-001",
+      "name": "Adult Lumbar Spondylolisthesis",
+      "category": "Spine > Lumbar > Structural/Degenerative",
+      "file": "gold-chapters/08-adult-lumbar-spondylolisthesis.json",
+      "validationStatus": "AMBER_CLINICIAN_REVIEW",
+      "provenance": "NEW_SOURCE_CHECKED_DRAFT",
+      "ayurvedaStatus": "GRAY_UNVALIDATED_CORRELATION"
+    },
+    {
+      "chapterNumber": 9,
+      "canonicalId": "SKM-SPN-VCF-001",
+      "name": "Vertebral Compression Fracture",
+      "category": "Spine > Thoracolumbar > Fracture",
+      "file": "gold-chapters/09-vertebral-compression-fracture.json",
+      "validationStatus": "AMBER_CLINICIAN_REVIEW",
+      "provenance": "NEW_SOURCE_CHECKED_DRAFT",
+      "ayurvedaStatus": "GRAY_UNVALIDATED_CORRELATION"
+    },
+    {
+      "chapterNumber": 10,
+      "canonicalId": "SKM-SPN-SCO-001",
+      "name": "Scoliosis",
+      "category": "Spine > Deformity",
+      "file": "gold-chapters/10-scoliosis.json",
+      "validationStatus": "AMBER_CLINICIAN_REVIEW",
+      "provenance": "NEW_SOURCE_CHECKED_DRAFT",
+      "ayurvedaStatus": "GRAY_UNVALIDATED_CORRELATION"
+    },
+    {
+      "chapterNumber": 11,
+      "canonicalId": "SKM-SPN-NVO-001",
+      "name": "Native Vertebral Osteomyelitis / Discitis",
+      "category": "Spine > Infection",
+      "file": "gold-chapters/11-native-vertebral-osteomyelitis-discitis.json",
+      "validationStatus": "AMBER_CLINICIAN_REVIEW",
+      "provenance": "NEW_SOURCE_CHECKED_DRAFT",
+      "ayurvedaStatus": "GRAY_UNVALIDATED_CORRELATION"
+    },
+    {
+      "chapterNumber": 12,
+      "canonicalId": "SKM-SPN-MET-001",
+      "name": "Spinal Metastases / Metastatic Spinal Cord Compression",
+      "category": "Spine > Oncology/Emergency",
+      "file": "gold-chapters/12-spinal-metastases-metastatic-spinal-cord-compression.json",
+      "validationStatus": "AMBER_CLINICIAN_REVIEW",
+      "provenance": "NEW_SOURCE_CHECKED_DRAFT",
+      "ayurvedaStatus": "GRAY_UNVALIDATED_CORRELATION"
+    }
+  ],
+  "colorSemantics": {
+    "GREEN": "Safe/ready",
+    "AMBER": "Caution/review",
+    "RED": "Urgent/red flag",
+    "BLUE": "Diagnostic information",
+    "GRAY": "Unvalidated/unresolved"
+  },
+  "legacyProtection": {
+    "unresolvedIds": [
+      "DIS-0006",
+      "DIS-0007",
+      "DIS-0008",
+      "DIS-0009",
+      "DIS-0010",
+      "DIS-0011",
+      "DIS-0012",
+      "DIS-0013",
+      "DIS-0014",
+      "DIS-0015"
+    ],
+    "action": "DO_NOT_MAP_DO_NOT_RENUMBER"
+  },
+  "compatibility": {
+    "schema": "SKMCIS-disease-schema-v1.1",
+    "strategy": "manifest + individual JSON files"
+  }
+}

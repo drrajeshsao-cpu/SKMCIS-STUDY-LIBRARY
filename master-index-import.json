@@ -1,0 +1,166 @@
+[
+  {
+    "canonicalId": "SKM-SPN-CSP-001",
+    "name": "Cervical Spondylosis",
+    "category": "Spine > Cervical > Degenerative",
+    "synonyms": [
+      "Cervical osteoarthritis",
+      "Degenerative cervical spondylosis"
+    ],
+    "tags": [
+      "cervical",
+      "degenerative",
+      "neck pain",
+      "spondylosis"
+    ],
+    "goldChapter": true,
+    "goldChapterFile": "gold-chapters/05-cervical-spondylosis.json",
+    "validationStatus": "AMBER_CLINICIAN_REVIEW",
+    "provenance": "NEW_SOURCE_CHECKED_DRAFT",
+    "legacyId": null
+  },
+  {
+    "canonicalId": "SKM-SPN-DCM-001",
+    "name": "Degenerative Cervical Myelopathy",
+    "category": "Spine > Cervical > Myelopathy",
+    "synonyms": [
+      "Cervical spondylotic myelopathy",
+      "Degenerative cervical cord compression"
+    ],
+    "tags": [
+      "cervical",
+      "myelopathy",
+      "cord compression",
+      "gait",
+      "hand clumsiness"
+    ],
+    "goldChapter": true,
+    "goldChapterFile": "gold-chapters/06-degenerative-cervical-myelopathy.json",
+    "validationStatus": "AMBER_CLINICIAN_REVIEW",
+    "provenance": "NEW_SOURCE_CHECKED_DRAFT",
+    "legacyId": null
+  },
+  {
+    "canonicalId": "SKM-SPN-SLY-001",
+    "name": "Lumbar Spondylolysis",
+    "category": "Spine > Lumbar > Structural",
+    "synonyms": [
+      "Pars interarticularis stress fracture",
+      "Pars defect"
+    ],
+    "tags": [
+      "lumbar",
+      "spondylolysis",
+      "pars defect",
+      "stress fracture"
+    ],
+    "goldChapter": true,
+    "goldChapterFile": "gold-chapters/07-lumbar-spondylolysis.json",
+    "validationStatus": "AMBER_CLINICIAN_REVIEW",
+    "provenance": "NEW_SOURCE_CHECKED_DRAFT",
+    "legacyId": null
+  },
+  {
+    "canonicalId": "SKM-SPN-SPL-001",
+    "name": "Adult Lumbar Spondylolisthesis",
+    "category": "Spine > Lumbar > Structural/Degenerative",
+    "synonyms": [
+      "Degenerative spondylolisthesis",
+      "Isthmic spondylolisthesis"
+    ],
+    "tags": [
+      "lumbar",
+      "spondylolisthesis",
+      "slip",
+      "stenosis"
+    ],
+    "goldChapter": true,
+    "goldChapterFile": "gold-chapters/08-adult-lumbar-spondylolisthesis.json",
+    "validationStatus": "AMBER_CLINICIAN_REVIEW",
+    "provenance": "NEW_SOURCE_CHECKED_DRAFT",
+    "legacyId": null
+  },
+  {
+    "canonicalId": "SKM-SPN-VCF-001",
+    "name": "Vertebral Compression Fracture",
+    "category": "Spine > Thoracolumbar > Fracture",
+    "synonyms": [
+      "Osteoporotic vertebral compression fracture",
+      "Vertebral wedge fracture"
+    ],
+    "tags": [
+      "fracture",
+      "vertebral compression fracture",
+      "osteoporosis",
+      "wedge"
+    ],
+    "goldChapter": true,
+    "goldChapterFile": "gold-chapters/09-vertebral-compression-fracture.json",
+    "validationStatus": "AMBER_CLINICIAN_REVIEW",
+    "provenance": "NEW_SOURCE_CHECKED_DRAFT",
+    "legacyId": null
+  },
+  {
+    "canonicalId": "SKM-SPN-SCO-001",
+    "name": "Scoliosis",
+    "category": "Spine > Deformity",
+    "synonyms": [
+      "Spinal scoliosis",
+      "Coronal spinal curvature"
+    ],
+    "tags": [
+      "deformity",
+      "scoliosis",
+      "Cobb angle",
+      "curve"
+    ],
+    "goldChapter": true,
+    "goldChapterFile": "gold-chapters/10-scoliosis.json",
+    "validationStatus": "AMBER_CLINICIAN_REVIEW",
+    "provenance": "NEW_SOURCE_CHECKED_DRAFT",
+    "legacyId": null
+  },
+  {
+    "canonicalId": "SKM-SPN-NVO-001",
+    "name": "Native Vertebral Osteomyelitis / Discitis",
+    "category": "Spine > Infection",
+    "synonyms": [
+      "Spondylodiscitis",
+      "Vertebral osteomyelitis",
+      "Spinal discitis"
+    ],
+    "tags": [
+      "infection",
+      "discitis",
+      "vertebral osteomyelitis",
+      "spondylodiscitis"
+    ],
+    "goldChapter": true,
+    "goldChapterFile": "gold-chapters/11-native-vertebral-osteomyelitis-discitis.json",
+    "validationStatus": "AMBER_CLINICIAN_REVIEW",
+    "provenance": "NEW_SOURCE_CHECKED_DRAFT",
+    "legacyId": null
+  },
+  {
+    "canonicalId": "SKM-SPN-MET-001",
+    "name": "Spinal Metastases / Metastatic Spinal Cord Compression",
+    "category": "Spine > Oncology/Emergency",
+    "synonyms": [
+      "Spinal metastasis",
+      "MSCC",
+      "Metastatic spinal cord compression"
+    ],
+    "tags": [
+      "oncology",
+      "metastasis",
+      "MSCC",
+      "cord compression",
+      "emergency"
+    ],
+    "goldChapter": true,
+    "goldChapterFile": "gold-chapters/12-spinal-metastases-metastatic-spinal-cord-compression.json",
+    "validationStatus": "AMBER_CLINICIAN_REVIEW",
+    "provenance": "NEW_SOURCE_CHECKED_DRAFT",
+    "legacyId": null
+  }
+]

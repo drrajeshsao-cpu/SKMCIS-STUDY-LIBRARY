@@ -1,0 +1,9 @@
+{
+  "jsonParse": "PASS",
+  "chapterCount": 8,
+  "uniqueCanonicalIds": "PASS",
+  "legacyDIS0006to0015Touched": false,
+  "allModernDraftsAmber": true,
+  "allAyurvedaGray": true,
+  "errors": []
+}

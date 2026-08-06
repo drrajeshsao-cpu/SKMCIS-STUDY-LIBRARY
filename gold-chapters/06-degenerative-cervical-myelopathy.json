@@ -1,0 +1,122 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-SPN-DCM-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Degenerative Cervical Myelopathy",
+  "synonyms": [
+    "Cervical spondylotic myelopathy",
+    "Degenerative cervical cord compression"
+  ],
+  "category": "Spine > Cervical > Myelopathy",
+  "tags": [
+    "cervical",
+    "myelopathy",
+    "cord compression",
+    "gait",
+    "hand clumsiness"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-06"
+  },
+  "definition": "Clinical spinal cord dysfunction caused by degenerative cervical cord compression; diagnosis requires symptoms/signs correlated with imaging.",
+  "clinicalPattern": {
+    "typical": [
+      "Hand clumsiness or loss of dexterity",
+      "Gait imbalance or falls",
+      "Limb weakness/numbness",
+      "Upper motor-neuron signs may be present"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Rapid neurological deterioration"
+    },
+    {
+      "level": "RED",
+      "item": "New bladder/bowel dysfunction"
+    },
+    {
+      "level": "RED",
+      "item": "Severe gait decline or major weakness"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Gait and tandem gait",
+      "Hand dexterity",
+      "Motor and sensory examination",
+      "Reflexes, Hoffmann/Babinski/clonus where appropriate"
+    ]
+  },
+  "differentials": [
+    "Cervical radiculopathy without myelopathy",
+    "Peripheral neuropathy",
+    "Motor neuron disease",
+    "Multiple sclerosis or other cord disease",
+    "B12-related myelopathy"
+  ],
+  "investigations": {
+    "principle": "Neurological examination and cervical MRI are central when myelopathy is suspected.",
+    "MRI": "Assess cord compression, levels, canal narrowing and intramedullary signal change; correlate with clinical severity.",
+    "radiographs": "May supplement alignment/degenerative assessment."
+  },
+  "management": {
+    "green": [
+      "Avoid unnecessary delay in specialist evaluation when clinical myelopathy is present",
+      "Falls-risk and functional assessment"
+    ],
+    "amber": [
+      "This is not a routine neck-pain pathway; progressive myelopathy generally requires prompt spine-specialist assessment."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "No direct Ayurvedic equivalence is assigned. Any Vata-related neurological correlation remains scholarly and unvalidated."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Clinical spinal cord dysfunction caused by degenerative cervical cord compression; diagnosis requires symptoms/signs correlated with imaging.",
+    "urgent": "Seek urgent assessment for new/progressive major weakness, gait deterioration, bladder/bowel dysfunction, saddle sensory loss, fever/systemic illness with severe spinal pain, or cancer-associated neurological symptoms."
+  },
+  "sources": [
+    {
+      "organization": "AAOS OrthoInfo",
+      "title": "Cervical Spondylosis (Arthritis of the Neck)",
+      "url": "https://orthoinfo.aaos.org/en/diseases--conditions/cervical-spondylosis-arthritis-of-the-neck/",
+      "checked": "2026-08-06"
+    },
+    {
+      "organization": "American College of Radiology (ACR)",
+      "title": "ACR Appropriateness Criteria® Cervical Pain or Cervical Radiculopathy — Revised 2024",
+      "url": "https://acsearch.acr.org/docs/69426/Narrative/",
+      "checked": "2026-08-06"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V1.5-BATCH-8",
+    "doNotOverwriteLegacyIds": [
+      "DIS-0006",
+      "DIS-0007",
+      "DIS-0008",
+      "DIS-0009",
+      "DIS-0010",
+      "DIS-0011",
+      "DIS-0012",
+      "DIS-0013",
+      "DIS-0014",
+      "DIS-0015"
+    ],
+    "proposedGoldChapterNumber": 6
+  }
+}
