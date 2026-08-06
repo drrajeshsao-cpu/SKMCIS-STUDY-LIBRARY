@@ -1626,5 +1626,18 @@
     "validationStatus": "Source checked; clinician validation pending",
     "provenance": "WFNS 2024 + NICE NG59 + ACR + NASS",
     "goldChapterId": "SKM-LSP-0003"
+  },
+  {
+    "recordId": "SKM-LSP-0004",
+    "name": "Lumbar Spinal Stenosis with Neurogenic Claudication",
+    "category": "Spine & Neurology",
+    "sourceLayer": "Gold Chapter",
+    "sourceId": "New source-checked synthesis",
+    "modernName": "Lumbar spinal stenosis with neurogenic claudication",
+    "ayurveda": "Kati-Graha / Gridhrasi phenotype correlation (non-equivalence preserved)",
+    "contentStatus": "Full structured chapter v1.0-draft",
+    "validationStatus": "Source checked; clinician validation pending",
+    "provenance": "Bussières CPG 2021 + NICE HTG238 + ACR + NASS",
+    "goldChapterId": "SKM-LSP-0004"
   }
 ]

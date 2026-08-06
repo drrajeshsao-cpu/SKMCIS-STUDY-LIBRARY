@@ -48,3 +48,10 @@ V1.3 GOLD CHAPTER UPDATE:
 - Added WFNS 2024 recommendations alongside NICE NG59, ACR and NASS.
 - Preserved Ayurveda Gridhrasi as phenotype correlation, not structural equivalence.
 - Master index now has 135 records and 4 Gold chapters.
+
+V1.4 GOLD CHAPTER UPDATE:
+- Added Lumbar Spinal Stenosis with Neurogenic Claudication as Gold Chapter #5.
+- Added central/lateral recess/foraminal classification, shopping-cart/flexion pattern and vascular-claudication differential.
+- Added walking-function outcomes, MRI-clinical correlation and surgical referral principles.
+- Added 2021 nonsurgical neurogenic-claudication CPG, NICE HTG238, ACR and NASS references.
+- Master index now has 136 records and 5 Gold chapters.

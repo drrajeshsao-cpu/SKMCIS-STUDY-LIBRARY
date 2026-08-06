@@ -1,0 +1,181 @@
+{
+  "id": "SKM-LSP-0004",
+  "slug": "lumbar-spinal-stenosis-neurogenic-claudication",
+  "name": "Lumbar Spinal Stenosis with Neurogenic Claudication",
+  "ayurveda": "Phenotype-based Kati-Graha / Gridhrasi correlation may be documented; lumbar stenosis remains a modern structural diagnosis",
+  "category": "Spine & Neurology",
+  "status": "Gold chapter draft - source checked, clinician validation pending",
+  "version": "1.0-draft",
+  "updated": "2026-08-06",
+  "synonyms": [
+    "Lumbar canal stenosis",
+    "Degenerative lumbar spinal stenosis",
+    "Lumbar spinal stenosis with neurogenic claudication",
+    "Neurogenic intermittent claudication"
+  ],
+  "definition": "Degenerative narrowing of the lumbar central canal, lateral recess and/or neural foramina that becomes clinically meaningful when it produces concordant symptoms such as neurogenic claudication or radiculopathy. Neurogenic claudication classically causes buttock/leg pain, heaviness, numbness or weakness provoked by standing or walking and relieved by sitting or lumbar flexion. Imaging stenosis alone is not sufficient for diagnosis because anatomic narrowing may exist without symptoms.",
+  "classification": [
+    "Anatomic zone: central canal stenosis, lateral recess/subarticular stenosis, neural foraminal stenosis, or combined multizonal disease.",
+    "Etiology: most commonly degenerative disc-height loss, facet arthropathy/osteophytes, ligamentum flavum hypertrophy or buckling and degenerative spondylolisthesis; congenital/developmental narrowing can lower reserve.",
+    "Clinical phenotype: neurogenic claudication, focal radiculopathy, mixed claudication-radiculopathy, or incidentally imaged stenosis without a concordant clinical syndrome.",
+    "Severity should be described anatomically and clinically; MRI grading must not be treated as a stand-alone measure of disability."
+  ],
+  "pathophysiology": [
+    "Lumbar extension reduces available canal/foraminal dimensions, while flexion generally increases them; this helps explain posture-dependent symptoms.",
+    "Degenerative disc collapse and bulging, facet hypertrophy, osteophytes and thickened/buckled ligamentum flavum can combine to narrow the central canal and lateral recesses.",
+    "Walking and prolonged standing increase neural demand and may worsen dynamic compression/venous congestion, producing leg symptoms that improve with sitting or flexion.",
+    "Foraminal stenosis can cause more root-specific radicular symptoms, whereas central multilevel stenosis more commonly produces bilateral or diffuse claudication."
+  ],
+  "presentation": [
+    "Buttock, thigh or leg pain, heaviness, tingling, numbness or weakness brought on by standing or walking.",
+    "Symptoms often improve with sitting, leaning forward or flexing the spine; the 'shopping-cart' posture is a classic clue but is not diagnostic by itself.",
+    "Walking tolerance may be limited by distance or time; cycling or uphill walking can be easier than downhill/extended-posture walking.",
+    "Back pain may coexist but leg symptoms and walking limitation often dominate the clinical problem.",
+    "Neurological examination can be normal at rest; some patients have sensory loss, focal weakness or reduced reflexes when radiculopathy coexists.",
+    "Symptoms are commonly bilateral or asymmetric and may vary from day to day."
+  ],
+  "redFlags": [
+    "New urinary retention/overflow incontinence, bowel dysfunction, saddle sensory loss or rapidly progressive bilateral neurological deficit - evaluate urgently for cauda equina syndrome.",
+    "Rapidly progressive or severe motor weakness, including new foot drop.",
+    "Fever, systemic illness, immunosuppression, IV drug use or concern for spinal infection.",
+    "Known malignancy, unexplained weight loss, severe unremitting/night pain or other cancer features.",
+    "Recent major trauma, osteoporosis or concern for unstable/compression fracture.",
+    "Severe vascular symptoms, rest pain, skin color change, nonhealing wounds or markedly abnormal pulses suggesting peripheral arterial disease rather than neurogenic claudication.",
+    "Upper-motor-neuron signs, marked gait spasticity or other findings suggesting cervical/thoracic myelopathy instead of isolated lumbar stenosis."
+  ],
+  "history": [
+    "Walking/standing trigger: exact distance or time until symptoms begin and whether symptoms improve with sitting or forward flexion.",
+    "Pain/sensory map: buttock, thigh, calf and foot; unilateral versus bilateral; radicular versus diffuse heaviness.",
+    "Compare walking, cycling, uphill/downhill walking and shopping-cart posture response.",
+    "Screen for vascular claudication: reproducible exertional calf pain, vascular risk factors, cold limb, poor wound healing and whether simple standing versus walking is the key trigger.",
+    "Neurological symptoms: numbness, weakness, foot slap, falls and balance changes.",
+    "Cauda equina screen when indicated: bladder, bowel, saddle sensation and bilateral neurological progression.",
+    "Past lumbar surgery, spondylolisthesis, fracture, cancer, infection risk, anticoagulation, osteoporosis and medication history.",
+    "Functional goals: walking to clinic/market, standing for work, sleep, stairs and ADL.",
+    "Recovery modifiers: deconditioning, fear of walking, obesity, smoking, mood/sleep problems and work/social barriers."
+  ],
+  "exam": [
+    "Observe gait, walking speed, posture and whether lumbar flexion changes symptoms.",
+    "Neurological examination: myotomes, dermatomes, patellar/Achilles reflexes and heel/toe walking.",
+    "Straight Leg Raise may be negative in pure central stenosis; use it mainly when a focal radicular component is suspected.",
+    "Assess lumbar extension/flexion response and functional walking tolerance rather than relying on static range of motion alone.",
+    "Hip examination for osteoarthritis and other hip sources of walking-related pain.",
+    "Peripheral vascular examination: pulses, skin temperature/color, capillary refill and ABI referral/testing when PAD is plausible.",
+    "Screen balance, upper-motor-neuron signs and tandem gait if symptoms suggest a more proximal cord disorder.",
+    "Functional measures can include Timed Up and Go, gait speed and observed walking endurance."
+  ],
+  "differentials": [
+    "Peripheral arterial disease / vascular claudication",
+    "Lumbar disc herniation with radiculopathy",
+    "Hip osteoarthritis or other hip pathology",
+    "Peripheral neuropathy",
+    "Greater-trochanteric pain syndrome",
+    "Sacroiliac joint pain",
+    "Cervical/thoracic myelopathy",
+    "Parkinsonism or other neurological gait disorder",
+    "Spinal infection, tumor or fracture",
+    "Venous claudication or other vascular disorders"
+  ],
+  "investigations": [
+    "MRI lumbar spine is the preferred test to characterize central, lateral recess and foraminal stenosis when imaging is clinically indicated and results are expected to influence treatment.",
+    "Imaging should be interpreted after the clinical syndrome is established; asymptomatic stenosis is common and imaging severity correlates imperfectly with symptoms.",
+    "Standing lumbar radiographs, including flexion-extension views when appropriate, can help evaluate degenerative spondylolisthesis, instability and alignment.",
+    "CT provides excellent bony detail and is useful when MRI is contraindicated; CT myelography is a specialist alternative when MRI is unavailable, contraindicated or insufficient.",
+    "Electrodiagnostic testing may help when peripheral neuropathy, plexopathy or uncertain root localization competes with the diagnosis; it is not required for every classic claudication case.",
+    "ABI or formal vascular assessment should be obtained when peripheral arterial disease is a realistic competing diagnosis."
+  ],
+  "imagingCorrelation": [
+    "Describe central canal, lateral recess/subarticular and foraminal stenosis separately at each level.",
+    "Document the likely contributors: disc bulge/height loss, facet hypertrophy, ligamentum flavum hypertrophy/buckling, osteophytes and spondylolisthesis.",
+    "Note whether stenosis is single-level or multilevel and whether findings are symmetric.",
+    "Do not infer symptoms solely from the words 'moderate' or 'severe' on MRI; correlate with walking-limited neurogenic symptoms and neurological findings.",
+    "Dynamic instability or slip may alter surgical planning and should be documented separately."
+  ],
+  "management": [
+    "Start with education, individualized activity modification and an active multimodal rehabilitation program when no urgent neurological indication exists.",
+    "Exercise/rehabilitation should target walking capacity, lower-limb and trunk strength, mobility, balance and progressive conditioning; flexion-tolerant positions may improve exercise tolerance in some patients.",
+    "Manual therapy can be used as an adjunct within a broader exercise/education program rather than as the sole treatment.",
+    "The 2021 clinical practice guideline on nonsurgical care supports multimodal nonpharmacologic care and does not recommend epidural steroid injections as routine management for neurogenic claudication because durable benefit is uncertain.",
+    "Medication decisions should be individualized to age, renal/GI/cardiovascular risk, polypharmacy and comorbidity; avoid turning the study chapter into an automatic prescription protocol.",
+    "Optimize modifiable surgical-risk factors such as smoking, poorly controlled diabetes, frailty and severe deconditioning when possible.",
+    "Specialist surgical opinion is appropriate for persistent disabling neurogenic claudication or neurological deficit after adequate nonoperative care when imaging is concordant.",
+    "Decompressive surgery is the core operative concept for symptomatic stenosis refractory to conservative care; fusion is added selectively for instability/deformity or other specific indications rather than automatically.",
+    "Interspinous distraction devices are an option only in carefully selected patients under specialist spinal-surgeon selection; NICE notes short- to medium-term efficacy but possible failure and need for further surgery.",
+    "Urgent surgical/spine assessment is required for cauda equina syndrome or progressive major motor deficit."
+  ],
+  "rehab": [
+    "Establish a reproducible baseline walking distance/time and build interval walking or cycling within symptom tolerance.",
+    "Use flexion-tolerant conditioning initially when it allows greater exercise volume, then progress toward broader upright functional tolerance as possible.",
+    "Progressive lower-limb strengthening, hip mobility, trunk endurance and balance training should reflect patient deficits and goals.",
+    "Teach pacing: multiple short walking bouts can be more achievable than one long provocative session early in rehabilitation.",
+    "Functional progression: standing tasks, stairs, community walking, shopping and work-specific endurance.",
+    "Monitor serial motor power and gait; worsening weakness or reduced walking capacity despite treatment should trigger reassessment."
+  ],
+  "outcomes": [
+    "Walking distance/time to symptom onset",
+    "Maximum tolerated walking distance/time",
+    "Zurich Claudication Questionnaire / Swiss Spinal Stenosis Questionnaire",
+    "Oswestry Disability Index (ODI)",
+    "Pain NRS/VAS for back and legs",
+    "Timed Up and Go",
+    "Gait speed",
+    "Motor power and reflexes when deficits exist",
+    "Patient-Specific Functional Scale",
+    "ADL/work participation and Patient Global Impression of Change"
+  ],
+  "ayurvedaFramework": {
+    "vyadhi": "Kati Graha/Kati Shoola and Gridhrasi-related phenotypes may be documented according to the clinical picture, but lumbar spinal stenosis is not reducible to a single classical label.",
+    "principle": "Preserve modern structural localization and vascular/neurological differential diagnosis first. Then document Dosha-Dushya-Srotas-Samprapti findings as a parallel Ayurvedic layer.",
+    "assessment": [
+      "Nidana Panchaka",
+      "Vata and relevant subtypes",
+      "Vata-Kapha/Avarana phenotype where defensible",
+      "Guna predominance",
+      "Ama/Nirama",
+      "Agni and Koshtha",
+      "Asthi/Majja/Mamsa involvement",
+      "Srotas and Srotodushti",
+      "Rogamarga",
+      "Shatkriyakala where defensible",
+      "Bala/Avastha",
+      "Samprapti Ghataka",
+      "Walking/standing limitation documented separately from Ayurvedic descriptors"
+    ],
+    "clinicalFeatures": "Record posture-dependent walking limitation, neurological findings, vascular examination and MRI localization before applying the Ayurvedic phenotype.",
+    "treatmentSafety": "External procedures, Basti or other Panchakarma choices require individualized contraindication review. Do not delay urgent referral for cauda equina syndrome, progressive weakness, infection, tumor or fracture, and avoid forceful spinal manipulation when instability or severe stenosis is suspected."
+  },
+  "patientHandout": [
+    "Lumbar spinal stenosis means narrowing around the nerves in the lower spine. It can cause leg pain, heaviness, numbness or weakness when standing or walking.",
+    "Many people feel better when sitting or leaning forward because flexion usually gives the nerves more space.",
+    "An MRI helps show where narrowing is present, but the scan must match your symptoms; some people have stenosis on MRI without symptoms.",
+    "Exercise and rehabilitation aim to improve walking capacity, strength and confidence. Surgery is usually considered when disabling symptoms continue despite appropriate non-surgical care or when significant neurological deficit is present.",
+    "Seek urgent assessment for new bladder/bowel problems, saddle numbness, or rapidly worsening leg weakness.",
+    "Vascular disease can mimic spinal stenosis; leg circulation should be checked when the symptom pattern or vascular risk suggests it."
+  ],
+  "sources": [
+    {
+      "short": "Bussières CPG 2021",
+      "title": "Non-Surgical Interventions for Lumbar Spinal Stenosis Leading To Neurogenic Claudication: A Clinical Practice Guideline",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/33857615/",
+      "role": "multimodal nonsurgical management and evidence grading for neurogenic claudication"
+    },
+    {
+      "short": "NICE HTG238",
+      "title": "Interspinous distraction procedures for lumbar spinal stenosis causing neurogenic claudication",
+      "url": "https://www.nice.org.uk/guidance/HTG238",
+      "role": "definition of neurogenic claudication and specialist selection for interspinous distraction procedures"
+    },
+    {
+      "short": "ACR Low Back Pain",
+      "title": "ACR Appropriateness Criteria: Low Back Pain",
+      "url": "https://acsearch.acr.org/docs/69483/Narrative/",
+      "role": "scenario-based lumbar imaging appropriateness and MRI/CT selection principles"
+    },
+    {
+      "short": "NASS LSS",
+      "title": "Diagnosis and Treatment of Degenerative Lumbar Spinal Stenosis",
+      "url": "https://www.spine.org/Portals/0/assets/downloads/ResearchClinicalCare/Guidelines/LumbarStenosis.pdf",
+      "role": "specialty reference on diagnosis, imaging and treatment; older guideline retained as secondary source"
+    }
+  ]
+}
