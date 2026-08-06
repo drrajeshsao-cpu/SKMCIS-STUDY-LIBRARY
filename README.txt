@@ -20,3 +20,8 @@ Safety:
 - Do not enter real patient identifiers.
 - 'Gold Chapter Draft' means source checked, NOT automatically clinician-validated.
 - Missing legacy DIS-0006 to DIS-0015 remain unresolved by design.
+
+V1.0.1 FIX:
+- Disease Library Sciatica/Gridhrasi search results are now clickable/tappable and open the full Gold Chapter.
+- Added keyboard accessibility and visible 'Open details' hint.
+- Service-worker cache bumped so GitHub Pages refresh receives the fix.

@@ -18,3 +18,7 @@ main{max-width:1180px;margin:auto;padding:20px}.hidden{display:none!important}.h
 footer{text-align:center;color:#687884;font-size:12px;padding:25px}
 @media(max-width:760px){.hero{grid-template-columns:1fr}.hero h1{font-size:28px}.stats{grid-template-columns:1fr 1fr}.grid2{grid-template-columns:1fr}.filters{grid-template-columns:1fr}.row{grid-template-columns:1fr}.nav{top:66px}.sectionHead{flex-direction:column}.quicknav{top:112px}}
 @media print{.topbar,.nav,.quicknav,.actions,footer,#dashboard,#library,#patient,#sources,#settings{display:none!important}#gold{display:block!important}body{background:#fff}.kb{break-inside:avoid;border:0;border-bottom:1px solid #ddd}.sectionHead{display:block}}
+
+.row.clickable{cursor:pointer;transition:transform .12s ease,box-shadow .12s ease,border-color .12s ease}
+.row.clickable:hover,.row.clickable:focus{transform:translateY(-1px);box-shadow:0 5px 14px #123d5918;border-color:#8fb3c7;outline:none}
+.openHint{color:var(--blue);font-weight:750}
