@@ -299,7 +299,8 @@
     "ayurveda": "Individualized correlation",
     "contentStatus": "Structured clinical pack",
     "validationStatus": "Recovered compact pack - full chapter pending",
-    "provenance": "Later integrated SKMCIS build"
+    "provenance": "Later integrated SKMCIS build",
+    "goldChapterId": "SKM-LSP-0002"
   },
   {
     "recordId": "PACK-ORT-001",
@@ -1599,5 +1600,18 @@
     "validationStatus": "Source checked; clinician validation pending",
     "provenance": "Recovered SKMCIS clinical pack + ACR/AAOS/AAFP/NASS synthesis",
     "goldChapterId": "SKM-CSP-0001"
+  },
+  {
+    "recordId": "SKM-LSP-0002",
+    "name": "Mechanical / Non-specific Low Back Pain",
+    "category": "Spine & Musculoskeletal",
+    "sourceLayer": "Gold Chapter",
+    "sourceId": "PACK-SPN-003 + new source-checked synthesis",
+    "modernName": "Mechanical / non-specific low back pain",
+    "ayurveda": "Kati Shoola / Kati Graha phenotype correlation (non-equivalence)",
+    "contentStatus": "Full structured chapter v1.0-draft",
+    "validationStatus": "Source checked; clinician validation pending",
+    "provenance": "Recovered SKMCIS clinical pack + WHO/NICE/ACR synthesis",
+    "goldChapterId": "SKM-LSP-0002"
   }
 ]

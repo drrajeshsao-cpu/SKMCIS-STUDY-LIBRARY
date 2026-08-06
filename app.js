@@ -1,7 +1,7 @@
 const $=id=>document.getElementById(id);let INDEX=[],CHAPTERS={},activeGold='SKM-SPN-0001';let deferredPrompt=null;
 const stateKey='skmcis-study-v1';function state(){try{return JSON.parse(localStorage.getItem(stateKey)||'{}')}catch{return {}}}function saveState(s){localStorage.setItem(stateKey,JSON.stringify(s))}
 function esc(s=''){return String(s).replace(/[&<>"']/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[m]))}
-async function load(){INDEX=await fetch('./data/master-index.json').then(r=>r.json());let files=['sciatica.json','cervical-radiculopathy.json'];for(const f of files){let d=await fetch('./data/'+f).then(r=>r.json());CHAPTERS[d.id]=d}init()}
+async function load(){INDEX=await fetch('./data/master-index.json').then(r=>r.json());let files=['sciatica.json','cervical-radiculopathy.json','mechanical-low-back-pain.json'];for(const f of files){let d=await fetch('./data/'+f).then(r=>r.json());CHAPTERS[d.id]=d}init()}
 function init(){
  const layers=[...new Set(INDEX.map(x=>x.sourceLayer))].sort(),statuses=[...new Set(INDEX.map(x=>x.validationStatus))].sort();
  layers.forEach(x=>$('layer').insertAdjacentHTML('beforeend',`<option>${esc(x)}</option>`));statuses.forEach(x=>$('status').insertAdjacentHTML('beforeend',`<option>${esc(x)}</option>`));

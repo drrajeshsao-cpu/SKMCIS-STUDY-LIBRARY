@@ -1,0 +1,189 @@
+{
+  "id": "SKM-LSP-0002",
+  "slug": "mechanical-low-back-pain",
+  "name": "Mechanical / Non-specific Low Back Pain",
+  "ayurveda": "Phenotype-based Kati Shoola / Kati Graha framework; not a one-to-one diagnostic equivalence",
+  "category": "Spine & Musculoskeletal",
+  "status": "Gold chapter draft - source checked, clinician validation pending",
+  "version": "1.0-draft",
+  "updated": "2026-08-06",
+  "synonyms": [
+    "Non-specific low back pain",
+    "Mechanical low back pain",
+    "Axial low back pain"
+  ],
+  "definition": "Low back pain centered between the lower rib margin and buttock region in which no specific serious or clearly defined structural disease is established after appropriate clinical assessment. 'Mechanical' usually describes pain influenced by posture, movement or loading; the preferred evidence-based umbrella term is often non-specific low back pain. This diagnosis is made only after screening for radiculopathy, cauda equina syndrome, fracture, cancer, infection, inflammatory disease and important non-spinal causes.",
+  "classification": [
+    "By duration: acute, subacute and chronic; NICE defines chronic as 3 months or longer.",
+    "By dominant pattern: axial/localized pain, movement/load-sensitive pain, mobility-control impairment, deconditioning, or persistent pain with important psychosocial contributors.",
+    "Do not automatically label disc degeneration, facet arthropathy, Modic change or a small disc bulge as the pain generator merely because it appears on imaging."
+  ],
+  "epidemiology": [
+    "Low back pain is the leading cause of disability worldwide.",
+    "WHO reported about 619 million people living with low back pain in 2020 and projects about 843 million by 2050.",
+    "Non-specific low back pain accounts for the large majority of presentations; WHO cites about 90% of low back pain as non-specific."
+  ],
+  "etiology": [
+    "Usually multifactorial rather than attributable to one tissue. Potential contributors include muscles, ligaments, discs, facet joints and motor-control/loading factors.",
+    "Physical conditioning, sleep, work demands, stress, pain beliefs and prior episodes can influence symptom persistence and disability.",
+    "Imaging abnormalities are common in people without pain; clinical relevance requires concordance rather than assumption."
+  ],
+  "riskFactors": [
+    "Previous low back pain episodes.",
+    "Heavy or repetitive loading, prolonged static postures or sudden change in physical workload in susceptible individuals.",
+    "Low activity/deconditioning and reduced trunk/hip capacity.",
+    "Sleep disturbance, stress, fear-avoidance, low recovery confidence and work/social barriers can predict persistent disability.",
+    "Smoking and obesity may be associated with worse musculoskeletal health but should not be used to stigmatize patients or deny appropriate care."
+  ],
+  "presentation": [
+    "Pain, ache or stiffness in the lumbar/lumbosacral region, often varying with bending, lifting, sitting, standing, walking or transitions.",
+    "Pain may refer to buttock or proximal thigh but lacks a convincing nerve-root pattern.",
+    "Neurological examination is normal in uncomplicated non-specific low back pain.",
+    "Symptoms frequently fluctuate and may recur even after improvement.",
+    "Functional limits may include lifting, prolonged sitting/standing, sleep disturbance, work limitations or reduced exercise tolerance."
+  ],
+  "redFlags": [
+    "CAUDA EQUINA / severe neural compromise: new urinary retention or overflow incontinence, new bowel dysfunction, saddle/perineal sensory loss, bilateral severe radicular symptoms or rapidly progressive major leg weakness.",
+    "Fracture risk: significant trauma, osteoporosis, prolonged systemic corticosteroid exposure, older/frail patient after even lower-energy trauma, or focal bony tenderness with an appropriate mechanism.",
+    "Infection: fever, systemic illness, immunosuppression, IV drug use, recent bacteremia/procedure or severe constant pain with infection risk.",
+    "Cancer: known malignancy, unexplained weight loss, systemic symptoms, progressive unremitting/night pain or other concerning clinical context.",
+    "Inflammatory spinal disease: young onset with prolonged morning stiffness, alternating buttock pain, night pain improving on rising, psoriasis/uveitis/IBD or other SpA features.",
+    "Abdominal, pelvic, renal, vascular or other non-spinal emergency suggested by visceral symptoms, pulsatile mass, syncope, severe abdominal pain, urinary findings or atypical pain pattern.",
+    "Progressive objective neurological deficit or a presentation no longer behaving like uncomplicated mechanical/non-specific pain."
+  ],
+  "history": [
+    "Pain location, onset, mechanism, duration, intensity, recurrence and daily pattern.",
+    "Mechanical behavior: flexion, extension, rotation, lifting, coughing/straining, sitting, standing, walking and position changes.",
+    "Leg symptoms: pain below knee, numbness, paresthesia or weakness suggesting radiculopathy rather than purely axial pain.",
+    "Explicit cauda equina screen when indicated: bladder, bowel, saddle sensation and bilateral neurological symptoms.",
+    "Trauma, osteoporosis, steroid exposure, fever/infection risk, cancer history, weight loss and inflammatory disease features.",
+    "Sleep, physical activity, work demands, lifting technique, recent workload changes and recovery between tasks.",
+    "Medication history, prior imaging, injections, surgery, physiotherapy and response.",
+    "Psychosocial screen: fear of movement, catastrophizing, low mood/anxiety, compensation/work conflict, low self-efficacy and expectations.",
+    "Patient goals: walking, work, sitting, sleep, lifting, exercise or household activity."
+  ],
+  "exam": [
+    "Observe general mobility, transfers, gait and movement confidence.",
+    "Lumbar active range of motion and repeated/functional movements guided by symptoms rather than chasing a single 'painful structure'.",
+    "Neurological screen when leg symptoms or diagnostic uncertainty exist: myotomes, dermatomes and reflexes.",
+    "Straight Leg Raise / Slump when radiculopathy is suspected; these tests are not routine proof of mechanical axial low back pain.",
+    "Hip examination when hip pathology or referred pain is possible.",
+    "Sacroiliac provocation cluster only when the clinical pattern supports SI-joint pain; single SI tests are insufficient.",
+    "Palpation may help localize tenderness but cannot reliably identify a specific pain-generating tissue by itself.",
+    "Functional capacity: sit-to-stand, squat/hinge, walking tolerance, lifting pattern and other tasks relevant to the patient's goals.",
+    "Screen for non-spinal abdominal/vascular/renal causes when history or examination is atypical."
+  ],
+  "differentials": [
+    "Lumbar radiculopathy / disc herniation",
+    "Lumbar spinal stenosis with neurogenic claudication",
+    "Vertebral compression or traumatic fracture",
+    "Spondylolysis / spondylolisthesis",
+    "Sacroiliac joint pain",
+    "Hip osteoarthritis or other hip pathology",
+    "Inflammatory spondyloarthritis",
+    "Spinal infection / discitis / epidural abscess",
+    "Primary or metastatic malignancy",
+    "Renal/ureteric disease",
+    "Abdominal aortic aneurysm or other vascular disease",
+    "Gynecologic/pelvic causes when clinically relevant",
+    "Herpes zoster and other less-common referred pain syndromes"
+  ],
+  "investigations": [
+    "Do not routinely image uncomplicated acute low back pain without red flags. ACR rates lumbar radiography, CT and MRI as usually not appropriate for initial imaging in this scenario.",
+    "NICE advises against routine imaging in non-specialist settings and recommends imaging in specialist care only when the result is likely to change management.",
+    "MRI is appropriate when cauda equina syndrome is suspected and is commonly selected for serious neurological deficit, cancer/infection suspicion, or persistent/progressive symptoms when intervention is being considered.",
+    "Radiography/CT/MRI selection changes when fracture risk, trauma, prior surgery, cancer, infection or immunosuppression is present.",
+    "Laboratory tests are not routine for uncomplicated mechanical/non-specific pain; use targeted CBC, ESR/CRP or disease-specific testing when infection, inflammatory disease or malignancy is suspected."
+  ],
+  "imagingCorrelation": [
+    "Do not equate common degenerative MRI findings with the pain source unless the clinical pattern supports that interpretation.",
+    "Imaging is most valuable when it answers a management-changing question: serious pathology, neurological compression, fracture, surgical/injection planning or diagnostic uncertainty after appropriate assessment.",
+    "Explain incidental findings carefully to reduce fear and unnecessary restriction."
+  ],
+  "management": [
+    "Education and reassurance: explain the generally favorable natural history of uncomplicated episodes and encourage self-management.",
+    "Encourage continuation or early resumption of normal activity as tolerated; prolonged bed rest should be avoided.",
+    "Use exercise selected to the person's needs, preferences and capacity. Options can include aerobic, strengthening, mobility, motor-control and mind-body approaches.",
+    "Manual therapy may be considered only as part of an active treatment package that includes exercise, rather than as a stand-alone cure.",
+    "For persistent/chronic pain, address physical, psychological and social contributors; cognitive-behavioral or combined physical-psychological programs can help selected patients.",
+    "Promote return to work and normal activities with temporary modification and graded exposure rather than prolonged avoidance.",
+    "If oral NSAIDs are used, assess gastrointestinal, renal, cardiovascular, hepatic and interaction risk; use the lowest effective dose for the shortest appropriate period.",
+    "Avoid routine opioids for chronic low back pain. NICE also advises against routine gabapentinoids/antiepileptics for non-specific low back pain.",
+    "Do not routinely use belts/corsets or traction for uncomplicated low back pain; WHO likewise advises against routine lumbar braces/belts and traction in chronic primary low back pain.",
+    "Spinal injections are not recommended for non-specific low back pain. Selected suspected facet-mediated chronic pain may enter a specialist diagnostic medial-branch/radiofrequency pathway under appropriate criteria.",
+    "Surgery is not a treatment for uncomplicated non-specific mechanical low back pain; referral is driven by a specific concordant pathology or red-flag condition."
+  ],
+  "rehab": [
+    "Phase 1 - settle irritability without inactivity: frequent comfortable movement, walking, sleep/activity advice and symptom-guided mobility.",
+    "Phase 2 - restore capacity: progressive trunk/hip strength, squat/hinge/lifting practice, aerobic conditioning and task-specific endurance.",
+    "Phase 3 - graded exposure to feared or high-load tasks with recovery planning rather than permanent avoidance.",
+    "Persistent pain: integrate pacing, sleep optimization, stress management, confidence-building and psychologically informed rehabilitation where indicated.",
+    "Track function rather than pain alone: walking time, sit/stand tolerance, work participation, lifting capacity and patient-selected goals."
+  ],
+  "outcomes": [
+    "Pain NRS/VAS",
+    "Oswestry Disability Index (ODI) or Roland-Morris Disability Questionnaire",
+    "Patient-Specific Functional Scale",
+    "STarT Back screening/risk stratification where appropriate",
+    "Work/ADL participation",
+    "Walking/sitting/standing/lifting tolerance",
+    "Sleep interference",
+    "Patient Global Impression of Change",
+    "Psychosocial recovery barriers when persistent pain is present"
+  ],
+  "ayurvedaFramework": {
+    "vyadhi": "Kati Shoola and Kati Graha may be used as phenotype-level Ayurvedic descriptors after examination; they should not be presented as exact equivalents of every case of non-specific low back pain.",
+    "principle": "Maintain two parallel layers: (1) modern safety/structural assessment to exclude red flags and neurological disease, and (2) Ayurvedic functional-pathology assessment for individualized management.",
+    "assessment": [
+      "Nidana Panchaka",
+      "Vata and relevant subtypes, with Tridosha assessment rather than automatic Vata-only labeling",
+      "Ruksha/Sheeta/Khara/Chala and other clinically relevant Guna patterns",
+      "Vriddhi/Kshaya and Samanya-Vishesha",
+      "Ama/Nirama",
+      "Agni and Koshtha",
+      "Asthi/Majja/Mamsa and other Dushya/Dhatu involvement according to phenotype",
+      "Mala and Ojas",
+      "Srotas/Srotodushti",
+      "Rogamarga",
+      "Shatkriyakala where defensible",
+      "Bala, Avastha and Satmya",
+      "Samprapti Ghataka"
+    ],
+    "clinicalFeatures": "Document pain, stiffness, movement/load sensitivity, functional restriction, associated limb symptoms and examination findings first; then map the Ayurvedic phenotype without forcing a classical label.",
+    "treatmentSafety": "Nidana Parivarjana, Shamana, Snehana/Swedana, Basti, Kati Basti and other Panchakarma/external procedures require individualized indications and contraindication review. Red flags, fracture, infection, tumor, cauda equina syndrome and progressive neurological deficit always override routine procedural pathways."
+  },
+  "patientHandout": [
+    "Most low back pain is non-specific, meaning no dangerous disease or single damaged structure is found after appropriate assessment.",
+    "Staying gently active and returning gradually to normal work and exercise is usually better than prolonged bed rest.",
+    "An X-ray or MRI is not routinely needed for an uncomplicated episode; imaging is most useful when a serious cause is suspected or the result will change treatment.",
+    "Exercise is a main part of recovery. The best program is one you can perform safely and progress according to your goals and capacity.",
+    "Seek urgent medical assessment for new bladder/bowel problems, saddle numbness, rapidly increasing leg weakness, severe bilateral neurological symptoms, major trauma, fever/systemic illness or concerning cancer/infection features.",
+    "MRI findings such as disc bulges or degeneration are common and do not automatically tell us what is causing pain."
+  ],
+  "sources": [
+    {
+      "short": "WHO 2023",
+      "title": "WHO guideline for non-surgical management of chronic primary low back pain in adults",
+      "url": "https://www.who.int/publications/i/item/9789240081789",
+      "role": "chronic primary low back pain, education, exercise, multimodal care and interventions not recommended routinely"
+    },
+    {
+      "short": "WHO LBP Facts",
+      "title": "WHO Low Back Pain Fact Sheet",
+      "url": "https://www.who.int/news-room/fact-sheets/detail/low-back-pain",
+      "role": "definition, global burden and non-specific low back pain prevalence"
+    },
+    {
+      "short": "NICE NG59",
+      "title": "Low back pain and sciatica in over 16s: assessment and management - Recommendations",
+      "url": "https://www.nice.org.uk/guidance/ng59/chapter/Recommendations",
+      "role": "red-flag alternative diagnoses, imaging, activity, exercise, manual therapy, medicines and invasive-treatment guidance"
+    },
+    {
+      "short": "ACR Low Back Pain",
+      "title": "ACR Appropriateness Criteria: Low Back Pain",
+      "url": "https://acsearch.acr.org/docs/69483/Narrative/",
+      "role": "scenario-based imaging appropriateness, including no routine imaging for uncomplicated acute low back pain"
+    }
+  ]
+}

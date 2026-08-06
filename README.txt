@@ -33,3 +33,10 @@ V1.1 GOLD CHAPTER UPDATE:
 - Patient Education and Sources views follow the selected Gold chapter.
 - Added C5-T1 clinical root map, myelopathy red flags, imaging rules and phenotype-based Ayurveda correlation.
 - Master index now includes 133 records and 2 Gold chapters.
+
+V1.2 GOLD CHAPTER UPDATE:
+- Added Mechanical / Non-specific Low Back Pain as Gold Chapter #3.
+- Added evidence-based red-flag screening, imaging rules, functional assessment and rehabilitation.
+- Added WHO 2023 chronic primary LBP principles, NICE NG59 and ACR imaging guidance.
+- Added phenotype-based Kati Shoola / Kati Graha Ayurveda framework with explicit non-equivalence and red-flag override.
+- Master index now has 134 records and 3 Gold chapters.
