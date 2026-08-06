@@ -1,0 +1,211 @@
+{
+  "id": "SKM-SPN-0001",
+  "name": "Sciatica / Lumbosacral Radicular Pain",
+  "ayurveda": "Gridhrasi (clinical correlation / individualized Ayurvedic assessment)",
+  "category": "Spine & Neurology",
+  "status": "Gold chapter draft - source checked, clinician validation pending",
+  "version": "1.0-draft",
+  "updated": "2026-08-06",
+  "synonyms": [
+    "Sciatica",
+    "Lumbar radicular pain",
+    "Lumbosacral radiculopathy",
+    "Sciatic nerve-root pain"
+  ],
+  "definition": "A clinical syndrome of radiating lower-limb pain caused by irritation or pathology of one or more lumbosacral nerve roots. True radicular pain should be distinguished from non-radicular referred leg pain, hip/SI disorders, peripheral neuropathy and vascular causes.",
+  "anatomy": [
+    "Lumbar and sacral nerve roots contributing to the lumbosacral plexus and sciatic nerve pathway.",
+    "Common symptomatic levels are L4-L5 and L5-S1, but clinical localization must be based on the full neurological pattern rather than MRI alone."
+  ],
+  "etiology": [
+    "Lumbar disc herniation/protrusion/extrusion with nerve-root irritation or compression.",
+    "Foraminal or lateral recess stenosis; degenerative canal stenosis.",
+    "Degenerative spondylolisthesis or other structural narrowing.",
+    "Less common serious causes: infection, malignancy, fracture/trauma, inflammatory disease or other space-occupying pathology."
+  ],
+  "riskFactors": [
+    "Recurrent/heavy spinal loading or occupational exposure may contribute in some patients.",
+    "Age-related degenerative spinal change.",
+    "Smoking, obesity, deconditioning and psychosocial factors may influence back-pain burden and recovery, but should not be used alone to deny appropriate specialist referral."
+  ],
+  "presentation": [
+    "Low-back or buttock pain radiating into the leg, often below the knee.",
+    "Shooting, electric, burning or sharp leg pain.",
+    "Dermatomal paraesthesia or numbness.",
+    "Possible focal weakness, reflex change or gait difficulty.",
+    "Symptoms may worsen with cough, sneeze, strain or certain spinal positions; pattern is variable."
+  ],
+  "redFlags": [
+    "NEW bladder dysfunction: retention, difficulty initiating/maintaining stream, loss of bladder sensation or new incontinence.",
+    "NEW bowel dysfunction or loss of bowel sensation/control.",
+    "NEW saddle/perineal/genital sensory change or altered sensation when wiping.",
+    "Rapidly progressive or severe motor weakness, new foot drop, or major gait deterioration.",
+    "Severe bilateral radicular symptoms, especially with sphincter/saddle symptoms.",
+    "Fever/systemic illness, immunosuppression, IV drug use or concern for spinal infection.",
+    "Known cancer, unexplained weight loss, destructive bone pain or suspected malignancy.",
+    "Significant trauma, osteoporosis, chronic steroid exposure or suspected fracture."
+  ],
+  "history": [
+    "Exact pain map: back -> buttock -> thigh -> leg -> foot; side and dermatomal tendency.",
+    "Onset, mechanism, duration, progression, recurrence and night/rest pain.",
+    "Pain severity plus functional impact: sitting, standing, walking, sleep, work and ADL.",
+    "Numbness, tingling, weakness, falls, gait change, foot slap/foot drop.",
+    "Mandatory bladder, bowel, saddle/perineal and sexual-function screen when clinically relevant.",
+    "Fever, recent infection, TB exposure, cancer history, weight loss, immune suppression, steroid use, trauma.",
+    "Previous MRI/X-ray, injections, surgery, medications and response.",
+    "Workload, lifting, driving, posture, exercise, sleep, mood, fear avoidance and social/occupational barriers."
+  ],
+  "exam": [
+    "Vitals and general screen when systemic/serious pathology is possible.",
+    "Gait: antalgic pattern; heel and toe walking when safe.",
+    "Lumbar posture and active range of motion.",
+    "Straight-leg raise (SLR) and crossed SLR; Slump may supplement but should not be used in isolation.",
+    "Motor testing: hip/knee/ankle/great-toe movements with side-to-side comparison.",
+    "Dermatomal light-touch/pinprick sensory examination as appropriate.",
+    "Knee (patellar) and ankle (Achilles) reflexes; compare sides.",
+    "Hip and sacroiliac screening when symptoms are atypical; peripheral pulses/vascular screen when claudication is possible.",
+    "Document objective neurological deficit clearly and repeat at follow-up if present."
+  ],
+  "rootMap": [
+    {
+      "root": "L4",
+      "typicalSensory": "medial leg/ankle tendency",
+      "motor": "knee extension ± ankle dorsiflexion",
+      "reflex": "patellar may be reduced"
+    },
+    {
+      "root": "L5",
+      "typicalSensory": "lateral leg/dorsum of foot/great-toe tendency",
+      "motor": "great-toe extension, ankle dorsiflexion, hip abduction",
+      "reflex": "no single consistently reliable deep-tendon reflex"
+    },
+    {
+      "root": "S1",
+      "typicalSensory": "posterolateral calf/lateral or plantar foot tendency",
+      "motor": "plantarflexion/eversion; toe walking",
+      "reflex": "Achilles may be reduced"
+    }
+  ],
+  "differentials": [
+    "Lumbar disc herniation with radiculopathy",
+    "Lumbar lateral recess/foraminal stenosis",
+    "Central canal stenosis with neurogenic claudication",
+    "Deep gluteal/piriformis syndrome",
+    "Sacroiliac joint pain",
+    "Hip osteoarthritis or other hip pathology",
+    "Peripheral neuropathy/mononeuropathy",
+    "Peripheral arterial disease/vascular claudication",
+    "Meralgia paraesthetica or other peripheral nerve syndromes",
+    "Spinal infection/discitis/osteomyelitis",
+    "Vertebral fracture",
+    "Spinal or metastatic malignancy",
+    "Inflammatory spondyloarthritis"
+  ],
+  "investigations": [
+    "Do not routinely image uncomplicated low-back pain/sciatica in a non-specialist setting when serious pathology is not suspected.",
+    "Use MRI when serious pathology is suspected, when neurological deficit is progressive/significant, or in specialist/intervention planning when imaging is likely to change management.",
+    "For persistent/progressive symptoms after a suitable course of conservative management in a surgery/intervention candidate, lumbar MRI without contrast is generally the preferred initial advanced imaging.",
+    "Contrast-enhanced MRI may be appropriate in selected contexts such as suspected infection/malignancy or certain postoperative questions.",
+    "Radiographs/CT are selected for trauma, fracture risk, bony detail, alignment or other specific indications rather than routine radicular pain.",
+    "Laboratory tests are not routine for uncomplicated sciatica; order targeted CBC, ESR/CRP and disease-specific testing when infection, inflammatory disease or malignancy is suspected."
+  ],
+  "imagingCorrelation": [
+    "Always match side, level and morphology to symptoms and neurological findings.",
+    "Degenerative disc bulges and other abnormalities may be incidental; an MRI report is not itself the diagnosis.",
+    "Document nerve-root compromise: central/paracentral/foraminal/extraforaminal location, lateral recess/foraminal stenosis, migration/sequestration and associated canal compromise when relevant."
+  ],
+  "management": [
+    "Education and reassurance with individualized safety-net advice.",
+    "Encourage continuation/graded return to normal activity within tolerance; avoid prolonged bed rest.",
+    "Exercise/rehabilitation individualized to irritability, neurological status, function, preferences and comorbidity.",
+    "Manual therapy, if used, should be part of an exercise-based package rather than a stand-alone treatment.",
+    "Address sleep, fear avoidance, work barriers and psychosocial obstacles when they are materially affecting recovery.",
+    "Medication decisions require individualized contraindication/risk review; use the lowest effective dose for the shortest appropriate period when an NSAID is chosen.",
+    "Do not treat chronic sciatica with long-term opioids; NICE advises against gabapentinoids/other antiepileptics, oral corticosteroids and benzodiazepines for sciatica because overall benefit is lacking and harms exist.",
+    "Consider epidural local anaesthetic + steroid only in selected acute severe sciatica within an appropriate specialist pathway.",
+    "Urgent spinal assessment for cauda equina features or rapidly progressive major neurological deficit.",
+    "Consider surgical/decompression opinion when non-surgical care has not improved pain/function and imaging is concordant with the sciatic symptoms."
+  ],
+  "rehab": [
+    "Acute/high-irritability: education, positions/movements that reduce symptoms, gentle mobility and frequent tolerable activity.",
+    "Recovery: progressive walking/aerobic activity, trunk/hip strength, mobility and movement-control exercises according to clinical response.",
+    "Return-to-work/activity: graded exposure to lifting, sitting, driving and occupational tasks; emphasize capacity and confidence.",
+    "Stop/reassess if neurological deficit is worsening, new red flags appear, or exercise produces persistent significant neurological deterioration."
+  ],
+  "outcomes": [
+    "NRS/VAS pain",
+    "Oswestry Disability Index (ODI)",
+    "Patient-specific functional scale or activity goals",
+    "Walking and sitting tolerance",
+    "Motor power",
+    "Sensory findings",
+    "Reflexes",
+    "SLR where useful",
+    "Gait/heel-toe walking",
+    "Work/ADL participation",
+    "Patient Global Impression of Change"
+  ],
+  "ayurvedaFramework": {
+    "vyadhi": "Gridhrasi",
+    "principle": "Use as a parallel Ayurvedic diagnostic/documentation framework; do not assume one-to-one equivalence with every modern cause of radicular leg pain.",
+    "assessment": [
+      "Nidana Panchaka",
+      "Dosha and Doshabheda including relevant Vata subtypes",
+      "Guna predominance",
+      "Vriddhi/Kshaya/Samanya assessment",
+      "Ama/Nirama",
+      "Agni",
+      "Koshtha",
+      "Dushya/Dhatu",
+      "Mala",
+      "Ojas",
+      "Srotas and Srotodushti",
+      "Rogamarga",
+      "Shatkriyakala where clinically applicable",
+      "Bala/Avastha",
+      "Samprapti Ghataka"
+    ],
+    "clinicalFeatures": "Classical symptom documentation may include Ruk, Toda, Stambha, Spandana and lower-limb radiating symptoms, with individualized examination.",
+    "treatmentSafety": "Nidana Parivarjana, Shamana/Shodhana and Panchakarma choices must be individualized by bala, avastha, ama, comorbidities, structural pathology and contraindications. Red-flag spinal disease takes priority for urgent modern diagnostic/referral pathways."
+  },
+  "patientHandout": [
+    "Sciatica means pain traveling from the lower back/buttock into the leg because a lower-spine nerve root is irritated.",
+    "Keep moving within your tolerance. Long periods of complete bed rest usually do not help recovery.",
+    "Use your prescribed exercise/activity plan and build activity gradually.",
+    "Seek emergency care immediately for new bladder/bowel difficulty, numbness around the genitals/bottom, rapidly increasing leg weakness or severe symptoms in both legs.",
+    "An MRI is not required for every episode. It is most useful when serious disease is suspected or when the result will change specialist treatment."
+  ],
+  "researchNote": "Recovered founder thesis observation (n=60): Vataja cases were interpreted as relatively degeneration-dominant, while Vata-Kaphaja cases showed a more obstructive/mass-effect pattern. This is a local observational finding and must not be treated as a universal diagnostic rule.",
+  "sources": [
+    {
+      "short": "NICE NG59",
+      "title": "Low back pain and sciatica in over 16s: assessment and management",
+      "url": "https://www.nice.org.uk/guidance/ng59/chapter/Recommendations",
+      "role": "assessment, imaging, activity/exercise, medicines, epidural and decompression recommendations"
+    },
+    {
+      "short": "ACR Low Back Pain",
+      "title": "ACR Appropriateness Criteria - Low Back Pain",
+      "url": "https://acsearch.acr.org/docs/69483/Narrative/",
+      "role": "imaging appropriateness by clinical scenario"
+    },
+    {
+      "short": "WHO 2023",
+      "title": "WHO guideline for non-surgical management of chronic primary low back pain in adults",
+      "url": "https://www.who.int/publications/i/item/9789240081789",
+      "role": "person-centred chronic low-back-pain care principles; not a sciatica-specific surgical guideline"
+    },
+    {
+      "short": "NHS CES",
+      "title": "Royal Free London - Cauda Equina Syndrome patient information (approved 2025)",
+      "url": "https://www.royalfree.nhs.uk/patients-and-visitors/patient-information-leaflets/cauda-equina-syndrome/submit/43795",
+      "role": "patient-facing cauda equina warning symptoms"
+    },
+    {
+      "short": "Recovered SKMCIS",
+      "title": "SKMCIS Master Disease Knowledge Compendium Recovered v0.2",
+      "url": "",
+      "role": "recovered Sciatica/Gridhrasi structured record, Ayurveda framework and founder research note"
+    }
+  ]
+}

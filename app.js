@@ -1,0 +1,39 @@
+const $=id=>document.getElementById(id);let INDEX=[],SC={};let deferredPrompt=null;
+const stateKey='skmcis-study-v1';function state(){try{return JSON.parse(localStorage.getItem(stateKey)||'{}')}catch{return {}}}function saveState(s){localStorage.setItem(stateKey,JSON.stringify(s))}
+async function load(){INDEX=await fetch('./data/master-index.json').then(r=>r.json());SC=await fetch('./data/sciatica.json').then(r=>r.json());init()}
+function init(){
+ const layers=[...new Set(INDEX.map(x=>x.sourceLayer))].sort(), statuses=[...new Set(INDEX.map(x=>x.validationStatus))].sort();
+ layers.forEach(x=>$('layer').insertAdjacentHTML('beforeend',`<option>${esc(x)}</option>`));statuses.forEach(x=>$('status').insertAdjacentHTML('beforeend',`<option>${esc(x)}</option>`));
+ $('stats').innerHTML=[['Master index',INDEX.length],['Legacy V1 slots',INDEX.filter(x=>x.sourceLayer==='Legacy V1').length],['Reference chart',INDEX.filter(x=>x.sourceLayer==='Anukta 100 Chart').length],['Gold chapters',INDEX.filter(x=>x.sourceLayer==='Gold Chapter').length]].map(([t,n])=>`<div class=stat><b>${n}</b><span>${t}</span></div>`).join('');
+ renderLibrary();renderGold();renderSources();
+}
+function esc(s=''){return String(s).replace(/[&<>"']/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[m]))}
+function go(v){document.querySelectorAll('.view').forEach(x=>x.classList.toggle('hidden',x.id!==v));document.querySelectorAll('#nav button').forEach(x=>x.classList.toggle('active',x.dataset.view===v));scrollTo(0,0)}
+document.querySelectorAll('#nav button').forEach(b=>b.onclick=()=>go(b.dataset.view));document.addEventListener('click',e=>{if(e.target.dataset.go)go(e.target.dataset.go)})
+function pillFor(x){if(x.includes('Validated'))return'green';if(x.includes('Source checked'))return'amber';if(x.includes('unresolved')||x.includes('Unrecovered'))return'gray';if(x.includes('Recovered'))return'blue';return'gray'}
+function renderLibrary(){let q=$('q').value.toLowerCase(),l=$('layer').value,s=$('status').value;let rows=INDEX.filter(x=>(!q||JSON.stringify(x).toLowerCase().includes(q))&&(!l||x.sourceLayer===l)&&(!s||x.validationStatus===s));$('resultCount').textContent=`${rows.length} records shown`;
+ $('libraryRows').innerHTML=rows.map(x=>`<div class=row><div><b>${esc(x.recordId)}</b><br><small>${esc(x.sourceLayer)}</small></div><div><b>${esc(x.name)}</b><br><small>${esc(x.category)}</small></div><div>${esc(x.ayurveda||'')}</div><div><span class="pill ${pillFor(x.validationStatus)}">${esc(x.validationStatus)}</span><br><small>${esc(x.contentStatus)}</small></div></div>`).join('')}
+['q','layer','status'].forEach(id=>$(id).addEventListener(id==='q'?'input':'change',renderLibrary));
+const sections=[
+['definition','Definition & scope','blue'],['anatomy','Anatomy & localization','blue'],['etiology','Etiology / causes','blue'],['riskFactors','Risk factors / recovery modifiers','amber'],['presentation','Clinical presentation','blue'],['redFlags','RED FLAGS - urgent assessment','red'],['history','Focused history','blue'],['exam','Focused examination','blue'],['rootMap','Practical root localization','blue'],['differentials','Differential diagnosis','amber'],['investigations','Investigations & imaging','blue'],['imagingCorrelation','MRI-clinical correlation rules','amber'],['management','Management principles','green'],['rehab','Rehabilitation / graded return','green'],['outcomes','Outcome measures','blue'],['ayurvedaFramework','Ayurveda diagnostic framework','green'],['researchNote','Research note','amber']];
+function list(v){return `<ul>${v.map(x=>`<li>${esc(x)}</li>`).join('')}</ul>`}
+function renderGold(){
+ $('goldTitle').textContent=SC.name;$('goldMeta').textContent=`${SC.id} • ${SC.category} • ${SC.status} • Updated ${SC.updated}`;
+ $('quicknav').innerHTML=sections.map(([id,t])=>`<a href="#sec-${id}">${esc(t)}</a>`).join('');
+ $('goldContent').innerHTML=sections.map(([id,t,c])=>{let v=SC[id],body='';
+ if(Array.isArray(v)&&id==='rootMap')body=`<table class=rootTable><tr><th>Root</th><th>Typical sensory tendency</th><th>Motor emphasis</th><th>Reflex</th></tr>${v.map(r=>`<tr><td>${esc(r.root)}</td><td>${esc(r.typicalSensory)}</td><td>${esc(r.motor)}</td><td>${esc(r.reflex)}</td></tr>`).join('')}</table>`;
+ else if(Array.isArray(v))body=list(v);else if(id==='ayurvedaFramework')body=`<p><b>Vyadhi:</b> ${esc(v.vyadhi)}</p><p>${esc(v.principle)}</p><h3>Assessment domains</h3>${list(v.assessment)}<p><b>Clinical features:</b> ${esc(v.clinicalFeatures)}</p><p><b>Safety:</b> ${esc(v.treatmentSafety)}</p>`;
+ else body=`<p>${esc(v)}</p>`;
+ return `<section class="kb ${c==='red'?'redsec':c==='green'?'greensec':c==='amber'?'ambersec':'bluesec'}" id="sec-${id}"><h2>${esc(t)}</h2>${body}</section>`}).join('');
+ $('patientHandout').innerHTML=list(SC.patientHandout);
+ let st=state();$('favGold').textContent=(st.favorites||[]).includes(SC.id)?'★ Favorite':'☆ Favorite';
+}
+$('favGold').onclick=()=>{let s=state();s.favorites=s.favorites||[];s.favorites=s.favorites.includes(SC.id)?s.favorites.filter(x=>x!==SC.id):[...s.favorites,SC.id];saveState(s);renderGold()}
+$('printGold').onclick=()=>window.print();$('printHandout').onclick=()=>{const w=window.open('','_blank');const items=SC.patientHandout.map(x=>'<li>'+esc(x)+'</li>').join('');w.document.write(`<!doctype html><html><head><title>Sciatica Patient Education</title><meta charset="utf-8"><style>body{font-family:Arial,sans-serif;max-width:800px;margin:30px auto;line-height:1.55}h1{color:#123d59}.alert{border-left:5px solid #b4232c;background:#fdebec;padding:12px}</style></head><body><h1>Sciatica - Patient Education</h1><ul>${items}</ul><div class="alert"><b>Emergency warning:</b> New bladder/bowel difficulty, saddle/genital numbness, rapidly worsening leg weakness or severe bilateral symptoms need urgent emergency assessment.</div><p><small>SKMCIS Study Library - clinician review required before sharing.</small></p><script>window.onload=()=>window.print()<\/script></body></html>`);w.document.close()}
+$('copyHandout').onclick=async()=>{let txt=`SCIATICA - PATIENT EDUCATION\n\n`+SC.patientHandout.map(x=>'• '+x).join('\n');await navigator.clipboard.writeText(txt);$('copyHandout').textContent='Copied';setTimeout(()=>$('copyHandout').textContent='Copy text',1200)}
+function renderSources(){$('sourceCards').innerHTML=SC.sources.map(s=>`<div class=sourceCard><b>${esc(s.short)} - ${esc(s.title)}</b><p>${esc(s.role)}</p>${s.url?`<a href="${esc(s.url)}" target=_blank rel=noopener>${esc(s.url)}</a>`:'<span class=muted>Recovered local source</span>'}</div>`).join('')}
+$('exportState').onclick=()=>{let blob=new Blob([JSON.stringify({schema:'SKMCIS-study-state-v1',exported:new Date().toISOString(),state:state()},null,2)],{type:'application/json'}),a=document.createElement('a');a.href=URL.createObjectURL(blob);a.download='SKMCIS_Study_State_Backup.json';a.click();URL.revokeObjectURL(a.href);$('backupMsg').textContent='Study-state backup exported.'}
+$('restoreState').onchange=async e=>{let f=e.target.files[0];if(!f)return;try{let j=JSON.parse(await f.text());if(j.schema!=='SKMCIS-study-state-v1')throw Error('Wrong backup schema');saveState(j.state||{});$('backupMsg').textContent='Study state restored.';renderGold()}catch(err){$('backupMsg').textContent='Restore failed: '+err.message}}
+$('clearState').onclick=()=>{if(confirm('Clear favorites and local study progress?')){localStorage.removeItem(stateKey);$('backupMsg').textContent='Local study state cleared.';renderGold()}}
+window.addEventListener('beforeinstallprompt',e=>{e.preventDefault();deferredPrompt=e;$('installBtn').hidden=false});$('installBtn').onclick=async()=>{if(deferredPrompt){deferredPrompt.prompt();await deferredPrompt.userChoice;deferredPrompt=null;$('installBtn').hidden=true}}
+if('serviceWorker'in navigator)window.addEventListener('load',()=>navigator.serviceWorker.register('./sw.js').catch(console.error));load();
