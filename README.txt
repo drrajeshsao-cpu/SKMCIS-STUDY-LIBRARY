@@ -40,3 +40,11 @@ V1.2 GOLD CHAPTER UPDATE:
 - Added WHO 2023 chronic primary LBP principles, NICE NG59 and ACR imaging guidance.
 - Added phenotype-based Kati Shoola / Kati Graha Ayurveda framework with explicit non-equivalence and red-flag override.
 - Master index now has 134 records and 3 Gold chapters.
+
+V1.3 GOLD CHAPTER UPDATE:
+- Added Lumbar Disc Herniation / PIVD with Radiculopathy as Gold Chapter #4.
+- Added disc morphology/location, L3-S1 root mapping, cauda equina and motor-deficit red flags.
+- Added MRI timing/correlation rules, conservative care, epidural and surgical referral principles.
+- Added WFNS 2024 recommendations alongside NICE NG59, ACR and NASS.
+- Preserved Ayurveda Gridhrasi as phenotype correlation, not structural equivalence.
+- Master index now has 135 records and 4 Gold chapters.

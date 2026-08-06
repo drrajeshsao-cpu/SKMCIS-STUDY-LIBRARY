@@ -1,0 +1,217 @@
+{
+  "id": "SKM-LSP-0003",
+  "slug": "lumbar-disc-herniation-radiculopathy",
+  "name": "Lumbar Disc Herniation / PIVD with Radiculopathy",
+  "ayurveda": "Gridhrasi phenotype correlation where appropriate; structural disc herniation remains a modern anatomical diagnosis",
+  "category": "Spine & Neurology",
+  "status": "Gold chapter draft - source checked, clinician validation pending",
+  "version": "1.0-draft",
+  "updated": "2026-08-06",
+  "synonyms": [
+    "Lumbar disc herniation",
+    "Prolapsed intervertebral disc (PIVD)",
+    "Lumbar disc prolapse",
+    "Herniated lumbar disc with sciatica",
+    "Lumbar radiculopathy due to disc herniation"
+  ],
+  "definition": "Localized displacement of lumbar disc material beyond the normal margins of the intervertebral disc space that becomes clinically relevant when it produces concordant nerve-root irritation or compression, causing radicular pain and/or neurological deficit. Imaging alone does not establish symptomatic disc herniation; symptoms, examination and the level/side of neural compression must correlate.",
+  "classification": [
+    "Disc morphology: bulge (not a focal herniation), protrusion, extrusion and sequestration/migration.",
+    "Location: central, paracentral/subarticular, foraminal or extraforaminal/far-lateral.",
+    "Clinical phenotype: radicular pain without objective deficit; sensory-predominant radiculopathy; motor deficit; cauda equina syndrome; recurrent or postoperative herniation.",
+    "Most clinically important symptomatic levels are L4-L5 and L5-S1."
+  ],
+  "pathophysiology": [
+    "Radicular symptoms arise from a combination of mechanical compression and inflammatory/chemical irritation of the affected nerve root.",
+    "A paracentral L4-L5 herniation commonly affects the traversing L5 root; a paracentral L5-S1 herniation commonly affects S1.",
+    "Far-lateral/foraminal herniations more often affect the exiting root at that level, for example L4 at L4-L5.",
+    "Disc fragments can regress or resorb over time; spontaneous reduction is particularly reported with extruded/sequestered morphology."
+  ],
+  "presentation": [
+    "Leg-dominant pain radiating from buttock into thigh/leg/foot in a root-related pattern, often with associated low back pain.",
+    "Paresthesia, numbness or dysesthesia in a dermatomal tendency.",
+    "Myotomal weakness may occur, including dorsiflexion weakness/foot drop or plantar-flexion weakness.",
+    "Coughing, sneezing, straining, sitting or spinal flexion may aggravate symptoms in some patients.",
+    "Straight Leg Raise may reproduce radicular symptoms in lower-lumbar root involvement; crossed SLR is less sensitive but more specific when positive.",
+    "Symptoms and neurological findings may fluctuate; severity of pain does not always equal severity of motor deficit."
+  ],
+  "redFlags": [
+    "CAUDA EQUINA SYNDROME: new urinary retention or overflow incontinence, new fecal dysfunction, saddle/perineal sensory loss, bilateral severe sciatica, or rapidly progressive bilateral neurological deficit.",
+    "Rapidly progressive or severe motor deficit, including evolving foot drop.",
+    "Major trauma, fracture risk or spinal instability.",
+    "Fever, bacteremia risk, immunosuppression, IV drug use or concern for spinal infection/epidural abscess.",
+    "Known malignancy, unexplained weight loss or destructive/systemic features suggesting cancer.",
+    "Symptoms suggesting a vascular, abdominal, pelvic or other non-spinal emergency.",
+    "Pain plus upper-motor-neuron signs or neurological findings that do not fit a single lumbar root should trigger diagnostic reconsideration."
+  ],
+  "history": [
+    "Exact pain and numbness map: back, buttock, thigh, calf, dorsum/sole of foot and individual toes.",
+    "Onset, lifting/trauma event, duration, progression, recurrence and previous episodes.",
+    "Aggravating/relieving factors: sitting, walking, flexion, cough/sneeze/strain and lying positions.",
+    "Motor symptoms: knee extension, ankle dorsiflexion, great-toe extension, plantar flexion, repeated heel/toe walking and foot slap.",
+    "Mandatory cauda equina screen when clinically indicated: bladder, bowel, saddle sensation, sexual function and bilateral symptoms.",
+    "Past cancer, infection risk, steroid exposure, osteoporosis, anticoagulation, inflammatory disease and prior lumbar surgery.",
+    "Previous MRI, injections, medications, physiotherapy and response.",
+    "Functional impact: walking, sleep, work, driving, sitting tolerance and ADL.",
+    "Recovery modifiers: fear-avoidance, work conflict, mood/sleep disturbance and patient expectations."
+  ],
+  "exam": [
+    "Gait, heel walking, toe walking and observation for foot drop or antalgic posture.",
+    "Motor testing: L2 hip flexion, L3 knee extension, L4 ankle dorsiflexion contribution, L5 great-toe extension/ankle dorsiflexion, S1 plantar flexion/eversion; document MRC grade when weak.",
+    "Sensory testing in dermatomal distributions with side-to-side comparison.",
+    "Reflexes: patellar (predominantly L3-L4) and Achilles (predominantly S1).",
+    "Supine Straight Leg Raise / Lasègue for L4-S1 radicular irritation; crossed SLR when relevant.",
+    "Femoral nerve stretch test for upper-lumbar L2-L4 radicular patterns.",
+    "Slump test can supplement neural-tension assessment but should be interpreted in the total clinical picture.",
+    "Hip examination and peripheral nerve examination when competing diagnoses are plausible.",
+    "Check pulses/vascular status when vascular claudication or limb ischemia is a concern."
+  ],
+  "rootMap": [
+    {
+      "root": "L3",
+      "sensory": "anterior/medial thigh-knee tendency",
+      "motor": "knee extension",
+      "reflex": "patellar may reduce",
+      "typicalDisc": "L2-L3 or L3-L4 depending on location"
+    },
+    {
+      "root": "L4",
+      "sensory": "medial leg / medial ankle tendency",
+      "motor": "knee extension and ankle dorsiflexion contribution",
+      "reflex": "patellar may reduce",
+      "typicalDisc": "usually L3-L4 traversing root; L4-L5 far-lateral/exiting root"
+    },
+    {
+      "root": "L5",
+      "sensory": "lateral leg, dorsum of foot, great-toe tendency",
+      "motor": "great-toe extension, ankle dorsiflexion, hip abduction",
+      "reflex": "no single reliable routine DTR",
+      "typicalDisc": "usually L4-L5 paracentral/subarticular"
+    },
+    {
+      "root": "S1",
+      "sensory": "posterolateral calf, lateral/plantar foot tendency",
+      "motor": "plantar flexion, eversion",
+      "reflex": "Achilles may reduce",
+      "typicalDisc": "usually L5-S1 paracentral/subarticular"
+    }
+  ],
+  "differentials": [
+    "Lumbar spinal stenosis with neurogenic claudication",
+    "Facet-mediated or non-specific axial low back pain",
+    "Sacroiliac joint pain",
+    "Hip osteoarthritis, labral pathology or greater-trochanteric pain syndrome",
+    "Common peroneal neuropathy or other peripheral nerve entrapment",
+    "Peripheral polyneuropathy",
+    "Lumbosacral plexopathy",
+    "Piriformis/deep gluteal syndrome",
+    "Vascular claudication",
+    "Herpes zoster / zoster sine herpete",
+    "Spinal infection, malignancy, fracture or inflammatory disease"
+  ],
+  "investigations": [
+    "MRI lumbar spine without contrast is the preferred non-invasive test to confirm a suspected disc herniation when imaging is clinically indicated.",
+    "In patients without significant neurological deficit, WFNS recommends radiological assessment when persistent symptoms remain after roughly 6-12 weeks; earlier imaging is appropriate with motor deficit or red flags.",
+    "Do not order routine MRI for every acute episode of sciatica when symptoms are improving and no red flags are present; imaging should answer a management-changing question.",
+    "MRI with contrast is reserved for selected postoperative, infection, tumor or inflammatory questions.",
+    "CT or CT myelography can be used when MRI is contraindicated or for specific bony/specialist questions.",
+    "Electrodiagnostic testing is useful when the clinical level is uncertain, symptoms are atypical, peripheral neuropathy/plexopathy is a competing diagnosis, or imaging and examination do not agree.",
+    "Targeted laboratory tests are used only when infection, inflammatory disease or malignancy is suspected."
+  ],
+  "imagingCorrelation": [
+    "Document level, side and location: central, paracentral/subarticular, foraminal or far-lateral.",
+    "Describe morphology: protrusion, extrusion, sequestration/migration; avoid calling every broad bulge a herniation.",
+    "Identify which root is compressed: traversing versus exiting root.",
+    "Report lateral recess, foraminal and central canal compromise separately.",
+    "MRI severity must be interpreted with the neurological pattern; a large asymptomatic herniation can exist, while a smaller strategically placed foraminal fragment can be highly symptomatic.",
+    "Note additional findings relevant to treatment planning: disc height loss, Modic change, facet arthropathy, spondylolisthesis, congenital canal narrowing or prior surgery."
+  ],
+  "management": [
+    "When there is no cauda equina syndrome or major/progressive motor deficit, initial management is usually nonoperative because many patients improve and disc material may regress over time.",
+    "Maintain tolerable activity; avoid prolonged bed rest. Short relative rest may be reasonable during severe acute pain, followed by progressive activity.",
+    "Use individualized rehabilitation: directional-preference exercises where appropriate, trunk/hip conditioning, neural mobility when tolerated, walking and graded return to work/activity.",
+    "Medication decisions require patient-specific gastrointestinal, renal, cardiovascular, hepatic, pregnancy and interaction risk assessment; the chapter should not auto-generate drug prescriptions.",
+    "NICE advises against gabapentinoids/other antiepileptics, oral corticosteroids and benzodiazepines for sciatica because overall benefit is lacking and harms exist; chronic opioids are not recommended.",
+    "Epidural local anaesthetic plus steroid can be considered for acute severe sciatica in a specialist pathway; benefit is generally symptom-focused and does not replace emergency surgery when major neurological compromise is present.",
+    "Urgent surgical/spine assessment is required for cauda equina syndrome and progressive or severe motor deficit.",
+    "Surgical decompression/discectomy is appropriate to consider when non-surgical treatment has not improved pain/function and MRI findings are concordant with the sciatic symptoms.",
+    "WFNS recommends individualized surgery for failed conservative care, severe motor deficit, progressive neurological impairment or cauda equina syndrome; earlier surgery is favored when major motor deficit is present.",
+    "Routine fusion is not indicated after primary discectomy for an isolated herniated disc without instability or another specific fusion indication."
+  ],
+  "rehab": [
+    "Acute high-irritability phase: education, positions of comfort, short frequent walks, pain-limited mobility and avoidance of repeated provocative loading.",
+    "Recovery phase: restore lumbar/hip mobility as needed, progressive trunk and hip strength, gait normalization and graded neural mobility if tolerated.",
+    "Functional phase: progressive sitting, driving, lifting/hinge practice, work simulation and aerobic conditioning.",
+    "Motor deficit requires serial objective reassessment rather than pain-only follow-up.",
+    "After discectomy, rehabilitation should follow the surgeon's restrictions and then progress toward walking, trunk/hip conditioning and task-specific loading.",
+    "Reassess urgently for new saddle sensory change, bladder/bowel dysfunction, rapidly worsening weakness or bilateral neurological symptoms."
+  ],
+  "outcomes": [
+    "Leg pain NRS/VAS",
+    "Back pain NRS/VAS",
+    "Oswestry Disability Index (ODI)",
+    "Roland-Morris Disability Questionnaire",
+    "Motor MRC grade by affected root",
+    "Dermatomal sensory findings",
+    "Patellar/Achilles reflex asymmetry",
+    "SLR angle/response where useful",
+    "Walking and sitting tolerance",
+    "Return to work / ADL participation",
+    "Patient Global Impression of Change"
+  ],
+  "ayurvedaFramework": {
+    "vyadhi": "Gridhrasi may correlate with a radicular pain phenotype, especially when buttock-to-leg radiation and functional limitation are present, but lumbar disc herniation itself is a modern structural diagnosis and should remain explicitly documented.",
+    "principle": "Use parallel documentation: modern localization and red-flag assessment first, followed by Ayurvedic Nidana-Samprapti assessment. Do not allow a Gridhrasi label to obscure cauda equina syndrome, severe motor deficit, tumor, infection or fracture.",
+    "assessment": [
+      "Nidana Panchaka",
+      "Vataja versus Vata-Kaphaja clinical phenotype where defensible",
+      "Relevant Vata subtypes and Avarana considerations",
+      "Guna predominance",
+      "Ama/Nirama",
+      "Agni and Koshtha",
+      "Asthi/Majja/Mamsa and other Dushya/Dhatu assessment",
+      "Srotas/Srotodushti",
+      "Rogamarga",
+      "Shatkriyakala where clinically defensible",
+      "Bala/Avastha",
+      "Samprapti Ghataka",
+      "Functional impact and neurological deficit documented separately from Ayurvedic descriptors"
+    ],
+    "clinicalFeatures": "Record the exact radicular distribution, sensory changes, motor power, reflexes and MRI localization before mapping the Ayurvedic phenotype.",
+    "treatmentSafety": "Nidana Parivarjana, Shamana, Basti and external/Panchakarma procedures require individualized assessment. Forceful spinal manipulation or delay of referral is unsafe when cauda equina syndrome, progressive motor weakness, fracture, infection, malignancy or major neurological compromise is suspected."
+  },
+  "patientHandout": [
+    "A lumbar disc herniation means some disc material has moved beyond its normal boundary. It matters clinically when it irritates or compresses a nerve root and matches your symptoms and examination.",
+    "Many patients improve without surgery, and herniated disc material can shrink over time. Staying gently active and following a graded rehabilitation program is usually preferred to prolonged bed rest.",
+    "MRI is most useful when symptoms persist, neurological weakness is present, red flags exist, or a procedure/surgery is being considered.",
+    "Seek urgent care for new difficulty passing urine, loss of bladder/bowel control, numbness around the saddle/genital area, rapidly worsening leg weakness or severe bilateral neurological symptoms.",
+    "Surgery may be considered when disabling leg pain or neurological deficit does not improve with appropriate non-surgical care and the MRI finding matches the affected nerve root.",
+    "An MRI report should never be interpreted by size alone; the level, side, location and clinical neurological findings must agree."
+  ],
+  "sources": [
+    {
+      "short": "WFNS 2024",
+      "title": "WFNS Spine Committee: Lower Back Pain and Lumbar Disc Herniation Recommendations",
+      "url": "https://wfns-spine.org/lower-back-pain-and-lumbar-disc-herniation-recommendations",
+      "role": "current international recommendations on diagnosis, MRI timing, conservative care, surgery and recurrence"
+    },
+    {
+      "short": "NICE NG59",
+      "title": "Low back pain and sciatica in over 16s: assessment and management",
+      "url": "https://www.nice.org.uk/guidance/ng59/chapter/Recommendations",
+      "role": "sciatica medication cautions, epidural option and decompression referral principles"
+    },
+    {
+      "short": "ACR Low Back Pain",
+      "title": "ACR Appropriateness Criteria: Low Back Pain",
+      "url": "https://acsearch.acr.org/docs/69483/Narrative/",
+      "role": "scenario-based imaging appropriateness and red-flag imaging pathways"
+    },
+    {
+      "short": "NASS",
+      "title": "Diagnosis and Treatment of Lumbar Disc Herniation with Radiculopathy",
+      "url": "https://www.spine.org/portals/0/assets/downloads/researchclinicalcare/guidelines/lumbardischerniation.pdf",
+      "role": "specialty guideline for examination, MRI and treatment; older evidence base retained as a secondary reference"
+    }
+  ]
+}

@@ -1613,5 +1613,18 @@
     "validationStatus": "Source checked; clinician validation pending",
     "provenance": "Recovered SKMCIS clinical pack + WHO/NICE/ACR synthesis",
     "goldChapterId": "SKM-LSP-0002"
+  },
+  {
+    "recordId": "SKM-LSP-0003",
+    "name": "Lumbar Disc Herniation / PIVD with Radiculopathy",
+    "category": "Spine & Neurology",
+    "sourceLayer": "Gold Chapter",
+    "sourceId": "New source-checked synthesis",
+    "modernName": "Lumbar disc herniation with radiculopathy",
+    "ayurveda": "Gridhrasi phenotype correlation (structural non-equivalence preserved)",
+    "contentStatus": "Full structured chapter v1.0-draft",
+    "validationStatus": "Source checked; clinician validation pending",
+    "provenance": "WFNS 2024 + NICE NG59 + ACR + NASS",
+    "goldChapterId": "SKM-LSP-0003"
   }
 ]
