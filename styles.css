@@ -66,3 +66,11 @@ footer b{color:#526773;font-weight:750}
 .rxStatus{display:inline-block;padding:4px 7px;border-radius:999px;font-size:11px;font-weight:800}.rxStatus.green{background:#e9f6ee;color:#1f7a48}.rxStatus.amber{background:#fff3d6;color:#956200}.rxStatus.red{background:#fdebec;color:#b4232c}.rxStatus.blue{background:#e8f2fb;color:#1769aa}
 .prescriberNote{margin-top:10px;padding:10px 11px;border-radius:9px;background:#fff8e8;border:1px solid #efdfb1;color:#6b5417;font-size:12px}
 @media(max-width:760px){.prescriberBand{flex-direction:column;align-items:flex-start}.prescriberJump{justify-content:flex-start}}
+
+/* V4.5 Advanced Clinical Reasoning */
+.kb#sec-clinicalReasoning{border-left:7px solid #7c5bb3;background:#fcfaff}
+.kb#sec-clinicalReasoning>h2{color:#5c3d8a}
+.reasoningHeader{background:linear-gradient(135deg,#f5efff,#faf8ff);border:1px solid #e0d4ef;border-radius:12px;padding:12px 14px;margin-bottom:12px}.reasoningHeader h2{margin:3px 0 0;color:#4f3579}
+.reasonTable{width:100%;border-collapse:collapse;margin:8px 0 16px;font-size:13px}.reasonTable th,.reasonTable td{border:1px solid #d9e1e6;padding:8px;vertical-align:top;text-align:left}.reasonTable th{background:#f0ebf8;color:#422e66;position:sticky;top:150px;z-index:2}.reasonTable tr:nth-child(even) td{background:#fff}
+.reasonPriority{display:inline-block;padding:4px 7px;border-radius:999px;background:#eef1f4;font-weight:800;font-size:11px;white-space:normal}
+@media(max-width:760px){.reasonTable{display:block;overflow-x:auto}.reasonTable th{position:static}}
