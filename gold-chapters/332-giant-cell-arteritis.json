@@ -1,0 +1,94 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-RHE-GCA-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Giant Cell Arteritis",
+  "synonyms": [],
+  "category": "Rheumatology > Large-Vessel Vasculitis",
+  "tags": [
+    "giant cell arteritis"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Granulomatous vasculitis of medium and large arteries in adults over 50, classically causing headache, jaw claudication and risk of irreversible visual loss.",
+  "clinicalPattern": {
+    "typical": [
+      "New headache",
+      "Scalp tenderness",
+      "Jaw claudication",
+      "Visual symptoms",
+      "Polymyalgia rheumatica may coexist"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Any visual loss or diplopia"
+    },
+    {
+      "level": "RED",
+      "item": "Neurological ischemic symptoms"
+    },
+    {
+      "level": "RED",
+      "item": "Aortic complication"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Temporal artery tenderness",
+      "Visual/cranial nerve exam",
+      "Large-vessel pulse assessment"
+    ]
+  },
+  "differentials": [
+    "Migraine",
+    "TMJ disorder",
+    "Takayasu arteritis"
+  ],
+  "investigations": {
+    "principle": "Inflammatory markers plus temporal/axillary ultrasound, biopsy or large-vessel imaging are used according to pathway.",
+    "MRI": "Use MRI when neural, soft-tissue, marrow, vascular, occult injury or other condition-specific assessment requires it.",
+    "radiographs": "Use radiographs and/or CT according to the condition-specific imaging pathway."
+  },
+  "management": {
+    "green": [
+      "Immediate specialist treatment when suspected with visual symptoms"
+    ],
+    "amber": [
+      "Treatment should not be delayed while waiting for confirmatory testing in high-risk presentations."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Shirah/Rakta-vaha phenotype may be documented only in parallel."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Granulomatous vasculitis of medium and large arteries in adults over 50, classically causing headache, jaw claudication and risk of irreversible visual loss.",
+    "urgent": "Seek urgent assessment for acute/progressive neurological deficit, severe vascular symptoms, infection/systemic illness, major trauma, sphincter change or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "EULAR",
+      "title": "Large Vessel Vasculitis Recommendations",
+      "url": "https://ard.bmj.com/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V2.9-BATCH-15",
+    "proposedGoldChapterNumber": 332
+  }
+}

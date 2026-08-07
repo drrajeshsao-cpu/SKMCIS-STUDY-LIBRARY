@@ -1,0 +1,93 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-PED-AIIS-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Anterior Inferior Iliac Spine Avulsion Fracture",
+  "synonyms": [],
+  "category": "Pediatric Orthopedics > Pelvic Avulsion",
+  "tags": [
+    "anterior inferior iliac spine avulsion fracture"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Adolescent avulsion fracture of the AIIS caused by forceful contraction of rectus femoris during kicking or sprinting.",
+  "clinicalPattern": {
+    "typical": [
+      "Acute anterior hip pain",
+      "Pain after kicking",
+      "Localized AIIS tenderness"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Large displacement"
+    },
+    {
+      "level": "RED",
+      "item": "Hip impingement from hypertrophic healing"
+    },
+    {
+      "level": "RED",
+      "item": "Neurovascular compromise"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Hip flexion/knee extension testing",
+      "Palpation",
+      "Gait"
+    ]
+  },
+  "differentials": [
+    "Rectus femoris strain",
+    "ASIS avulsion",
+    "Hip labral injury"
+  ],
+  "investigations": {
+    "principle": "Radiographs are first-line; CT/MRI is selected for displacement or chronic impingement.",
+    "MRI": "Use MRI when neural, soft-tissue, marrow, vascular, occult injury or other condition-specific assessment requires it.",
+    "radiographs": "Use radiographs and/or CT according to the condition-specific imaging pathway."
+  },
+  "management": {
+    "green": [
+      "Protected weight bearing",
+      "Progressive rehabilitation"
+    ],
+    "amber": [
+      "Displaced fractures or symptomatic exostosis may require surgery."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Shroni-bhagna phenotype may be documented."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Adolescent avulsion fracture of the AIIS caused by forceful contraction of rectus femoris during kicking or sprinting.",
+    "urgent": "Seek urgent assessment for acute/progressive neurological deficit, severe vascular symptoms, infection/systemic illness, major trauma, sphincter change or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "POSNA",
+      "title": "Pelvic Avulsion Fractures resources",
+      "url": "https://posna.org/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V2.9-BATCH-15",
+    "proposedGoldChapterNumber": 339
+  }
+}

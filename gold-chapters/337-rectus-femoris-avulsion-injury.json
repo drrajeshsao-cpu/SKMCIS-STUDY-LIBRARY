@@ -1,0 +1,93 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-ORT-RFA-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Rectus Femoris Avulsion Injury",
+  "synonyms": [],
+  "category": "Orthopedics > Sports > Hip/Thigh",
+  "tags": [
+    "rectus femoris avulsion injury"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Avulsion or high-grade proximal rectus femoris injury, often near the AIIS in adolescents or at the direct/indirect tendon origins in athletes.",
+  "clinicalPattern": {
+    "typical": [
+      "Sudden anterior hip/thigh pain",
+      "Kicking/sprinting mechanism",
+      "Weak hip flexion or knee extension"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Displaced bony avulsion"
+    },
+    {
+      "level": "RED",
+      "item": "Large hematoma"
+    },
+    {
+      "level": "RED",
+      "item": "Neurovascular symptoms"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Hip flexion/knee extension strength",
+      "Palpation",
+      "Gait"
+    ]
+  },
+  "differentials": [
+    "Hip flexor strain",
+    "Quadriceps strain",
+    "AIIS avulsion fracture"
+  ],
+  "investigations": {
+    "principle": "Radiographs assess adolescent bony avulsion; MRI defines tendon injury.",
+    "MRI": "Use MRI when neural, soft-tissue, marrow, vascular, occult injury or other condition-specific assessment requires it.",
+    "radiographs": "Use radiographs and/or CT according to the condition-specific imaging pathway."
+  },
+  "management": {
+    "green": [
+      "Protected loading",
+      "Progressive rehabilitation"
+    ],
+    "amber": [
+      "Large displaced avulsions or high-performance complete tears may need surgery."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Mamsa/Snayu avulsion phenotype may be documented."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Avulsion or high-grade proximal rectus femoris injury, often near the AIIS in adolescents or at the direct/indirect tendon origins in athletes.",
+    "urgent": "Seek urgent assessment for acute/progressive neurological deficit, severe vascular symptoms, infection/systemic illness, major trauma, sphincter change or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "Sports medicine literature",
+      "title": "Rectus Femoris Injury reviews",
+      "url": "https://bjsm.bmj.com/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V2.9-BATCH-15",
+    "proposedGoldChapterNumber": 337
+  }
+}

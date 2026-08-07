@@ -1,0 +1,96 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-RHE-MCTD-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Mixed Connective Tissue Disease",
+  "synonyms": [],
+  "category": "Rheumatology > Systemic Autoimmune",
+  "tags": [
+    "mixed connective tissue disease"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Overlap autoimmune connective-tissue disease associated with anti-U1 RNP antibodies and features of lupus, systemic sclerosis and inflammatory myopathy.",
+  "clinicalPattern": {
+    "typical": [
+      "Raynaud phenomenon",
+      "Puffy hands",
+      "Arthritis",
+      "Myositis",
+      "Esophageal symptoms"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Pulmonary hypertension"
+    },
+    {
+      "level": "RED",
+      "item": "Interstitial lung disease"
+    },
+    {
+      "level": "RED",
+      "item": "Severe myositis"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Joint exam",
+      "Skin/vascular assessment",
+      "Muscle strength",
+      "Cardiopulmonary screen"
+    ]
+  },
+  "differentials": [
+    "SLE",
+    "Systemic sclerosis",
+    "Polymyositis"
+  ],
+  "investigations": {
+    "principle": "Autoantibodies and organ-directed cardiopulmonary testing are central.",
+    "MRI": "Use MRI when neural, soft-tissue, marrow, vascular, occult injury or other condition-specific assessment requires it.",
+    "radiographs": "Use radiographs and/or CT according to the condition-specific imaging pathway."
+  },
+  "management": {
+    "green": [
+      "Rheumatology-led monitoring",
+      "Exercise and joint/muscle rehabilitation"
+    ],
+    "amber": [
+      "Treatment depends on dominant organ involvement."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Rakta/Snayu/Mamsa systemic phenotype may be documented only in parallel."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Overlap autoimmune connective-tissue disease associated with anti-U1 RNP antibodies and features of lupus, systemic sclerosis and inflammatory myopathy.",
+    "urgent": "Seek urgent assessment for acute/progressive neurological deficit, severe vascular symptoms, infection/systemic illness, major trauma, sphincter change or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "EULAR",
+      "title": "Connective Tissue Disease resources",
+      "url": "https://ard.bmj.com/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V2.9-BATCH-15",
+    "proposedGoldChapterNumber": 329
+  }
+}

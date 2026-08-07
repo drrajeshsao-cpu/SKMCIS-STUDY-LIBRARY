@@ -1,0 +1,98 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-RHE-APS-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Antiphospholipid Syndrome - Musculoskeletal Relevance",
+  "synonyms": [],
+  "category": "Rheumatology > Thrombotic Autoimmune",
+  "tags": [
+    "antiphospholipid syndrome - musculoskeletal relevance"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Autoimmune thrombophilia defined by clinical thrombosis or obstetric morbidity with persistent antiphospholipid antibodies; musculoskeletal relevance includes ischemic bone complications and thrombotic mimics of limb pain.",
+  "clinicalPattern": {
+    "typical": [
+      "History of thrombosis",
+      "Recurrent pregnancy morbidity",
+      "Livedo reticularis",
+      "Possible osteonecrosis risk"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Acute limb ischemia"
+    },
+    {
+      "level": "RED",
+      "item": "DVT/PE"
+    },
+    {
+      "level": "RED",
+      "item": "Stroke/TIA"
+    },
+    {
+      "level": "RED",
+      "item": "Catastrophic APS"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Vascular exam",
+      "Neurological screen",
+      "Joint/bone assessment when symptomatic"
+    ]
+  },
+  "differentials": [
+    "DVT from other cause",
+    "SLE",
+    "Vasculitis"
+  ],
+  "investigations": {
+    "principle": "Persistent antiphospholipid antibody testing plus cause-directed vascular imaging.",
+    "MRI": "Use MRI when neural, soft-tissue, marrow, vascular, occult injury or other condition-specific assessment requires it.",
+    "radiographs": "Use radiographs and/or CT according to the condition-specific imaging pathway."
+  },
+  "management": {
+    "green": [
+      "Urgent thrombosis pathway when acute",
+      "Rheumatology/hematology follow-up"
+    ],
+    "amber": [
+      "Anticoagulation strategy is specialist-directed; limb pain should not be assumed mechanical."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Rakta-vaha pathology may be documented only as a parallel framework."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Autoimmune thrombophilia defined by clinical thrombosis or obstetric morbidity with persistent antiphospholipid antibodies; musculoskeletal relevance includes ischemic bone complications and thrombotic mimics of limb pain.",
+    "urgent": "Seek urgent assessment for acute/progressive neurological deficit, severe vascular symptoms, infection/systemic illness, major trauma, sphincter change or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "EULAR",
+      "title": "Antiphospholipid Syndrome Recommendations",
+      "url": "https://ard.bmj.com/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V2.9-BATCH-15",
+    "proposedGoldChapterNumber": 330
+  }
+}

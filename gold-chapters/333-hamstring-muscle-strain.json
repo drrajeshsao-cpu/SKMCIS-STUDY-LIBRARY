@@ -1,0 +1,96 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-ORT-HMS-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Hamstring Muscle Strain",
+  "synonyms": [],
+  "category": "Orthopedics > Sports > Muscle Injury",
+  "tags": [
+    "hamstring muscle strain"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Acute musculotendinous injury of the hamstring complex, common during sprinting, acceleration or excessive stretch.",
+  "clinicalPattern": {
+    "typical": [
+      "Posterior thigh pain",
+      "Pain with sprinting",
+      "Tenderness",
+      "Bruising in higher-grade injury"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Major proximal avulsion"
+    },
+    {
+      "level": "RED",
+      "item": "Large hematoma"
+    },
+    {
+      "level": "RED",
+      "item": "Sciatic nerve symptoms"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Hamstring strength",
+      "Length testing",
+      "Palpation",
+      "Gait"
+    ]
+  },
+  "differentials": [
+    "Proximal hamstring tendinopathy",
+    "Lumbar radiculopathy",
+    "Deep gluteal syndrome"
+  ],
+  "investigations": {
+    "principle": "Usually clinical; MRI/ultrasound is used for high-grade injury or avulsion.",
+    "MRI": "Use MRI when neural, soft-tissue, marrow, vascular, occult injury or other condition-specific assessment requires it.",
+    "radiographs": "Use radiographs and/or CT according to the condition-specific imaging pathway."
+  },
+  "management": {
+    "green": [
+      "Early protected movement",
+      "Progressive eccentric/lengthened loading",
+      "Return-to-sprint progression"
+    ],
+    "amber": [
+      "Proximal multi-tendon avulsion may require early surgical review."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Mamsa/Snayu injury phenotype may be documented."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Acute musculotendinous injury of the hamstring complex, common during sprinting, acceleration or excessive stretch.",
+    "urgent": "Seek urgent assessment for acute/progressive neurological deficit, severe vascular symptoms, infection/systemic illness, major trauma, sphincter change or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "BJSM",
+      "title": "Hamstring Injury Rehabilitation resources",
+      "url": "https://bjsm.bmj.com/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V2.9-BATCH-15",
+    "proposedGoldChapterNumber": 333
+  }
+}

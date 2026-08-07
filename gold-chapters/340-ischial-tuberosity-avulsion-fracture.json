@@ -1,0 +1,93 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-PED-ITA-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Ischial Tuberosity Avulsion Fracture",
+  "synonyms": [],
+  "category": "Pediatric Orthopedics > Pelvic Avulsion",
+  "tags": [
+    "ischial tuberosity avulsion fracture"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Adolescent apophyseal avulsion of the ischial tuberosity at the hamstring origin, caused by sudden hip flexion with knee extension or sprinting.",
+  "clinicalPattern": {
+    "typical": [
+      "Sudden buttock pain",
+      "Pain with hamstring stretch",
+      "Difficulty sitting or running"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Large displacement"
+    },
+    {
+      "level": "RED",
+      "item": "Sciatic nerve symptoms"
+    },
+    {
+      "level": "RED",
+      "item": "Chronic nonunion"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Ischial tenderness",
+      "Hamstring strength",
+      "Sciatic nerve exam"
+    ]
+  },
+  "differentials": [
+    "Proximal hamstring strain",
+    "Hamstring tendinopathy",
+    "Deep gluteal syndrome"
+  ],
+  "investigations": {
+    "principle": "Pelvic radiographs are first-line; MRI/CT helps quantify displacement and soft-tissue injury.",
+    "MRI": "Use MRI when neural, soft-tissue, marrow, vascular, occult injury or other condition-specific assessment requires it.",
+    "radiographs": "Use radiographs and/or CT according to the condition-specific imaging pathway."
+  },
+  "management": {
+    "green": [
+      "Protected weight bearing",
+      "Progressive hamstring rehabilitation"
+    ],
+    "amber": [
+      "Marked displacement or symptomatic nonunion may require surgery."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Shroni-bhagna/Snayu phenotype may be documented after modern imaging."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Adolescent apophyseal avulsion of the ischial tuberosity at the hamstring origin, caused by sudden hip flexion with knee extension or sprinting.",
+    "urgent": "Seek urgent assessment for acute/progressive neurological deficit, severe vascular symptoms, infection/systemic illness, major trauma, sphincter change or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "POSNA",
+      "title": "Pelvic Avulsion Fractures resources",
+      "url": "https://posna.org/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V2.9-BATCH-15",
+    "proposedGoldChapterNumber": 340
+  }
+}

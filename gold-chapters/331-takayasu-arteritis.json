@@ -1,0 +1,97 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-RHE-TAK-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Takayasu Arteritis",
+  "synonyms": [],
+  "category": "Rheumatology > Large-Vessel Vasculitis",
+  "tags": [
+    "takayasu arteritis"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Chronic granulomatous large-vessel vasculitis affecting the aorta and major branches, commonly in younger women.",
+  "clinicalPattern": {
+    "typical": [
+      "Limb claudication",
+      "Pulse asymmetry",
+      "Bruit",
+      "Constitutional symptoms"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Acute limb ischemia"
+    },
+    {
+      "level": "RED",
+      "item": "Stroke"
+    },
+    {
+      "level": "RED",
+      "item": "Aortic complication"
+    },
+    {
+      "level": "RED",
+      "item": "Severe hypertension"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Bilateral pulses/BP",
+      "Bruits",
+      "Vascular and neurological exam"
+    ]
+  },
+  "differentials": [
+    "Atherosclerotic disease",
+    "Thoracic outlet vascular syndrome",
+    "Coarctation"
+  ],
+  "investigations": {
+    "principle": "CTA/MRA/PET and inflammatory markers are used according to disease phase.",
+    "MRI": "Use MRI when neural, soft-tissue, marrow, vascular, occult injury or other condition-specific assessment requires it.",
+    "radiographs": "Use radiographs and/or CT according to the condition-specific imaging pathway."
+  },
+  "management": {
+    "green": [
+      "Urgent rheumatology/vascular care when active or ischemic"
+    ],
+    "amber": [
+      "Immunosuppression and revascularization timing require specialist coordination."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Rakta-vaha/Srotas vascular phenotype may be documented only in parallel."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Chronic granulomatous large-vessel vasculitis affecting the aorta and major branches, commonly in younger women.",
+    "urgent": "Seek urgent assessment for acute/progressive neurological deficit, severe vascular symptoms, infection/systemic illness, major trauma, sphincter change or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "EULAR",
+      "title": "Large Vessel Vasculitis Recommendations",
+      "url": "https://ard.bmj.com/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V2.9-BATCH-15",
+    "proposedGoldChapterNumber": 331
+  }
+}

@@ -1,0 +1,94 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-NEU-LTN-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Long Thoracic Nerve Palsy",
+  "synonyms": [],
+  "category": "Neurology/Orthopedics > Peripheral Nerve",
+  "tags": [
+    "long thoracic nerve palsy"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Neuropathy of the long thoracic nerve causing serratus anterior weakness and medial scapular winging.",
+  "clinicalPattern": {
+    "typical": [
+      "Scapular winging",
+      "Difficulty with overhead elevation",
+      "Shoulder fatigue"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Progressive widespread weakness"
+    },
+    {
+      "level": "RED",
+      "item": "Traumatic plexus injury"
+    },
+    {
+      "level": "RED",
+      "item": "Respiratory or systemic neuromuscular disease"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Wall push-up",
+      "Serratus strength",
+      "Scapular motion",
+      "Cervical/plexus screen"
+    ]
+  },
+  "differentials": [
+    "Spinal accessory nerve palsy",
+    "FSHD",
+    "Cervical radiculopathy"
+  ],
+  "investigations": {
+    "principle": "Electrodiagnostics help confirm localization; imaging is cause-directed.",
+    "MRI": "Use MRI when neural, soft-tissue, marrow, vascular, occult injury or other condition-specific assessment requires it.",
+    "radiographs": "Use radiographs and/or CT according to the condition-specific imaging pathway."
+  },
+  "management": {
+    "green": [
+      "Scapular stabilization rehabilitation",
+      "Avoid excessive traction/compression"
+    ],
+    "amber": [
+      "Persistent severe palsy may require nerve or scapular surgery in selected cases."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Amsa/Vata-neuropathy phenotype may be documented only in parallel."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Neuropathy of the long thoracic nerve causing serratus anterior weakness and medial scapular winging.",
+    "urgent": "Seek urgent assessment for acute/progressive neurological deficit, severe vascular symptoms, infection/systemic illness, major trauma, sphincter change or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "AANEM",
+      "title": "Peripheral Nerve resources",
+      "url": "https://www.aanem.org/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V2.9-BATCH-15",
+    "proposedGoldChapterNumber": 341
+  }
+}

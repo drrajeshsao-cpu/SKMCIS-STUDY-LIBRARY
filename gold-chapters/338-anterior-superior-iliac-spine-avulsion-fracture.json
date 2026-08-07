@@ -1,0 +1,93 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-PED-ASIS-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Anterior Superior Iliac Spine Avulsion Fracture",
+  "synonyms": [],
+  "category": "Pediatric Orthopedics > Pelvic Avulsion",
+  "tags": [
+    "anterior superior iliac spine avulsion fracture"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Adolescent apophyseal avulsion fracture of the ASIS, usually caused by sudden forceful sartorius or tensor fasciae latae contraction.",
+  "clinicalPattern": {
+    "typical": [
+      "Sudden pelvic pain during sprinting",
+      "Localized ASIS tenderness",
+      "Pain with hip movement"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Marked displacement"
+    },
+    {
+      "level": "RED",
+      "item": "Neurovascular symptoms"
+    },
+    {
+      "level": "RED",
+      "item": "Open injury"
+    }
+  ],
+  "examination": {
+    "core": [
+      "ASIS tenderness",
+      "Hip ROM",
+      "Gait"
+    ]
+  },
+  "differentials": [
+    "Hip flexor strain",
+    "AIIS avulsion",
+    "Iliac crest injury"
+  ],
+  "investigations": {
+    "principle": "Pelvic radiographs usually diagnose; CT/MRI is selective.",
+    "MRI": "Use MRI when neural, soft-tissue, marrow, vascular, occult injury or other condition-specific assessment requires it.",
+    "radiographs": "Use radiographs and/or CT according to the condition-specific imaging pathway."
+  },
+  "management": {
+    "green": [
+      "Protected weight bearing",
+      "Gradual return to sport"
+    ],
+    "amber": [
+      "Large displacement or persistent symptoms may need fixation."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Shroni-bhagna phenotype may be documented after modern fracture assessment."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Adolescent apophyseal avulsion fracture of the ASIS, usually caused by sudden forceful sartorius or tensor fasciae latae contraction.",
+    "urgent": "Seek urgent assessment for acute/progressive neurological deficit, severe vascular symptoms, infection/systemic illness, major trauma, sphincter change or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "POSNA",
+      "title": "Pelvic Avulsion Fractures resources",
+      "url": "https://posna.org/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V2.9-BATCH-15",
+    "proposedGoldChapterNumber": 338
+  }
+}

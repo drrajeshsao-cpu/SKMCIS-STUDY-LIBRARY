@@ -1,0 +1,95 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-ORT-CMS-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Calf Muscle Strain",
+  "synonyms": [],
+  "category": "Orthopedics > Sports > Muscle Injury",
+  "tags": [
+    "calf muscle strain"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Acute injury of gastrocnemius or soleus musculotendinous tissue causing calf pain, often during acceleration or push-off.",
+  "clinicalPattern": {
+    "typical": [
+      "Sudden calf pain",
+      "Pain with walking or push-off",
+      "Tenderness",
+      "Bruising may occur"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "DVT"
+    },
+    {
+      "level": "RED",
+      "item": "Achilles rupture"
+    },
+    {
+      "level": "RED",
+      "item": "Compartment syndrome"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Calf palpation",
+      "Resisted plantar flexion",
+      "Thompson test",
+      "DVT screen when indicated"
+    ]
+  },
+  "differentials": [
+    "DVT",
+    "Achilles rupture",
+    "Baker cyst rupture"
+  ],
+  "investigations": {
+    "principle": "Usually clinical; ultrasound/MRI is selective, while vascular ultrasound is used when DVT is suspected.",
+    "MRI": "Use MRI when neural, soft-tissue, marrow, vascular, occult injury or other condition-specific assessment requires it.",
+    "radiographs": "Use radiographs and/or CT according to the condition-specific imaging pathway."
+  },
+  "management": {
+    "green": [
+      "Early protected loading",
+      "Progressive calf strengthening"
+    ],
+    "amber": [
+      "Persistent swelling or thrombotic risk requires vascular reassessment."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Jangha/Mamsa-Snayu injury phenotype may be documented."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Acute injury of gastrocnemius or soleus musculotendinous tissue causing calf pain, often during acceleration or push-off.",
+    "urgent": "Seek urgent assessment for acute/progressive neurological deficit, severe vascular symptoms, infection/systemic illness, major trauma, sphincter change or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "BJSM",
+      "title": "Calf Muscle Injury resources",
+      "url": "https://bjsm.bmj.com/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V2.9-BATCH-15",
+    "proposedGoldChapterNumber": 335
+  }
+}

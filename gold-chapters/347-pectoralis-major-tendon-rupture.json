@@ -1,0 +1,94 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-ORT-PMTR-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Pectoralis Major Tendon Rupture",
+  "synonyms": [],
+  "category": "Orthopedics > Shoulder/Chest > Tendon Rupture",
+  "tags": [
+    "pectoralis major tendon rupture"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Partial or complete rupture of the pectoralis major tendon, usually during forceful eccentric loading such as bench press.",
+  "clinicalPattern": {
+    "typical": [
+      "Sudden chest/upper-arm pain",
+      "Bruising",
+      "Loss of anterior axillary fold",
+      "Weakness with adduction/internal rotation"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Open injury"
+    },
+    {
+      "level": "RED",
+      "item": "Neurovascular compromise"
+    },
+    {
+      "level": "RED",
+      "item": "Major associated shoulder trauma"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Chest/axillary contour",
+      "Adduction/internal rotation strength",
+      "Shoulder and neurovascular exam"
+    ]
+  },
+  "differentials": [
+    "Pectoralis strain",
+    "Proximal humerus injury",
+    "Biceps rupture"
+  ],
+  "investigations": {
+    "principle": "MRI of the chest/shoulder region defines tear location and retraction; ultrasound may assist.",
+    "MRI": "Use MRI when neural, soft-tissue, marrow, vascular, occult injury or other condition-specific assessment requires it.",
+    "radiographs": "Use radiographs and/or CT according to the condition-specific imaging pathway."
+  },
+  "management": {
+    "green": [
+      "Early orthopedic sports referral",
+      "Protect injured limb"
+    ],
+    "amber": [
+      "Complete tendon avulsion in active patients is commonly treated surgically for best strength recovery."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Urah/Amsa-Snayu rupture phenotype may be documented only after modern tendon diagnosis."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Partial or complete rupture of the pectoralis major tendon, usually during forceful eccentric loading such as bench press.",
+    "urgent": "Seek urgent assessment for acute/progressive neurological deficit, severe vascular symptoms, infection/systemic illness, major trauma, sphincter change or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "AAOS OrthoInfo",
+      "title": "Pectoralis Major Tendon Tear resources",
+      "url": "https://orthoinfo.aaos.org/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V2.9-BATCH-15",
+    "proposedGoldChapterNumber": 347
+  }
+}

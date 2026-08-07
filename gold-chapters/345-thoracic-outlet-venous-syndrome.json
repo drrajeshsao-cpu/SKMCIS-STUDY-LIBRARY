@@ -1,0 +1,93 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-VAS-VTOS-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Thoracic Outlet Venous Syndrome",
+  "synonyms": [],
+  "category": "Vascular/Orthopedics > Thoracic Outlet",
+  "tags": [
+    "thoracic outlet venous syndrome"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Compression of the subclavian vein at the thoracic outlet, potentially causing effort thrombosis (Paget-Schroetter syndrome).",
+  "clinicalPattern": {
+    "typical": [
+      "Arm swelling",
+      "Cyanosis",
+      "Heaviness after overhead activity",
+      "Dilated superficial veins"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Acute upper-limb DVT"
+    },
+    {
+      "level": "RED",
+      "item": "Pulmonary embolism"
+    },
+    {
+      "level": "RED",
+      "item": "Severe swelling or ischemic symptoms"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Arm circumference/swelling",
+      "Venous collateral pattern",
+      "Neurovascular exam"
+    ]
+  },
+  "differentials": [
+    "Lymphedema",
+    "Cellulitis",
+    "Neurogenic thoracic outlet syndrome"
+  ],
+  "investigations": {
+    "principle": "Duplex ultrasound and venous cross-sectional/contrast imaging are used according to vascular pathway.",
+    "MRI": "Use MRI when neural, soft-tissue, marrow, vascular, occult injury or other condition-specific assessment requires it.",
+    "radiographs": "Use radiographs and/or CT according to the condition-specific imaging pathway."
+  },
+  "management": {
+    "green": [
+      "Urgent vascular assessment when thrombosis is suspected"
+    ],
+    "amber": [
+      "Anticoagulation, thrombolysis and decompression decisions are specialist-directed."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Rakta-vaha/upper-limb swelling phenotype may be documented only in parallel."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Compression of the subclavian vein at the thoracic outlet, potentially causing effort thrombosis (Paget-Schroetter syndrome).",
+    "urgent": "Seek urgent assessment for acute/progressive neurological deficit, severe vascular symptoms, infection/systemic illness, major trauma, sphincter change or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "Society for Vascular Surgery",
+      "title": "Thoracic Outlet Syndrome resources",
+      "url": "https://vascular.org/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V2.9-BATCH-15",
+    "proposedGoldChapterNumber": 345
+  }
+}

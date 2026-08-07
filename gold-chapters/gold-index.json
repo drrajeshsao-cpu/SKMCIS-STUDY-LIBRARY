@@ -325,7 +325,27 @@
     "gold-chapters/324-fracture-nonunion.json",
     "gold-chapters/325-fracture-malunion.json",
     "gold-chapters/326-subchondral-insufficiency-fracture-of-the-knee.json",
-    "gold-chapters/327-mog-antibody-associated-disease.json"
+    "gold-chapters/327-mog-antibody-associated-disease.json",
+    "gold-chapters/328-polymyositis.json",
+    "gold-chapters/329-mixed-connective-tissue-disease.json",
+    "gold-chapters/330-antiphospholipid-syndrome-musculoskeletal-relevance.json",
+    "gold-chapters/331-takayasu-arteritis.json",
+    "gold-chapters/332-giant-cell-arteritis.json",
+    "gold-chapters/333-hamstring-muscle-strain.json",
+    "gold-chapters/334-quadriceps-muscle-strain.json",
+    "gold-chapters/335-calf-muscle-strain.json",
+    "gold-chapters/336-adductor-muscle-strain.json",
+    "gold-chapters/337-rectus-femoris-avulsion-injury.json",
+    "gold-chapters/338-anterior-superior-iliac-spine-avulsion-fracture.json",
+    "gold-chapters/339-anterior-inferior-iliac-spine-avulsion-fracture.json",
+    "gold-chapters/340-ischial-tuberosity-avulsion-fracture.json",
+    "gold-chapters/341-long-thoracic-nerve-palsy.json",
+    "gold-chapters/342-spinal-accessory-nerve-palsy.json",
+    "gold-chapters/343-suprascapular-neuropathy.json",
+    "gold-chapters/344-parsonage-turner-syndrome-neuralgic-amyotrophy.json",
+    "gold-chapters/345-thoracic-outlet-venous-syndrome.json",
+    "gold-chapters/346-thoracic-outlet-arterial-syndrome.json",
+    "gold-chapters/347-pectoralis-major-tendon-rupture.json"
   ],
-  "expectedTotalGold": 328
+  "expectedTotalGold": 348
 }

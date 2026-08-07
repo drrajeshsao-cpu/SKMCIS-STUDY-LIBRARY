@@ -1,0 +1,95 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-ORT-QMS-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Quadriceps Muscle Strain",
+  "synonyms": [],
+  "category": "Orthopedics > Sports > Muscle Injury",
+  "tags": [
+    "quadriceps muscle strain"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Acute strain of quadriceps musculature, commonly rectus femoris, caused by sprinting, kicking or forced stretch.",
+  "clinicalPattern": {
+    "typical": [
+      "Anterior thigh pain",
+      "Pain with resisted knee extension",
+      "Tenderness",
+      "Bruising if severe"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Large avulsion"
+    },
+    {
+      "level": "RED",
+      "item": "Compartment syndrome"
+    },
+    {
+      "level": "RED",
+      "item": "Major hematoma"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Quadriceps strength",
+      "Hip/knee ROM",
+      "Palpation"
+    ]
+  },
+  "differentials": [
+    "Quadriceps tendon rupture",
+    "Femoral neuropathy",
+    "Hip flexor strain"
+  ],
+  "investigations": {
+    "principle": "Usually clinical; MRI/ultrasound is used for severe or atypical injury.",
+    "MRI": "Use MRI when neural, soft-tissue, marrow, vascular, occult injury or other condition-specific assessment requires it.",
+    "radiographs": "Use radiographs and/or CT according to the condition-specific imaging pathway."
+  },
+  "management": {
+    "green": [
+      "Relative rest",
+      "Progressive loading",
+      "Return-to-sport rehabilitation"
+    ],
+    "amber": [
+      "Major proximal rectus femoris avulsion may need specialist review."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Mamsa/Snayu injury phenotype may be documented."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Acute strain of quadriceps musculature, commonly rectus femoris, caused by sprinting, kicking or forced stretch.",
+    "urgent": "Seek urgent assessment for acute/progressive neurological deficit, severe vascular symptoms, infection/systemic illness, major trauma, sphincter change or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "Sports Medicine Australia",
+      "title": "Muscle Injury resources",
+      "url": "https://sma.org.au/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V2.9-BATCH-15",
+    "proposedGoldChapterNumber": 334
+  }
+}

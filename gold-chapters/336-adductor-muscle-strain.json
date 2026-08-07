@@ -1,0 +1,94 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-ORT-AMS-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Adductor Muscle Strain",
+  "synonyms": [],
+  "category": "Orthopedics > Sports > Groin",
+  "tags": [
+    "adductor muscle strain"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Acute musculotendinous injury of the hip adductor group, common in cutting, kicking and change-of-direction sports.",
+  "clinicalPattern": {
+    "typical": [
+      "Acute groin pain",
+      "Pain with resisted adduction",
+      "Localized tenderness"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Pelvic avulsion fracture"
+    },
+    {
+      "level": "RED",
+      "item": "Inability to bear weight"
+    },
+    {
+      "level": "RED",
+      "item": "Testicular/abdominal emergency"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Adductor squeeze",
+      "Palpation",
+      "Hip ROM",
+      "Abdominal/inguinal screen"
+    ]
+  },
+  "differentials": [
+    "Adductor-related groin pain",
+    "FAI",
+    "Inguinal-related groin pain"
+  ],
+  "investigations": {
+    "principle": "Usually clinical; MRI is used for high-grade injury or unclear diagnosis.",
+    "MRI": "Use MRI when neural, soft-tissue, marrow, vascular, occult injury or other condition-specific assessment requires it.",
+    "radiographs": "Use radiographs and/or CT according to the condition-specific imaging pathway."
+  },
+  "management": {
+    "green": [
+      "Progressive adductor loading",
+      "Graded running/cutting return"
+    ],
+    "amber": [
+      "Recurrent groin pain should be reclassified rather than repeatedly treated as an acute strain."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Vankshana/Mamsa-Snayu injury phenotype may be documented."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Acute musculotendinous injury of the hip adductor group, common in cutting, kicking and change-of-direction sports.",
+    "urgent": "Seek urgent assessment for acute/progressive neurological deficit, severe vascular symptoms, infection/systemic illness, major trauma, sphincter change or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "BJSM",
+      "title": "Doha Agreement / Groin Pain resources",
+      "url": "https://bjsm.bmj.com/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V2.9-BATCH-15",
+    "proposedGoldChapterNumber": 336
+  }
+}

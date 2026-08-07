@@ -1,0 +1,93 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-NEU-SSN-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Suprascapular Neuropathy",
+  "synonyms": [],
+  "category": "Neurology/Orthopedics > Peripheral Nerve",
+  "tags": [
+    "suprascapular neuropathy"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Compression or traction neuropathy of the suprascapular nerve causing posterior shoulder pain and weakness of supraspinatus/infraspinatus.",
+  "clinicalPattern": {
+    "typical": [
+      "Posterior shoulder pain",
+      "Weak abduction/external rotation",
+      "Infraspinatus wasting may occur"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Mass lesion"
+    },
+    {
+      "level": "RED",
+      "item": "Rapid weakness"
+    },
+    {
+      "level": "RED",
+      "item": "Major trauma"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Supraspinatus/infraspinatus strength",
+      "Scapular exam",
+      "Cervical screen"
+    ]
+  },
+  "differentials": [
+    "Rotator cuff tear",
+    "C5 radiculopathy",
+    "Parsonage-Turner syndrome"
+  ],
+  "investigations": {
+    "principle": "Electrodiagnostics localize lesion; MRI/ultrasound identifies ganglion or muscle denervation.",
+    "MRI": "Use MRI when neural, soft-tissue, marrow, vascular, occult injury or other condition-specific assessment requires it.",
+    "radiographs": "Use radiographs and/or CT according to the condition-specific imaging pathway."
+  },
+  "management": {
+    "green": [
+      "Activity modification",
+      "Scapular/rotator cuff rehabilitation"
+    ],
+    "amber": [
+      "Space-occupying compression or persistent motor deficit may require decompression."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Amsa/Vata-neuropathy phenotype may be documented."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Compression or traction neuropathy of the suprascapular nerve causing posterior shoulder pain and weakness of supraspinatus/infraspinatus.",
+    "urgent": "Seek urgent assessment for acute/progressive neurological deficit, severe vascular symptoms, infection/systemic illness, major trauma, sphincter change or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "AANEM",
+      "title": "Peripheral Nerve resources",
+      "url": "https://www.aanem.org/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V2.9-BATCH-15",
+    "proposedGoldChapterNumber": 343
+  }
+}

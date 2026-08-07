@@ -1,0 +1,94 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-RHE-PM-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Polymyositis",
+  "synonyms": [],
+  "category": "Rheumatology > Inflammatory Myopathy",
+  "tags": [
+    "polymyositis"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Acquired inflammatory myopathy characterized by predominantly symmetric proximal muscle weakness after exclusion of better-defined inflammatory myopathy subtypes.",
+  "clinicalPattern": {
+    "typical": [
+      "Proximal weakness",
+      "Difficulty climbing stairs",
+      "Difficulty lifting arms",
+      "CK elevation may occur"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Respiratory weakness"
+    },
+    {
+      "level": "RED",
+      "item": "Severe dysphagia"
+    },
+    {
+      "level": "RED",
+      "item": "Rapid progression"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Proximal power",
+      "Neck flexion",
+      "Bulbar/respiratory assessment"
+    ]
+  },
+  "differentials": [
+    "Dermatomyositis",
+    "Inclusion body myositis",
+    "Drug-induced myopathy"
+  ],
+  "investigations": {
+    "principle": "Muscle enzymes, autoantibodies, MRI, EMG and biopsy are selected according to phenotype.",
+    "MRI": "Use MRI when neural, soft-tissue, marrow, vascular, occult injury or other condition-specific assessment requires it.",
+    "radiographs": "Use radiographs and/or CT according to the condition-specific imaging pathway."
+  },
+  "management": {
+    "green": [
+      "Rheumatology/neuromuscular care",
+      "Rehabilitation after inflammation control"
+    ],
+    "amber": [
+      "Diagnosis should not be used loosely; modern classification requires exclusion of other inflammatory myopathies."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Mamsa/Bala-kshaya phenotype may be documented only in parallel."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Acquired inflammatory myopathy characterized by predominantly symmetric proximal muscle weakness after exclusion of better-defined inflammatory myopathy subtypes.",
+    "urgent": "Seek urgent assessment for acute/progressive neurological deficit, severe vascular symptoms, infection/systemic illness, major trauma, sphincter change or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "EULAR/ACR",
+      "title": "Inflammatory Myopathy resources",
+      "url": "https://ard.bmj.com/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V2.9-BATCH-15",
+    "proposedGoldChapterNumber": 328
+  }
+}

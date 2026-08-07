@@ -1,0 +1,94 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-VAS-ATOS-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Thoracic Outlet Arterial Syndrome",
+  "synonyms": [],
+  "category": "Vascular/Orthopedics > Thoracic Outlet",
+  "tags": [
+    "thoracic outlet arterial syndrome"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Arterial compression at the thoracic outlet, often associated with a cervical rib, causing ischemia, aneurysm or embolic complications.",
+  "clinicalPattern": {
+    "typical": [
+      "Arm/hand ischemic pain",
+      "Coldness",
+      "Color change",
+      "Symptoms with overhead activity"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Acute limb ischemia"
+    },
+    {
+      "level": "RED",
+      "item": "Digital emboli"
+    },
+    {
+      "level": "RED",
+      "item": "Subclavian aneurysm"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Pulses",
+      "Capillary refill",
+      "Bruits",
+      "Neurological exam"
+    ]
+  },
+  "differentials": [
+    "Cervical radiculopathy",
+    "Raynaud phenomenon",
+    "Neurogenic thoracic outlet syndrome"
+  ],
+  "investigations": {
+    "principle": "CTA/MRA and vascular ultrasound characterize compression and arterial complications.",
+    "MRI": "Use MRI when neural, soft-tissue, marrow, vascular, occult injury or other condition-specific assessment requires it.",
+    "radiographs": "Use radiographs and/or CT according to the condition-specific imaging pathway."
+  },
+  "management": {
+    "green": [
+      "Urgent vascular referral for ischemic disease"
+    ],
+    "amber": [
+      "Definitive treatment often requires decompression with arterial repair when structural injury exists."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Rakta-vaha vascular phenotype may be documented only in parallel."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Arterial compression at the thoracic outlet, often associated with a cervical rib, causing ischemia, aneurysm or embolic complications.",
+    "urgent": "Seek urgent assessment for acute/progressive neurological deficit, severe vascular symptoms, infection/systemic illness, major trauma, sphincter change or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "Society for Vascular Surgery",
+      "title": "Thoracic Outlet Syndrome resources",
+      "url": "https://vascular.org/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V2.9-BATCH-15",
+    "proposedGoldChapterNumber": 346
+  }
+}

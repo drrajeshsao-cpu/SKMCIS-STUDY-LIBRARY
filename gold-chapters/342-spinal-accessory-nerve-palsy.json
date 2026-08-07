@@ -1,0 +1,95 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-NEU-SAN-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Spinal Accessory Nerve Palsy",
+  "synonyms": [],
+  "category": "Neurology/Orthopedics > Peripheral Nerve",
+  "tags": [
+    "spinal accessory nerve palsy"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Injury to cranial nerve XI causing trapezius weakness, shoulder droop and lateral scapular winging, often after neck surgery or trauma.",
+  "clinicalPattern": {
+    "typical": [
+      "Shoulder droop",
+      "Weak shrug",
+      "Lateral scapular winging",
+      "Neck/shoulder pain"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Open neck trauma"
+    },
+    {
+      "level": "RED",
+      "item": "Progressive multiple cranial neuropathies"
+    },
+    {
+      "level": "RED",
+      "item": "Mass lesion"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Shoulder shrug",
+      "Trapezius bulk",
+      "Scapular motion",
+      "SCM strength"
+    ]
+  },
+  "differentials": [
+    "Long thoracic nerve palsy",
+    "Cervical radiculopathy",
+    "FSHD"
+  ],
+  "investigations": {
+    "principle": "Electrodiagnostics and ultrasound/MRI are selected according to suspected lesion.",
+    "MRI": "Use MRI when neural, soft-tissue, marrow, vascular, occult injury or other condition-specific assessment requires it.",
+    "radiographs": "Use radiographs and/or CT according to the condition-specific imaging pathway."
+  },
+  "management": {
+    "green": [
+      "Early shoulder ROM and scapular rehabilitation",
+      "Protect against secondary adhesive capsulitis"
+    ],
+    "amber": [
+      "Early repair may be considered after transection; chronic cases may need tendon transfer."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Amsa/Vata-neuropathy phenotype may be documented only in parallel."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Injury to cranial nerve XI causing trapezius weakness, shoulder droop and lateral scapular winging, often after neck surgery or trauma.",
+    "urgent": "Seek urgent assessment for acute/progressive neurological deficit, severe vascular symptoms, infection/systemic illness, major trauma, sphincter change or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "AANEM",
+      "title": "Peripheral Nerve resources",
+      "url": "https://www.aanem.org/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V2.9-BATCH-15",
+    "proposedGoldChapterNumber": 342
+  }
+}

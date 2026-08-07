@@ -1,0 +1,96 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-NEU-PTS-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Parsonage-Turner Syndrome / Neuralgic Amyotrophy",
+  "synonyms": [],
+  "category": "Neurology > Brachial Plexus/Peripheral Nerve",
+  "tags": [
+    "parsonage-turner syndrome / neuralgic amyotrophy"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Acute immune-mediated brachial neuritis characterized by severe shoulder/arm pain followed by patchy weakness and muscle wasting.",
+  "clinicalPattern": {
+    "typical": [
+      "Abrupt severe shoulder pain",
+      "Weakness days later",
+      "Patchy plexus/nerve distribution",
+      "Scapular winging may occur"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Respiratory involvement"
+    },
+    {
+      "level": "RED",
+      "item": "Bilateral severe weakness"
+    },
+    {
+      "level": "RED",
+      "item": "Mass/structural plexopathy"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Patchy motor deficit",
+      "Reflexes",
+      "Scapular winging",
+      "Sensory exam"
+    ]
+  },
+  "differentials": [
+    "Cervical radiculopathy",
+    "Rotator cuff tear",
+    "Suprascapular neuropathy"
+  ],
+  "investigations": {
+    "principle": "Electrodiagnostics support diagnosis; MRI is used to exclude structural lesions and may show denervation.",
+    "MRI": "Use MRI when neural, soft-tissue, marrow, vascular, occult injury or other condition-specific assessment requires it.",
+    "radiographs": "Use radiographs and/or CT according to the condition-specific imaging pathway."
+  },
+  "management": {
+    "green": [
+      "Pain control",
+      "ROM preservation",
+      "Progressive rehabilitation"
+    ],
+    "amber": [
+      "Recovery can take months to years; persistent focal deficits may require nerve specialist review."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Amsa/Vata-neuralgic phenotype may be documented only in parallel."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Acute immune-mediated brachial neuritis characterized by severe shoulder/arm pain followed by patchy weakness and muscle wasting.",
+    "urgent": "Seek urgent assessment for acute/progressive neurological deficit, severe vascular symptoms, infection/systemic illness, major trauma, sphincter change or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "AANEM",
+      "title": "Neuralgic Amyotrophy resources",
+      "url": "https://www.aanem.org/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V2.9-BATCH-15",
+    "proposedGoldChapterNumber": 344
+  }
+}
