@@ -1,0 +1,109 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-NEU-STINGER-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Cervical Stinger / Burner Syndrome",
+  "synonyms": [],
+  "category": "Neurology/Spine > Sports Peripheral Nerve",
+  "tags": [
+    "cervical stinger / burner syndrome"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Transient unilateral burning pain, paresthesia or weakness in the arm after traction or compression of a cervical root or brachial plexus during contact sport.",
+  "clinicalPattern": {
+    "typical": [
+      "Electric or burning arm pain",
+      "Transient unilateral paresthesia",
+      "Temporary weakness"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Persistent weakness"
+    },
+    {
+      "level": "RED",
+      "item": "Bilateral symptoms"
+    },
+    {
+      "level": "RED",
+      "item": "Neck pain with cord signs"
+    },
+    {
+      "level": "RED",
+      "item": "Recurrent episodes"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Cervical neurological exam",
+      "Brachial plexus/root motor testing",
+      "Spine tenderness"
+    ]
+  },
+  "differentials": [
+    "Cervical radiculopathy",
+    "Cord neurapraxia",
+    "Brachial plexus injury"
+  ],
+  "investigations": {
+    "principle": "Imaging is indicated for persistent, recurrent, bilateral or structurally concerning presentations.",
+    "MRI": "Use MRI when neural, soft-tissue, postoperative, infection, occult injury or condition-specific assessment requires it.",
+    "radiographs": "Use radiographs and/or CT according to the condition-specific pathway."
+  },
+  "management": {
+    "green": [
+      "Immediate removal from play until neurologically normal",
+      "Rehabilitation"
+    ],
+    "amber": [
+      "Recurrent or persistent episodes require specialist evaluation before return to contact sport."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Bahu/Greeva Vata-neuralgic phenotype may be documented only in parallel."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Transient unilateral burning pain, paresthesia or weakness in the arm after traction or compression of a cervical root or brachial plexus during contact sport.",
+    "urgent": "Seek urgent assessment for progressive neurological deficit, sphincter change, major trauma, unstable fracture/dislocation, sepsis/infection or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "AOSpine",
+      "title": "Sports cervical injury resources",
+      "url": "https://www.aofoundation.org/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V4.2-FINAL-ORTHO-NEURO",
+    "proposedGoldChapterNumber": 549,
+    "doNotOverwriteLegacyIds": [
+      "DIS-0006",
+      "DIS-0007",
+      "DIS-0008",
+      "DIS-0009",
+      "DIS-0010",
+      "DIS-0011",
+      "DIS-0012",
+      "DIS-0013",
+      "DIS-0014",
+      "DIS-0015"
+    ]
+  }
+}

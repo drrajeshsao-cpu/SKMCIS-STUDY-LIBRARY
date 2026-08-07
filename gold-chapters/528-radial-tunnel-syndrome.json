@@ -1,0 +1,105 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-NEU-RTS-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Radial Tunnel Syndrome",
+  "synonyms": [],
+  "category": "Peripheral Nerve > Radial Tunnel",
+  "tags": [
+    "radial tunnel syndrome"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Painful radial-tunnel compression syndrome causing proximal dorsal forearm pain, usually without major objective motor loss.",
+  "clinicalPattern": {
+    "typical": [
+      "Pain distal to lateral epicondyle",
+      "Pain with resisted supination",
+      "Forearm aching"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Progressive finger-extension weakness"
+    },
+    {
+      "level": "RED",
+      "item": "Mass lesion"
+    },
+    {
+      "level": "RED",
+      "item": "Traumatic nerve injury"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Radial-tunnel tenderness",
+      "Resisted supination",
+      "PIN motor exam"
+    ]
+  },
+  "differentials": [
+    "Lateral epicondylalgia",
+    "PIN syndrome",
+    "Cervical radiculopathy"
+  ],
+  "investigations": {
+    "principle": "Primarily clinical; electrodiagnostics may be normal and imaging is cause-directed.",
+    "MRI": "Use MRI when neural, soft-tissue, postoperative, infection, occult injury or condition-specific assessment requires it.",
+    "radiographs": "Use radiographs and/or CT according to the condition-specific pathway."
+  },
+  "management": {
+    "green": [
+      "Activity modification",
+      "Forearm rehabilitation"
+    ],
+    "amber": [
+      "Persistent focal symptoms may require decompression."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Bahu/Vata-neuralgic phenotype may be documented only in parallel."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Painful radial-tunnel compression syndrome causing proximal dorsal forearm pain, usually without major objective motor loss.",
+    "urgent": "Seek urgent assessment for progressive neurological deficit, sphincter change, major trauma, unstable fracture/dislocation, sepsis/infection or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "AANEM",
+      "title": "Radial nerve resources",
+      "url": "https://www.aanem.org/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V4.2-FINAL-ORTHO-NEURO",
+    "proposedGoldChapterNumber": 528,
+    "doNotOverwriteLegacyIds": [
+      "DIS-0006",
+      "DIS-0007",
+      "DIS-0008",
+      "DIS-0009",
+      "DIS-0010",
+      "DIS-0011",
+      "DIS-0012",
+      "DIS-0013",
+      "DIS-0014",
+      "DIS-0015"
+    ]
+  }
+}

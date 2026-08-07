@@ -1,0 +1,104 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-ORT-OPUB-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Osteitis Pubis",
+  "synonyms": [],
+  "category": "Orthopedics > Pelvis/Groin",
+  "tags": [
+    "osteitis pubis"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Painful noninfectious stress/inflammatory disorder of the pubic symphysis and surrounding aponeurotic structures.",
+  "clinicalPattern": {
+    "typical": [
+      "Central groin/pubic pain",
+      "Pain with running/kicking",
+      "Symphyseal tenderness"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Pubic osteomyelitis"
+    },
+    {
+      "level": "RED",
+      "item": "Pelvic fracture"
+    },
+    {
+      "level": "RED",
+      "item": "Urogenital infection"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Pubic tenderness",
+      "Adductor squeeze",
+      "Hip/abdominal assessment"
+    ]
+  },
+  "differentials": [
+    "Athletic pubalgia",
+    "Adductor-related groin pain"
+  ],
+  "investigations": {
+    "principle": "MRI can demonstrate symphyseal marrow edema and aponeurotic pathology in persistent cases.",
+    "MRI": "Use MRI when neural, soft-tissue, postoperative, infection, occult injury or condition-specific assessment requires it.",
+    "radiographs": "Use radiographs and/or CT according to the condition-specific pathway."
+  },
+  "management": {
+    "green": [
+      "Load modification",
+      "Progressive adductor/core rehab"
+    ],
+    "amber": [
+      "Fever/systemic inflammation requires exclusion of infection."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Vankshana/Shroni Shotha phenotype may be documented."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Painful noninfectious stress/inflammatory disorder of the pubic symphysis and surrounding aponeurotic structures.",
+    "urgent": "Seek urgent assessment for progressive neurological deficit, sphincter change, major trauma, unstable fracture/dislocation, sepsis/infection or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "BJSM",
+      "title": "Groin pain resources",
+      "url": "https://bjsm.bmj.com/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V4.2-FINAL-ORTHO-NEURO",
+    "proposedGoldChapterNumber": 539,
+    "doNotOverwriteLegacyIds": [
+      "DIS-0006",
+      "DIS-0007",
+      "DIS-0008",
+      "DIS-0009",
+      "DIS-0010",
+      "DIS-0011",
+      "DIS-0012",
+      "DIS-0013",
+      "DIS-0014",
+      "DIS-0015"
+    ]
+  }
+}

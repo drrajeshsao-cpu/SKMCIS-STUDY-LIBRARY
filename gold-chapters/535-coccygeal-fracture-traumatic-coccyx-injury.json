@@ -1,0 +1,103 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-ORT-COCF-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Coccygeal Fracture / Traumatic Coccyx Injury",
+  "synonyms": [],
+  "category": "Orthopedics > Coccyx Trauma",
+  "tags": [
+    "coccygeal fracture / traumatic coccyx injury"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Traumatic coccygeal injury, usually after a direct fall, producing localized sitting pain.",
+  "clinicalPattern": {
+    "typical": [
+      "Tailbone pain",
+      "Pain with sitting",
+      "Tenderness after fall"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Neurological deficit"
+    },
+    {
+      "level": "RED",
+      "item": "Pelvic fracture"
+    },
+    {
+      "level": "RED",
+      "item": "Rectal injury"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Coccygeal tenderness",
+      "Pelvic/neurological screen"
+    ]
+  },
+  "differentials": [
+    "Coccydynia",
+    "Sacral fracture"
+  ],
+  "investigations": {
+    "principle": "Imaging is selective and used when significant trauma or alternative pelvic injury is suspected.",
+    "MRI": "Use MRI when neural, soft-tissue, postoperative, infection, occult injury or condition-specific assessment requires it.",
+    "radiographs": "Use radiographs and/or CT according to the condition-specific pathway."
+  },
+  "management": {
+    "green": [
+      "Pressure-relieving cushion",
+      "Activity modification"
+    ],
+    "amber": [
+      "Persistent severe pain requires reassessment."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Trika-bhagna/vedana phenotype may be documented."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Traumatic coccygeal injury, usually after a direct fall, producing localized sitting pain.",
+    "urgent": "Seek urgent assessment for progressive neurological deficit, sphincter change, major trauma, unstable fracture/dislocation, sepsis/infection or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "ACR",
+      "title": "Pelvic trauma imaging resources",
+      "url": "https://acsearch.acr.org/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V4.2-FINAL-ORTHO-NEURO",
+    "proposedGoldChapterNumber": 535,
+    "doNotOverwriteLegacyIds": [
+      "DIS-0006",
+      "DIS-0007",
+      "DIS-0008",
+      "DIS-0009",
+      "DIS-0010",
+      "DIS-0011",
+      "DIS-0012",
+      "DIS-0013",
+      "DIS-0014",
+      "DIS-0015"
+    ]
+  }
+}

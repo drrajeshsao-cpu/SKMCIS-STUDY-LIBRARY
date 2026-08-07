@@ -1,0 +1,106 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-ORT-WAS-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Wrist Arthrofibrosis / Post-Traumatic Stiffness",
+  "synonyms": [],
+  "category": "Orthopedics > Wrist > Post-Traumatic",
+  "tags": [
+    "wrist arthrofibrosis / post-traumatic stiffness"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Persistent restriction of wrist motion after fracture, surgery, ligament injury or prolonged immobilization.",
+  "clinicalPattern": {
+    "typical": [
+      "Reduced wrist motion",
+      "End-range pain",
+      "Loss of grip function"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "CRPS"
+    },
+    {
+      "level": "RED",
+      "item": "Infection"
+    },
+    {
+      "level": "RED",
+      "item": "Carpal instability"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Wrist ROM",
+      "Grip",
+      "Carpal stability"
+    ]
+  },
+  "differentials": [
+    "Wrist OA",
+    "CRPS",
+    "Carpal instability"
+  ],
+  "investigations": {
+    "principle": "Radiographs assess alignment; CT/MRI are selected for structural causes.",
+    "MRI": "Use MRI when neural, soft-tissue, postoperative, infection, occult injury or condition-specific assessment requires it.",
+    "radiographs": "Use radiographs and/or CT according to the condition-specific pathway."
+  },
+  "management": {
+    "green": [
+      "Hand therapy",
+      "Progressive ROM",
+      "Scar/edema management"
+    ],
+    "amber": [
+      "Persistent mechanical block may require release."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Manibandha-Sandhi stambha phenotype may be documented."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Persistent restriction of wrist motion after fracture, surgery, ligament injury or prolonged immobilization.",
+    "urgent": "Seek urgent assessment for progressive neurological deficit, sphincter change, major trauma, unstable fracture/dislocation, sepsis/infection or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "BSSH",
+      "title": "Wrist stiffness resources",
+      "url": "https://www.bssh.ac.uk/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V4.2-FINAL-ORTHO-NEURO",
+    "proposedGoldChapterNumber": 545,
+    "doNotOverwriteLegacyIds": [
+      "DIS-0006",
+      "DIS-0007",
+      "DIS-0008",
+      "DIS-0009",
+      "DIS-0010",
+      "DIS-0011",
+      "DIS-0012",
+      "DIS-0013",
+      "DIS-0014",
+      "DIS-0015"
+    ]
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-NEU-NP-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Notalgia Paresthetica",
+  "synonyms": [],
+  "category": "Neurology > Thoracic Sensory Neuropathy",
+  "tags": [
+    "notalgia paresthetica"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Chronic localized neuropathic itch, burning or dysesthesia near the medial scapular border.",
+  "clinicalPattern": {
+    "typical": [
+      "Localized upper-back itch",
+      "Burning",
+      "Hyperpigmentation from scratching"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Progressive neurological deficit"
+    },
+    {
+      "level": "RED",
+      "item": "Suspicious skin lesion"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Sensory exam",
+      "Skin inspection",
+      "Cervicothoracic screen"
+    ]
+  },
+  "differentials": [
+    "Thoracic radiculopathy",
+    "Dermatitis",
+    "Dorsal scapular neuropathy"
+  ],
+  "investigations": {
+    "principle": "Usually clinical; spine imaging is reserved for atypical neurological features.",
+    "MRI": "Use MRI when neural, soft-tissue, postoperative, infection, occult injury or condition-specific assessment requires it.",
+    "radiographs": "Use radiographs and/or CT according to the condition-specific pathway."
+  },
+  "management": {
+    "green": [
+      "Skin protection",
+      "Neuropathic symptom management"
+    ],
+    "amber": [
+      "Persistent atypical symptoms warrant reassessment."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Prishtha/Vata-daha phenotype may be documented descriptively."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Chronic localized neuropathic itch, burning or dysesthesia near the medial scapular border.",
+    "urgent": "Seek urgent assessment for progressive neurological deficit, sphincter change, major trauma, unstable fracture/dislocation, sepsis/infection or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "AAD",
+      "title": "Neuropathic itch resources",
+      "url": "https://www.aad.org/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V4.2-FINAL-ORTHO-NEURO",
+    "proposedGoldChapterNumber": 531,
+    "doNotOverwriteLegacyIds": [
+      "DIS-0006",
+      "DIS-0007",
+      "DIS-0008",
+      "DIS-0009",
+      "DIS-0010",
+      "DIS-0011",
+      "DIS-0012",
+      "DIS-0013",
+      "DIS-0014",
+      "DIS-0015"
+    ]
+  }
+}

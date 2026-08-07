@@ -1,0 +1,105 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-NEU-SCCN-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Spinal Cord Concussion / Cervical Cord Neurapraxia",
+  "synonyms": [],
+  "category": "Spine > Sports Spinal Cord Injury",
+  "tags": [
+    "spinal cord concussion / cervical cord neurapraxia"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Transient neurological dysfunction after cervical trauma, often with temporary bilateral sensory or motor symptoms.",
+  "clinicalPattern": {
+    "typical": [
+      "Transient bilateral paresthesia",
+      "Temporary weakness",
+      "Symptoms after cervical impact"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Persistent deficit"
+    },
+    {
+      "level": "RED",
+      "item": "Recurrent episodes"
+    },
+    {
+      "level": "RED",
+      "item": "Cervical instability"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Full neurological exam",
+      "Cervical stability assessment",
+      "Gait"
+    ]
+  },
+  "differentials": [
+    "Spinal cord injury",
+    "Brachial plexus stinger",
+    "Cervical radiculopathy"
+  ],
+  "investigations": {
+    "principle": "MRI and CT assess cord, canal and structural injury before return-to-play decisions.",
+    "MRI": "Use MRI when neural, soft-tissue, postoperative, infection, occult injury or condition-specific assessment requires it.",
+    "radiographs": "Use radiographs and/or CT according to the condition-specific pathway."
+  },
+  "management": {
+    "green": [
+      "Immediate removal from play",
+      "Spine/neurology assessment"
+    ],
+    "amber": [
+      "Return to contact sport requires specialist clearance."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Vata-neurological phenotype is secondary to spinal cord assessment."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Transient neurological dysfunction after cervical trauma, often with temporary bilateral sensory or motor symptoms.",
+    "urgent": "Seek urgent assessment for progressive neurological deficit, sphincter change, major trauma, unstable fracture/dislocation, sepsis/infection or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "AOSpine",
+      "title": "Spinal cord injury resources",
+      "url": "https://www.aofoundation.org/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V4.2-FINAL-ORTHO-NEURO",
+    "proposedGoldChapterNumber": 532,
+    "doNotOverwriteLegacyIds": [
+      "DIS-0006",
+      "DIS-0007",
+      "DIS-0008",
+      "DIS-0009",
+      "DIS-0010",
+      "DIS-0011",
+      "DIS-0012",
+      "DIS-0013",
+      "DIS-0014",
+      "DIS-0015"
+    ]
+  }
+}

@@ -1,0 +1,106 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-ORT-PIF-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Pelvic Insufficiency Fracture",
+  "synonyms": [],
+  "category": "Orthopedics > Pelvis > Fragility Fracture",
+  "tags": [
+    "pelvic insufficiency fracture"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Fragility fracture of the pelvic ring occurring under physiological loading in weakened bone.",
+  "clinicalPattern": {
+    "typical": [
+      "Pelvic/groin/buttock pain",
+      "Difficulty walking",
+      "Minimal trauma"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Inability to mobilize"
+    },
+    {
+      "level": "RED",
+      "item": "Occult unstable ring injury"
+    },
+    {
+      "level": "RED",
+      "item": "Malignancy differential"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Pelvic tenderness",
+      "Hip exam",
+      "Mobility"
+    ]
+  },
+  "differentials": [
+    "Hip fracture",
+    "Sacral insufficiency fracture",
+    "Pelvic metastasis"
+  ],
+  "investigations": {
+    "principle": "CT or MRI is often required because plain radiographs may miss posterior pelvic fractures.",
+    "MRI": "Use MRI when neural, soft-tissue, postoperative, infection, occult injury or condition-specific assessment requires it.",
+    "radiographs": "Use radiographs and/or CT according to the condition-specific pathway."
+  },
+  "management": {
+    "green": [
+      "Analgesia",
+      "Protected mobilization",
+      "Osteoporosis evaluation"
+    ],
+    "amber": [
+      "Persistent severe pain or instability may require stabilization."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Asthi-kshaya/Shroni-bhagna phenotype may be documented."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Fragility fracture of the pelvic ring occurring under physiological loading in weakened bone.",
+    "urgent": "Seek urgent assessment for progressive neurological deficit, sphincter change, major trauma, unstable fracture/dislocation, sepsis/infection or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "NICE",
+      "title": "Fragility fracture resources",
+      "url": "https://www.nice.org.uk/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V4.2-FINAL-ORTHO-NEURO",
+    "proposedGoldChapterNumber": 537,
+    "doNotOverwriteLegacyIds": [
+      "DIS-0006",
+      "DIS-0007",
+      "DIS-0008",
+      "DIS-0009",
+      "DIS-0010",
+      "DIS-0011",
+      "DIS-0012",
+      "DIS-0013",
+      "DIS-0014",
+      "DIS-0015"
+    ]
+  }
+}

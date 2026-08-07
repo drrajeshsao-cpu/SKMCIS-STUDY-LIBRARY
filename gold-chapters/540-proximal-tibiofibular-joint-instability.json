@@ -1,0 +1,100 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-ORT-PTFJI-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Proximal Tibiofibular Joint Instability",
+  "synonyms": [],
+  "category": "Orthopedics > Knee/Leg",
+  "tags": [
+    "proximal tibiofibular joint instability"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Symptomatic instability or subluxation of the proximal tibiofibular joint causing lateral knee pain.",
+  "clinicalPattern": {
+    "typical": [
+      "Lateral knee pain",
+      "Snapping near fibular head",
+      "Instability with flexion"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Common peroneal nerve deficit"
+    },
+    {
+      "level": "RED",
+      "item": "Acute dislocation"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Proximal tibiofibular translation",
+      "Peroneal nerve",
+      "LCL/PLC assessment"
+    ]
+  },
+  "differentials": [
+    "LCL injury",
+    "Biceps femoris tendinopathy"
+  ],
+  "investigations": {
+    "principle": "Radiographs/CT assess alignment; MRI evaluates associated soft-tissue injury.",
+    "MRI": "Use MRI when neural, soft-tissue, postoperative, infection, occult injury or condition-specific assessment requires it.",
+    "radiographs": "Use radiographs and/or CT according to the condition-specific pathway."
+  },
+  "management": {
+    "green": [
+      "Activity modification",
+      "Dynamic stabilization rehab"
+    ],
+    "amber": [
+      "Persistent mechanical instability may require surgery."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Janu/Jangha Sandhi-asthirata phenotype may be documented."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Symptomatic instability or subluxation of the proximal tibiofibular joint causing lateral knee pain.",
+    "urgent": "Seek urgent assessment for progressive neurological deficit, sphincter change, major trauma, unstable fracture/dislocation, sepsis/infection or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "PubMed",
+      "title": "Proximal tibiofibular instability reviews",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V4.2-FINAL-ORTHO-NEURO",
+    "proposedGoldChapterNumber": 540,
+    "doNotOverwriteLegacyIds": [
+      "DIS-0006",
+      "DIS-0007",
+      "DIS-0008",
+      "DIS-0009",
+      "DIS-0010",
+      "DIS-0011",
+      "DIS-0012",
+      "DIS-0013",
+      "DIS-0014",
+      "DIS-0015"
+    ]
+  }
+}

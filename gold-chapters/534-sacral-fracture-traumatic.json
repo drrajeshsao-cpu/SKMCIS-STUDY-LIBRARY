@@ -1,0 +1,104 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-SPN-SACF-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Sacral Fracture - Traumatic",
+  "synonyms": [],
+  "category": "Spine > Sacrum > Fracture",
+  "tags": [
+    "sacral fracture - traumatic"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Traumatic sacral fracture ranging from stable injury to unstable spinopelvic dissociation with neurological compromise.",
+  "clinicalPattern": {
+    "typical": [
+      "Sacral pain after trauma",
+      "Pain with weight bearing",
+      "Possible sacral nerve symptoms"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Bowel/bladder dysfunction"
+    },
+    {
+      "level": "RED",
+      "item": "Saddle anesthesia"
+    },
+    {
+      "level": "RED",
+      "item": "Spinopelvic instability"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Sacral tenderness",
+      "Sacral neurological exam",
+      "Pelvic stability"
+    ]
+  },
+  "differentials": [
+    "Sacral insufficiency fracture",
+    "Pelvic ring fracture"
+  ],
+  "investigations": {
+    "principle": "CT is central for fracture morphology; MRI is used for neural or occult injury.",
+    "MRI": "Use MRI when neural, soft-tissue, postoperative, infection, occult injury or condition-specific assessment requires it.",
+    "radiographs": "Use radiographs and/or CT according to the condition-specific pathway."
+  },
+  "management": {
+    "green": [
+      "Trauma stabilization",
+      "Protected mobilization if stable"
+    ],
+    "amber": [
+      "Unstable patterns may require fixation/decompression."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Trika/Asthi-bhagna phenotype may be documented after stabilization."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Traumatic sacral fracture ranging from stable injury to unstable spinopelvic dissociation with neurological compromise.",
+    "urgent": "Seek urgent assessment for progressive neurological deficit, sphincter change, major trauma, unstable fracture/dislocation, sepsis/infection or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "AOSpine",
+      "title": "Sacral fracture resources",
+      "url": "https://www.aofoundation.org/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V4.2-FINAL-ORTHO-NEURO",
+    "proposedGoldChapterNumber": 534,
+    "doNotOverwriteLegacyIds": [
+      "DIS-0006",
+      "DIS-0007",
+      "DIS-0008",
+      "DIS-0009",
+      "DIS-0010",
+      "DIS-0011",
+      "DIS-0012",
+      "DIS-0013",
+      "DIS-0014",
+      "DIS-0015"
+    ]
+  }
+}

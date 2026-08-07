@@ -525,7 +525,29 @@
     "gold-chapters/524-hypermobile-ehlers-danlos-syndrome.json",
     "gold-chapters/525-chronic-syndesmotic-ankle-instability.json",
     "gold-chapters/526-lateral-ankle-instability-chronic.json",
-    "gold-chapters/527-subtalar-instability.json"
+    "gold-chapters/527-subtalar-instability.json",
+    "gold-chapters/528-radial-tunnel-syndrome.json",
+    "gold-chapters/529-anterior-cutaneous-nerve-entrapment-syndrome.json",
+    "gold-chapters/530-middle-cluneal-nerve-entrapment.json",
+    "gold-chapters/531-notalgia-paresthetica.json",
+    "gold-chapters/532-spinal-cord-concussion-cervical-cord-neurapraxia.json",
+    "gold-chapters/533-sciwora.json",
+    "gold-chapters/534-sacral-fracture-traumatic.json",
+    "gold-chapters/535-coccygeal-fracture-traumatic-coccyx-injury.json",
+    "gold-chapters/536-pubic-ramus-fracture.json",
+    "gold-chapters/537-pelvic-insufficiency-fracture.json",
+    "gold-chapters/538-pubic-symphysis-diastasis.json",
+    "gold-chapters/539-osteitis-pubis.json",
+    "gold-chapters/540-proximal-tibiofibular-joint-instability.json",
+    "gold-chapters/541-proximal-tibiofibular-joint-dislocation.json",
+    "gold-chapters/542-sternoclavicular-joint-osteoarthritis.json",
+    "gold-chapters/543-sternoclavicular-joint-septic-arthritis.json",
+    "gold-chapters/544-elbow-stiffness-post-traumatic-contracture.json",
+    "gold-chapters/545-wrist-arthrofibrosis-post-traumatic-stiffness.json",
+    "gold-chapters/546-hip-arthrofibrosis-postoperative-hip-stiffness.json",
+    "gold-chapters/547-knee-arthrofibrosis.json",
+    "gold-chapters/548-cyclops-lesion-after-acl-reconstruction.json",
+    "gold-chapters/549-cervical-stinger-burner-syndrome.json"
   ],
-  "expectedTotalGold": 528
+  "expectedTotalGold": 550
 }

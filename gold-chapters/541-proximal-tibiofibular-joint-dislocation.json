@@ -1,0 +1,100 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-ORT-PTFJD-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Proximal Tibiofibular Joint Dislocation",
+  "synonyms": [],
+  "category": "Orthopedics > Knee/Leg > Dislocation",
+  "tags": [
+    "proximal tibiofibular joint dislocation"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Rare traumatic dislocation of the proximal tibiofibular joint.",
+  "clinicalPattern": {
+    "typical": [
+      "Acute lateral knee pain",
+      "Prominent fibular head",
+      "Difficulty weight bearing"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Common peroneal nerve palsy"
+    },
+    {
+      "level": "RED",
+      "item": "Irreducible dislocation"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Fibular-head position",
+      "Peroneal nerve",
+      "Knee ligament exam"
+    ]
+  },
+  "differentials": [
+    "Proximal fibula fracture",
+    "LCL injury"
+  ],
+  "investigations": {
+    "principle": "Radiographs and CT confirm malalignment.",
+    "MRI": "Use MRI when neural, soft-tissue, postoperative, infection, occult injury or condition-specific assessment requires it.",
+    "radiographs": "Use radiographs and/or CT according to the condition-specific pathway."
+  },
+  "management": {
+    "green": [
+      "Urgent reduction",
+      "Immobilization"
+    ],
+    "amber": [
+      "Irreducible or recurrent dislocation may require stabilization."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Jangha-Sandhi displacement phenotype may be documented."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Rare traumatic dislocation of the proximal tibiofibular joint.",
+    "urgent": "Seek urgent assessment for progressive neurological deficit, sphincter change, major trauma, unstable fracture/dislocation, sepsis/infection or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "PubMed",
+      "title": "Proximal tibiofibular dislocation resources",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V4.2-FINAL-ORTHO-NEURO",
+    "proposedGoldChapterNumber": 541,
+    "doNotOverwriteLegacyIds": [
+      "DIS-0006",
+      "DIS-0007",
+      "DIS-0008",
+      "DIS-0009",
+      "DIS-0010",
+      "DIS-0011",
+      "DIS-0012",
+      "DIS-0013",
+      "DIS-0014",
+      "DIS-0015"
+    ]
+  }
+}

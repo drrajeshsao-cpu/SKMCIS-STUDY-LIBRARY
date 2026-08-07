@@ -1,0 +1,104 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-ORT-SCJSA-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Sternoclavicular Joint Septic Arthritis",
+  "synonyms": [],
+  "category": "Orthopedics > Shoulder Girdle > Infection",
+  "tags": [
+    "sternoclavicular joint septic arthritis"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Infection of the sternoclavicular joint, potentially dangerous because of proximity to mediastinal structures.",
+  "clinicalPattern": {
+    "typical": [
+      "SC joint pain/swelling",
+      "Fever may occur",
+      "Pain with shoulder movement"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Sepsis"
+    },
+    {
+      "level": "RED",
+      "item": "Mediastinal extension"
+    },
+    {
+      "level": "RED",
+      "item": "Abscess"
+    }
+  ],
+  "examination": {
+    "core": [
+      "SC swelling",
+      "Systemic infection assessment",
+      "Chest/shoulder exam"
+    ]
+  },
+  "differentials": [
+    "SC osteoarthritis",
+    "SC dislocation"
+  ],
+  "investigations": {
+    "principle": "Blood cultures, inflammatory markers and CT/MRI assess joint and mediastinal extension.",
+    "MRI": "Use MRI when neural, soft-tissue, postoperative, infection, occult injury or condition-specific assessment requires it.",
+    "radiographs": "Use radiographs and/or CT according to the condition-specific pathway."
+  },
+  "management": {
+    "green": [
+      "Urgent infectious-disease/orthopedic care",
+      "Culture-directed antibiotics"
+    ],
+    "amber": [
+      "Abscess or extension may require drainage/debridement."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Sandhi-Shotha framework is secondary to infection treatment."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Infection of the sternoclavicular joint, potentially dangerous because of proximity to mediastinal structures.",
+    "urgent": "Seek urgent assessment for progressive neurological deficit, sphincter change, major trauma, unstable fracture/dislocation, sepsis/infection or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "IDSA",
+      "title": "Bone and joint infection resources",
+      "url": "https://www.idsociety.org/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V4.2-FINAL-ORTHO-NEURO",
+    "proposedGoldChapterNumber": 543,
+    "doNotOverwriteLegacyIds": [
+      "DIS-0006",
+      "DIS-0007",
+      "DIS-0008",
+      "DIS-0009",
+      "DIS-0010",
+      "DIS-0011",
+      "DIS-0012",
+      "DIS-0013",
+      "DIS-0014",
+      "DIS-0015"
+    ]
+  }
+}

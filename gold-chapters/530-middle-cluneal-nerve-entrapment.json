@@ -1,0 +1,101 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-NEU-MCNE-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Middle Cluneal Nerve Entrapment",
+  "synonyms": [],
+  "category": "Peripheral Nerve > Pelvis",
+  "tags": [
+    "middle cluneal nerve entrapment"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Entrapment of middle cluneal sensory branches near the posterior sacroiliac region causing buttock or low-back pain.",
+  "clinicalPattern": {
+    "typical": [
+      "Posterior sacral pain",
+      "Focal tenderness",
+      "No major motor deficit"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Progressive neurological deficit"
+    },
+    {
+      "level": "RED",
+      "item": "Cancer/infection/fracture red flags"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Localized tenderness",
+      "Sensory reproduction",
+      "Lumbar/SI/hip screen"
+    ]
+  },
+  "differentials": [
+    "SI joint pain",
+    "Superior cluneal entrapment",
+    "Lumbar radiculopathy"
+  ],
+  "investigations": {
+    "principle": "Mainly clinical; diagnostic local block may support localization.",
+    "MRI": "Use MRI when neural, soft-tissue, postoperative, infection, occult injury or condition-specific assessment requires it.",
+    "radiographs": "Use radiographs and/or CT according to the condition-specific pathway."
+  },
+  "management": {
+    "green": [
+      "Load modification",
+      "Nerve desensitization"
+    ],
+    "amber": [
+      "Intervention is selective after spinal/SI causes are excluded."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Kati/Vata-neuralgic phenotype may be documented."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Entrapment of middle cluneal sensory branches near the posterior sacroiliac region causing buttock or low-back pain.",
+    "urgent": "Seek urgent assessment for progressive neurological deficit, sphincter change, major trauma, unstable fracture/dislocation, sepsis/infection or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "PubMed",
+      "title": "Cluneal nerve entrapment reviews",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V4.2-FINAL-ORTHO-NEURO",
+    "proposedGoldChapterNumber": 530,
+    "doNotOverwriteLegacyIds": [
+      "DIS-0006",
+      "DIS-0007",
+      "DIS-0008",
+      "DIS-0009",
+      "DIS-0010",
+      "DIS-0011",
+      "DIS-0012",
+      "DIS-0013",
+      "DIS-0014",
+      "DIS-0015"
+    ]
+  }
+}

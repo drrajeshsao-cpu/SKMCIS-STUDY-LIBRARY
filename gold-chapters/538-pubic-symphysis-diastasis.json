@@ -1,0 +1,103 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-ORT-PSDIA-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Pubic Symphysis Diastasis",
+  "synonyms": [],
+  "category": "Orthopedics > Pelvis > Ring Injury",
+  "tags": [
+    "pubic symphysis diastasis"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Widening/disruption of the pubic symphysis, usually from trauma or peripartum injury.",
+  "clinicalPattern": {
+    "typical": [
+      "Anterior pelvic pain",
+      "Difficulty walking",
+      "Pelvic instability sensation"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Hemodynamic instability"
+    },
+    {
+      "level": "RED",
+      "item": "Posterior ring injury"
+    },
+    {
+      "level": "RED",
+      "item": "Urogenital injury"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Pelvic assessment",
+      "Neurovascular exam",
+      "Urogenital screen"
+    ]
+  },
+  "differentials": [
+    "Osteitis pubis",
+    "Pubic ramus fracture"
+  ],
+  "investigations": {
+    "principle": "Pelvic radiographs and CT assess symphyseal widening and posterior-ring injury.",
+    "MRI": "Use MRI when neural, soft-tissue, postoperative, infection, occult injury or condition-specific assessment requires it.",
+    "radiographs": "Use radiographs and/or CT according to the condition-specific pathway."
+  },
+  "management": {
+    "green": [
+      "Pelvic stabilization in acute trauma"
+    ],
+    "amber": [
+      "Wide traumatic diastasis may require fixation."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Shroni-Sandhi separation phenotype may be documented."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Widening/disruption of the pubic symphysis, usually from trauma or peripartum injury.",
+    "urgent": "Seek urgent assessment for progressive neurological deficit, sphincter change, major trauma, unstable fracture/dislocation, sepsis/infection or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "NICE",
+      "title": "Major Trauma NG39",
+      "url": "https://www.nice.org.uk/guidance/ng39",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V4.2-FINAL-ORTHO-NEURO",
+    "proposedGoldChapterNumber": 538,
+    "doNotOverwriteLegacyIds": [
+      "DIS-0006",
+      "DIS-0007",
+      "DIS-0008",
+      "DIS-0009",
+      "DIS-0010",
+      "DIS-0011",
+      "DIS-0012",
+      "DIS-0013",
+      "DIS-0014",
+      "DIS-0015"
+    ]
+  }
+}

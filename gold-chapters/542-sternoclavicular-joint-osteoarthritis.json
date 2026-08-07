@@ -1,0 +1,104 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-ORT-SCJOA-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Sternoclavicular Joint Osteoarthritis",
+  "synonyms": [],
+  "category": "Orthopedics > Shoulder Girdle > OA",
+  "tags": [
+    "sternoclavicular joint osteoarthritis"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Degenerative osteoarthritis of the sternoclavicular joint causing localized medial clavicular pain and swelling.",
+  "clinicalPattern": {
+    "typical": [
+      "Medial clavicular pain",
+      "Pain with shoulder movement",
+      "Localized swelling"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Infection"
+    },
+    {
+      "level": "RED",
+      "item": "Posterior SC dislocation"
+    },
+    {
+      "level": "RED",
+      "item": "Tumor"
+    }
+  ],
+  "examination": {
+    "core": [
+      "SC tenderness",
+      "Shoulder motion",
+      "Skin/systemic screen"
+    ]
+  },
+  "differentials": [
+    "SC infection",
+    "Costochondritis"
+  ],
+  "investigations": {
+    "principle": "CT is useful when structural diagnosis is uncertain; labs are used if infection is suspected.",
+    "MRI": "Use MRI when neural, soft-tissue, postoperative, infection, occult injury or condition-specific assessment requires it.",
+    "radiographs": "Use radiographs and/or CT according to the condition-specific pathway."
+  },
+  "management": {
+    "green": [
+      "Activity modification",
+      "Local symptom control"
+    ],
+    "amber": [
+      "Persistent swelling/systemic features require exclusion of infection."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Urah/Amsa Sandhigata phenotype may be documented."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Degenerative osteoarthritis of the sternoclavicular joint causing localized medial clavicular pain and swelling.",
+    "urgent": "Seek urgent assessment for progressive neurological deficit, sphincter change, major trauma, unstable fracture/dislocation, sepsis/infection or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "NICE",
+      "title": "Osteoarthritis NG226",
+      "url": "https://www.nice.org.uk/guidance/ng226",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V4.2-FINAL-ORTHO-NEURO",
+    "proposedGoldChapterNumber": 542,
+    "doNotOverwriteLegacyIds": [
+      "DIS-0006",
+      "DIS-0007",
+      "DIS-0008",
+      "DIS-0009",
+      "DIS-0010",
+      "DIS-0011",
+      "DIS-0012",
+      "DIS-0013",
+      "DIS-0014",
+      "DIS-0015"
+    ]
+  }
+}

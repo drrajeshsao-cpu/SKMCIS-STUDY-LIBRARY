@@ -1,0 +1,107 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-ORT-KAF-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Knee Arthrofibrosis",
+  "synonyms": [],
+  "category": "Orthopedics > Knee > Postoperative/Post-Traumatic",
+  "tags": [
+    "knee arthrofibrosis"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Excessive scar formation causing clinically important loss of knee flexion and/or extension after surgery or trauma.",
+  "clinicalPattern": {
+    "typical": [
+      "Persistent stiffness",
+      "Loss of extension/flexion",
+      "Painful end range"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Infection"
+    },
+    {
+      "level": "RED",
+      "item": "Mechanical block"
+    },
+    {
+      "level": "RED",
+      "item": "DVT"
+    }
+  ],
+  "examination": {
+    "core": [
+      "ROM",
+      "Patellar mobility",
+      "Effusion",
+      "Gait"
+    ]
+  },
+  "differentials": [
+    "Cyclops lesion",
+    "CRPS",
+    "Post-traumatic OA"
+  ],
+  "investigations": {
+    "principle": "Radiographs and MRI are used selectively to identify mechanical blocks or associated pathology.",
+    "MRI": "Use MRI when neural, soft-tissue, postoperative, infection, occult injury or condition-specific assessment requires it.",
+    "radiographs": "Use radiographs and/or CT according to the condition-specific pathway."
+  },
+  "management": {
+    "green": [
+      "Structured rehabilitation",
+      "Patellar mobility",
+      "Progressive ROM"
+    ],
+    "amber": [
+      "Selected cases may require manipulation or lysis of adhesions."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Janu-Sandhi stambha phenotype may be documented."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Excessive scar formation causing clinically important loss of knee flexion and/or extension after surgery or trauma.",
+    "urgent": "Seek urgent assessment for progressive neurological deficit, sphincter change, major trauma, unstable fracture/dislocation, sepsis/infection or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "AAOS",
+      "title": "Knee stiffness resources",
+      "url": "https://orthoinfo.aaos.org/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V4.2-FINAL-ORTHO-NEURO",
+    "proposedGoldChapterNumber": 547,
+    "doNotOverwriteLegacyIds": [
+      "DIS-0006",
+      "DIS-0007",
+      "DIS-0008",
+      "DIS-0009",
+      "DIS-0010",
+      "DIS-0011",
+      "DIS-0012",
+      "DIS-0013",
+      "DIS-0014",
+      "DIS-0015"
+    ]
+  }
+}
