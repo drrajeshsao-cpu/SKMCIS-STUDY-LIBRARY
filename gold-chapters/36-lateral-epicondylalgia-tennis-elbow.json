@@ -1,0 +1,109 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-ORT-LE-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Lateral Epicondylalgia / Tennis Elbow",
+  "synonyms": [
+    "Lateral epicondylitis",
+    "Tennis elbow"
+  ],
+  "category": "Orthopedics > Elbow > Tendinopathy",
+  "tags": [
+    "tennis elbow",
+    "lateral epicondylalgia",
+    "elbow",
+    "tendinopathy"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Load-related pain at the lateral elbow, usually involving the common extensor tendon origin, especially extensor carpi radialis brevis.",
+  "clinicalPattern": {
+    "typical": [
+      "Lateral elbow pain with gripping/lifting",
+      "Pain with resisted wrist extension",
+      "Tenderness near lateral epicondyle",
+      "Reduced grip due to pain"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Major trauma/fracture"
+    },
+    {
+      "level": "RED",
+      "item": "Joint infection"
+    },
+    {
+      "level": "RED",
+      "item": "Progressive neurological deficit"
+    },
+    {
+      "level": "RED",
+      "item": "Severe locking or mass"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Palpation",
+      "Resisted wrist/finger extension",
+      "Grip strength",
+      "Elbow ROM",
+      "Cervical/radial nerve screen"
+    ]
+  },
+  "differentials": [
+    "Radial tunnel syndrome",
+    "Cervical radiculopathy",
+    "Elbow OA",
+    "Ligament injury",
+    "Inflammatory arthritis"
+  ],
+  "investigations": {
+    "principle": "Diagnosis is usually clinical.",
+    "MRI": "Ultrasound/MRI only when atypical, refractory or surgical planning is required.",
+    "radiographs": "Radiographs when joint disease or trauma is suspected."
+  },
+  "management": {
+    "green": [
+      "Progressive extensor tendon loading",
+      "Activity modification",
+      "Ergonomic and grip-load management"
+    ],
+    "amber": [
+      "Injection choices require individualized review; repeated corticosteroid may worsen longer-term outcomes."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Kurpara-region Snayu/Vata phenotype may be documented as correlation only."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Load-related pain at the lateral elbow, usually involving the common extensor tendon origin, especially extensor carpi radialis brevis.",
+    "urgent": "Seek urgent assessment for acute/progressive neurological deficit, sphincter change, severe infection/systemic illness, major trauma, vascular compromise or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "JOSPT",
+      "title": "Lateral Elbow Pain and Muscle Function Impairments CPG",
+      "url": "https://www.jospt.org/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V1.7-BATCH-03",
+    "proposedGoldChapterNumber": 36
+  }
+}

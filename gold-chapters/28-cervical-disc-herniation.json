@@ -1,0 +1,114 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-CSP-CDH-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Cervical Disc Herniation",
+  "synonyms": [
+    "Cervical disc prolapse",
+    "Cervical PIVD"
+  ],
+  "category": "Spine > Cervical > Disc",
+  "tags": [
+    "cervical",
+    "disc herniation",
+    "PIVD",
+    "radiculopathy"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Focal displacement of cervical disc material beyond the normal disc space that may cause neck pain, nerve-root compression or, less commonly, spinal cord compression.",
+  "clinicalPattern": {
+    "typical": [
+      "Neck pain with arm pain or paresthesia",
+      "Dermatomal sensory symptoms",
+      "Myotomal weakness may occur",
+      "Symptoms may worsen with neck movement or foraminal loading"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Progressive motor weakness"
+    },
+    {
+      "level": "RED",
+      "item": "Signs of myelopathy"
+    },
+    {
+      "level": "RED",
+      "item": "New gait disturbance or sphincter dysfunction"
+    },
+    {
+      "level": "RED",
+      "item": "Major trauma, infection or malignancy features"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Cervical ROM",
+      "Upper-limb motor/sensory/reflex exam",
+      "Spurling and distraction tests in context",
+      "Myelopathy screen including gait and long-tract signs"
+    ]
+  },
+  "differentials": [
+    "Cervical radiculopathy from osteophyte/foraminal stenosis",
+    "Shoulder pathology",
+    "Peripheral entrapment neuropathy",
+    "Brachial plexopathy",
+    "Tumour/infection"
+  ],
+  "investigations": {
+    "principle": "Imaging is not required for every uncomplicated short-duration case.",
+    "MRI": "MRI is preferred when major/progressive neurological deficit, myelopathy, red flags or persistent symptoms would alter management.",
+    "radiographs": "Radiographs may show alignment/degeneration but do not show disc/root compression well."
+  },
+  "management": {
+    "green": [
+      "Education, activity modification and exercise-based rehabilitation",
+      "Appropriate symptom control",
+      "Specialist assessment when deficits persist or progress"
+    ],
+    "amber": [
+      "Epidural/injection or surgery requires individualized assessment, imaging correlation and risk review."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Greeva-shoola/Gridhrasi-like radiating phenotype may be documented descriptively; disc herniation remains a modern anatomical diagnosis."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Focal displacement of cervical disc material beyond the normal disc space that may cause neck pain, nerve-root compression or, less commonly, spinal cord compression.",
+    "urgent": "Seek urgent assessment for acute/progressive neurological deficit, sphincter change, severe infection/systemic illness, major trauma, vascular compromise or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "American College of Radiology (ACR)",
+      "title": "Cervical Neck Pain or Cervical Radiculopathy",
+      "url": "https://acsearch.acr.org/",
+      "checked": "2026-08-07"
+    },
+    {
+      "organization": "North American Spine Society",
+      "title": "Cervical Radiculopathy from Degenerative Disorders",
+      "url": "https://www.spine.org/Research-Clinical-Care/Quality-Improvement/Clinical-Guidelines",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V1.7-BATCH-03",
+    "proposedGoldChapterNumber": 28
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-NEU-MP-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Meralgia Paresthetica",
+  "synonyms": [
+    "Lateral femoral cutaneous neuropathy"
+  ],
+  "category": "Neurology > Peripheral Nerve > Lateral Femoral Cutaneous",
+  "tags": [
+    "meralgia paresthetica",
+    "lateral femoral cutaneous nerve",
+    "thigh numbness",
+    "neuropathy"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Entrapment/irritation of the lateral femoral cutaneous nerve causing sensory symptoms over the anterolateral thigh without motor weakness.",
+  "clinicalPattern": {
+    "typical": [
+      "Burning, tingling or numbness over anterolateral thigh",
+      "Symptoms worsened by standing/walking or tight garments",
+      "No true motor deficit"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Motor weakness or reflex changes suggesting radiculopathy/femoral neuropathy"
+    },
+    {
+      "level": "RED",
+      "item": "Pelvic mass/systemic symptoms"
+    },
+    {
+      "level": "RED",
+      "item": "Acute severe trauma"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Sensory mapping",
+      "Motor/reflex exam to exclude root/femoral nerve disease",
+      "Hip/lumbar screen",
+      "Tinel near inguinal ligament may be supportive"
+    ]
+  },
+  "differentials": [
+    "L2-L3 radiculopathy",
+    "Femoral neuropathy",
+    "Hip pathology",
+    "Pelvic mass",
+    "Diabetic polyneuropathy"
+  ],
+  "investigations": {
+    "principle": "Usually clinical.",
+    "MRI": "MRI pelvis/lumbar spine only when alternative pathology is suspected.",
+    "radiographs": "Electrodiagnostic testing may help atypical cases."
+  },
+  "management": {
+    "green": [
+      "Avoid tight garments/compressive belts",
+      "Weight/load modification when relevant",
+      "Treat metabolic contributors"
+    ],
+    "amber": [
+      "Neuropathic medication, injection or decompression require individualized assessment."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Vata-neuralgia phenotype can be documented, while the mononeuropathy diagnosis remains explicit."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Entrapment/irritation of the lateral femoral cutaneous nerve causing sensory symptoms over the anterolateral thigh without motor weakness.",
+    "urgent": "Seek urgent assessment for acute/progressive neurological deficit, sphincter change, severe infection/systemic illness, major trauma, vascular compromise or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "StatPearls/NCBI",
+      "title": "Meralgia Paresthetica overview",
+      "url": "https://www.ncbi.nlm.nih.gov/books/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V1.7-BATCH-03",
+    "proposedGoldChapterNumber": 40
+  }
+}

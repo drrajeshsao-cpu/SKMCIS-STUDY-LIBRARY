@@ -1,0 +1,107 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-NEU-ON-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Occipital Neuralgia",
+  "synonyms": [
+    "Greater occipital neuralgia"
+  ],
+  "category": "Neurology > Cranial/Peripheral Neuralgia",
+  "tags": [
+    "occipital neuralgia",
+    "headache",
+    "occipital nerve",
+    "neuralgia"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Paroxysmal stabbing or shooting pain in the distribution of the greater, lesser or third occipital nerves, often with local tenderness or sensory disturbance.",
+  "clinicalPattern": {
+    "typical": [
+      "Brief severe shooting occipital pain",
+      "Scalp tenderness or dysesthesia",
+      "Pain may radiate toward vertex or eye",
+      "Trigger-point tenderness over occipital nerve"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "New neurological deficit"
+    },
+    {
+      "level": "RED",
+      "item": "Thunderclap or systemic headache"
+    },
+    {
+      "level": "RED",
+      "item": "Trauma with cervical instability"
+    },
+    {
+      "level": "RED",
+      "item": "Fever or cancer-related symptoms"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Cranial and neurological exam",
+      "Cervical screen",
+      "Occipital nerve tenderness/trigger assessment",
+      "Headache red-flag screen"
+    ]
+  },
+  "differentials": [
+    "Migraine",
+    "Cervicogenic headache",
+    "Tension headache",
+    "C2 radiculopathy",
+    "Posterior fossa pathology",
+    "Giant cell arteritis"
+  ],
+  "investigations": {
+    "principle": "Diagnosis is primarily clinical after excluding secondary causes.",
+    "MRI": "MRI brain/cervical imaging is used when atypical features or red flags exist.",
+    "radiographs": "Routine radiography is not diagnostic."
+  },
+  "management": {
+    "green": [
+      "Education and avoidance of persistent provocative pressure",
+      "Treat coexisting cervical dysfunction when present"
+    ],
+    "amber": [
+      "Occipital nerve block or medication for neuralgic pain requires individualized clinical assessment."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Shirah-shoola/Vata neuralgic phenotype may be documented as correlation only."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Paroxysmal stabbing or shooting pain in the distribution of the greater, lesser or third occipital nerves, often with local tenderness or sensory disturbance.",
+    "urgent": "Seek urgent assessment for acute/progressive neurological deficit, sphincter change, severe infection/systemic illness, major trauma, vascular compromise or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "International Headache Society",
+      "title": "ICHD-3: Occipital neuralgia",
+      "url": "https://ichd-3.org/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V1.7-BATCH-03",
+    "proposedGoldChapterNumber": 31
+  }
+}

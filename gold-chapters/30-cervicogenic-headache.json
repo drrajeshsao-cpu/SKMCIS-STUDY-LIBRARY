@@ -1,0 +1,117 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-CSP-CGH-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Cervicogenic Headache",
+  "synonyms": [
+    "Cervical headache"
+  ],
+  "category": "Spine > Cervical > Referred Headache",
+  "tags": [
+    "cervicogenic headache",
+    "neck",
+    "headache",
+    "upper cervical"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Headache attributed to a disorder of the cervical spine and its structures, typically accompanied by neck pain and restricted or provocative cervical movement. Other primary and secondary headache disorders must be excluded.",
+  "clinicalPattern": {
+    "typical": [
+      "Unilateral or side-dominant headache associated with neck pain",
+      "Reduced cervical motion",
+      "Headache provoked by neck movement or sustained posture",
+      "Possible occipital-to-frontal referral"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Thunderclap headache"
+    },
+    {
+      "level": "RED",
+      "item": "Fever/meningism"
+    },
+    {
+      "level": "RED",
+      "item": "New focal neurological deficit"
+    },
+    {
+      "level": "RED",
+      "item": "New headache with cancer/immunosuppression"
+    },
+    {
+      "level": "RED",
+      "item": "Acute visual loss or temporal arteritis features"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Neurological screen",
+      "Cervical ROM",
+      "Upper-cervical and muscular assessment",
+      "Blood pressure and cranial/neurological assessment when indicated"
+    ]
+  },
+  "differentials": [
+    "Migraine",
+    "Tension-type headache",
+    "Occipital neuralgia",
+    "Cervical artery dissection",
+    "Giant cell arteritis",
+    "Intracranial pathology"
+  ],
+  "investigations": {
+    "principle": "Routine cervical imaging is not required for typical uncomplicated cases.",
+    "MRI": "MRI/vascular or brain imaging is selected when red flags or alternative pathology is suspected.",
+    "radiographs": "Radiographs have limited value for diagnosing the pain source."
+  },
+  "management": {
+    "green": [
+      "Education, posture/activity modification and cervical/scapular exercise",
+      "Manual therapy only when serious vascular/neurological disease is excluded"
+    ],
+    "amber": [
+      "High-velocity cervical manipulation requires careful risk assessment and is inappropriate when vascular or neurological red flags exist."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Shirah-shoola with cervical contribution may be documented descriptively; modern headache differential remains essential."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Headache attributed to a disorder of the cervical spine and its structures, typically accompanied by neck pain and restricted or provocative cervical movement. Other primary and secondary headache disorders must be excluded.",
+    "urgent": "Seek urgent assessment for acute/progressive neurological deficit, sphincter change, severe infection/systemic illness, major trauma, vascular compromise or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "International Headache Society",
+      "title": "ICHD-3: Cervicogenic headache",
+      "url": "https://ichd-3.org/",
+      "checked": "2026-08-07"
+    },
+    {
+      "organization": "JOSPT",
+      "title": "Neck Pain Clinical Practice Guideline",
+      "url": "https://www.jospt.org/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V1.7-BATCH-03",
+    "proposedGoldChapterNumber": 30
+  }
+}

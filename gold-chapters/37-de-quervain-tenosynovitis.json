@@ -1,0 +1,107 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-ORT-DQ-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "De Quervain Tenosynovitis",
+  "synonyms": [
+    "De Quervain disease",
+    "First dorsal compartment tenosynovitis"
+  ],
+  "category": "Orthopedics > Wrist/Hand > Tendon",
+  "tags": [
+    "de quervain",
+    "wrist",
+    "thumb",
+    "tenosynovitis"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Painful stenosing tenosynovitis/tendinopathy involving the first dorsal extensor compartment, usually abductor pollicis longus and extensor pollicis brevis.",
+  "clinicalPattern": {
+    "typical": [
+      "Radial wrist pain near styloid",
+      "Pain with thumb motion, lifting or grasping",
+      "Localized tenderness",
+      "Common postpartum or repetitive-load association"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Trauma/fracture"
+    },
+    {
+      "level": "RED",
+      "item": "Infection"
+    },
+    {
+      "level": "RED",
+      "item": "Neurological deficit"
+    },
+    {
+      "level": "RED",
+      "item": "Mass or severe unexplained swelling"
+    }
+  ],
+  "examination": {
+    "core": [
+      "First dorsal compartment tenderness",
+      "Thumb motion/resisted testing",
+      "Finkelstein/Eichhoff interpreted carefully",
+      "CMC joint and nerve screen"
+    ]
+  },
+  "differentials": [
+    "Thumb CMC OA",
+    "Intersection syndrome",
+    "Scaphoid pathology",
+    "Wartenberg neuritis",
+    "Inflammatory arthritis"
+  ],
+  "investigations": {
+    "principle": "Usually a clinical diagnosis.",
+    "MRI": "Ultrasound may clarify tendon-compartment anatomy or guide injection.",
+    "radiographs": "Radiographs when fracture or CMC OA is suspected."
+  },
+  "management": {
+    "green": [
+      "Activity modification and thumb-spica support when helpful",
+      "Progressive tendon rehabilitation"
+    ],
+    "amber": [
+      "Corticosteroid injection and surgical release are options for persistent cases after individualized assessment."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Manibandha/Angushtha-region Snayu/Vata phenotype may be documented descriptively."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Painful stenosing tenosynovitis/tendinopathy involving the first dorsal extensor compartment, usually abductor pollicis longus and extensor pollicis brevis.",
+    "urgent": "Seek urgent assessment for acute/progressive neurological deficit, sphincter change, severe infection/systemic illness, major trauma, vascular compromise or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "AAOS OrthoInfo",
+      "title": "De Quervain's Tenosynovitis",
+      "url": "https://orthoinfo.aaos.org/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V1.7-BATCH-03",
+    "proposedGoldChapterNumber": 37
+  }
+}

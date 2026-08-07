@@ -1,0 +1,116 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-ORT-PF-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Plantar Fasciitis / Plantar Heel Pain",
+  "synonyms": [
+    "Plantar fasciopathy",
+    "Plantar heel pain"
+  ],
+  "category": "Orthopedics > Foot & Ankle > Heel Pain",
+  "tags": [
+    "plantar fasciitis",
+    "heel pain",
+    "plantar fascia",
+    "foot"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Mechanical plantar heel pain associated with plantar fascia degeneration/overload, typically causing first-step pain after rest and tenderness near the medial calcaneal tubercle.",
+  "clinicalPattern": {
+    "typical": [
+      "First-step morning heel pain",
+      "Pain after prolonged sitting then standing",
+      "Medial plantar heel tenderness",
+      "Symptoms may ease after warming up then recur with load"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Acute inability to bear weight after trauma"
+    },
+    {
+      "level": "RED",
+      "item": "Calcaneal stress fracture suspicion"
+    },
+    {
+      "level": "RED",
+      "item": "Fever/infection"
+    },
+    {
+      "level": "RED",
+      "item": "Neurological deficit or severe night pain"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Foot posture and gait",
+      "Plantar fascia insertion tenderness",
+      "Ankle dorsiflexion",
+      "Windlass/loading response",
+      "Neurological and vascular screen"
+    ]
+  },
+  "differentials": [
+    "Calcaneal stress fracture",
+    "Fat-pad syndrome",
+    "Tarsal tunnel syndrome",
+    "S1 radiculopathy",
+    "Inflammatory enthesitis",
+    "Tumour/infection"
+  ],
+  "investigations": {
+    "principle": "Diagnosis is usually clinical.",
+    "MRI": "Ultrasound/MRI may be used when atypical or refractory symptoms suggest alternative pathology.",
+    "radiographs": "Radiographs may identify fracture or other bony disease but heel spurs do not establish diagnosis."
+  },
+  "management": {
+    "green": [
+      "Load modification and progressive plantar fascia/calf rehabilitation",
+      "Footwear optimization",
+      "Stretching and strengthening"
+    ],
+    "amber": [
+      "Injection and other procedures require individualized risk/benefit review; repeated corticosteroid injection carries tissue risk."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Vatakantaka is a commonly considered Ayurvedic correlation for plantar heel pain."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Mechanical plantar heel pain associated with plantar fascia degeneration/overload, typically causing first-step pain after rest and tenderness near the medial calcaneal tubercle.",
+    "urgent": "Seek urgent assessment for acute/progressive neurological deficit, sphincter change, severe infection/systemic illness, major trauma, vascular compromise or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "JOSPT",
+      "title": "Heel Pain—Plantar Fasciitis Clinical Practice Guideline",
+      "url": "https://www.jospt.org/",
+      "checked": "2026-08-07"
+    },
+    {
+      "organization": "AAOS OrthoInfo",
+      "title": "Plantar Fasciitis and Bone Spurs",
+      "url": "https://orthoinfo.aaos.org/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V1.7-BATCH-03",
+    "proposedGoldChapterNumber": 34
+  }
+}

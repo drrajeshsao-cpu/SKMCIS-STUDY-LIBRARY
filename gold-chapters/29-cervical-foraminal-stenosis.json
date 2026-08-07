@@ -1,0 +1,107 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-CSP-CFS-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Cervical Foraminal Stenosis",
+  "synonyms": [
+    "Cervical neural foraminal stenosis"
+  ],
+  "category": "Spine > Cervical > Foraminal Stenosis",
+  "tags": [
+    "cervical",
+    "foraminal stenosis",
+    "radiculopathy",
+    "nerve root"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Narrowing of a cervical neural foramen due to uncovertebral/facet hypertrophy, disc-height loss or disc material, becoming clinically important when it correlates with nerve-root symptoms.",
+  "clinicalPattern": {
+    "typical": [
+      "Neck and arm pain",
+      "Dermatomal numbness or paresthesia",
+      "Myotomal weakness/reflex change",
+      "Position-dependent arm symptoms"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Progressive weakness"
+    },
+    {
+      "level": "RED",
+      "item": "Myelopathic signs"
+    },
+    {
+      "level": "RED",
+      "item": "Severe bilateral neurological symptoms"
+    },
+    {
+      "level": "RED",
+      "item": "Trauma, infection or malignancy red flags"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Neurological upper-limb exam",
+      "Cervical ROM",
+      "Spurling/distraction",
+      "Shoulder/peripheral nerve screen",
+      "Myelopathy screen"
+    ]
+  },
+  "differentials": [
+    "Cervical disc herniation",
+    "Peripheral nerve entrapment",
+    "Shoulder disease",
+    "Brachial plexopathy",
+    "Tumour"
+  ],
+  "investigations": {
+    "principle": "Clinical-radiological correlation is essential because foraminal narrowing can be asymptomatic.",
+    "MRI": "MRI demonstrates neural structures; CT better defines bony foraminal narrowing when needed.",
+    "radiographs": "Radiographs may suggest degenerative narrowing but are not sufficient for root assessment."
+  },
+  "management": {
+    "green": [
+      "Education, graded activity and cervical/scapular rehabilitation",
+      "Neurological monitoring"
+    ],
+    "amber": [
+      "Persistent disabling radiculopathy or progressive deficit may require specialist injection or surgical consideration."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Greeva-region Vata phenotype may be documented only as a parallel correlation."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Narrowing of a cervical neural foramen due to uncovertebral/facet hypertrophy, disc-height loss or disc material, becoming clinically important when it correlates with nerve-root symptoms.",
+    "urgent": "Seek urgent assessment for acute/progressive neurological deficit, sphincter change, severe infection/systemic illness, major trauma, vascular compromise or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "American College of Radiology (ACR)",
+      "title": "Cervical Neck Pain or Cervical Radiculopathy",
+      "url": "https://acsearch.acr.org/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V1.7-BATCH-03",
+    "proposedGoldChapterNumber": 29
+  }
+}

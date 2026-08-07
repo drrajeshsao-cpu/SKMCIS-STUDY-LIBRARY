@@ -1,0 +1,109 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-NEU-CUTS-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Ulnar Neuropathy at the Elbow / Cubital Tunnel Syndrome",
+  "synonyms": [
+    "Cubital tunnel syndrome",
+    "Ulnar neuropathy at elbow"
+  ],
+  "category": "Neurology/Orthopedics > Peripheral Nerve > Ulnar",
+  "tags": [
+    "ulnar neuropathy",
+    "cubital tunnel",
+    "hand numbness",
+    "elbow"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Compression or irritation of the ulnar nerve at or around the elbow causing sensory and, in more advanced disease, motor dysfunction.",
+  "clinicalPattern": {
+    "typical": [
+      "Numbness/tingling in little and ulnar ring finger",
+      "Symptoms with prolonged elbow flexion",
+      "Intrinsic hand weakness in advanced cases",
+      "Medial elbow discomfort"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Rapid progressive weakness or muscle wasting"
+    },
+    {
+      "level": "RED",
+      "item": "Severe constant sensory loss"
+    },
+    {
+      "level": "RED",
+      "item": "Trauma/mass"
+    },
+    {
+      "level": "RED",
+      "item": "Cervical myelopathy signs"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Ulnar sensory distribution",
+      "Intrinsic hand strength",
+      "Froment/Wartenberg signs",
+      "Tinel at elbow",
+      "Cervical and other nerve screen"
+    ]
+  },
+  "differentials": [
+    "C8-T1 radiculopathy",
+    "Lower trunk plexopathy",
+    "Guyon canal syndrome",
+    "Polyneuropathy",
+    "Motor neuron disease"
+  ],
+  "investigations": {
+    "principle": "Electrodiagnostic testing is useful when severity, localization or surgical planning requires it.",
+    "MRI": "Ultrasound may demonstrate nerve enlargement/subluxation.",
+    "radiographs": "Radiographs when bony deformity/trauma is relevant."
+  },
+  "management": {
+    "green": [
+      "Avoid prolonged elbow flexion/pressure",
+      "Night positioning or splinting",
+      "Nerve protection and ergonomic modification"
+    ],
+    "amber": [
+      "Surgery is considered for persistent severe symptoms, weakness or denervation."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Peripheral Vata/neuropathy phenotype may be recorded in parallel."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Compression or irritation of the ulnar nerve at or around the elbow causing sensory and, in more advanced disease, motor dysfunction.",
+    "urgent": "Seek urgent assessment for acute/progressive neurological deficit, sphincter change, severe infection/systemic illness, major trauma, vascular compromise or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "AAOS OrthoInfo",
+      "title": "Ulnar Nerve Entrapment at the Elbow",
+      "url": "https://orthoinfo.aaos.org/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V1.7-BATCH-03",
+    "proposedGoldChapterNumber": 41
+  }
+}

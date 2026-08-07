@@ -1,0 +1,108 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-ORT-GTPS-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Greater Trochanteric Pain Syndrome",
+  "synonyms": [
+    "Gluteal tendinopathy",
+    "Trochanteric bursitis"
+  ],
+  "category": "Orthopedics > Hip > Lateral Hip Pain",
+  "tags": [
+    "GTPS",
+    "lateral hip pain",
+    "gluteal tendinopathy",
+    "trochanteric"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Lateral hip pain syndrome commonly related to gluteus medius/minimus tendinopathy with or without bursal involvement.",
+  "clinicalPattern": {
+    "typical": [
+      "Lateral hip pain",
+      "Pain lying on affected side",
+      "Pain with walking/stairs or single-leg loading",
+      "Tenderness over greater trochanter"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Fracture/trauma"
+    },
+    {
+      "level": "RED",
+      "item": "Fever/infection"
+    },
+    {
+      "level": "RED",
+      "item": "Inability to bear weight"
+    },
+    {
+      "level": "RED",
+      "item": "Severe neurological or vascular symptoms"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Gait and single-leg stance",
+      "Greater-trochanter tenderness",
+      "Hip abductor strength",
+      "Lumbar/hip joint screen"
+    ]
+  },
+  "differentials": [
+    "Hip osteoarthritis",
+    "Lumbar radiculopathy",
+    "Femoral neck stress fracture",
+    "Meralgia paresthetica",
+    "Inflammatory disease"
+  ],
+  "investigations": {
+    "principle": "Usually clinical.",
+    "MRI": "Ultrasound/MRI may be used for persistent cases or suspected gluteal tendon tear.",
+    "radiographs": "Radiographs assess hip OA or fracture when indicated."
+  },
+  "management": {
+    "green": [
+      "Education and progressive hip-abductor loading",
+      "Avoid prolonged compressive positions early",
+      "Weight/load management when relevant"
+    ],
+    "amber": [
+      "Injection may offer short-term relief but should complement rehabilitation rather than replace it."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Kati/Shroni lateral pain phenotype may be documented as correlation only."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Lateral hip pain syndrome commonly related to gluteus medius/minimus tendinopathy with or without bursal involvement.",
+    "urgent": "Seek urgent assessment for acute/progressive neurological deficit, sphincter change, severe infection/systemic illness, major trauma, vascular compromise or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "JOSPT",
+      "title": "Hip Pain and Mobility Deficits / related rehabilitation guidance",
+      "url": "https://www.jospt.org/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V1.7-BATCH-03",
+    "proposedGoldChapterNumber": 39
+  }
+}

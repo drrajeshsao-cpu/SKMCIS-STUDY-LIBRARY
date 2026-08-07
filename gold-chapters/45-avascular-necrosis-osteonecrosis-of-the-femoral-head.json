@@ -1,0 +1,116 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-ORT-AVN-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Avascular Necrosis / Osteonecrosis of the Femoral Head",
+  "synonyms": [
+    "Femoral head osteonecrosis",
+    "AVN hip"
+  ],
+  "category": "Orthopedics > Hip > Osteonecrosis",
+  "tags": [
+    "AVN",
+    "osteonecrosis",
+    "femoral head",
+    "hip",
+    "MRI"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Ischemic death of bone and marrow in the femoral head that can progress to subchondral fracture, collapse and secondary hip arthritis.",
+  "clinicalPattern": {
+    "typical": [
+      "Groin or buttock pain",
+      "Pain with weight bearing",
+      "Reduced hip motion",
+      "May be bilateral",
+      "Risk factors include corticosteroid exposure and heavy alcohol use"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Acute inability to bear weight"
+    },
+    {
+      "level": "RED",
+      "item": "Fracture/collapse with severe pain"
+    },
+    {
+      "level": "RED",
+      "item": "Septic arthritis features"
+    },
+    {
+      "level": "RED",
+      "item": "Rapidly progressive symptoms"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Gait",
+      "Hip ROM especially internal rotation",
+      "Weight-bearing pain",
+      "Risk-factor and contralateral hip assessment"
+    ]
+  },
+  "differentials": [
+    "Hip OA",
+    "Femoral neck stress fracture",
+    "Labral disease",
+    "Septic arthritis",
+    "Lumbar referred pain"
+  ],
+  "investigations": {
+    "principle": "Early diagnosis is important because radiographs can be normal.",
+    "MRI": "MRI is the most sensitive test for early osteonecrosis.",
+    "radiographs": "Radiographs show sclerosis, crescent sign, collapse and secondary OA in later stages."
+  },
+  "management": {
+    "green": [
+      "Risk-factor modification where possible",
+      "Activity/load modification according to stage",
+      "Early orthopedic review for joint-preserving options in pre-collapse disease"
+    ],
+    "amber": [
+      "Core decompression, osteotomy or arthroplasty decisions depend on stage, lesion size, symptoms and patient factors."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Asthi/Majja and Vata-related phenotype may be documented, but AVN staging and orthopedic management remain central."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Ischemic death of bone and marrow in the femoral head that can progress to subchondral fracture, collapse and secondary hip arthritis.",
+    "urgent": "Seek urgent assessment for acute/progressive neurological deficit, sphincter change, severe infection/systemic illness, major trauma, vascular compromise or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "American College of Radiology (ACR)",
+      "title": "Osteonecrosis imaging guidance",
+      "url": "https://acsearch.acr.org/",
+      "checked": "2026-08-07"
+    },
+    {
+      "organization": "AAOS OrthoInfo",
+      "title": "Osteonecrosis of the Hip",
+      "url": "https://orthoinfo.aaos.org/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V1.7-BATCH-03",
+    "proposedGoldChapterNumber": 45
+  }
+}

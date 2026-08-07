@@ -1,0 +1,106 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-ORT-TF-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Trigger Finger / Stenosing Flexor Tenosynovitis",
+  "synonyms": [
+    "Trigger digit",
+    "Stenosing flexor tenosynovitis"
+  ],
+  "category": "Orthopedics > Hand > Tendon",
+  "tags": [
+    "trigger finger",
+    "hand",
+    "flexor tendon",
+    "A1 pulley"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Painful catching, clicking or locking of a flexor tendon at the A1 pulley, commonly affecting thumb, ring or middle finger.",
+  "clinicalPattern": {
+    "typical": [
+      "Clicking/catching with finger flexion-extension",
+      "Morning stiffness",
+      "Tender nodule at A1 pulley",
+      "Locking in flexion in more advanced cases"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Acute infection"
+    },
+    {
+      "level": "RED",
+      "item": "Traumatic tendon injury"
+    },
+    {
+      "level": "RED",
+      "item": "Neurovascular compromise"
+    },
+    {
+      "level": "RED",
+      "item": "Irreducible locked digit with severe pain"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Observe triggering",
+      "A1 pulley tenderness/nodule",
+      "Active/passive finger motion",
+      "Neurovascular exam"
+    ]
+  },
+  "differentials": [
+    "Dupuytren contracture",
+    "Flexor tendon injury",
+    "Inflammatory tenosynovitis",
+    "Joint arthritis"
+  ],
+  "investigations": {
+    "principle": "Usually clinical.",
+    "MRI": "Ultrasound may help in atypical cases.",
+    "radiographs": "Routine radiographs are not needed unless joint/bone disease is suspected."
+  },
+  "management": {
+    "green": [
+      "Activity modification and short-term splinting in selected cases",
+      "Maintain comfortable tendon motion"
+    ],
+    "amber": [
+      "Corticosteroid injection or surgical release is considered for persistent or severe locking."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Anguli/Snayu Vata phenotype may be documented descriptively."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Painful catching, clicking or locking of a flexor tendon at the A1 pulley, commonly affecting thumb, ring or middle finger.",
+    "urgent": "Seek urgent assessment for acute/progressive neurological deficit, sphincter change, severe infection/systemic illness, major trauma, vascular compromise or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "AAOS OrthoInfo",
+      "title": "Trigger Finger",
+      "url": "https://orthoinfo.aaos.org/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V1.7-BATCH-03",
+    "proposedGoldChapterNumber": 38
+  }
+}

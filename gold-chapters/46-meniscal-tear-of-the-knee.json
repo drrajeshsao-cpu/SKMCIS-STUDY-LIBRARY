@@ -1,0 +1,109 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-ORT-MEN-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Meniscal Tear of the Knee",
+  "synonyms": [
+    "Knee meniscus tear"
+  ],
+  "category": "Orthopedics > Knee > Meniscus",
+  "tags": [
+    "meniscus",
+    "knee",
+    "tear",
+    "locking",
+    "MRI"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Traumatic or degenerative disruption of the knee meniscus. Degenerative tears are common on MRI and may be incidental; symptoms and mechanical findings require correlation.",
+  "clinicalPattern": {
+    "typical": [
+      "Joint-line pain",
+      "Swelling after activity",
+      "Catching or clicking",
+      "True locking can occur with displaced tear",
+      "Traumatic twisting onset in younger patients"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Acute locked knee"
+    },
+    {
+      "level": "RED",
+      "item": "Major trauma/fracture"
+    },
+    {
+      "level": "RED",
+      "item": "Septic joint"
+    },
+    {
+      "level": "RED",
+      "item": "Neurovascular compromise"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Joint-line tenderness",
+      "Effusion and ROM",
+      "McMurray/Thessaly interpreted in context",
+      "Ligament stability",
+      "Hip and patellofemoral screen"
+    ]
+  },
+  "differentials": [
+    "Knee OA",
+    "ACL injury",
+    "Patellofemoral pain",
+    "Loose body",
+    "Inflammatory arthritis"
+  ],
+  "investigations": {
+    "principle": "Clinical assessment guides imaging.",
+    "MRI": "MRI is preferred for suspected clinically important tear when diagnosis will alter treatment.",
+    "radiographs": "Radiographs assess OA or fracture but not meniscal tissue."
+  },
+  "management": {
+    "green": [
+      "Rehabilitation emphasizing ROM, quadriceps/hip strength and function",
+      "Activity modification while symptoms settle"
+    ],
+    "amber": [
+      "Arthroscopy is not routine for degenerative tears without true mechanical locking; selected displaced traumatic tears may require surgical review."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Janu-sandhi/Snayu phenotype can be documented descriptively."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Traumatic or degenerative disruption of the knee meniscus. Degenerative tears are common on MRI and may be incidental; symptoms and mechanical findings require correlation.",
+    "urgent": "Seek urgent assessment for acute/progressive neurological deficit, sphincter change, severe infection/systemic illness, major trauma, vascular compromise or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "AAOS",
+      "title": "Acute Isolated Meniscal Pathology CPG",
+      "url": "https://www.aaos.org/quality/quality-programs/clinical-practice-guidelines/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V1.7-BATCH-03",
+    "proposedGoldChapterNumber": 46
+  }
+}

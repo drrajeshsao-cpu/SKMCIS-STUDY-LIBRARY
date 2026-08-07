@@ -1,0 +1,116 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-ORT-DFU-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Diabetic Foot Ulcer",
+  "synonyms": [
+    "Neuropathic diabetic foot ulcer"
+  ],
+  "category": "Diabetic Foot > Ulcer",
+  "tags": [
+    "diabetic foot",
+    "ulcer",
+    "neuropathy",
+    "infection",
+    "offloading"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Full-thickness skin ulcer of the foot in a person with diabetes, commonly related to neuropathy, pressure, deformity and/or ischemia, with substantial infection and amputation risk.",
+  "clinicalPattern": {
+    "typical": [
+      "Plantar or pressure-point ulcer",
+      "Loss of protective sensation",
+      "Callus/deformity",
+      "Possible drainage or surrounding erythema"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Spreading infection, systemic toxicity or sepsis"
+    },
+    {
+      "level": "RED",
+      "item": "Critical limb ischemia"
+    },
+    {
+      "level": "RED",
+      "item": "Deep abscess, necrosis or suspected osteomyelitis"
+    },
+    {
+      "level": "RED",
+      "item": "Rapidly progressive tissue loss"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Ulcer size/depth/location",
+      "Probe-to-bone when appropriate",
+      "Protective sensation",
+      "Pulses/perfusion",
+      "Infection signs",
+      "Foot deformity and footwear"
+    ]
+  },
+  "differentials": [
+    "Pressure injury",
+    "Venous ulcer",
+    "Arterial ulcer",
+    "Neuropathic ulcer from other causes",
+    "Malignancy in chronic atypical wound"
+  ],
+  "investigations": {
+    "principle": "Assess infection, perfusion and depth; obtain labs/cultures/imaging according to severity.",
+    "MRI": "MRI is useful for suspected osteomyelitis when diagnosis remains uncertain.",
+    "radiographs": "Plain radiographs assess bone destruction, gas or foreign body but early osteomyelitis may be occult."
+  },
+  "management": {
+    "green": [
+      "Urgent off-loading and wound care",
+      "Optimize glucose, nutrition and perfusion",
+      "Multidisciplinary diabetic-foot management"
+    ],
+    "amber": [
+      "Antibiotics are for clinically infected ulcers, not uninfected wounds; debridement/revascularization/surgery depend on severity."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Vrana/Dushta-vrana principles may be considered only alongside modern infection, vascular and diabetic-foot management."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Full-thickness skin ulcer of the foot in a person with diabetes, commonly related to neuropathy, pressure, deformity and/or ischemia, with substantial infection and amputation risk.",
+    "urgent": "Seek urgent assessment for acute/progressive neurological deficit, sphincter change, severe infection/systemic illness, major trauma, vascular compromise or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "IWGDF",
+      "title": "Guidelines on prevention and management of diabetes-related foot disease",
+      "url": "https://iwgdfguidelines.org/",
+      "checked": "2026-08-07"
+    },
+    {
+      "organization": "IDSA",
+      "title": "Diabetic Foot Infection Guideline",
+      "url": "https://www.idsociety.org/practice-guideline/diabetic-foot-infections/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V1.7-BATCH-03",
+    "proposedGoldChapterNumber": 44
+  }
+}

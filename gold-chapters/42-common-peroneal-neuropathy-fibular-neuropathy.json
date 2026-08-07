@@ -1,0 +1,109 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-NEU-CPN-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Common Peroneal Neuropathy / Fibular Neuropathy",
+  "synonyms": [
+    "Common fibular neuropathy",
+    "Peroneal nerve palsy"
+  ],
+  "category": "Neurology > Peripheral Nerve > Fibular",
+  "tags": [
+    "peroneal neuropathy",
+    "fibular nerve",
+    "foot drop",
+    "neuropathy"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Neuropathy of the common fibular/peroneal nerve, often near the fibular neck, causing dorsiflexion/eversion weakness and sensory disturbance.",
+  "clinicalPattern": {
+    "typical": [
+      "Foot drop or steppage gait",
+      "Weak dorsiflexion/eversion",
+      "Sensory change over dorsum of foot/lateral leg",
+      "Possible compression history"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Rapid progressive weakness"
+    },
+    {
+      "level": "RED",
+      "item": "Associated severe back pain/saddle/sphincter symptoms"
+    },
+    {
+      "level": "RED",
+      "item": "Trauma with compartment syndrome"
+    },
+    {
+      "level": "RED",
+      "item": "Systemic vasculitic neuropathy features"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Dorsiflexion, toe extension and eversion strength",
+      "Inversion to help distinguish L5 root disease",
+      "Sensory mapping",
+      "Reflexes",
+      "Fibular-neck tenderness/Tinel"
+    ]
+  },
+  "differentials": [
+    "L5 radiculopathy",
+    "Sciatic neuropathy",
+    "Lumbosacral plexopathy",
+    "Motor neuron disease",
+    "Polyneuropathy"
+  ],
+  "investigations": {
+    "principle": "Electrodiagnostic studies help localize and grade lesions.",
+    "MRI": "MRI/ultrasound may identify mass, trauma or focal structural cause.",
+    "radiographs": "Radiographs when fibular/knee trauma is suspected."
+  },
+  "management": {
+    "green": [
+      "Remove external compression",
+      "Ankle-foot orthosis when needed",
+      "Gait and dorsiflexor rehabilitation"
+    ],
+    "amber": [
+      "Surgical decompression or repair depends on lesion severity, cause and recovery."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Peripheral Vata/neurological phenotype may be documented in parallel."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Neuropathy of the common fibular/peroneal nerve, often near the fibular neck, causing dorsiflexion/eversion weakness and sensory disturbance.",
+    "urgent": "Seek urgent assessment for acute/progressive neurological deficit, sphincter change, severe infection/systemic illness, major trauma, vascular compromise or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "AANEM",
+      "title": "Peripheral nerve electrodiagnostic resources",
+      "url": "https://www.aanem.org/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V1.7-BATCH-03",
+    "proposedGoldChapterNumber": 42
+  }
+}

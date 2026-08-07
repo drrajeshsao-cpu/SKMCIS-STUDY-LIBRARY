@@ -1,0 +1,108 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-NEU-BP-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Bell's Palsy / Acute Peripheral Facial Nerve Palsy",
+  "synonyms": [
+    "Idiopathic facial nerve palsy"
+  ],
+  "category": "Neurology > Cranial Nerve VII",
+  "tags": [
+    "bell palsy",
+    "facial palsy",
+    "facial nerve",
+    "cranial nerve VII"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Acute unilateral lower-motor-neuron facial weakness without an identified alternative cause after appropriate assessment.",
+  "clinicalPattern": {
+    "typical": [
+      "Rapid onset unilateral facial weakness",
+      "Forehead and lower-face involvement",
+      "Difficulty closing eye",
+      "Altered taste or hyperacusis may occur"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Forehead-sparing weakness or other focal neurological deficits suggesting stroke"
+    },
+    {
+      "level": "RED",
+      "item": "Vesicular ear rash/severe otalgia"
+    },
+    {
+      "level": "RED",
+      "item": "Recurrent/bilateral palsy"
+    },
+    {
+      "level": "RED",
+      "item": "Progressive course, systemic illness or tumour concern"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Full neurological exam",
+      "Forehead and eye closure",
+      "Facial symmetry/movement",
+      "Ear and oral examination",
+      "Corneal protection assessment"
+    ]
+  },
+  "differentials": [
+    "Stroke",
+    "Ramsay Hunt syndrome",
+    "Lyme disease where epidemiologically relevant",
+    "Parotid/temporal bone tumour",
+    "Otitis/mastoid disease"
+  ],
+  "investigations": {
+    "principle": "Typical isolated Bell's palsy usually does not require routine imaging.",
+    "MRI": "MRI is appropriate for atypical, recurrent, progressive or nonrecovering cases.",
+    "radiographs": "Routine radiographs are not useful."
+  },
+  "management": {
+    "green": [
+      "Urgent eye protection when closure is incomplete",
+      "Early evidence-based medical therapy when appropriate",
+      "Facial recovery monitoring"
+    ],
+    "amber": [
+      "Steroid/antiviral decisions depend on timing, contraindications and diagnostic certainty."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Ardita is a classical correlation often discussed, but modern neurological exclusion of stroke and other causes is mandatory."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Acute unilateral lower-motor-neuron facial weakness without an identified alternative cause after appropriate assessment.",
+    "urgent": "Seek urgent assessment for acute/progressive neurological deficit, sphincter change, severe infection/systemic illness, major trauma, vascular compromise or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "AAO-HNSF",
+      "title": "Clinical Practice Guideline: Bell's Palsy",
+      "url": "https://www.entnet.org/quality-practice/quality-products/clinical-practice-guidelines/bells-palsy/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V1.7-BATCH-03",
+    "proposedGoldChapterNumber": 33
+  }
+}

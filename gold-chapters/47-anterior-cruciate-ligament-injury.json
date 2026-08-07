@@ -1,0 +1,114 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-ORT-ACL-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Anterior Cruciate Ligament Injury",
+  "synonyms": [
+    "ACL tear",
+    "Anterior cruciate ligament rupture"
+  ],
+  "category": "Orthopedics > Knee > Ligament",
+  "tags": [
+    "ACL",
+    "knee",
+    "ligament",
+    "instability",
+    "sports injury"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Partial or complete injury of the anterior cruciate ligament, commonly from non-contact pivoting or traumatic mechanisms, producing knee instability.",
+  "clinicalPattern": {
+    "typical": [
+      "Pop at injury",
+      "Rapid swelling/hemarthrosis",
+      "Giving-way episodes",
+      "Difficulty pivoting or changing direction"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Neurovascular compromise"
+    },
+    {
+      "level": "RED",
+      "item": "Knee dislocation"
+    },
+    {
+      "level": "RED",
+      "item": "Associated fracture"
+    },
+    {
+      "level": "RED",
+      "item": "Compartment syndrome"
+    },
+    {
+      "level": "RED",
+      "item": "Septic joint"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Lachman",
+      "Anterior drawer",
+      "Pivot shift when appropriate",
+      "Effusion/ROM",
+      "Collateral/PCL and neurovascular assessment"
+    ]
+  },
+  "differentials": [
+    "Meniscal tear",
+    "Patellar dislocation",
+    "PCL injury",
+    "Tibial plateau fracture",
+    "Collateral ligament injury"
+  ],
+  "investigations": {
+    "principle": "Diagnosis is often clinical in acute sports injury.",
+    "MRI": "MRI confirms ACL and associated meniscal/cartilage injury when required.",
+    "radiographs": "Radiographs exclude fracture and assess alignment."
+  },
+  "management": {
+    "green": [
+      "Early swelling/ROM restoration",
+      "Progressive quadriceps/hamstring and neuromuscular rehabilitation",
+      "Activity-specific return-to-sport criteria"
+    ],
+    "amber": [
+      "Reconstruction versus nonoperative care depends on instability, activity demands, associated injuries and patient goals."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Janu-sandhi/Snayu injury phenotype may be documented; ligament disruption remains a modern structural diagnosis."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Partial or complete injury of the anterior cruciate ligament, commonly from non-contact pivoting or traumatic mechanisms, producing knee instability.",
+    "urgent": "Seek urgent assessment for acute/progressive neurological deficit, sphincter change, severe infection/systemic illness, major trauma, vascular compromise or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "AAOS",
+      "title": "Management of Anterior Cruciate Ligament Injuries CPG",
+      "url": "https://www.aaos.org/quality/quality-programs/clinical-practice-guidelines/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V1.7-BATCH-03",
+    "proposedGoldChapterNumber": 47
+  }
+}

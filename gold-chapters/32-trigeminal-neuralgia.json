@@ -1,0 +1,114 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-NEU-TN-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Trigeminal Neuralgia",
+  "synonyms": [
+    "Tic douloureux"
+  ],
+  "category": "Neurology > Cranial Neuralgia",
+  "tags": [
+    "trigeminal neuralgia",
+    "facial pain",
+    "cranial nerve V",
+    "neuralgia"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Recurrent unilateral brief electric shock-like facial pain limited to one or more divisions of the trigeminal nerve, triggered by innocuous stimuli in classical presentations.",
+  "clinicalPattern": {
+    "typical": [
+      "Brief electric/shock-like unilateral facial pain",
+      "Trigger zones with touch, chewing, talking or brushing teeth",
+      "Pain-free intervals may occur",
+      "Neurological exam is usually normal in classical TN"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Sensory loss or other cranial nerve deficit"
+    },
+    {
+      "level": "RED",
+      "item": "Bilateral or young-onset atypical symptoms"
+    },
+    {
+      "level": "RED",
+      "item": "Persistent background pain with systemic features"
+    },
+    {
+      "level": "RED",
+      "item": "Concern for multiple sclerosis, tumour or infection"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Cranial nerve examination",
+      "Facial sensation",
+      "Oral/dental screen",
+      "Trigger-zone history",
+      "General neurological examination"
+    ]
+  },
+  "differentials": [
+    "Dental disease",
+    "Temporomandibular disorder",
+    "Post-herpetic neuralgia",
+    "Cluster headache",
+    "Persistent idiopathic facial pain",
+    "Multiple sclerosis-related TN"
+  ],
+  "investigations": {
+    "principle": "Brain MRI is generally recommended to assess secondary causes and neurovascular compression in appropriate patients.",
+    "MRI": "MRI with trigeminal protocol may be useful for surgical planning.",
+    "radiographs": "Radiographs are not diagnostic."
+  },
+  "management": {
+    "green": [
+      "Neurology-led diagnosis and medication management",
+      "Patient education about triggers and treatment adherence"
+    ],
+    "amber": [
+      "Carbamazepine/oxcarbazepine and procedural/surgical options require interaction, laboratory and specialist review."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Classical Ayurvedic one-to-one equivalence should not be assumed; facial Vata-neuralgia phenotype may be documented separately."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Recurrent unilateral brief electric shock-like facial pain limited to one or more divisions of the trigeminal nerve, triggered by innocuous stimuli in classical presentations.",
+    "urgent": "Seek urgent assessment for acute/progressive neurological deficit, sphincter change, severe infection/systemic illness, major trauma, vascular compromise or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "European Academy of Neurology",
+      "title": "Guideline on trigeminal neuralgia",
+      "url": "https://www.ean.org/",
+      "checked": "2026-08-07"
+    },
+    {
+      "organization": "Royal College of Surgeons England",
+      "title": "Guidelines for management of trigeminal neuralgia",
+      "url": "https://www.rcseng.ac.uk/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V1.7-BATCH-03",
+    "proposedGoldChapterNumber": 32
+  }
+}

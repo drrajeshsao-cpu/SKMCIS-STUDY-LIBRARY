@@ -1,0 +1,106 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-ORT-AT-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Achilles Tendinopathy",
+  "synonyms": [
+    "Achilles tendinosis",
+    "Midportion Achilles tendinopathy",
+    "Insertional Achilles tendinopathy"
+  ],
+  "category": "Orthopedics > Foot & Ankle > Tendon",
+  "tags": [
+    "achilles",
+    "tendinopathy",
+    "heel",
+    "tendon"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Load-related pain and dysfunction of the Achilles tendon, commonly affecting the midportion or insertion.",
+  "clinicalPattern": {
+    "typical": [
+      "Posterior heel/tendon pain with running or walking",
+      "Morning stiffness",
+      "Tendon tenderness or thickening",
+      "Pain with repeated heel raises"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Sudden snap or loss of plantar-flexion power suggesting rupture"
+    },
+    {
+      "level": "RED",
+      "item": "Marked swelling after trauma"
+    },
+    {
+      "level": "RED",
+      "item": "Infection or DVT concern"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Inspection and palpation",
+      "Single-leg heel raise",
+      "Calf strength",
+      "Ankle ROM",
+      "Thompson test if rupture suspected"
+    ]
+  },
+  "differentials": [
+    "Achilles rupture",
+    "Retrocalcaneal bursitis",
+    "Plantar heel pain",
+    "S1 radiculopathy",
+    "Inflammatory enthesitis"
+  ],
+  "investigations": {
+    "principle": "Typical cases are clinical.",
+    "MRI": "Ultrasound/MRI is useful when rupture, atypical lesion or surgical planning is suspected.",
+    "radiographs": "Radiographs may show insertional calcification or other bony pathology."
+  },
+  "management": {
+    "green": [
+      "Progressive tendon-loading program",
+      "Activity/load modification rather than complete rest",
+      "Calf strength restoration"
+    ],
+    "amber": [
+      "Injection around the tendon requires caution; intratendinous corticosteroid is generally avoided because of rupture risk."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Snayu/Kandara-related Vata phenotype may be documented descriptively."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Load-related pain and dysfunction of the Achilles tendon, commonly affecting the midportion or insertion.",
+    "urgent": "Seek urgent assessment for acute/progressive neurological deficit, sphincter change, severe infection/systemic illness, major trauma, vascular compromise or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "JOSPT",
+      "title": "Achilles Pain, Stiffness, and Muscle Power Deficits CPG",
+      "url": "https://www.jospt.org/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V1.7-BATCH-03",
+    "proposedGoldChapterNumber": 35
+  }
+}

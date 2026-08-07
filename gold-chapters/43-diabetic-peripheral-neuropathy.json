@@ -1,0 +1,110 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-NEU-DPN-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Diabetic Peripheral Neuropathy",
+  "synonyms": [
+    "Diabetic distal symmetric polyneuropathy"
+  ],
+  "category": "Neurology > Metabolic Neuropathy",
+  "tags": [
+    "diabetes",
+    "neuropathy",
+    "DPN",
+    "foot",
+    "sensory loss"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Length-dependent peripheral neuropathy associated with diabetes, typically producing distal sensory loss, neuropathic pain and reduced protective sensation.",
+  "clinicalPattern": {
+    "typical": [
+      "Burning/numbness in feet",
+      "Stocking sensory loss",
+      "Reduced vibration and ankle reflexes",
+      "Balance difficulty",
+      "Neuropathic foot ulcer risk"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Acute/asymmetric motor neuropathy"
+    },
+    {
+      "level": "RED",
+      "item": "Rapid progression"
+    },
+    {
+      "level": "RED",
+      "item": "Infected ulcer or critical ischemia"
+    },
+    {
+      "level": "RED",
+      "item": "New cord or cauda equina signs"
+    }
+  ],
+  "examination": {
+    "core": [
+      "10-g monofilament/protective sensation",
+      "Vibration",
+      "Reflexes",
+      "Motor and gait assessment",
+      "Foot skin, pulses and deformity"
+    ]
+  },
+  "differentials": [
+    "B12 deficiency",
+    "Alcohol/toxic neuropathy",
+    "Lumbar stenosis/radiculopathy",
+    "CIDP",
+    "Peripheral arterial disease"
+  ],
+  "investigations": {
+    "principle": "Typical DPN is mainly a clinical diagnosis; evaluate for other treatable causes when atypical.",
+    "MRI": "MRI is not routine.",
+    "radiographs": "Electrodiagnostic testing is selected for atypical/asymmetric/motor presentations."
+  },
+  "management": {
+    "green": [
+      "Optimize glycemic and cardiovascular risk factors",
+      "Daily foot care and protective footwear",
+      "Balance and strength rehabilitation"
+    ],
+    "amber": [
+      "Neuropathic-pain medicines require individualized renal/hepatic, interaction and fall-risk review."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Madhumeha-associated Vata/Dhatu/Srotas dysfunction may be assessed in parallel; modern diabetic neuropathy care remains essential."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Length-dependent peripheral neuropathy associated with diabetes, typically producing distal sensory loss, neuropathic pain and reduced protective sensation.",
+    "urgent": "Seek urgent assessment for acute/progressive neurological deficit, sphincter change, severe infection/systemic illness, major trauma, vascular compromise or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "American Diabetes Association",
+      "title": "Standards of Care in Diabetes",
+      "url": "https://diabetesjournals.org/care/issue",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V1.7-BATCH-03",
+    "proposedGoldChapterNumber": 43
+  }
+}
