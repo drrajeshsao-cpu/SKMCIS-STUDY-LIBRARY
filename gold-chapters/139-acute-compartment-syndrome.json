@@ -1,0 +1,95 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-ORT-ACS-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Acute Compartment Syndrome",
+  "synonyms": [
+    "Compartment syndrome"
+  ],
+  "category": "Orthopedics > Emergency > Limb",
+  "tags": [
+    "compartment syndrome",
+    "emergency",
+    "pain passive stretch",
+    "fasciotomy"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Pathologic rise in pressure within a closed muscle compartment causing impaired tissue perfusion and risk of irreversible muscle/nerve damage.",
+  "clinicalPattern": {
+    "typical": [
+      "Severe escalating pain",
+      "Pain out of proportion",
+      "Pain with passive stretch",
+      "Tense swollen compartment",
+      "Sensory/motor deficit are late signs"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Any suspected acute compartment syndrome is a surgical emergency"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Serial pain and compartment examination",
+      "Passive stretch",
+      "Motor/sensory assessment",
+      "Pulses do not rule out the diagnosis"
+    ]
+  },
+  "differentials": [
+    "DVT",
+    "Cellulitis",
+    "Fracture pain",
+    "Acute arterial occlusion"
+  ],
+  "investigations": {
+    "principle": "Diagnosis is clinical, supported by pressure measurement when uncertainty exists.",
+    "MRI": "MRI is not appropriate when emergency ACS is suspected.",
+    "radiographs": "Radiographs identify associated fracture but do not diagnose ACS."
+  },
+  "management": {
+    "green": [
+      "Immediate removal of constrictive dressings",
+      "Emergency orthopedic assessment",
+      "Urgent fasciotomy when indicated"
+    ],
+    "amber": [
+      "Do not delay decompression for imaging, analgesic trials or Ayurvedic treatment."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Any Shotha/Vedana description is secondary; emergency fasciotomy pathway takes priority."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Pathologic rise in pressure within a closed muscle compartment causing impaired tissue perfusion and risk of irreversible muscle/nerve damage.",
+    "urgent": "Seek urgent assessment for acute/progressive neurological deficit, severe infection/systemic illness, major trauma, vascular compromise, rapidly escalating pain or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "BOAST",
+      "title": "Compartment Syndrome Standards",
+      "url": "https://www.boa.ac.uk/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V2.2-BATCH-08",
+    "proposedGoldChapterNumber": 139
+  }
+}

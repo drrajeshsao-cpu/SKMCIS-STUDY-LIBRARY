@@ -1,0 +1,101 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-MET-OML-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Osteomalacia",
+  "synonyms": [
+    "Adult rickets"
+  ],
+  "category": "Metabolic Bone > Mineralization Disorder",
+  "tags": [
+    "osteomalacia",
+    "vitamin D",
+    "bone pain",
+    "weakness"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Defective mineralization of newly formed bone, commonly due to vitamin D deficiency but also caused by phosphate disorders, renal disease or medications.",
+  "clinicalPattern": {
+    "typical": [
+      "Diffuse bone pain",
+      "Proximal muscle weakness",
+      "Fragility fractures or pseudofractures",
+      "Difficulty rising or walking"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Severe hypocalcemia symptoms"
+    },
+    {
+      "level": "RED",
+      "item": "Multiple fractures"
+    },
+    {
+      "level": "RED",
+      "item": "Renal/metabolic systemic disease"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Proximal muscle strength",
+      "Gait",
+      "Bone tenderness",
+      "Signs of nutritional or malabsorptive disease"
+    ]
+  },
+  "differentials": [
+    "Osteoporosis",
+    "Myopathy",
+    "Multiple myeloma",
+    "Hyperparathyroidism"
+  ],
+  "investigations": {
+    "principle": "Laboratory evaluation is central, including calcium/phosphate/ALP/vitamin D and cause-directed testing.",
+    "MRI": "MRI can identify occult insufficiency fractures.",
+    "radiographs": "Radiographs may show Looser zones/pseudofractures."
+  },
+  "management": {
+    "green": [
+      "Correct underlying deficiency/cause",
+      "Nutritional and rehabilitation support"
+    ],
+    "amber": [
+      "Treatment must address calcium/phosphate/renal status rather than vitamin D blindly."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Asthi-dhatu kshaya phenotype may be explored, but biochemical mineralization disorder remains explicit."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Defective mineralization of newly formed bone, commonly due to vitamin D deficiency but also caused by phosphate disorders, renal disease or medications.",
+    "urgent": "Seek urgent assessment for acute/progressive neurological deficit, severe infection/systemic illness, major trauma, vascular compromise, rapidly escalating pain or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "Endocrine Society",
+      "title": "Vitamin D and metabolic bone guidance",
+      "url": "https://www.endocrine.org/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V2.2-BATCH-08",
+    "proposedGoldChapterNumber": 137
+  }
+}

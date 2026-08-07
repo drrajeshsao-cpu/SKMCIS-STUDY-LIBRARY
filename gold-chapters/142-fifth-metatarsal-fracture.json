@@ -1,0 +1,98 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-ORT-5MT-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Fifth Metatarsal Fracture",
+  "synonyms": [
+    "Jones fracture",
+    "Base fifth metatarsal fracture"
+  ],
+  "category": "Orthopedics > Foot > Fracture",
+  "tags": [
+    "fifth metatarsal",
+    "Jones fracture",
+    "foot fracture"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Fracture of the fifth metatarsal ranging from tuberosity avulsion to metaphyseal-diaphyseal Jones fracture and stress fracture, with differing healing risk.",
+  "clinicalPattern": {
+    "typical": [
+      "Lateral foot pain/swelling",
+      "Pain with weight bearing",
+      "Tenderness at fifth metatarsal base"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Open fracture"
+    },
+    {
+      "level": "RED",
+      "item": "Neurovascular compromise"
+    },
+    {
+      "level": "RED",
+      "item": "High-risk stress fracture/nonunion concern"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Ottawa foot rule assessment",
+      "Fifth-metatarsal tenderness",
+      "Neurovascular exam"
+    ]
+  },
+  "differentials": [
+    "Ankle sprain",
+    "Cuboid injury",
+    "Peroneal tendon injury"
+  ],
+  "investigations": {
+    "principle": "Radiographs classify location.",
+    "MRI": "MRI/CT may help stress fracture/nonunion assessment.",
+    "radiographs": "Foot radiographs are first-line."
+  },
+  "management": {
+    "green": [
+      "Immobilization and weight-bearing plan based on zone",
+      "Gradual rehabilitation"
+    ],
+    "amber": [
+      "Jones and high-risk stress fractures may need prolonged protection or fixation in selected patients."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Pada-bhagna phenotype may be documented."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Fracture of the fifth metatarsal ranging from tuberosity avulsion to metaphyseal-diaphyseal Jones fracture and stress fracture, with differing healing risk.",
+    "urgent": "Seek urgent assessment for acute/progressive neurological deficit, severe infection/systemic illness, major trauma, vascular compromise, rapidly escalating pain or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "AAOS OrthoInfo",
+      "title": "Fifth Metatarsal Fractures",
+      "url": "https://orthoinfo.aaos.org/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V2.2-BATCH-08",
+    "proposedGoldChapterNumber": 142
+  }
+}

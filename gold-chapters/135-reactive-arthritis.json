@@ -1,0 +1,102 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-RHE-ReA-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Reactive Arthritis",
+  "synonyms": [
+    "Post-infectious reactive arthritis"
+  ],
+  "category": "Rheumatology > Spondyloarthritis",
+  "tags": [
+    "reactive arthritis",
+    "enthesitis",
+    "urethritis",
+    "arthritis"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Sterile inflammatory arthritis arising after certain gastrointestinal or genitourinary infections, often with enthesitis and other spondyloarthritis features.",
+  "clinicalPattern": {
+    "typical": [
+      "Acute asymmetric lower-limb arthritis",
+      "Enthesitis",
+      "Possible urethritis/cervicitis",
+      "Conjunctivitis/uveitis",
+      "Recent diarrheal or genitourinary infection"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Septic arthritis"
+    },
+    {
+      "level": "RED",
+      "item": "Acute painful red photophobic eye"
+    },
+    {
+      "level": "RED",
+      "item": "Severe systemic infection"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Joint and enthesis exam",
+      "Eye/skin/mucosal assessment",
+      "Genitourinary/infectious history"
+    ]
+  },
+  "differentials": [
+    "Septic arthritis",
+    "Psoriatic arthritis",
+    "Gout",
+    "Inflammatory bowel disease arthritis"
+  ],
+  "investigations": {
+    "principle": "Diagnosis is clinical with cause-directed infection testing.",
+    "MRI": "MRI/ultrasound may assess sacroiliitis/enthesitis in persistent disease.",
+    "radiographs": "Radiographs are usually normal early."
+  },
+  "management": {
+    "green": [
+      "Treat active infection when still present/indicated",
+      "NSAID and rheumatology-directed inflammation management",
+      "Exercise when acute inflammation settles"
+    ],
+    "amber": [
+      "Persistent arthritis may require DMARD therapy under specialist care."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Ama/Shotha phenotype may be documented only alongside formal inflammatory/infectious assessment."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Sterile inflammatory arthritis arising after certain gastrointestinal or genitourinary infections, often with enthesitis and other spondyloarthritis features.",
+    "urgent": "Seek urgent assessment for acute/progressive neurological deficit, severe infection/systemic illness, major trauma, vascular compromise, rapidly escalating pain or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "NICE",
+      "title": "Spondyloarthritis NG65",
+      "url": "https://www.nice.org.uk/guidance/ng65",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V2.2-BATCH-08",
+    "proposedGoldChapterNumber": 135
+  }
+}

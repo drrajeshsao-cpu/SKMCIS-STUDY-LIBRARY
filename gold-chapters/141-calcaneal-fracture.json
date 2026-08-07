@@ -1,0 +1,103 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-ORT-CALF-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Calcaneal Fracture",
+  "synonyms": [
+    "Heel bone fracture"
+  ],
+  "category": "Orthopedics > Foot & Ankle > Fracture",
+  "tags": [
+    "calcaneus fracture",
+    "heel fracture",
+    "fall from height"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Fracture of the calcaneus, often after high-energy axial loading but also as fragility or stress injury, with risk of subtalar dysfunction and soft-tissue complications.",
+  "clinicalPattern": {
+    "typical": [
+      "Severe heel pain/swelling",
+      "Inability to bear weight",
+      "Plantar ecchymosis",
+      "Widened heel in displaced injury"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Open fracture"
+    },
+    {
+      "level": "RED",
+      "item": "Threatened skin"
+    },
+    {
+      "level": "RED",
+      "item": "Neurovascular compromise"
+    },
+    {
+      "level": "RED",
+      "item": "Associated spinal fracture after fall from height"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Skin and swelling",
+      "Neurovascular exam",
+      "Spine and other lower-limb injury screen"
+    ]
+  },
+  "differentials": [
+    "Ankle fracture",
+    "Talus fracture",
+    "Calcaneal stress fracture",
+    "Severe heel contusion"
+  ],
+  "investigations": {
+    "principle": "Radiographs and CT characterize fracture.",
+    "MRI": "CT is key for intra-articular fracture planning; MRI is used more for occult/stress injury.",
+    "radiographs": "Lateral/axial calcaneal radiographs are initial tests."
+  },
+  "management": {
+    "green": [
+      "Urgent soft-tissue protection",
+      "Immobilization and non/limited weight bearing according to pattern"
+    ],
+    "amber": [
+      "Operative versus nonoperative treatment depends on displacement, joint involvement, soft tissue and patient factors."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Pada-bhagna principles may complement recovery only after modern fracture management."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Fracture of the calcaneus, often after high-energy axial loading but also as fragility or stress injury, with risk of subtalar dysfunction and soft-tissue complications.",
+    "urgent": "Seek urgent assessment for acute/progressive neurological deficit, severe infection/systemic illness, major trauma, vascular compromise, rapidly escalating pain or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "AAOS OrthoInfo",
+      "title": "Calcaneus Fractures",
+      "url": "https://orthoinfo.aaos.org/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V2.2-BATCH-08",
+    "proposedGoldChapterNumber": 141
+  }
+}

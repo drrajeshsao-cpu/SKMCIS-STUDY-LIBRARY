@@ -1,0 +1,96 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-RHE-CPPD-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Calcium Pyrophosphate Deposition Disease / Pseudogout",
+  "synonyms": [
+    "CPPD",
+    "Pseudogout"
+  ],
+  "category": "Rheumatology > Crystal Arthritis",
+  "tags": [
+    "CPPD",
+    "pseudogout",
+    "chondrocalcinosis",
+    "hot joint"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Crystal arthritis caused by calcium pyrophosphate deposition, producing acute attacks, chronic inflammatory arthritis or incidental chondrocalcinosis.",
+  "clinicalPattern": {
+    "typical": [
+      "Acute hot swollen joint, commonly knee or wrist",
+      "Pain and restricted movement",
+      "Can mimic gout or septic arthritis"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Septic arthritis must be excluded in a hot swollen joint"
+    },
+    {
+      "level": "RED",
+      "item": "Systemic toxicity or prosthetic-joint involvement"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Joint inflammation and effusion",
+      "Temperature/systemic assessment",
+      "Other joints and metabolic associations"
+    ]
+  },
+  "differentials": [
+    "Septic arthritis",
+    "Gout",
+    "Rheumatoid arthritis",
+    "Osteoarthritis flare"
+  ],
+  "investigations": {
+    "principle": "Synovial-fluid analysis can identify CPP crystals and exclude infection.",
+    "MRI": "Ultrasound may show crystal deposition; MRI is not routine.",
+    "radiographs": "Radiographs may demonstrate chondrocalcinosis."
+  },
+  "management": {
+    "green": [
+      "Treat acute inflammation",
+      "Address associated metabolic disorders where relevant"
+    ],
+    "amber": [
+      "NSAID, colchicine or corticosteroid strategies require individualized risk review."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Sandhi-shotha/Vata-Rakta-like phenotype may be documented only after infection is excluded."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Crystal arthritis caused by calcium pyrophosphate deposition, producing acute attacks, chronic inflammatory arthritis or incidental chondrocalcinosis.",
+    "urgent": "Seek urgent assessment for acute/progressive neurological deficit, severe infection/systemic illness, major trauma, vascular compromise, rapidly escalating pain or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "EULAR",
+      "title": "CPPD management recommendations",
+      "url": "https://ard.bmj.com/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V2.2-BATCH-08",
+    "proposedGoldChapterNumber": 134
+  }
+}

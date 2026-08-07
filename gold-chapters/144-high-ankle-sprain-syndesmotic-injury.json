@@ -1,0 +1,104 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-ORT-SYN-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "High Ankle Sprain / Syndesmotic Injury",
+  "synonyms": [
+    "Syndesmotic ankle sprain"
+  ],
+  "category": "Orthopedics > Foot & Ankle > Syndesmosis",
+  "tags": [
+    "syndesmosis",
+    "high ankle sprain",
+    "ankle"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Injury of the distal tibiofibular syndesmotic ligaments, usually from external rotation and dorsiflexion mechanisms and often requiring longer recovery than lateral ankle sprain.",
+  "clinicalPattern": {
+    "typical": [
+      "Pain above ankle joint",
+      "Pain with external rotation or squeeze testing",
+      "Difficulty push-off and walking",
+      "Less bruising than typical lateral sprain may occur"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Fracture-dislocation"
+    },
+    {
+      "level": "RED",
+      "item": "Maisonneuve fracture"
+    },
+    {
+      "level": "RED",
+      "item": "Neurovascular compromise"
+    },
+    {
+      "level": "RED",
+      "item": "Gross instability"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Syndesmotic tenderness",
+      "External rotation and squeeze tests",
+      "Proximal fibula examination",
+      "Neurovascular assessment"
+    ]
+  },
+  "differentials": [
+    "Lateral ankle sprain",
+    "Maisonneuve fracture",
+    "Ankle fracture",
+    "Peroneal tendon injury"
+  ],
+  "investigations": {
+    "principle": "Imaging depends on instability suspicion.",
+    "MRI": "MRI can define ligament injury; CT assesses subtle diastasis in selected cases.",
+    "radiographs": "Weight-bearing/mortise radiographs evaluate widening and fracture."
+  },
+  "management": {
+    "green": [
+      "Protected weight bearing",
+      "Progressive ankle strength/proprioception"
+    ],
+    "amber": [
+      "Unstable syndesmotic injury requires orthopedic stabilization."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Gulpha-Snayu injury phenotype may be documented."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Injury of the distal tibiofibular syndesmotic ligaments, usually from external rotation and dorsiflexion mechanisms and often requiring longer recovery than lateral ankle sprain.",
+    "urgent": "Seek urgent assessment for acute/progressive neurological deficit, severe infection/systemic illness, major trauma, vascular compromise, rapidly escalating pain or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "BOAST/orthopedic literature",
+      "title": "Ankle syndesmosis injury guidance",
+      "url": "https://www.boa.ac.uk/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V2.2-BATCH-08",
+    "proposedGoldChapterNumber": 144
+  }
+}

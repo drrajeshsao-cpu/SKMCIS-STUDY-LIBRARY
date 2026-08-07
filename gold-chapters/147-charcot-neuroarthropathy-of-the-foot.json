@@ -1,0 +1,106 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-ORT-CNF-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Charcot Neuroarthropathy of the Foot",
+  "synonyms": [
+    "Charcot foot",
+    "Neuropathic arthropathy"
+  ],
+  "category": "Diabetic Foot > Neuroarthropathy",
+  "tags": [
+    "Charcot foot",
+    "diabetes",
+    "neuropathy",
+    "red hot swollen foot",
+    "midfoot collapse"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Progressive destructive arthropathy of the foot or ankle occurring in severe peripheral neuropathy, most often associated with diabetes, with risk of deformity, ulceration and amputation.",
+  "clinicalPattern": {
+    "typical": [
+      "Warm swollen foot with relatively little pain",
+      "Temperature asymmetry",
+      "Midfoot collapse or rocker-bottom deformity in later disease",
+      "Peripheral neuropathy"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Any red hot swollen neuropathic foot requires urgent assessment"
+    },
+    {
+      "level": "RED",
+      "item": "Ulcer/infection or suspected osteomyelitis"
+    },
+    {
+      "level": "RED",
+      "item": "Severe deformity, instability or ischemia"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Compare foot temperature",
+      "Protective sensation",
+      "Pulses/perfusion",
+      "Skin/ulcer assessment",
+      "Foot alignment and instability"
+    ]
+  },
+  "differentials": [
+    "Cellulitis",
+    "Osteomyelitis",
+    "Gout",
+    "DVT",
+    "Acute fracture/sprain"
+  ],
+  "investigations": {
+    "principle": "Early diagnosis is critical and imaging must be interpreted with infection risk.",
+    "MRI": "MRI is useful for early Charcot change and for assessing osteomyelitis differential; CT helps bony architecture.",
+    "radiographs": "Weight-bearing radiographs may be normal early and later show fragmentation/subluxation."
+  },
+  "management": {
+    "green": [
+      "Immediate off-loading/immobilization when active Charcot is suspected",
+      "Multidisciplinary diabetic-foot care",
+      "Optimize diabetes, footwear and ulcer prevention"
+    ],
+    "amber": [
+      "Do not encourage weight-bearing exercise during active Charcot; surgery is selected for severe unstable deformity or recurrent ulceration."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Madhumeha-associated Pada/Asthi-Sandhi pathology may be documented only in parallel; modern off-loading and infection exclusion are essential."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Progressive destructive arthropathy of the foot or ankle occurring in severe peripheral neuropathy, most often associated with diabetes, with risk of deformity, ulceration and amputation.",
+    "urgent": "Seek urgent assessment for acute/progressive neurological deficit, severe infection/systemic illness, major trauma, vascular compromise, rapidly escalating pain or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "IWGDF",
+      "title": "Guidelines on active Charcot neuro-osteoarthropathy",
+      "url": "https://iwgdfguidelines.org/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V2.2-BATCH-08",
+    "proposedGoldChapterNumber": 147
+  }
+}

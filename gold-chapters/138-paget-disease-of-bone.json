@@ -1,0 +1,100 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-MET-PDB-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Paget Disease of Bone",
+  "synonyms": [
+    "Osteitis deformans"
+  ],
+  "category": "Metabolic Bone > Remodeling Disorder",
+  "tags": [
+    "Paget disease",
+    "bone remodeling",
+    "alkaline phosphatase"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Focal disorder of accelerated and disorganized bone remodeling that can enlarge and weaken affected bones.",
+  "clinicalPattern": {
+    "typical": [
+      "Often asymptomatic",
+      "Bone pain",
+      "Deformity",
+      "Hearing loss with skull involvement",
+      "Secondary osteoarthritis"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Acute neurological compression"
+    },
+    {
+      "level": "RED",
+      "item": "Pathological fracture"
+    },
+    {
+      "level": "RED",
+      "item": "Concern for sarcomatous transformation"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Affected bone deformity/tenderness",
+      "Neurological exam if spine/skull involved",
+      "Hearing assessment when relevant"
+    ]
+  },
+  "differentials": [
+    "Metastatic bone disease",
+    "Fibrous dysplasia",
+    "Osteomyelitis",
+    "Hyperparathyroidism"
+  ],
+  "investigations": {
+    "principle": "ALP and characteristic imaging guide diagnosis.",
+    "MRI": "MRI is used for neurological or malignant complications.",
+    "radiographs": "Radiographs show cortical thickening, expansion and mixed lytic-sclerotic change."
+  },
+  "management": {
+    "green": [
+      "Specialist metabolic-bone assessment",
+      "Bisphosphonate treatment when indicated"
+    ],
+    "amber": [
+      "New focal severe pain or mass requires evaluation for fracture or rare malignant transformation."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Asthi-vikara phenotype may be documented descriptively only."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Focal disorder of accelerated and disorganized bone remodeling that can enlarge and weaken affected bones.",
+    "urgent": "Seek urgent assessment for acute/progressive neurological deficit, severe infection/systemic illness, major trauma, vascular compromise, rapidly escalating pain or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "Paget's Association",
+      "title": "Clinical Guideline for Paget's Disease",
+      "url": "https://paget.org.uk/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V2.2-BATCH-08",
+    "proposedGoldChapterNumber": 138
+  }
+}

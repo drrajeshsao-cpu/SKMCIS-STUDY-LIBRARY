@@ -1,0 +1,105 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-NEU-SYR-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Syringomyelia",
+  "synonyms": [
+    "Spinal cord syrinx"
+  ],
+  "category": "Neurology > Spinal Cord",
+  "tags": [
+    "syringomyelia",
+    "syrinx",
+    "cape sensory loss",
+    "myelopathy"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Fluid-filled cavity within the spinal cord that can disrupt sensory and motor pathways, often associated with Chiari malformation, trauma, tumour or arachnoid pathology.",
+  "clinicalPattern": {
+    "typical": [
+      "Dissociated pain/temperature sensory loss",
+      "Hand weakness or wasting",
+      "Neuropathic pain",
+      "Spasticity or gait symptoms in larger lesions"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Rapid progressive weakness"
+    },
+    {
+      "level": "RED",
+      "item": "New sphincter dysfunction"
+    },
+    {
+      "level": "RED",
+      "item": "Respiratory/bulbar symptoms"
+    },
+    {
+      "level": "RED",
+      "item": "Acute neurological decline"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Full neurological exam",
+      "Pain/temperature versus vibration/proprioception",
+      "Motor/reflex assessment",
+      "Gait"
+    ]
+  },
+  "differentials": [
+    "Cervical myelopathy",
+    "Motor neuron disease",
+    "Peripheral neuropathy",
+    "Intramedullary tumour"
+  ],
+  "investigations": {
+    "principle": "MRI is essential for diagnosis and cause assessment.",
+    "MRI": "MRI of the spinal cord and craniocervical junction is the key study.",
+    "radiographs": "Radiographs are not diagnostic."
+  },
+  "management": {
+    "green": [
+      "Neurology/neurosurgical cause-directed assessment",
+      "Rehabilitation for stable deficits"
+    ],
+    "amber": [
+      "Surgery is selected according to cause, progression and associated Chiari/tumour/CSF-flow abnormality."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Vata-neurological phenotype may be documented only as a parallel assessment."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Fluid-filled cavity within the spinal cord that can disrupt sensory and motor pathways, often associated with Chiari malformation, trauma, tumour or arachnoid pathology.",
+    "urgent": "Seek urgent assessment for acute/progressive neurological deficit, severe infection/systemic illness, major trauma, vascular compromise, rapidly escalating pain or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "Congress of Neurological Surgeons",
+      "title": "Chiari/Syringomyelia resources",
+      "url": "https://www.cns.org/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V2.2-BATCH-08",
+    "proposedGoldChapterNumber": 130
+  }
+}

@@ -1,0 +1,100 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-ORT-CECS-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Chronic Exertional Compartment Syndrome",
+  "synonyms": [
+    "Exercise-induced compartment syndrome"
+  ],
+  "category": "Orthopedics > Sports > Leg",
+  "tags": [
+    "CECS",
+    "running",
+    "leg pain",
+    "compartment pressure"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Exercise-induced increase in compartment pressure producing predictable pain, tightness and sometimes neurologic symptoms that resolve with rest.",
+  "clinicalPattern": {
+    "typical": [
+      "Reproducible pain/tightness after a specific exercise duration",
+      "Possible numbness or weakness during exertion",
+      "Symptoms settle after stopping"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Persistent neurological deficit after exercise"
+    },
+    {
+      "level": "RED",
+      "item": "Acute severe pain suggesting acute compartment syndrome"
+    },
+    {
+      "level": "RED",
+      "item": "Vascular compromise"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Pre/post-exercise exam",
+      "Compartment tenderness",
+      "Neurovascular assessment",
+      "Running biomechanics"
+    ]
+  },
+  "differentials": [
+    "MTSS",
+    "Tibial stress fracture",
+    "Popliteal artery entrapment",
+    "Lumbar radiculopathy"
+  ],
+  "investigations": {
+    "principle": "Diagnosis is clinical and may use dynamic compartment pressure testing in specialist practice.",
+    "MRI": "MRI can exclude stress injury and alternative pathology.",
+    "radiographs": "Radiographs are usually normal."
+  },
+  "management": {
+    "green": [
+      "Activity/training modification",
+      "Gait and biomechanical rehabilitation"
+    ],
+    "amber": [
+      "Persistent confirmed CECS may require fasciotomy after specialist evaluation."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Jangha/Vyayama-related pain phenotype may be documented."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Exercise-induced increase in compartment pressure producing predictable pain, tightness and sometimes neurologic symptoms that resolve with rest.",
+    "urgent": "Seek urgent assessment for acute/progressive neurological deficit, severe infection/systemic illness, major trauma, vascular compromise, rapidly escalating pain or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "Sports medicine consensus literature",
+      "title": "CECS diagnostic and treatment evidence",
+      "url": "https://bjsm.bmj.com/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V2.2-BATCH-08",
+    "proposedGoldChapterNumber": 140
+  }
+}

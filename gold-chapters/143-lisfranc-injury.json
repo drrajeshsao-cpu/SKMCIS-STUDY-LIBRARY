@@ -1,0 +1,105 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-ORT-LF-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Lisfranc Injury",
+  "synonyms": [
+    "Tarsometatarsal injury"
+  ],
+  "category": "Orthopedics > Foot > Midfoot Trauma",
+  "tags": [
+    "Lisfranc",
+    "midfoot injury",
+    "plantar ecchymosis",
+    "TMT"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Injury of the tarsometatarsal joint complex ranging from ligament sprain to unstable fracture-dislocation; subtle injuries are frequently missed.",
+  "clinicalPattern": {
+    "typical": [
+      "Midfoot pain/swelling",
+      "Pain with weight bearing",
+      "Plantar ecchymosis is concerning",
+      "Pain with forefoot stress"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Open injury"
+    },
+    {
+      "level": "RED",
+      "item": "Neurovascular compromise"
+    },
+    {
+      "level": "RED",
+      "item": "Compartment syndrome"
+    },
+    {
+      "level": "RED",
+      "item": "Gross instability"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Midfoot tenderness",
+      "Plantar ecchymosis",
+      "Stress of TMT complex when appropriate",
+      "Neurovascular exam"
+    ]
+  },
+  "differentials": [
+    "Midfoot sprain",
+    "Navicular fracture",
+    "Fifth-metatarsal fracture",
+    "Charcot arthropathy"
+  ],
+  "investigations": {
+    "principle": "Weight-bearing imaging is important when safe.",
+    "MRI": "CT defines fractures; MRI detects ligament injury when radiographs are equivocal.",
+    "radiographs": "Weight-bearing foot radiographs assess diastasis/alignment."
+  },
+  "management": {
+    "green": [
+      "Strict protection and urgent orthopedic review for suspected instability",
+      "Rehabilitation only after stability established"
+    ],
+    "amber": [
+      "Unstable Lisfranc injuries generally require operative stabilization."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Pada-sandhi/Snayu injury phenotype may be documented after modern stability assessment."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Injury of the tarsometatarsal joint complex ranging from ligament sprain to unstable fracture-dislocation; subtle injuries are frequently missed.",
+    "urgent": "Seek urgent assessment for acute/progressive neurological deficit, severe infection/systemic illness, major trauma, vascular compromise, rapidly escalating pain or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "AAOS OrthoInfo",
+      "title": "Lisfranc Injury",
+      "url": "https://orthoinfo.aaos.org/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V2.2-BATCH-08",
+    "proposedGoldChapterNumber": 143
+  }
+}

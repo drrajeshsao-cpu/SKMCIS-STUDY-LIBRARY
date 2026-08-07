@@ -125,7 +125,27 @@
     "gold-chapters/124-hallux-valgus.json",
     "gold-chapters/125-first-mtp-osteoarthritis-hallux-rigidus.json",
     "gold-chapters/126-osgood-schlatter-disease.json",
-    "gold-chapters/127-elbow-osteoarthritis.json"
+    "gold-chapters/127-elbow-osteoarthritis.json",
+    "gold-chapters/128-ossification-of-the-posterior-longitudinal-ligament.json",
+    "gold-chapters/129-diffuse-idiopathic-skeletal-hyperostosis.json",
+    "gold-chapters/130-syringomyelia.json",
+    "gold-chapters/131-chiari-i-malformation.json",
+    "gold-chapters/132-complex-regional-pain-syndrome.json",
+    "gold-chapters/133-myofascial-pain-syndrome.json",
+    "gold-chapters/134-calcium-pyrophosphate-deposition-disease-pseudogout.json",
+    "gold-chapters/135-reactive-arthritis.json",
+    "gold-chapters/136-systemic-lupus-erythematosus-with-musculoskeletal-manifestations.json",
+    "gold-chapters/137-osteomalacia.json",
+    "gold-chapters/138-paget-disease-of-bone.json",
+    "gold-chapters/139-acute-compartment-syndrome.json",
+    "gold-chapters/140-chronic-exertional-compartment-syndrome.json",
+    "gold-chapters/141-calcaneal-fracture.json",
+    "gold-chapters/142-fifth-metatarsal-fracture.json",
+    "gold-chapters/143-lisfranc-injury.json",
+    "gold-chapters/144-high-ankle-sprain-syndesmotic-injury.json",
+    "gold-chapters/145-peroneal-tendinopathy.json",
+    "gold-chapters/146-sacroiliitis.json",
+    "gold-chapters/147-charcot-neuroarthropathy-of-the-foot.json"
   ],
-  "expectedTotalGold": 128
+  "expectedTotalGold": 148
 }

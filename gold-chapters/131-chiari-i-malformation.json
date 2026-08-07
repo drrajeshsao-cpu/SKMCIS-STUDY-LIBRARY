@@ -1,0 +1,105 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-NEU-CHIARI-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Chiari I Malformation",
+  "synonyms": [
+    "Chiari 1 malformation"
+  ],
+  "category": "Neurology/Neurosurgery > Craniovertebral Junction",
+  "tags": [
+    "chiari",
+    "tonsillar ectopia",
+    "occipital headache",
+    "syrinx"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Downward displacement of cerebellar tonsils through the foramen magnum, which may be incidental or associated with headache, brainstem/cerebellar symptoms and syringomyelia.",
+  "clinicalPattern": {
+    "typical": [
+      "Occipital/suboccipital headache triggered by cough/strain",
+      "Neck pain",
+      "Imbalance",
+      "Sensory or weakness symptoms when syrinx/cord disease is present"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Progressive neurological deficit"
+    },
+    {
+      "level": "RED",
+      "item": "Dysphagia/aspiration"
+    },
+    {
+      "level": "RED",
+      "item": "Sleep-related breathing or brainstem symptoms"
+    },
+    {
+      "level": "RED",
+      "item": "Rapid deterioration"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Cranial nerve exam",
+      "Cerebellar testing",
+      "Long-tract signs",
+      "Gait and sensory examination"
+    ]
+  },
+  "differentials": [
+    "Cervicogenic headache",
+    "Migraine",
+    "Posterior fossa tumour",
+    "Syringomyelia"
+  ],
+  "investigations": {
+    "principle": "Diagnosis is MRI-based and symptoms must correlate with anatomy.",
+    "MRI": "MRI brain/cervicomedullary junction and spine when syringomyelia is suspected.",
+    "radiographs": "Radiographs are not diagnostic."
+  },
+  "management": {
+    "green": [
+      "Specialist neurosurgical/neurological assessment for symptomatic disease",
+      "Observation for selected incidental stable cases"
+    ],
+    "amber": [
+      "Posterior fossa decompression is considered for selected symptomatic/progressive cases."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Shirah/Greeva neurological symptoms may be documented, but structural craniovertebral diagnosis remains primary."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Downward displacement of cerebellar tonsils through the foramen magnum, which may be incidental or associated with headache, brainstem/cerebellar symptoms and syringomyelia.",
+    "urgent": "Seek urgent assessment for acute/progressive neurological deficit, severe infection/systemic illness, major trauma, vascular compromise, rapidly escalating pain or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "Congress of Neurological Surgeons",
+      "title": "Chiari Malformation Guidelines",
+      "url": "https://www.cns.org/guidelines/browse-guidelines-detail/1-imaging",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V2.2-BATCH-08",
+    "proposedGoldChapterNumber": 131
+  }
+}

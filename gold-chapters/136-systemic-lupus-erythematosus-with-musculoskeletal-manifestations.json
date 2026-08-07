@@ -1,0 +1,96 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-RHE-SLE-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Systemic Lupus Erythematosus with Musculoskeletal Manifestations",
+  "synonyms": [
+    "SLE"
+  ],
+  "category": "Rheumatology > Systemic Autoimmune",
+  "tags": [
+    "lupus",
+    "SLE",
+    "arthritis",
+    "autoimmune"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Systemic autoimmune disease that can affect joints, skin, kidneys, nervous system, blood and other organs; musculoskeletal symptoms commonly include arthralgia and inflammatory arthritis.",
+  "clinicalPattern": {
+    "typical": [
+      "Joint pain or swelling",
+      "Morning stiffness",
+      "Photosensitive rash or oral ulcers may coexist",
+      "Fatigue"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Renal, neurological, hematologic or cardiopulmonary organ-threatening features"
+    },
+    {
+      "level": "RED",
+      "item": "Severe infection during immunosuppression"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Joint exam",
+      "Skin/mucosal assessment",
+      "Neurological and systemic examination"
+    ]
+  },
+  "differentials": [
+    "Rheumatoid arthritis",
+    "Viral arthritis",
+    "Fibromyalgia",
+    "Psoriatic arthritis"
+  ],
+  "investigations": {
+    "principle": "Diagnosis integrates clinical features and immunologic testing; ANA alone is not diagnostic.",
+    "MRI": "MRI is selected for organ-specific or musculoskeletal complications.",
+    "radiographs": "Radiographs are usually nonerosive in typical SLE arthritis."
+  },
+  "management": {
+    "green": [
+      "Rheumatology-led disease control",
+      "Exercise and cardiovascular/bone-health management"
+    ],
+    "amber": [
+      "Immunosuppressive treatment depends on organ involvement and requires monitoring."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Autoimmune Shotha/Ama phenotype may be recorded only as a parallel framework."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Systemic autoimmune disease that can affect joints, skin, kidneys, nervous system, blood and other organs; musculoskeletal symptoms commonly include arthralgia and inflammatory arthritis.",
+    "urgent": "Seek urgent assessment for acute/progressive neurological deficit, severe infection/systemic illness, major trauma, vascular compromise, rapidly escalating pain or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "EULAR",
+      "title": "Recommendations for management of SLE",
+      "url": "https://ard.bmj.com/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V2.2-BATCH-08",
+    "proposedGoldChapterNumber": 136
+  }
+}

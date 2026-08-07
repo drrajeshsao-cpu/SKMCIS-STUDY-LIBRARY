@@ -1,0 +1,101 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-RHE-SAC-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Sacroiliitis",
+  "synonyms": [
+    "Inflammatory sacroiliitis"
+  ],
+  "category": "Rheumatology > Sacroiliac Inflammation",
+  "tags": [
+    "sacroiliitis",
+    "SI joint",
+    "axial spondyloarthritis",
+    "MRI"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Inflammation of one or both sacroiliac joints caused by axial spondyloarthritis, infection or other inflammatory disorders; mechanical SI pain is a separate diagnosis.",
+  "clinicalPattern": {
+    "typical": [
+      "Inflammatory buttock/back pain",
+      "Morning stiffness",
+      "Alternating buttock pain",
+      "Possible extra-articular spondyloarthritis features"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Fever or septic sacroiliitis"
+    },
+    {
+      "level": "RED",
+      "item": "Severe acute unilateral pain with bacteremia risk"
+    },
+    {
+      "level": "RED",
+      "item": "Neurological or systemic red flags"
+    }
+  ],
+  "examination": {
+    "core": [
+      "SI/hip and spine exam",
+      "Inflammatory back-pain features",
+      "Peripheral enthesitis/joint and skin/eye assessment"
+    ]
+  },
+  "differentials": [
+    "Mechanical SI pain",
+    "Lumbar disease",
+    "Hip pathology",
+    "Sacral fracture",
+    "Septic sacroiliitis"
+  ],
+  "investigations": {
+    "principle": "Cause-directed laboratory and imaging assessment is required.",
+    "MRI": "MRI SI joints is sensitive for active inflammatory sacroiliitis in the appropriate context.",
+    "radiographs": "Radiographs identify structural sacroiliitis but may be normal early."
+  },
+  "management": {
+    "green": [
+      "Rheumatology-led care for inflammatory disease",
+      "Exercise and mobility"
+    ],
+    "amber": [
+      "Suspected infection requires urgent antimicrobial/infectious disease management."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Shroni/Kati Shotha phenotype may be documented only after inflammatory/infectious classification."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Inflammation of one or both sacroiliac joints caused by axial spondyloarthritis, infection or other inflammatory disorders; mechanical SI pain is a separate diagnosis.",
+    "urgent": "Seek urgent assessment for acute/progressive neurological deficit, severe infection/systemic illness, major trauma, vascular compromise, rapidly escalating pain or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "NICE",
+      "title": "Spondyloarthritis NG65",
+      "url": "https://www.nice.org.uk/guidance/ng65",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V2.2-BATCH-08",
+    "proposedGoldChapterNumber": 146
+  }
+}

@@ -1,0 +1,114 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-CSP-OPLL-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Ossification of the Posterior Longitudinal Ligament",
+  "synonyms": [
+    "OPLL"
+  ],
+  "category": "Spine > Cervical > Ossification/Myelopathy",
+  "tags": [
+    "OPLL",
+    "cervical",
+    "myelopathy",
+    "ossification",
+    "spinal cord"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Pathological ossification of the posterior longitudinal ligament, most commonly in the cervical spine, which can narrow the canal and cause myelopathy or radiculopathy.",
+  "clinicalPattern": {
+    "typical": [
+      "Neck stiffness or pain",
+      "Hand clumsiness",
+      "Gait imbalance",
+      "Hyperreflexia",
+      "Radicular arm symptoms may coexist"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Progressive myelopathy"
+    },
+    {
+      "level": "RED",
+      "item": "Rapid gait deterioration"
+    },
+    {
+      "level": "RED",
+      "item": "New sphincter dysfunction"
+    },
+    {
+      "level": "RED",
+      "item": "Neurological decline after trauma"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Full upper/lower limb neurological exam",
+      "Gait and tandem gait",
+      "Long-tract signs",
+      "Hand dexterity"
+    ]
+  },
+  "differentials": [
+    "Degenerative cervical myelopathy",
+    "Cervical disc herniation",
+    "Tumour",
+    "Syringomyelia"
+  ],
+  "investigations": {
+    "principle": "Clinical and imaging correlation is essential.",
+    "MRI": "MRI assesses cord compression and cord signal change; CT best demonstrates ossification morphology.",
+    "radiographs": "Radiographs may suggest OPLL but CT is more definitive."
+  },
+  "management": {
+    "green": [
+      "Specialist spine evaluation",
+      "Activity modification and fall prevention",
+      "Rehabilitation only when neurologically stable"
+    ],
+    "amber": [
+      "Progressive or moderate/severe myelopathy generally requires surgical assessment; high-risk cervical manipulation should be avoided."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Vata-neurological phenotype may be documented only in parallel; OPLL remains a modern structural diagnosis."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Pathological ossification of the posterior longitudinal ligament, most commonly in the cervical spine, which can narrow the canal and cause myelopathy or radiculopathy.",
+    "urgent": "Seek urgent assessment for acute/progressive neurological deficit, severe infection/systemic illness, major trauma, vascular compromise, rapidly escalating pain or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "Japanese Orthopaedic Association",
+      "title": "OPLL clinical resources",
+      "url": "https://www.joa.or.jp/",
+      "checked": "2026-08-07"
+    },
+    {
+      "organization": "American College of Radiology (ACR)",
+      "title": "Myelopathy Imaging",
+      "url": "https://acsearch.acr.org/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V2.2-BATCH-08",
+    "proposedGoldChapterNumber": 128
+  }
+}

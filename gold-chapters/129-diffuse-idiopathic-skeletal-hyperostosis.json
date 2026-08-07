@@ -1,0 +1,103 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-SPN-DISH-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Diffuse Idiopathic Skeletal Hyperostosis",
+  "synonyms": [
+    "DISH",
+    "Forestier disease"
+  ],
+  "category": "Spine > Systemic/Enthesopathic",
+  "tags": [
+    "DISH",
+    "hyperostosis",
+    "spine",
+    "enthesopathy",
+    "fracture risk"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Non-inflammatory enthesopathic disorder characterized by flowing anterior spinal ligament ossification and extraspinal enthesopathy, often associated with metabolic comorbidity.",
+  "clinicalPattern": {
+    "typical": [
+      "Spinal stiffness",
+      "Reduced mobility",
+      "Often asymptomatic",
+      "Dysphagia may occur in marked cervical disease"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "New neurological deficit"
+    },
+    {
+      "level": "RED",
+      "item": "Trauma in ankylosed spine because fractures may be unstable"
+    },
+    {
+      "level": "RED",
+      "item": "Severe dysphagia/airway symptoms"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Spinal mobility",
+      "Neurological exam",
+      "Posture and gait",
+      "Swallowing symptoms when cervical disease is extensive"
+    ]
+  },
+  "differentials": [
+    "Ankylosing spondylitis",
+    "Degenerative spondylosis",
+    "OPLL",
+    "Acromegaly"
+  ],
+  "investigations": {
+    "principle": "Diagnosis is radiographic in the appropriate clinical context.",
+    "MRI": "CT is valuable after trauma because fractures can be subtle and unstable; MRI assesses neural injury.",
+    "radiographs": "Radiographs show flowing ossification across multiple vertebrae."
+  },
+  "management": {
+    "green": [
+      "Maintain mobility and metabolic risk management",
+      "Falls prevention"
+    ],
+    "amber": [
+      "Any significant trauma in an ankylosed DISH spine warrants a low threshold for advanced imaging and specialist review."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Asthi/Snayu-stiffness phenotype may be recorded descriptively; DISH is not equivalent to a classical inflammatory disorder."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Non-inflammatory enthesopathic disorder characterized by flowing anterior spinal ligament ossification and extraspinal enthesopathy, often associated with metabolic comorbidity.",
+    "urgent": "Seek urgent assessment for acute/progressive neurological deficit, severe infection/systemic illness, major trauma, vascular compromise, rapidly escalating pain or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "American College of Radiology (ACR)",
+      "title": "Acute Spinal Trauma",
+      "url": "https://acsearch.acr.org/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V2.2-BATCH-08",
+    "proposedGoldChapterNumber": 129
+  }
+}

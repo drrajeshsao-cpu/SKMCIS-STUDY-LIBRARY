@@ -1,0 +1,105 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-PAIN-MPS-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Myofascial Pain Syndrome",
+  "synonyms": [
+    "Myofascial trigger-point pain"
+  ],
+  "category": "Pain Medicine > Musculoskeletal",
+  "tags": [
+    "myofascial pain",
+    "trigger point",
+    "muscle pain"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Regional musculoskeletal pain attributed to painful muscle and fascia with taut bands/trigger areas, after excluding more specific neurological, inflammatory or structural causes.",
+  "clinicalPattern": {
+    "typical": [
+      "Regional aching pain",
+      "Muscle tenderness",
+      "Pain with sustained posture or load",
+      "Referred pain patterns may occur"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Fever/systemic illness"
+    },
+    {
+      "level": "RED",
+      "item": "Progressive neurological deficit"
+    },
+    {
+      "level": "RED",
+      "item": "Major trauma"
+    },
+    {
+      "level": "RED",
+      "item": "Cancer-related red flags"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Regional muscle palpation",
+      "ROM",
+      "Neurological and joint screen",
+      "Functional movement assessment"
+    ]
+  },
+  "differentials": [
+    "Radiculopathy",
+    "Fibromyalgia",
+    "Tendinopathy",
+    "Inflammatory myopathy",
+    "Joint disease"
+  ],
+  "investigations": {
+    "principle": "Diagnosis is clinical; routine imaging is unnecessary.",
+    "MRI": "MRI is only used when an alternative structural diagnosis is suspected.",
+    "radiographs": "Radiographs are not diagnostic."
+  },
+  "management": {
+    "green": [
+      "Exercise, movement restoration and ergonomic modification",
+      "Sleep/stress and workload management"
+    ],
+    "amber": [
+      "Needling/injection techniques are adjuncts and should not replace active rehabilitation."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Mamsa/Snayu Vata-type pain phenotype may be documented descriptively."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Regional musculoskeletal pain attributed to painful muscle and fascia with taut bands/trigger areas, after excluding more specific neurological, inflammatory or structural causes.",
+    "urgent": "Seek urgent assessment for acute/progressive neurological deficit, severe infection/systemic illness, major trauma, vascular compromise, rapidly escalating pain or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "IASP",
+      "title": "Musculoskeletal pain resources",
+      "url": "https://www.iasp-pain.org/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V2.2-BATCH-08",
+    "proposedGoldChapterNumber": 133
+  }
+}

@@ -1,0 +1,100 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-ORT-PER-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Peroneal Tendinopathy",
+  "synonyms": [
+    "Fibularis tendinopathy"
+  ],
+  "category": "Orthopedics > Foot & Ankle > Tendon",
+  "tags": [
+    "peroneal tendon",
+    "lateral ankle pain",
+    "tendinopathy"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Load-related pain and dysfunction of the peroneal/fibularis tendons along the lateral ankle and foot, sometimes associated with instability or cavovarus mechanics.",
+  "clinicalPattern": {
+    "typical": [
+      "Posterolateral ankle pain",
+      "Pain with resisted eversion",
+      "Tenderness along tendons",
+      "Symptoms with running or uneven ground"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Acute tendon dislocation/rupture"
+    },
+    {
+      "level": "RED",
+      "item": "Fracture"
+    },
+    {
+      "level": "RED",
+      "item": "Neurovascular compromise"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Peroneal tendon palpation",
+      "Resisted eversion",
+      "Ankle stability",
+      "Foot alignment"
+    ]
+  },
+  "differentials": [
+    "Lateral ankle sprain",
+    "Fifth-metatarsal fracture",
+    "Sural neuropathy",
+    "Subtalar pathology"
+  ],
+  "investigations": {
+    "principle": "Diagnosis is usually clinical.",
+    "MRI": "Ultrasound/MRI evaluates tear, subluxation or refractory symptoms.",
+    "radiographs": "Radiographs assess bony alignment or fracture."
+  },
+  "management": {
+    "green": [
+      "Progressive tendon loading",
+      "Footwear/orthotic and ankle-stability optimization"
+    ],
+    "amber": [
+      "Persistent tear or recurrent tendon dislocation may need surgery."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Pada-Snayu Vata phenotype may be documented."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Load-related pain and dysfunction of the peroneal/fibularis tendons along the lateral ankle and foot, sometimes associated with instability or cavovarus mechanics.",
+    "urgent": "Seek urgent assessment for acute/progressive neurological deficit, severe infection/systemic illness, major trauma, vascular compromise, rapidly escalating pain or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "Foot & Ankle Orthopaedic Society",
+      "title": "Peroneal tendon resources",
+      "url": "https://www.footcaremd.org/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V2.2-BATCH-08",
+    "proposedGoldChapterNumber": 145
+  }
+}

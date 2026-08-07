@@ -1,0 +1,113 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-PAIN-CRPS-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Complex Regional Pain Syndrome",
+  "synonyms": [
+    "CRPS I",
+    "CRPS II"
+  ],
+  "category": "Pain Medicine > Neuropathic Pain",
+  "tags": [
+    "CRPS",
+    "complex regional pain",
+    "allodynia",
+    "autonomic"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Disproportionate regional pain syndrome with sensory, vasomotor, sudomotor/edema and motor/trophic abnormalities, often after injury or surgery.",
+  "clinicalPattern": {
+    "typical": [
+      "Persistent disproportionate limb pain",
+      "Allodynia/hyperalgesia",
+      "Temperature or color asymmetry",
+      "Edema/sweating change",
+      "Motor/trophic changes"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Infection"
+    },
+    {
+      "level": "RED",
+      "item": "Acute vascular occlusion/DVT"
+    },
+    {
+      "level": "RED",
+      "item": "Compartment syndrome"
+    },
+    {
+      "level": "RED",
+      "item": "Progressive nerve compression"
+    },
+    {
+      "level": "RED",
+      "item": "Unexplained systemic illness"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Budapest clinical criteria domains",
+      "Vascular and neurological exam",
+      "ROM/function",
+      "Skin/trophic changes"
+    ]
+  },
+  "differentials": [
+    "Peripheral nerve injury",
+    "Cellulitis",
+    "DVT",
+    "Inflammatory arthritis",
+    "Functional neurological disorder"
+  ],
+  "investigations": {
+    "principle": "Diagnosis is clinical after excluding important alternatives.",
+    "MRI": "MRI/bone scan is not diagnostic but may help exclude other pathology.",
+    "radiographs": "Radiographs may show late regional osteopenia but are nonspecific."
+  },
+  "management": {
+    "green": [
+      "Early graded functional restoration",
+      "Desensitization and pain education",
+      "Multidisciplinary rehabilitation"
+    ],
+    "amber": [
+      "Medication, blocks or neuromodulation require pain-specialist assessment; prolonged immobilization is usually harmful."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Vata/vedana and autonomic-type phenotype may be documented without replacing Budapest clinical diagnosis."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Disproportionate regional pain syndrome with sensory, vasomotor, sudomotor/edema and motor/trophic abnormalities, often after injury or surgery.",
+    "urgent": "Seek urgent assessment for acute/progressive neurological deficit, severe infection/systemic illness, major trauma, vascular compromise, rapidly escalating pain or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "IASP",
+      "title": "CRPS Diagnostic Criteria and resources",
+      "url": "https://www.iasp-pain.org/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V2.2-BATCH-08",
+    "proposedGoldChapterNumber": 132
+  }
+}
