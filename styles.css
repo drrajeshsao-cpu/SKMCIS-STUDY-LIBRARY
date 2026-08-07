@@ -77,3 +77,14 @@ footer b{color:#526773;font-weight:750}
 
 /* V5.0 World-Class Clinical Master */
 .kb#sec-clinicalMaster{border-left:7px solid #19856b;background:#fbfffd}.masterHero{background:linear-gradient(135deg,#eaf9f3,#f8fffc);border:1px solid #cce9dc;border-radius:14px;padding:14px;margin-bottom:12px}.masterHero h2{margin:3px 0;color:#116451}.masterHero p{margin:4px 0;color:#445e58}#sec-clinicalMaster details{background:#fff;border:1px solid #d9e5df;border-radius:11px;margin:9px 0;padding:0 12px 10px}#sec-clinicalMaster summary{cursor:pointer;font-weight:800;color:#174f43;padding:11px 2px}.masterGrid{display:grid;grid-template-columns:1fr 1fr;gap:8px}.masterTable{width:100%;border-collapse:collapse;font-size:12.5px}.masterTable th,.masterTable td{border:1px solid #dbe4e0;padding:7px 8px;text-align:left;vertical-align:top}.masterTable th{background:#edf7f2;color:#174f43;position:sticky;top:150px}.tableScroll{overflow-x:auto}#sec-clinicalMaster h4{margin:9px 0 3px;color:#1e5f50}@media(max-width:760px){.masterGrid{grid-template-columns:1fr}.masterTable th{position:static}}
+
+/* V5.1 Sciatica FINAL benchmark */
+.kb#sec-finalClinicalMaster{border-left:8px solid #087c65;background:#fbfffd}
+.finalHero{background:linear-gradient(135deg,#e8fbf4,#f9fffc);border:1px solid #bfe6d8;border-radius:15px;padding:15px;margin-bottom:12px}.finalHero h2{margin:3px 0;color:#075e4d}.finalHero p{margin:5px 0;color:#38594f}
+.memoryStrip{display:flex;gap:6px;flex-wrap:wrap;margin-top:10px}.memoryStrip span{background:#fff;border:1px solid #bcded2;color:#075e4d;border-radius:999px;padding:5px 8px;font-size:11px;font-weight:800}
+#sec-finalClinicalMaster details{background:#fff;border:1px solid #d6e5df;border-radius:11px;margin:9px 0;padding:0 12px 10px}
+#sec-finalClinicalMaster details[open]{box-shadow:0 2px 8px #0f4b3b0a}
+#sec-finalClinicalMaster summary{cursor:pointer;font-weight:850;color:#0e5948;padding:11px 2px}
+#sec-finalClinicalMaster .redDetail{border-left:5px solid #c43d45;background:#fffafa}
+.finalTable{width:100%;border-collapse:collapse;font-size:12.4px}.finalTable th,.finalTable td{border:1px solid #dbe4e0;padding:7px 8px;text-align:left;vertical-align:top}.finalTable th{background:#edf8f3;color:#0e5948;position:sticky;top:150px}.finalTable tr:nth-child(even) td{background:#fcfefd}
+@media(max-width:760px){.finalTable th{position:static}}

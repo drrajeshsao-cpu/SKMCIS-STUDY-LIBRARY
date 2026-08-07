@@ -1,0 +1,344 @@
+{
+  "schema": "SKMCIS-clinical-reasoning-v1",
+  "updated": "2026-08-07",
+  "status": "SOURCE_CHECKED_DRAFT_CLINICIAN_REVIEW",
+  "chapters": {
+    "SKM-SPN-0001": {
+      "title": "Advanced clinical reasoning — Sciatica / Lumbosacral Radicular Pain",
+      "principles": [
+        "Do not diagnose the level from pain location alone. Localize using the combined pattern of pain, sensory change, motor weakness, reflex change and provocative testing.",
+        "Pain severity and neurological severity are separate. Severe pain can occur without major motor deficit; a relatively painless foot drop can still be neurologically important.",
+        "Straight Leg Raise (SLR) angle is not a validated standalone severity grade and must not by itself determine X-ray or MRI."
+      ],
+      "slr": [
+        {
+          "range": "<30°",
+          "meaning": "Very early reproduction can indicate marked neural irritability, but is not specific and is NOT automatically 'severe disc prolapse'. Recheck technique and consider hip pathology, non-neural pain, extreme irritability or other causes.",
+          "action": "Correlate with dermatomal pain, motor/sensory/reflex findings and red flags."
+        },
+        {
+          "range": "30–70°",
+          "meaning": "Classical positive zone when concordant radicular pain is reproduced down the posterior/lateral leg, typically below the knee. Most useful for lower lumbar L5/S1 nerve-root irritation.",
+          "action": "Document side, angle, exact pain path and whether ankle dorsiflexion sensitizes symptoms."
+        },
+        {
+          "range": ">70°",
+          "meaning": "Pain appearing only at higher hip-flexion angles is generally less specific for nerve-root tension; hamstring, hip/SI or local musculoskeletal sources become more important differentials.",
+          "action": "Do not label as radiculopathy from SLR alone."
+        },
+        {
+          "range": "Crossed SLR",
+          "meaning": "Raising the asymptomatic leg reproduces the symptomatic-leg radicular pain. Less sensitive but more specific for disc herniation/root compression than ipsilateral SLR.",
+          "action": "Raises confidence when the rest of the clinical picture is concordant."
+        }
+      ],
+      "severity": [
+        {
+          "domain": "Pain intensity",
+          "mild": "NRS 1–3",
+          "moderate": "NRS 4–6",
+          "severe": "NRS 7–10",
+          "interpretation": "Pain score measures symptom burden, not neurological urgency."
+        },
+        {
+          "domain": "Motor power (MRC)",
+          "mild": "5/5 normal or pain-limited only",
+          "moderate": "4/5 objective weakness",
+          "severe": "≤3/5, new foot drop or progressive weakness",
+          "interpretation": "Progressive or major objective weakness deserves expedited MRI/specialist assessment."
+        },
+        {
+          "domain": "Function",
+          "mild": "Normal gait / minor restriction",
+          "moderate": "Reduced walking, sitting or work tolerance",
+          "severe": "Unable to heel/toe walk, repeated falls, marked gait deterioration",
+          "interpretation": "Functional loss helps grade clinical impact."
+        },
+        {
+          "domain": "Emergency neurologic",
+          "mild": "Absent",
+          "moderate": "—",
+          "severe": "New bladder/bowel dysfunction, saddle sensory loss, bilateral major deficit",
+          "interpretation": "Cauda equina pathway → urgent MRI/emergency spine assessment."
+        }
+      ],
+      "localization": [
+        {
+          "root": "L4",
+          "commonDisc": "Usually L3–L4 paracentral/traversing L4; L4–L5 far-lateral can affect exiting L4",
+          "pain": "Anterior thigh → medial knee/medial leg",
+          "sensory": "Medial leg / medial ankle tendency",
+          "motor": "Knee extension (quadriceps); ankle dorsiflexion may contribute",
+          "reflex": "Patellar reflex ↓",
+          "gait": "Knee buckling; heel walking may be impaired if dorsiflexion involved",
+          "pearls": "Femoral stretch test is more useful than SLR for upper/midlumbar L2–L4 roots."
+        },
+        {
+          "root": "L5",
+          "commonDisc": "L4–L5 paracentral/lateral recess commonly affects traversing L5; L5–S1 far-lateral may affect exiting L5",
+          "pain": "Buttock/lateral thigh → anterolateral leg → dorsum foot/great toe",
+          "sensory": "Dorsum foot / great toe",
+          "motor": "Great-toe extension (EHL), ankle dorsiflexion, hip abduction; eversion may weaken",
+          "reflex": "No consistently reliable routine deep tendon reflex; compare overall exam",
+          "gait": "Heel walking difficulty; toe drag; foot drop is classically L5-predominant but consider common peroneal neuropathy",
+          "pearls": "Weak inversion suggests L5 radiculopathy more than isolated common-peroneal neuropathy."
+        },
+        {
+          "root": "S1",
+          "commonDisc": "L5–S1 paracentral/lateral recess commonly affects traversing S1",
+          "pain": "Buttock/posterior thigh → posterior calf → lateral foot/sole",
+          "sensory": "Lateral foot / sole",
+          "motor": "Plantar flexion (gastrocnemius/soleus), hip extension/knee flexion may contribute",
+          "reflex": "Achilles reflex ↓",
+          "gait": "Toe walking or repeated single-leg heel raises impaired",
+          "pearls": "Unable to perform repeated heel raises strongly supports clinically important S1 motor dysfunction when concordant."
+        }
+      ],
+      "symptomCorrelation": [
+        {
+          "symptom": "Radiating electric/shooting pain",
+          "meaning": "Supports radicular pain when it follows a root-related leg distribution, especially below the knee.",
+          "next": "Map exact path; distinguish from referred pain."
+        },
+        {
+          "symptom": "Tingling / paresthesia",
+          "meaning": "Suggests sensory nerve-root irritation but is not level-specific alone.",
+          "next": "Map dermatome and compare pinprick/light touch sides."
+        },
+        {
+          "symptom": "Numbness",
+          "meaning": "Objective sensory loss carries more localization value than vague tingling.",
+          "next": "Document L4 medial ankle, L5 great toe/dorsum, S1 lateral foot/sole tendencies."
+        },
+        {
+          "symptom": "Weakness",
+          "meaning": "Myotomal weakness is more clinically important than pain intensity.",
+          "next": "MRC-grade key muscles and repeat over time."
+        },
+        {
+          "symptom": "Foot drop",
+          "meaning": "Most often L5-predominant radiculopathy or common peroneal neuropathy; central causes also possible.",
+          "next": "Test dorsiflexion, EHL, inversion, eversion; inspect sensory pattern and reflexes; expedited imaging if acute/progressive."
+        },
+        {
+          "symptom": "Heel-walk difficulty",
+          "meaning": "Suggests dorsiflexor weakness, commonly L4/L5 (especially L5 clinical pattern).",
+          "next": "Correlate with EHL, tibialis anterior and L5 sensory findings."
+        },
+        {
+          "symptom": "Toe-walk / heel-raise difficulty",
+          "meaning": "Suggests S1 plantar-flexor weakness.",
+          "next": "Compare Achilles reflex and lateral-foot sensation."
+        }
+      ],
+      "imagingDecision": [
+        {
+          "scenario": "Acute uncomplicated radicular pain, no red flags, no objective progressive deficit",
+          "test": "No routine X-ray/MRI initially",
+          "why": "Routine imaging rarely changes early management and degenerative abnormalities are common incidentally.",
+          "priority": "GREEN"
+        },
+        {
+          "scenario": "Low-velocity/significant trauma, osteoporosis, older age, chronic steroid exposure",
+          "test": "Lumbar radiographs (AP & Lateral) and/or CT/MRI according to suspected fracture",
+          "why": "Bony fracture risk changes the imaging pathway.",
+          "priority": "AMBER"
+        },
+        {
+          "scenario": "Persistent/progressive radiculopathy after ~6 weeks of appropriate management and patient is intervention/surgery candidate",
+          "test": "MRI Lumbosacral Spine without contrast",
+          "why": "Defines disc/root compression when the result is expected to change management.",
+          "priority": "BLUE"
+        },
+        {
+          "scenario": "New/progressive objective motor deficit, clinically important foot drop",
+          "test": "Earlier MRI + spine/neuro specialist assessment",
+          "why": "Neurological progression matters more than pain score or SLR angle.",
+          "priority": "RED/AMBER depending on progression and severity"
+        },
+        {
+          "scenario": "Cauda equina symptoms: bladder/bowel/saddle change, severe bilateral deficits",
+          "test": "Urgent MRI / emergency spine pathway",
+          "why": "Time-sensitive neural compression must be excluded.",
+          "priority": "RED"
+        },
+        {
+          "scenario": "Cancer, infection or immunosuppression concern",
+          "test": "MRI ± contrast and targeted laboratory workup",
+          "why": "Alternative serious pathology requires a different diagnostic pathway.",
+          "priority": "RED"
+        }
+      ],
+      "medEvidence": [
+        {
+          "drug": "Traditional NSAID (e.g., ibuprofen/diclofenac)",
+          "role": "May be considered for symptom relief",
+          "evidence": "NICE notes limited evidence of benefit in sciatica and emphasizes harms; if used, lowest effective dose for shortest period.",
+          "status": "AMBER"
+        },
+        {
+          "drug": "Etoricoxib / COX-2 selective NSAID",
+          "role": "Not a 'latest sciatica-specific' drug. Evidence exists for chronic non-radicular low-back pain; choice is individualized and region/label dependent.",
+          "evidence": "Etoricoxib 60 mg/day was comparable with diclofenac 150 mg/day in an older chronic low-back-pain RCT. COX-2 cardiovascular/renal/BP risk remains important.",
+          "status": "AMBER"
+        },
+        {
+          "drug": "Pregabalin",
+          "role": "Do NOT add as routine sciatica prescription simply because pain is neuropathic.",
+          "evidence": "Large placebo-controlled sciatica trial found no significant benefit and more adverse events; NICE recommends not offering gabapentinoids for sciatica.",
+          "status": "RED-NOT-ROUTINE"
+        },
+        {
+          "drug": "Gabapentin",
+          "role": "Do NOT add as routine sciatica prescription.",
+          "evidence": "NICE groups gabapentinoids/antiepileptics as not recommended for sciatica due lack of overall benefit and harm.",
+          "status": "RED-NOT-ROUTINE"
+        },
+        {
+          "drug": "Oral prednisolone/prednisone",
+          "role": "Not routine sciatica treatment.",
+          "evidence": "RCT of a 15-day prednisone taper showed modest functional improvement but no significant pain benefit; NICE advises not to offer oral corticosteroids for sciatica.",
+          "status": "RED-NOT-ROUTINE"
+        },
+        {
+          "drug": "Skeletal muscle relaxant",
+          "role": "May have a role in selected acute non-radicular low-back pain with spasm under some guidelines, but evidence is not established for sciatica itself.",
+          "evidence": "Do not automatically carry non-radicular LBP recommendations into nerve-root sciatica.",
+          "status": "AMBER"
+        },
+        {
+          "drug": "Vitamin B12 / multivitamin",
+          "role": "Treat documented or strongly suspected deficiency; not a routine treatment for mechanical nerve-root compression.",
+          "evidence": "Useful when B12 deficiency/neuropathy is present, but does not decompress a nerve root.",
+          "status": "BLUE-INDICATION-BASED"
+        }
+      ],
+      "decisionPearls": [
+        "A low SLR angle can mean high irritability, but a patient with 60° SLR and MRC 3/5 foot dorsiflexion is neurologically more concerning than a patient with 25° painful SLR but full power and no red flags.",
+        "MRI must answer a clinical question: does the side/level/morphology explain the neurological pattern and will the result change management?",
+        "A paracentral L4–L5 disc usually affects the traversing L5 root; a paracentral L5–S1 disc usually affects S1. Far-lateral lesions usually affect the exiting root.",
+        "Foot drop requires localization: L5 radiculopathy versus common peroneal neuropathy versus plexus/central causes.",
+        "World-class clinical reasoning means knowing when NOT to order imaging and when NOT to prescribe a commonly used drug."
+      ]
+    },
+    "SKM-LSP-0002": {
+      "title": "Advanced reasoning — Mechanical / Non-specific Low Back Pain",
+      "principles": [
+        "Confirm absence of radiculopathy and red flags before calling pain non-specific.",
+        "Use function, duration, neurological screen and psychosocial recovery factors rather than imaging abnormalities to grade clinical importance."
+      ],
+      "decisionPearls": [
+        "A small disc bulge on MRI does not convert non-specific low-back pain into discogenic disease without concordant clinical evidence.",
+        "Routine X-ray/MRI is not a marker of thoroughness in uncomplicated low-back pain."
+      ],
+      "imagingDecision": [
+        {
+          "scenario": "No red flags, acute/subacute",
+          "test": "No routine imaging",
+          "why": "Guideline-concordant initial care.",
+          "priority": "GREEN"
+        },
+        {
+          "scenario": "Fracture risk",
+          "test": "AP/Lateral lumbar radiographs ± CT/MRI",
+          "why": "Structural bony concern.",
+          "priority": "AMBER"
+        },
+        {
+          "scenario": "Persistent/progressive symptoms >~6 weeks with intervention consideration",
+          "test": "MRI lumbar spine",
+          "why": "Result may alter management.",
+          "priority": "BLUE"
+        }
+      ]
+    },
+    "SKM-LSP-0003": {
+      "title": "Advanced reasoning — Lumbar Disc Herniation / PIVD",
+      "principles": [
+        "Disc morphology must be matched to root level, side and neurological examination.",
+        "Protrusion/extrusion/sequestration describes morphology; clinical urgency is determined more by neurological compromise and red flags than by the word used in the MRI report."
+      ],
+      "decisionPearls": [
+        "Paracentral L4–L5 → usually traversing L5; paracentral L5–S1 → usually S1.",
+        "Far-lateral L4–L5 → exiting L4; far-lateral L5–S1 → exiting L5.",
+        "Crossed SLR is particularly useful when positive because of higher specificity for disc herniation."
+      ],
+      "imagingDecision": [
+        {
+          "scenario": "Typical acute radiculopathy without deficit/red flag",
+          "test": "No routine immediate MRI",
+          "why": "Initial conservative pathway is appropriate.",
+          "priority": "GREEN"
+        },
+        {
+          "scenario": "Progressive motor loss / foot drop",
+          "test": "Earlier MRI + specialist review",
+          "why": "Objective neural loss changes urgency.",
+          "priority": "RED/AMBER"
+        },
+        {
+          "scenario": "CES pattern",
+          "test": "Urgent MRI",
+          "why": "Emergency decompression pathway may be needed.",
+          "priority": "RED"
+        }
+      ]
+    },
+    "SKM-LSP-0004": {
+      "title": "Advanced reasoning — Lumbar Spinal Stenosis",
+      "principles": [
+        "Clinical neurogenic claudication requires posture-/walking-related symptoms; MRI stenosis alone is not the diagnosis.",
+        "Differentiate vascular claudication using pulses, vascular risk, symptom relation to posture and ABI when appropriate."
+      ],
+      "decisionPearls": [
+        "Shopping-cart/flexion relief supports neurogenic claudication but is not individually diagnostic.",
+        "Walking tolerance and function often matter more than static canal measurements."
+      ],
+      "imagingDecision": [
+        {
+          "scenario": "Concordant neurogenic claudication with intervention consideration",
+          "test": "MRI lumbar spine",
+          "why": "Defines central/lateral recess/foraminal stenosis.",
+          "priority": "BLUE"
+        },
+        {
+          "scenario": "Spondylolisthesis/alignment question",
+          "test": "Standing AP/Lateral ± selected flexion-extension radiographs",
+          "why": "Assesses alignment/dynamic instability.",
+          "priority": "AMBER"
+        }
+      ]
+    },
+    "SKM-CSP-0001": {
+      "title": "Advanced reasoning — Cervical Radiculopathy",
+      "principles": [
+        "Separate radiculopathy from myelopathy before focusing on root-level treatment.",
+        "Combine dermatomal symptoms, myotomal weakness, reflex change, Spurling/ULTT and shoulder/peripheral-nerve differentiation."
+      ],
+      "decisionPearls": [
+        "Spurling is a rule-in style provocative test when concordant; ULTT is useful as a more sensitive neurodynamic test.",
+        "Gait imbalance, hand clumsiness, hyperreflexia or leg stiffness shifts the problem from 'root' to possible 'cord' and increases urgency."
+      ],
+      "imagingDecision": [
+        {
+          "scenario": "Typical short-duration radiculopathy without red flags",
+          "test": "No routine immediate imaging",
+          "why": "Many cases improve conservatively.",
+          "priority": "GREEN"
+        },
+        {
+          "scenario": "Persistent symptoms ~4–6 weeks or objective progressive deficit",
+          "test": "MRI cervical spine",
+          "why": "Defines root compression and changes interventional/surgical planning.",
+          "priority": "BLUE/RED"
+        },
+        {
+          "scenario": "Myelopathy signs",
+          "test": "Urgent/expedited MRI and specialist assessment",
+          "why": "Possible spinal cord disease.",
+          "priority": "RED"
+        }
+      ]
+    }
+  }
+}
