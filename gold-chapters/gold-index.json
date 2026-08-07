@@ -105,7 +105,27 @@
     "gold-chapters/104-tibial-shaft-fracture.json",
     "gold-chapters/105-ankle-fracture.json",
     "gold-chapters/106-essential-tremor.json",
-    "gold-chapters/107-amyotrophic-lateral-sclerosis-motor-neuron-disease.json"
+    "gold-chapters/107-amyotrophic-lateral-sclerosis-motor-neuron-disease.json",
+    "gold-chapters/108-rotator-cuff-tear.json",
+    "gold-chapters/109-calcific-tendinopathy-of-the-shoulder.json",
+    "gold-chapters/110-scaphoid-fracture.json",
+    "gold-chapters/111-thumb-carpometacarpal-osteoarthritis.json",
+    "gold-chapters/112-dupuytren-contracture.json",
+    "gold-chapters/113-mallet-finger.json",
+    "gold-chapters/114-radial-head-fracture.json",
+    "gold-chapters/115-olecranon-bursitis.json",
+    "gold-chapters/116-femoroacetabular-impingement-syndrome.json",
+    "gold-chapters/117-acetabular-labral-tear.json",
+    "gold-chapters/118-patellar-dislocation-patellar-instability.json",
+    "gold-chapters/119-baker-cyst-popliteal-cyst.json",
+    "gold-chapters/120-medial-tibial-stress-syndrome.json",
+    "gold-chapters/121-tibial-stress-fracture.json",
+    "gold-chapters/122-morton-neuroma.json",
+    "gold-chapters/123-tarsal-tunnel-syndrome.json",
+    "gold-chapters/124-hallux-valgus.json",
+    "gold-chapters/125-first-mtp-osteoarthritis-hallux-rigidus.json",
+    "gold-chapters/126-osgood-schlatter-disease.json",
+    "gold-chapters/127-elbow-osteoarthritis.json"
   ],
-  "expectedTotalGold": 108
+  "expectedTotalGold": 128
 }

@@ -1,0 +1,101 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-ORT-CTS-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Calcific Tendinopathy of the Shoulder",
+  "synonyms": [
+    "Calcific rotator cuff tendinitis"
+  ],
+  "category": "Orthopedics > Shoulder > Calcific Tendinopathy",
+  "tags": [
+    "calcific tendinopathy",
+    "shoulder",
+    "calcium deposit",
+    "rotator cuff"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Deposition of calcium hydroxyapatite within rotator cuff tendons, often the supraspinatus, which may be asymptomatic or cause severe acute/subacute shoulder pain.",
+  "clinicalPattern": {
+    "typical": [
+      "Acute severe shoulder pain during resorptive phase",
+      "Painful arc",
+      "Reduced motion due to pain",
+      "Night pain"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Fever/hot joint suggesting infection"
+    },
+    {
+      "level": "RED",
+      "item": "Trauma/fracture"
+    },
+    {
+      "level": "RED",
+      "item": "Major neurological deficit"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Shoulder ROM",
+      "Rotator cuff strength",
+      "Painful arc",
+      "Cervical screen"
+    ]
+  },
+  "differentials": [
+    "Rotator cuff tendinopathy",
+    "Adhesive capsulitis",
+    "Septic arthritis",
+    "Glenohumeral OA"
+  ],
+  "investigations": {
+    "principle": "Plain radiographs often identify calcific deposits.",
+    "MRI": "Ultrasound localizes deposits and can guide barbotage; MRI is not always necessary.",
+    "radiographs": "Radiographs are highly useful for diagnosis."
+  },
+  "management": {
+    "green": [
+      "Analgesia and activity modification",
+      "Progressive shoulder rehabilitation"
+    ],
+    "amber": [
+      "Ultrasound-guided lavage/barbotage, corticosteroid injection or surgery are options for persistent severe cases."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Amsa-shoola/Snayu phenotype may be documented descriptively."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Deposition of calcium hydroxyapatite within rotator cuff tendons, often the supraspinatus, which may be asymptomatic or cause severe acute/subacute shoulder pain.",
+    "urgent": "Seek urgent assessment for acute/progressive neurological deficit, infection/systemic illness, major trauma, vascular compromise, locked joint or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "ESSKA/shoulder literature",
+      "title": "Calcific tendinopathy evidence",
+      "url": "https://www.journal-cot.com/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V2.1-BATCH-07",
+    "proposedGoldChapterNumber": 109
+  }
+}

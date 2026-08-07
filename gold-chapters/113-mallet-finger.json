@@ -1,0 +1,97 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-ORT-MF-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Mallet Finger",
+  "synonyms": [
+    "Baseball finger"
+  ],
+  "category": "Orthopedics > Hand > Tendon Injury",
+  "tags": [
+    "mallet finger",
+    "extensor tendon",
+    "DIP joint"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Loss of active distal interphalangeal extension due to terminal extensor tendon injury, with or without avulsion fracture.",
+  "clinicalPattern": {
+    "typical": [
+      "Drooping fingertip after trauma",
+      "Inability to actively extend DIP",
+      "Local swelling/tenderness"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Open injury"
+    },
+    {
+      "level": "RED",
+      "item": "Large fracture-subluxation"
+    },
+    {
+      "level": "RED",
+      "item": "Neurovascular compromise"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Active DIP extension",
+      "Skin integrity",
+      "PIP motion and neurovascular exam"
+    ]
+  },
+  "differentials": [
+    "Swan-neck deformity",
+    "Distal phalanx fracture",
+    "Flexor tendon injury"
+  ],
+  "investigations": {
+    "principle": "Radiographs assess avulsion fracture and joint alignment.",
+    "MRI": "MRI is rarely required.",
+    "radiographs": "Lateral finger radiograph is important."
+  },
+  "management": {
+    "green": [
+      "Continuous DIP extension splinting for suitable injuries",
+      "Hand therapy and skin care"
+    ],
+    "amber": [
+      "Large articular fracture, volar subluxation or failed splinting may need surgical review."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Anguli/Snayu injury phenotype may be documented."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Loss of active distal interphalangeal extension due to terminal extensor tendon injury, with or without avulsion fracture.",
+    "urgent": "Seek urgent assessment for acute/progressive neurological deficit, infection/systemic illness, major trauma, vascular compromise, locked joint or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "BSSH",
+      "title": "Mallet finger resources",
+      "url": "https://www.bssh.ac.uk/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V2.1-BATCH-07",
+    "proposedGoldChapterNumber": 113
+  }
+}

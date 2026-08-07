@@ -1,0 +1,95 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-ORT-OB-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Olecranon Bursitis",
+  "synonyms": [
+    "Student's elbow"
+  ],
+  "category": "Orthopedics > Elbow > Bursa",
+  "tags": [
+    "olecranon bursitis",
+    "elbow swelling",
+    "bursa"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Inflammation or swelling of the olecranon bursa, caused by pressure/trauma, crystal disease, inflammatory disease or infection.",
+  "clinicalPattern": {
+    "typical": [
+      "Posterior elbow swelling",
+      "Mild pain or pressure",
+      "Warmth/erythema when inflamed"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Fever, marked erythema or systemic illness suggesting septic bursitis"
+    },
+    {
+      "level": "RED",
+      "item": "Open wound or rapidly spreading cellulitis"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Bursal swelling",
+      "Skin and warmth",
+      "Elbow ROM",
+      "Joint infection assessment"
+    ]
+  },
+  "differentials": [
+    "Septic arthritis",
+    "Gout",
+    "Rheumatoid nodule",
+    "Olecranon fracture"
+  ],
+  "investigations": {
+    "principle": "Most cases are clinical; aspiration is considered if infection/crystal disease is suspected.",
+    "MRI": "MRI is not routine.",
+    "radiographs": "Radiographs if trauma or bony disease is suspected."
+  },
+  "management": {
+    "green": [
+      "Pressure avoidance and padding",
+      "Treat underlying crystal/inflammatory cause"
+    ],
+    "amber": [
+      "Suspected infection requires aspiration/culture and antibiotics; repeated aspiration/injection carries risk."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Kurpara-shotha phenotype may be documented after septic causes are excluded."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Inflammation or swelling of the olecranon bursa, caused by pressure/trauma, crystal disease, inflammatory disease or infection.",
+    "urgent": "Seek urgent assessment for acute/progressive neurological deficit, infection/systemic illness, major trauma, vascular compromise, locked joint or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "AAFP/orthopedic literature",
+      "title": "Superficial bursitis guidance",
+      "url": "https://www.aafp.org/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V2.1-BATCH-07",
+    "proposedGoldChapterNumber": 115
+  }
+}

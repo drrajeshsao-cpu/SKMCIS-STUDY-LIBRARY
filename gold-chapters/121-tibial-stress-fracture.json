@@ -1,0 +1,100 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-ORT-TSFR-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Tibial Stress Fracture",
+  "synonyms": [
+    "Tibia stress fracture"
+  ],
+  "category": "Orthopedics > Leg > Stress Fracture",
+  "tags": [
+    "stress fracture",
+    "tibia",
+    "running",
+    "MRI"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Bone stress injury of the tibia resulting from repetitive loading exceeding remodeling capacity, ranging from stress reaction to cortical fracture.",
+  "clinicalPattern": {
+    "typical": [
+      "Focal tibial pain with activity",
+      "Localized bony tenderness",
+      "Pain may progress to walking/rest pain"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Anterior cortex high-risk stress fracture"
+    },
+    {
+      "level": "RED",
+      "item": "Inability to bear weight"
+    },
+    {
+      "level": "RED",
+      "item": "Pathological fracture concern"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Focal palpation",
+      "Hop test used cautiously",
+      "Training and nutritional risk assessment"
+    ]
+  },
+  "differentials": [
+    "MTSS",
+    "Chronic exertional compartment syndrome",
+    "Bone tumour",
+    "Infection"
+  ],
+  "investigations": {
+    "principle": "Early radiographs can be normal.",
+    "MRI": "MRI is preferred for early grading.",
+    "radiographs": "Radiographs may show later cortical reaction."
+  },
+  "management": {
+    "green": [
+      "Stop impact loading until pain-free",
+      "Correct training/nutrition and bone-health factors",
+      "Graded return"
+    ],
+    "amber": [
+      "High-risk anterior tibial lesions require orthopedic/sports specialist review."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Asthi-kshaya/Ati-vyayama-related phenotype may be documented."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Bone stress injury of the tibia resulting from repetitive loading exceeding remodeling capacity, ranging from stress reaction to cortical fracture.",
+    "urgent": "Seek urgent assessment for acute/progressive neurological deficit, infection/systemic illness, major trauma, vascular compromise, locked joint or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "ACR",
+      "title": "Stress Fracture Imaging",
+      "url": "https://acsearch.acr.org/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V2.1-BATCH-07",
+    "proposedGoldChapterNumber": 121
+  }
+}

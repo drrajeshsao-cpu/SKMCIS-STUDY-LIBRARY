@@ -1,0 +1,106 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-ORT-PDI-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Patellar Dislocation / Patellar Instability",
+  "synonyms": [
+    "Lateral patellar dislocation"
+  ],
+  "category": "Orthopedics > Knee > Patellofemoral Instability",
+  "tags": [
+    "patella dislocation",
+    "instability",
+    "MPFL",
+    "knee"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Transient or persistent displacement of the patella, usually laterally, with risk of recurrent instability and osteochondral injury.",
+  "clinicalPattern": {
+    "typical": [
+      "Acute deformity or spontaneous reduction",
+      "Medial patellar tenderness",
+      "Large effusion",
+      "Recurrent apprehension/giving way"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Neurovascular compromise"
+    },
+    {
+      "level": "RED",
+      "item": "Irreducible dislocation"
+    },
+    {
+      "level": "RED",
+      "item": "Large osteochondral fracture"
+    },
+    {
+      "level": "RED",
+      "item": "Septic joint"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Patellar apprehension",
+      "Effusion",
+      "Ligament/knee stability",
+      "Neurovascular exam"
+    ]
+  },
+  "differentials": [
+    "ACL injury",
+    "Patellofemoral pain",
+    "Meniscal injury",
+    "Osteochondral fracture"
+  ],
+  "investigations": {
+    "principle": "Radiographs assess fracture/alignment.",
+    "MRI": "MRI is useful for MPFL/osteochondral injury after first-time traumatic dislocation when indicated.",
+    "radiographs": "Radiographs include sunrise/merchant views when tolerated."
+  },
+  "management": {
+    "green": [
+      "Reduction when acutely dislocated",
+      "Early ROM and quadriceps/hip rehabilitation",
+      "Patellar stabilization strategies"
+    ],
+    "amber": [
+      "Recurrent instability or major osteochondral injury may require surgery."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Janu-sandhi instability phenotype may be documented."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Transient or persistent displacement of the patella, usually laterally, with risk of recurrent instability and osteochondral injury.",
+    "urgent": "Seek urgent assessment for acute/progressive neurological deficit, infection/systemic illness, major trauma, vascular compromise, locked joint or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "ESSKA",
+      "title": "Patellar instability consensus resources",
+      "url": "https://www.esska.org/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V2.1-BATCH-07",
+    "proposedGoldChapterNumber": 118
+  }
+}

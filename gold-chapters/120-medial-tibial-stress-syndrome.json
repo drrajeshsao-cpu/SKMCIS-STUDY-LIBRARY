@@ -1,0 +1,104 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-ORT-MTSS-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Medial Tibial Stress Syndrome",
+  "synonyms": [
+    "Shin splints"
+  ],
+  "category": "Orthopedics > Leg > Overuse",
+  "tags": [
+    "shin splints",
+    "MTSS",
+    "running",
+    "tibia"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Exercise-related pain along the posteromedial tibial border associated with repetitive loading and bone/periosteal stress.",
+  "clinicalPattern": {
+    "typical": [
+      "Diffuse medial tibial pain with running",
+      "Tenderness over a broad area",
+      "Symptoms improve with rest early"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Focal severe bony tenderness suggesting stress fracture"
+    },
+    {
+      "level": "RED",
+      "item": "Night/rest pain"
+    },
+    {
+      "level": "RED",
+      "item": "Neurovascular symptoms"
+    },
+    {
+      "level": "RED",
+      "item": "Compartment syndrome"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Tibial palpation",
+      "Hop/loading tests",
+      "Foot/ankle and kinetic-chain assessment"
+    ]
+  },
+  "differentials": [
+    "Tibial stress fracture",
+    "Chronic exertional compartment syndrome",
+    "Vascular claudication",
+    "Lumbar radiculopathy"
+  ],
+  "investigations": {
+    "principle": "Diagnosis is usually clinical.",
+    "MRI": "MRI if focal pain, persistent symptoms or stress fracture is suspected.",
+    "radiographs": "Radiographs may be normal early."
+  },
+  "management": {
+    "green": [
+      "Relative load reduction",
+      "Graded return to running",
+      "Calf/foot/hip strength and training-error correction"
+    ],
+    "amber": [
+      "Persistent focal pain requires reassessment for stress fracture."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Jangha/Asthi-Snayu overuse phenotype may be documented."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Exercise-related pain along the posteromedial tibial border associated with repetitive loading and bone/periosteal stress.",
+    "urgent": "Seek urgent assessment for acute/progressive neurological deficit, infection/systemic illness, major trauma, vascular compromise, locked joint or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "Sports medicine literature",
+      "title": "MTSS consensus reviews",
+      "url": "https://bjsm.bmj.com/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V2.1-BATCH-07",
+    "proposedGoldChapterNumber": 120
+  }
+}

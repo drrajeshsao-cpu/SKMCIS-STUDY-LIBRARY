@@ -1,0 +1,109 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-ORT-SCF-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Scaphoid Fracture",
+  "synonyms": [
+    "Navicular fracture of wrist"
+  ],
+  "category": "Orthopedics > Wrist/Hand > Fracture",
+  "tags": [
+    "scaphoid",
+    "wrist fracture",
+    "snuffbox tenderness",
+    "FOOSH"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Fracture of the scaphoid, commonly after a fall on an outstretched hand, with risk of nonunion and avascular necrosis due to limited blood supply.",
+  "clinicalPattern": {
+    "typical": [
+      "Radial wrist pain after fall",
+      "Anatomical snuffbox tenderness",
+      "Pain with axial thumb loading"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Open injury"
+    },
+    {
+      "level": "RED",
+      "item": "Neurovascular compromise"
+    },
+    {
+      "level": "RED",
+      "item": "Associated perilunate injury"
+    },
+    {
+      "level": "RED",
+      "item": "Severe displacement"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Snuffbox and scaphoid tubercle tenderness",
+      "Wrist ROM",
+      "Neurovascular exam"
+    ]
+  },
+  "differentials": [
+    "Wrist sprain",
+    "Distal radius fracture",
+    "De Quervain tenosynovitis",
+    "Scapholunate injury"
+  ],
+  "investigations": {
+    "principle": "Initial radiographs can be negative despite fracture.",
+    "MRI": "MRI or CT is appropriate when clinical suspicion remains after negative radiographs.",
+    "radiographs": "Dedicated scaphoid radiographs are first-line."
+  },
+  "management": {
+    "green": [
+      "Immobilize suspected fracture pending definitive assessment",
+      "Orthopedic follow-up"
+    ],
+    "amber": [
+      "Displaced, proximal-pole or unstable fractures may require fixation."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Manibandha-bhagna principles may complement recovery only after modern fracture assessment."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Fracture of the scaphoid, commonly after a fall on an outstretched hand, with risk of nonunion and avascular necrosis due to limited blood supply.",
+    "urgent": "Seek urgent assessment for acute/progressive neurological deficit, infection/systemic illness, major trauma, vascular compromise, locked joint or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "NICE",
+      "title": "Fractures non-complex guidance",
+      "url": "https://www.nice.org.uk/",
+      "checked": "2026-08-07"
+    },
+    {
+      "organization": "AAOS OrthoInfo",
+      "title": "Scaphoid Fracture of the Wrist",
+      "url": "https://orthoinfo.aaos.org/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V2.1-BATCH-07",
+    "proposedGoldChapterNumber": 110
+  }
+}

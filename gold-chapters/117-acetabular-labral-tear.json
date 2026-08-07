@@ -1,0 +1,103 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-ORT-ALT-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Acetabular Labral Tear",
+  "synonyms": [
+    "Hip labral tear"
+  ],
+  "category": "Orthopedics > Hip > Labrum",
+  "tags": [
+    "hip labrum",
+    "groin pain",
+    "clicking",
+    "MRI"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Structural tear of the acetabular labrum that may cause hip pain and mechanical symptoms, often associated with FAI or dysplasia.",
+  "clinicalPattern": {
+    "typical": [
+      "Groin pain",
+      "Clicking/catching",
+      "Pain with pivoting or flexion",
+      "Reduced sport tolerance"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Acute fracture/dislocation"
+    },
+    {
+      "level": "RED",
+      "item": "Inability to bear weight"
+    },
+    {
+      "level": "RED",
+      "item": "Septic arthritis"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Hip ROM",
+      "FADIR/FABER in context",
+      "Strength and gait",
+      "Lumbar screen"
+    ]
+  },
+  "differentials": [
+    "FAI syndrome",
+    "Hip OA",
+    "Adductor pain",
+    "Snapping hip",
+    "Lumbar referred pain"
+  ],
+  "investigations": {
+    "principle": "Imaging findings must correlate with symptoms.",
+    "MRI": "MRI/MR arthrography helps characterize labral pathology.",
+    "radiographs": "Radiographs assess morphology/OA."
+  },
+  "management": {
+    "green": [
+      "Hip/trunk rehabilitation",
+      "Activity modification",
+      "Address FAI or dysplasia mechanics"
+    ],
+    "amber": [
+      "Arthroscopy is selective for persistent symptomatic tears after appropriate conservative treatment."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Shroni/Vankshana pain phenotype may be documented."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Structural tear of the acetabular labrum that may cause hip pain and mechanical symptoms, often associated with FAI or dysplasia.",
+    "urgent": "Seek urgent assessment for acute/progressive neurological deficit, infection/systemic illness, major trauma, vascular compromise, locked joint or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "ACR",
+      "title": "Chronic Hip Pain Appropriateness Criteria",
+      "url": "https://acsearch.acr.org/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V2.1-BATCH-07",
+    "proposedGoldChapterNumber": 117
+  }
+}

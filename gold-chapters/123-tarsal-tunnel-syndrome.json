@@ -1,0 +1,103 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-NEU-TTS-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Tarsal Tunnel Syndrome",
+  "synonyms": [
+    "Posterior tibial nerve entrapment"
+  ],
+  "category": "Neurology/Orthopedics > Peripheral Nerve > Tibial Nerve",
+  "tags": [
+    "tarsal tunnel",
+    "tibial nerve",
+    "foot numbness"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Compression neuropathy of the posterior tibial nerve or branches within the tarsal tunnel near the medial ankle.",
+  "clinicalPattern": {
+    "typical": [
+      "Burning/tingling plantar foot pain",
+      "Symptoms worse with standing/walking",
+      "Possible medial ankle tenderness"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Progressive motor weakness"
+    },
+    {
+      "level": "RED",
+      "item": "Mass/trauma"
+    },
+    {
+      "level": "RED",
+      "item": "Severe vascular symptoms"
+    },
+    {
+      "level": "RED",
+      "item": "Rapid neurological progression"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Tinel at tarsal tunnel",
+      "Sensory mapping",
+      "Intrinsic foot strength",
+      "Lumbar and peripheral neuropathy screen"
+    ]
+  },
+  "differentials": [
+    "S1 radiculopathy",
+    "Plantar fasciitis",
+    "Polyneuropathy",
+    "Morton neuroma"
+  ],
+  "investigations": {
+    "principle": "Clinical diagnosis is supported by targeted testing.",
+    "MRI": "Ultrasound/MRI may identify mass or structural compression; electrodiagnostics can assist.",
+    "radiographs": "Radiographs assess bony causes when relevant."
+  },
+  "management": {
+    "green": [
+      "Footwear/activity modification",
+      "Treat biomechanical or space-occupying contributors"
+    ],
+    "amber": [
+      "Injection/decompression requires individualized diagnosis and severity assessment."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Pada Vata/neuralgia phenotype may be documented."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Compression neuropathy of the posterior tibial nerve or branches within the tarsal tunnel near the medial ankle.",
+    "urgent": "Seek urgent assessment for acute/progressive neurological deficit, infection/systemic illness, major trauma, vascular compromise, locked joint or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "AANEM",
+      "title": "Entrapment neuropathy resources",
+      "url": "https://www.aanem.org/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V2.1-BATCH-07",
+    "proposedGoldChapterNumber": 123
+  }
+}

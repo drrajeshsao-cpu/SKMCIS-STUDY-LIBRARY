@@ -1,0 +1,101 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-ORT-EOA-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Elbow Osteoarthritis",
+  "synonyms": [
+    "Elbow OA"
+  ],
+  "category": "Orthopedics > Elbow > Osteoarthritis",
+  "tags": [
+    "elbow osteoarthritis",
+    "elbow pain",
+    "osteophytes"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Degenerative arthritis of the elbow causing pain, stiffness, osteophytes and possible mechanical impingement, often in patients with heavy repetitive use or prior trauma.",
+  "clinicalPattern": {
+    "typical": [
+      "Pain at terminal motion",
+      "Loss of extension/flexion",
+      "Crepitus",
+      "Mechanical locking may occur"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Hot swollen joint"
+    },
+    {
+      "level": "RED",
+      "item": "Acute trauma/fracture"
+    },
+    {
+      "level": "RED",
+      "item": "Progressive ulnar neuropathy"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Elbow ROM",
+      "Crepitus",
+      "Ulnar nerve exam",
+      "Strength and functional assessment"
+    ]
+  },
+  "differentials": [
+    "Lateral epicondylalgia",
+    "Loose body",
+    "Inflammatory arthritis",
+    "Cubital tunnel syndrome"
+  ],
+  "investigations": {
+    "principle": "Radiographs usually establish structural OA.",
+    "MRI": "CT assists osteophyte/loose-body surgical planning; MRI is less commonly needed.",
+    "radiographs": "AP/lateral elbow radiographs are standard."
+  },
+  "management": {
+    "green": [
+      "Activity modification",
+      "ROM and strength rehabilitation",
+      "Appropriate symptom control"
+    ],
+    "amber": [
+      "Injection or debridement/arthroplasty is individualized according to severity and demand."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Kurpara Sandhigata Vata correlation may be documented."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Degenerative arthritis of the elbow causing pain, stiffness, osteophytes and possible mechanical impingement, often in patients with heavy repetitive use or prior trauma.",
+    "urgent": "Seek urgent assessment for acute/progressive neurological deficit, infection/systemic illness, major trauma, vascular compromise, locked joint or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "AAOS OrthoInfo",
+      "title": "Elbow Arthritis",
+      "url": "https://orthoinfo.aaos.org/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V2.1-BATCH-07",
+    "proposedGoldChapterNumber": 127
+  }
+}

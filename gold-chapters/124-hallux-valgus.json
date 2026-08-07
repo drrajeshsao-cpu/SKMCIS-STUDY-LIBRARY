@@ -1,0 +1,101 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-ORT-HV-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Hallux Valgus",
+  "synonyms": [
+    "Bunion"
+  ],
+  "category": "Orthopedics > Foot > Deformity",
+  "tags": [
+    "hallux valgus",
+    "bunion",
+    "great toe deformity"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Lateral deviation of the great toe with medial prominence of the first metatarsal head, causing variable pain and footwear difficulty.",
+  "clinicalPattern": {
+    "typical": [
+      "Medial first-MTP pain",
+      "Prominent bunion",
+      "Difficulty with shoes",
+      "Possible lesser-toe crowding"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Ulceration/infection"
+    },
+    {
+      "level": "RED",
+      "item": "Acute gout/septic joint"
+    },
+    {
+      "level": "RED",
+      "item": "Neurovascular compromise"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Standing foot alignment",
+      "First-MTP ROM",
+      "Callus and footwear assessment",
+      "Neurovascular exam"
+    ]
+  },
+  "differentials": [
+    "Gout",
+    "First-MTP OA",
+    "Sesamoid disorder",
+    "Inflammatory arthritis"
+  ],
+  "investigations": {
+    "principle": "Weight-bearing radiographs quantify deformity when surgical planning is considered.",
+    "MRI": "MRI is not routine.",
+    "radiographs": "AP/lateral weight-bearing foot radiographs are standard for planning."
+  },
+  "management": {
+    "green": [
+      "Wide footwear",
+      "Toe-space/pressure management",
+      "Activity and symptom management"
+    ],
+    "amber": [
+      "Surgery is considered for persistent symptomatic deformity, not cosmetic appearance alone."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Pada-anguli deformity phenotype may be documented descriptively."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Lateral deviation of the great toe with medial prominence of the first metatarsal head, causing variable pain and footwear difficulty.",
+    "urgent": "Seek urgent assessment for acute/progressive neurological deficit, infection/systemic illness, major trauma, vascular compromise, locked joint or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "AAOS OrthoInfo",
+      "title": "Bunions",
+      "url": "https://orthoinfo.aaos.org/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V2.1-BATCH-07",
+    "proposedGoldChapterNumber": 124
+  }
+}

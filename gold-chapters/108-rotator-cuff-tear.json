@@ -1,0 +1,107 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-ORT-RCTEAR-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Rotator Cuff Tear",
+  "synonyms": [
+    "Full-thickness rotator cuff tear",
+    "Partial-thickness cuff tear"
+  ],
+  "category": "Orthopedics > Shoulder > Rotator Cuff Tear",
+  "tags": [
+    "rotator cuff tear",
+    "shoulder weakness",
+    "supraspinatus",
+    "MRI"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Structural tearing of one or more rotator cuff tendons, ranging from partial-thickness injury to full-thickness tears and massive cuff deficiency.",
+  "clinicalPattern": {
+    "typical": [
+      "Shoulder pain and weakness",
+      "Difficulty lifting arm overhead",
+      "Night pain",
+      "Traumatic onset may cause sudden weakness"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Acute traumatic pseudoparalysis"
+    },
+    {
+      "level": "RED",
+      "item": "Fracture/dislocation"
+    },
+    {
+      "level": "RED",
+      "item": "Neurovascular deficit"
+    },
+    {
+      "level": "RED",
+      "item": "Infection or tumour concern"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Active versus passive ROM",
+      "External rotation and abduction strength",
+      "Lag/drop-arm signs in context",
+      "Cervical and neurological screen"
+    ]
+  },
+  "differentials": [
+    "Rotator cuff tendinopathy",
+    "Adhesive capsulitis",
+    "Cervical radiculopathy",
+    "Glenohumeral OA",
+    "Deltoid/axillary nerve palsy"
+  ],
+  "investigations": {
+    "principle": "Diagnosis combines clinical weakness with imaging when required.",
+    "MRI": "Ultrasound or MRI defines tear size, retraction and muscle quality.",
+    "radiographs": "Radiographs assess arthritis, acromial morphology and other bony disease."
+  },
+  "management": {
+    "green": [
+      "Education and progressive rehabilitation for many degenerative tears",
+      "Pain control and scapular/rotator cuff strengthening"
+    ],
+    "amber": [
+      "Acute traumatic tears, major weakness or failed rehabilitation may require early orthopedic surgical assessment."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Amsa/Snayu phenotype may be documented; tendon disruption remains a modern structural diagnosis."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Structural tearing of one or more rotator cuff tendons, ranging from partial-thickness injury to full-thickness tears and massive cuff deficiency.",
+    "urgent": "Seek urgent assessment for acute/progressive neurological deficit, infection/systemic illness, major trauma, vascular compromise, locked joint or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "AAOS",
+      "title": "Management of Rotator Cuff Injuries CPG",
+      "url": "https://www.aaos.org/quality/quality-programs/clinical-practice-guidelines/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V2.1-BATCH-07",
+    "proposedGoldChapterNumber": 108
+  }
+}

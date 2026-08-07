@@ -1,0 +1,99 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-ORT-OSD-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Osgood-Schlatter Disease",
+  "synonyms": [
+    "Tibial tubercle apophysitis"
+  ],
+  "category": "Orthopedics > Pediatric Knee > Apophysitis",
+  "tags": [
+    "Osgood Schlatter",
+    "adolescent knee",
+    "tibial tubercle"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Traction apophysitis of the tibial tubercle in skeletally immature adolescents, commonly associated with running and jumping sports.",
+  "clinicalPattern": {
+    "typical": [
+      "Anterior knee pain at tibial tubercle",
+      "Pain with running/jumping/kneeling",
+      "Localized prominence/tenderness"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Acute avulsion fracture"
+    },
+    {
+      "level": "RED",
+      "item": "Large effusion"
+    },
+    {
+      "level": "RED",
+      "item": "Systemic illness or tumour concern"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Tibial tubercle tenderness",
+      "Quadriceps/hamstring flexibility",
+      "Knee ROM and strength"
+    ]
+  },
+  "differentials": [
+    "Patellar tendinopathy",
+    "Sinding-Larsen-Johansson syndrome",
+    "Tibial tubercle avulsion",
+    "Infection/tumour"
+  ],
+  "investigations": {
+    "principle": "Usually clinical.",
+    "MRI": "MRI is not routine.",
+    "radiographs": "Radiographs when atypical or fracture is suspected."
+  },
+  "management": {
+    "green": [
+      "Relative activity modification",
+      "Flexibility and strength work",
+      "Gradual return to sport"
+    ],
+    "amber": [
+      "Symptoms are usually self-limited with skeletal maturity; surgery is rarely needed."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Janu/Asthi-Snayu growth-related phenotype may be documented."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Traction apophysitis of the tibial tubercle in skeletally immature adolescents, commonly associated with running and jumping sports.",
+    "urgent": "Seek urgent assessment for acute/progressive neurological deficit, infection/systemic illness, major trauma, vascular compromise, locked joint or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "AAOS OrthoInfo",
+      "title": "Osgood-Schlatter Disease",
+      "url": "https://orthoinfo.aaos.org/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V2.1-BATCH-07",
+    "proposedGoldChapterNumber": 126
+  }
+}

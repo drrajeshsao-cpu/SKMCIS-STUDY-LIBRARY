@@ -1,0 +1,101 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-ORT-MN-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Morton Neuroma",
+  "synonyms": [
+    "Interdigital neuroma"
+  ],
+  "category": "Orthopedics > Foot > Forefoot",
+  "tags": [
+    "Morton neuroma",
+    "forefoot pain",
+    "interdigital nerve"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Painful fibrotic enlargement/entrapment of a plantar digital nerve, usually in the third intermetatarsal space.",
+  "clinicalPattern": {
+    "typical": [
+      "Burning forefoot pain",
+      "Numbness/tingling into toes",
+      "Worse in tight shoes",
+      "Sensation of pebble under foot"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Acute trauma"
+    },
+    {
+      "level": "RED",
+      "item": "Infection"
+    },
+    {
+      "level": "RED",
+      "item": "Severe vascular or neurological deficit"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Web-space compression",
+      "Mulder click may occur",
+      "Footwear and metatarsal assessment"
+    ]
+  },
+  "differentials": [
+    "Metatarsalgia",
+    "Stress fracture",
+    "MTP synovitis",
+    "Lumbar radiculopathy",
+    "Tarsal tunnel syndrome"
+  ],
+  "investigations": {
+    "principle": "Usually clinical.",
+    "MRI": "Ultrasound/MRI can confirm atypical cases.",
+    "radiographs": "Radiographs assess bony/metatarsal alternatives."
+  },
+  "management": {
+    "green": [
+      "Wide toe-box footwear",
+      "Metatarsal support",
+      "Activity/load modification"
+    ],
+    "amber": [
+      "Injection or surgical excision is selective for persistent cases."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Pada/Vata neuralgic phenotype may be documented."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Painful fibrotic enlargement/entrapment of a plantar digital nerve, usually in the third intermetatarsal space.",
+    "urgent": "Seek urgent assessment for acute/progressive neurological deficit, infection/systemic illness, major trauma, vascular compromise, locked joint or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "AAOS OrthoInfo",
+      "title": "Morton's Neuroma",
+      "url": "https://orthoinfo.aaos.org/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V2.1-BATCH-07",
+    "proposedGoldChapterNumber": 122
+  }
+}

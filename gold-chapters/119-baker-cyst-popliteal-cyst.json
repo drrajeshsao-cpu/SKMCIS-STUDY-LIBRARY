@@ -1,0 +1,99 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-ORT-BC-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Baker Cyst / Popliteal Cyst",
+  "synonyms": [
+    "Popliteal cyst"
+  ],
+  "category": "Orthopedics > Knee > Cyst",
+  "tags": [
+    "baker cyst",
+    "popliteal cyst",
+    "knee swelling"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Fluid-filled distension in the popliteal region communicating with the knee joint, commonly associated with osteoarthritis, meniscal disease or inflammatory arthritis.",
+  "clinicalPattern": {
+    "typical": [
+      "Posterior knee fullness",
+      "Tightness with flexion",
+      "Variable pain",
+      "May fluctuate with knee effusion"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Calf swelling/pain requiring DVT exclusion"
+    },
+    {
+      "level": "RED",
+      "item": "Neurovascular compression"
+    },
+    {
+      "level": "RED",
+      "item": "Hot swollen joint/infection"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Posterior knee palpation",
+      "Knee effusion and ROM",
+      "Calf/DVT screen when indicated"
+    ]
+  },
+  "differentials": [
+    "DVT",
+    "Popliteal aneurysm",
+    "Soft-tissue tumour",
+    "Meniscal cyst"
+  ],
+  "investigations": {
+    "principle": "Ultrasound can confirm cyst and assess DVT differential.",
+    "MRI": "MRI evaluates intra-articular pathology when needed.",
+    "radiographs": "Radiographs assess associated OA."
+  },
+  "management": {
+    "green": [
+      "Treat underlying knee disorder",
+      "Activity modification and rehabilitation"
+    ],
+    "amber": [
+      "Aspiration/injection or surgery is selective; ruptured cyst can mimic DVT."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Janu-pashchat shotha phenotype may be documented after vascular causes are excluded."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Fluid-filled distension in the popliteal region communicating with the knee joint, commonly associated with osteoarthritis, meniscal disease or inflammatory arthritis.",
+    "urgent": "Seek urgent assessment for acute/progressive neurological deficit, infection/systemic illness, major trauma, vascular compromise, locked joint or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "AAOS OrthoInfo",
+      "title": "Baker's Cyst",
+      "url": "https://orthoinfo.aaos.org/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V2.1-BATCH-07",
+    "proposedGoldChapterNumber": 119
+  }
+}

@@ -1,0 +1,107 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-ORT-FAI-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Femoroacetabular Impingement Syndrome",
+  "synonyms": [
+    "FAI syndrome",
+    "Cam/pincer impingement"
+  ],
+  "category": "Orthopedics > Hip > Impingement",
+  "tags": [
+    "FAI",
+    "hip impingement",
+    "cam",
+    "pincer",
+    "groin pain"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Clinical syndrome of hip-related pain, positive clinical findings and characteristic cam and/or pincer morphology; morphology alone does not equal symptomatic FAI.",
+  "clinicalPattern": {
+    "typical": [
+      "Groin pain with flexion/rotation",
+      "Pain with sitting, squatting or sport",
+      "Reduced hip internal rotation"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Acute inability to bear weight"
+    },
+    {
+      "level": "RED",
+      "item": "Fracture/stress fracture"
+    },
+    {
+      "level": "RED",
+      "item": "Septic arthritis"
+    },
+    {
+      "level": "RED",
+      "item": "AVN concern"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Hip ROM",
+      "FADIR/FABER",
+      "Strength and functional squat",
+      "Lumbar screen"
+    ]
+  },
+  "differentials": [
+    "Hip OA",
+    "Labral tear",
+    "Adductor-related groin pain",
+    "Stress fracture",
+    "Lumbar referred pain"
+  ],
+  "investigations": {
+    "principle": "Diagnosis requires symptom, examination and imaging correlation.",
+    "MRI": "MRI/MR arthrogram assesses labrum/cartilage where needed.",
+    "radiographs": "AP pelvis and lateral hip radiographs assess morphology."
+  },
+  "management": {
+    "green": [
+      "Activity modification and hip/trunk rehabilitation",
+      "Movement retraining"
+    ],
+    "amber": [
+      "Arthroscopic surgery is considered for persistent appropriate cases after nonoperative care."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Vankshana/Shroni pain phenotype may be documented descriptively."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Clinical syndrome of hip-related pain, positive clinical findings and characteristic cam and/or pincer morphology; morphology alone does not equal symptomatic FAI.",
+    "urgent": "Seek urgent assessment for acute/progressive neurological deficit, infection/systemic illness, major trauma, vascular compromise, locked joint or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "Warwick Agreement",
+      "title": "FAI syndrome consensus",
+      "url": "https://bjsm.bmj.com/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V2.1-BATCH-07",
+    "proposedGoldChapterNumber": 116
+  }
+}

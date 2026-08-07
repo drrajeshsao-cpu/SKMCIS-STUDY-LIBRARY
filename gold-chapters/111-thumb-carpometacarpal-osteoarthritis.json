@@ -1,0 +1,103 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-ORT-CMCOA-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Thumb Carpometacarpal Osteoarthritis",
+  "synonyms": [
+    "First CMC OA",
+    "Basal thumb arthritis"
+  ],
+  "category": "Orthopedics > Hand > Osteoarthritis",
+  "tags": [
+    "thumb CMC",
+    "osteoarthritis",
+    "hand",
+    "basal joint"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Degenerative osteoarthritis of the first carpometacarpal joint causing pain and loss of pinch/grip function.",
+  "clinicalPattern": {
+    "typical": [
+      "Pain at base of thumb",
+      "Pain with pinch, jar opening or key grip",
+      "Crepitus or deformity",
+      "Reduced grip strength"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Acute trauma/fracture"
+    },
+    {
+      "level": "RED",
+      "item": "Hot swollen joint"
+    },
+    {
+      "level": "RED",
+      "item": "Neurovascular deficit"
+    }
+  ],
+  "examination": {
+    "core": [
+      "CMC grind/provocation interpreted cautiously",
+      "Pinch/grip strength",
+      "Thumb ROM",
+      "Carpal tunnel screen"
+    ]
+  },
+  "differentials": [
+    "De Quervain tenosynovitis",
+    "Scaphoid-trapezium arthritis",
+    "Carpal tunnel syndrome",
+    "Inflammatory arthritis"
+  ],
+  "investigations": {
+    "principle": "Diagnosis is usually clinical and radiographic when needed.",
+    "MRI": "MRI is rarely required.",
+    "radiographs": "Radiographs show joint-space loss, osteophytes and subluxation."
+  },
+  "management": {
+    "green": [
+      "Activity modification and joint protection",
+      "Thumb-spica support",
+      "Hand-strength rehabilitation"
+    ],
+    "amber": [
+      "Injection or surgery is considered for persistent function-limiting disease."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Sandhigata Vata correlation may be documented with modern joint diagnosis retained."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Degenerative osteoarthritis of the first carpometacarpal joint causing pain and loss of pinch/grip function.",
+    "urgent": "Seek urgent assessment for acute/progressive neurological deficit, infection/systemic illness, major trauma, vascular compromise, locked joint or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "NICE",
+      "title": "Osteoarthritis NG226",
+      "url": "https://www.nice.org.uk/guidance/ng226",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V2.1-BATCH-07",
+    "proposedGoldChapterNumber": 111
+  }
+}

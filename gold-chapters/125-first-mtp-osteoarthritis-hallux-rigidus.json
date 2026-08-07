@@ -1,0 +1,100 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-ORT-HR-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "First MTP Osteoarthritis / Hallux Rigidus",
+  "synonyms": [
+    "Hallux rigidus"
+  ],
+  "category": "Orthopedics > Foot > Osteoarthritis",
+  "tags": [
+    "hallux rigidus",
+    "first MTP OA",
+    "great toe arthritis"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Osteoarthritis of the first metatarsophalangeal joint causing pain, stiffness and loss of dorsiflexion during gait.",
+  "clinicalPattern": {
+    "typical": [
+      "Great-toe joint pain",
+      "Reduced dorsiflexion",
+      "Dorsal osteophyte",
+      "Pain during push-off"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Hot swollen joint suggesting gout/sepsis"
+    },
+    {
+      "level": "RED",
+      "item": "Acute fracture"
+    },
+    {
+      "level": "RED",
+      "item": "Ulceration/infection"
+    }
+  ],
+  "examination": {
+    "core": [
+      "First-MTP ROM",
+      "Dorsal impingement",
+      "Gait and footwear assessment"
+    ]
+  },
+  "differentials": [
+    "Gout",
+    "Hallux valgus",
+    "Sesamoiditis",
+    "Stress fracture"
+  ],
+  "investigations": {
+    "principle": "Diagnosis is clinical and radiographic.",
+    "MRI": "MRI is rarely required.",
+    "radiographs": "Weight-bearing foot radiographs demonstrate OA and osteophytes."
+  },
+  "management": {
+    "green": [
+      "Stiff-soled/rocker footwear",
+      "Activity modification",
+      "Foot rehabilitation"
+    ],
+    "amber": [
+      "Injection or surgery depends on severity and functional impairment."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Sandhigata Vata correlation may be documented with modern MTP OA diagnosis."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Osteoarthritis of the first metatarsophalangeal joint causing pain, stiffness and loss of dorsiflexion during gait.",
+    "urgent": "Seek urgent assessment for acute/progressive neurological deficit, infection/systemic illness, major trauma, vascular compromise, locked joint or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "AAOS OrthoInfo",
+      "title": "Hallux Rigidus",
+      "url": "https://orthoinfo.aaos.org/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V2.1-BATCH-07",
+    "proposedGoldChapterNumber": 125
+  }
+}

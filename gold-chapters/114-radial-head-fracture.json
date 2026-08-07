@@ -1,0 +1,105 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-ORT-RHF-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Radial Head Fracture",
+  "synonyms": [
+    "Radius head fracture"
+  ],
+  "category": "Orthopedics > Elbow > Fracture",
+  "tags": [
+    "radial head fracture",
+    "elbow",
+    "FOOSH"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Fracture of the radial head, commonly from a fall on an outstretched hand and often associated with elbow effusion.",
+  "clinicalPattern": {
+    "typical": [
+      "Lateral elbow pain",
+      "Pain with forearm rotation",
+      "Reduced elbow motion",
+      "Effusion"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Elbow dislocation"
+    },
+    {
+      "level": "RED",
+      "item": "Neurovascular compromise"
+    },
+    {
+      "level": "RED",
+      "item": "Open fracture"
+    },
+    {
+      "level": "RED",
+      "item": "Mechanical block with complex injury"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Elbow ROM",
+      "Pronation/supination",
+      "Lateral tenderness",
+      "Neurovascular exam",
+      "Wrist/DRUJ assessment"
+    ]
+  },
+  "differentials": [
+    "Elbow sprain",
+    "Coronoid fracture",
+    "Capitellum fracture",
+    "Interosseous membrane injury"
+  ],
+  "investigations": {
+    "principle": "Radiographs are first-line.",
+    "MRI": "CT can characterize complex displaced fractures.",
+    "radiographs": "MRI is rarely required acutely."
+  },
+  "management": {
+    "green": [
+      "Early motion for stable nondisplaced fractures",
+      "Analgesia and functional rehabilitation"
+    ],
+    "amber": [
+      "Mechanical block, instability or severe displacement may require surgery."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Kurpara-bhagna principles may complement rehabilitation after modern stability assessment."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Fracture of the radial head, commonly from a fall on an outstretched hand and often associated with elbow effusion.",
+    "urgent": "Seek urgent assessment for acute/progressive neurological deficit, infection/systemic illness, major trauma, vascular compromise, locked joint or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "AAOS OrthoInfo",
+      "title": "Radial Head Fractures",
+      "url": "https://orthoinfo.aaos.org/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V2.1-BATCH-07",
+    "proposedGoldChapterNumber": 114
+  }
+}

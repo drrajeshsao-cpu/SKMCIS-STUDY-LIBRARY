@@ -1,0 +1,98 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-ORT-DUP-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Dupuytren Contracture",
+  "synonyms": [
+    "Dupuytren disease"
+  ],
+  "category": "Orthopedics > Hand > Fibromatosis",
+  "tags": [
+    "dupuytren",
+    "palmar fibromatosis",
+    "finger contracture"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Fibroproliferative disorder of the palmar fascia causing nodules and progressive flexion contracture, commonly affecting ring and little fingers.",
+  "clinicalPattern": {
+    "typical": [
+      "Palmar nodules/cords",
+      "Progressive finger flexion contracture",
+      "Difficulty placing hand flat"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Rapid atypical mass"
+    },
+    {
+      "level": "RED",
+      "item": "Neurovascular symptoms"
+    },
+    {
+      "level": "RED",
+      "item": "Infection or trauma"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Table-top test",
+      "Contracture measurement",
+      "Finger ROM and neurovascular exam"
+    ]
+  },
+  "differentials": [
+    "Trigger finger",
+    "Flexor tendon injury",
+    "Post-traumatic contracture",
+    "Neurological spasticity"
+  ],
+  "investigations": {
+    "principle": "Diagnosis is clinical.",
+    "MRI": "Imaging is usually unnecessary.",
+    "radiographs": "Radiographs only if joint/bony pathology is suspected."
+  },
+  "management": {
+    "green": [
+      "Observation for mild functional disease",
+      "Hand stretching/function strategies"
+    ],
+    "amber": [
+      "Needle fasciotomy, collagenase where available, or fasciectomy for function-limiting contracture."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Snayu/Mamsa-granthi phenotype may be documented descriptively."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Fibroproliferative disorder of the palmar fascia causing nodules and progressive flexion contracture, commonly affecting ring and little fingers.",
+    "urgent": "Seek urgent assessment for acute/progressive neurological deficit, infection/systemic illness, major trauma, vascular compromise, locked joint or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "British Society for Surgery of the Hand",
+      "title": "Dupuytren disease resources",
+      "url": "https://www.bssh.ac.uk/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V2.1-BATCH-07",
+    "proposedGoldChapterNumber": 112
+  }
+}
