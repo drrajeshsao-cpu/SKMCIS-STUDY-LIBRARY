@@ -1,0 +1,95 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-NEU-TNMR-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Traumatic Neuroma",
+  "synonyms": [],
+  "category": "Neurology/Orthopedics > Peripheral Nerve Injury",
+  "tags": [
+    "traumatic neuroma"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Disorganized regenerative nerve tissue forming after nerve injury or transection, potentially causing focal neuropathic pain and Tinel-positive tenderness.",
+  "clinicalPattern": {
+    "typical": [
+      "Focal electric/shooting pain at prior injury site",
+      "Tinel sign",
+      "Allodynia",
+      "Pain with pressure"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Recurrent tumor differential"
+    },
+    {
+      "level": "RED",
+      "item": "Progressive motor deficit"
+    },
+    {
+      "level": "RED",
+      "item": "Infection"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Local Tinel",
+      "Sensory mapping",
+      "Motor assessment"
+    ]
+  },
+  "differentials": [
+    "CRPS",
+    "Entrapment neuropathy",
+    "Recurrent mass"
+  ],
+  "investigations": {
+    "principle": "Ultrasound and MRI can demonstrate neuroma and exclude other masses.",
+    "MRI": "Use MRI when neural, soft-tissue, marrow, infection, occult injury or other condition-specific assessment requires it.",
+    "radiographs": "Use radiographs and/or CT according to the condition-specific diagnostic pathway."
+  },
+  "management": {
+    "green": [
+      "Desensitization",
+      "Neuropathic pain management",
+      "Protect pressure-sensitive area"
+    ],
+    "amber": [
+      "Persistent disabling neuroma may require targeted nerve surgery."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Vata-neuralgic phenotype may be documented descriptively."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Disorganized regenerative nerve tissue forming after nerve injury or transection, potentially causing focal neuropathic pain and Tinel-positive tenderness.",
+    "urgent": "Seek urgent assessment for acute neurovascular compromise, major trauma, rapidly progressive weakness, suspected serious infection, sepsis, pathological instability or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "AANEM",
+      "title": "Peripheral Nerve Injury resources",
+      "url": "https://www.aanem.org/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V3.4-BATCH-20",
+    "proposedGoldChapterNumber": 385
+  }
+}

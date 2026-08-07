@@ -1,0 +1,93 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-ORT-MLKI-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Multiligament Knee Injury",
+  "synonyms": [],
+  "category": "Orthopedics > Knee > Ligament",
+  "tags": [
+    "multiligament knee injury"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Injury involving two or more major knee ligaments, commonly after high-energy trauma and sometimes associated with knee dislocation.",
+  "clinicalPattern": {
+    "typical": [
+      "Gross instability",
+      "Large effusion",
+      "History of major trauma",
+      "Possible nerve/vascular injury"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Popliteal artery injury"
+    },
+    {
+      "level": "RED",
+      "item": "Peroneal nerve deficit"
+    },
+    {
+      "level": "RED",
+      "item": "Compartment syndrome"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Vascular and nerve exam first",
+      "ACL/PCL/collateral stability after acute safety assessment"
+    ]
+  },
+  "differentials": [
+    "Isolated ACL/PCL injury",
+    "Tibial plateau fracture",
+    "Knee dislocation"
+  ],
+  "investigations": {
+    "principle": "MRI defines ligament pattern after stabilization; vascular imaging is dictated by vascular assessment.",
+    "MRI": "Use MRI when neural, soft-tissue, marrow, infection, occult injury or other condition-specific assessment requires it.",
+    "radiographs": "Use radiographs and/or CT according to the condition-specific diagnostic pathway."
+  },
+  "management": {
+    "green": [
+      "Acute protection",
+      "Multidisciplinary orthopedic sports/trauma care"
+    ],
+    "amber": [
+      "Reconstruction timing and staging are individualized by injury pattern, soft tissues and neurovascular status."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Janu-Snayu complex injury phenotype may be documented after emergency assessment."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Injury involving two or more major knee ligaments, commonly after high-energy trauma and sometimes associated with knee dislocation.",
+    "urgent": "Seek urgent assessment for acute neurovascular compromise, major trauma, rapidly progressive weakness, suspected serious infection, sepsis, pathological instability or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "AAOS",
+      "title": "Knee Ligament Injury resources",
+      "url": "https://orthoinfo.aaos.org/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V3.4-BATCH-20",
+    "proposedGoldChapterNumber": 382
+  }
+}

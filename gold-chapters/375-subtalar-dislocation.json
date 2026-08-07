@@ -1,0 +1,94 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-ORT-STD-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Subtalar Dislocation",
+  "synonyms": [],
+  "category": "Orthopedics > Foot & Ankle > Dislocation",
+  "tags": [
+    "subtalar dislocation"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Simultaneous dislocation of talocalcaneal and talonavicular joints without talar-neck fracture, usually after high-energy inversion or eversion trauma.",
+  "clinicalPattern": {
+    "typical": [
+      "Hindfoot deformity",
+      "Severe pain/swelling",
+      "Inability to bear weight"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Open injury"
+    },
+    {
+      "level": "RED",
+      "item": "Neurovascular compromise"
+    },
+    {
+      "level": "RED",
+      "item": "Irreducible dislocation"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Skin",
+      "Distal neurovascular exam",
+      "Hindfoot alignment"
+    ]
+  },
+  "differentials": [
+    "Ankle dislocation",
+    "Talus fracture",
+    "Chopart injury"
+  ],
+  "investigations": {
+    "principle": "Radiographs and CT after reduction assess associated fractures.",
+    "MRI": "Use MRI when neural, soft-tissue, marrow, infection, occult injury or other condition-specific assessment requires it.",
+    "radiographs": "Use radiographs and/or CT according to the condition-specific diagnostic pathway."
+  },
+  "management": {
+    "green": [
+      "Urgent reduction",
+      "Immobilization",
+      "Orthopedic follow-up"
+    ],
+    "amber": [
+      "Irreducible or open injuries may require operative reduction."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Pada/Gulpha Sandhi displacement may be documented after modern reduction."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Simultaneous dislocation of talocalcaneal and talonavicular joints without talar-neck fracture, usually after high-energy inversion or eversion trauma.",
+    "urgent": "Seek urgent assessment for acute neurovascular compromise, major trauma, rapidly progressive weakness, suspected serious infection, sepsis, pathological instability or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "FootCareMD",
+      "title": "Subtalar Dislocation resources",
+      "url": "https://www.footcaremd.org/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V3.4-BATCH-20",
+    "proposedGoldChapterNumber": 375
+  }
+}

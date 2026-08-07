@@ -1,0 +1,97 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-ORT-AND-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Ankle Dislocation",
+  "synonyms": [],
+  "category": "Orthopedics > Foot & Ankle > Dislocation",
+  "tags": [
+    "ankle dislocation"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Displacement of the talus from the ankle mortise, usually associated with fracture and soft-tissue injury.",
+  "clinicalPattern": {
+    "typical": [
+      "Gross ankle deformity",
+      "Severe pain",
+      "Inability to bear weight"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Neurovascular compromise"
+    },
+    {
+      "level": "RED",
+      "item": "Threatened skin"
+    },
+    {
+      "level": "RED",
+      "item": "Open injury"
+    },
+    {
+      "level": "RED",
+      "item": "Associated fracture"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Immediate neurovascular exam",
+      "Skin tension",
+      "Alignment"
+    ]
+  },
+  "differentials": [
+    "Severe ankle fracture without dislocation",
+    "Subtalar dislocation"
+  ],
+  "investigations": {
+    "principle": "Radiographs confirm injury; urgent reduction should not be delayed when skin or neurovascular status is threatened.",
+    "MRI": "Use MRI when neural, soft-tissue, marrow, infection, occult injury or other condition-specific assessment requires it.",
+    "radiographs": "Use radiographs and/or CT according to the condition-specific diagnostic pathway."
+  },
+  "management": {
+    "green": [
+      "Urgent reduction by trained clinician",
+      "Immobilization",
+      "Orthopedic trauma pathway"
+    ],
+    "amber": [
+      "Post-reduction CT is often needed for associated fractures."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Gulpha-Sandhi displacement phenotype may be documented after emergency reduction."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Displacement of the talus from the ankle mortise, usually associated with fracture and soft-tissue injury.",
+    "urgent": "Seek urgent assessment for acute neurovascular compromise, major trauma, rapidly progressive weakness, suspected serious infection, sepsis, pathological instability or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "AAOS OrthoInfo",
+      "title": "Ankle Fractures and Dislocations",
+      "url": "https://orthoinfo.aaos.org/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V3.4-BATCH-20",
+    "proposedGoldChapterNumber": 374
+  }
+}

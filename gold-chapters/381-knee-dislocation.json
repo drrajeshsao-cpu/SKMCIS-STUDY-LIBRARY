@@ -1,0 +1,98 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-ORT-KD-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Knee Dislocation",
+  "synonyms": [],
+  "category": "Orthopedics > Knee > Emergency Dislocation",
+  "tags": [
+    "knee dislocation"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Disruption of tibiofemoral alignment, often involving multiple ligaments and carrying high risk of popliteal artery and peroneal nerve injury.",
+  "clinicalPattern": {
+    "typical": [
+      "Gross deformity or spontaneously reduced knee",
+      "Severe instability",
+      "Large swelling"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Any vascular compromise"
+    },
+    {
+      "level": "RED",
+      "item": "Peroneal nerve deficit"
+    },
+    {
+      "level": "RED",
+      "item": "Compartment syndrome"
+    },
+    {
+      "level": "RED",
+      "item": "Open injury"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Immediate vascular assessment including ABI pathway",
+      "Peroneal/tibial nerve exam",
+      "Skin and stability"
+    ]
+  },
+  "differentials": [
+    "Tibial plateau fracture",
+    "Patellar dislocation",
+    "Multiligament knee injury"
+  ],
+  "investigations": {
+    "principle": "Radiographs confirm alignment; CT angiography is indicated according to vascular findings/protocol; MRI defines ligament injury after stabilization.",
+    "MRI": "Use MRI when neural, soft-tissue, marrow, infection, occult injury or other condition-specific assessment requires it.",
+    "radiographs": "Use radiographs and/or CT according to the condition-specific diagnostic pathway."
+  },
+  "management": {
+    "green": [
+      "Emergency reduction",
+      "Serial vascular monitoring",
+      "Urgent orthopedic/vascular pathway"
+    ],
+    "amber": [
+      "Normal pulses do not completely exclude vascular injury; structured vascular assessment is essential."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Janu-Sandhi displacement phenotype is secondary to emergency vascular management."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Disruption of tibiofemoral alignment, often involving multiple ligaments and carrying high risk of popliteal artery and peroneal nerve injury.",
+    "urgent": "Seek urgent assessment for acute neurovascular compromise, major trauma, rapidly progressive weakness, suspected serious infection, sepsis, pathological instability or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "AAOS",
+      "title": "Knee Dislocation resources",
+      "url": "https://orthoinfo.aaos.org/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V3.4-BATCH-20",
+    "proposedGoldChapterNumber": 381
+  }
+}

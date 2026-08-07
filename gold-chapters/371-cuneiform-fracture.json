@@ -1,0 +1,93 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-ORT-CUNF-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Cuneiform Fracture",
+  "synonyms": [],
+  "category": "Orthopedics > Foot > Fracture",
+  "tags": [
+    "cuneiform fracture"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Fracture of one or more cuneiform bones, uncommon in isolation and often associated with Lisfranc or crush injury.",
+  "clinicalPattern": {
+    "typical": [
+      "Midfoot pain",
+      "Swelling",
+      "Difficulty weight bearing"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Lisfranc instability"
+    },
+    {
+      "level": "RED",
+      "item": "Open injury"
+    },
+    {
+      "level": "RED",
+      "item": "Neurovascular compromise"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Midfoot tenderness",
+      "Alignment",
+      "Neurovascular exam"
+    ]
+  },
+  "differentials": [
+    "Lisfranc injury",
+    "Navicular fracture",
+    "Metatarsal base fracture"
+  ],
+  "investigations": {
+    "principle": "Radiographs and CT are used to characterize associated midfoot injury.",
+    "MRI": "Use MRI when neural, soft-tissue, marrow, infection, occult injury or other condition-specific assessment requires it.",
+    "radiographs": "Use radiographs and/or CT according to the condition-specific diagnostic pathway."
+  },
+  "management": {
+    "green": [
+      "Immobilization",
+      "Orthopedic review"
+    ],
+    "amber": [
+      "Displaced or unstable injuries require fixation."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Pada-bhagna phenotype may be documented after stability assessment."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Fracture of one or more cuneiform bones, uncommon in isolation and often associated with Lisfranc or crush injury.",
+    "urgent": "Seek urgent assessment for acute neurovascular compromise, major trauma, rapidly progressive weakness, suspected serious infection, sepsis, pathological instability or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "FootCareMD",
+      "title": "Midfoot Injury resources",
+      "url": "https://www.footcaremd.org/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V3.4-BATCH-20",
+    "proposedGoldChapterNumber": 371
+  }
+}

@@ -365,7 +365,27 @@
     "gold-chapters/364-myositis-ossificans.json",
     "gold-chapters/365-femoral-shaft-fracture.json",
     "gold-chapters/366-distal-femur-fracture.json",
-    "gold-chapters/367-pilon-fracture-of-the-tibia.json"
+    "gold-chapters/367-pilon-fracture-of-the-tibia.json",
+    "gold-chapters/368-talus-fracture.json",
+    "gold-chapters/369-navicular-fracture-acute.json",
+    "gold-chapters/370-cuboid-fracture.json",
+    "gold-chapters/371-cuneiform-fracture.json",
+    "gold-chapters/372-metatarsal-shaft-fracture.json",
+    "gold-chapters/373-phalangeal-fracture-of-the-toe.json",
+    "gold-chapters/374-ankle-dislocation.json",
+    "gold-chapters/375-subtalar-dislocation.json",
+    "gold-chapters/376-chopart-joint-injury-midtarsal-dislocation.json",
+    "gold-chapters/377-maisonneuve-fracture.json",
+    "gold-chapters/378-proximal-fibula-fracture.json",
+    "gold-chapters/379-fibular-shaft-fracture.json",
+    "gold-chapters/380-acute-patellar-dislocation-first-episode.json",
+    "gold-chapters/381-knee-dislocation.json",
+    "gold-chapters/382-multiligament-knee-injury.json",
+    "gold-chapters/383-traumatic-brachial-plexus-injury.json",
+    "gold-chapters/384-lumbosacral-radiculoplexus-neuropathy.json",
+    "gold-chapters/385-traumatic-neuroma.json",
+    "gold-chapters/386-acute-osteomyelitis-in-children.json",
+    "gold-chapters/387-chronic-osteomyelitis.json"
   ],
-  "expectedTotalGold": 368
+  "expectedTotalGold": 388
 }

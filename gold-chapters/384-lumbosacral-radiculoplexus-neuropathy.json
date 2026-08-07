@@ -1,0 +1,100 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-NEU-LRPN-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Lumbosacral Radiculoplexus Neuropathy",
+  "synonyms": [],
+  "category": "Neurology > Plexus/Peripheral Nerve",
+  "tags": [
+    "lumbosacral radiculoplexus neuropathy"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Painful inflammatory ischemic neuropathy affecting lumbosacral roots, plexus and peripheral nerves, classically associated with diabetes but also occurring idiopathically.",
+  "clinicalPattern": {
+    "typical": [
+      "Severe unilateral thigh/hip pain",
+      "Followed by weakness/atrophy",
+      "Weight loss may occur",
+      "Often spreads asymmetrically"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Rapid widespread weakness"
+    },
+    {
+      "level": "RED",
+      "item": "Pelvic malignancy"
+    },
+    {
+      "level": "RED",
+      "item": "Retroperitoneal hemorrhage"
+    },
+    {
+      "level": "RED",
+      "item": "Cauda equina features"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Hip/thigh motor testing",
+      "Reflexes",
+      "Sensory mapping",
+      "Lumbar/plexus localization"
+    ]
+  },
+  "differentials": [
+    "Femoral neuropathy",
+    "Lumbar radiculopathy",
+    "Pelvic tumor"
+  ],
+  "investigations": {
+    "principle": "Electrodiagnostics and MRI pelvis/lumbosacral plexus help localization and exclusion of structural causes.",
+    "MRI": "Use MRI when neural, soft-tissue, marrow, infection, occult injury or other condition-specific assessment requires it.",
+    "radiographs": "Use radiographs and/or CT according to the condition-specific diagnostic pathway."
+  },
+  "management": {
+    "green": [
+      "Neurology care",
+      "Pain treatment",
+      "Gait/strength rehabilitation"
+    ],
+    "amber": [
+      "Immunotherapy is individualized; malignancy and compressive causes must be excluded."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Vata-neuropathy phenotype may be documented only in parallel."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Painful inflammatory ischemic neuropathy affecting lumbosacral roots, plexus and peripheral nerves, classically associated with diabetes but also occurring idiopathically.",
+    "urgent": "Seek urgent assessment for acute neurovascular compromise, major trauma, rapidly progressive weakness, suspected serious infection, sepsis, pathological instability or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "AANEM",
+      "title": "Radiculoplexus Neuropathy resources",
+      "url": "https://www.aanem.org/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V3.4-BATCH-20",
+    "proposedGoldChapterNumber": 384
+  }
+}

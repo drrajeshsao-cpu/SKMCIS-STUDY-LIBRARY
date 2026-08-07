@@ -1,0 +1,93 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-ORT-PFF-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Proximal Fibula Fracture",
+  "synonyms": [],
+  "category": "Orthopedics > Leg > Fracture",
+  "tags": [
+    "proximal fibula fracture"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Fracture of the proximal fibula, occurring in isolation or as part of knee, syndesmotic or high-energy leg trauma.",
+  "clinicalPattern": {
+    "typical": [
+      "Lateral proximal leg pain",
+      "Tenderness",
+      "Possible peroneal nerve symptoms"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Common peroneal nerve deficit"
+    },
+    {
+      "level": "RED",
+      "item": "Maisonneuve pattern"
+    },
+    {
+      "level": "RED",
+      "item": "Knee instability"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Peroneal nerve exam",
+      "Knee stability",
+      "Entire ankle/syndesmosis assessment"
+    ]
+  },
+  "differentials": [
+    "LCL injury",
+    "Proximal tibia fracture",
+    "Peroneal neuropathy"
+  ],
+  "investigations": {
+    "principle": "Radiographs of knee/leg and ankle when syndesmotic injury is suspected.",
+    "MRI": "Use MRI when neural, soft-tissue, marrow, infection, occult injury or other condition-specific assessment requires it.",
+    "radiographs": "Use radiographs and/or CT according to the condition-specific diagnostic pathway."
+  },
+  "management": {
+    "green": [
+      "Immobilization as indicated",
+      "Orthopedic evaluation"
+    ],
+    "amber": [
+      "Associated ligamentous or syndesmotic injury determines treatment more than fibular fracture alone."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Jangha-bhagna phenotype may be documented."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Fracture of the proximal fibula, occurring in isolation or as part of knee, syndesmotic or high-energy leg trauma.",
+    "urgent": "Seek urgent assessment for acute neurovascular compromise, major trauma, rapidly progressive weakness, suspected serious infection, sepsis, pathological instability or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "AAOS OrthoInfo",
+      "title": "Leg Fracture resources",
+      "url": "https://orthoinfo.aaos.org/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V3.4-BATCH-20",
+    "proposedGoldChapterNumber": 378
+  }
+}

@@ -1,0 +1,93 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-ORT-CHOP-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Chopart Joint Injury / Midtarsal Dislocation",
+  "synonyms": [],
+  "category": "Orthopedics > Foot > Midfoot Trauma",
+  "tags": [
+    "chopart joint injury / midtarsal dislocation"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Injury of the talonavicular and calcaneocuboid joints, ranging from sprain to fracture-dislocation and potentially affecting midfoot alignment.",
+  "clinicalPattern": {
+    "typical": [
+      "Midfoot/hindfoot pain",
+      "Swelling",
+      "Deformity in severe injury"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Open injury"
+    },
+    {
+      "level": "RED",
+      "item": "Neurovascular compromise"
+    },
+    {
+      "level": "RED",
+      "item": "Gross instability"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Midfoot alignment",
+      "Skin",
+      "Neurovascular exam"
+    ]
+  },
+  "differentials": [
+    "Lisfranc injury",
+    "Subtalar dislocation",
+    "Navicular fracture"
+  ],
+  "investigations": {
+    "principle": "Radiographs and CT define joint alignment and associated fractures.",
+    "MRI": "Use MRI when neural, soft-tissue, marrow, infection, occult injury or other condition-specific assessment requires it.",
+    "radiographs": "Use radiographs and/or CT according to the condition-specific diagnostic pathway."
+  },
+  "management": {
+    "green": [
+      "Immobilization",
+      "Urgent foot/ankle specialist review for unstable injury"
+    ],
+    "amber": [
+      "Fracture-dislocations commonly require operative stabilization."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Pada-Sandhi injury phenotype may be documented after modern stability assessment."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Injury of the talonavicular and calcaneocuboid joints, ranging from sprain to fracture-dislocation and potentially affecting midfoot alignment.",
+    "urgent": "Seek urgent assessment for acute neurovascular compromise, major trauma, rapidly progressive weakness, suspected serious infection, sepsis, pathological instability or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "FootCareMD",
+      "title": "Midfoot Trauma resources",
+      "url": "https://www.footcaremd.org/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V3.4-BATCH-20",
+    "proposedGoldChapterNumber": 376
+  }
+}

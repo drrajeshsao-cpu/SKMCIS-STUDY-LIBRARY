@@ -1,0 +1,93 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-ORT-MTSF-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Metatarsal Shaft Fracture",
+  "synonyms": [],
+  "category": "Orthopedics > Foot > Fracture",
+  "tags": [
+    "metatarsal shaft fracture"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Fracture of a metatarsal shaft caused by direct trauma, twisting or repetitive overload, with treatment determined by displacement, number of rays involved and stability.",
+  "clinicalPattern": {
+    "typical": [
+      "Forefoot/midfoot pain",
+      "Swelling",
+      "Pain with weight bearing"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Open fracture"
+    },
+    {
+      "level": "RED",
+      "item": "Multiple displaced fractures"
+    },
+    {
+      "level": "RED",
+      "item": "Neurovascular compromise"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Metatarsal tenderness",
+      "Foot alignment",
+      "Neurovascular exam"
+    ]
+  },
+  "differentials": [
+    "Stress fracture",
+    "Lisfranc injury",
+    "Metatarsalgia"
+  ],
+  "investigations": {
+    "principle": "Foot radiographs establish number, location and displacement.",
+    "MRI": "Use MRI when neural, soft-tissue, marrow, infection, occult injury or other condition-specific assessment requires it.",
+    "radiographs": "Use radiographs and/or CT according to the condition-specific diagnostic pathway."
+  },
+  "management": {
+    "green": [
+      "Protected weight bearing",
+      "Immobilization when indicated"
+    ],
+    "amber": [
+      "Multiple displaced or unstable fractures may need reduction/fixation."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Pada-bhagna phenotype may be documented."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Fracture of a metatarsal shaft caused by direct trauma, twisting or repetitive overload, with treatment determined by displacement, number of rays involved and stability.",
+    "urgent": "Seek urgent assessment for acute neurovascular compromise, major trauma, rapidly progressive weakness, suspected serious infection, sepsis, pathological instability or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "AAOS OrthoInfo",
+      "title": "Metatarsal Fractures",
+      "url": "https://orthoinfo.aaos.org/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V3.4-BATCH-20",
+    "proposedGoldChapterNumber": 372
+  }
+}

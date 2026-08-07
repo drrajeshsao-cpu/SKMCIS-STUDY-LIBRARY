@@ -1,0 +1,99 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-NEU-TBPI-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Traumatic Brachial Plexus Injury",
+  "synonyms": [],
+  "category": "Neurology/Orthopedics > Brachial Plexus Trauma",
+  "tags": [
+    "traumatic brachial plexus injury"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Traumatic injury to the brachial plexus ranging from stretch/neurapraxia to rupture or root avulsion, often after high-energy shoulder/neck trauma.",
+  "clinicalPattern": {
+    "typical": [
+      "Patchy severe arm weakness",
+      "Sensory loss",
+      "Neuropathic pain",
+      "Flail limb in severe injury"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Root avulsion"
+    },
+    {
+      "level": "RED",
+      "item": "Vascular injury"
+    },
+    {
+      "level": "RED",
+      "item": "Open penetrating injury"
+    },
+    {
+      "level": "RED",
+      "item": "Respiratory/phrenic involvement"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Detailed root/cord/nerve motor mapping",
+      "Sensory exam",
+      "Horner syndrome",
+      "Vascular assessment"
+    ]
+  },
+  "differentials": [
+    "Cervical root injury",
+    "Peripheral nerve injury",
+    "Spinal cord injury"
+  ],
+  "investigations": {
+    "principle": "MRI/CT myelography and electrodiagnostics are timed according to suspected lesion and surgical planning.",
+    "MRI": "Use MRI when neural, soft-tissue, marrow, infection, occult injury or other condition-specific assessment requires it.",
+    "radiographs": "Use radiographs and/or CT according to the condition-specific diagnostic pathway."
+  },
+  "management": {
+    "green": [
+      "Early brachial plexus specialist referral",
+      "Joint protection and rehabilitation"
+    ],
+    "amber": [
+      "Nerve reconstruction has time-dependent windows in selected severe injuries."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Vata-neuropathy phenotype may be documented only in parallel."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Traumatic injury to the brachial plexus ranging from stretch/neurapraxia to rupture or root avulsion, often after high-energy shoulder/neck trauma.",
+    "urgent": "Seek urgent assessment for acute neurovascular compromise, major trauma, rapidly progressive weakness, suspected serious infection, sepsis, pathological instability or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "AANEM",
+      "title": "Brachial Plexus Injury resources",
+      "url": "https://www.aanem.org/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V3.4-BATCH-20",
+    "proposedGoldChapterNumber": 383
+  }
+}

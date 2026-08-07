@@ -1,0 +1,94 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-ORT-MAIF-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Maisonneuve Fracture",
+  "synonyms": [],
+  "category": "Orthopedics > Ankle/Leg > Fracture-Syndesmosis",
+  "tags": [
+    "maisonneuve fracture"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Proximal fibular fracture associated with syndesmotic disruption and medial ankle injury, representing an unstable ankle-ring injury.",
+  "clinicalPattern": {
+    "typical": [
+      "Ankle pain with proximal fibular tenderness",
+      "Syndesmotic pain",
+      "Medial ankle injury"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Neurovascular compromise"
+    },
+    {
+      "level": "RED",
+      "item": "Open injury"
+    },
+    {
+      "level": "RED",
+      "item": "Gross ankle instability"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Entire fibula palpation",
+      "Syndesmotic exam",
+      "Medial ankle and neurovascular exam"
+    ]
+  },
+  "differentials": [
+    "High ankle sprain",
+    "Isolated fibular fracture",
+    "Ankle fracture"
+  ],
+  "investigations": {
+    "principle": "Ankle and full-length tibia/fibula radiographs are required; CT may help syndesmotic assessment.",
+    "MRI": "Use MRI when neural, soft-tissue, marrow, infection, occult injury or other condition-specific assessment requires it.",
+    "radiographs": "Use radiographs and/or CT according to the condition-specific diagnostic pathway."
+  },
+  "management": {
+    "green": [
+      "Immobilization",
+      "Non-weight bearing",
+      "Urgent orthopedic review"
+    ],
+    "amber": [
+      "Unstable syndesmotic injury usually requires fixation."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Jangha/Gulpha bhagna-Snayu phenotype may be documented."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Proximal fibular fracture associated with syndesmotic disruption and medial ankle injury, representing an unstable ankle-ring injury.",
+    "urgent": "Seek urgent assessment for acute neurovascular compromise, major trauma, rapidly progressive weakness, suspected serious infection, sepsis, pathological instability or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "BOAST",
+      "title": "Ankle Fracture Standards",
+      "url": "https://www.boa.ac.uk/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V3.4-BATCH-20",
+    "proposedGoldChapterNumber": 377
+  }
+}

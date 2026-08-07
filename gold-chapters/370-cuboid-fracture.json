@@ -1,0 +1,93 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-ORT-CUBF-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Cuboid Fracture",
+  "synonyms": [],
+  "category": "Orthopedics > Foot > Fracture",
+  "tags": [
+    "cuboid fracture"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Fracture of the cuboid caused by direct trauma, crush injury or lateral-column compression, sometimes associated with other midfoot injuries.",
+  "clinicalPattern": {
+    "typical": [
+      "Lateral midfoot pain",
+      "Swelling",
+      "Pain with weight bearing"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Lateral-column shortening"
+    },
+    {
+      "level": "RED",
+      "item": "Open injury"
+    },
+    {
+      "level": "RED",
+      "item": "Associated Lisfranc injury"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Cuboid tenderness",
+      "Midfoot alignment",
+      "Neurovascular exam"
+    ]
+  },
+  "differentials": [
+    "Fifth metatarsal fracture",
+    "Lisfranc injury",
+    "Peroneal tendon injury"
+  ],
+  "investigations": {
+    "principle": "Radiographs are initial; CT better defines complex fractures.",
+    "MRI": "Use MRI when neural, soft-tissue, marrow, infection, occult injury or other condition-specific assessment requires it.",
+    "radiographs": "Use radiographs and/or CT according to the condition-specific diagnostic pathway."
+  },
+  "management": {
+    "green": [
+      "Immobilization",
+      "Protected weight bearing"
+    ],
+    "amber": [
+      "Displaced fractures with lateral-column shortening may require surgery."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Pada-bhagna phenotype may be documented."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Fracture of the cuboid caused by direct trauma, crush injury or lateral-column compression, sometimes associated with other midfoot injuries.",
+    "urgent": "Seek urgent assessment for acute neurovascular compromise, major trauma, rapidly progressive weakness, suspected serious infection, sepsis, pathological instability or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "FootCareMD",
+      "title": "Midfoot Fracture resources",
+      "url": "https://www.footcaremd.org/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V3.4-BATCH-20",
+    "proposedGoldChapterNumber": 370
+  }
+}

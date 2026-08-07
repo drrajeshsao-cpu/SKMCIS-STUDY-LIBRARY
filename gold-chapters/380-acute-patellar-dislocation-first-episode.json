@@ -1,0 +1,95 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-ORT-APD-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Acute Patellar Dislocation - First Episode",
+  "synonyms": [],
+  "category": "Orthopedics > Knee > Patellofemoral Instability",
+  "tags": [
+    "acute patellar dislocation - first episode"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Acute lateral displacement of the patella from the trochlea, usually after twisting or direct trauma, with risk of osteochondral injury.",
+  "clinicalPattern": {
+    "typical": [
+      "Sudden knee deformity or spontaneous reduction",
+      "Medial patellar tenderness",
+      "Large effusion"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Locked knee"
+    },
+    {
+      "level": "RED",
+      "item": "Osteochondral fracture"
+    },
+    {
+      "level": "RED",
+      "item": "Neurovascular compromise"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Patellar apprehension",
+      "Medial retinacular tenderness",
+      "Effusion",
+      "Extensor mechanism"
+    ]
+  },
+  "differentials": [
+    "ACL injury",
+    "Patellar fracture",
+    "Meniscal tear"
+  ],
+  "investigations": {
+    "principle": "Radiographs are first-line; MRI is used when osteochondral injury or major soft-tissue damage is suspected.",
+    "MRI": "Use MRI when neural, soft-tissue, marrow, infection, occult injury or other condition-specific assessment requires it.",
+    "radiographs": "Use radiographs and/or CT according to the condition-specific diagnostic pathway."
+  },
+  "management": {
+    "green": [
+      "Reduction if still dislocated",
+      "Short-term support",
+      "Early ROM and quadriceps rehabilitation"
+    ],
+    "amber": [
+      "Surgery is selective after first episode, especially with large osteochondral injury or major instability risk factors."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Janu-Sandhi displacement phenotype may be documented after modern reduction."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Acute lateral displacement of the patella from the trochlea, usually after twisting or direct trauma, with risk of osteochondral injury.",
+    "urgent": "Seek urgent assessment for acute neurovascular compromise, major trauma, rapidly progressive weakness, suspected serious infection, sepsis, pathological instability or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "AAOS OrthoInfo",
+      "title": "Patellar Dislocation and Instability",
+      "url": "https://orthoinfo.aaos.org/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V3.4-BATCH-20",
+    "proposedGoldChapterNumber": 380
+  }
+}

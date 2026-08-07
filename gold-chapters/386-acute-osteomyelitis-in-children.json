@@ -1,0 +1,98 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-PED-AOM-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Acute Osteomyelitis in Children",
+  "synonyms": [],
+  "category": "Pediatric Orthopedics > Bone Infection",
+  "tags": [
+    "acute osteomyelitis in children"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Acute hematogenous bacterial infection of bone in children, commonly affecting metaphyseal regions of long bones.",
+  "clinicalPattern": {
+    "typical": [
+      "Fever",
+      "Localized bone pain",
+      "Refusal to use limb",
+      "Tenderness"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Sepsis"
+    },
+    {
+      "level": "RED",
+      "item": "Adjacent septic arthritis"
+    },
+    {
+      "level": "RED",
+      "item": "Abscess"
+    },
+    {
+      "level": "RED",
+      "item": "Rapid deterioration"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Local tenderness/swelling",
+      "Joint exam",
+      "Systemic assessment"
+    ]
+  },
+  "differentials": [
+    "Septic arthritis",
+    "Bone tumor",
+    "Trauma"
+  ],
+  "investigations": {
+    "principle": "Inflammatory markers, blood cultures and MRI are central when diagnosis is uncertain or complications are suspected.",
+    "MRI": "Use MRI when neural, soft-tissue, marrow, infection, occult injury or other condition-specific assessment requires it.",
+    "radiographs": "Use radiographs and/or CT according to the condition-specific diagnostic pathway."
+  },
+  "management": {
+    "green": [
+      "Urgent pediatric orthopedic/infectious-disease care",
+      "Culture-directed antibiotics"
+    ],
+    "amber": [
+      "Abscess or failure to respond may require surgical drainage."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Asthi-Shotha framework is secondary to antimicrobial management."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Acute hematogenous bacterial infection of bone in children, commonly affecting metaphyseal regions of long bones.",
+    "urgent": "Seek urgent assessment for acute neurovascular compromise, major trauma, rapidly progressive weakness, suspected serious infection, sepsis, pathological instability or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "PIDS/IDSA",
+      "title": "Acute Hematogenous Osteomyelitis Guideline",
+      "url": "https://www.idsociety.org/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V3.4-BATCH-20",
+    "proposedGoldChapterNumber": 386
+  }
+}

@@ -1,0 +1,94 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-ORT-NVF-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Navicular Fracture - Acute",
+  "synonyms": [],
+  "category": "Orthopedics > Foot > Fracture",
+  "tags": [
+    "navicular fracture - acute"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Acute fracture of the tarsal navicular from direct trauma, avulsion or high-energy midfoot injury.",
+  "clinicalPattern": {
+    "typical": [
+      "Dorsal midfoot pain",
+      "Swelling",
+      "Pain with weight bearing"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Displaced fracture"
+    },
+    {
+      "level": "RED",
+      "item": "Midfoot instability"
+    },
+    {
+      "level": "RED",
+      "item": "Neurovascular compromise"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Navicular tenderness",
+      "Midfoot alignment",
+      "Neurovascular exam"
+    ]
+  },
+  "differentials": [
+    "Navicular stress fracture",
+    "Lisfranc injury",
+    "Midfoot sprain"
+  ],
+  "investigations": {
+    "principle": "Radiographs are first-line; CT is useful for complex or intra-articular fractures.",
+    "MRI": "Use MRI when neural, soft-tissue, marrow, infection, occult injury or other condition-specific assessment requires it.",
+    "radiographs": "Use radiographs and/or CT according to the condition-specific diagnostic pathway."
+  },
+  "management": {
+    "green": [
+      "Immobilization",
+      "Protected weight bearing",
+      "Orthopedic follow-up"
+    ],
+    "amber": [
+      "Displaced or unstable fractures may require fixation."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Pada-bhagna phenotype may be documented after modern fracture assessment."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Acute fracture of the tarsal navicular from direct trauma, avulsion or high-energy midfoot injury.",
+    "urgent": "Seek urgent assessment for acute neurovascular compromise, major trauma, rapidly progressive weakness, suspected serious infection, sepsis, pathological instability or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "FootCareMD",
+      "title": "Navicular Fracture resources",
+      "url": "https://www.footcaremd.org/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V3.4-BATCH-20",
+    "proposedGoldChapterNumber": 369
+  }
+}
