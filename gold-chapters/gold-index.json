@@ -65,7 +65,27 @@
     "gold-chapters/64-septic-arthritis.json",
     "gold-chapters/65-psoriatic-arthritis.json",
     "gold-chapters/66-polymyalgia-rheumatica.json",
-    "gold-chapters/67-fibromyalgia.json"
+    "gold-chapters/67-fibromyalgia.json",
+    "gold-chapters/68-migraine.json",
+    "gold-chapters/69-tension-type-headache.json",
+    "gold-chapters/70-cluster-headache.json",
+    "gold-chapters/71-benign-paroxysmal-positional-vertigo.json",
+    "gold-chapters/72-vestibular-neuritis.json",
+    "gold-chapters/73-ischemic-stroke.json",
+    "gold-chapters/74-transient-ischemic-attack.json",
+    "gold-chapters/75-epilepsy.json",
+    "gold-chapters/76-parkinson-disease.json",
+    "gold-chapters/77-multiple-sclerosis.json",
+    "gold-chapters/78-guillain-barr-syndrome.json",
+    "gold-chapters/79-chronic-inflammatory-demyelinating-polyneuropathy.json",
+    "gold-chapters/80-brachial-plexopathy.json",
+    "gold-chapters/81-lumbar-plexopathy-lumbosacral-plexopathy.json",
+    "gold-chapters/82-cauda-equina-syndrome.json",
+    "gold-chapters/83-spinal-cord-injury.json",
+    "gold-chapters/84-thoracic-disc-herniation.json",
+    "gold-chapters/85-cervical-facet-mediated-pain.json",
+    "gold-chapters/86-glenohumeral-osteoarthritis.json",
+    "gold-chapters/87-myasthenia-gravis.json"
   ],
-  "expectedTotalGold": 68
+  "expectedTotalGold": 88
 }

@@ -1,0 +1,104 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-NEU-BPPV-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Benign Paroxysmal Positional Vertigo",
+  "synonyms": [
+    "BPPV"
+  ],
+  "category": "Neurology/ENT > Vestibular",
+  "tags": [
+    "BPPV",
+    "vertigo",
+    "Dix-Hallpike",
+    "Epley"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Brief recurrent positional vertigo caused by displaced otoconia within a semicircular canal, most commonly the posterior canal.",
+  "clinicalPattern": {
+    "typical": [
+      "Seconds-long vertigo triggered by head position",
+      "Turning in bed or looking up provokes symptoms",
+      "Characteristic positional nystagmus"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Persistent focal neurological deficit"
+    },
+    {
+      "level": "RED",
+      "item": "New severe headache or neck pain"
+    },
+    {
+      "level": "RED",
+      "item": "Inability to stand/walk unsupported"
+    },
+    {
+      "level": "RED",
+      "item": "Continuous vertigo with central signs"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Dix-Hallpike for posterior canal",
+      "Supine roll test for horizontal canal",
+      "Neurological and gait screen"
+    ]
+  },
+  "differentials": [
+    "Vestibular neuritis",
+    "Posterior circulation stroke",
+    "Ménière disease",
+    "Orthostatic dizziness"
+  ],
+  "investigations": {
+    "principle": "Typical BPPV is diagnosed clinically.",
+    "MRI": "MRI is not routine unless central features are present.",
+    "radiographs": "Radiographs are not useful."
+  },
+  "management": {
+    "green": [
+      "Canalith repositioning maneuver",
+      "Falls precautions",
+      "Vestibular rehabilitation when residual imbalance persists"
+    ],
+    "amber": [
+      "Avoid inappropriate repositioning in unstable cervical spine or serious vascular/neurological conditions."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Bhrama phenotype may be documented only after excluding central/urgent causes."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Brief recurrent positional vertigo caused by displaced otoconia within a semicircular canal, most commonly the posterior canal.",
+    "urgent": "Seek urgent assessment for acute/progressive neurological deficit, sphincter change, severe infection/systemic illness, major trauma, vascular compromise or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "AAO-HNSF",
+      "title": "Clinical Practice Guideline: BPPV",
+      "url": "https://www.entnet.org/quality-practice/quality-products/clinical-practice-guidelines/bppv/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V1.9-BATCH-05",
+    "proposedGoldChapterNumber": 71
+  }
+}

@@ -1,0 +1,105 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-NEU-VN-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Vestibular Neuritis",
+  "synonyms": [
+    "Acute unilateral vestibulopathy"
+  ],
+  "category": "Neurology/ENT > Vestibular",
+  "tags": [
+    "vestibular neuritis",
+    "vertigo",
+    "HINTS",
+    "vestibular"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Acute prolonged vertigo from unilateral peripheral vestibular dysfunction without hearing loss, usually lasting hours to days.",
+  "clinicalPattern": {
+    "typical": [
+      "Sudden persistent vertigo",
+      "Nausea/vomiting",
+      "Gait imbalance",
+      "No focal hearing loss in typical neuritis"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Central neurological signs"
+    },
+    {
+      "level": "RED",
+      "item": "Severe truncal ataxia"
+    },
+    {
+      "level": "RED",
+      "item": "New headache/neck pain"
+    },
+    {
+      "level": "RED",
+      "item": "High stroke-risk presentation"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Eye movements/nystagmus",
+      "Head impulse test in expert hands",
+      "Gait and neurological examination",
+      "Hearing screen"
+    ]
+  },
+  "differentials": [
+    "Posterior circulation stroke",
+    "Labyrinthitis",
+    "Ménière disease",
+    "BPPV"
+  ],
+  "investigations": {
+    "principle": "Clinical differentiation from stroke is critical.",
+    "MRI": "MRI brain may be needed when central cause cannot be confidently excluded.",
+    "radiographs": "Radiographs are not useful."
+  },
+  "management": {
+    "green": [
+      "Early mobilization and vestibular rehabilitation",
+      "Short-term symptom control only when necessary"
+    ],
+    "amber": [
+      "Prolonged vestibular suppressants can delay compensation; steroid use is individualized."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Bhrama phenotype may be documented while stroke exclusion remains mandatory."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Acute prolonged vertigo from unilateral peripheral vestibular dysfunction without hearing loss, usually lasting hours to days.",
+    "urgent": "Seek urgent assessment for acute/progressive neurological deficit, sphincter change, severe infection/systemic illness, major trauma, vascular compromise or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "Bárány Society",
+      "title": "Acute unilateral vestibulopathy criteria",
+      "url": "https://www.jvr-web.org/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V1.9-BATCH-05",
+    "proposedGoldChapterNumber": 72
+  }
+}

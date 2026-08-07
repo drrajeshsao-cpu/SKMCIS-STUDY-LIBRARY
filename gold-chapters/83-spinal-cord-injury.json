@@ -1,0 +1,113 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-SPN-SCI-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Spinal Cord Injury",
+  "synonyms": [
+    "SCI"
+  ],
+  "category": "Spine > Trauma > Spinal Cord",
+  "tags": [
+    "spinal cord injury",
+    "trauma",
+    "ASIA",
+    "paralysis"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Traumatic injury to the spinal cord causing temporary or permanent motor, sensory and autonomic dysfunction below the neurological level.",
+  "clinicalPattern": {
+    "typical": [
+      "Weakness/paralysis",
+      "Sensory loss",
+      "Sphincter dysfunction",
+      "Respiratory compromise in high cervical injury",
+      "Spinal shock"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Any suspected acute SCI is an emergency"
+    },
+    {
+      "level": "RED",
+      "item": "Respiratory compromise"
+    },
+    {
+      "level": "RED",
+      "item": "Neurogenic shock"
+    },
+    {
+      "level": "RED",
+      "item": "Progressive neurological deficit"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Airway/breathing/circulation",
+      "Spinal precautions",
+      "ISNCSCI/ASIA neurological exam",
+      "Motor/sensory level",
+      "Autonomic assessment"
+    ]
+  },
+  "differentials": [
+    "Spinal cord compression without trauma",
+    "Peripheral nerve injury",
+    "Functional neurological disorder"
+  ],
+  "investigations": {
+    "principle": "Urgent trauma imaging and specialist assessment are required.",
+    "MRI": "CT assesses fractures; MRI assesses cord, disc and ligament injury.",
+    "radiographs": "Radiographs are secondary to modern trauma CT pathways in many settings."
+  },
+  "management": {
+    "green": [
+      "Emergency stabilization and specialist spinal care",
+      "Early prevention of pressure injury/DVT/respiratory complications",
+      "Comprehensive rehabilitation"
+    ],
+    "amber": [
+      "Unstable spine and cord injury contraindicate forceful manipulation or routine Panchakarma procedures."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Pakshaghata/Sarvanga neurological descriptors may be used only after modern injury classification and stabilization."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Traumatic injury to the spinal cord causing temporary or permanent motor, sensory and autonomic dysfunction below the neurological level.",
+    "urgent": "Seek urgent assessment for acute/progressive neurological deficit, sphincter change, severe infection/systemic illness, major trauma, vascular compromise or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "AOSpine",
+      "title": "Acute spinal cord injury guidance",
+      "url": "https://www.aofoundation.org/",
+      "checked": "2026-08-07"
+    },
+    {
+      "organization": "WHO",
+      "title": "Spinal cord injury rehabilitation resources",
+      "url": "https://www.who.int/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V1.9-BATCH-05",
+    "proposedGoldChapterNumber": 83
+  }
+}

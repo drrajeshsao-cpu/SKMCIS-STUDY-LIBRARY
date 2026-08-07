@@ -1,0 +1,105 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-NEU-PD-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Parkinson Disease",
+  "synonyms": [
+    "Idiopathic Parkinson disease"
+  ],
+  "category": "Neurology > Movement Disorder",
+  "tags": [
+    "parkinson",
+    "bradykinesia",
+    "rigidity",
+    "tremor"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Progressive neurodegenerative disorder characterized clinically by bradykinesia with rigidity and/or rest tremor, plus a range of non-motor symptoms.",
+  "clinicalPattern": {
+    "typical": [
+      "Bradykinesia",
+      "Rigidity",
+      "Rest tremor",
+      "Reduced arm swing/shuffling gait",
+      "Constipation, sleep or mood symptoms"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Acute rapid progression"
+    },
+    {
+      "level": "RED",
+      "item": "Early severe falls or gaze palsy suggesting atypical parkinsonism"
+    },
+    {
+      "level": "RED",
+      "item": "Sudden focal deficit suggesting stroke"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Bradykinesia assessment",
+      "Tone/rigidity",
+      "Tremor",
+      "Gait, postural stability",
+      "Cognition and autonomic symptoms"
+    ]
+  },
+  "differentials": [
+    "Drug-induced parkinsonism",
+    "Multiple system atrophy",
+    "Progressive supranuclear palsy",
+    "Normal-pressure hydrocephalus",
+    "Essential tremor"
+  ],
+  "investigations": {
+    "principle": "Diagnosis is mainly clinical.",
+    "MRI": "MRI is used when atypical features suggest alternative disease.",
+    "radiographs": "Radiographs are not diagnostic."
+  },
+  "management": {
+    "green": [
+      "Neurology-led dopaminergic treatment",
+      "Exercise, balance, gait and speech therapy",
+      "Falls and non-motor symptom management"
+    ],
+    "amber": [
+      "Medication changes can cause major motor/non-motor effects and require specialist supervision."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Kampavata is a commonly discussed Ayurvedic correlation; modern Parkinson diagnosis/staging remains explicit."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Progressive neurodegenerative disorder characterized clinically by bradykinesia with rigidity and/or rest tremor, plus a range of non-motor symptoms.",
+    "urgent": "Seek urgent assessment for acute/progressive neurological deficit, sphincter change, severe infection/systemic illness, major trauma, vascular compromise or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "NICE",
+      "title": "Parkinson's disease in adults NG71",
+      "url": "https://www.nice.org.uk/guidance/ng71",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V1.9-BATCH-05",
+    "proposedGoldChapterNumber": 76
+  }
+}

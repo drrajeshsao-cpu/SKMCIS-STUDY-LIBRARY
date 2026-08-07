@@ -1,0 +1,100 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-NEU-BPlex-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Brachial Plexopathy",
+  "synonyms": [
+    "Brachial plexus neuropathy"
+  ],
+  "category": "Neurology > Plexus",
+  "tags": [
+    "brachial plexus",
+    "plexopathy",
+    "arm weakness",
+    "neuropathy"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Disorder of the brachial plexus causing motor, sensory and pain deficits not confined to a single nerve root or peripheral nerve.",
+  "clinicalPattern": {
+    "typical": [
+      "Severe shoulder/arm pain followed by weakness in inflammatory plexopathy",
+      "Patchy sensory/motor deficit",
+      "Traumatic traction injury pattern"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Major trauma with vascular injury"
+    },
+    {
+      "level": "RED",
+      "item": "Rapid progressive weakness"
+    },
+    {
+      "level": "RED",
+      "item": "Tumour/radiation-related plexopathy concern"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Root, plexus and peripheral nerve localization",
+      "Motor/sensory/reflex exam",
+      "Shoulder and cervical assessment"
+    ]
+  },
+  "differentials": [
+    "Cervical radiculopathy",
+    "Peripheral mononeuropathy",
+    "Thoracic outlet syndrome",
+    "Motor neuron disease"
+  ],
+  "investigations": {
+    "principle": "Localization requires clinical and electrodiagnostic correlation.",
+    "MRI": "MRI plexus/cervical spine may identify structural causes.",
+    "radiographs": "Radiographs may assist trauma assessment only."
+  },
+  "management": {
+    "green": [
+      "Treat underlying cause",
+      "Pain control and targeted rehabilitation",
+      "Protect weak joints"
+    ],
+    "amber": [
+      "Surgical or immunologic treatment depends on cause and severity."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Upper-limb Vata-neurological phenotype may be documented descriptively."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Disorder of the brachial plexus causing motor, sensory and pain deficits not confined to a single nerve root or peripheral nerve.",
+    "urgent": "Seek urgent assessment for acute/progressive neurological deficit, sphincter change, severe infection/systemic illness, major trauma, vascular compromise or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "AANEM",
+      "title": "Plexopathy electrodiagnostic resources",
+      "url": "https://www.aanem.org/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V1.9-BATCH-05",
+    "proposedGoldChapterNumber": 80
+  }
+}

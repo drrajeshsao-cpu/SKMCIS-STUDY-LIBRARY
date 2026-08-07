@@ -1,0 +1,104 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-CSP-CFP-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Cervical Facet-Mediated Pain",
+  "synonyms": [
+    "Cervical facet joint pain",
+    "Zygapophyseal neck pain"
+  ],
+  "category": "Spine > Cervical > Pain Generator",
+  "tags": [
+    "cervical facet",
+    "neck pain",
+    "zygapophyseal"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Neck pain suspected to arise from cervical zygapophyseal joints, sometimes with referred occipital or shoulder-region pain. Clinical tests and imaging alone cannot definitively identify the painful joint.",
+  "clinicalPattern": {
+    "typical": [
+      "Axial neck pain",
+      "Pain with extension/rotation",
+      "Occipital or shoulder referral",
+      "Often no neurological deficit"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Myelopathy or progressive weakness"
+    },
+    {
+      "level": "RED",
+      "item": "Trauma/fracture"
+    },
+    {
+      "level": "RED",
+      "item": "Infection/malignancy"
+    },
+    {
+      "level": "RED",
+      "item": "Vascular or severe headache red flags"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Cervical ROM",
+      "Neurological screen",
+      "Upper-cervical and shoulder assessment"
+    ]
+  },
+  "differentials": [
+    "Discogenic neck pain",
+    "Cervical radiculopathy",
+    "Cervicogenic headache",
+    "Shoulder disease"
+  ],
+  "investigations": {
+    "principle": "Imaging does not prove facet pain.",
+    "MRI": "MRI for red flags or neurological symptoms.",
+    "radiographs": "Radiographs may show arthropathy but are not diagnostic of pain source."
+  },
+  "management": {
+    "green": [
+      "Education and exercise-based neck rehabilitation",
+      "Posture and activity modification"
+    ],
+    "amber": [
+      "Diagnostic medial branch blocks/radiofrequency procedures are specialist options for selected persistent cases."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Greeva-shoola/Greeva-stambha phenotype may be documented."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Neck pain suspected to arise from cervical zygapophyseal joints, sometimes with referred occipital or shoulder-region pain. Clinical tests and imaging alone cannot definitively identify the painful joint.",
+    "urgent": "Seek urgent assessment for acute/progressive neurological deficit, sphincter change, severe infection/systemic illness, major trauma, vascular compromise or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "Multispecialty consensus",
+      "title": "Cervical facet joint pain guidelines",
+      "url": "https://rapm.bmj.com/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V1.9-BATCH-05",
+    "proposedGoldChapterNumber": 85
+  }
+}

@@ -1,0 +1,106 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-ORT-GHOA-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Glenohumeral Osteoarthritis",
+  "synonyms": [
+    "Shoulder osteoarthritis"
+  ],
+  "category": "Orthopedics > Shoulder > Osteoarthritis",
+  "tags": [
+    "shoulder OA",
+    "glenohumeral",
+    "osteoarthritis"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Degenerative disease of the glenohumeral joint causing pain, stiffness and functional limitation.",
+  "clinicalPattern": {
+    "typical": [
+      "Deep shoulder pain",
+      "Progressive stiffness",
+      "Crepitus",
+      "Reduced active and passive ROM",
+      "Difficulty overhead and behind back"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Hot swollen joint/fever"
+    },
+    {
+      "level": "RED",
+      "item": "Acute trauma/fracture"
+    },
+    {
+      "level": "RED",
+      "item": "Rapid destructive process"
+    },
+    {
+      "level": "RED",
+      "item": "Neurovascular compromise"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Active/passive ROM",
+      "Crepitus",
+      "Rotator cuff strength",
+      "Cervical and neurovascular screen"
+    ]
+  },
+  "differentials": [
+    "Adhesive capsulitis",
+    "Rotator cuff tear arthropathy",
+    "Inflammatory arthritis",
+    "AVN humeral head"
+  ],
+  "investigations": {
+    "principle": "Diagnosis is clinical plus radiographic when needed.",
+    "MRI": "MRI/CT for cuff/bone/surgical planning.",
+    "radiographs": "Radiographs show joint-space loss, osteophytes and subchondral change."
+  },
+  "management": {
+    "green": [
+      "Education and ROM/strength rehabilitation",
+      "Activity modification",
+      "Appropriate analgesic strategy"
+    ],
+    "amber": [
+      "Injection and shoulder arthroplasty decisions require individualized assessment."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Sandhigata Vata correlation may be documented with modern shoulder OA diagnosis retained."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Degenerative disease of the glenohumeral joint causing pain, stiffness and functional limitation.",
+    "urgent": "Seek urgent assessment for acute/progressive neurological deficit, sphincter change, severe infection/systemic illness, major trauma, vascular compromise or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "AAOS",
+      "title": "Glenohumeral Joint Osteoarthritis CPG",
+      "url": "https://www.aaos.org/quality/quality-programs/clinical-practice-guidelines/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V1.9-BATCH-05",
+    "proposedGoldChapterNumber": 86
+  }
+}

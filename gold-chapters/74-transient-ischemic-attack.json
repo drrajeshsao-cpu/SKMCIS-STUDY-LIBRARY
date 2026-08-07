@@ -1,0 +1,100 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-NEU-TIA-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Transient Ischemic Attack",
+  "synonyms": [
+    "TIA"
+  ],
+  "category": "Neurology > Cerebrovascular",
+  "tags": [
+    "TIA",
+    "stroke warning",
+    "transient neurological deficit"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Transient focal neurological dysfunction caused by ischemia without acute infarction, carrying significant early stroke risk.",
+  "clinicalPattern": {
+    "typical": [
+      "Sudden transient weakness/numbness",
+      "Speech disturbance",
+      "Transient monocular or visual symptoms",
+      "Symptoms resolve but remain clinically important"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Ongoing deficit should be treated as possible stroke"
+    },
+    {
+      "level": "RED",
+      "item": "Recurrent crescendo events"
+    },
+    {
+      "level": "RED",
+      "item": "Atrial fibrillation or major vascular symptoms"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Full neurological and vascular exam",
+      "Blood pressure",
+      "Cardiac rhythm assessment"
+    ]
+  },
+  "differentials": [
+    "Migraine aura",
+    "Seizure",
+    "Hypoglycemia",
+    "Peripheral vestibular disorder",
+    "Functional symptoms"
+  ],
+  "investigations": {
+    "principle": "Urgent brain/vascular/cardiac evaluation is required.",
+    "MRI": "MRI with diffusion imaging may identify infarction; vascular imaging guides management.",
+    "radiographs": "Radiographs are not useful."
+  },
+  "management": {
+    "green": [
+      "Urgent specialist TIA/stroke assessment",
+      "Secondary prevention based on cause"
+    ],
+    "amber": [
+      "Do not reassure solely because symptoms resolved."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Transient Pakshaghata-like symptoms should never delay modern TIA/stroke pathway."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Transient focal neurological dysfunction caused by ischemia without acute infarction, carrying significant early stroke risk.",
+    "urgent": "Seek urgent assessment for acute/progressive neurological deficit, sphincter change, severe infection/systemic illness, major trauma, vascular compromise or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "NICE",
+      "title": "Stroke and TIA NG128",
+      "url": "https://www.nice.org.uk/guidance/ng128",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V1.9-BATCH-05",
+    "proposedGoldChapterNumber": 74
+  }
+}

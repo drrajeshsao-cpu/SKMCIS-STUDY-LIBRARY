@@ -1,0 +1,107 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-NEU-STR-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Ischemic Stroke",
+  "synonyms": [
+    "Acute ischemic stroke"
+  ],
+  "category": "Neurology > Cerebrovascular",
+  "tags": [
+    "stroke",
+    "ischemic",
+    "FAST",
+    "thrombolysis",
+    "thrombectomy"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Acute neurological dysfunction caused by focal cerebral, spinal or retinal infarction due to arterial occlusion.",
+  "clinicalPattern": {
+    "typical": [
+      "Sudden unilateral weakness/numbness",
+      "Facial droop",
+      "Speech/language disturbance",
+      "Visual loss",
+      "Ataxia or posterior circulation symptoms"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Any suspected acute stroke is an emergency"
+    },
+    {
+      "level": "RED",
+      "item": "Reduced consciousness, severe headache, new seizure, airway compromise"
+    }
+  ],
+  "examination": {
+    "core": [
+      "FAST/BE-FAST screen",
+      "NIHSS where appropriate",
+      "Full neurological exam",
+      "Glucose and vital signs"
+    ]
+  },
+  "differentials": [
+    "Intracranial hemorrhage",
+    "Seizure with postictal deficit",
+    "Hypoglycemia",
+    "Migraine aura",
+    "Functional neurological disorder"
+  ],
+  "investigations": {
+    "principle": "Immediate brain imaging and vascular assessment guide reperfusion decisions.",
+    "MRI": "CT/CTA or MRI/MRA according to local acute-stroke pathway.",
+    "radiographs": "Plain radiographs have no diagnostic role."
+  },
+  "management": {
+    "green": [
+      "Emergency stroke-system activation",
+      "Time-sensitive thrombolysis/thrombectomy assessment",
+      "Secondary prevention and rehabilitation"
+    ],
+    "amber": [
+      "Ayurvedic or supportive therapy must never delay reperfusion/emergency stroke care."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Pakshaghata may be documented as a classical correlation after emergency modern diagnosis and stabilization."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Acute neurological dysfunction caused by focal cerebral, spinal or retinal infarction due to arterial occlusion.",
+    "urgent": "Seek urgent assessment for acute/progressive neurological deficit, sphincter change, severe infection/systemic illness, major trauma, vascular compromise or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "AHA/ASA",
+      "title": "Acute Ischemic Stroke Guidelines",
+      "url": "https://www.ahajournals.org/",
+      "checked": "2026-08-07"
+    },
+    {
+      "organization": "NICE",
+      "title": "Stroke and transient ischaemic attack",
+      "url": "https://www.nice.org.uk/guidance/ng128",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V1.9-BATCH-05",
+    "proposedGoldChapterNumber": 73
+  }
+}

@@ -1,0 +1,121 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-NEU-MIG-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Migraine",
+  "synonyms": [
+    "Migraine without aura",
+    "Migraine with aura"
+  ],
+  "category": "Neurology > Headache",
+  "tags": [
+    "migraine",
+    "headache",
+    "aura",
+    "photophobia",
+    "nausea"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Primary headache disorder characterized by recurrent attacks of moderate-to-severe headache, commonly pulsating and associated with nausea and/or light/sound sensitivity, with or without reversible aura symptoms.",
+  "clinicalPattern": {
+    "typical": [
+      "Recurrent episodic headache",
+      "Photophobia or phonophobia",
+      "Nausea/vomiting",
+      "Activity aggravation",
+      "Possible visual/sensory/language aura"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Thunderclap onset"
+    },
+    {
+      "level": "RED",
+      "item": "New focal neurological deficit not consistent with typical aura"
+    },
+    {
+      "level": "RED",
+      "item": "Fever/meningism"
+    },
+    {
+      "level": "RED",
+      "item": "New headache with cancer/immunosuppression"
+    },
+    {
+      "level": "RED",
+      "item": "Pregnancy/postpartum severe headache"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Neurological examination",
+      "Blood pressure and general assessment",
+      "Headache pattern and trigger history",
+      "Fundoscopic examination when indicated"
+    ]
+  },
+  "differentials": [
+    "Tension-type headache",
+    "Cluster headache",
+    "Medication-overuse headache",
+    "Subarachnoid hemorrhage",
+    "Cerebral venous thrombosis",
+    "Giant cell arteritis"
+  ],
+  "investigations": {
+    "principle": "Typical migraine is a clinical diagnosis; routine imaging is not needed without red flags.",
+    "MRI": "MRI/CT is selected for atypical presentations or secondary-headache red flags.",
+    "radiographs": "Routine skull radiographs are not useful."
+  },
+  "management": {
+    "green": [
+      "Trigger and sleep regularity",
+      "Acute and preventive treatment planning",
+      "Headache diary"
+    ],
+    "amber": [
+      "Medication selection requires contraindication, cardiovascular, pregnancy and interaction review; overuse can worsen headache."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Ardhavabhedaka is a commonly discussed Ayurvedic correlation; modern headache classification and red-flag exclusion remain essential."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Primary headache disorder characterized by recurrent attacks of moderate-to-severe headache, commonly pulsating and associated with nausea and/or light/sound sensitivity, with or without reversible aura symptoms.",
+    "urgent": "Seek urgent assessment for acute/progressive neurological deficit, sphincter change, severe infection/systemic illness, major trauma, vascular compromise or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "International Headache Society",
+      "title": "ICHD-3 Migraine",
+      "url": "https://ichd-3.org/",
+      "checked": "2026-08-07"
+    },
+    {
+      "organization": "NICE",
+      "title": "Headaches in over 12s",
+      "url": "https://www.nice.org.uk/guidance/cg150",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V1.9-BATCH-05",
+    "proposedGoldChapterNumber": 68
+  }
+}

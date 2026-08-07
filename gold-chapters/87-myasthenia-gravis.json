@@ -1,0 +1,113 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-NEU-MG-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Myasthenia Gravis",
+  "synonyms": [
+    "MG",
+    "Autoimmune myasthenia"
+  ],
+  "category": "Neurology > Neuromuscular Junction",
+  "tags": [
+    "myasthenia gravis",
+    "fatigable weakness",
+    "ptosis",
+    "diplopia",
+    "neuromuscular"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Autoimmune neuromuscular-junction disorder causing fluctuating, fatigable skeletal-muscle weakness, often affecting ocular, bulbar, limb or respiratory muscles.",
+  "clinicalPattern": {
+    "typical": [
+      "Fluctuating ptosis or diplopia",
+      "Fatigable limb weakness",
+      "Bulbar symptoms such as dysarthria or dysphagia",
+      "Symptoms often worsen with exertion and improve with rest"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Dyspnea, weak cough or rapidly worsening generalized weakness suggesting myasthenic crisis"
+    },
+    {
+      "level": "RED",
+      "item": "Significant dysphagia, aspiration risk or inability to handle secretions"
+    },
+    {
+      "level": "RED",
+      "item": "Rapid deterioration after infection, surgery or medication exposure"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Ocular movements and ptosis fatigability",
+      "Bulbar function",
+      "Neck flexion and proximal limb strength",
+      "Respiratory assessment when generalized weakness is present",
+      "Reflexes and sensation, usually preserved in uncomplicated MG"
+    ]
+  },
+  "differentials": [
+    "Lambert-Eaton myasthenic syndrome",
+    "Botulism",
+    "Motor neuron disease",
+    "Brainstem lesion",
+    "Thyroid eye disease",
+    "Mitochondrial or other myopathy"
+  ],
+  "investigations": {
+    "principle": "Diagnosis combines characteristic clinical fatigability with antibody, electrodiagnostic and cause-directed assessment.",
+    "MRI": "Brain imaging is selected when central mimics are suspected; chest imaging is used to evaluate thymoma according to clinical pathway.",
+    "radiographs": "Plain radiographs are not diagnostic; electrophysiology and serology are more relevant."
+  },
+  "management": {
+    "green": [
+      "Neurology-led treatment",
+      "Energy conservation and individualized rehabilitation when stable",
+      "Vaccination/infection prevention and medication safety review"
+    ],
+    "amber": [
+      "Pyridostigmine, immunotherapy, thymectomy and biologic treatment require individualized specialist assessment and monitoring."
+    ],
+    "red": [
+      "Suspected myasthenic crisis requires emergency respiratory and neurological management; Ayurvedic or routine outpatient treatment must not delay it."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Balakshaya/Vata-neuromuscular phenotype may be explored only as a parallel individualized framework; myasthenia gravis remains a specific neuromuscular-junction diagnosis."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Myasthenia gravis causes fluctuating muscle weakness that can worsen with exertion. New breathing or swallowing difficulty is an emergency.",
+    "urgent": "Seek urgent emergency assessment for breathing difficulty, severe swallowing difficulty, rapidly worsening weakness or inability to manage secretions."
+  },
+  "sources": [
+    {
+      "organization": "International Consensus Guidance",
+      "title": "Management of Myasthenia Gravis",
+      "url": "https://n.neurology.org/",
+      "checked": "2026-08-07"
+    },
+    {
+      "organization": "NICE",
+      "title": "Neurological conditions and medicine-safety principles",
+      "url": "https://www.nice.org.uk/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V1.9-BATCH-05",
+    "proposedGoldChapterNumber": 87
+  }
+}

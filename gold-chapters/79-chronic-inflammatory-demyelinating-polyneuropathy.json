@@ -1,0 +1,100 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-NEU-CIDP-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Chronic Inflammatory Demyelinating Polyneuropathy",
+  "synonyms": [
+    "CIDP"
+  ],
+  "category": "Neurology > Immune Neuropathy",
+  "tags": [
+    "CIDP",
+    "demyelinating neuropathy",
+    "weakness",
+    "areflexia"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Immune-mediated peripheral neuropathy causing progressive or relapsing motor and sensory dysfunction over at least several weeks, with demyelinating electrodiagnostic features.",
+  "clinicalPattern": {
+    "typical": [
+      "Symmetric proximal/distal weakness",
+      "Sensory loss",
+      "Reduced reflexes",
+      "Progressive or relapsing course"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Rapid respiratory/bulbar deterioration"
+    },
+    {
+      "level": "RED",
+      "item": "Marked asymmetry or systemic features suggesting alternative disease"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Motor power",
+      "Reflexes",
+      "Sensory exam",
+      "Gait",
+      "Cranial nerve exam"
+    ]
+  },
+  "differentials": [
+    "GBS",
+    "Diabetic neuropathy",
+    "Hereditary neuropathy",
+    "Motor neuron disease",
+    "Paraproteinemic neuropathy"
+  ],
+  "investigations": {
+    "principle": "Electrodiagnostic criteria are central.",
+    "MRI": "MRI nerve roots may support selected cases but is not primary diagnosis.",
+    "radiographs": "Radiographs are not diagnostic."
+  },
+  "management": {
+    "green": [
+      "Neuromuscular specialist assessment",
+      "Immunotherapy when diagnostic criteria are met",
+      "Rehabilitation"
+    ],
+    "amber": [
+      "IVIG, steroids and plasma exchange require individualized specialist planning."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Vata/Dhatu neuropathy phenotype may be documented in parallel."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Immune-mediated peripheral neuropathy causing progressive or relapsing motor and sensory dysfunction over at least several weeks, with demyelinating electrodiagnostic features.",
+    "urgent": "Seek urgent assessment for acute/progressive neurological deficit, sphincter change, severe infection/systemic illness, major trauma, vascular compromise or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "EAN/PNS",
+      "title": "CIDP Guideline",
+      "url": "https://www.ean.org/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V1.9-BATCH-05",
+    "proposedGoldChapterNumber": 79
+  }
+}

@@ -1,0 +1,110 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-NEU-GBS-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Guillain-Barré Syndrome",
+  "synonyms": [
+    "GBS",
+    "Acute inflammatory demyelinating polyradiculoneuropathy"
+  ],
+  "category": "Neurology > Acute Inflammatory Neuropathy",
+  "tags": [
+    "GBS",
+    "ascending weakness",
+    "areflexia",
+    "respiratory"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Acute immune-mediated polyradiculoneuropathy causing rapidly progressive weakness and reduced/absent reflexes, often after infection.",
+  "clinicalPattern": {
+    "typical": [
+      "Ascending or generalized weakness",
+      "Areflexia/hyporeflexia",
+      "Paresthesia",
+      "Facial/bulbar involvement",
+      "Autonomic instability"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Respiratory weakness"
+    },
+    {
+      "level": "RED",
+      "item": "Rapid progression"
+    },
+    {
+      "level": "RED",
+      "item": "Bulbar dysfunction"
+    },
+    {
+      "level": "RED",
+      "item": "Severe autonomic instability"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Serial motor power",
+      "Reflexes",
+      "Cranial/bulbar exam",
+      "Respiratory function",
+      "Autonomic monitoring"
+    ]
+  },
+  "differentials": [
+    "Spinal cord compression",
+    "Myasthenia gravis",
+    "Botulism",
+    "Electrolyte paralysis",
+    "CIDP"
+  ],
+  "investigations": {
+    "principle": "Urgent hospital evaluation is required.",
+    "MRI": "MRI may help exclude cord disease but is not diagnostic.",
+    "radiographs": "NCS/EMG and CSF support diagnosis."
+  },
+  "management": {
+    "green": [
+      "Hospital monitoring",
+      "IVIG or plasma exchange when indicated",
+      "Respiratory and rehabilitation support"
+    ],
+    "amber": [
+      "Steroids are not effective as sole treatment for typical GBS; delayed referral can be dangerous."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Acute Vata-neuromuscular phenotype may be documented only after emergency modern care is secured."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Acute immune-mediated polyradiculoneuropathy causing rapidly progressive weakness and reduced/absent reflexes, often after infection.",
+    "urgent": "Seek urgent assessment for acute/progressive neurological deficit, sphincter change, severe infection/systemic illness, major trauma, vascular compromise or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "EAN/PNS",
+      "title": "Guillain-Barré syndrome guideline",
+      "url": "https://www.ean.org/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V1.9-BATCH-05",
+    "proposedGoldChapterNumber": 78
+  }
+}

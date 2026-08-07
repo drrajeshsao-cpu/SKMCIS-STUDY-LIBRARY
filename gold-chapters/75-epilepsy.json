@@ -1,0 +1,114 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-NEU-EPI-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Epilepsy",
+  "synonyms": [
+    "Recurrent unprovoked seizures"
+  ],
+  "category": "Neurology > Seizure Disorder",
+  "tags": [
+    "epilepsy",
+    "seizure",
+    "EEG",
+    "antiepileptic"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Neurological disorder characterized by an enduring predisposition to unprovoked seizures, diagnosed according to seizure recurrence/risk and clinical context.",
+  "clinicalPattern": {
+    "typical": [
+      "Focal or generalized seizures",
+      "Loss of awareness",
+      "Convulsive episodes",
+      "Postictal confusion",
+      "Possible aura"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Status epilepticus"
+    },
+    {
+      "level": "RED",
+      "item": "First seizure with persistent deficit"
+    },
+    {
+      "level": "RED",
+      "item": "Seizure in pregnancy"
+    },
+    {
+      "level": "RED",
+      "item": "Severe injury, hypoglycemia or CNS infection concern"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Neurological exam",
+      "Witness history",
+      "Postictal state",
+      "Injury and metabolic assessment"
+    ]
+  },
+  "differentials": [
+    "Syncope",
+    "Psychogenic nonepileptic seizures",
+    "Hypoglycemia",
+    "Migraine",
+    "Sleep disorders"
+  ],
+  "investigations": {
+    "principle": "Diagnosis uses clinical history plus selected EEG and imaging.",
+    "MRI": "MRI brain is preferred in many focal/new-onset cases.",
+    "radiographs": "Radiographs are not useful."
+  },
+  "management": {
+    "green": [
+      "Neurology-led antiseizure treatment",
+      "Safety counseling including driving, bathing and sleep",
+      "Trigger/adherence management"
+    ],
+    "amber": [
+      "Medication selection requires pregnancy, interaction, organ-function and syndrome-specific review."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Apasmara is a classical correlation, but seizure classification and emergency care remain modern neurological priorities."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Neurological disorder characterized by an enduring predisposition to unprovoked seizures, diagnosed according to seizure recurrence/risk and clinical context.",
+    "urgent": "Seek urgent assessment for acute/progressive neurological deficit, sphincter change, severe infection/systemic illness, major trauma, vascular compromise or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "NICE",
+      "title": "Epilepsies in children, young people and adults NG217",
+      "url": "https://www.nice.org.uk/guidance/ng217",
+      "checked": "2026-08-07"
+    },
+    {
+      "organization": "ILAE",
+      "title": "Epilepsy classification resources",
+      "url": "https://www.ilae.org/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V1.9-BATCH-05",
+    "proposedGoldChapterNumber": 75
+  }
+}

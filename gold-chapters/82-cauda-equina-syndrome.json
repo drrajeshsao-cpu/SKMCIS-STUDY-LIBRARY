@@ -1,0 +1,100 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-SPN-CES-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Cauda Equina Syndrome",
+  "synonyms": [
+    "CES"
+  ],
+  "category": "Spine > Emergency > Cauda Equina",
+  "tags": [
+    "cauda equina",
+    "urinary retention",
+    "saddle anesthesia",
+    "emergency"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Compression or dysfunction of multiple lumbosacral nerve roots below the conus causing bladder, bowel, saddle sensory and/or severe neurological deficits; a time-critical spinal emergency.",
+  "clinicalPattern": {
+    "typical": [
+      "New urinary retention or impaired bladder sensation",
+      "Saddle/perineal sensory change",
+      "Bilateral severe radicular symptoms",
+      "Progressive leg weakness",
+      "Bowel or sexual dysfunction"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Any suspected CES is an emergency requiring immediate assessment and imaging"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Bladder history and post-void residual where appropriate",
+      "Saddle/perineal sensation",
+      "Motor/reflex exam",
+      "Anal tone only when clinically indicated and not as a rule-out test"
+    ]
+  },
+  "differentials": [
+    "Severe lumbar radiculopathy without CES",
+    "Conus medullaris syndrome",
+    "Peripheral neuropathy",
+    "Urologic retention from other causes"
+  ],
+  "investigations": {
+    "principle": "Urgent MRI is the key diagnostic test.",
+    "MRI": "Emergency lumbar MRI is required when CES is suspected.",
+    "radiographs": "Radiographs cannot exclude CES."
+  },
+  "management": {
+    "green": [
+      "Immediate emergency/spine surgical pathway",
+      "Bladder care and postoperative rehabilitation as required"
+    ],
+    "amber": [
+      "Do not delay MRI or surgical assessment for conservative or Ayurvedic treatment."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Any Ayurvedic framework is secondary; emergency modern decompression pathway takes priority."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Compression or dysfunction of multiple lumbosacral nerve roots below the conus causing bladder, bowel, saddle sensory and/or severe neurological deficits; a time-critical spinal emergency.",
+    "urgent": "Seek urgent assessment for acute/progressive neurological deficit, sphincter change, severe infection/systemic illness, major trauma, vascular compromise or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "NICE",
+      "title": "Suspected neurological conditions / low back pain pathways",
+      "url": "https://www.nice.org.uk/",
+      "checked": "2026-08-07"
+    },
+    {
+      "organization": "British Association of Spine Surgeons",
+      "title": "Cauda Equina Syndrome resources",
+      "url": "https://spinesurgeons.ac.uk/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V1.9-BATCH-05",
+    "proposedGoldChapterNumber": 82
+  }
+}

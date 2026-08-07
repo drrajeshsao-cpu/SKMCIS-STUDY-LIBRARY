@@ -1,0 +1,110 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-NEU-TTH-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Tension-Type Headache",
+  "synonyms": [
+    "Tension headache"
+  ],
+  "category": "Neurology > Headache",
+  "tags": [
+    "tension headache",
+    "headache",
+    "pressure",
+    "bilateral"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Primary headache disorder typically causing bilateral pressing or tightening pain of mild-to-moderate intensity without prominent neurological symptoms.",
+  "clinicalPattern": {
+    "typical": [
+      "Bilateral pressure/tightness",
+      "Mild-to-moderate intensity",
+      "Not usually worsened by routine activity",
+      "Minimal nausea; photo/phonophobia may be absent or mild"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Thunderclap onset"
+    },
+    {
+      "level": "RED",
+      "item": "Focal neurological deficit"
+    },
+    {
+      "level": "RED",
+      "item": "Fever/meningism"
+    },
+    {
+      "level": "RED",
+      "item": "New headache after trauma or in cancer/immunosuppression"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Neurological examination",
+      "Neck and pericranial muscle assessment",
+      "Blood pressure and general examination"
+    ]
+  },
+  "differentials": [
+    "Migraine",
+    "Cervicogenic headache",
+    "Medication-overuse headache",
+    "Intracranial secondary headache"
+  ],
+  "investigations": {
+    "principle": "Diagnosis is clinical.",
+    "MRI": "Imaging only for atypical features or red flags.",
+    "radiographs": "Radiographs are not diagnostic."
+  },
+  "management": {
+    "green": [
+      "Education, sleep/activity regularity and stress management",
+      "Appropriate acute treatment"
+    ],
+    "amber": [
+      "Avoid frequent analgesic use that may cause medication-overuse headache."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Shirah-shoola phenotype may be documented without assuming one-to-one equivalence."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Primary headache disorder typically causing bilateral pressing or tightening pain of mild-to-moderate intensity without prominent neurological symptoms.",
+    "urgent": "Seek urgent assessment for acute/progressive neurological deficit, sphincter change, severe infection/systemic illness, major trauma, vascular compromise or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "International Headache Society",
+      "title": "ICHD-3 Tension-type headache",
+      "url": "https://ichd-3.org/",
+      "checked": "2026-08-07"
+    },
+    {
+      "organization": "NICE",
+      "title": "Headaches in over 12s",
+      "url": "https://www.nice.org.uk/guidance/cg150",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V1.9-BATCH-05",
+    "proposedGoldChapterNumber": 69
+  }
+}

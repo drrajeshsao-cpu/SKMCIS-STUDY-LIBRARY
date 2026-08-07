@@ -1,0 +1,104 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-SPN-TDH-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Thoracic Disc Herniation",
+  "synonyms": [
+    "Thoracic PIVD"
+  ],
+  "category": "Spine > Thoracic > Disc",
+  "tags": [
+    "thoracic disc",
+    "herniation",
+    "myelopathy",
+    "radiculopathy"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Displacement of thoracic disc material that may cause axial pain, thoracic radiculopathy or spinal cord compression; many thoracic disc herniations are asymptomatic.",
+  "clinicalPattern": {
+    "typical": [
+      "Thoracic back pain",
+      "Band-like chest/abdominal radicular pain",
+      "Myelopathic gait or leg symptoms if cord compressed"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Progressive myelopathy"
+    },
+    {
+      "level": "RED",
+      "item": "New sphincter dysfunction"
+    },
+    {
+      "level": "RED",
+      "item": "Acute severe weakness"
+    },
+    {
+      "level": "RED",
+      "item": "Tumour/infection red flags"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Thoracic and full neurological exam",
+      "Sensory level",
+      "Reflexes and gait",
+      "Cervical/lumbar screen"
+    ]
+  },
+  "differentials": [
+    "Thoracic myelopathy from other causes",
+    "Herpes zoster",
+    "Cardiopulmonary/visceral pain",
+    "Tumour/infection"
+  ],
+  "investigations": {
+    "principle": "Imaging-symptom correlation is essential.",
+    "MRI": "Thoracic MRI is preferred for cord/disc assessment.",
+    "radiographs": "CT can characterize calcified disc/bony anatomy."
+  },
+  "management": {
+    "green": [
+      "Conservative management for stable nonmyelopathic cases",
+      "Rehabilitation and activity modification"
+    ],
+    "amber": [
+      "Progressive cord compression or major deficit requires spine surgical assessment."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Prishtha-shoola phenotype may be documented; structural thoracic disc disease remains a modern diagnosis."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Displacement of thoracic disc material that may cause axial pain, thoracic radiculopathy or spinal cord compression; many thoracic disc herniations are asymptomatic.",
+    "urgent": "Seek urgent assessment for acute/progressive neurological deficit, sphincter change, severe infection/systemic illness, major trauma, vascular compromise or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "American College of Radiology (ACR)",
+      "title": "Myelopathy/Thoracic imaging criteria",
+      "url": "https://acsearch.acr.org/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V1.9-BATCH-05",
+    "proposedGoldChapterNumber": 84
+  }
+}

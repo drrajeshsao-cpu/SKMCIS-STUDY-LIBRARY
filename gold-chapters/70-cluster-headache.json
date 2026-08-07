@@ -1,0 +1,117 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-NEU-CH-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Cluster Headache",
+  "synonyms": [
+    "Cluster cephalalgia"
+  ],
+  "category": "Neurology > Trigeminal Autonomic Cephalalgia",
+  "tags": [
+    "cluster headache",
+    "TAC",
+    "autonomic headache",
+    "orbital pain"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Severe unilateral orbital/supraorbital/temporal headache occurring in attacks with ipsilateral cranial autonomic features or restlessness.",
+  "clinicalPattern": {
+    "typical": [
+      "Excruciating unilateral orbital/temporal pain",
+      "Lacrimation/red eye",
+      "Nasal congestion/rhinorrhea",
+      "Ptosis/miosis",
+      "Marked restlessness during attacks"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "First severe atypical attack"
+    },
+    {
+      "level": "RED",
+      "item": "Focal neurological deficit"
+    },
+    {
+      "level": "RED",
+      "item": "Horner syndrome outside attacks"
+    },
+    {
+      "level": "RED",
+      "item": "Thunderclap features"
+    },
+    {
+      "level": "RED",
+      "item": "Systemic illness"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Neurological and cranial nerve exam",
+      "Autonomic signs during attack",
+      "Headache timing and periodicity"
+    ]
+  },
+  "differentials": [
+    "Migraine",
+    "Trigeminal neuralgia",
+    "Acute angle-closure glaucoma",
+    "Carotid dissection",
+    "Pituitary/parasellar lesion"
+  ],
+  "investigations": {
+    "principle": "Diagnosis is clinical but first/atypical cases often merit imaging.",
+    "MRI": "Brain MRI is commonly used to exclude secondary causes.",
+    "radiographs": "Routine radiographs are not useful."
+  },
+  "management": {
+    "green": [
+      "Specialist headache management",
+      "Acute oxygen/triptan pathway when appropriate",
+      "Preventive therapy planning"
+    ],
+    "amber": [
+      "Treatment requires cardiovascular and drug-interaction review; secondary causes must be excluded in atypical cases."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Severe unilateral Shirah-shoola phenotype may be documented; modern TAC diagnosis remains primary."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Severe unilateral orbital/supraorbital/temporal headache occurring in attacks with ipsilateral cranial autonomic features or restlessness.",
+    "urgent": "Seek urgent assessment for acute/progressive neurological deficit, sphincter change, severe infection/systemic illness, major trauma, vascular compromise or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "International Headache Society",
+      "title": "ICHD-3 Cluster Headache",
+      "url": "https://ichd-3.org/",
+      "checked": "2026-08-07"
+    },
+    {
+      "organization": "NICE",
+      "title": "Headaches in over 12s",
+      "url": "https://www.nice.org.uk/guidance/cg150",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V1.9-BATCH-05",
+    "proposedGoldChapterNumber": 70
+  }
+}

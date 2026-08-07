@@ -1,0 +1,112 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-NEU-MS-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Multiple Sclerosis",
+  "synonyms": [
+    "MS"
+  ],
+  "category": "Neurology > Demyelinating Disease",
+  "tags": [
+    "multiple sclerosis",
+    "demyelination",
+    "optic neuritis",
+    "MRI"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Immune-mediated inflammatory demyelinating disease of the central nervous system characterized by lesions disseminated in time and space.",
+  "clinicalPattern": {
+    "typical": [
+      "Optic neuritis",
+      "Sensory or motor episodes",
+      "Diplopia",
+      "Ataxia",
+      "Myelopathic symptoms",
+      "Fatigue"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Acute severe neurological deficit"
+    },
+    {
+      "level": "RED",
+      "item": "New sphincter/cord symptoms"
+    },
+    {
+      "level": "RED",
+      "item": "Infection while immunosuppressed"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Full neurological exam",
+      "Vision/optic function",
+      "Coordination",
+      "Gait",
+      "Upper motor neuron signs"
+    ]
+  },
+  "differentials": [
+    "Neuromyelitis optica spectrum disorder",
+    "MOG-associated disease",
+    "B12 deficiency",
+    "Stroke",
+    "Structural myelopathy"
+  ],
+  "investigations": {
+    "principle": "Diagnosis uses clinical pattern, MRI and sometimes CSF.",
+    "MRI": "MRI brain and spinal cord is central to diagnosis and monitoring.",
+    "radiographs": "Radiographs are not diagnostic."
+  },
+  "management": {
+    "green": [
+      "Neurology-led disease-modifying therapy",
+      "Relapse management",
+      "Rehabilitation and symptom control"
+    ],
+    "amber": [
+      "Immunotherapy requires infection, vaccination, pregnancy and laboratory monitoring."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Vata-vyadhi neurological phenotype may be documented only as a parallel framework."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Immune-mediated inflammatory demyelinating disease of the central nervous system characterized by lesions disseminated in time and space.",
+    "urgent": "Seek urgent assessment for acute/progressive neurological deficit, sphincter change, severe infection/systemic illness, major trauma, vascular compromise or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "ECTRIMS/EAN",
+      "title": "Multiple sclerosis treatment guidance",
+      "url": "https://www.ean.org/",
+      "checked": "2026-08-07"
+    },
+    {
+      "organization": "NICE",
+      "title": "Multiple sclerosis in adults NG220",
+      "url": "https://www.nice.org.uk/guidance/ng220",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V1.9-BATCH-05",
+    "proposedGoldChapterNumber": 77
+  }
+}

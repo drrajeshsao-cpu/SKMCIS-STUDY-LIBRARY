@@ -1,0 +1,105 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-NEU-LSPlex-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Lumbar Plexopathy / Lumbosacral Plexopathy",
+  "synonyms": [
+    "Lumbosacral plexopathy"
+  ],
+  "category": "Neurology > Plexus",
+  "tags": [
+    "lumbosacral plexus",
+    "plexopathy",
+    "leg weakness",
+    "neuropathy"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Disorder of the lumbosacral plexus causing pain, weakness and sensory loss across multiple root/peripheral nerve territories.",
+  "clinicalPattern": {
+    "typical": [
+      "Pelvic/thigh pain",
+      "Patchy leg weakness",
+      "Multifocal sensory loss",
+      "Reduced reflexes depending on distribution"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Pelvic malignancy/hematoma"
+    },
+    {
+      "level": "RED",
+      "item": "Rapid progressive weakness"
+    },
+    {
+      "level": "RED",
+      "item": "Severe trauma"
+    },
+    {
+      "level": "RED",
+      "item": "Cauda equina features"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Detailed root/nerve localization",
+      "Motor/sensory/reflex exam",
+      "Hip/pelvic and lumbar assessment"
+    ]
+  },
+  "differentials": [
+    "Lumbar radiculopathy",
+    "Femoral/sciatic neuropathy",
+    "Cauda equina syndrome",
+    "Peripheral polyneuropathy"
+  ],
+  "investigations": {
+    "principle": "Electrodiagnostic testing helps localize.",
+    "MRI": "MRI pelvis/lumbosacral plexus and spine may identify tumour, hematoma or inflammation.",
+    "radiographs": "Radiographs are limited."
+  },
+  "management": {
+    "green": [
+      "Treat underlying cause",
+      "Pain control and rehabilitation",
+      "Gait/orthotic support when needed"
+    ],
+    "amber": [
+      "Urgent investigation is required when tumour, bleeding or rapid neurological progression is suspected."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Lower-limb Vata neurological phenotype may be recorded in parallel."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Disorder of the lumbosacral plexus causing pain, weakness and sensory loss across multiple root/peripheral nerve territories.",
+    "urgent": "Seek urgent assessment for acute/progressive neurological deficit, sphincter change, severe infection/systemic illness, major trauma, vascular compromise or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "AANEM",
+      "title": "Plexopathy electrodiagnostic resources",
+      "url": "https://www.aanem.org/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V1.9-BATCH-05",
+    "proposedGoldChapterNumber": 81
+  }
+}
