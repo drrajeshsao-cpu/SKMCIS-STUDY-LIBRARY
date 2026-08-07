@@ -16,27 +16,42 @@
 <nav class="nav" id="nav">
 <button data-view="dashboard" class="active">Dashboard</button>
 <button data-view="library">Disease Library</button>
-<button data-view="gold">Gold Chapter</button>
+<button data-view="gold">Gold Chapters</button>
 <button data-view="patient">Patient Education</button>
 <button data-view="sources">Sources & Validation</button>
 <button data-view="settings">Backup</button>
 </nav>
-
 <main>
 <section id="dashboard" class="view">
   <div class="hero">
-    <div><span class="eyebrow">STUDY-ONLY V1 FOUNDATION</span><h1>One master knowledge source. Multiple safe outputs.</h1>
-    <p>Recovered SKMCIS content is preserved separately from newly authored, source-checked content. Missing historical IDs are never guessed.</p></div>
+    <div>
+      <div class="heroStatusRow">
+        <span class="eyebrow">ORTHO • SPINE • NEURO — V1 COMPLETE</span>
+        <span class="completionBadge">✓ 550 GOLD CHAPTERS</span>
+      </div>
+      <h1>One clinical knowledge library. Multiple safe outputs.</h1>
+      <p>550 Ortho, Spine & Neurology Gold Chapters are now indexed in the V1 knowledge library. Recovered material remains separated from newly authored source-attributed drafts, and unresolved historical IDs are never guessed.</p>
+    </div>
     <div class="legend"><span class="green">Safe / ready</span><span class="amber">Caution / review</span><span class="red">Urgent / red flag</span><span class="blue">Diagnostic / information</span><span class="gray">Unvalidated / unresolved</span></div>
   </div>
   <div class="stats" id="stats"></div>
   <div class="grid2">
-    <article class="card"><h2>Production rule</h2><p><b>Recovered → Source checked → Clinician reviewed → Validated Master → Patient/Public output.</b></p><p>No disease becomes “Validated Master” automatically.</p></article>
-    <article class="card"><h2>First Gold Chapter</h2><p><b>Sciatica / Lumbosacral Radicular Pain</b> with Gridhrasi correlation is the first full chapter draft. It includes red flags, focused examination, imaging rules, management, rehabilitation, Ayurveda framework and patient education.</p><button class="btn primary" data-go="gold">Open chapter</button></article>
+    <article class="card">
+      <h2>Production workflow</h2>
+      <div class="workflow" aria-label="Knowledge validation workflow">
+        <span>Recovered</span><b>→</b><span>Source checked</span><b>→</b><span>Clinician review</span><b>→</b><span>Validated Master</span><b>→</b><span>Patient / Public output</span>
+      </div>
+      <p class="muted workflowNote">No disease becomes “Validated Master” automatically.</p>
+    </article>
+    <article class="card statusCard">
+      <div class="statusTitleRow"><h2>Library status</h2><span class="pill green">V1 COMPLETE</span></div>
+      <p><b>Ortho • Spine • Neurology V1 is complete at 550 Gold Chapters.</b></p>
+      <p>The current library is frozen for routine expansion. Future additions should be made only for a defined clinical need, quality correction, or structured V2 update.</p>
+      <button class="btn primary" data-go="gold">Open Gold Chapters</button>
+    </article>
   </div>
   <article class="card warning"><h2>Privacy baseline</h2><p>This PWA is for study/knowledge content only. Do not enter real patient names, phone numbers, reports, photos or other patient identifiers.</p></article>
 </section>
-
 <section id="library" class="view hidden">
   <div class="sectionHead"><div><h1>Master Disease Index</h1><p>Search across recovered legacy slots, clinical packs, 100-disease reference chart and Gold chapters.</p></div></div>
   <div class="filters">
@@ -47,7 +62,6 @@
   <div id="resultCount" class="muted"></div>
   <div id="libraryRows" class="libraryRows"></div>
 </section>
-
 <section id="gold" class="view hidden">
   <div class="sectionHead"><div><span class="pill green">GOLD CHAPTER DRAFT</span><h1 id="goldTitle"></h1><p id="goldMeta"></p><label class="chapterPicker">Gold Chapter <select id="goldSelect"></select></label></div>
     <div class="actions"><button class="btn" id="favGold">☆ Favorite</button><button class="btn" id="printGold">Print</button></div>
@@ -55,7 +69,6 @@
   <div class="quicknav" id="quicknav"></div>
   <div id="goldContent"></div>
 </section>
-
 <section id="patient" class="view hidden">
   <div class="sectionHead"><div><h1>Patient Education</h1><p>Derived only from the Gold chapter. Review before sharing.</p></div></div>
   <article class="card">
@@ -65,7 +78,6 @@
   </article>
   <article class="card redbox"><h2>Emergency warning</h2><p>New bladder/bowel difficulty, saddle/genital numbness, rapidly worsening leg weakness or severe bilateral symptoms need urgent emergency assessment.</p></article>
 </section>
-
 <section id="sources" class="view hidden">
   <div class="sectionHead"><div><h1>Sources & Validation</h1><p>Every clinical chapter must show where its evidence came from and what is still awaiting review.</p></div></div>
   <div id="sourceCards"></div>
@@ -75,13 +87,12 @@
     <p><span class="pill green">Validated Master</span> Reserved for content that has completed clinical + Ayurveda review and release checks.</p>
   </article>
 </section>
-
 <section id="settings" class="view hidden">
   <div class="sectionHead"><div><h1>Local Backup</h1><p>Exports favorites and study progress only — no patient data.</p></div></div>
   <article class="card"><h2>Study-state backup</h2><div class="actions"><button class="btn primary" id="exportState">Export JSON</button><label class="btn">Restore JSON<input id="restoreState" type="file" accept=".json,application/json" hidden></label><button class="btn danger" id="clearState">Clear local study state</button></div><p id="backupMsg" class="muted"></p></article>
   <article class="card"><h2>V1 safety boundary</h2><p>No login, prescriptions, patient records, cloud sync, AI diagnosis or medication dosing are included in this study-only foundation. Those require separate security and clinical validation.</p></article>
 </section>
 </main>
-<footer>SKMCIS Study Library V1 • Study & clinical decision-support knowledge only • Final clinical decisions require qualified clinician judgment.</footer>
+<footer><b>SKMCIS Study Library • V4.2 • Ortho–Spine–Neuro V1 Complete • 550 Gold Chapters</b><br>Study & clinical decision-support knowledge only • Final clinical decisions require qualified clinician judgment.</footer>
 <script src="app.js"></script>
 </body></html>
