@@ -165,7 +165,27 @@
     "gold-chapters/164-thoracic-radiculopathy.json",
     "gold-chapters/165-costochondritis.json",
     "gold-chapters/166-tietze-syndrome.json",
-    "gold-chapters/167-prepatellar-bursitis.json"
+    "gold-chapters/167-prepatellar-bursitis.json",
+    "gold-chapters/168-cervical-spine-fracture.json",
+    "gold-chapters/169-thoracolumbar-spine-fracture.json",
+    "gold-chapters/170-burst-fracture-of-the-spine.json",
+    "gold-chapters/171-chance-fracture-flexion-distraction-injury.json",
+    "gold-chapters/172-atlantoaxial-instability.json",
+    "gold-chapters/173-spondylodiscitis-pyogenic.json",
+    "gold-chapters/174-ankylosed-spine-fracture.json",
+    "gold-chapters/175-olecranon-fracture.json",
+    "gold-chapters/176-supracondylar-fracture-of-humerus-in-children.json",
+    "gold-chapters/177-pelvic-ring-fracture.json",
+    "gold-chapters/178-acetabular-fracture.json",
+    "gold-chapters/179-tibial-plateau-fracture.json",
+    "gold-chapters/180-patellar-fracture.json",
+    "gold-chapters/181-navicular-stress-fracture-of-the-foot.json",
+    "gold-chapters/182-sesamoiditis-hallux-sesamoid-stress-injury.json",
+    "gold-chapters/183-turf-toe-first-mtp-sprain.json",
+    "gold-chapters/184-swan-neck-deformity.json",
+    "gold-chapters/185-boutonni-re-deformity.json",
+    "gold-chapters/186-idiopathic-inflammatory-myopathy.json",
+    "gold-chapters/187-dermatomyositis.json"
   ],
-  "expectedTotalGold": 168
+  "expectedTotalGold": 188
 }

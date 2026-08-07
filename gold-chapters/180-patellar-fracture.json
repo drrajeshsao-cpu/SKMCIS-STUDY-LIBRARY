@@ -1,0 +1,93 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-ORT-PATF-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Patellar Fracture",
+  "synonyms": [],
+  "category": "Orthopedics > Knee > Fracture",
+  "tags": [
+    "patellar fracture"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Fracture of the patella from direct trauma or forceful quadriceps contraction, potentially disrupting the extensor mechanism.",
+  "clinicalPattern": {
+    "typical": [
+      "Anterior knee pain/swelling",
+      "Tenderness over patella",
+      "Difficulty straight-leg raise"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Open fracture"
+    },
+    {
+      "level": "RED",
+      "item": "Loss of extensor mechanism"
+    },
+    {
+      "level": "RED",
+      "item": "Neurovascular compromise"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Straight-leg raise",
+      "Skin and swelling",
+      "Neurovascular exam"
+    ]
+  },
+  "differentials": [
+    "Patellar tendon rupture",
+    "Quadriceps tendon rupture",
+    "Prepatellar bursitis"
+  ],
+  "investigations": {
+    "principle": "Radiographs establish fracture pattern.",
+    "MRI": "Use MRI when the condition-specific question requires soft-tissue, neural, marrow or occult-injury assessment.",
+    "radiographs": "Use radiographs/CT according to the condition-specific imaging pathway."
+  },
+  "management": {
+    "green": [
+      "Immobilization in extension for suitable stable fractures",
+      "Orthopedic follow-up"
+    ],
+    "amber": [
+      "Displaced fractures with extensor-mechanism disruption often require surgery."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Janu-bhagna framework may complement recovery after stabilization."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Fracture of the patella from direct trauma or forceful quadriceps contraction, potentially disrupting the extensor mechanism.",
+    "urgent": "Seek urgent assessment for major trauma, acute/progressive neurological deficit, severe infection/systemic illness, vascular compromise or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "AAOS OrthoInfo",
+      "title": "Patellar Fractures",
+      "url": "https://orthoinfo.aaos.org/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V2.4-BATCH-10",
+    "proposedGoldChapterNumber": 180
+  }
+}

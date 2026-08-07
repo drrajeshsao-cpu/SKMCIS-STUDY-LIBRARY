@@ -1,0 +1,92 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-ORT-OLF-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Olecranon Fracture",
+  "synonyms": [],
+  "category": "Orthopedics > Elbow > Fracture",
+  "tags": [
+    "olecranon fracture"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Fracture of the olecranon process, commonly from direct trauma or a fall, sometimes disrupting the extensor mechanism.",
+  "clinicalPattern": {
+    "typical": [
+      "Posterior elbow pain/swelling",
+      "Difficulty extending elbow"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Open fracture"
+    },
+    {
+      "level": "RED",
+      "item": "Neurovascular compromise"
+    },
+    {
+      "level": "RED",
+      "item": "Associated dislocation"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Skin",
+      "Active extension",
+      "Ulnar nerve and distal neurovascular exam"
+    ]
+  },
+  "differentials": [
+    "Elbow dislocation",
+    "Triceps tendon injury",
+    "Radial head fracture"
+  ],
+  "investigations": {
+    "principle": "AP/lateral elbow radiographs usually establish diagnosis.",
+    "MRI": "Use MRI when the condition-specific question requires soft-tissue, neural, marrow or occult-injury assessment.",
+    "radiographs": "Use radiographs/CT according to the condition-specific imaging pathway."
+  },
+  "management": {
+    "green": [
+      "Immobilization and analgesia",
+      "Early orthopedic assessment"
+    ],
+    "amber": [
+      "Displaced fractures with extensor-mechanism disruption often require fixation."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Kurpara-bhagna principles may complement rehabilitation after stabilization."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Fracture of the olecranon process, commonly from direct trauma or a fall, sometimes disrupting the extensor mechanism.",
+    "urgent": "Seek urgent assessment for major trauma, acute/progressive neurological deficit, severe infection/systemic illness, vascular compromise or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "AAOS OrthoInfo",
+      "title": "Elbow Fractures",
+      "url": "https://orthoinfo.aaos.org/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V2.4-BATCH-10",
+    "proposedGoldChapterNumber": 175
+  }
+}

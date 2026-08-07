@@ -1,0 +1,94 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-ORT-SND-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Swan-Neck Deformity",
+  "synonyms": [],
+  "category": "Orthopedics > Hand > Deformity",
+  "tags": [
+    "swan-neck deformity"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Finger deformity characterized by PIP hyperextension with DIP flexion due to tendon/ligament imbalance, rheumatoid disease, trauma or neurological conditions.",
+  "clinicalPattern": {
+    "typical": [
+      "PIP hyperextension",
+      "DIP flexion",
+      "Difficulty gripping"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Acute traumatic tendon injury"
+    },
+    {
+      "level": "RED",
+      "item": "Open injury"
+    },
+    {
+      "level": "RED",
+      "item": "Neurovascular compromise"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Passive correctability",
+      "PIP/DIP ROM",
+      "Intrinsic tightness"
+    ]
+  },
+  "differentials": [
+    "Boutonnière deformity",
+    "Mallet finger",
+    "Trigger finger"
+  ],
+  "investigations": {
+    "principle": "Diagnosis is mainly clinical; radiographs assess joint damage or arthritis.",
+    "MRI": "Use MRI when the condition-specific question requires soft-tissue, neural, marrow or occult-injury assessment.",
+    "radiographs": "Use radiographs/CT according to the condition-specific imaging pathway."
+  },
+  "management": {
+    "green": [
+      "Hand therapy",
+      "Splint/ring strategies in flexible deformity",
+      "Treat underlying disease"
+    ],
+    "amber": [
+      "Fixed or function-limiting deformity may require hand surgery."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Anguli/Snayu deformity phenotype may be documented descriptively."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Finger deformity characterized by PIP hyperextension with DIP flexion due to tendon/ligament imbalance, rheumatoid disease, trauma or neurological conditions.",
+    "urgent": "Seek urgent assessment for major trauma, acute/progressive neurological deficit, severe infection/systemic illness, vascular compromise or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "BSSH",
+      "title": "Hand deformity resources",
+      "url": "https://www.bssh.ac.uk/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V2.4-BATCH-10",
+    "proposedGoldChapterNumber": 184
+  }
+}

@@ -1,0 +1,93 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-ORT-BD-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Boutonnière Deformity",
+  "synonyms": [],
+  "category": "Orthopedics > Hand > Deformity",
+  "tags": [
+    "boutonnière deformity"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Finger deformity caused by central-slip extensor dysfunction, producing PIP flexion and DIP hyperextension.",
+  "clinicalPattern": {
+    "typical": [
+      "PIP flexion posture",
+      "DIP hyperextension",
+      "History of jammed finger or inflammatory arthritis"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Open tendon injury"
+    },
+    {
+      "level": "RED",
+      "item": "Associated fracture-dislocation"
+    },
+    {
+      "level": "RED",
+      "item": "Neurovascular compromise"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Elson test in acute suspected injury",
+      "PIP/DIP ROM",
+      "Joint stability"
+    ]
+  },
+  "differentials": [
+    "Swan-neck deformity",
+    "Mallet finger",
+    "PIP sprain"
+  ],
+  "investigations": {
+    "principle": "Clinical diagnosis is central; radiographs exclude avulsion fracture/dislocation.",
+    "MRI": "Use MRI when the condition-specific question requires soft-tissue, neural, marrow or occult-injury assessment.",
+    "radiographs": "Use radiographs/CT according to the condition-specific imaging pathway."
+  },
+  "management": {
+    "green": [
+      "Early extension splinting for appropriate acute injury",
+      "Hand therapy"
+    ],
+    "amber": [
+      "Chronic fixed deformity may need reconstruction."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Anguli-Snayu injury phenotype may be documented."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Finger deformity caused by central-slip extensor dysfunction, producing PIP flexion and DIP hyperextension.",
+    "urgent": "Seek urgent assessment for major trauma, acute/progressive neurological deficit, severe infection/systemic illness, vascular compromise or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "BSSH",
+      "title": "Extensor tendon injury resources",
+      "url": "https://www.bssh.ac.uk/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V2.4-BATCH-10",
+    "proposedGoldChapterNumber": 185
+  }
+}

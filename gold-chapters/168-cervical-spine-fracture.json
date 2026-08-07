@@ -1,0 +1,99 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-CSP-CFX-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Cervical Spine Fracture",
+  "synonyms": [],
+  "category": "Spine > Cervical > Trauma",
+  "tags": [
+    "cervical spine fracture"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Traumatic fracture of one or more cervical vertebrae, ranging from stable injury to unstable fracture-dislocation with spinal cord risk.",
+  "clinicalPattern": {
+    "typical": [
+      "Neck pain after trauma",
+      "Midline tenderness",
+      "Possible radiculopathy or myelopathy"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Any neurological deficit after cervical trauma"
+    },
+    {
+      "level": "RED",
+      "item": "High-energy trauma"
+    },
+    {
+      "level": "RED",
+      "item": "Suspected instability"
+    }
+  ],
+  "examination": {
+    "core": [
+      "ATLS priorities",
+      "Motor/sensory/reflex exam",
+      "Cervical tenderness"
+    ]
+  },
+  "differentials": [
+    "Cervical strain",
+    "Whiplash",
+    "Disc or ligamentous injury"
+  ],
+  "investigations": {
+    "principle": "CT is preferred in many high-risk adult trauma pathways; MRI assesses cord, disc and ligament injury.",
+    "MRI": "Use MRI when the condition-specific question requires soft-tissue, neural, marrow or occult-injury assessment.",
+    "radiographs": "Use radiographs/CT according to the condition-specific imaging pathway."
+  },
+  "management": {
+    "green": [
+      "Spinal precautions when instability is suspected",
+      "Urgent trauma/spine pathway"
+    ],
+    "amber": [
+      "Do not perform forceful manipulation until fracture/instability is excluded."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Abhighata/Bhagna concepts may be documented only after modern stabilization."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Traumatic fracture of one or more cervical vertebrae, ranging from stable injury to unstable fracture-dislocation with spinal cord risk.",
+    "urgent": "Seek urgent assessment for major trauma, acute/progressive neurological deficit, severe infection/systemic illness, vascular compromise or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "ACR",
+      "title": "Acute Spinal Trauma",
+      "url": "https://acsearch.acr.org/",
+      "checked": "2026-08-07"
+    },
+    {
+      "organization": "NICE",
+      "title": "Spinal injury assessment",
+      "url": "https://www.nice.org.uk/guidance/ng41",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V2.4-BATCH-10",
+    "proposedGoldChapterNumber": 168
+  }
+}

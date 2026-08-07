@@ -1,0 +1,92 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-PED-SCHF-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Supracondylar Fracture of Humerus in Children",
+  "synonyms": [],
+  "category": "Pediatric Orthopedics > Elbow > Fracture",
+  "tags": [
+    "supracondylar fracture of humerus in children"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Common pediatric elbow fracture just above the condyles, with potential vascular and nerve complications.",
+  "clinicalPattern": {
+    "typical": [
+      "Elbow pain/swelling after fall",
+      "Reduced motion",
+      "Deformity when displaced"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Absent/weak pulse"
+    },
+    {
+      "level": "RED",
+      "item": "Nerve deficit"
+    },
+    {
+      "level": "RED",
+      "item": "Compartment syndrome"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Brachial/radial pulse and perfusion",
+      "Median/AIN, radial and ulnar nerve exam"
+    ]
+  },
+  "differentials": [
+    "Elbow dislocation",
+    "Lateral condyle fracture",
+    "Radial neck fracture"
+  ],
+  "investigations": {
+    "principle": "AP/lateral elbow radiographs are standard.",
+    "MRI": "Use MRI when the condition-specific question requires soft-tissue, neural, marrow or occult-injury assessment.",
+    "radiographs": "Use radiographs/CT according to the condition-specific imaging pathway."
+  },
+  "management": {
+    "green": [
+      "Urgent immobilization",
+      "Prompt pediatric orthopedic pathway"
+    ],
+    "amber": [
+      "Displaced fractures usually require reduction and percutaneous pinning."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Bhagna principles may complement recovery only after modern neurovascular care."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Common pediatric elbow fracture just above the condyles, with potential vascular and nerve complications.",
+    "urgent": "Seek urgent assessment for major trauma, acute/progressive neurological deficit, severe infection/systemic illness, vascular compromise or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "AAOS",
+      "title": "Pediatric Supracondylar Humerus Fractures CPG",
+      "url": "https://www.aaos.org/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V2.4-BATCH-10",
+    "proposedGoldChapterNumber": 176
+  }
+}

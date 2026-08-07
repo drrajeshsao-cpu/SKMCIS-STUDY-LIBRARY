@@ -1,0 +1,93 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-ORT-NSF-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Navicular Stress Fracture of the Foot",
+  "synonyms": [],
+  "category": "Orthopedics > Foot > Stress Fracture",
+  "tags": [
+    "navicular stress fracture of the foot"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "High-risk stress fracture of the tarsal navicular, typically causing dorsal midfoot pain in running and jumping athletes.",
+  "clinicalPattern": {
+    "typical": [
+      "Activity-related dorsal midfoot pain",
+      "N-spot tenderness",
+      "Pain with hopping/running"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Persistent rest pain"
+    },
+    {
+      "level": "RED",
+      "item": "Delayed union/nonunion"
+    },
+    {
+      "level": "RED",
+      "item": "Displaced fracture"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Navicular tenderness",
+      "Foot biomechanics"
+    ]
+  },
+  "differentials": [
+    "Lisfranc injury",
+    "Midfoot sprain",
+    "Other stress injury"
+  ],
+  "investigations": {
+    "principle": "Early radiographs may be normal; MRI detects stress reaction and CT defines fracture/healing.",
+    "MRI": "Use MRI when the condition-specific question requires soft-tissue, neural, marrow or occult-injury assessment.",
+    "radiographs": "Use radiographs/CT according to the condition-specific imaging pathway."
+  },
+  "management": {
+    "green": [
+      "Stop impact loading",
+      "Protected/non-weight bearing according to severity",
+      "Bone-health assessment"
+    ],
+    "amber": [
+      "High-risk complete fractures may require prolonged immobilization or fixation."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Pada/Asthi overuse phenotype may be documented in parallel."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "High-risk stress fracture of the tarsal navicular, typically causing dorsal midfoot pain in running and jumping athletes.",
+    "urgent": "Seek urgent assessment for major trauma, acute/progressive neurological deficit, severe infection/systemic illness, vascular compromise or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "ACR",
+      "title": "Stress Fracture Imaging",
+      "url": "https://acsearch.acr.org/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V2.4-BATCH-10",
+    "proposedGoldChapterNumber": 181
+  }
+}

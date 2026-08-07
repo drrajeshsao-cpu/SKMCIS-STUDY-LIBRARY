@@ -1,0 +1,99 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-RHE-DM-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Dermatomyositis",
+  "synonyms": [],
+  "category": "Rheumatology > Inflammatory Myopathy",
+  "tags": [
+    "dermatomyositis"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Autoimmune inflammatory myopathy characterized by characteristic skin disease with variable proximal muscle weakness and potential lung, swallowing or malignancy associations.",
+  "clinicalPattern": {
+    "typical": [
+      "Proximal weakness",
+      "Heliotrope/Gottron-type rash",
+      "Fatigue",
+      "Possible dysphagia"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Respiratory compromise"
+    },
+    {
+      "level": "RED",
+      "item": "Severe dysphagia"
+    },
+    {
+      "level": "RED",
+      "item": "Interstitial lung disease features"
+    },
+    {
+      "level": "RED",
+      "item": "Rapid progression"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Proximal power",
+      "Characteristic skin findings",
+      "Respiratory/bulbar assessment"
+    ]
+  },
+  "differentials": [
+    "Other inflammatory myopathies",
+    "Drug-induced myopathy",
+    "SLE",
+    "Muscular dystrophy"
+  ],
+  "investigations": {
+    "principle": "Diagnosis uses clinical phenotype, muscle enzymes, antibodies, MRI/EMG and sometimes biopsy.",
+    "MRI": "Use MRI when the condition-specific question requires soft-tissue, neural, marrow or occult-injury assessment.",
+    "radiographs": "Use radiographs/CT according to the condition-specific imaging pathway."
+  },
+  "management": {
+    "green": [
+      "Rheumatology/dermatology/neuromuscular care",
+      "Rehabilitation after inflammation is controlled"
+    ],
+    "amber": [
+      "Immunotherapy and malignancy/ILD screening require specialist-directed assessment."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Mamsa/Rakta-related phenotype may be documented only as a parallel framework."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Autoimmune inflammatory myopathy characterized by characteristic skin disease with variable proximal muscle weakness and potential lung, swallowing or malignancy associations.",
+    "urgent": "Seek urgent assessment for major trauma, acute/progressive neurological deficit, severe infection/systemic illness, vascular compromise or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "EULAR/ACR",
+      "title": "Idiopathic inflammatory myopathy resources",
+      "url": "https://ard.bmj.com/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V2.4-BATCH-10",
+    "proposedGoldChapterNumber": 187
+  }
+}

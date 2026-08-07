@@ -1,0 +1,92 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-ORT-ACETF-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Acetabular Fracture",
+  "synonyms": [],
+  "category": "Orthopedics > Hip/Pelvis > Fracture",
+  "tags": [
+    "acetabular fracture"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Fracture involving the acetabular articular surface, usually after high-energy trauma but also occurring as fragility injury in older adults.",
+  "clinicalPattern": {
+    "typical": [
+      "Hip/groin pain",
+      "Inability to bear weight",
+      "Associated hip dislocation may occur"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Hip dislocation"
+    },
+    {
+      "level": "RED",
+      "item": "Sciatic nerve deficit"
+    },
+    {
+      "level": "RED",
+      "item": "Polytrauma"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Trauma survey",
+      "Sciatic nerve and distal vascular exam"
+    ]
+  },
+  "differentials": [
+    "Femoral neck fracture",
+    "Pelvic ring fracture",
+    "Hip dislocation"
+  ],
+  "investigations": {
+    "principle": "CT defines columns/walls and joint congruity; AP pelvis/Judet views supplement classification.",
+    "MRI": "Use MRI when the condition-specific question requires soft-tissue, neural, marrow or occult-injury assessment.",
+    "radiographs": "Use radiographs/CT according to the condition-specific imaging pathway."
+  },
+  "management": {
+    "green": [
+      "Trauma stabilization",
+      "Pelvic/acetabular specialist review"
+    ],
+    "amber": [
+      "Surgery depends on displacement, congruity, stability and patient factors."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Shroni-bhagna framework may be documented only after modern fracture planning."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Fracture involving the acetabular articular surface, usually after high-energy trauma but also occurring as fragility injury in older adults.",
+    "urgent": "Seek urgent assessment for major trauma, acute/progressive neurological deficit, severe infection/systemic illness, vascular compromise or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "AAOS OrthoInfo",
+      "title": "Acetabular Fractures",
+      "url": "https://orthoinfo.aaos.org/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V2.4-BATCH-10",
+    "proposedGoldChapterNumber": 178
+  }
+}

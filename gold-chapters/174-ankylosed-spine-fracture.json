@@ -1,0 +1,91 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-SPN-ANKFX-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Ankylosed Spine Fracture",
+  "synonyms": [],
+  "category": "Spine > Ankylosed Spine Trauma",
+  "tags": [
+    "ankylosed spine fracture"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Spinal fracture through a rigid ankylosed spine in conditions such as ankylosing spondylitis or DISH; these injuries are often unstable after minor trauma.",
+  "clinicalPattern": {
+    "typical": [
+      "New focal spinal pain after minor trauma",
+      "Marked baseline stiffness"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Any neurological change"
+    },
+    {
+      "level": "RED",
+      "item": "Minor trauma with new severe pain"
+    },
+    {
+      "level": "RED",
+      "item": "Suspected multilevel fracture"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Full neurological exam",
+      "Whole-spine tenderness"
+    ]
+  },
+  "differentials": [
+    "Mechanical pain",
+    "Compression fracture",
+    "Inflammatory flare"
+  ],
+  "investigations": {
+    "principle": "CT has a major role because radiographs can miss fractures; MRI assesses neural and ligamentous injury.",
+    "MRI": "Use MRI when the condition-specific question requires soft-tissue, neural, marrow or occult-injury assessment.",
+    "radiographs": "Use radiographs/CT according to the condition-specific imaging pathway."
+  },
+  "management": {
+    "green": [
+      "Spinal precautions",
+      "Urgent spine specialist review"
+    ],
+    "amber": [
+      "These injuries often require stabilization because of long-lever-arm instability."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Modern fracture instability assessment takes priority."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Spinal fracture through a rigid ankylosed spine in conditions such as ankylosing spondylitis or DISH; these injuries are often unstable after minor trauma.",
+    "urgent": "Seek urgent assessment for major trauma, acute/progressive neurological deficit, severe infection/systemic illness, vascular compromise or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "ACR",
+      "title": "Acute Spinal Trauma",
+      "url": "https://acsearch.acr.org/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V2.4-BATCH-10",
+    "proposedGoldChapterNumber": 174
+  }
+}

@@ -1,0 +1,95 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-RHE-IIM-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Idiopathic Inflammatory Myopathy",
+  "synonyms": [],
+  "category": "Rheumatology > Inflammatory Myopathy",
+  "tags": [
+    "idiopathic inflammatory myopathy"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Autoimmune inflammatory muscle disease causing predominantly proximal weakness, with several modern subtypes and potential systemic complications.",
+  "clinicalPattern": {
+    "typical": [
+      "Symmetric proximal weakness",
+      "Difficulty rising/climbing stairs",
+      "Possible dysphagia"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Respiratory muscle weakness"
+    },
+    {
+      "level": "RED",
+      "item": "Severe dysphagia/aspiration"
+    },
+    {
+      "level": "RED",
+      "item": "Rapid progression"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Proximal/distal power",
+      "Neck flexion",
+      "Skin rash screen",
+      "Respiratory/bulbar assessment"
+    ]
+  },
+  "differentials": [
+    "Steroid myopathy",
+    "Hypothyroid myopathy",
+    "Muscular dystrophy",
+    "Myasthenia gravis"
+  ],
+  "investigations": {
+    "principle": "Laboratory, antibody, MRI and electrodiagnostic evaluation are subtype-directed.",
+    "MRI": "Use MRI when the condition-specific question requires soft-tissue, neural, marrow or occult-injury assessment.",
+    "radiographs": "Use radiographs/CT according to the condition-specific imaging pathway."
+  },
+  "management": {
+    "green": [
+      "Rheumatology/neuromuscular specialist care",
+      "Rehabilitation once inflammation is controlled"
+    ],
+    "amber": [
+      "Immunosuppressive therapy requires subtype-specific monitoring and organ screening."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Mamsa-dhatu/Bala-kshaya phenotype may be explored only as a parallel framework."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Autoimmune inflammatory muscle disease causing predominantly proximal weakness, with several modern subtypes and potential systemic complications.",
+    "urgent": "Seek urgent assessment for major trauma, acute/progressive neurological deficit, severe infection/systemic illness, vascular compromise or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "EULAR/ACR",
+      "title": "Idiopathic inflammatory myopathy resources",
+      "url": "https://ard.bmj.com/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V2.4-BATCH-10",
+    "proposedGoldChapterNumber": 186
+  }
+}

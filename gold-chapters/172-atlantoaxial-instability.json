@@ -1,0 +1,93 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-CSP-AAI-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Atlantoaxial Instability",
+  "synonyms": [],
+  "category": "Spine > Craniovertebral Junction",
+  "tags": [
+    "atlantoaxial instability"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Excessive pathological motion between atlas and axis, congenital, inflammatory, traumatic or degenerative in origin, with potential cord compromise.",
+  "clinicalPattern": {
+    "typical": [
+      "Upper neck or occipital pain",
+      "Myelopathic symptoms",
+      "May be asymptomatic"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Myelopathy"
+    },
+    {
+      "level": "RED",
+      "item": "Acute neurological decline"
+    },
+    {
+      "level": "RED",
+      "item": "Trauma with known instability"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Neurological exam",
+      "Gait",
+      "Long-tract signs"
+    ]
+  },
+  "differentials": [
+    "Cervical spondylosis",
+    "Chiari malformation",
+    "Basilar invagination"
+  ],
+  "investigations": {
+    "principle": "MRI assesses cord compression; CT/dynamic studies are selected by specialists according to stability concern.",
+    "MRI": "Use MRI when the condition-specific question requires soft-tissue, neural, marrow or occult-injury assessment.",
+    "radiographs": "Use radiographs/CT according to the condition-specific imaging pathway."
+  },
+  "management": {
+    "green": [
+      "Avoid high-risk cervical manipulation",
+      "Spine/neurosurgical review when symptomatic"
+    ],
+    "amber": [
+      "Treatment ranges from observation to fusion depending on risk."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Greeva/Sandhi instability phenotype may be documented only in parallel."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Excessive pathological motion between atlas and axis, congenital, inflammatory, traumatic or degenerative in origin, with potential cord compromise.",
+    "urgent": "Seek urgent assessment for major trauma, acute/progressive neurological deficit, severe infection/systemic illness, vascular compromise or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "ACR",
+      "title": "Cervical spine imaging criteria",
+      "url": "https://acsearch.acr.org/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V2.4-BATCH-10",
+    "proposedGoldChapterNumber": 172
+  }
+}

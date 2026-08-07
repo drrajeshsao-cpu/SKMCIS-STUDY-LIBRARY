@@ -1,0 +1,99 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-SPN-PYD-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Spondylodiscitis - Pyogenic",
+  "synonyms": [],
+  "category": "Spine > Infection",
+  "tags": [
+    "spondylodiscitis - pyogenic"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Bacterial infection of an intervertebral disc and adjacent vertebral endplates, sometimes complicated by epidural or paraspinal infection.",
+  "clinicalPattern": {
+    "typical": [
+      "Persistent focal back pain",
+      "Rest/night pain",
+      "Fever may be absent"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Sepsis"
+    },
+    {
+      "level": "RED",
+      "item": "Epidural abscess"
+    },
+    {
+      "level": "RED",
+      "item": "Progressive neurological deficit"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Spinal tenderness",
+      "Full neurological exam",
+      "Systemic infection assessment"
+    ]
+  },
+  "differentials": [
+    "Modic change",
+    "Spinal TB",
+    "Metastasis"
+  ],
+  "investigations": {
+    "principle": "Blood cultures and inflammatory markers plus contrast MRI are central to diagnosis.",
+    "MRI": "Use MRI when the condition-specific question requires soft-tissue, neural, marrow or occult-injury assessment.",
+    "radiographs": "Use radiographs/CT according to the condition-specific imaging pathway."
+  },
+  "management": {
+    "green": [
+      "Urgent infectious-disease/spine assessment",
+      "Culture-directed antimicrobial therapy"
+    ],
+    "amber": [
+      "Biopsy or surgery is selected when diagnosis is unclear, instability or neural compression exists."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Any Shotha/Asthi-Majja framework is secondary to antimicrobial care."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Bacterial infection of an intervertebral disc and adjacent vertebral endplates, sometimes complicated by epidural or paraspinal infection.",
+    "urgent": "Seek urgent assessment for major trauma, acute/progressive neurological deficit, severe infection/systemic illness, vascular compromise or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "IDSA",
+      "title": "Native Vertebral Osteomyelitis Guideline",
+      "url": "https://www.idsociety.org/",
+      "checked": "2026-08-07"
+    },
+    {
+      "organization": "ACR",
+      "title": "Suspected Spine Infection",
+      "url": "https://acsearch.acr.org/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V2.4-BATCH-10",
+    "proposedGoldChapterNumber": 173
+  }
+}

@@ -1,0 +1,95 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-ORT-SES-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Sesamoiditis / Hallux Sesamoid Stress Injury",
+  "synonyms": [],
+  "category": "Orthopedics > Foot > Forefoot",
+  "tags": [
+    "sesamoiditis / hallux sesamoid stress injury"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Painful overload or stress injury of the sesamoid complex beneath the first metatarsal head.",
+  "clinicalPattern": {
+    "typical": [
+      "Plantar pain beneath first MTP",
+      "Pain with push-off",
+      "Localized sesamoid tenderness"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Acute displaced fracture"
+    },
+    {
+      "level": "RED",
+      "item": "Infection"
+    },
+    {
+      "level": "RED",
+      "item": "AVN concern"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Sesamoid palpation",
+      "First-MTP ROM",
+      "Gait/footwear assessment"
+    ]
+  },
+  "differentials": [
+    "Hallux rigidus",
+    "Gout",
+    "Turf toe",
+    "Metatarsalgia"
+  ],
+  "investigations": {
+    "principle": "MRI detects stress reaction/AVN; CT can characterize fracture; dedicated radiographs may assist.",
+    "MRI": "Use MRI when the condition-specific question requires soft-tissue, neural, marrow or occult-injury assessment.",
+    "radiographs": "Use radiographs/CT according to the condition-specific imaging pathway."
+  },
+  "management": {
+    "green": [
+      "Off-load forefoot",
+      "Footwear/orthotic modification",
+      "Graded return"
+    ],
+    "amber": [
+      "Persistent fracture or AVN requires specialist review."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Pada/Asthi-Sandhi load-related phenotype may be documented."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Painful overload or stress injury of the sesamoid complex beneath the first metatarsal head.",
+    "urgent": "Seek urgent assessment for major trauma, acute/progressive neurological deficit, severe infection/systemic illness, vascular compromise or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "AAOS OrthoInfo",
+      "title": "Sesamoiditis and Sesamoid Fracture",
+      "url": "https://orthoinfo.aaos.org/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V2.4-BATCH-10",
+    "proposedGoldChapterNumber": 182
+  }
+}

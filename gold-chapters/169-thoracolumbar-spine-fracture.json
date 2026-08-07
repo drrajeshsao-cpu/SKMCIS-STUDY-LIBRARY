@@ -1,0 +1,98 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-SPN-TLFX-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Thoracolumbar Spine Fracture",
+  "synonyms": [],
+  "category": "Spine > Thoracolumbar > Trauma",
+  "tags": [
+    "thoracolumbar spine fracture"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Traumatic fracture of the thoracic or lumbar spine, including compression, burst, flexion-distraction and fracture-dislocation patterns.",
+  "clinicalPattern": {
+    "typical": [
+      "Severe focal back pain after trauma",
+      "Spinal tenderness",
+      "Possible neurological deficit"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Progressive weakness"
+    },
+    {
+      "level": "RED",
+      "item": "Sphincter dysfunction"
+    },
+    {
+      "level": "RED",
+      "item": "Suspected unstable fracture"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Motor/sensory/reflex exam",
+      "Spinal tenderness/deformity"
+    ]
+  },
+  "differentials": [
+    "Compression fracture",
+    "Lumbar strain",
+    "Disc injury"
+  ],
+  "investigations": {
+    "principle": "CT defines bony morphology; MRI assesses neural elements and posterior ligament complex.",
+    "MRI": "Use MRI when the condition-specific question requires soft-tissue, neural, marrow or occult-injury assessment.",
+    "radiographs": "Use radiographs/CT according to the condition-specific imaging pathway."
+  },
+  "management": {
+    "green": [
+      "Trauma stabilization",
+      "Spine specialist review"
+    ],
+    "amber": [
+      "Bracing versus surgery depends on morphology, neurology and stability."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Bhagna principles may complement recovery only after modern stability assessment."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Traumatic fracture of the thoracic or lumbar spine, including compression, burst, flexion-distraction and fracture-dislocation patterns.",
+    "urgent": "Seek urgent assessment for major trauma, acute/progressive neurological deficit, severe infection/systemic illness, vascular compromise or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "ACR",
+      "title": "Acute Spinal Trauma",
+      "url": "https://acsearch.acr.org/",
+      "checked": "2026-08-07"
+    },
+    {
+      "organization": "AO Spine",
+      "title": "Thoracolumbar injury resources",
+      "url": "https://www.aofoundation.org/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V2.4-BATCH-10",
+    "proposedGoldChapterNumber": 169
+  }
+}

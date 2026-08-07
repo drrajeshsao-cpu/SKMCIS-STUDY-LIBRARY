@@ -1,0 +1,93 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-SPN-CHANCE-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Chance Fracture / Flexion-Distraction Injury",
+  "synonyms": [],
+  "category": "Spine > Trauma > Flexion-Distraction",
+  "tags": [
+    "chance fracture / flexion-distraction injury"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Flexion-distraction injury of the thoracolumbar spine, classically associated with lap-belt trauma and possible intra-abdominal injury.",
+  "clinicalPattern": {
+    "typical": [
+      "Thoracolumbar pain after flexion trauma",
+      "Seat-belt sign",
+      "Possible abdominal injury"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Associated visceral injury"
+    },
+    {
+      "level": "RED",
+      "item": "Neurological deficit"
+    },
+    {
+      "level": "RED",
+      "item": "Unstable posterior tension-band injury"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Trauma survey",
+      "Abdominal exam",
+      "Neurological exam"
+    ]
+  },
+  "differentials": [
+    "Burst fracture",
+    "Compression fracture",
+    "Posterior ligamentous injury"
+  ],
+  "investigations": {
+    "principle": "CT defines osseous injury; MRI assesses posterior ligament complex and neural injury.",
+    "MRI": "Use MRI when the condition-specific question requires soft-tissue, neural, marrow or occult-injury assessment.",
+    "radiographs": "Use radiographs/CT according to the condition-specific imaging pathway."
+  },
+  "management": {
+    "green": [
+      "Urgent trauma/spine assessment",
+      "Evaluate associated abdominal injury"
+    ],
+    "amber": [
+      "Unstable ligamentous injuries frequently require surgery."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Bhagna/Abhighata documentation is secondary to trauma management."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Flexion-distraction injury of the thoracolumbar spine, classically associated with lap-belt trauma and possible intra-abdominal injury.",
+    "urgent": "Seek urgent assessment for major trauma, acute/progressive neurological deficit, severe infection/systemic illness, vascular compromise or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "ACR",
+      "title": "Acute Spinal Trauma",
+      "url": "https://acsearch.acr.org/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V2.4-BATCH-10",
+    "proposedGoldChapterNumber": 171
+  }
+}

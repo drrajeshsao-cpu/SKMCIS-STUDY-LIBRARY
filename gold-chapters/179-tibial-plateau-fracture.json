@@ -1,0 +1,94 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-ORT-TPF-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Tibial Plateau Fracture",
+  "synonyms": [],
+  "category": "Orthopedics > Knee > Fracture",
+  "tags": [
+    "tibial plateau fracture"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Intra-articular fracture of the proximal tibia involving the knee joint, with risk of soft-tissue injury and compartment syndrome.",
+  "clinicalPattern": {
+    "typical": [
+      "Knee pain/swelling",
+      "Inability to bear weight",
+      "Large effusion"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Compartment syndrome"
+    },
+    {
+      "level": "RED",
+      "item": "Neurovascular compromise"
+    },
+    {
+      "level": "RED",
+      "item": "Open fracture"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Serial compartment assessment",
+      "Distal pulses/nerves",
+      "Skin/soft tissue"
+    ]
+  },
+  "differentials": [
+    "ACL injury",
+    "Meniscal injury",
+    "Patellar fracture"
+  ],
+  "investigations": {
+    "principle": "CT helps define depression/splitting and surgical anatomy; MRI is selective for ligament/meniscal injury.",
+    "MRI": "Use MRI when the condition-specific question requires soft-tissue, neural, marrow or occult-injury assessment.",
+    "radiographs": "Use radiographs/CT according to the condition-specific imaging pathway."
+  },
+  "management": {
+    "green": [
+      "Immobilization",
+      "Strict weight-bearing plan",
+      "Orthopedic evaluation"
+    ],
+    "amber": [
+      "Fixation depends on displacement, instability and soft-tissue status."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Janu-bhagna principles may complement rehabilitation after stability planning."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Intra-articular fracture of the proximal tibia involving the knee joint, with risk of soft-tissue injury and compartment syndrome.",
+    "urgent": "Seek urgent assessment for major trauma, acute/progressive neurological deficit, severe infection/systemic illness, vascular compromise or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "AAOS OrthoInfo",
+      "title": "Tibial Plateau Fractures",
+      "url": "https://orthoinfo.aaos.org/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V2.4-BATCH-10",
+    "proposedGoldChapterNumber": 179
+  }
+}

@@ -1,0 +1,94 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-ORT-TT-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Turf Toe / First MTP Sprain",
+  "synonyms": [],
+  "category": "Orthopedics > Foot > Ligament",
+  "tags": [
+    "turf toe / first mtp sprain"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Sprain of the plantar capsuloligamentous complex of the first metatarsophalangeal joint, usually from forced hyperextension during sport.",
+  "clinicalPattern": {
+    "typical": [
+      "Pain/swelling at first MTP",
+      "Pain with push-off",
+      "Reduced sport performance"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Dislocation"
+    },
+    {
+      "level": "RED",
+      "item": "Sesamoid fracture/retraction"
+    },
+    {
+      "level": "RED",
+      "item": "Severe instability"
+    }
+  ],
+  "examination": {
+    "core": [
+      "First-MTP tenderness",
+      "Stability/dorsiflexion stress",
+      "Sesamoid position"
+    ]
+  },
+  "differentials": [
+    "Sesamoiditis",
+    "Hallux rigidus",
+    "Gout"
+  ],
+  "investigations": {
+    "principle": "Radiographs assess fracture/sesamoid position; MRI can grade severe plantar-plate injury.",
+    "MRI": "Use MRI when the condition-specific question requires soft-tissue, neural, marrow or occult-injury assessment.",
+    "radiographs": "Use radiographs/CT according to the condition-specific imaging pathway."
+  },
+  "management": {
+    "green": [
+      "Protected weight bearing",
+      "Stiff-soled footwear/taping",
+      "Progressive return"
+    ],
+    "amber": [
+      "High-grade unstable injuries may require repair."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Pada-anguli Snayu injury phenotype may be documented."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Sprain of the plantar capsuloligamentous complex of the first metatarsophalangeal joint, usually from forced hyperextension during sport.",
+    "urgent": "Seek urgent assessment for major trauma, acute/progressive neurological deficit, severe infection/systemic illness, vascular compromise or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "British Journal of Sports Medicine",
+      "title": "Turf toe review literature",
+      "url": "https://bjsm.bmj.com/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V2.4-BATCH-10",
+    "proposedGoldChapterNumber": 183
+  }
+}

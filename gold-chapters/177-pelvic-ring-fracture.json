@@ -1,0 +1,92 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-ORT-PRF-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Pelvic Ring Fracture",
+  "synonyms": [],
+  "category": "Orthopedics > Pelvis > Fracture",
+  "tags": [
+    "pelvic ring fracture"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Fracture or ligamentous disruption of the pelvic ring, ranging from stable fragility injury to unstable high-energy trauma with hemorrhage risk.",
+  "clinicalPattern": {
+    "typical": [
+      "Pelvic/groin pain",
+      "Pain with weight bearing",
+      "High-energy or fragility mechanism"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Hemodynamic instability"
+    },
+    {
+      "level": "RED",
+      "item": "Open pelvic injury"
+    },
+    {
+      "level": "RED",
+      "item": "Major hemorrhage"
+    }
+  ],
+  "examination": {
+    "core": [
+      "ATLS assessment",
+      "Neurovascular/urologic assessment"
+    ]
+  },
+  "differentials": [
+    "Hip fracture",
+    "Acetabular fracture",
+    "Sacral insufficiency fracture"
+  ],
+  "investigations": {
+    "principle": "CT is central in major trauma; MRI can detect occult fragility injury.",
+    "MRI": "Use MRI when the condition-specific question requires soft-tissue, neural, marrow or occult-injury assessment.",
+    "radiographs": "Use radiographs/CT according to the condition-specific imaging pathway."
+  },
+  "management": {
+    "green": [
+      "Hemorrhage control and trauma stabilization",
+      "Orthopedic review"
+    ],
+    "amber": [
+      "Unstable injuries may require fixation, embolization and multidisciplinary trauma care."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Bhagna management may support recovery only after stabilization."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Fracture or ligamentous disruption of the pelvic ring, ranging from stable fragility injury to unstable high-energy trauma with hemorrhage risk.",
+    "urgent": "Seek urgent assessment for major trauma, acute/progressive neurological deficit, severe infection/systemic illness, vascular compromise or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "NICE",
+      "title": "Major trauma",
+      "url": "https://www.nice.org.uk/guidance/ng39",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V2.4-BATCH-10",
+    "proposedGoldChapterNumber": 177
+  }
+}
