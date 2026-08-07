@@ -1,0 +1,94 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-PED-TSEF-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Tibial Spine / Tibial Eminence Fracture",
+  "synonyms": [],
+  "category": "Pediatric Orthopedics > Knee > ACL Avulsion",
+  "tags": [
+    "tibial spine / tibial eminence fracture"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Avulsion fracture of the tibial attachment of the ACL, most common in skeletally immature patients and functionally analogous to an ACL injury.",
+  "clinicalPattern": {
+    "typical": [
+      "Acute knee effusion",
+      "Pain after twisting/fall",
+      "Loss of extension",
+      "Instability"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Locked knee"
+    },
+    {
+      "level": "RED",
+      "item": "Meniscal entrapment"
+    },
+    {
+      "level": "RED",
+      "item": "Neurovascular compromise"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Effusion",
+      "ROM",
+      "ACL stability after acute pain allows"
+    ]
+  },
+  "differentials": [
+    "ACL tear",
+    "Tibial plateau fracture",
+    "Meniscal tear"
+  ],
+  "investigations": {
+    "principle": "Radiographs are first-line; MRI assesses displacement, meniscal entrapment and associated injuries.",
+    "MRI": "Use MRI when neural, soft-tissue, physeal, occult injury, deformity or other condition-specific assessment requires it.",
+    "radiographs": "Use radiographs and/or CT according to the condition-specific diagnostic pathway."
+  },
+  "management": {
+    "green": [
+      "Immobilization for selected nondisplaced injuries",
+      "Early pediatric sports/orthopedic review"
+    ],
+    "amber": [
+      "Displaced fractures commonly require arthroscopic reduction/fixation."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Janu-bhagna/Snayu phenotype may be documented."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Avulsion fracture of the tibial attachment of the ACL, most common in skeletally immature patients and functionally analogous to an ACL injury.",
+    "urgent": "Seek urgent assessment for acute neurovascular compromise, major trauma, open injury, severe deformity, rapidly progressive neurological symptoms, suspected infection or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "POSNA",
+      "title": "Tibial Spine Fractures",
+      "url": "https://posna.org/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V3.6-BATCH-22",
+    "proposedGoldChapterNumber": 425
+  }
+}

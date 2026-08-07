@@ -1,0 +1,93 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-ORT-SAB-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Subacromial Bursitis",
+  "synonyms": [],
+  "category": "Orthopedics > Shoulder > Bursa",
+  "tags": [
+    "subacromial bursitis"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Inflammation or irritation of the subacromial-subdeltoid bursa, often coexisting with rotator cuff-related shoulder pain.",
+  "clinicalPattern": {
+    "typical": [
+      "Lateral shoulder pain",
+      "Painful arc",
+      "Pain lying on shoulder"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Septic bursitis"
+    },
+    {
+      "level": "RED",
+      "item": "Acute major trauma"
+    },
+    {
+      "level": "RED",
+      "item": "Neurological deficit"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Painful arc",
+      "Rotator cuff testing",
+      "Cervical screen"
+    ]
+  },
+  "differentials": [
+    "Rotator cuff tendinopathy",
+    "Adhesive capsulitis",
+    "AC joint pain"
+  ],
+  "investigations": {
+    "principle": "Usually clinical; ultrasound may demonstrate bursal fluid/thickening but must be correlated with symptoms.",
+    "MRI": "Use MRI when neural, soft-tissue, physeal, occult injury, deformity or other condition-specific assessment requires it.",
+    "radiographs": "Use radiographs and/or CT according to the condition-specific diagnostic pathway."
+  },
+  "management": {
+    "green": [
+      "Exercise rehabilitation",
+      "Load modification"
+    ],
+    "amber": [
+      "Injection may be considered selectively but should not replace rehabilitation."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Amsa-Shotha phenotype may be documented only in parallel."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Inflammation or irritation of the subacromial-subdeltoid bursa, often coexisting with rotator cuff-related shoulder pain.",
+    "urgent": "Seek urgent assessment for acute neurovascular compromise, major trauma, open injury, severe deformity, rapidly progressive neurological symptoms, suspected infection or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "JOSPT",
+      "title": "Shoulder Pain resources",
+      "url": "https://www.jospt.org/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V3.6-BATCH-22",
+    "proposedGoldChapterNumber": 421
+  }
+}

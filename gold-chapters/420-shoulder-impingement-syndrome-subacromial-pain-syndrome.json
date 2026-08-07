@@ -1,0 +1,95 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-ORT-SAPS-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Shoulder Impingement Syndrome / Subacromial Pain Syndrome",
+  "synonyms": [],
+  "category": "Orthopedics > Shoulder > Subacromial Pain",
+  "tags": [
+    "shoulder impingement syndrome / subacromial pain syndrome"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Clinical syndrome of shoulder pain related to rotator cuff/subacromial structures, best understood as a symptom-based diagnosis rather than simple mechanical 'impingement'.",
+  "clinicalPattern": {
+    "typical": [
+      "Painful arc",
+      "Pain with overhead activity",
+      "Night pain",
+      "Rotator cuff weakness may be pain-limited"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Acute traumatic full-thickness tear"
+    },
+    {
+      "level": "RED",
+      "item": "Fracture/dislocation"
+    },
+    {
+      "level": "RED",
+      "item": "Neurological deficit"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Active/passive ROM",
+      "Rotator cuff strength",
+      "Scapular assessment",
+      "Cervical screen"
+    ]
+  },
+  "differentials": [
+    "Rotator cuff tear",
+    "Adhesive capsulitis",
+    "Cervical radiculopathy"
+  ],
+  "investigations": {
+    "principle": "Imaging is not routinely needed initially; ultrasound/MRI is used for persistent symptoms or suspected tear.",
+    "MRI": "Use MRI when neural, soft-tissue, physeal, occult injury, deformity or other condition-specific assessment requires it.",
+    "radiographs": "Use radiographs and/or CT according to the condition-specific diagnostic pathway."
+  },
+  "management": {
+    "green": [
+      "Exercise-based rotator cuff/scapular rehabilitation",
+      "Activity modification"
+    ],
+    "amber": [
+      "Avoid over-reliance on isolated provocative tests or imaging morphology."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Amsa-Snayu pain phenotype may be documented descriptively."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Clinical syndrome of shoulder pain related to rotator cuff/subacromial structures, best understood as a symptom-based diagnosis rather than simple mechanical 'impingement'.",
+    "urgent": "Seek urgent assessment for acute neurovascular compromise, major trauma, open injury, severe deformity, rapidly progressive neurological symptoms, suspected infection or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "JOSPT",
+      "title": "Rotator Cuff Related Shoulder Pain resources",
+      "url": "https://www.jospt.org/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V3.6-BATCH-22",
+    "proposedGoldChapterNumber": 420
+  }
+}

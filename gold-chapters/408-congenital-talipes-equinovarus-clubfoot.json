@@ -1,0 +1,93 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-PED-CTEV-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Congenital Talipes Equinovarus / Clubfoot",
+  "synonyms": [],
+  "category": "Pediatric Orthopedics > Foot > Congenital Deformity",
+  "tags": [
+    "congenital talipes equinovarus / clubfoot"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Congenital foot deformity characterized by cavus, adductus, varus and equinus, usually treated early with serial manipulation and casting.",
+  "clinicalPattern": {
+    "typical": [
+      "Inward/downward turned foot at birth",
+      "Rigid hindfoot varus/equinus",
+      "Smaller affected calf/foot"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Atypical rigid syndromic pattern"
+    },
+    {
+      "level": "RED",
+      "item": "Skin compromise during casting"
+    },
+    {
+      "level": "RED",
+      "item": "Neurological abnormality"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Cavus/adductus/varus/equinus components",
+      "Foot flexibility",
+      "Neurological and syndromic screen"
+    ]
+  },
+  "differentials": [
+    "Metatarsus adductus",
+    "Vertical talus",
+    "Neuromuscular clubfoot"
+  ],
+  "investigations": {
+    "principle": "Diagnosis is clinical; imaging is rarely required in typical infant clubfoot.",
+    "MRI": "Use MRI when neural, soft-tissue, physeal, occult injury, deformity or other condition-specific assessment requires it.",
+    "radiographs": "Use radiographs and/or CT according to the condition-specific diagnostic pathway."
+  },
+  "management": {
+    "green": [
+      "Early Ponseti-method referral",
+      "Bracing after correction to prevent relapse"
+    ],
+    "amber": [
+      "Relapse is common without brace adherence; resistant or atypical cases need pediatric orthopedic review."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Pada congenital deformity may be documented only in parallel."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Congenital foot deformity characterized by cavus, adductus, varus and equinus, usually treated early with serial manipulation and casting.",
+    "urgent": "Seek urgent assessment for acute neurovascular compromise, major trauma, open injury, severe deformity, rapidly progressive neurological symptoms, suspected infection or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "AAOS OrthoInfo",
+      "title": "Clubfoot",
+      "url": "https://orthoinfo.aaos.org/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V3.6-BATCH-22",
+    "proposedGoldChapterNumber": 408
+  }
+}

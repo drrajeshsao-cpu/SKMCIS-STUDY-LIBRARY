@@ -1,0 +1,93 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-PED-MTA-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Metatarsus Adductus",
+  "synonyms": [],
+  "category": "Pediatric Orthopedics > Foot > Developmental Deformity",
+  "tags": [
+    "metatarsus adductus"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Medial deviation of the forefoot relative to the hindfoot in infants, ranging from flexible positional deformity to rigid structural adduction.",
+  "clinicalPattern": {
+    "typical": [
+      "C-shaped lateral border",
+      "Forefoot adduction",
+      "Usually flexible in mild cases"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Rigid deformity"
+    },
+    {
+      "level": "RED",
+      "item": "Associated neuromuscular disorder"
+    },
+    {
+      "level": "RED",
+      "item": "Progressive painful deformity"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Forefoot flexibility",
+      "Heel bisector",
+      "Hindfoot alignment"
+    ]
+  },
+  "differentials": [
+    "Clubfoot",
+    "Skewfoot",
+    "Vertical talus"
+  ],
+  "investigations": {
+    "principle": "Imaging is usually unnecessary in flexible infant cases.",
+    "MRI": "Use MRI when neural, soft-tissue, physeal, occult injury, deformity or other condition-specific assessment requires it.",
+    "radiographs": "Use radiographs and/or CT according to the condition-specific diagnostic pathway."
+  },
+  "management": {
+    "green": [
+      "Observation/stretching for flexible cases",
+      "Serial casting for selected rigid deformities"
+    ],
+    "amber": [
+      "Persistent rigid deformity may require specialist treatment."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Pada-vikriti phenotype may be documented descriptively."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Medial deviation of the forefoot relative to the hindfoot in infants, ranging from flexible positional deformity to rigid structural adduction.",
+    "urgent": "Seek urgent assessment for acute neurovascular compromise, major trauma, open injury, severe deformity, rapidly progressive neurological symptoms, suspected infection or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "AAOS OrthoInfo",
+      "title": "Metatarsus Adductus",
+      "url": "https://orthoinfo.aaos.org/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V3.6-BATCH-22",
+    "proposedGoldChapterNumber": 409
+  }
+}

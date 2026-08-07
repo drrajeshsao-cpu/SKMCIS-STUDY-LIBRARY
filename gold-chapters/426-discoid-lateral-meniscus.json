@@ -1,0 +1,94 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-PED-DLM-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Discoid Lateral Meniscus",
+  "synonyms": [],
+  "category": "Pediatric Orthopedics > Knee > Meniscus",
+  "tags": [
+    "discoid lateral meniscus"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Congenital variant in which the lateral meniscus is abnormally broad/thick, sometimes causing snapping, pain, locking or tears.",
+  "clinicalPattern": {
+    "typical": [
+      "Snapping knee",
+      "Lateral joint-line pain",
+      "Intermittent locking",
+      "May be asymptomatic"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Locked knee"
+    },
+    {
+      "level": "RED",
+      "item": "Large unstable tear"
+    },
+    {
+      "level": "RED",
+      "item": "Acute traumatic extension block"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Joint-line tenderness",
+      "McMurray-type testing",
+      "ROM"
+    ]
+  },
+  "differentials": [
+    "Lateral meniscus tear",
+    "Osteochondritis dissecans",
+    "Patellar instability"
+  ],
+  "investigations": {
+    "principle": "MRI confirms discoid morphology and associated tear.",
+    "MRI": "Use MRI when neural, soft-tissue, physeal, occult injury, deformity or other condition-specific assessment requires it.",
+    "radiographs": "Use radiographs and/or CT according to the condition-specific diagnostic pathway."
+  },
+  "management": {
+    "green": [
+      "Observation if asymptomatic",
+      "Activity-guided rehab for mild stable symptoms"
+    ],
+    "amber": [
+      "Persistent symptomatic unstable tears may require arthroscopic saucerization/repair."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Janu-Sandhi structural phenotype may be documented."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Congenital variant in which the lateral meniscus is abnormally broad/thick, sometimes causing snapping, pain, locking or tears.",
+    "urgent": "Seek urgent assessment for acute neurovascular compromise, major trauma, open injury, severe deformity, rapidly progressive neurological symptoms, suspected infection or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "AAOS OrthoInfo",
+      "title": "Discoid Meniscus",
+      "url": "https://orthoinfo.aaos.org/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V3.6-BATCH-22",
+    "proposedGoldChapterNumber": 426
+  }
+}

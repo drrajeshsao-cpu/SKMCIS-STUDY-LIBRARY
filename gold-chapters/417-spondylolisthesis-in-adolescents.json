@@ -1,0 +1,95 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-PED-ASPL-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Spondylolisthesis in Adolescents",
+  "synonyms": [],
+  "category": "Pediatric Orthopedics > Spine > Lumbar",
+  "tags": [
+    "spondylolisthesis in adolescents"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Anterior translation of a vertebra, usually L5 on S1 in adolescents, often related to pars defects and repetitive extension loading.",
+  "clinicalPattern": {
+    "typical": [
+      "Low-back pain",
+      "Hamstring tightness",
+      "Pain with extension",
+      "High-grade slips may alter posture/gait"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Progressive neurological deficit"
+    },
+    {
+      "level": "RED",
+      "item": "High-grade progressive slip"
+    },
+    {
+      "level": "RED",
+      "item": "Sphincter dysfunction"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Lumbar extension",
+      "Hamstring tightness",
+      "Neurological exam",
+      "Posture/gait"
+    ]
+  },
+  "differentials": [
+    "Spondylolysis",
+    "Disc disease",
+    "Hip pathology"
+  ],
+  "investigations": {
+    "principle": "Standing lateral radiographs assess slip grade; MRI/CT are selected for pars/stress and neural questions.",
+    "MRI": "Use MRI when neural, soft-tissue, physeal, occult injury, deformity or other condition-specific assessment requires it.",
+    "radiographs": "Use radiographs and/or CT according to the condition-specific diagnostic pathway."
+  },
+  "management": {
+    "green": [
+      "Activity modification",
+      "Core/hamstring rehabilitation for stable low-grade slips"
+    ],
+    "amber": [
+      "High-grade or progressive symptomatic slips require pediatric spine surgical assessment."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Kati/Asthi-Sandhi phenotype may be documented only in parallel."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Anterior translation of a vertebra, usually L5 on S1 in adolescents, often related to pars defects and repetitive extension loading.",
+    "urgent": "Seek urgent assessment for acute neurovascular compromise, major trauma, open injury, severe deformity, rapidly progressive neurological symptoms, suspected infection or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "Scoliosis Research Society",
+      "title": "Spondylolisthesis",
+      "url": "https://www.srs.org/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V3.6-BATCH-22",
+    "proposedGoldChapterNumber": 417
+  }
+}

@@ -1,0 +1,94 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-PED-JDD-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Juvenile Disc Disorder / Adolescent Disc Degeneration",
+  "synonyms": [],
+  "category": "Pediatric Orthopedics > Spine > Disc",
+  "tags": [
+    "juvenile disc disorder / adolescent disc degeneration"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Symptomatic intervertebral disc degeneration or endplate-related disc disorder in adolescents, sometimes associated with back pain and early degenerative changes.",
+  "clinicalPattern": {
+    "typical": [
+      "Mechanical low-back pain",
+      "Pain with sitting/loading",
+      "Reduced spinal flexibility"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Neurological deficit"
+    },
+    {
+      "level": "RED",
+      "item": "Infection/tumor features"
+    },
+    {
+      "level": "RED",
+      "item": "Sphincter dysfunction"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Lumbar ROM",
+      "Neurological screen",
+      "Hip/hamstring assessment"
+    ]
+  },
+  "differentials": [
+    "Spondylolysis",
+    "Scheuermann disease",
+    "Disc herniation"
+  ],
+  "investigations": {
+    "principle": "MRI is used when persistent symptoms or red flags justify imaging.",
+    "MRI": "Use MRI when neural, soft-tissue, physeal, occult injury, deformity or other condition-specific assessment requires it.",
+    "radiographs": "Use radiographs and/or CT according to the condition-specific diagnostic pathway."
+  },
+  "management": {
+    "green": [
+      "Education",
+      "Activity modification",
+      "Core and mobility rehabilitation"
+    ],
+    "amber": [
+      "Imaging abnormalities should be correlated carefully because some disc changes are incidental."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Kati-shoola phenotype may be documented only in parallel."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Symptomatic intervertebral disc degeneration or endplate-related disc disorder in adolescents, sometimes associated with back pain and early degenerative changes.",
+    "urgent": "Seek urgent assessment for acute neurovascular compromise, major trauma, open injury, severe deformity, rapidly progressive neurological symptoms, suspected infection or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "ACR",
+      "title": "Back Pain-Child",
+      "url": "https://acsearch.acr.org/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V3.6-BATCH-22",
+    "proposedGoldChapterNumber": 418
+  }
+}

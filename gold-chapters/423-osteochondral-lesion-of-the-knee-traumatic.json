@@ -1,0 +1,96 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-ORT-OKT-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Osteochondral Lesion of the Knee - Traumatic",
+  "synonyms": [],
+  "category": "Orthopedics > Knee > Osteochondral Trauma",
+  "tags": [
+    "osteochondral lesion of the knee - traumatic"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Traumatic injury involving articular cartilage and underlying subchondral bone of the knee, sometimes producing loose bodies or mechanical symptoms.",
+  "clinicalPattern": {
+    "typical": [
+      "Pain after trauma",
+      "Effusion",
+      "Catching/locking",
+      "Persistent swelling"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Locked knee"
+    },
+    {
+      "level": "RED",
+      "item": "Large displaced osteochondral fragment"
+    },
+    {
+      "level": "RED",
+      "item": "Major ligament injury"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Effusion",
+      "ROM",
+      "Mechanical symptoms",
+      "Ligament/meniscus screen"
+    ]
+  },
+  "differentials": [
+    "Meniscal tear",
+    "Osteochondritis dissecans",
+    "Chondral defect"
+  ],
+  "investigations": {
+    "principle": "MRI defines osteochondral injury; radiographs may show larger fragments.",
+    "MRI": "Use MRI when neural, soft-tissue, physeal, occult injury, deformity or other condition-specific assessment requires it.",
+    "radiographs": "Use radiographs and/or CT according to the condition-specific diagnostic pathway."
+  },
+  "management": {
+    "green": [
+      "Protected loading",
+      "Orthopedic sports review",
+      "Rehabilitation"
+    ],
+    "amber": [
+      "Large unstable fragments may require fixation or cartilage-restoration procedures."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Janu Asthi-Sandhi injury phenotype may be documented."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Traumatic injury involving articular cartilage and underlying subchondral bone of the knee, sometimes producing loose bodies or mechanical symptoms.",
+    "urgent": "Seek urgent assessment for acute neurovascular compromise, major trauma, open injury, severe deformity, rapidly progressive neurological symptoms, suspected infection or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "AAOS",
+      "title": "Articular Cartilage Restoration resources",
+      "url": "https://orthoinfo.aaos.org/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V3.6-BATCH-22",
+    "proposedGoldChapterNumber": 423
+  }
+}

@@ -405,7 +405,27 @@
     "gold-chapters/404-sever-disease-calcaneal-apophysitis.json",
     "gold-chapters/405-k-hler-disease.json",
     "gold-chapters/406-flexible-flatfoot-in-children.json",
-    "gold-chapters/407-congenital-vertical-talus.json"
+    "gold-chapters/407-congenital-vertical-talus.json",
+    "gold-chapters/408-congenital-talipes-equinovarus-clubfoot.json",
+    "gold-chapters/409-metatarsus-adductus.json",
+    "gold-chapters/410-blount-disease-tibia-vara.json",
+    "gold-chapters/411-genu-valgum-in-children.json",
+    "gold-chapters/412-genu-varum-in-children.json",
+    "gold-chapters/413-leg-length-discrepancy.json",
+    "gold-chapters/414-developmental-coxa-vara.json",
+    "gold-chapters/415-femoral-anteversion-in-children.json",
+    "gold-chapters/416-internal-tibial-torsion.json",
+    "gold-chapters/417-spondylolisthesis-in-adolescents.json",
+    "gold-chapters/418-juvenile-disc-disorder-adolescent-disc-degeneration.json",
+    "gold-chapters/419-spinal-dysraphism-occult.json",
+    "gold-chapters/420-shoulder-impingement-syndrome-subacromial-pain-syndrome.json",
+    "gold-chapters/421-subacromial-bursitis.json",
+    "gold-chapters/422-acromioclavicular-joint-osteoarthritis.json",
+    "gold-chapters/423-osteochondral-lesion-of-the-knee-traumatic.json",
+    "gold-chapters/424-patellar-sleeve-fracture.json",
+    "gold-chapters/425-tibial-spine-tibial-eminence-fracture.json",
+    "gold-chapters/426-discoid-lateral-meniscus.json",
+    "gold-chapters/427-accessory-ossicle-syndrome-of-the-foot.json"
   ],
-  "expectedTotalGold": 408
+  "expectedTotalGold": 428
 }

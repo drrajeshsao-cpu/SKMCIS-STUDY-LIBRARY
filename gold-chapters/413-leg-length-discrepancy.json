@@ -1,0 +1,95 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-PED-LLD-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Leg Length Discrepancy",
+  "synonyms": [],
+  "category": "Pediatric Orthopedics > Limb Length",
+  "tags": [
+    "leg length discrepancy"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Difference in length between lower limbs due to congenital, developmental, traumatic, infectious or neurological causes.",
+  "clinicalPattern": {
+    "typical": [
+      "Pelvic tilt",
+      "Limp",
+      "Apparent gait asymmetry",
+      "Back or lower-limb fatigue when significant"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Rapidly increasing discrepancy"
+    },
+    {
+      "level": "RED",
+      "item": "Tumor/infection history"
+    },
+    {
+      "level": "RED",
+      "item": "Neurological deterioration"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Block test",
+      "True/apparent limb length",
+      "Hip/knee/foot alignment",
+      "Gait"
+    ]
+  },
+  "differentials": [
+    "Functional pelvic obliquity",
+    "Scoliosis",
+    "Hip contracture"
+  ],
+  "investigations": {
+    "principle": "Standing scanogram/EOS or calibrated long-leg imaging quantifies true discrepancy and projected growth.",
+    "MRI": "Use MRI when neural, soft-tissue, physeal, occult injury, deformity or other condition-specific assessment requires it.",
+    "radiographs": "Use radiographs and/or CT according to the condition-specific diagnostic pathway."
+  },
+  "management": {
+    "green": [
+      "Shoe lift for selected small symptomatic discrepancies",
+      "Growth monitoring"
+    ],
+    "amber": [
+      "Epiphysiodesis, lengthening or shortening procedures depend on predicted discrepancy and age."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Pada/Jangha asymmetry may be documented descriptively."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Difference in length between lower limbs due to congenital, developmental, traumatic, infectious or neurological causes.",
+    "urgent": "Seek urgent assessment for acute neurovascular compromise, major trauma, open injury, severe deformity, rapidly progressive neurological symptoms, suspected infection or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "AAOS OrthoInfo",
+      "title": "Limb Length Discrepancy",
+      "url": "https://orthoinfo.aaos.org/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V3.6-BATCH-22",
+    "proposedGoldChapterNumber": 413
+  }
+}

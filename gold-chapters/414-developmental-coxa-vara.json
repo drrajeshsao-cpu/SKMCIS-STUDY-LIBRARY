@@ -1,0 +1,94 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-PED-CV-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Developmental Coxa Vara",
+  "synonyms": [],
+  "category": "Pediatric Orthopedics > Hip > Developmental Deformity",
+  "tags": [
+    "developmental coxa vara"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Developmental decrease in femoral neck-shaft angle causing proximal femoral varus, limp and progressive deformity in childhood.",
+  "clinicalPattern": {
+    "typical": [
+      "Limp",
+      "Leg-length discrepancy",
+      "Trendelenburg gait",
+      "Reduced hip abduction"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Rapid progression"
+    },
+    {
+      "level": "RED",
+      "item": "Severe pain"
+    },
+    {
+      "level": "RED",
+      "item": "Associated skeletal dysplasia"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Trendelenburg sign",
+      "Hip abduction",
+      "Limb length",
+      "Gait"
+    ]
+  },
+  "differentials": [
+    "DDH",
+    "SCFE",
+    "Skeletal dysplasia"
+  ],
+  "investigations": {
+    "principle": "Pelvic radiographs define neck-shaft angle and Hilgenreiner epiphyseal angle.",
+    "MRI": "Use MRI when neural, soft-tissue, physeal, occult injury, deformity or other condition-specific assessment requires it.",
+    "radiographs": "Use radiographs and/or CT according to the condition-specific diagnostic pathway."
+  },
+  "management": {
+    "green": [
+      "Pediatric orthopedic surveillance"
+    ],
+    "amber": [
+      "Progressive deformity commonly requires valgus osteotomy."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Shroni/Asthi developmental phenotype may be documented only in parallel."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Developmental decrease in femoral neck-shaft angle causing proximal femoral varus, limp and progressive deformity in childhood.",
+    "urgent": "Seek urgent assessment for acute neurovascular compromise, major trauma, open injury, severe deformity, rapidly progressive neurological symptoms, suspected infection or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "POSNA",
+      "title": "Developmental Coxa Vara",
+      "url": "https://posna.org/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V3.6-BATCH-22",
+    "proposedGoldChapterNumber": 414
+  }
+}

@@ -1,0 +1,95 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-PED-BLOUNT-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Blount Disease / Tibia Vara",
+  "synonyms": [],
+  "category": "Pediatric Orthopedics > Knee/Leg > Growth Deformity",
+  "tags": [
+    "blount disease / tibia vara"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Pathological varus deformity of the proximal tibia due to disordered medial proximal tibial growth, occurring in infantile or adolescent forms.",
+  "clinicalPattern": {
+    "typical": [
+      "Progressive bowing",
+      "Varus thrust",
+      "Internal tibial torsion",
+      "Asymmetry may occur"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Rapid progression"
+    },
+    {
+      "level": "RED",
+      "item": "Marked asymmetry"
+    },
+    {
+      "level": "RED",
+      "item": "Neurological or metabolic bone disease features"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Standing alignment",
+      "Varus thrust",
+      "Limb-length assessment",
+      "Hip/knee exam"
+    ]
+  },
+  "differentials": [
+    "Physiologic genu varum",
+    "Rickets",
+    "Skeletal dysplasia"
+  ],
+  "investigations": {
+    "principle": "Standing lower-limb radiographs quantify metaphyseal-diaphyseal angle and deformity.",
+    "MRI": "Use MRI when neural, soft-tissue, physeal, occult injury, deformity or other condition-specific assessment requires it.",
+    "radiographs": "Use radiographs and/or CT according to the condition-specific diagnostic pathway."
+  },
+  "management": {
+    "green": [
+      "Early pediatric orthopedic surveillance",
+      "Bracing in selected early infantile disease"
+    ],
+    "amber": [
+      "Progressive or advanced deformity may require guided growth or osteotomy."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Janu/Jangha growth deformity may be documented only in parallel."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Pathological varus deformity of the proximal tibia due to disordered medial proximal tibial growth, occurring in infantile or adolescent forms.",
+    "urgent": "Seek urgent assessment for acute neurovascular compromise, major trauma, open injury, severe deformity, rapidly progressive neurological symptoms, suspected infection or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "POSNA",
+      "title": "Blount Disease",
+      "url": "https://posna.org/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V3.6-BATCH-22",
+    "proposedGoldChapterNumber": 410
+  }
+}

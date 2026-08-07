@@ -1,0 +1,94 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-PED-PSF-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Patellar Sleeve Fracture",
+  "synonyms": [],
+  "category": "Pediatric Orthopedics > Knee > Fracture",
+  "tags": [
+    "patellar sleeve fracture"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Pediatric avulsion fracture in which cartilage and a small bony fragment are stripped from the patella, often disrupting the extensor mechanism.",
+  "clinicalPattern": {
+    "typical": [
+      "Acute anterior knee pain",
+      "Swelling",
+      "Difficulty straight-leg raise",
+      "Inferior pole tenderness"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Extensor mechanism failure"
+    },
+    {
+      "level": "RED",
+      "item": "Large displacement"
+    },
+    {
+      "level": "RED",
+      "item": "Open injury"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Straight-leg raise",
+      "Patellar position",
+      "Skin/neurovascular exam"
+    ]
+  },
+  "differentials": [
+    "Patellar tendon rupture",
+    "Sinding-Larsen-Johansson syndrome",
+    "Patellar fracture"
+  ],
+  "investigations": {
+    "principle": "Radiographs may underestimate the cartilage component; MRI/ultrasound can clarify.",
+    "MRI": "Use MRI when neural, soft-tissue, physeal, occult injury, deformity or other condition-specific assessment requires it.",
+    "radiographs": "Use radiographs and/or CT according to the condition-specific diagnostic pathway."
+  },
+  "management": {
+    "green": [
+      "Urgent pediatric orthopedic review",
+      "Immobilization in extension"
+    ],
+    "amber": [
+      "Displaced injuries often require surgical repair."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Janu-bhagna/Snayu phenotype may be documented after modern assessment."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Pediatric avulsion fracture in which cartilage and a small bony fragment are stripped from the patella, often disrupting the extensor mechanism.",
+    "urgent": "Seek urgent assessment for acute neurovascular compromise, major trauma, open injury, severe deformity, rapidly progressive neurological symptoms, suspected infection or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "POSNA",
+      "title": "Patellar Sleeve Fracture resources",
+      "url": "https://posna.org/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V3.6-BATCH-22",
+    "proposedGoldChapterNumber": 424
+  }
+}

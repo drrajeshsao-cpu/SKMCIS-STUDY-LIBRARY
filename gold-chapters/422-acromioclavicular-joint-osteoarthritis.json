@@ -1,0 +1,94 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-ORT-ACJOA-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Acromioclavicular Joint Osteoarthritis",
+  "synonyms": [],
+  "category": "Orthopedics > Shoulder > AC Joint",
+  "tags": [
+    "acromioclavicular joint osteoarthritis"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Degenerative osteoarthritis of the acromioclavicular joint causing localized superior shoulder pain, often aggravated by cross-body loading.",
+  "clinicalPattern": {
+    "typical": [
+      "Superior shoulder pain",
+      "Pain with cross-body adduction",
+      "Localized AC tenderness"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Acute trauma with deformity"
+    },
+    {
+      "level": "RED",
+      "item": "Infection"
+    },
+    {
+      "level": "RED",
+      "item": "Tumor"
+    }
+  ],
+  "examination": {
+    "core": [
+      "AC tenderness",
+      "Cross-body adduction",
+      "Shoulder ROM/cuff screen"
+    ]
+  },
+  "differentials": [
+    "Rotator cuff disease",
+    "AC joint sprain",
+    "Cervical pain"
+  ],
+  "investigations": {
+    "principle": "Radiographs may show AC joint degeneration; imaging findings may be incidental.",
+    "MRI": "Use MRI when neural, soft-tissue, physeal, occult injury, deformity or other condition-specific assessment requires it.",
+    "radiographs": "Use radiographs and/or CT according to the condition-specific diagnostic pathway."
+  },
+  "management": {
+    "green": [
+      "Activity modification",
+      "Shoulder/scapular rehabilitation",
+      "Topical/local symptom control"
+    ],
+    "amber": [
+      "Injection or distal clavicle excision is selective for persistent clearly localized pain."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Amsa-Sandhigata phenotype may be documented."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Degenerative osteoarthritis of the acromioclavicular joint causing localized superior shoulder pain, often aggravated by cross-body loading.",
+    "urgent": "Seek urgent assessment for acute neurovascular compromise, major trauma, open injury, severe deformity, rapidly progressive neurological symptoms, suspected infection or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "NICE",
+      "title": "Osteoarthritis NG226",
+      "url": "https://www.nice.org.uk/guidance/ng226",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V3.6-BATCH-22",
+    "proposedGoldChapterNumber": 422
+  }
+}

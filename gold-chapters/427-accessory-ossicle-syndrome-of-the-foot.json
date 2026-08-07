@@ -1,0 +1,94 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-ORT-AOSF-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Accessory Ossicle Syndrome of the Foot",
+  "synonyms": [],
+  "category": "Orthopedics > Foot > Accessory Ossicle",
+  "tags": [
+    "accessory ossicle syndrome of the foot"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Symptomatic accessory bone variant of the foot/ankle, such as os trigonum, os peroneum or other ossicles, producing pain through impingement, stress or tendon interaction.",
+  "clinicalPattern": {
+    "typical": [
+      "Localized activity-related foot/ankle pain",
+      "Tenderness at accessory ossicle",
+      "Symptoms linked to specific motion/load"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Acute fracture of accessory ossicle"
+    },
+    {
+      "level": "RED",
+      "item": "Tendon rupture"
+    },
+    {
+      "level": "RED",
+      "item": "Infection"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Local tenderness",
+      "Provocative motion",
+      "Tendon and joint assessment"
+    ]
+  },
+  "differentials": [
+    "Stress fracture",
+    "Tendinopathy",
+    "Impingement syndrome"
+  ],
+  "investigations": {
+    "principle": "Radiographs identify ossicle; MRI/CT/ultrasound clarifies active inflammation, fracture or tendon involvement.",
+    "MRI": "Use MRI when neural, soft-tissue, physeal, occult injury, deformity or other condition-specific assessment requires it.",
+    "radiographs": "Use radiographs and/or CT according to the condition-specific diagnostic pathway."
+  },
+  "management": {
+    "green": [
+      "Activity modification",
+      "Footwear/orthotic support",
+      "Rehabilitation"
+    ],
+    "amber": [
+      "Persistent mechanical symptoms may require injection or excision depending on the specific ossicle."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Pada/Asthi accessory structure phenotype may be documented descriptively."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Symptomatic accessory bone variant of the foot/ankle, such as os trigonum, os peroneum or other ossicles, producing pain through impingement, stress or tendon interaction.",
+    "urgent": "Seek urgent assessment for acute neurovascular compromise, major trauma, open injury, severe deformity, rapidly progressive neurological symptoms, suspected infection or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "FootCareMD",
+      "title": "Accessory Bones of the Foot resources",
+      "url": "https://www.footcaremd.org/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V3.6-BATCH-22",
+    "proposedGoldChapterNumber": 427
+  }
+}

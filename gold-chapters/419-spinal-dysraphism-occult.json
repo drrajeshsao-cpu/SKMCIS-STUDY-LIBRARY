@@ -1,0 +1,93 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-PED-SDO-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Spinal Dysraphism - Occult",
+  "synonyms": [],
+  "category": "Pediatric Neurosurgery/Spine > Dysraphism",
+  "tags": [
+    "spinal dysraphism - occult"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Spectrum of closed congenital spinal malformations, sometimes associated with tethered cord, lipoma, dermal sinus or cutaneous stigmata.",
+  "clinicalPattern": {
+    "typical": [
+      "Sacral dimple or skin marker",
+      "Foot deformity",
+      "Bladder dysfunction",
+      "Progressive neurological symptoms may occur"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Progressive weakness"
+    },
+    {
+      "level": "RED",
+      "item": "New bladder dysfunction"
+    },
+    {
+      "level": "RED",
+      "item": "Dermal sinus infection"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Skin markers",
+      "Lower-limb neurological exam",
+      "Foot deformity",
+      "Bladder history"
+    ]
+  },
+  "differentials": [
+    "Tethered cord syndrome",
+    "Spina bifida occulta without symptoms"
+  ],
+  "investigations": {
+    "principle": "MRI lumbosacral spine is used when high-risk cutaneous or neurological features are present.",
+    "MRI": "Use MRI when neural, soft-tissue, physeal, occult injury, deformity or other condition-specific assessment requires it.",
+    "radiographs": "Use radiographs and/or CT according to the condition-specific diagnostic pathway."
+  },
+  "management": {
+    "green": [
+      "Neurosurgical surveillance when symptomatic/high risk"
+    ],
+    "amber": [
+      "Not every sacral dimple requires MRI; risk stratification is important."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Congenital neuro-spinal phenotype may be documented only in parallel."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Spectrum of closed congenital spinal malformations, sometimes associated with tethered cord, lipoma, dermal sinus or cutaneous stigmata.",
+    "urgent": "Seek urgent assessment for acute neurovascular compromise, major trauma, open injury, severe deformity, rapidly progressive neurological symptoms, suspected infection or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "Congress of Neurological Surgeons",
+      "title": "Spinal Dysraphism resources",
+      "url": "https://www.cns.org/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V3.6-BATCH-22",
+    "proposedGoldChapterNumber": 419
+  }
+}
