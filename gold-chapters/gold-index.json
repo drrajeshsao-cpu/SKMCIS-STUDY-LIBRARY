@@ -445,7 +445,27 @@
     "gold-chapters/444-scapholunate-advanced-collapse-wrist.json",
     "gold-chapters/445-scaphoid-nonunion-advanced-collapse-wrist.json",
     "gold-chapters/446-thumb-mcp-joint-dislocation.json",
-    "gold-chapters/447-thumb-carpometacarpal-joint-dislocation.json"
+    "gold-chapters/447-thumb-carpometacarpal-joint-dislocation.json",
+    "gold-chapters/448-bennett-fracture.json",
+    "gold-chapters/449-rolando-fracture.json",
+    "gold-chapters/450-hook-of-hamate-fracture.json",
+    "gold-chapters/451-triquetral-fracture.json",
+    "gold-chapters/452-pisiform-fracture.json",
+    "gold-chapters/453-dorsal-wrist-ganglion-cyst.json",
+    "gold-chapters/454-carpal-boss.json",
+    "gold-chapters/455-pronator-syndrome.json",
+    "gold-chapters/456-lacertus-syndrome.json",
+    "gold-chapters/457-gluteus-medius-tendon-tear.json",
+    "gold-chapters/458-athletic-pubalgia-core-muscle-injury.json",
+    "gold-chapters/459-sports-hernia-inguinal-related-groin-pain.json",
+    "gold-chapters/460-hip-abductor-muscle-strain.json",
+    "gold-chapters/461-patellar-chondromalacia-patellar-chondral-lesion.json",
+    "gold-chapters/462-knee-plica-syndrome.json",
+    "gold-chapters/463-hoffa-fat-pad-impingement.json",
+    "gold-chapters/464-anterior-tibialis-tendinopathy.json",
+    "gold-chapters/465-flexor-hallucis-longus-tenosynovitis.json",
+    "gold-chapters/466-extensor-tendinopathy-of-foot-and-ankle.json",
+    "gold-chapters/467-second-mtp-synovitis-predislocation-syndrome.json"
   ],
-  "expectedTotalGold": 448
+  "expectedTotalGold": 468
 }

@@ -1,0 +1,94 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-ORT-FHL-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Flexor Hallucis Longus Tenosynovitis",
+  "synonyms": [],
+  "category": "Orthopedics > Foot & Ankle > Tendon",
+  "tags": [
+    "flexor hallucis longus tenosynovitis"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Inflammation or stenosing tenosynovitis of the flexor hallucis longus tendon, common in dancers and athletes with repeated plantar flexion.",
+  "clinicalPattern": {
+    "typical": [
+      "Posteromedial ankle pain",
+      "Great-toe triggering/clicking",
+      "Pain with plantar flexion"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Acute tendon rupture"
+    },
+    {
+      "level": "RED",
+      "item": "Infection"
+    },
+    {
+      "level": "RED",
+      "item": "Neurovascular compromise"
+    }
+  ],
+  "examination": {
+    "core": [
+      "FHL tendon tenderness",
+      "Great-toe flexion",
+      "Provocative plantar flexion"
+    ]
+  },
+  "differentials": [
+    "Posterior ankle impingement",
+    "Tarsal tunnel syndrome",
+    "Os trigonum syndrome"
+  ],
+  "investigations": {
+    "principle": "Dynamic ultrasound or MRI can confirm tenosynovitis/tendon pathology.",
+    "MRI": "Use MRI when neural, soft-tissue, cartilage, tendon, occult injury or other condition-specific assessment requires it.",
+    "radiographs": "Use radiographs and/or CT according to the condition-specific diagnostic pathway."
+  },
+  "management": {
+    "green": [
+      "Load modification",
+      "Tendon rehabilitation",
+      "Technique correction"
+    ],
+    "amber": [
+      "Persistent stenosing symptoms may require injection or surgical release."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Gulpha/Pada-Snayu phenotype may be documented."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Inflammation or stenosing tenosynovitis of the flexor hallucis longus tendon, common in dancers and athletes with repeated plantar flexion.",
+    "urgent": "Seek urgent assessment for acute neurovascular compromise, major trauma, severe deformity, progressive weakness, suspected tendon rupture, infection or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "FootCareMD",
+      "title": "Posterior Ankle Tendon resources",
+      "url": "https://www.footcaremd.org/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V3.8-BATCH-24",
+    "proposedGoldChapterNumber": 465
+  }
+}

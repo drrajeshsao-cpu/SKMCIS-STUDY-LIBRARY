@@ -1,0 +1,98 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-ORT-APUB-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Athletic Pubalgia / Core Muscle Injury",
+  "synonyms": [],
+  "category": "Orthopedics > Sports > Groin",
+  "tags": [
+    "athletic pubalgia / core muscle injury"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Activity-related groin pain involving the lower abdominal wall, adductor-aponeurotic complex or pubic region without a classic inguinal hernia.",
+  "clinicalPattern": {
+    "typical": [
+      "Groin pain with sprinting/cutting",
+      "Pain with sit-up or resisted adduction",
+      "Tender pubic/aponeurotic region"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Incarcerated hernia"
+    },
+    {
+      "level": "RED",
+      "item": "Testicular emergency"
+    },
+    {
+      "level": "RED",
+      "item": "Pelvic fracture"
+    },
+    {
+      "level": "RED",
+      "item": "Systemic illness"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Adductor squeeze",
+      "Resisted abdominal testing",
+      "Inguinal/pubic palpation",
+      "Hip exam"
+    ]
+  },
+  "differentials": [
+    "Adductor-related groin pain",
+    "FAI",
+    "Inguinal hernia"
+  ],
+  "investigations": {
+    "principle": "MRI pelvis can help define rectus-adductor aponeurotic injury and exclude mimics in persistent cases.",
+    "MRI": "Use MRI when neural, soft-tissue, cartilage, tendon, occult injury or other condition-specific assessment requires it.",
+    "radiographs": "Use radiographs and/or CT according to the condition-specific diagnostic pathway."
+  },
+  "management": {
+    "green": [
+      "Progressive core/adductor rehabilitation",
+      "Load modification"
+    ],
+    "amber": [
+      "Surgery is selective for persistent well-localized symptoms after structured rehabilitation."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Vankshana/Mamsa-Snayu phenotype may be documented."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Activity-related groin pain involving the lower abdominal wall, adductor-aponeurotic complex or pubic region without a classic inguinal hernia.",
+    "urgent": "Seek urgent assessment for acute neurovascular compromise, major trauma, severe deformity, progressive weakness, suspected tendon rupture, infection or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "BJSM",
+      "title": "Groin Pain in Athletes resources",
+      "url": "https://bjsm.bmj.com/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V3.8-BATCH-24",
+    "proposedGoldChapterNumber": 458
+  }
+}

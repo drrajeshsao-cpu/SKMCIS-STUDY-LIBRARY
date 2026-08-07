@@ -1,0 +1,93 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-NEU-PRS-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Pronator Syndrome",
+  "synonyms": [],
+  "category": "Neurology/Orthopedics > Median Nerve > Forearm",
+  "tags": [
+    "pronator syndrome"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Median nerve compression in the proximal forearm, producing aching forearm pain and median-distribution paresthesia without classic nocturnal carpal tunnel pattern.",
+  "clinicalPattern": {
+    "typical": [
+      "Proximal volar forearm pain",
+      "Median sensory symptoms",
+      "Symptoms with repetitive pronation"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Progressive motor weakness"
+    },
+    {
+      "level": "RED",
+      "item": "Mass lesion"
+    },
+    {
+      "level": "RED",
+      "item": "Traumatic nerve injury"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Pronator compression/resisted pronation",
+      "Median sensory exam",
+      "Thenar/AIN motor screen"
+    ]
+  },
+  "differentials": [
+    "Carpal tunnel syndrome",
+    "Anterior interosseous nerve syndrome",
+    "C6-C7 radiculopathy"
+  ],
+  "investigations": {
+    "principle": "Diagnosis is mainly clinical; electrodiagnostics and ultrasound are selective.",
+    "MRI": "Use MRI when neural, soft-tissue, cartilage, tendon, occult injury or other condition-specific assessment requires it.",
+    "radiographs": "Use radiographs and/or CT according to the condition-specific diagnostic pathway."
+  },
+  "management": {
+    "green": [
+      "Activity modification",
+      "Forearm nerve-gliding/rehabilitation"
+    ],
+    "amber": [
+      "Persistent focal compression with objective deficit may require decompression."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Hasta/Vata-neuropathy phenotype may be documented only in parallel."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Median nerve compression in the proximal forearm, producing aching forearm pain and median-distribution paresthesia without classic nocturnal carpal tunnel pattern.",
+    "urgent": "Seek urgent assessment for acute neurovascular compromise, major trauma, severe deformity, progressive weakness, suspected tendon rupture, infection or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "AANEM",
+      "title": "Median Nerve Entrapment resources",
+      "url": "https://www.aanem.org/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V3.8-BATCH-24",
+    "proposedGoldChapterNumber": 455
+  }
+}

@@ -1,0 +1,95 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-ORT-HAMS-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Hip Abductor Muscle Strain",
+  "synonyms": [],
+  "category": "Orthopedics > Hip > Muscle Injury",
+  "tags": [
+    "hip abductor muscle strain"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Acute strain of gluteus medius/minimus or related hip-abductor musculature following sudden loading or stretch.",
+  "clinicalPattern": {
+    "typical": [
+      "Lateral hip pain after acute activity",
+      "Pain with resisted abduction",
+      "Localized tenderness"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Complete tendon avulsion"
+    },
+    {
+      "level": "RED",
+      "item": "Hip fracture"
+    },
+    {
+      "level": "RED",
+      "item": "Major hematoma"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Resisted hip abduction",
+      "Palpation",
+      "Gait",
+      "Hip ROM"
+    ]
+  },
+  "differentials": [
+    "Gluteal tendinopathy",
+    "Gluteus medius tendon tear",
+    "GTPS"
+  ],
+  "investigations": {
+    "principle": "Usually clinical; MRI/ultrasound is used for severe injury or suspected tear.",
+    "MRI": "Use MRI when neural, soft-tissue, cartilage, tendon, occult injury or other condition-specific assessment requires it.",
+    "radiographs": "Use radiographs and/or CT according to the condition-specific diagnostic pathway."
+  },
+  "management": {
+    "green": [
+      "Relative rest",
+      "Progressive loading",
+      "Gait normalization"
+    ],
+    "amber": [
+      "Persistent weakness warrants imaging for tendon tear."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Shroni/Mamsa injury phenotype may be documented."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Acute strain of gluteus medius/minimus or related hip-abductor musculature following sudden loading or stretch.",
+    "urgent": "Seek urgent assessment for acute neurovascular compromise, major trauma, severe deformity, progressive weakness, suspected tendon rupture, infection or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "Sports Medicine Australia",
+      "title": "Muscle Injury resources",
+      "url": "https://sma.org.au/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V3.8-BATCH-24",
+    "proposedGoldChapterNumber": 460
+  }
+}

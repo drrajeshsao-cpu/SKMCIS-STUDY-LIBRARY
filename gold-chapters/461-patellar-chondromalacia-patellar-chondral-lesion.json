@@ -1,0 +1,95 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-ORT-PCH-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Patellar Chondromalacia / Patellar Chondral Lesion",
+  "synonyms": [],
+  "category": "Orthopedics > Knee > Patellofemoral Cartilage",
+  "tags": [
+    "patellar chondromalacia / patellar chondral lesion"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Softening, fissuring or focal damage of patellar articular cartilage, which may coexist with patellofemoral pain but should not be assumed to explain symptoms automatically.",
+  "clinicalPattern": {
+    "typical": [
+      "Anterior knee pain",
+      "Crepitus",
+      "Pain with stairs/squatting",
+      "Occasional swelling"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Large osteochondral defect"
+    },
+    {
+      "level": "RED",
+      "item": "Locked knee"
+    },
+    {
+      "level": "RED",
+      "item": "Acute major trauma"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Patellofemoral alignment/tracking",
+      "Quadriceps/hip strength",
+      "Effusion"
+    ]
+  },
+  "differentials": [
+    "Patellofemoral pain syndrome",
+    "Patellar instability",
+    "Chondral defect"
+  ],
+  "investigations": {
+    "principle": "MRI can characterize cartilage when persistent symptoms or surgery planning justify imaging.",
+    "MRI": "Use MRI when neural, soft-tissue, cartilage, tendon, occult injury or other condition-specific assessment requires it.",
+    "radiographs": "Use radiographs and/or CT according to the condition-specific diagnostic pathway."
+  },
+  "management": {
+    "green": [
+      "Hip/quadriceps strengthening",
+      "Load modification",
+      "Patellofemoral rehabilitation"
+    ],
+    "amber": [
+      "Imaging cartilage changes must be correlated with symptoms before invasive treatment."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Janu-Sandhi cartilage phenotype may be documented only in parallel."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Softening, fissuring or focal damage of patellar articular cartilage, which may coexist with patellofemoral pain but should not be assumed to explain symptoms automatically.",
+    "urgent": "Seek urgent assessment for acute neurovascular compromise, major trauma, severe deformity, progressive weakness, suspected tendon rupture, infection or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "AAOS",
+      "title": "Articular Cartilage resources",
+      "url": "https://orthoinfo.aaos.org/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V3.8-BATCH-24",
+    "proposedGoldChapterNumber": 461
+  }
+}

@@ -1,0 +1,93 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-ORT-HHF-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Hook of Hamate Fracture",
+  "synonyms": [],
+  "category": "Orthopedics > Hand/Wrist > Carpal Fracture",
+  "tags": [
+    "hook of hamate fracture"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Fracture of the hook of hamate, often caused by gripping sports or direct trauma and capable of irritating the ulnar nerve or flexor tendons.",
+  "clinicalPattern": {
+    "typical": [
+      "Ulnar-palmar wrist pain",
+      "Pain with gripping",
+      "Hypothenar tenderness"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Ulnar neuropathy"
+    },
+    {
+      "level": "RED",
+      "item": "Flexor tendon irritation/rupture"
+    },
+    {
+      "level": "RED",
+      "item": "Persistent nonunion"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Hook of hamate tenderness",
+      "Grip",
+      "Ulnar nerve exam"
+    ]
+  },
+  "differentials": [
+    "TFCC injury",
+    "Guyon canal syndrome",
+    "Pisiform injury"
+  ],
+  "investigations": {
+    "principle": "Carpal-tunnel view radiographs may miss injury; CT is highly useful for diagnosis.",
+    "MRI": "Use MRI when neural, soft-tissue, cartilage, tendon, occult injury or other condition-specific assessment requires it.",
+    "radiographs": "Use radiographs and/or CT according to the condition-specific diagnostic pathway."
+  },
+  "management": {
+    "green": [
+      "Immobilization for selected acute fractures",
+      "Hand specialist follow-up"
+    ],
+    "amber": [
+      "Symptomatic nonunion or high-demand athletes may require excision/fixation."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Manibandha-bhagna phenotype may be documented."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Fracture of the hook of hamate, often caused by gripping sports or direct trauma and capable of irritating the ulnar nerve or flexor tendons.",
+    "urgent": "Seek urgent assessment for acute neurovascular compromise, major trauma, severe deformity, progressive weakness, suspected tendon rupture, infection or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "BSSH",
+      "title": "Carpal Fracture resources",
+      "url": "https://www.bssh.ac.uk/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V3.8-BATCH-24",
+    "proposedGoldChapterNumber": 450
+  }
+}

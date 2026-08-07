@@ -1,0 +1,93 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-ORT-ROL-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Rolando Fracture",
+  "synonyms": [],
+  "category": "Orthopedics > Hand > Thumb Fracture",
+  "tags": [
+    "rolando fracture"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Comminuted intra-articular fracture of the base of the first metacarpal, often Y- or T-shaped, with CMC instability.",
+  "clinicalPattern": {
+    "typical": [
+      "Severe base-of-thumb pain",
+      "Swelling",
+      "Loss of pinch",
+      "High-energy trauma"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Open fracture"
+    },
+    {
+      "level": "RED",
+      "item": "Neurovascular compromise"
+    },
+    {
+      "level": "RED",
+      "item": "Severe comminution"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Thumb CMC alignment",
+      "Neurovascular exam",
+      "Skin"
+    ]
+  },
+  "differentials": [
+    "Bennett fracture",
+    "Thumb CMC dislocation"
+  ],
+  "investigations": {
+    "principle": "Radiographs are first-line; CT helps define articular comminution.",
+    "MRI": "Use MRI when neural, soft-tissue, cartilage, tendon, occult injury or other condition-specific assessment requires it.",
+    "radiographs": "Use radiographs and/or CT according to the condition-specific diagnostic pathway."
+  },
+  "management": {
+    "green": [
+      "Thumb-spica protection",
+      "Early hand specialist review"
+    ],
+    "amber": [
+      "Comminuted unstable fractures commonly require operative fixation."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Angushtha-bhagna phenotype may be documented."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Comminuted intra-articular fracture of the base of the first metacarpal, often Y- or T-shaped, with CMC instability.",
+    "urgent": "Seek urgent assessment for acute neurovascular compromise, major trauma, severe deformity, progressive weakness, suspected tendon rupture, infection or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "BSSH",
+      "title": "Thumb Base Fracture resources",
+      "url": "https://www.bssh.ac.uk/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V3.8-BATCH-24",
+    "proposedGoldChapterNumber": 449
+  }
+}

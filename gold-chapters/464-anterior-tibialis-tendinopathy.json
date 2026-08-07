@@ -1,0 +1,94 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-ORT-ATT-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Anterior Tibialis Tendinopathy",
+  "synonyms": [],
+  "category": "Orthopedics > Foot & Ankle > Tendon",
+  "tags": [
+    "anterior tibialis tendinopathy"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Overuse or degenerative disorder of the tibialis anterior tendon causing anterior ankle or medial midfoot pain, especially with dorsiflexion loading.",
+  "clinicalPattern": {
+    "typical": [
+      "Anterior ankle pain",
+      "Pain with resisted dorsiflexion",
+      "Tenderness along tibialis anterior tendon"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Acute tendon rupture"
+    },
+    {
+      "level": "RED",
+      "item": "Foot drop from neuropathy"
+    },
+    {
+      "level": "RED",
+      "item": "Fracture"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Resisted dorsiflexion",
+      "Tendon palpation",
+      "Gait",
+      "Neurological screen"
+    ]
+  },
+  "differentials": [
+    "Deep peroneal neuropathy",
+    "Anterior ankle impingement",
+    "Stress fracture"
+  ],
+  "investigations": {
+    "principle": "Usually clinical; ultrasound/MRI is used for persistent symptoms or suspected tear.",
+    "MRI": "Use MRI when neural, soft-tissue, cartilage, tendon, occult injury or other condition-specific assessment requires it.",
+    "radiographs": "Use radiographs and/or CT according to the condition-specific diagnostic pathway."
+  },
+  "management": {
+    "green": [
+      "Load modification",
+      "Progressive tendon strengthening"
+    ],
+    "amber": [
+      "Marked weakness or suspected rupture requires specialist imaging/review."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Gulpha/Pada-Snayu phenotype may be documented."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Overuse or degenerative disorder of the tibialis anterior tendon causing anterior ankle or medial midfoot pain, especially with dorsiflexion loading.",
+    "urgent": "Seek urgent assessment for acute neurovascular compromise, major trauma, severe deformity, progressive weakness, suspected tendon rupture, infection or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "FootCareMD",
+      "title": "Tibialis Anterior Tendon resources",
+      "url": "https://www.footcaremd.org/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V3.8-BATCH-24",
+    "proposedGoldChapterNumber": 464
+  }
+}

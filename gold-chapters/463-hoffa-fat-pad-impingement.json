@@ -1,0 +1,94 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-ORT-HOFFA-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Hoffa Fat Pad Impingement",
+  "synonyms": [],
+  "category": "Orthopedics > Knee > Infrapatellar Fat Pad",
+  "tags": [
+    "hoffa fat pad impingement"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Painful irritation or impingement of the infrapatellar fat pad, usually producing anterior knee pain around terminal extension.",
+  "clinicalPattern": {
+    "typical": [
+      "Anterior infrapatellar pain",
+      "Pain with extension/hyperextension",
+      "Tenderness beside patellar tendon"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Acute major trauma"
+    },
+    {
+      "level": "RED",
+      "item": "Large effusion"
+    },
+    {
+      "level": "RED",
+      "item": "Locked knee"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Infrapatellar tenderness",
+      "Extension-provocation",
+      "Patellofemoral/meniscal screen"
+    ]
+  },
+  "differentials": [
+    "Patellar tendinopathy",
+    "Patellofemoral pain",
+    "Plica syndrome"
+  ],
+  "investigations": {
+    "principle": "Diagnosis is mainly clinical; MRI is used when diagnosis is uncertain or other pathology is suspected.",
+    "MRI": "Use MRI when neural, soft-tissue, cartilage, tendon, occult injury or other condition-specific assessment requires it.",
+    "radiographs": "Use radiographs and/or CT according to the condition-specific diagnostic pathway."
+  },
+  "management": {
+    "green": [
+      "Avoid repetitive hyperextension",
+      "Hip/quadriceps rehabilitation",
+      "Movement retraining"
+    ],
+    "amber": [
+      "Injection or arthroscopy is selective for refractory cases."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Janu soft-tissue pain phenotype may be documented."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Painful irritation or impingement of the infrapatellar fat pad, usually producing anterior knee pain around terminal extension.",
+    "urgent": "Seek urgent assessment for acute neurovascular compromise, major trauma, severe deformity, progressive weakness, suspected tendon rupture, infection or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "JOSPT",
+      "title": "Anterior Knee Pain resources",
+      "url": "https://www.jospt.org/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V3.8-BATCH-24",
+    "proposedGoldChapterNumber": 463
+  }
+}

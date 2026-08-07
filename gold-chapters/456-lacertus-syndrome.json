@@ -1,0 +1,93 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-NEU-LAC-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Lacertus Syndrome",
+  "synonyms": [],
+  "category": "Neurology/Orthopedics > Median Nerve > Elbow",
+  "tags": [
+    "lacertus syndrome"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Proximal median nerve compression beneath the lacertus fibrosus near the elbow, causing forearm/hand weakness and activity-related symptoms.",
+  "clinicalPattern": {
+    "typical": [
+      "Forearm discomfort",
+      "Weak pinch/grip",
+      "Median-innervated muscle fatigue"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Progressive motor deficit"
+    },
+    {
+      "level": "RED",
+      "item": "Mass lesion"
+    },
+    {
+      "level": "RED",
+      "item": "Traumatic nerve injury"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Median motor testing",
+      "Lacertus tenderness/compression",
+      "AIN and thenar strength"
+    ]
+  },
+  "differentials": [
+    "Pronator syndrome",
+    "Carpal tunnel syndrome",
+    "AIN syndrome"
+  ],
+  "investigations": {
+    "principle": "Diagnosis is primarily clinical; ultrasound/electrodiagnostics may be supportive but can be normal.",
+    "MRI": "Use MRI when neural, soft-tissue, cartilage, tendon, occult injury or other condition-specific assessment requires it.",
+    "radiographs": "Use radiographs and/or CT according to the condition-specific diagnostic pathway."
+  },
+  "management": {
+    "green": [
+      "Activity modification",
+      "Nerve rehabilitation"
+    ],
+    "amber": [
+      "Persistent objective weakness may require specialist decompression."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Hasta/Vata-neuropathy phenotype may be documented."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Proximal median nerve compression beneath the lacertus fibrosus near the elbow, causing forearm/hand weakness and activity-related symptoms.",
+    "urgent": "Seek urgent assessment for acute neurovascular compromise, major trauma, severe deformity, progressive weakness, suspected tendon rupture, infection or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "AANEM",
+      "title": "Median Neuropathy resources",
+      "url": "https://www.aanem.org/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V3.8-BATCH-24",
+    "proposedGoldChapterNumber": 456
+  }
+}

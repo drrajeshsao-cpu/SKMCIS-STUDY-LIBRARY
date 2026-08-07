@@ -1,0 +1,94 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-ORT-CBOSS-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Carpal Boss",
+  "synonyms": [],
+  "category": "Orthopedics > Hand/Wrist > Dorsal Mass",
+  "tags": [
+    "carpal boss"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Bony prominence at the dorsal base of the second or third carpometacarpal joint, sometimes painful with repetitive wrist loading.",
+  "clinicalPattern": {
+    "typical": [
+      "Firm dorsal hand mass",
+      "Pain with wrist extension",
+      "Local tenderness"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Rapid growth"
+    },
+    {
+      "level": "RED",
+      "item": "Neurological deficit"
+    },
+    {
+      "level": "RED",
+      "item": "Atypical soft-tissue mass"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Hard fixed dorsal prominence",
+      "CMC tenderness",
+      "Wrist ROM"
+    ]
+  },
+  "differentials": [
+    "Dorsal ganglion",
+    "Osteophyte",
+    "Soft-tissue tumor"
+  ],
+  "investigations": {
+    "principle": "Radiographs confirm bony prominence; CT is selective.",
+    "MRI": "Use MRI when neural, soft-tissue, cartilage, tendon, occult injury or other condition-specific assessment requires it.",
+    "radiographs": "Use radiographs and/or CT according to the condition-specific diagnostic pathway."
+  },
+  "management": {
+    "green": [
+      "Activity modification",
+      "Wrist support",
+      "Symptom control"
+    ],
+    "amber": [
+      "Surgical excision is reserved for persistent clearly localized symptoms."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Hasta/Asthi-vriddhi phenotype may be documented."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Bony prominence at the dorsal base of the second or third carpometacarpal joint, sometimes painful with repetitive wrist loading.",
+    "urgent": "Seek urgent assessment for acute neurovascular compromise, major trauma, severe deformity, progressive weakness, suspected tendon rupture, infection or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "BSSH",
+      "title": "Carpal Boss resources",
+      "url": "https://www.bssh.ac.uk/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V3.8-BATCH-24",
+    "proposedGoldChapterNumber": 454
+  }
+}

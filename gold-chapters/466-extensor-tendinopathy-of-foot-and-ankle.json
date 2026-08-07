@@ -1,0 +1,94 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-ORT-EXTA-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Extensor Tendinopathy of Foot and Ankle",
+  "synonyms": [],
+  "category": "Orthopedics > Foot & Ankle > Tendon",
+  "tags": [
+    "extensor tendinopathy of foot and ankle"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Overuse irritation of extensor tendons across the anterior ankle and dorsum of the foot, often related to repetitive dorsiflexion or footwear pressure.",
+  "clinicalPattern": {
+    "typical": [
+      "Dorsal foot/anterior ankle pain",
+      "Pain with resisted toe or ankle extension",
+      "Tendon tenderness"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Stress fracture"
+    },
+    {
+      "level": "RED",
+      "item": "Acute tendon rupture"
+    },
+    {
+      "level": "RED",
+      "item": "Infection"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Resisted toe/ankle extension",
+      "Tendon palpation",
+      "Footwear pressure points"
+    ]
+  },
+  "differentials": [
+    "Metatarsal stress fracture",
+    "Anterior tibialis tendinopathy",
+    "Deep peroneal neuropathy"
+  ],
+  "investigations": {
+    "principle": "Usually clinical; ultrasound/MRI is selective.",
+    "MRI": "Use MRI when neural, soft-tissue, cartilage, tendon, occult injury or other condition-specific assessment requires it.",
+    "radiographs": "Use radiographs and/or CT according to the condition-specific diagnostic pathway."
+  },
+  "management": {
+    "green": [
+      "Footwear modification",
+      "Load reduction",
+      "Progressive tendon strengthening"
+    ],
+    "amber": [
+      "Persistent focal pain requires reassessment for occult stress injury."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Pada-Snayu overuse phenotype may be documented."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Overuse irritation of extensor tendons across the anterior ankle and dorsum of the foot, often related to repetitive dorsiflexion or footwear pressure.",
+    "urgent": "Seek urgent assessment for acute neurovascular compromise, major trauma, severe deformity, progressive weakness, suspected tendon rupture, infection or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "FootCareMD",
+      "title": "Foot Tendon Disorders resources",
+      "url": "https://www.footcaremd.org/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V3.8-BATCH-24",
+    "proposedGoldChapterNumber": 466
+  }
+}

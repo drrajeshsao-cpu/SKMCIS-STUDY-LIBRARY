@@ -1,0 +1,93 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-ORT-PISF-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Pisiform Fracture",
+  "synonyms": [],
+  "category": "Orthopedics > Wrist > Carpal Fracture",
+  "tags": [
+    "pisiform fracture"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Uncommon fracture of the pisiform caused by direct hypothenar impact or traction from flexor carpi ulnaris.",
+  "clinicalPattern": {
+    "typical": [
+      "Ulnar-volar wrist pain",
+      "Pisiform tenderness",
+      "Pain with FCU contraction"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Ulnar nerve symptoms"
+    },
+    {
+      "level": "RED",
+      "item": "Associated carpal injury"
+    },
+    {
+      "level": "RED",
+      "item": "Open injury"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Pisiform tenderness",
+      "FCU testing",
+      "Ulnar nerve exam"
+    ]
+  },
+  "differentials": [
+    "Hook of hamate fracture",
+    "Guyon canal syndrome",
+    "TFCC injury"
+  ],
+  "investigations": {
+    "principle": "Special wrist views and CT may be needed because standard films can miss the fracture.",
+    "MRI": "Use MRI when neural, soft-tissue, cartilage, tendon, occult injury or other condition-specific assessment requires it.",
+    "radiographs": "Use radiographs and/or CT according to the condition-specific diagnostic pathway."
+  },
+  "management": {
+    "green": [
+      "Immobilization",
+      "Hand follow-up"
+    ],
+    "amber": [
+      "Persistent symptomatic nonunion is uncommon but may require excision."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Manibandha-bhagna phenotype may be documented."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Uncommon fracture of the pisiform caused by direct hypothenar impact or traction from flexor carpi ulnaris.",
+    "urgent": "Seek urgent assessment for acute neurovascular compromise, major trauma, severe deformity, progressive weakness, suspected tendon rupture, infection or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "BSSH",
+      "title": "Carpal Fracture resources",
+      "url": "https://www.bssh.ac.uk/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V3.8-BATCH-24",
+    "proposedGoldChapterNumber": 452
+  }
+}

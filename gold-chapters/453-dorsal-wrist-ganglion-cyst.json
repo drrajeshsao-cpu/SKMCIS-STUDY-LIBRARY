@@ -1,0 +1,94 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-ORT-DWGC-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Dorsal Wrist Ganglion Cyst",
+  "synonyms": [],
+  "category": "Orthopedics > Wrist > Ganglion",
+  "tags": [
+    "dorsal wrist ganglion cyst"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Benign mucin-filled cyst arising commonly from the scapholunate region on the dorsal wrist.",
+  "clinicalPattern": {
+    "typical": [
+      "Visible or palpable dorsal wrist lump",
+      "Aching with extension/loading",
+      "Size may fluctuate"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Rapid atypical growth"
+    },
+    {
+      "level": "RED",
+      "item": "Neurological deficit"
+    },
+    {
+      "level": "RED",
+      "item": "Concern for solid tumor"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Mass consistency",
+      "Transillumination when appropriate",
+      "Wrist ROM",
+      "Neurovascular exam"
+    ]
+  },
+  "differentials": [
+    "Carpal boss",
+    "Soft-tissue tumor",
+    "Synovitis"
+  ],
+  "investigations": {
+    "principle": "Diagnosis is usually clinical; ultrasound is useful if the lesion is atypical or occult.",
+    "MRI": "Use MRI when neural, soft-tissue, cartilage, tendon, occult injury or other condition-specific assessment requires it.",
+    "radiographs": "Use radiographs and/or CT according to the condition-specific diagnostic pathway."
+  },
+  "management": {
+    "green": [
+      "Reassurance/observation when minimally symptomatic",
+      "Activity modification"
+    ],
+    "amber": [
+      "Aspiration or excision is considered for persistent pain/function issues; recurrence can occur."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Manibandha-granthi phenotype may be documented descriptively."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Benign mucin-filled cyst arising commonly from the scapholunate region on the dorsal wrist.",
+    "urgent": "Seek urgent assessment for acute neurovascular compromise, major trauma, severe deformity, progressive weakness, suspected tendon rupture, infection or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "BSSH",
+      "title": "Ganglion Cyst resources",
+      "url": "https://www.bssh.ac.uk/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V3.8-BATCH-24",
+    "proposedGoldChapterNumber": 453
+  }
+}

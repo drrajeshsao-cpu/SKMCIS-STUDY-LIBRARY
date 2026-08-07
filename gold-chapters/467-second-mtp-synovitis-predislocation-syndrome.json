@@ -1,0 +1,95 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-ORT-MTPS-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Second MTP Synovitis / Predislocation Syndrome",
+  "synonyms": [],
+  "category": "Orthopedics > Foot > Lesser MTP",
+  "tags": [
+    "second mtp synovitis / predislocation syndrome"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Painful inflammation and instability of a lesser metatarsophalangeal joint, commonly the second, often preceding plantar-plate failure and crossover-toe deformity.",
+  "clinicalPattern": {
+    "typical": [
+      "Plantar forefoot pain",
+      "MTP swelling",
+      "Pain with toe-off",
+      "Early toe drift"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Acute dislocation"
+    },
+    {
+      "level": "RED",
+      "item": "Stress fracture"
+    },
+    {
+      "level": "RED",
+      "item": "Septic joint"
+    }
+  ],
+  "examination": {
+    "core": [
+      "MTP drawer",
+      "Plantar tenderness",
+      "Toe alignment"
+    ]
+  },
+  "differentials": [
+    "Plantar plate tear",
+    "Morton neuroma",
+    "Metatarsalgia"
+  ],
+  "investigations": {
+    "principle": "Weight-bearing radiographs assess alignment; ultrasound/MRI is used when plantar-plate pathology is suspected.",
+    "MRI": "Use MRI when neural, soft-tissue, cartilage, tendon, occult injury or other condition-specific assessment requires it.",
+    "radiographs": "Use radiographs and/or CT according to the condition-specific diagnostic pathway."
+  },
+  "management": {
+    "green": [
+      "Off-loading",
+      "Toe taping",
+      "Footwear modification"
+    ],
+    "amber": [
+      "Progressive instability may require surgical correction."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Pada-anguli Sandhi phenotype may be documented."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Painful inflammation and instability of a lesser metatarsophalangeal joint, commonly the second, often preceding plantar-plate failure and crossover-toe deformity.",
+    "urgent": "Seek urgent assessment for acute neurovascular compromise, major trauma, severe deformity, progressive weakness, suspected tendon rupture, infection or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "FootCareMD",
+      "title": "Lesser MTP Instability resources",
+      "url": "https://www.footcaremd.org/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V3.8-BATCH-24",
+    "proposedGoldChapterNumber": 467
+  }
+}

@@ -1,0 +1,94 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-ORT-GMTR-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Gluteus Medius Tendon Tear",
+  "synonyms": [],
+  "category": "Orthopedics > Hip > Tendon Tear",
+  "tags": [
+    "gluteus medius tendon tear"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Partial or full-thickness tear of the gluteus medius/minimus tendon complex causing lateral hip pain and abductor weakness.",
+  "clinicalPattern": {
+    "typical": [
+      "Lateral hip pain",
+      "Trendelenburg gait",
+      "Pain lying on affected side",
+      "Abductor weakness"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Acute traumatic complete tear"
+    },
+    {
+      "level": "RED",
+      "item": "Hip fracture differential"
+    },
+    {
+      "level": "RED",
+      "item": "Severe progressive weakness"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Hip abductor strength",
+      "Trendelenburg test",
+      "Greater trochanter tenderness"
+    ]
+  },
+  "differentials": [
+    "Gluteal tendinopathy",
+    "GTPS",
+    "Lumbar radiculopathy"
+  ],
+  "investigations": {
+    "principle": "MRI or ultrasound defines tendon tear and muscle quality.",
+    "MRI": "Use MRI when neural, soft-tissue, cartilage, tendon, occult injury or other condition-specific assessment requires it.",
+    "radiographs": "Use radiographs and/or CT according to the condition-specific diagnostic pathway."
+  },
+  "management": {
+    "green": [
+      "Targeted abductor rehabilitation for partial/stable tears",
+      "Load modification"
+    ],
+    "amber": [
+      "Full-thickness tears with persistent disability may require surgical repair."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Shroni-Snayu injury phenotype may be documented."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Partial or full-thickness tear of the gluteus medius/minimus tendon complex causing lateral hip pain and abductor weakness.",
+    "urgent": "Seek urgent assessment for acute neurovascular compromise, major trauma, severe deformity, progressive weakness, suspected tendon rupture, infection or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "ACR",
+      "title": "Chronic Hip Pain",
+      "url": "https://acsearch.acr.org/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V3.8-BATCH-24",
+    "proposedGoldChapterNumber": 457
+  }
+}

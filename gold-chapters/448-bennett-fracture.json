@@ -1,0 +1,95 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-ORT-BEN-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Bennett Fracture",
+  "synonyms": [],
+  "category": "Orthopedics > Hand > Thumb Fracture",
+  "tags": [
+    "bennett fracture"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Intra-articular fracture-dislocation of the base of the first metacarpal with characteristic volar-ulnar fragment and CMC instability.",
+  "clinicalPattern": {
+    "typical": [
+      "Base-of-thumb pain",
+      "Swelling",
+      "Weak pinch",
+      "Traumatic mechanism"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Open fracture"
+    },
+    {
+      "level": "RED",
+      "item": "Neurovascular compromise"
+    },
+    {
+      "level": "RED",
+      "item": "Marked CMC displacement"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Thumb CMC tenderness",
+      "Alignment",
+      "Pinch",
+      "Neurovascular exam"
+    ]
+  },
+  "differentials": [
+    "Thumb CMC dislocation",
+    "Rolando fracture",
+    "Thumb CMC osteoarthritis"
+  ],
+  "investigations": {
+    "principle": "Thumb radiographs define fracture-dislocation; CT is selective for complex articular injury.",
+    "MRI": "Use MRI when neural, soft-tissue, cartilage, tendon, occult injury or other condition-specific assessment requires it.",
+    "radiographs": "Use radiographs and/or CT according to the condition-specific diagnostic pathway."
+  },
+  "management": {
+    "green": [
+      "Thumb-spica immobilization",
+      "Urgent hand-surgery review"
+    ],
+    "amber": [
+      "Displaced/unstable Bennett fractures generally require reduction and fixation."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Angushtha-bhagna phenotype may be documented after modern stabilization."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Intra-articular fracture-dislocation of the base of the first metacarpal with characteristic volar-ulnar fragment and CMC instability.",
+    "urgent": "Seek urgent assessment for acute neurovascular compromise, major trauma, severe deformity, progressive weakness, suspected tendon rupture, infection or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "BSSH",
+      "title": "Thumb Base Fracture resources",
+      "url": "https://www.bssh.ac.uk/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V3.8-BATCH-24",
+    "proposedGoldChapterNumber": 448
+  }
+}
