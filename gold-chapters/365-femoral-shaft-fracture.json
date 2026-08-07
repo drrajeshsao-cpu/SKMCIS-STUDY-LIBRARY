@@ -1,0 +1,100 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-ORT-FSF-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Femoral Shaft Fracture",
+  "synonyms": [],
+  "category": "Orthopedics > Femur > Fracture",
+  "tags": [
+    "femoral shaft fracture"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Fracture of the femoral diaphysis, commonly from high-energy trauma in younger adults or fragility/pathological mechanisms in older patients.",
+  "clinicalPattern": {
+    "typical": [
+      "Severe thigh pain",
+      "Deformity",
+      "Inability to bear weight",
+      "Major blood loss may occur"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Hemodynamic instability"
+    },
+    {
+      "level": "RED",
+      "item": "Open fracture"
+    },
+    {
+      "level": "RED",
+      "item": "Neurovascular compromise"
+    },
+    {
+      "level": "RED",
+      "item": "Compartment syndrome"
+    }
+  ],
+  "examination": {
+    "core": [
+      "ATLS assessment",
+      "Thigh deformity",
+      "Distal neurovascular exam",
+      "Associated hip/knee injury"
+    ]
+  },
+  "differentials": [
+    "Hip fracture",
+    "Distal femur fracture",
+    "Pathological fracture"
+  ],
+  "investigations": {
+    "principle": "AP/lateral femur radiographs including hip and knee are required; CT is used for associated injuries.",
+    "MRI": "Use MRI when neural, soft-tissue, marrow, infection, tumor or occult-injury assessment requires it.",
+    "radiographs": "Use radiographs and/or CT according to the condition-specific diagnostic pathway."
+  },
+  "management": {
+    "green": [
+      "Trauma stabilization",
+      "Splinting/traction according to emergency protocol",
+      "Urgent orthopedic fixation pathway"
+    ],
+    "amber": [
+      "Adult femoral shaft fractures commonly require operative fixation; search for associated injuries."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Bhagna management may complement recovery after modern stabilization."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Fracture of the femoral diaphysis, commonly from high-energy trauma in younger adults or fragility/pathological mechanisms in older patients.",
+    "urgent": "Seek urgent assessment for acute/progressive neurological deficit, severe vascular symptoms, major trauma, suspected infection, pathological fracture, neurovascular compromise or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "AAOS OrthoInfo",
+      "title": "Femur Shaft Fractures",
+      "url": "https://orthoinfo.aaos.org/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V3.3-BATCH-19",
+    "proposedGoldChapterNumber": 365
+  }
+}

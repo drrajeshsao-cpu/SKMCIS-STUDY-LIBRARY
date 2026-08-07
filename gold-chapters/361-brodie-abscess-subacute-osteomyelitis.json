@@ -1,0 +1,97 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-ORT-BRODIE-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Brodie Abscess / Subacute Osteomyelitis",
+  "synonyms": [],
+  "category": "Orthopedics > Bone Infection",
+  "tags": [
+    "brodie abscess / subacute osteomyelitis"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Localized subacute osteomyelitis forming an intraosseous abscess, classically causing persistent focal bone pain with limited systemic illness.",
+  "clinicalPattern": {
+    "typical": [
+      "Localized bone pain",
+      "Night pain",
+      "Minimal fever",
+      "Persistent tenderness"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Sepsis"
+    },
+    {
+      "level": "RED",
+      "item": "Pathological fracture"
+    },
+    {
+      "level": "RED",
+      "item": "Rapid progression"
+    },
+    {
+      "level": "RED",
+      "item": "Immunocompromised host"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Local tenderness/swelling",
+      "Systemic infection assessment"
+    ]
+  },
+  "differentials": [
+    "Osteoid osteoma",
+    "Bone tumor",
+    "Stress fracture"
+  ],
+  "investigations": {
+    "principle": "Radiographs may show a lucent lesion with sclerosis; MRI defines marrow/soft-tissue extent; microbiology is required when treated surgically.",
+    "MRI": "Use MRI when neural, soft-tissue, marrow, infection, tumor or occult-injury assessment requires it.",
+    "radiographs": "Use radiographs and/or CT according to the condition-specific diagnostic pathway."
+  },
+  "management": {
+    "green": [
+      "Orthopedic/infectious-disease assessment",
+      "Culture-directed antimicrobial therapy"
+    ],
+    "amber": [
+      "Curettage/biopsy may be needed when diagnosis is uncertain or symptoms persist."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Asthi-Shotha framework is secondary to antimicrobial diagnosis and treatment."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Localized subacute osteomyelitis forming an intraosseous abscess, classically causing persistent focal bone pain with limited systemic illness.",
+    "urgent": "Seek urgent assessment for acute/progressive neurological deficit, severe vascular symptoms, major trauma, suspected infection, pathological fracture, neurovascular compromise or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "IDSA",
+      "title": "Osteomyelitis resources",
+      "url": "https://www.idsociety.org/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V3.3-BATCH-19",
+    "proposedGoldChapterNumber": 361
+  }
+}

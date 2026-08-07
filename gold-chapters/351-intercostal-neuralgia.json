@@ -1,0 +1,93 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-NEU-ICN-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Intercostal Neuralgia",
+  "synonyms": [],
+  "category": "Neurology/Pain > Thoracic Nerve",
+  "tags": [
+    "intercostal neuralgia"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Neuropathic pain arising from one or more intercostal nerves, producing band-like chest or abdominal pain after trauma, surgery, zoster or other nerve injury.",
+  "clinicalPattern": {
+    "typical": [
+      "Band-like thoracic pain",
+      "Burning or stabbing quality",
+      "Dermatomal tenderness/allodynia"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Cardiac/pulmonary emergency"
+    },
+    {
+      "level": "RED",
+      "item": "Thoracic myelopathy"
+    },
+    {
+      "level": "RED",
+      "item": "Cancer/infection features"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Thoracic sensory mapping",
+      "Chest-wall palpation",
+      "Neurological and visceral red-flag screen"
+    ]
+  },
+  "differentials": [
+    "Thoracic radiculopathy",
+    "Postherpetic neuralgia",
+    "Costochondritis"
+  ],
+  "investigations": {
+    "principle": "Diagnosis is clinical after exclusion of visceral and spinal causes; imaging is cause-directed.",
+    "MRI": "Use MRI when neural, soft-tissue, marrow, infection, tumor or occult-injury assessment requires it.",
+    "radiographs": "Use radiographs and/or CT according to the condition-specific diagnostic pathway."
+  },
+  "management": {
+    "green": [
+      "Treat underlying cause",
+      "Neuropathic pain rehabilitation"
+    ],
+    "amber": [
+      "Thoracic pain should not be labeled neuralgia before serious cardiopulmonary/visceral disease is excluded."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Parshva-shoola/Vata neuralgic phenotype may be documented only in parallel."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Neuropathic pain arising from one or more intercostal nerves, producing band-like chest or abdominal pain after trauma, surgery, zoster or other nerve injury.",
+    "urgent": "Seek urgent assessment for acute/progressive neurological deficit, severe vascular symptoms, major trauma, suspected infection, pathological fracture, neurovascular compromise or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "IASP",
+      "title": "Neuropathic Pain resources",
+      "url": "https://www.iasp-pain.org/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V3.3-BATCH-19",
+    "proposedGoldChapterNumber": 351
+  }
+}

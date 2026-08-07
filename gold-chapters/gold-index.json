@@ -345,7 +345,27 @@
     "gold-chapters/344-parsonage-turner-syndrome-neuralgic-amyotrophy.json",
     "gold-chapters/345-thoracic-outlet-venous-syndrome.json",
     "gold-chapters/346-thoracic-outlet-arterial-syndrome.json",
-    "gold-chapters/347-pectoralis-major-tendon-rupture.json"
+    "gold-chapters/347-pectoralis-major-tendon-rupture.json",
+    "gold-chapters/348-small-fiber-neuropathy.json",
+    "gold-chapters/349-mononeuritis-multiplex.json",
+    "gold-chapters/350-postherpetic-neuralgia.json",
+    "gold-chapters/351-intercostal-neuralgia.json",
+    "gold-chapters/352-pudendal-neuralgia.json",
+    "gold-chapters/353-ilioinguinal-neuralgia.json",
+    "gold-chapters/354-genitofemoral-neuralgia.json",
+    "gold-chapters/355-superior-cluneal-nerve-entrapment.json",
+    "gold-chapters/356-thoracic-discogenic-pain.json",
+    "gold-chapters/357-tarlov-cyst-perineural-cyst.json",
+    "gold-chapters/358-osteofibrous-dysplasia.json",
+    "gold-chapters/359-non-ossifying-fibroma.json",
+    "gold-chapters/360-chondromyxoid-fibroma.json",
+    "gold-chapters/361-brodie-abscess-subacute-osteomyelitis.json",
+    "gold-chapters/362-prosthetic-joint-infection.json",
+    "gold-chapters/363-periprosthetic-fracture.json",
+    "gold-chapters/364-myositis-ossificans.json",
+    "gold-chapters/365-femoral-shaft-fracture.json",
+    "gold-chapters/366-distal-femur-fracture.json",
+    "gold-chapters/367-pilon-fracture-of-the-tibia.json"
   ],
-  "expectedTotalGold": 348
+  "expectedTotalGold": 368
 }

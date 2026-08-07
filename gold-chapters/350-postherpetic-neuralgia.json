@@ -1,0 +1,98 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-NEU-PHN-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Postherpetic Neuralgia",
+  "synonyms": [],
+  "category": "Neurology/Pain > Neuropathic Pain",
+  "tags": [
+    "postherpetic neuralgia"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Persistent neuropathic pain in a dermatomal distribution after herpes zoster, typically with burning pain, allodynia or sensory disturbance.",
+  "clinicalPattern": {
+    "typical": [
+      "Burning dermatomal pain",
+      "Allodynia",
+      "Hyperalgesia",
+      "Sensory change after shingles"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Ophthalmic zoster complications"
+    },
+    {
+      "level": "RED",
+      "item": "Motor weakness"
+    },
+    {
+      "level": "RED",
+      "item": "Disseminated zoster"
+    },
+    {
+      "level": "RED",
+      "item": "Immunocompromised severe disease"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Dermatomal sensory exam",
+      "Skin changes/scarring",
+      "Motor screen"
+    ]
+  },
+  "differentials": [
+    "Radiculopathy",
+    "Intercostal neuralgia",
+    "CRPS"
+  ],
+  "investigations": {
+    "principle": "Diagnosis is usually clinical; investigations are reserved for atypical features.",
+    "MRI": "Use MRI when neural, soft-tissue, marrow, infection, tumor or occult-injury assessment requires it.",
+    "radiographs": "Use radiographs and/or CT according to the condition-specific diagnostic pathway."
+  },
+  "management": {
+    "green": [
+      "Neuropathic pain treatment",
+      "Skin protection and desensitization"
+    ],
+    "amber": [
+      "Persistent severe pain may need multidisciplinary pain care."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Vata-daha/vedana phenotype may be documented descriptively."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Persistent neuropathic pain in a dermatomal distribution after herpes zoster, typically with burning pain, allodynia or sensory disturbance.",
+    "urgent": "Seek urgent assessment for acute/progressive neurological deficit, severe vascular symptoms, major trauma, suspected infection, pathological fracture, neurovascular compromise or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "CDC",
+      "title": "Shingles Clinical resources",
+      "url": "https://www.cdc.gov/shingles/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V3.3-BATCH-19",
+    "proposedGoldChapterNumber": 350
+  }
+}

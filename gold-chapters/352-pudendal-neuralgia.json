@@ -1,0 +1,98 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-NEU-PUD-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Pudendal Neuralgia",
+  "synonyms": [],
+  "category": "Neurology/Pain > Pelvic Peripheral Nerve",
+  "tags": [
+    "pudendal neuralgia"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Neuropathic pelvic/perineal pain attributed to pudendal nerve irritation or entrapment, often worsened by sitting.",
+  "clinicalPattern": {
+    "typical": [
+      "Perineal burning pain",
+      "Pain worse with sitting",
+      "Relief when standing/lying",
+      "Possible genital sensory symptoms"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Cauda equina symptoms"
+    },
+    {
+      "level": "RED",
+      "item": "Pelvic malignancy"
+    },
+    {
+      "level": "RED",
+      "item": "Infection"
+    },
+    {
+      "level": "RED",
+      "item": "New sphincter dysfunction"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Focused pelvic/perineal neurological exam",
+      "Lumbar/sacral screen",
+      "Pelvic floor assessment when appropriate"
+    ]
+  },
+  "differentials": [
+    "Coccygodynia",
+    "Pelvic floor pain",
+    "Sacral radiculopathy"
+  ],
+  "investigations": {
+    "principle": "Diagnosis is clinical; pelvic MRI and neurophysiologic testing are selective to exclude alternative causes.",
+    "MRI": "Use MRI when neural, soft-tissue, marrow, infection, tumor or occult-injury assessment requires it.",
+    "radiographs": "Use radiographs and/or CT according to the condition-specific diagnostic pathway."
+  },
+  "management": {
+    "green": [
+      "Pressure avoidance",
+      "Pelvic-floor and pain rehabilitation"
+    ],
+    "amber": [
+      "Nerve blocks or decompression are reserved for carefully selected cases."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Vankshana/Guda Vata-neuralgic phenotype may be documented only in parallel."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Neuropathic pelvic/perineal pain attributed to pudendal nerve irritation or entrapment, often worsened by sitting.",
+    "urgent": "Seek urgent assessment for acute/progressive neurological deficit, severe vascular symptoms, major trauma, suspected infection, pathological fracture, neurovascular compromise or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "IASP",
+      "title": "Pelvic Neuropathic Pain resources",
+      "url": "https://www.iasp-pain.org/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V3.3-BATCH-19",
+    "proposedGoldChapterNumber": 352
+  }
+}

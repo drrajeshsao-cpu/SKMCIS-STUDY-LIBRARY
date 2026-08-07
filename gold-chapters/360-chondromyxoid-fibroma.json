@@ -1,0 +1,91 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-ONC-CMF-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Chondromyxoid Fibroma",
+  "synonyms": [],
+  "category": "Orthopedic Oncology > Benign Bone Tumor",
+  "tags": [
+    "chondromyxoid fibroma"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Rare benign cartilaginous/myxoid bone tumor, commonly arising eccentrically in the metaphysis of long bones in young patients.",
+  "clinicalPattern": {
+    "typical": [
+      "Localized pain",
+      "Swelling",
+      "Slowly progressive symptoms"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Aggressive cortical destruction"
+    },
+    {
+      "level": "RED",
+      "item": "Rapid growth"
+    },
+    {
+      "level": "RED",
+      "item": "Pathological fracture"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Local tenderness/swelling",
+      "Joint function"
+    ]
+  },
+  "differentials": [
+    "Chondroblastoma",
+    "Giant cell tumor",
+    "Chondrosarcoma"
+  ],
+  "investigations": {
+    "principle": "Radiographs and MRI characterize lesion; biopsy confirms diagnosis before definitive surgery.",
+    "MRI": "Use MRI when neural, soft-tissue, marrow, infection, tumor or occult-injury assessment requires it.",
+    "radiographs": "Use radiographs and/or CT according to the condition-specific diagnostic pathway."
+  },
+  "management": {
+    "green": [
+      "Orthopedic oncology assessment"
+    ],
+    "amber": [
+      "Curettage is common but recurrence requires follow-up."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Asthi-granthi phenotype may be documented only in parallel."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Rare benign cartilaginous/myxoid bone tumor, commonly arising eccentrically in the metaphysis of long bones in young patients.",
+    "urgent": "Seek urgent assessment for acute/progressive neurological deficit, severe vascular symptoms, major trauma, suspected infection, pathological fracture, neurovascular compromise or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "NCCN",
+      "title": "Bone Tumor resources",
+      "url": "https://www.nccn.org/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V3.3-BATCH-19",
+    "proposedGoldChapterNumber": 360
+  }
+}

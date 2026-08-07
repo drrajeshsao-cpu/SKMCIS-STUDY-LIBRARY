@@ -1,0 +1,94 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-NEU-MNM-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Mononeuritis Multiplex",
+  "synonyms": [],
+  "category": "Neurology > Peripheral Nerve > Multifocal",
+  "tags": [
+    "mononeuritis multiplex"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Asymmetric multifocal neuropathy caused by sequential injury of individual peripheral nerves, often related to vasculitis, diabetes, infection or systemic inflammatory disease.",
+  "clinicalPattern": {
+    "typical": [
+      "Painful asymmetric nerve deficits",
+      "Foot or wrist drop",
+      "Patchy sensory loss",
+      "Stepwise progression"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Rapidly progressive multifocal weakness"
+    },
+    {
+      "level": "RED",
+      "item": "Systemic vasculitis"
+    },
+    {
+      "level": "RED",
+      "item": "Severe pain with constitutional symptoms"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Individual nerve motor/sensory mapping",
+      "Reflexes",
+      "Skin/systemic vasculitis screen"
+    ]
+  },
+  "differentials": [
+    "Polyneuropathy",
+    "Radiculoplexus neuropathy",
+    "Motor neuron disease"
+  ],
+  "investigations": {
+    "principle": "Electrodiagnostics localize lesions; inflammatory, infectious and vasculitic workup is cause-directed.",
+    "MRI": "Use MRI when neural, soft-tissue, marrow, infection, tumor or occult-injury assessment requires it.",
+    "radiographs": "Use radiographs and/or CT according to the condition-specific diagnostic pathway."
+  },
+  "management": {
+    "green": [
+      "Urgent neurology/rheumatology assessment when vasculitis suspected",
+      "Rehabilitation and splinting"
+    ],
+    "amber": [
+      "Treatment depends on the underlying cause and may require immunosuppression."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Vata/Rakta neuropathic phenotype may be documented only in parallel."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Asymmetric multifocal neuropathy caused by sequential injury of individual peripheral nerves, often related to vasculitis, diabetes, infection or systemic inflammatory disease.",
+    "urgent": "Seek urgent assessment for acute/progressive neurological deficit, severe vascular symptoms, major trauma, suspected infection, pathological fracture, neurovascular compromise or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "AANEM",
+      "title": "Peripheral Nerve resources",
+      "url": "https://www.aanem.org/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V3.3-BATCH-19",
+    "proposedGoldChapterNumber": 349
+  }
+}

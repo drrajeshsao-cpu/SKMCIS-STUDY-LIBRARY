@@ -1,0 +1,99 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-ORT-PJI-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Prosthetic Joint Infection",
+  "synonyms": [],
+  "category": "Orthopedics > Arthroplasty Complication > Infection",
+  "tags": [
+    "prosthetic joint infection"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Infection involving a joint prosthesis and adjacent tissues, presenting acutely or chronically with pain, swelling, drainage or implant dysfunction.",
+  "clinicalPattern": {
+    "typical": [
+      "Persistent prosthetic-joint pain",
+      "Swelling/warmth",
+      "Drainage or sinus tract",
+      "Fever may be absent"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Sepsis"
+    },
+    {
+      "level": "RED",
+      "item": "Acute rapidly painful prosthetic joint"
+    },
+    {
+      "level": "RED",
+      "item": "Sinus tract"
+    },
+    {
+      "level": "RED",
+      "item": "Hemodynamic instability"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Joint swelling",
+      "Wound/sinus",
+      "ROM",
+      "Systemic assessment"
+    ]
+  },
+  "differentials": [
+    "Aseptic loosening",
+    "Crystal arthritis",
+    "Periprosthetic fracture"
+  ],
+  "investigations": {
+    "principle": "Inflammatory markers, aspiration for cell count/culture and imaging are integrated using accepted PJI criteria.",
+    "MRI": "Use MRI when neural, soft-tissue, marrow, infection, tumor or occult-injury assessment requires it.",
+    "radiographs": "Use radiographs and/or CT according to the condition-specific diagnostic pathway."
+  },
+  "management": {
+    "green": [
+      "Urgent arthroplasty/infectious-disease pathway",
+      "Culture-directed antibiotics"
+    ],
+    "amber": [
+      "Debridement, one-stage or two-stage revision depends on timing, organism, implant stability and host factors."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Sandhi-Shotha framework is secondary to modern infection eradication."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Infection involving a joint prosthesis and adjacent tissues, presenting acutely or chronically with pain, swelling, drainage or implant dysfunction.",
+    "urgent": "Seek urgent assessment for acute/progressive neurological deficit, severe vascular symptoms, major trauma, suspected infection, pathological fracture, neurovascular compromise or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "IDSA",
+      "title": "Prosthetic Joint Infection Guideline",
+      "url": "https://www.idsociety.org/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V3.3-BATCH-19",
+    "proposedGoldChapterNumber": 362
+  }
+}

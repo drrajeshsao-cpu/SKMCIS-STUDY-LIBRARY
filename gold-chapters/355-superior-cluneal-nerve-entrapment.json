@@ -1,0 +1,91 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-NEU-SCNE-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Superior Cluneal Nerve Entrapment",
+  "synonyms": [],
+  "category": "Neurology/Pain > Peripheral Nerve > Low Back",
+  "tags": [
+    "superior cluneal nerve entrapment"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Entrapment of superior cluneal sensory nerves near the posterior iliac crest causing focal low-back/buttock pain that can mimic lumbar spine or SI pathology.",
+  "clinicalPattern": {
+    "typical": [
+      "Focal pain over posterior iliac crest",
+      "Buttock referral",
+      "Tender trigger point",
+      "No primary motor deficit"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Progressive neurological deficit"
+    },
+    {
+      "level": "RED",
+      "item": "Cancer/infection/fracture red flags"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Posterior iliac crest tenderness",
+      "Sensory reproduction",
+      "Lumbar/SI/hip screen"
+    ]
+  },
+  "differentials": [
+    "SI joint pain",
+    "Facet pain",
+    "Lumbar radiculopathy"
+  ],
+  "investigations": {
+    "principle": "Diagnosis is mainly clinical; diagnostic local anesthetic block may support localization.",
+    "MRI": "Use MRI when neural, soft-tissue, marrow, infection, tumor or occult-injury assessment requires it.",
+    "radiographs": "Use radiographs and/or CT according to the condition-specific diagnostic pathway."
+  },
+  "management": {
+    "green": [
+      "Activity modification",
+      "Local soft-tissue/nerve desensitization",
+      "Rehabilitation"
+    ],
+    "amber": [
+      "Interventional treatment is selective after alternative spinal causes are excluded."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Kati/Vata-neuralgic phenotype may be documented."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Entrapment of superior cluneal sensory nerves near the posterior iliac crest causing focal low-back/buttock pain that can mimic lumbar spine or SI pathology.",
+    "urgent": "Seek urgent assessment for acute/progressive neurological deficit, severe vascular symptoms, major trauma, suspected infection, pathological fracture, neurovascular compromise or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "Pain medicine literature",
+      "title": "Cluneal Nerve Entrapment reviews",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V3.3-BATCH-19",
+    "proposedGoldChapterNumber": 355
+  }
+}

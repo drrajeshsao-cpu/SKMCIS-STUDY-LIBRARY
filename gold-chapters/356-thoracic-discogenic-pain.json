@@ -1,0 +1,98 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-SPN-TDP-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Thoracic Discogenic Pain",
+  "synonyms": [],
+  "category": "Spine > Thoracic > Discogenic",
+  "tags": [
+    "thoracic discogenic pain"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Axial thoracic pain suspected to arise from an intervertebral disc after exclusion of visceral, fracture, inflammatory and neural-compressive causes.",
+  "clinicalPattern": {
+    "typical": [
+      "Midline or paraspinal thoracic pain",
+      "Pain with sustained posture or movement",
+      "No objective myelopathy"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Myelopathy"
+    },
+    {
+      "level": "RED",
+      "item": "Cancer/infection features"
+    },
+    {
+      "level": "RED",
+      "item": "Cardiopulmonary/visceral emergency"
+    },
+    {
+      "level": "RED",
+      "item": "Fracture"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Thoracic ROM",
+      "Neurological exam",
+      "Chest/visceral red-flag screen"
+    ]
+  },
+  "differentials": [
+    "Thoracic radiculopathy",
+    "Compression fracture",
+    "Costochondritis"
+  ],
+  "investigations": {
+    "principle": "MRI is reserved for persistent symptoms or red flags; disc degeneration alone does not prove pain causation.",
+    "MRI": "Use MRI when neural, soft-tissue, marrow, infection, tumor or occult-injury assessment requires it.",
+    "radiographs": "Use radiographs and/or CT according to the condition-specific diagnostic pathway."
+  },
+  "management": {
+    "green": [
+      "Education",
+      "Mobility/strength rehabilitation",
+      "Postural/load management"
+    ],
+    "amber": [
+      "Avoid attributing thoracic pain to disc degeneration without excluding serious non-spinal causes."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Prishtha-shoola phenotype may be documented only in parallel."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Axial thoracic pain suspected to arise from an intervertebral disc after exclusion of visceral, fracture, inflammatory and neural-compressive causes.",
+    "urgent": "Seek urgent assessment for acute/progressive neurological deficit, severe vascular symptoms, major trauma, suspected infection, pathological fracture, neurovascular compromise or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "ACR",
+      "title": "Thoracic Back Pain",
+      "url": "https://acsearch.acr.org/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V3.3-BATCH-19",
+    "proposedGoldChapterNumber": 356
+  }
+}

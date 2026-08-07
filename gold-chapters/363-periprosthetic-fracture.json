@@ -1,0 +1,94 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-ORT-PPF-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Periprosthetic Fracture",
+  "synonyms": [],
+  "category": "Orthopedics > Arthroplasty Complication > Fracture",
+  "tags": [
+    "periprosthetic fracture"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Fracture occurring around a joint prosthesis or fixation implant, requiring assessment of fracture pattern, implant stability and bone stock.",
+  "clinicalPattern": {
+    "typical": [
+      "Acute pain after fall",
+      "Inability to bear weight/use limb",
+      "Known joint replacement"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Open fracture"
+    },
+    {
+      "level": "RED",
+      "item": "Neurovascular compromise"
+    },
+    {
+      "level": "RED",
+      "item": "Loose prosthesis with unstable fracture"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Limb alignment",
+      "Neurovascular exam",
+      "Skin/wound",
+      "Adjacent joint"
+    ]
+  },
+  "differentials": [
+    "Aseptic loosening",
+    "Prosthetic joint infection",
+    "Dislocation"
+  ],
+  "investigations": {
+    "principle": "Radiographs of entire implant/bone are first-line; CT may define fracture and implant stability.",
+    "MRI": "Use MRI when neural, soft-tissue, marrow, infection, tumor or occult-injury assessment requires it.",
+    "radiographs": "Use radiographs and/or CT according to the condition-specific diagnostic pathway."
+  },
+  "management": {
+    "green": [
+      "Immobilize/protect limb",
+      "Urgent arthroplasty/trauma review"
+    ],
+    "amber": [
+      "Fixation versus revision arthroplasty depends on implant stability, fracture location and bone stock."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Bhagna care is secondary to modern implant-stability assessment."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Fracture occurring around a joint prosthesis or fixation implant, requiring assessment of fracture pattern, implant stability and bone stock.",
+    "urgent": "Seek urgent assessment for acute/progressive neurological deficit, severe vascular symptoms, major trauma, suspected infection, pathological fracture, neurovascular compromise or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "AAOS",
+      "title": "Periprosthetic Fracture resources",
+      "url": "https://orthoinfo.aaos.org/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V3.3-BATCH-19",
+    "proposedGoldChapterNumber": 363
+  }
+}

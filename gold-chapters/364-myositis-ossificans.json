@@ -1,0 +1,98 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-ORT-MO-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Myositis Ossificans",
+  "synonyms": [],
+  "category": "Orthopedics > Post-Traumatic Soft Tissue",
+  "tags": [
+    "myositis ossificans"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Localized heterotopic bone formation within muscle, usually after trauma or contusion, often evolving from painful swelling to a mature ossified mass.",
+  "clinicalPattern": {
+    "typical": [
+      "Painful enlarging muscle mass after trauma",
+      "Reduced ROM",
+      "Later hard mass"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Rapid unexplained growth"
+    },
+    {
+      "level": "RED",
+      "item": "Severe night pain"
+    },
+    {
+      "level": "RED",
+      "item": "Neurovascular compromise"
+    },
+    {
+      "level": "RED",
+      "item": "Tumor concern"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Mass size/tenderness",
+      "Joint ROM",
+      "Neurovascular exam"
+    ]
+  },
+  "differentials": [
+    "Soft tissue sarcoma",
+    "Heterotopic ossification",
+    "Hematoma"
+  ],
+  "investigations": {
+    "principle": "Serial radiographs/CT show peripheral maturation; MRI can mimic sarcoma early and requires timing/context correlation.",
+    "MRI": "Use MRI when neural, soft-tissue, marrow, infection, tumor or occult-injury assessment requires it.",
+    "radiographs": "Use radiographs and/or CT according to the condition-specific diagnostic pathway."
+  },
+  "management": {
+    "green": [
+      "Avoid repeated traumatic massage in acute phase",
+      "Maintain safe ROM",
+      "Gradual rehabilitation"
+    ],
+    "amber": [
+      "Biopsy/excision should be delayed or specialist-planned if diagnosis is uncertain because early lesions may mimic malignancy."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Mamsa/Asthi post-traumatic phenotype may be documented descriptively."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Localized heterotopic bone formation within muscle, usually after trauma or contusion, often evolving from painful swelling to a mature ossified mass.",
+    "urgent": "Seek urgent assessment for acute/progressive neurological deficit, severe vascular symptoms, major trauma, suspected infection, pathological fracture, neurovascular compromise or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "AAOS",
+      "title": "Myositis Ossificans resources",
+      "url": "https://orthoinfo.aaos.org/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V3.3-BATCH-19",
+    "proposedGoldChapterNumber": 364
+  }
+}

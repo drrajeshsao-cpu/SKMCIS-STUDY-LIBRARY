@@ -1,0 +1,93 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-ONC-OFD-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Osteofibrous Dysplasia",
+  "synonyms": [],
+  "category": "Orthopedic Oncology > Fibro-Osseous Lesion",
+  "tags": [
+    "osteofibrous dysplasia"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Rare benign fibro-osseous lesion primarily involving the tibial cortex in children, with an important diagnostic relationship to adamantinoma.",
+  "clinicalPattern": {
+    "typical": [
+      "Painless tibial swelling",
+      "Anterior bowing",
+      "Incidental cortical lesion"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Rapid growth"
+    },
+    {
+      "level": "RED",
+      "item": "Pain after skeletal maturity"
+    },
+    {
+      "level": "RED",
+      "item": "Aggressive features suggesting adamantinoma"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Tibial deformity",
+      "Local tenderness",
+      "Limb alignment"
+    ]
+  },
+  "differentials": [
+    "Fibrous dysplasia",
+    "Adamantinoma",
+    "Non-ossifying fibroma"
+  ],
+  "investigations": {
+    "principle": "Radiographs and MRI define cortical lesion; biopsy is reserved for atypical or aggressive cases and should be oncologically planned.",
+    "MRI": "Use MRI when neural, soft-tissue, marrow, infection, tumor or occult-injury assessment requires it.",
+    "radiographs": "Use radiographs and/or CT according to the condition-specific diagnostic pathway."
+  },
+  "management": {
+    "green": [
+      "Observation for typical stable childhood lesions",
+      "Orthopedic oncology follow-up"
+    ],
+    "amber": [
+      "Aggressive or atypical lesions require exclusion of adamantinoma."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Asthi-vikriti phenotype may be documented only in parallel."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Rare benign fibro-osseous lesion primarily involving the tibial cortex in children, with an important diagnostic relationship to adamantinoma.",
+    "urgent": "Seek urgent assessment for acute/progressive neurological deficit, severe vascular symptoms, major trauma, suspected infection, pathological fracture, neurovascular compromise or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "NCCN",
+      "title": "Bone Tumor resources",
+      "url": "https://www.nccn.org/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V3.3-BATCH-19",
+    "proposedGoldChapterNumber": 358
+  }
+}

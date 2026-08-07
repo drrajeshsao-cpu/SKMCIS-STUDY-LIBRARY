@@ -1,0 +1,98 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-ORT-PILON-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Pilon Fracture of the Tibia",
+  "synonyms": [],
+  "category": "Orthopedics > Ankle > Fracture",
+  "tags": [
+    "pilon fracture of the tibia"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Intra-articular fracture of the distal tibial plafond, usually from high-energy axial loading and associated with substantial soft-tissue injury.",
+  "clinicalPattern": {
+    "typical": [
+      "Severe ankle pain/swelling",
+      "Inability to bear weight",
+      "High-energy fall or collision"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Open fracture"
+    },
+    {
+      "level": "RED",
+      "item": "Compartment syndrome"
+    },
+    {
+      "level": "RED",
+      "item": "Neurovascular compromise"
+    },
+    {
+      "level": "RED",
+      "item": "Threatened skin"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Soft-tissue envelope",
+      "Distal neurovascular exam",
+      "Compartment assessment"
+    ]
+  },
+  "differentials": [
+    "Ankle fracture",
+    "Talus fracture",
+    "Calcaneal fracture"
+  ],
+  "investigations": {
+    "principle": "Radiographs are initial; CT after provisional alignment is important for articular fracture planning.",
+    "MRI": "Use MRI when neural, soft-tissue, marrow, infection, tumor or occult-injury assessment requires it.",
+    "radiographs": "Use radiographs and/or CT according to the condition-specific diagnostic pathway."
+  },
+  "management": {
+    "green": [
+      "Urgent soft-tissue protection",
+      "Temporary stabilization when indicated",
+      "Specialist trauma care"
+    ],
+    "amber": [
+      "Definitive fixation is often staged until soft tissues are safe."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Gulpha-bhagna care may complement recovery after modern stabilization."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Intra-articular fracture of the distal tibial plafond, usually from high-energy axial loading and associated with substantial soft-tissue injury.",
+    "urgent": "Seek urgent assessment for acute/progressive neurological deficit, severe vascular symptoms, major trauma, suspected infection, pathological fracture, neurovascular compromise or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "AAOS OrthoInfo",
+      "title": "Pilon Fractures",
+      "url": "https://orthoinfo.aaos.org/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V3.3-BATCH-19",
+    "proposedGoldChapterNumber": 367
+  }
+}

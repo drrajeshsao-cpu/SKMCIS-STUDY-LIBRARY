@@ -1,0 +1,92 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-ONC-NOF-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Non-Ossifying Fibroma",
+  "synonyms": [],
+  "category": "Pediatric Orthopedics > Benign Bone Lesion",
+  "tags": [
+    "non-ossifying fibroma"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Common benign fibrous metaphyseal bone lesion in children and adolescents that usually resolves with skeletal maturation.",
+  "clinicalPattern": {
+    "typical": [
+      "Usually asymptomatic",
+      "Incidental metaphyseal lucency",
+      "Occasional pathological fracture when large"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Large lesion with fracture risk"
+    },
+    {
+      "level": "RED",
+      "item": "Atypical aggressive imaging"
+    },
+    {
+      "level": "RED",
+      "item": "Persistent unexplained pain"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Usually normal",
+      "Fracture assessment if symptomatic"
+    ]
+  },
+  "differentials": [
+    "Fibrous cortical defect",
+    "Unicameral bone cyst",
+    "Fibrous dysplasia"
+  ],
+  "investigations": {
+    "principle": "Radiographs are usually diagnostic; advanced imaging is rarely needed for classic lesions.",
+    "MRI": "Use MRI when neural, soft-tissue, marrow, infection, tumor or occult-injury assessment requires it.",
+    "radiographs": "Use radiographs and/or CT according to the condition-specific diagnostic pathway."
+  },
+  "management": {
+    "green": [
+      "Observation for typical lesions",
+      "Activity advice if large/high fracture risk"
+    ],
+    "amber": [
+      "Large symptomatic lesions or pathological fracture may require curettage/fixation."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Asthi lesion phenotype may be documented descriptively."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Common benign fibrous metaphyseal bone lesion in children and adolescents that usually resolves with skeletal maturation.",
+    "urgent": "Seek urgent assessment for acute/progressive neurological deficit, severe vascular symptoms, major trauma, suspected infection, pathological fracture, neurovascular compromise or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "AAOS OrthoInfo",
+      "title": "Nonossifying Fibroma",
+      "url": "https://orthoinfo.aaos.org/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V3.3-BATCH-19",
+    "proposedGoldChapterNumber": 359
+  }
+}

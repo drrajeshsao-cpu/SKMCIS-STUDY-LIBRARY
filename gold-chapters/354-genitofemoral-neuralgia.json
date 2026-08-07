@@ -1,0 +1,93 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-NEU-GFN-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Genitofemoral Neuralgia",
+  "synonyms": [],
+  "category": "Neurology/Pain > Abdominal Wall Nerve",
+  "tags": [
+    "genitofemoral neuralgia"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Neuropathic pain in the genitofemoral nerve distribution involving groin, upper anterior thigh and genital region, often following surgery or retroperitoneal injury.",
+  "clinicalPattern": {
+    "typical": [
+      "Groin/genital burning pain",
+      "Upper anterior thigh paresthesia",
+      "Pain after pelvic/inguinal surgery"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Testicular/vascular emergency"
+    },
+    {
+      "level": "RED",
+      "item": "Pelvic mass"
+    },
+    {
+      "level": "RED",
+      "item": "Progressive neurological deficit"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Sensory mapping",
+      "Inguinal/pelvic exam",
+      "Lumbar plexus screen"
+    ]
+  },
+  "differentials": [
+    "Ilioinguinal neuralgia",
+    "L1-L2 radiculopathy",
+    "Hernia"
+  ],
+  "investigations": {
+    "principle": "Clinical localization is primary; imaging and diagnostic blocks are selected by suspected cause.",
+    "MRI": "Use MRI when neural, soft-tissue, marrow, infection, tumor or occult-injury assessment requires it.",
+    "radiographs": "Use radiographs and/or CT according to the condition-specific diagnostic pathway."
+  },
+  "management": {
+    "green": [
+      "Cause-directed management",
+      "Neuropathic pain rehabilitation"
+    ],
+    "amber": [
+      "Persistent focal entrapment may require specialist nerve intervention."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Vankshana Vata-neuralgic phenotype may be documented only in parallel."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Neuropathic pain in the genitofemoral nerve distribution involving groin, upper anterior thigh and genital region, often following surgery or retroperitoneal injury.",
+    "urgent": "Seek urgent assessment for acute/progressive neurological deficit, severe vascular symptoms, major trauma, suspected infection, pathological fracture, neurovascular compromise or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "IASP",
+      "title": "Peripheral Neuropathic Pain resources",
+      "url": "https://www.iasp-pain.org/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V3.3-BATCH-19",
+    "proposedGoldChapterNumber": 354
+  }
+}

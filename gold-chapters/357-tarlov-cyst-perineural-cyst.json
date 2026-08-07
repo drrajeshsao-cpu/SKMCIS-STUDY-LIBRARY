@@ -1,0 +1,94 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-SPN-TAR-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Tarlov Cyst / Perineural Cyst",
+  "synonyms": [],
+  "category": "Spine > Sacral > Perineural Cyst",
+  "tags": [
+    "tarlov cyst / perineural cyst"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "CSF-filled perineural cyst most commonly arising around sacral nerve roots; many are incidental while a minority may correlate with radicular, pelvic or sphincter symptoms.",
+  "clinicalPattern": {
+    "typical": [
+      "Often incidental",
+      "Sacral pain",
+      "Radicular or pelvic sensory symptoms",
+      "Possible sphincter symptoms in selected cases"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Progressive weakness"
+    },
+    {
+      "level": "RED",
+      "item": "New sphincter dysfunction"
+    },
+    {
+      "level": "RED",
+      "item": "Alternative compressive lesion"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Sacral/root neurological exam",
+      "Perineal sensation when indicated",
+      "Gait"
+    ]
+  },
+  "differentials": [
+    "Sacral radiculopathy",
+    "Pudendal neuralgia",
+    "Cauda equina syndrome"
+  ],
+  "investigations": {
+    "principle": "MRI sacrum/lumbosacral spine identifies cyst anatomy; clinical correlation is essential.",
+    "MRI": "Use MRI when neural, soft-tissue, marrow, infection, tumor or occult-injury assessment requires it.",
+    "radiographs": "Use radiographs and/or CT according to the condition-specific diagnostic pathway."
+  },
+  "management": {
+    "green": [
+      "Observation for incidental cysts",
+      "Symptom-directed rehabilitation"
+    ],
+    "amber": [
+      "Interventional or surgical treatment is reserved for carefully selected symptomatic cases."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Sacral/Vata-neuralgic phenotype may be documented only as a parallel assessment."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "CSF-filled perineural cyst most commonly arising around sacral nerve roots; many are incidental while a minority may correlate with radicular, pelvic or sphincter symptoms.",
+    "urgent": "Seek urgent assessment for acute/progressive neurological deficit, severe vascular symptoms, major trauma, suspected infection, pathological fracture, neurovascular compromise or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "AANS",
+      "title": "Spinal cyst/nerve root resources",
+      "url": "https://www.aans.org/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V3.3-BATCH-19",
+    "proposedGoldChapterNumber": 357
+  }
+}

@@ -1,0 +1,99 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-ORT-DFF-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Distal Femur Fracture",
+  "synonyms": [],
+  "category": "Orthopedics > Knee/Femur > Fracture",
+  "tags": [
+    "distal femur fracture"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Fracture of the distal femur, often intra-articular, occurring after high-energy trauma or fragility injury in older adults.",
+  "clinicalPattern": {
+    "typical": [
+      "Severe knee/distal thigh pain",
+      "Swelling",
+      "Inability to bear weight",
+      "Possible deformity"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Open fracture"
+    },
+    {
+      "level": "RED",
+      "item": "Neurovascular compromise"
+    },
+    {
+      "level": "RED",
+      "item": "Compartment syndrome"
+    },
+    {
+      "level": "RED",
+      "item": "Periprosthetic fracture"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Distal pulses/nerves",
+      "Skin",
+      "Knee swelling",
+      "Trauma survey"
+    ]
+  },
+  "differentials": [
+    "Tibial plateau fracture",
+    "Patellar fracture",
+    "Knee dislocation"
+  ],
+  "investigations": {
+    "principle": "Radiographs are first-line; CT defines intra-articular extension and surgical anatomy.",
+    "MRI": "Use MRI when neural, soft-tissue, marrow, infection, tumor or occult-injury assessment requires it.",
+    "radiographs": "Use radiographs and/or CT according to the condition-specific diagnostic pathway."
+  },
+  "management": {
+    "green": [
+      "Immobilization",
+      "Urgent orthopedic review"
+    ],
+    "amber": [
+      "Most displaced fractures require fixation; fragility and periprosthetic patterns need individualized planning."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Janu/Uru-bhagna principles may complement recovery after fixation."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Fracture of the distal femur, often intra-articular, occurring after high-energy trauma or fragility injury in older adults.",
+    "urgent": "Seek urgent assessment for acute/progressive neurological deficit, severe vascular symptoms, major trauma, suspected infection, pathological fracture, neurovascular compromise or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "AAOS OrthoInfo",
+      "title": "Distal Femur Fractures",
+      "url": "https://orthoinfo.aaos.org/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V3.3-BATCH-19",
+    "proposedGoldChapterNumber": 366
+  }
+}

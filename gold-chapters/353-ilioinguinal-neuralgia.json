@@ -1,0 +1,93 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-NEU-IIN-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Ilioinguinal Neuralgia",
+  "synonyms": [],
+  "category": "Neurology/Pain > Abdominal Wall Nerve",
+  "tags": [
+    "ilioinguinal neuralgia"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Neuropathic pain involving the ilioinguinal nerve, commonly after lower abdominal or inguinal surgery, trauma or entrapment.",
+  "clinicalPattern": {
+    "typical": [
+      "Groin pain",
+      "Upper medial thigh sensory symptoms",
+      "Pain near inguinal canal or scar"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Hernia incarceration"
+    },
+    {
+      "level": "RED",
+      "item": "Testicular emergency"
+    },
+    {
+      "level": "RED",
+      "item": "Pelvic/abdominal mass"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Sensory mapping",
+      "Scar/inguinal exam",
+      "Hip and lumbar screen"
+    ]
+  },
+  "differentials": [
+    "Genitofemoral neuralgia",
+    "Inguinal hernia",
+    "Hip pathology"
+  ],
+  "investigations": {
+    "principle": "Usually clinical; ultrasound/MRI and diagnostic block are selective.",
+    "MRI": "Use MRI when neural, soft-tissue, marrow, infection, tumor or occult-injury assessment requires it.",
+    "radiographs": "Use radiographs and/or CT according to the condition-specific diagnostic pathway."
+  },
+  "management": {
+    "green": [
+      "Remove aggravating compression",
+      "Neuropathic pain rehabilitation"
+    ],
+    "amber": [
+      "Persistent post-surgical entrapment may require nerve specialist review."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Vankshana Vata-neuralgic phenotype may be documented."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Neuropathic pain involving the ilioinguinal nerve, commonly after lower abdominal or inguinal surgery, trauma or entrapment.",
+    "urgent": "Seek urgent assessment for acute/progressive neurological deficit, severe vascular symptoms, major trauma, suspected infection, pathological fracture, neurovascular compromise or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "IASP",
+      "title": "Peripheral Neuropathic Pain resources",
+      "url": "https://www.iasp-pain.org/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V3.3-BATCH-19",
+    "proposedGoldChapterNumber": 353
+  }
+}

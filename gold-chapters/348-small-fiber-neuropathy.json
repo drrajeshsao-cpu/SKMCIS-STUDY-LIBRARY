@@ -1,0 +1,99 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-NEU-SFN-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Small Fiber Neuropathy",
+  "synonyms": [],
+  "category": "Neurology > Peripheral Neuropathy",
+  "tags": [
+    "small fiber neuropathy"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Neuropathy predominantly affecting thinly myelinated A-delta and unmyelinated C fibers, causing neuropathic pain and autonomic symptoms with often normal routine nerve-conduction studies.",
+  "clinicalPattern": {
+    "typical": [
+      "Burning feet",
+      "Allodynia",
+      "Pinprick/temperature sensory loss",
+      "Autonomic symptoms may occur"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Rapid progression"
+    },
+    {
+      "level": "RED",
+      "item": "Prominent motor weakness"
+    },
+    {
+      "level": "RED",
+      "item": "Severe autonomic instability"
+    },
+    {
+      "level": "RED",
+      "item": "Systemic vasculitic features"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Pinprick/temperature sensation",
+      "Autonomic screen",
+      "Large-fiber/reflex exam"
+    ]
+  },
+  "differentials": [
+    "Diabetic polyneuropathy",
+    "Erythromelalgia",
+    "Radiculopathy"
+  ],
+  "investigations": {
+    "principle": "Cause-directed metabolic/immune testing is important; skin biopsy or autonomic testing may support diagnosis.",
+    "MRI": "Use MRI when neural, soft-tissue, marrow, infection, tumor or occult-injury assessment requires it.",
+    "radiographs": "Use radiographs and/or CT according to the condition-specific diagnostic pathway."
+  },
+  "management": {
+    "green": [
+      "Treat underlying cause",
+      "Neuropathic pain management",
+      "Foot protection"
+    ],
+    "amber": [
+      "Normal routine nerve-conduction studies do not exclude small-fiber neuropathy."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Vata-neuropathy phenotype may be documented only in parallel."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Neuropathy predominantly affecting thinly myelinated A-delta and unmyelinated C fibers, causing neuropathic pain and autonomic symptoms with often normal routine nerve-conduction studies.",
+    "urgent": "Seek urgent assessment for acute/progressive neurological deficit, severe vascular symptoms, major trauma, suspected infection, pathological fracture, neurovascular compromise or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "AAN",
+      "title": "Peripheral Neuropathy resources",
+      "url": "https://www.aan.com/Guidelines/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V3.3-BATCH-19",
+    "proposedGoldChapterNumber": 348
+  }
+}
