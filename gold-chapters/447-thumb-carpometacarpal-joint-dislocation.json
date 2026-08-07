@@ -1,0 +1,92 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-ORT-TCMCD-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Thumb Carpometacarpal Joint Dislocation",
+  "synonyms": [],
+  "category": "Orthopedics > Hand > Thumb CMC Trauma",
+  "tags": [
+    "thumb carpometacarpal joint dislocation"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Traumatic dislocation of the first carpometacarpal joint, an uncommon injury that may cause persistent instability if not recognized.",
+  "clinicalPattern": {
+    "typical": [
+      "Base-of-thumb pain",
+      "CMC deformity",
+      "Weak pinch after trauma"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Associated Bennett/Rolando fracture"
+    },
+    {
+      "level": "RED",
+      "item": "Open injury"
+    },
+    {
+      "level": "RED",
+      "item": "Neurovascular compromise"
+    }
+  ],
+  "examination": {
+    "core": [
+      "CMC alignment",
+      "Pinch",
+      "Neurovascular exam"
+    ]
+  },
+  "differentials": [
+    "Bennett fracture",
+    "Thumb MCP dislocation",
+    "CMC osteoarthritis"
+  ],
+  "investigations": {
+    "principle": "Radiographs define dislocation and exclude fracture; CT is selective.",
+    "MRI": "Use MRI when neural, soft-tissue, cartilage, occult injury, postoperative or other condition-specific assessment requires it.",
+    "radiographs": "Use radiographs and/or CT according to the condition-specific diagnostic pathway."
+  },
+  "management": {
+    "green": [
+      "Urgent reduction and thumb-spica protection"
+    ],
+    "amber": [
+      "Persistent instability may require ligament repair or temporary fixation."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Angushtha-Sandhi displacement phenotype may be documented after modern care."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Traumatic dislocation of the first carpometacarpal joint, an uncommon injury that may cause persistent instability if not recognized.",
+    "urgent": "Seek urgent assessment for acute neurovascular compromise, major trauma, respiratory distress, progressive neurological deficit, open injury, severe deformity, infection or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "BSSH",
+      "title": "Thumb CMC Injury resources",
+      "url": "https://www.bssh.ac.uk/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V3.7-BATCH-23",
+    "proposedGoldChapterNumber": 447
+  }
+}

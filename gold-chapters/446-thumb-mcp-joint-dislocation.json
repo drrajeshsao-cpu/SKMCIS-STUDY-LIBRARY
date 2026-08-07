@@ -1,0 +1,97 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-ORT-TMCPD-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Thumb MCP Joint Dislocation",
+  "synonyms": [],
+  "category": "Orthopedics > Hand > Thumb Dislocation",
+  "tags": [
+    "thumb mcp joint dislocation"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Dislocation of the thumb metacarpophalangeal joint, usually dorsal after hyperextension trauma and occasionally irreducible due to soft-tissue interposition.",
+  "clinicalPattern": {
+    "typical": [
+      "Thumb MCP deformity",
+      "Pain/swelling",
+      "Loss of motion"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Open dislocation"
+    },
+    {
+      "level": "RED",
+      "item": "Neurovascular compromise"
+    },
+    {
+      "level": "RED",
+      "item": "Irreducible joint"
+    },
+    {
+      "level": "RED",
+      "item": "Associated fracture"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Thumb alignment",
+      "Collateral ligaments after reduction",
+      "Neurovascular exam"
+    ]
+  },
+  "differentials": [
+    "Thumb UCL injury",
+    "MCP fracture",
+    "CMC dislocation"
+  ],
+  "investigations": {
+    "principle": "Radiographs are required before and after reduction when feasible.",
+    "MRI": "Use MRI when neural, soft-tissue, cartilage, occult injury, postoperative or other condition-specific assessment requires it.",
+    "radiographs": "Use radiographs and/or CT according to the condition-specific diagnostic pathway."
+  },
+  "management": {
+    "green": [
+      "Prompt reduction by trained clinician",
+      "Immobilization and hand follow-up"
+    ],
+    "amber": [
+      "Irreducible or unstable dislocations may require open reduction."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Angushtha-Sandhi displacement phenotype may be documented after modern reduction."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Dislocation of the thumb metacarpophalangeal joint, usually dorsal after hyperextension trauma and occasionally irreducible due to soft-tissue interposition.",
+    "urgent": "Seek urgent assessment for acute neurovascular compromise, major trauma, respiratory distress, progressive neurological deficit, open injury, severe deformity, infection or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "BSSH",
+      "title": "Thumb Joint Injury resources",
+      "url": "https://www.bssh.ac.uk/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V3.7-BATCH-23",
+    "proposedGoldChapterNumber": 446
+  }
+}

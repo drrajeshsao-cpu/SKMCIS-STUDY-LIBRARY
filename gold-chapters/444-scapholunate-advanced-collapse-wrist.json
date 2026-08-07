@@ -1,0 +1,95 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-ORT-SLAC-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Scapholunate Advanced Collapse Wrist",
+  "synonyms": [],
+  "category": "Orthopedics > Wrist > Degenerative Collapse",
+  "tags": [
+    "scapholunate advanced collapse wrist"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Predictable pattern of wrist osteoarthritis developing after chronic scapholunate ligament insufficiency and carpal malalignment.",
+  "clinicalPattern": {
+    "typical": [
+      "Chronic dorsal wrist pain",
+      "Reduced grip",
+      "Stiffness",
+      "History of old ligament injury may exist"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Acute fracture"
+    },
+    {
+      "level": "RED",
+      "item": "Infection"
+    },
+    {
+      "level": "RED",
+      "item": "Rapid destructive arthritis"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Wrist ROM",
+      "Scapholunate tenderness",
+      "Grip strength"
+    ]
+  },
+  "differentials": [
+    "SNAC wrist",
+    "Kienböck disease",
+    "Wrist OA"
+  ],
+  "investigations": {
+    "principle": "Radiographs define staged radioscaphoid/capitolunate degeneration; CT is selective.",
+    "MRI": "Use MRI when neural, soft-tissue, cartilage, occult injury, postoperative or other condition-specific assessment requires it.",
+    "radiographs": "Use radiographs and/or CT according to the condition-specific diagnostic pathway."
+  },
+  "management": {
+    "green": [
+      "Activity modification",
+      "Splinting",
+      "Hand therapy"
+    ],
+    "amber": [
+      "Persistent advanced disease may require proximal row carpectomy or partial/total wrist fusion depending on stage."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Manibandha Sandhigata phenotype may be documented."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Predictable pattern of wrist osteoarthritis developing after chronic scapholunate ligament insufficiency and carpal malalignment.",
+    "urgent": "Seek urgent assessment for acute neurovascular compromise, major trauma, respiratory distress, progressive neurological deficit, open injury, severe deformity, infection or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "BSSH",
+      "title": "SLAC Wrist resources",
+      "url": "https://www.bssh.ac.uk/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V3.7-BATCH-23",
+    "proposedGoldChapterNumber": 444
+  }
+}

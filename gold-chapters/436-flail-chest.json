@@ -1,0 +1,99 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-TRA-FC-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Flail Chest",
+  "synonyms": [],
+  "category": "Trauma > Chest Wall Emergency",
+  "tags": [
+    "flail chest"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Segmental fractures of multiple consecutive ribs creating an unstable chest-wall segment, often associated with pulmonary contusion and respiratory failure.",
+  "clinicalPattern": {
+    "typical": [
+      "Severe chest trauma",
+      "Paradoxical chest-wall movement may occur",
+      "Respiratory distress"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Hypoxia"
+    },
+    {
+      "level": "RED",
+      "item": "Respiratory failure"
+    },
+    {
+      "level": "RED",
+      "item": "Pulmonary contusion"
+    },
+    {
+      "level": "RED",
+      "item": "Hemodynamic instability"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Airway/breathing assessment",
+      "Chest-wall motion",
+      "Oxygenation",
+      "Breath sounds"
+    ]
+  },
+  "differentials": [
+    "Multiple rib fractures without flail segment",
+    "Pneumothorax",
+    "Pulmonary contusion"
+  ],
+  "investigations": {
+    "principle": "CT chest is commonly used in major trauma to characterize injuries.",
+    "MRI": "Use MRI when neural, soft-tissue, cartilage, occult injury, postoperative or other condition-specific assessment requires it.",
+    "radiographs": "Use radiographs and/or CT according to the condition-specific diagnostic pathway."
+  },
+  "management": {
+    "green": [
+      "Trauma resuscitation",
+      "Aggressive analgesia",
+      "Pulmonary support"
+    ],
+    "amber": [
+      "Ventilatory support or surgical rib fixation is selected according to respiratory status and injury pattern."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Emergency respiratory/trauma care takes priority over any traditional framework."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Segmental fractures of multiple consecutive ribs creating an unstable chest-wall segment, often associated with pulmonary contusion and respiratory failure.",
+    "urgent": "Seek urgent assessment for acute neurovascular compromise, major trauma, respiratory distress, progressive neurological deficit, open injury, severe deformity, infection or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "NICE",
+      "title": "Major Trauma NG39",
+      "url": "https://www.nice.org.uk/guidance/ng39",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V3.7-BATCH-23",
+    "proposedGoldChapterNumber": 436
+  }
+}

@@ -1,0 +1,93 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-SPN-PAF-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Pseudoarthrosis after Spinal Fusion",
+  "synonyms": [],
+  "category": "Spine > Postoperative > Fusion Failure",
+  "tags": [
+    "pseudoarthrosis after spinal fusion"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Failure of intended bony fusion after spinal arthrodesis, potentially causing pain, hardware stress or deformity.",
+  "clinicalPattern": {
+    "typical": [
+      "Persistent mechanical pain after fusion",
+      "Hardware loosening/breakage",
+      "Sometimes asymptomatic"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Implant failure with instability"
+    },
+    {
+      "level": "RED",
+      "item": "Infection"
+    },
+    {
+      "level": "RED",
+      "item": "Progressive deformity or neurological deficit"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Alignment",
+      "Neurological exam",
+      "Pain with loading"
+    ]
+  },
+  "differentials": [
+    "Adjacent segment disease",
+    "Persistent spinal pain syndrome",
+    "Infection"
+  ],
+  "investigations": {
+    "principle": "CT is commonly used to assess fusion; dynamic radiographs and nuclear imaging are selective.",
+    "MRI": "Use MRI when neural, soft-tissue, cartilage, occult injury, postoperative or other condition-specific assessment requires it.",
+    "radiographs": "Use radiographs and/or CT according to the condition-specific diagnostic pathway."
+  },
+  "management": {
+    "green": [
+      "Optimize smoking, nutrition and bone health",
+      "Rehabilitation when structurally stable"
+    ],
+    "amber": [
+      "Revision fusion is considered when symptomatic pseudoarthrosis correlates with mechanical failure."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Asthi-sandhana failure phenotype may be documented only in parallel."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Failure of intended bony fusion after spinal arthrodesis, potentially causing pain, hardware stress or deformity.",
+    "urgent": "Seek urgent assessment for acute neurovascular compromise, major trauma, respiratory distress, progressive neurological deficit, open injury, severe deformity, infection or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "AOSpine",
+      "title": "Spinal Fusion resources",
+      "url": "https://www.aofoundation.org/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V3.7-BATCH-23",
+    "proposedGoldChapterNumber": 434
+  }
+}

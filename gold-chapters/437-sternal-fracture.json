@@ -1,0 +1,98 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-ORT-STF-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Sternal Fracture",
+  "synonyms": [],
+  "category": "Orthopedics/Trauma > Chest Wall > Fracture",
+  "tags": [
+    "sternal fracture"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Fracture of the sternum after direct anterior chest trauma, often from motor-vehicle collisions or falls.",
+  "clinicalPattern": {
+    "typical": [
+      "Anterior chest pain",
+      "Sternal tenderness",
+      "Pain with deep breathing"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Cardiac injury"
+    },
+    {
+      "level": "RED",
+      "item": "Mediastinal injury"
+    },
+    {
+      "level": "RED",
+      "item": "Respiratory compromise"
+    },
+    {
+      "level": "RED",
+      "item": "High-energy polytrauma"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Chest wall",
+      "Cardiorespiratory assessment",
+      "ECG monitoring when indicated"
+    ]
+  },
+  "differentials": [
+    "Costochondritis",
+    "Rib fracture",
+    "Myocardial ischemia"
+  ],
+  "investigations": {
+    "principle": "CT or radiography identifies fracture; ECG/troponin evaluation is used when blunt cardiac injury is a concern.",
+    "MRI": "Use MRI when neural, soft-tissue, cartilage, occult injury, postoperative or other condition-specific assessment requires it.",
+    "radiographs": "Use radiographs and/or CT according to the condition-specific diagnostic pathway."
+  },
+  "management": {
+    "green": [
+      "Analgesia",
+      "Pulmonary hygiene",
+      "Trauma follow-up"
+    ],
+    "amber": [
+      "Displaced unstable fractures or associated intrathoracic injuries require specialist care."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Urah-bhagna phenotype may be documented only after cardiothoracic injury assessment."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Fracture of the sternum after direct anterior chest trauma, often from motor-vehicle collisions or falls.",
+    "urgent": "Seek urgent assessment for acute neurovascular compromise, major trauma, respiratory distress, progressive neurological deficit, open injury, severe deformity, infection or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "NICE",
+      "title": "Major Trauma NG39",
+      "url": "https://www.nice.org.uk/guidance/ng39",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V3.7-BATCH-23",
+    "proposedGoldChapterNumber": 437
+  }
+}

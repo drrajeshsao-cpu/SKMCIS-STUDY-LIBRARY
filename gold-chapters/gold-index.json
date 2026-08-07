@@ -425,7 +425,27 @@
     "gold-chapters/424-patellar-sleeve-fracture.json",
     "gold-chapters/425-tibial-spine-tibial-eminence-fracture.json",
     "gold-chapters/426-discoid-lateral-meniscus.json",
-    "gold-chapters/427-accessory-ossicle-syndrome-of-the-foot.json"
+    "gold-chapters/427-accessory-ossicle-syndrome-of-the-foot.json",
+    "gold-chapters/428-cervical-kyphosis.json",
+    "gold-chapters/429-flatback-syndrome.json",
+    "gold-chapters/430-adult-spinal-deformity.json",
+    "gold-chapters/431-adjacent-segment-disease-after-spinal-fusion.json",
+    "gold-chapters/432-persistent-spinal-pain-syndrome-type-2-failed-back-surgery-syndrome.json",
+    "gold-chapters/433-post-laminectomy-instability.json",
+    "gold-chapters/434-pseudoarthrosis-after-spinal-fusion.json",
+    "gold-chapters/435-rib-fracture.json",
+    "gold-chapters/436-flail-chest.json",
+    "gold-chapters/437-sternal-fracture.json",
+    "gold-chapters/438-osteochondritis-dissecans-of-the-capitellum.json",
+    "gold-chapters/439-panner-disease.json",
+    "gold-chapters/440-nursemaid-s-elbow-radial-head-subluxation.json",
+    "gold-chapters/441-distal-humerus-fracture-in-adults.json",
+    "gold-chapters/442-coronoid-process-fracture.json",
+    "gold-chapters/443-terrible-triad-injury-of-the-elbow.json",
+    "gold-chapters/444-scapholunate-advanced-collapse-wrist.json",
+    "gold-chapters/445-scaphoid-nonunion-advanced-collapse-wrist.json",
+    "gold-chapters/446-thumb-mcp-joint-dislocation.json",
+    "gold-chapters/447-thumb-carpometacarpal-joint-dislocation.json"
   ],
-  "expectedTotalGold": 428
+  "expectedTotalGold": 448
 }

@@ -1,0 +1,95 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-CSP-CKYP-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Cervical Kyphosis",
+  "synonyms": [],
+  "category": "Spine > Cervical > Deformity",
+  "tags": [
+    "cervical kyphosis"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Abnormal reversal or exaggeration of cervical sagittal alignment producing kyphotic deformity, which may be congenital, degenerative, post-laminectomy, traumatic or iatrogenic.",
+  "clinicalPattern": {
+    "typical": [
+      "Neck pain",
+      "Forward head posture",
+      "Reduced horizontal gaze",
+      "Myelopathic symptoms in severe cases"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Progressive myelopathy"
+    },
+    {
+      "level": "RED",
+      "item": "Severe deformity progression"
+    },
+    {
+      "level": "RED",
+      "item": "Dysphagia or respiratory compromise"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Sagittal alignment",
+      "Neurological exam",
+      "Gait",
+      "Horizontal gaze"
+    ]
+  },
+  "differentials": [
+    "Dropped head syndrome",
+    "Cervical spondylotic myelopathy",
+    "Postural kyphosis"
+  ],
+  "investigations": {
+    "principle": "Standing cervical radiographs assess alignment; MRI evaluates cord compression; CT is used for bony anatomy when needed.",
+    "MRI": "Use MRI when neural, soft-tissue, cartilage, occult injury, postoperative or other condition-specific assessment requires it.",
+    "radiographs": "Use radiographs and/or CT according to the condition-specific diagnostic pathway."
+  },
+  "management": {
+    "green": [
+      "Postural/strength rehabilitation for stable flexible deformity",
+      "Spine specialist follow-up"
+    ],
+    "amber": [
+      "Fixed progressive deformity with neural compression may require complex reconstruction."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Greeva-vakrata phenotype may be documented only in parallel."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Abnormal reversal or exaggeration of cervical sagittal alignment producing kyphotic deformity, which may be congenital, degenerative, post-laminectomy, traumatic or iatrogenic.",
+    "urgent": "Seek urgent assessment for acute neurovascular compromise, major trauma, respiratory distress, progressive neurological deficit, open injury, severe deformity, infection or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "AOSpine",
+      "title": "Cervical Deformity resources",
+      "url": "https://www.aofoundation.org/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V3.7-BATCH-23",
+    "proposedGoldChapterNumber": 428
+  }
+}

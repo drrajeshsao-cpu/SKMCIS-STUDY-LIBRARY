@@ -1,0 +1,95 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-SPN-FLAT-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Flatback Syndrome",
+  "synonyms": [],
+  "category": "Spine > Adult Deformity > Sagittal Imbalance",
+  "tags": [
+    "flatback syndrome"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Loss of normal lumbar lordosis causing positive sagittal imbalance, forward stooping and compensatory hip/knee flexion, often after prior fusion or degeneration.",
+  "clinicalPattern": {
+    "typical": [
+      "Forward stooped posture",
+      "Back fatigue",
+      "Difficulty standing upright",
+      "Hip/knee compensatory flexion"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Progressive neurological deficit"
+    },
+    {
+      "level": "RED",
+      "item": "Severe junctional failure"
+    },
+    {
+      "level": "RED",
+      "item": "Fracture or infection"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Global sagittal balance",
+      "Hip/knee compensation",
+      "Neurological exam",
+      "Gait"
+    ]
+  },
+  "differentials": [
+    "Parkinsonian stoop",
+    "Dropped head/axial myopathy",
+    "Adult degenerative scoliosis"
+  ],
+  "investigations": {
+    "principle": "Standing full-spine radiographs with pelvic parameters are central; MRI/CT are used for neural and fusion assessment.",
+    "MRI": "Use MRI when neural, soft-tissue, cartilage, occult injury, postoperative or other condition-specific assessment requires it.",
+    "radiographs": "Use radiographs and/or CT according to the condition-specific diagnostic pathway."
+  },
+  "management": {
+    "green": [
+      "Postural conditioning",
+      "Hip/core rehabilitation when flexible and stable"
+    ],
+    "amber": [
+      "Severe fixed sagittal imbalance may require complex deformity surgery."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Prishtha-vakrata phenotype may be documented descriptively."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Loss of normal lumbar lordosis causing positive sagittal imbalance, forward stooping and compensatory hip/knee flexion, often after prior fusion or degeneration.",
+    "urgent": "Seek urgent assessment for acute neurovascular compromise, major trauma, respiratory distress, progressive neurological deficit, open injury, severe deformity, infection or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "Scoliosis Research Society",
+      "title": "Adult Spinal Deformity resources",
+      "url": "https://www.srs.org/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V3.7-BATCH-23",
+    "proposedGoldChapterNumber": 429
+  }
+}

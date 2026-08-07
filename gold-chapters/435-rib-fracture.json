@@ -1,0 +1,98 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-ORT-RIBF-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Rib Fracture",
+  "synonyms": [],
+  "category": "Orthopedics/Trauma > Chest Wall > Fracture",
+  "tags": [
+    "rib fracture"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Fracture of one or more ribs, usually from blunt trauma, with morbidity driven largely by pain, respiratory compromise and associated intrathoracic injury.",
+  "clinicalPattern": {
+    "typical": [
+      "Focal chest-wall pain",
+      "Pain with breathing/cough",
+      "Localized tenderness"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Respiratory distress"
+    },
+    {
+      "level": "RED",
+      "item": "Pneumothorax/hemothorax"
+    },
+    {
+      "level": "RED",
+      "item": "Flail chest"
+    },
+    {
+      "level": "RED",
+      "item": "Elderly patient with multiple fractures"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Respiratory status",
+      "Chest-wall tenderness",
+      "Breath sounds",
+      "Oxygenation"
+    ]
+  },
+  "differentials": [
+    "Costochondritis",
+    "Pulmonary contusion",
+    "Intercostal strain"
+  ],
+  "investigations": {
+    "principle": "Chest radiography is used when complications are suspected; CT is more sensitive in major trauma.",
+    "MRI": "Use MRI when neural, soft-tissue, cartilage, occult injury, postoperative or other condition-specific assessment requires it.",
+    "radiographs": "Use radiographs and/or CT according to the condition-specific diagnostic pathway."
+  },
+  "management": {
+    "green": [
+      "Adequate analgesia",
+      "Pulmonary hygiene and mobilization"
+    ],
+    "amber": [
+      "High-risk patients may need admission, regional analgesia or trauma monitoring."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Parshva-bhagna care may complement recovery after cardiopulmonary injury is excluded."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Fracture of one or more ribs, usually from blunt trauma, with morbidity driven largely by pain, respiratory compromise and associated intrathoracic injury.",
+    "urgent": "Seek urgent assessment for acute neurovascular compromise, major trauma, respiratory distress, progressive neurological deficit, open injury, severe deformity, infection or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "NICE",
+      "title": "Major Trauma NG39",
+      "url": "https://www.nice.org.uk/guidance/ng39",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V3.7-BATCH-23",
+    "proposedGoldChapterNumber": 435
+  }
+}

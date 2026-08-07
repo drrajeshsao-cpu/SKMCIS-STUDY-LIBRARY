@@ -1,0 +1,100 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-SPN-ASD-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Adult Spinal Deformity",
+  "synonyms": [],
+  "category": "Spine > Adult Deformity",
+  "tags": [
+    "adult spinal deformity"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Spectrum of adult scoliosis, kyphosis and sagittal/coronal imbalance causing pain, disability, neural compression or impaired standing balance.",
+  "clinicalPattern": {
+    "typical": [
+      "Back pain",
+      "Stooped posture",
+      "Coronal imbalance",
+      "Neurogenic leg symptoms"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Progressive weakness"
+    },
+    {
+      "level": "RED",
+      "item": "Rapid deformity"
+    },
+    {
+      "level": "RED",
+      "item": "Fracture/infection/tumor red flags"
+    },
+    {
+      "level": "RED",
+      "item": "New sphincter symptoms"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Full-spine alignment",
+      "Neurological exam",
+      "Gait",
+      "Hip/knee compensation"
+    ]
+  },
+  "differentials": [
+    "Degenerative scoliosis",
+    "Flatback syndrome",
+    "Neuromuscular deformity"
+  ],
+  "investigations": {
+    "principle": "Standing full-spine radiographs define alignment; MRI/CT are selected for neural, stenotic and bony questions.",
+    "MRI": "Use MRI when neural, soft-tissue, cartilage, occult injury, postoperative or other condition-specific assessment requires it.",
+    "radiographs": "Use radiographs and/or CT according to the condition-specific diagnostic pathway."
+  },
+  "management": {
+    "green": [
+      "Function-focused exercise",
+      "Bone health and fall-risk optimization",
+      "Symptom-guided conservative care"
+    ],
+    "amber": [
+      "Surgery is individualized according to disability, neural compression, alignment and frailty."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Prishtha-vakrata phenotype may be documented only in parallel."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Spectrum of adult scoliosis, kyphosis and sagittal/coronal imbalance causing pain, disability, neural compression or impaired standing balance.",
+    "urgent": "Seek urgent assessment for acute neurovascular compromise, major trauma, respiratory distress, progressive neurological deficit, open injury, severe deformity, infection or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "Scoliosis Research Society",
+      "title": "Adult Spinal Deformity",
+      "url": "https://www.srs.org/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V3.7-BATCH-23",
+    "proposedGoldChapterNumber": 430
+  }
+}

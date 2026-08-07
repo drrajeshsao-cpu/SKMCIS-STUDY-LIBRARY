@@ -1,0 +1,97 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-SPN-ASD-FUS-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Adjacent Segment Disease after Spinal Fusion",
+  "synonyms": [],
+  "category": "Spine > Postoperative > Adjacent Segment",
+  "tags": [
+    "adjacent segment disease after spinal fusion"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Symptomatic degeneration, stenosis, instability or deformity developing adjacent to a prior spinal fusion and producing new clinical symptoms.",
+  "clinicalPattern": {
+    "typical": [
+      "New axial pain after prior fusion",
+      "New radiculopathy",
+      "Adjacent-level stenotic symptoms"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Progressive neurological deficit"
+    },
+    {
+      "level": "RED",
+      "item": "Hardware failure"
+    },
+    {
+      "level": "RED",
+      "item": "Infection"
+    },
+    {
+      "level": "RED",
+      "item": "Junctional fracture"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Neurological exam",
+      "Sagittal balance",
+      "Adjacent segment tenderness/motion"
+    ]
+  },
+  "differentials": [
+    "Pseudoarthrosis",
+    "Recurrent stenosis",
+    "Hip/SI pain"
+  ],
+  "investigations": {
+    "principle": "Standing radiographs plus MRI/CT are selected to assess adjacent degeneration, fusion status and neural compression.",
+    "MRI": "Use MRI when neural, soft-tissue, cartilage, occult injury, postoperative or other condition-specific assessment requires it.",
+    "radiographs": "Use radiographs and/or CT according to the condition-specific diagnostic pathway."
+  },
+  "management": {
+    "green": [
+      "Rehabilitation and symptom-directed care when stable",
+      "Bone-health optimization"
+    ],
+    "amber": [
+      "Revision surgery is considered only when symptoms correlate with structural pathology."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Postoperative Kati/Prishtha phenotype may be documented only in parallel."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Symptomatic degeneration, stenosis, instability or deformity developing adjacent to a prior spinal fusion and producing new clinical symptoms.",
+    "urgent": "Seek urgent assessment for acute neurovascular compromise, major trauma, respiratory distress, progressive neurological deficit, open injury, severe deformity, infection or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "AOSpine",
+      "title": "Degenerative Spine resources",
+      "url": "https://www.aofoundation.org/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V3.7-BATCH-23",
+    "proposedGoldChapterNumber": 431
+  }
+}

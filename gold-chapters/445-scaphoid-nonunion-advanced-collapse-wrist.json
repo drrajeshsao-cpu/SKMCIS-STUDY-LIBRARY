@@ -1,0 +1,95 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-ORT-SNAC-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Scaphoid Nonunion Advanced Collapse Wrist",
+  "synonyms": [],
+  "category": "Orthopedics > Wrist > Degenerative Collapse",
+  "tags": [
+    "scaphoid nonunion advanced collapse wrist"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Progressive carpal osteoarthritis caused by chronic scaphoid nonunion and altered wrist biomechanics.",
+  "clinicalPattern": {
+    "typical": [
+      "Radial-sided wrist pain",
+      "Reduced ROM",
+      "Weak grip",
+      "History of prior scaphoid fracture"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Acute reinjury"
+    },
+    {
+      "level": "RED",
+      "item": "Infection"
+    },
+    {
+      "level": "RED",
+      "item": "Neurovascular compromise"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Scaphoid tenderness",
+      "Wrist ROM",
+      "Grip"
+    ]
+  },
+  "differentials": [
+    "SLAC wrist",
+    "Scaphoid nonunion without arthritis",
+    "Kienböck disease"
+  ],
+  "investigations": {
+    "principle": "Radiographs and CT define nonunion, collapse and arthritic stage.",
+    "MRI": "Use MRI when neural, soft-tissue, cartilage, occult injury, postoperative or other condition-specific assessment requires it.",
+    "radiographs": "Use radiographs and/or CT according to the condition-specific diagnostic pathway."
+  },
+  "management": {
+    "green": [
+      "Activity modification",
+      "Splinting",
+      "Hand specialist review"
+    ],
+    "amber": [
+      "Surgical choice depends on collapse stage and remaining cartilage."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Manibandha Asthi-Sandhi chronic phenotype may be documented."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Progressive carpal osteoarthritis caused by chronic scaphoid nonunion and altered wrist biomechanics.",
+    "urgent": "Seek urgent assessment for acute neurovascular compromise, major trauma, respiratory distress, progressive neurological deficit, open injury, severe deformity, infection or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "BSSH",
+      "title": "Scaphoid Nonunion resources",
+      "url": "https://www.bssh.ac.uk/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V3.7-BATCH-23",
+    "proposedGoldChapterNumber": 445
+  }
+}

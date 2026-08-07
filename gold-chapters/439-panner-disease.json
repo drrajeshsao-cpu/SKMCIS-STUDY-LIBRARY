@@ -1,0 +1,93 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-PED-PAN-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Panner Disease",
+  "synonyms": [],
+  "category": "Pediatric Orthopedics > Elbow > Osteochondrosis",
+  "tags": [
+    "panner disease"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Self-limited osteochondrosis of the capitellum occurring in younger children, typically under 10 years, causing lateral elbow pain and stiffness.",
+  "clinicalPattern": {
+    "typical": [
+      "Lateral elbow pain",
+      "Reduced extension",
+      "Younger child",
+      "Often overuse-related"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Systemic illness"
+    },
+    {
+      "level": "RED",
+      "item": "Major trauma"
+    },
+    {
+      "level": "RED",
+      "item": "Persistent destructive lesion"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Elbow ROM",
+      "Capitellar tenderness"
+    ]
+  },
+  "differentials": [
+    "Capitellar OCD",
+    "Radial head injury",
+    "Septic arthritis"
+  ],
+  "investigations": {
+    "principle": "Radiographs usually demonstrate capitellar changes; MRI is selective.",
+    "MRI": "Use MRI when neural, soft-tissue, cartilage, occult injury, postoperative or other condition-specific assessment requires it.",
+    "radiographs": "Use radiographs and/or CT according to the condition-specific diagnostic pathway."
+  },
+  "management": {
+    "green": [
+      "Activity modification",
+      "ROM exercises after pain settles"
+    ],
+    "amber": [
+      "Persistent atypical symptoms require reassessment because prognosis is usually favorable."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Kurpara Asthi developmental phenotype may be documented."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Self-limited osteochondrosis of the capitellum occurring in younger children, typically under 10 years, causing lateral elbow pain and stiffness.",
+    "urgent": "Seek urgent assessment for acute neurovascular compromise, major trauma, respiratory distress, progressive neurological deficit, open injury, severe deformity, infection or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "POSNA",
+      "title": "Panner Disease resources",
+      "url": "https://posna.org/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V3.7-BATCH-23",
+    "proposedGoldChapterNumber": 439
+  }
+}

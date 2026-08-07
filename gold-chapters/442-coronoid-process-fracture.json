@@ -1,0 +1,92 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-ORT-CPF-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Coronoid Process Fracture",
+  "synonyms": [],
+  "category": "Orthopedics > Elbow > Fracture",
+  "tags": [
+    "coronoid process fracture"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Fracture of the ulnar coronoid process, an important stabilizer of the elbow, frequently associated with dislocation or terrible-triad injury.",
+  "clinicalPattern": {
+    "typical": [
+      "Elbow pain after dislocation/trauma",
+      "Instability",
+      "Reduced motion"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Associated elbow dislocation"
+    },
+    {
+      "level": "RED",
+      "item": "Neurovascular compromise"
+    },
+    {
+      "level": "RED",
+      "item": "Gross instability"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Elbow stability",
+      "Neurovascular exam",
+      "Associated radial head injury"
+    ]
+  },
+  "differentials": [
+    "Olecranon fracture",
+    "Radial head fracture",
+    "Elbow dislocation"
+  ],
+  "investigations": {
+    "principle": "Radiographs and CT define fragment size/location and associated injuries.",
+    "MRI": "Use MRI when neural, soft-tissue, cartilage, occult injury, postoperative or other condition-specific assessment requires it.",
+    "radiographs": "Use radiographs and/or CT according to the condition-specific diagnostic pathway."
+  },
+  "management": {
+    "green": [
+      "Immobilization and early orthopedic evaluation"
+    ],
+    "amber": [
+      "Fixation depends on fragment pattern and overall elbow stability."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Kurpara-bhagna/Sandhi instability phenotype may be documented."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Fracture of the ulnar coronoid process, an important stabilizer of the elbow, frequently associated with dislocation or terrible-triad injury.",
+    "urgent": "Seek urgent assessment for acute neurovascular compromise, major trauma, respiratory distress, progressive neurological deficit, open injury, severe deformity, infection or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "AAOS",
+      "title": "Elbow Fracture resources",
+      "url": "https://orthoinfo.aaos.org/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V3.7-BATCH-23",
+    "proposedGoldChapterNumber": 442
+  }
+}

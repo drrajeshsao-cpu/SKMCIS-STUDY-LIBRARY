@@ -1,0 +1,97 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-PED-NME-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Nursemaid's Elbow / Radial Head Subluxation",
+  "synonyms": [],
+  "category": "Pediatric Orthopedics > Elbow > Subluxation",
+  "tags": [
+    "nursemaid's elbow / radial head subluxation"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Subluxation of the radial head due to annular ligament displacement, typically after longitudinal traction on the arm in toddlers.",
+  "clinicalPattern": {
+    "typical": [
+      "Child refuses to use arm",
+      "Forearm held pronated",
+      "Minimal swelling",
+      "Traction mechanism"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Significant swelling"
+    },
+    {
+      "level": "RED",
+      "item": "Bruising"
+    },
+    {
+      "level": "RED",
+      "item": "Direct trauma"
+    },
+    {
+      "level": "RED",
+      "item": "Possible fracture/nonaccidental injury"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Observe limb posture",
+      "Check for focal bony tenderness before reduction"
+    ]
+  },
+  "differentials": [
+    "Supracondylar fracture",
+    "Radial neck fracture",
+    "Clavicle fracture"
+  ],
+  "investigations": {
+    "principle": "Imaging is not needed in classic presentation without trauma red flags.",
+    "MRI": "Use MRI when neural, soft-tissue, cartilage, occult injury, postoperative or other condition-specific assessment requires it.",
+    "radiographs": "Use radiographs and/or CT according to the condition-specific diagnostic pathway."
+  },
+  "management": {
+    "green": [
+      "Prompt reduction by trained clinician",
+      "Immediate reassessment of arm use"
+    ],
+    "amber": [
+      "If reduction fails or exam is atypical, obtain imaging and reconsider diagnosis."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Balaka Kurpara-Sandhi displacement may be documented only after modern assessment."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Subluxation of the radial head due to annular ligament displacement, typically after longitudinal traction on the arm in toddlers.",
+    "urgent": "Seek urgent assessment for acute neurovascular compromise, major trauma, respiratory distress, progressive neurological deficit, open injury, severe deformity, infection or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "AAOS OrthoInfo",
+      "title": "Nursemaid's Elbow",
+      "url": "https://orthoinfo.aaos.org/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V3.7-BATCH-23",
+    "proposedGoldChapterNumber": 440
+  }
+}

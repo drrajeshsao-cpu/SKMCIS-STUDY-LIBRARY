@@ -1,0 +1,93 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-SPN-PLI-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Post-Laminectomy Instability",
+  "synonyms": [],
+  "category": "Spine > Postoperative > Instability",
+  "tags": [
+    "post-laminectomy instability"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Mechanical instability or progressive deformity occurring after decompressive laminectomy due to loss of posterior structural support.",
+  "clinicalPattern": {
+    "typical": [
+      "Mechanical back/neck pain after decompression",
+      "Progressive deformity",
+      "Recurrent neural symptoms"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Progressive neurological deficit"
+    },
+    {
+      "level": "RED",
+      "item": "Marked deformity"
+    },
+    {
+      "level": "RED",
+      "item": "Acute junctional failure"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Sagittal alignment",
+      "Neurological exam",
+      "Motion-provoked pain"
+    ]
+  },
+  "differentials": [
+    "Adjacent segment disease",
+    "Pseudoarthrosis",
+    "Recurrent stenosis"
+  ],
+  "investigations": {
+    "principle": "Standing and dynamic radiographs assess instability; MRI/CT evaluate neural compression and bony anatomy.",
+    "MRI": "Use MRI when neural, soft-tissue, cartilage, occult injury, postoperative or other condition-specific assessment requires it.",
+    "radiographs": "Use radiographs and/or CT according to the condition-specific diagnostic pathway."
+  },
+  "management": {
+    "green": [
+      "Rehabilitation for mild stable symptoms",
+      "Postural and trunk strength work"
+    ],
+    "amber": [
+      "Progressive instability or deformity may require fusion/reconstruction."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Postoperative Sandhi-asthirata phenotype may be documented descriptively."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Mechanical instability or progressive deformity occurring after decompressive laminectomy due to loss of posterior structural support.",
+    "urgent": "Seek urgent assessment for acute neurovascular compromise, major trauma, respiratory distress, progressive neurological deficit, open injury, severe deformity, infection or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "AOSpine",
+      "title": "Postoperative Spine resources",
+      "url": "https://www.aofoundation.org/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V3.7-BATCH-23",
+    "proposedGoldChapterNumber": 433
+  }
+}

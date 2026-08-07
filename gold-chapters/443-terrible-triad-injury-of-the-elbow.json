@@ -1,0 +1,93 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-ORT-TTE-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Terrible Triad Injury of the Elbow",
+  "synonyms": [],
+  "category": "Orthopedics > Elbow > Complex Trauma",
+  "tags": [
+    "terrible triad injury of the elbow"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Combination of elbow dislocation, radial head fracture and coronoid fracture producing major instability.",
+  "clinicalPattern": {
+    "typical": [
+      "Severe elbow trauma",
+      "Dislocation",
+      "Marked swelling",
+      "Instability"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Neurovascular compromise"
+    },
+    {
+      "level": "RED",
+      "item": "Open injury"
+    },
+    {
+      "level": "RED",
+      "item": "Irreducible dislocation"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Neurovascular exam",
+      "Elbow stability after reduction",
+      "Skin"
+    ]
+  },
+  "differentials": [
+    "Isolated elbow dislocation",
+    "Monteggia injury",
+    "Distal humerus fracture"
+  ],
+  "investigations": {
+    "principle": "Radiographs and CT are essential after reduction to define fracture pattern.",
+    "MRI": "Use MRI when neural, soft-tissue, cartilage, occult injury, postoperative or other condition-specific assessment requires it.",
+    "radiographs": "Use radiographs and/or CT according to the condition-specific diagnostic pathway."
+  },
+  "management": {
+    "green": [
+      "Urgent reduction and orthopedic trauma care"
+    ],
+    "amber": [
+      "Operative stabilization is frequently required to restore a stable functional arc."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Kurpara bhagna-Sandhi complex injury phenotype may be documented after emergency care."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Combination of elbow dislocation, radial head fracture and coronoid fracture producing major instability.",
+    "urgent": "Seek urgent assessment for acute neurovascular compromise, major trauma, respiratory distress, progressive neurological deficit, open injury, severe deformity, infection or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "AAOS",
+      "title": "Elbow Trauma resources",
+      "url": "https://orthoinfo.aaos.org/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V3.7-BATCH-23",
+    "proposedGoldChapterNumber": 443
+  }
+}

@@ -1,0 +1,94 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-PED-OCDC-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Osteochondritis Dissecans of the Capitellum",
+  "synonyms": [],
+  "category": "Pediatric Orthopedics > Elbow > Osteochondral",
+  "tags": [
+    "osteochondritis dissecans of the capitellum"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Focal osteochondral lesion of the capitellum seen especially in adolescent overhead or weight-bearing athletes.",
+  "clinicalPattern": {
+    "typical": [
+      "Lateral elbow pain",
+      "Loss of extension",
+      "Catching/locking",
+      "Throwing or gymnastics history"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Loose body with locked elbow"
+    },
+    {
+      "level": "RED",
+      "item": "Rapid loss of motion"
+    },
+    {
+      "level": "RED",
+      "item": "Major trauma"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Elbow ROM",
+      "Capitellar tenderness",
+      "Mechanical symptoms"
+    ]
+  },
+  "differentials": [
+    "Panner disease",
+    "Radial head injury",
+    "Little League elbow"
+  ],
+  "investigations": {
+    "principle": "Radiographs may show lesion; MRI evaluates stability and cartilage.",
+    "MRI": "Use MRI when neural, soft-tissue, cartilage, occult injury, postoperative or other condition-specific assessment requires it.",
+    "radiographs": "Use radiographs and/or CT according to the condition-specific diagnostic pathway."
+  },
+  "management": {
+    "green": [
+      "Rest from provocative sport",
+      "Early sports/pediatric orthopedic review"
+    ],
+    "amber": [
+      "Unstable lesions may require drilling, fixation or osteochondral procedures."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Kurpara Asthi-Sandhi phenotype may be documented."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Focal osteochondral lesion of the capitellum seen especially in adolescent overhead or weight-bearing athletes.",
+    "urgent": "Seek urgent assessment for acute neurovascular compromise, major trauma, respiratory distress, progressive neurological deficit, open injury, severe deformity, infection or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "POSNA",
+      "title": "Capitellar OCD resources",
+      "url": "https://posna.org/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V3.7-BATCH-23",
+    "proposedGoldChapterNumber": 438
+  }
+}
