@@ -1,0 +1,94 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-ORT-LMRT-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Lateral Meniscus Root Tear",
+  "synonyms": [],
+  "category": "Orthopedics > Knee > Meniscus Root",
+  "tags": [
+    "lateral meniscus root tear"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Tear near the posterior or anterior root attachment of the lateral meniscus, often associated with ACL injury and capable of altering meniscal load transmission.",
+  "clinicalPattern": {
+    "typical": [
+      "Joint-line pain",
+      "Effusion",
+      "Mechanical symptoms",
+      "Often associated with ACL injury"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Locked knee"
+    },
+    {
+      "level": "RED",
+      "item": "Major acute ligament injury"
+    },
+    {
+      "level": "RED",
+      "item": "Fracture"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Joint-line tenderness",
+      "Meniscal testing",
+      "ACL and knee stability assessment"
+    ]
+  },
+  "differentials": [
+    "Standard meniscal tear",
+    "ACL injury",
+    "Chondral injury"
+  ],
+  "investigations": {
+    "principle": "MRI is the key study for root tear and associated ligament/chondral pathology.",
+    "MRI": "Use MRI when neural, soft-tissue, marrow, inflammatory, occult injury or other condition-specific assessment requires it.",
+    "radiographs": "Use radiographs and/or CT according to the condition-specific imaging pathway."
+  },
+  "management": {
+    "green": [
+      "Orthopedic sports assessment",
+      "Activity modification while diagnosis is clarified"
+    ],
+    "amber": [
+      "Repair is considered in appropriate tears to restore meniscal function, especially in younger/active patients."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Janu-Snayu phenotype may be documented descriptively."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Tear near the posterior or anterior root attachment of the lateral meniscus, often associated with ACL injury and capable of altering meniscal load transmission.",
+    "urgent": "Seek urgent assessment for acute/progressive neurological deficit, sphincter change, severe infection/systemic illness, major trauma, vascular compromise or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "AAOS",
+      "title": "Meniscal Pathology CPG",
+      "url": "https://www.aaos.org/quality/quality-programs/clinical-practice-guidelines/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V2.7-BATCH-13",
+    "proposedGoldChapterNumber": 236
+  }
+}

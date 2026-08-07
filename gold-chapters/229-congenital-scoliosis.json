@@ -1,0 +1,94 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-PED-CSCOL-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Congenital Scoliosis",
+  "synonyms": [],
+  "category": "Pediatric Orthopedics > Spine > Congenital Deformity",
+  "tags": [
+    "congenital scoliosis"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Spinal curvature caused by congenital vertebral formation or segmentation anomalies, often identified in infancy or childhood and sometimes associated with intraspinal or organ anomalies.",
+  "clinicalPattern": {
+    "typical": [
+      "Early spinal asymmetry",
+      "Progressive curve during growth",
+      "Possible associated rib or vertebral anomalies"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Neurological deficit"
+    },
+    {
+      "level": "RED",
+      "item": "Rapid progression"
+    },
+    {
+      "level": "RED",
+      "item": "Associated cardiac/renal or intraspinal anomaly"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Spinal alignment",
+      "Neurological exam",
+      "Skin markers",
+      "Growth assessment"
+    ]
+  },
+  "differentials": [
+    "Idiopathic scoliosis",
+    "Neuromuscular scoliosis",
+    "Postural asymmetry"
+  ],
+  "investigations": {
+    "principle": "Standing radiographs define deformity; CT may characterize bony anatomy; MRI screens neural-axis abnormalities when indicated.",
+    "MRI": "Use MRI when neural, soft-tissue, marrow, inflammatory, occult injury or other condition-specific assessment requires it.",
+    "radiographs": "Use radiographs and/or CT according to the condition-specific imaging pathway."
+  },
+  "management": {
+    "green": [
+      "Early pediatric spine surveillance",
+      "Growth and curve monitoring"
+    ],
+    "amber": [
+      "Progressive deformity may need guided growth or fusion strategies in specialist centers."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Congenital Asthi-vikriti may be documented only as a parallel descriptive layer."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Spinal curvature caused by congenital vertebral formation or segmentation anomalies, often identified in infancy or childhood and sometimes associated with intraspinal or organ anomalies.",
+    "urgent": "Seek urgent assessment for acute/progressive neurological deficit, sphincter change, severe infection/systemic illness, major trauma, vascular compromise or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "Scoliosis Research Society",
+      "title": "Congenital Scoliosis resources",
+      "url": "https://www.srs.org/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V2.7-BATCH-13",
+    "proposedGoldChapterNumber": 229
+  }
+}

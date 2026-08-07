@@ -1,0 +1,96 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-ORT-OLT-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Osteochondral Lesion of the Talus",
+  "synonyms": [],
+  "category": "Orthopedics > Foot & Ankle > Osteochondral",
+  "tags": [
+    "osteochondral lesion of the talus"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Focal injury of talar articular cartilage and subchondral bone, often following ankle sprain or trauma and capable of causing persistent pain or locking.",
+  "clinicalPattern": {
+    "typical": [
+      "Persistent deep ankle pain after sprain",
+      "Swelling",
+      "Catching/locking",
+      "Pain with impact"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Loose body with locked joint"
+    },
+    {
+      "level": "RED",
+      "item": "Acute fracture-dislocation"
+    },
+    {
+      "level": "RED",
+      "item": "Neurovascular compromise"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Ankle ROM",
+      "Joint-line tenderness",
+      "Stability",
+      "Functional loading"
+    ]
+  },
+  "differentials": [
+    "Ankle impingement",
+    "Chronic ankle instability",
+    "Ankle OA"
+  ],
+  "investigations": {
+    "principle": "MRI is sensitive for cartilage/subchondral injury; CT defines bony architecture; radiographs may miss small lesions.",
+    "MRI": "Use MRI when neural, soft-tissue, marrow, inflammatory, occult injury or other condition-specific assessment requires it.",
+    "radiographs": "Use radiographs and/or CT according to the condition-specific imaging pathway."
+  },
+  "management": {
+    "green": [
+      "Activity modification",
+      "Protected loading when indicated",
+      "Rehabilitation"
+    ],
+    "amber": [
+      "Unstable or persistent symptomatic lesions may require arthroscopic repair/restoration."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Gulpha Asthi-Sandhi phenotype may be documented."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Focal injury of talar articular cartilage and subchondral bone, often following ankle sprain or trauma and capable of causing persistent pain or locking.",
+    "urgent": "Seek urgent assessment for acute/progressive neurological deficit, sphincter change, severe infection/systemic illness, major trauma, vascular compromise or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "FootCareMD",
+      "title": "Osteochondral Lesion of the Talus",
+      "url": "https://www.footcaremd.org/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V2.7-BATCH-13",
+    "proposedGoldChapterNumber": 247
+  }
+}

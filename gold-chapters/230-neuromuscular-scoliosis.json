@@ -1,0 +1,100 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-PED-NSCOL-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Neuromuscular Scoliosis",
+  "synonyms": [],
+  "category": "Pediatric Orthopedics > Spine > Neuromuscular Deformity",
+  "tags": [
+    "neuromuscular scoliosis"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Spinal deformity developing secondary to neuromuscular conditions such as cerebral palsy, muscular dystrophy or spinal muscular atrophy.",
+  "clinicalPattern": {
+    "typical": [
+      "Progressive long sweeping curve",
+      "Pelvic obliquity",
+      "Sitting imbalance",
+      "Respiratory compromise in advanced deformity"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Rapid respiratory decline"
+    },
+    {
+      "level": "RED",
+      "item": "Skin breakdown"
+    },
+    {
+      "level": "RED",
+      "item": "Severe seating intolerance"
+    },
+    {
+      "level": "RED",
+      "item": "Neurological deterioration beyond baseline"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Sitting/standing balance",
+      "Pelvic obliquity",
+      "Skin and respiratory assessment",
+      "Neurological baseline"
+    ]
+  },
+  "differentials": [
+    "Idiopathic scoliosis",
+    "Congenital scoliosis",
+    "Postural scoliosis"
+  ],
+  "investigations": {
+    "principle": "Standing or sitting full-spine radiographs quantify curve and pelvic obliquity.",
+    "MRI": "Use MRI when neural, soft-tissue, marrow, inflammatory, occult injury or other condition-specific assessment requires it.",
+    "radiographs": "Use radiographs and/or CT according to the condition-specific imaging pathway."
+  },
+  "management": {
+    "green": [
+      "Seating and pressure management",
+      "Respiratory optimization",
+      "Rehabilitation and contracture management"
+    ],
+    "amber": [
+      "Surgery is individualized according to progression, function, respiratory status and underlying disease."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Vakra-prishtha and neuromuscular Vata phenotype may be documented only in parallel."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Spinal deformity developing secondary to neuromuscular conditions such as cerebral palsy, muscular dystrophy or spinal muscular atrophy.",
+    "urgent": "Seek urgent assessment for acute/progressive neurological deficit, sphincter change, severe infection/systemic illness, major trauma, vascular compromise or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "Scoliosis Research Society",
+      "title": "Neuromuscular Scoliosis",
+      "url": "https://www.srs.org/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V2.7-BATCH-13",
+    "proposedGoldChapterNumber": 230
+  }
+}

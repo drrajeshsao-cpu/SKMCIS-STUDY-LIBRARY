@@ -1,0 +1,94 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-ORT-ANS-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Accessory Navicular Syndrome",
+  "synonyms": [],
+  "category": "Orthopedics > Foot > Accessory Ossicle",
+  "tags": [
+    "accessory navicular syndrome"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Symptomatic accessory navicular, usually causing medial midfoot pain from irritation at the posterior tibial tendon insertion or shoe pressure.",
+  "clinicalPattern": {
+    "typical": [
+      "Medial arch prominence",
+      "Pain with shoes or activity",
+      "Posterior tibial tendon-region tenderness"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Acute fracture"
+    },
+    {
+      "level": "RED",
+      "item": "Infection"
+    },
+    {
+      "level": "RED",
+      "item": "Progressive flatfoot deformity"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Accessory-navicular tenderness",
+      "Posterior tibial tendon function",
+      "Foot alignment"
+    ]
+  },
+  "differentials": [
+    "Posterior tibial tendon dysfunction",
+    "Navicular stress fracture",
+    "Tarsal coalition"
+  ],
+  "investigations": {
+    "principle": "Radiographs identify accessory navicular; MRI is used when edema/tendon pathology needs clarification.",
+    "MRI": "Use MRI when neural, soft-tissue, marrow, inflammatory, occult injury or other condition-specific assessment requires it.",
+    "radiographs": "Use radiographs and/or CT according to the condition-specific imaging pathway."
+  },
+  "management": {
+    "green": [
+      "Footwear modification",
+      "Short-term immobilization when inflamed",
+      "Strength rehabilitation"
+    ],
+    "amber": [
+      "Persistent symptomatic cases may require excision/reconstruction."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Pada/Asthi-Snayu phenotype may be documented descriptively."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Symptomatic accessory navicular, usually causing medial midfoot pain from irritation at the posterior tibial tendon insertion or shoe pressure.",
+    "urgent": "Seek urgent assessment for acute/progressive neurological deficit, sphincter change, severe infection/systemic illness, major trauma, vascular compromise or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "AAOS OrthoInfo",
+      "title": "Accessory Navicular Syndrome",
+      "url": "https://orthoinfo.aaos.org/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V2.7-BATCH-13",
+    "proposedGoldChapterNumber": 244
+  }
+}

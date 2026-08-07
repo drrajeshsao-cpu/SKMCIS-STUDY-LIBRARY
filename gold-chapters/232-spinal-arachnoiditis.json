@@ -1,0 +1,95 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-SPN-ARA-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Spinal Arachnoiditis",
+  "synonyms": [],
+  "category": "Spine > Meningeal/Adhesive Disorder",
+  "tags": [
+    "spinal arachnoiditis"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Chronic inflammatory and fibrotic disorder involving spinal arachnoid membranes and nerve roots, sometimes following surgery, infection, hemorrhage or intrathecal insult.",
+  "clinicalPattern": {
+    "typical": [
+      "Chronic neuropathic back/leg pain",
+      "Patchy sensory symptoms",
+      "Weakness",
+      "Sphincter dysfunction in severe disease"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "New progressive neurological deficit"
+    },
+    {
+      "level": "RED",
+      "item": "Acute sphincter change"
+    },
+    {
+      "level": "RED",
+      "item": "Infection or tumor concern"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Detailed root/cord neurological exam",
+      "Gait",
+      "Bladder/bowel history"
+    ]
+  },
+  "differentials": [
+    "Recurrent disc disease",
+    "Cauda equina syndrome",
+    "Spinal tumor",
+    "Epidural fibrosis"
+  ],
+  "investigations": {
+    "principle": "MRI may show nerve-root clumping, empty-sac appearance or adhesions; imaging findings require clinical correlation.",
+    "MRI": "Use MRI when neural, soft-tissue, marrow, inflammatory, occult injury or other condition-specific assessment requires it.",
+    "radiographs": "Use radiographs and/or CT according to the condition-specific imaging pathway."
+  },
+  "management": {
+    "green": [
+      "Multidisciplinary pain and rehabilitation care",
+      "Function-focused activity plan"
+    ],
+    "amber": [
+      "Surgery has limited and variable benefit; repeated invasive procedures should be approached cautiously."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Vata-neuropathic phenotype may be documented only as a parallel framework."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Chronic inflammatory and fibrotic disorder involving spinal arachnoid membranes and nerve roots, sometimes following surgery, infection, hemorrhage or intrathecal insult.",
+    "urgent": "Seek urgent assessment for acute/progressive neurological deficit, sphincter change, severe infection/systemic illness, major trauma, vascular compromise or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "ACR",
+      "title": "Low Back Pain / postoperative spine imaging resources",
+      "url": "https://acsearch.acr.org/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V2.7-BATCH-13",
+    "proposedGoldChapterNumber": 232
+  }
+}

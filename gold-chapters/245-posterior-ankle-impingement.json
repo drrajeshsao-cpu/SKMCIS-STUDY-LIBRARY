@@ -1,0 +1,94 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-ORT-PAI-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Posterior Ankle Impingement",
+  "synonyms": [],
+  "category": "Orthopedics > Foot & Ankle > Impingement",
+  "tags": [
+    "posterior ankle impingement"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Painful compression of posterior ankle structures during plantar flexion, often involving an os trigonum, Stieda process or adjacent soft tissues.",
+  "clinicalPattern": {
+    "typical": [
+      "Posterior ankle pain with plantar flexion",
+      "Pain in dancers/footballers",
+      "Tenderness posterolaterally"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Acute fracture"
+    },
+    {
+      "level": "RED",
+      "item": "Achilles rupture"
+    },
+    {
+      "level": "RED",
+      "item": "Neurovascular deficit"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Forced plantar-flexion provocation",
+      "Achilles/FHL assessment",
+      "Ankle ROM"
+    ]
+  },
+  "differentials": [
+    "Achilles tendinopathy",
+    "FHL tenosynovitis",
+    "Os trigonum syndrome",
+    "Ankle fracture"
+  ],
+  "investigations": {
+    "principle": "Radiographs show osseous variants; MRI/ultrasound assesses soft tissue and active inflammation.",
+    "MRI": "Use MRI when neural, soft-tissue, marrow, inflammatory, occult injury or other condition-specific assessment requires it.",
+    "radiographs": "Use radiographs and/or CT according to the condition-specific imaging pathway."
+  },
+  "management": {
+    "green": [
+      "Activity modification",
+      "Ankle mobility/strength rehabilitation"
+    ],
+    "amber": [
+      "Persistent confirmed impingement may require image-guided injection or arthroscopic/open excision."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Gulpha/Snayu mechanical phenotype may be documented."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Painful compression of posterior ankle structures during plantar flexion, often involving an os trigonum, Stieda process or adjacent soft tissues.",
+    "urgent": "Seek urgent assessment for acute/progressive neurological deficit, sphincter change, severe infection/systemic illness, major trauma, vascular compromise or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "FootCareMD",
+      "title": "Posterior Ankle Impingement resources",
+      "url": "https://www.footcaremd.org/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V2.7-BATCH-13",
+    "proposedGoldChapterNumber": 245
+  }
+}

@@ -1,0 +1,100 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-ORT-AFF-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Adult Acquired Flatfoot / Flexible Pes Planovalgus",
+  "synonyms": [],
+  "category": "Orthopedics > Foot > Deformity",
+  "tags": [
+    "adult acquired flatfoot / flexible pes planovalgus"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Flattening of the medial longitudinal arch with hindfoot valgus in adults, caused by structural, tendon or ligament dysfunction and varying from flexible to rigid deformity.",
+  "clinicalPattern": {
+    "typical": [
+      "Flattened arch",
+      "Medial foot/ankle fatigue",
+      "Pain with prolonged standing",
+      "Shoe-wear difficulty"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Rapidly progressive deformity"
+    },
+    {
+      "level": "RED",
+      "item": "Charcot neuroarthropathy"
+    },
+    {
+      "level": "RED",
+      "item": "Severe tendon rupture"
+    },
+    {
+      "level": "RED",
+      "item": "Ulceration"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Standing arch",
+      "Heel-rise test",
+      "Hindfoot alignment",
+      "Ankle/Achilles flexibility"
+    ]
+  },
+  "differentials": [
+    "Posterior tibial tendon dysfunction",
+    "Tarsal coalition",
+    "Charcot foot"
+  ],
+  "investigations": {
+    "principle": "Weight-bearing foot/ankle radiographs characterize alignment; MRI is selective.",
+    "MRI": "Use MRI when neural, soft-tissue, marrow, inflammatory, occult injury or other condition-specific assessment requires it.",
+    "radiographs": "Use radiographs and/or CT according to the condition-specific imaging pathway."
+  },
+  "management": {
+    "green": [
+      "Footwear/orthotic support",
+      "Calf and foot strengthening",
+      "Weight/load management"
+    ],
+    "amber": [
+      "Rigid or progressive symptomatic deformity may require surgery."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Pada-vikriti phenotype may be documented descriptively."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Flattening of the medial longitudinal arch with hindfoot valgus in adults, caused by structural, tendon or ligament dysfunction and varying from flexible to rigid deformity.",
+    "urgent": "Seek urgent assessment for acute/progressive neurological deficit, sphincter change, severe infection/systemic illness, major trauma, vascular compromise or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "FootCareMD",
+      "title": "Adult Acquired Flatfoot",
+      "url": "https://www.footcaremd.org/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V2.7-BATCH-13",
+    "proposedGoldChapterNumber": 241
+  }
+}

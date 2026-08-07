@@ -1,0 +1,95 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-NEU-CDYS-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Cervical Dystonia / Spasmodic Torticollis",
+  "synonyms": [],
+  "category": "Neurology > Movement Disorder",
+  "tags": [
+    "cervical dystonia / spasmodic torticollis"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Focal dystonia causing involuntary patterned contractions of neck muscles, producing abnormal head posture, tremor and pain.",
+  "clinicalPattern": {
+    "typical": [
+      "Sustained or intermittent head rotation/tilt",
+      "Neck pain",
+      "Sensory trick may reduce posture",
+      "Head tremor may occur"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Acute painful torticollis with fever"
+    },
+    {
+      "level": "RED",
+      "item": "New neurological deficit"
+    },
+    {
+      "level": "RED",
+      "item": "Drug-induced acute dystonia with airway involvement"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Head posture",
+      "Dystonic muscle pattern",
+      "Neurological exam",
+      "Medication history"
+    ]
+  },
+  "differentials": [
+    "Congenital muscular torticollis",
+    "Atlantoaxial rotatory subluxation",
+    "Parkinsonism"
+  ],
+  "investigations": {
+    "principle": "Diagnosis is clinical; imaging is selective for atypical or secondary cases.",
+    "MRI": "Use MRI when neural, soft-tissue, marrow, inflammatory, occult injury or other condition-specific assessment requires it.",
+    "radiographs": "Use radiographs and/or CT according to the condition-specific imaging pathway."
+  },
+  "management": {
+    "green": [
+      "Neurology-directed botulinum toxin pathway",
+      "Physiotherapy for posture and function"
+    ],
+    "amber": [
+      "Oral medications or surgery are specialist options for selected patients."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Greeva-stambha/Kampa phenotype may be documented only as a parallel framework."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Focal dystonia causing involuntary patterned contractions of neck muscles, producing abnormal head posture, tremor and pain.",
+    "urgent": "Seek urgent assessment for acute/progressive neurological deficit, sphincter change, severe infection/systemic illness, major trauma, vascular compromise or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "AAN",
+      "title": "Botulinum Neurotoxin for Movement Disorders guidance",
+      "url": "https://www.aan.com/Guidelines/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V2.7-BATCH-13",
+    "proposedGoldChapterNumber": 235
+  }
+}

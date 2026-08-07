@@ -1,0 +1,100 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-PED-AIS-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Adolescent Idiopathic Scoliosis",
+  "synonyms": [],
+  "category": "Pediatric Orthopedics > Spine > Deformity",
+  "tags": [
+    "adolescent idiopathic scoliosis"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Three-dimensional spinal deformity arising during adolescence without an identifiable secondary cause, defined radiographically by a Cobb angle of at least 10 degrees.",
+  "clinicalPattern": {
+    "typical": [
+      "Uneven shoulders or waist",
+      "Rib prominence on forward bend",
+      "Usually little or no pain",
+      "Progression risk relates to growth and curve magnitude"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Neurological deficit"
+    },
+    {
+      "level": "RED",
+      "item": "Severe pain/night pain"
+    },
+    {
+      "level": "RED",
+      "item": "Atypical left thoracic curve"
+    },
+    {
+      "level": "RED",
+      "item": "Rapid progression or systemic features"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Adam forward-bend test",
+      "Scoliometer",
+      "Neurological exam",
+      "Growth/maturity assessment"
+    ]
+  },
+  "differentials": [
+    "Congenital scoliosis",
+    "Neuromuscular scoliosis",
+    "Leg-length discrepancy"
+  ],
+  "investigations": {
+    "principle": "Standing PA and lateral full-spine radiographs quantify Cobb angle and sagittal balance; MRI is selected for atypical or neurological features.",
+    "MRI": "Use MRI when neural, soft-tissue, marrow, inflammatory, occult injury or other condition-specific assessment requires it.",
+    "radiographs": "Use radiographs and/or CT according to the condition-specific imaging pathway."
+  },
+  "management": {
+    "green": [
+      "Observation for mild low-risk curves",
+      "Physiotherapeutic scoliosis-specific exercise when appropriate",
+      "Bracing for selected skeletally immature progressive curves"
+    ],
+    "amber": [
+      "Surgery is considered for larger/progressive curves based on magnitude, maturity and balance."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Vakra-prishtha phenotype may be documented descriptively; modern curve classification remains primary."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Three-dimensional spinal deformity arising during adolescence without an identifiable secondary cause, defined radiographically by a Cobb angle of at least 10 degrees.",
+    "urgent": "Seek urgent assessment for acute/progressive neurological deficit, sphincter change, severe infection/systemic illness, major trauma, vascular compromise or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "Scoliosis Research Society",
+      "title": "Adolescent Idiopathic Scoliosis",
+      "url": "https://www.srs.org/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V2.7-BATCH-13",
+    "proposedGoldChapterNumber": 228
+  }
+}

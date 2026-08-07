@@ -1,0 +1,93 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-ORT-AAI-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Anterior Ankle Impingement",
+  "synonyms": [],
+  "category": "Orthopedics > Foot & Ankle > Impingement",
+  "tags": [
+    "anterior ankle impingement"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Painful anterior ankle compression during dorsiflexion caused by osteophytes, synovitis, scar tissue or repetitive athletic loading.",
+  "clinicalPattern": {
+    "typical": [
+      "Anterior ankle pain",
+      "Pain with deep squat/dorsiflexion",
+      "Reduced dorsiflexion"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Acute fracture"
+    },
+    {
+      "level": "RED",
+      "item": "Infection"
+    },
+    {
+      "level": "RED",
+      "item": "Unstable syndesmotic injury"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Dorsiflexion provocation",
+      "Ankle ROM",
+      "Stability and joint-line assessment"
+    ]
+  },
+  "differentials": [
+    "Ankle OA",
+    "Syndesmotic injury",
+    "Osteochondral lesion"
+  ],
+  "investigations": {
+    "principle": "Radiographs demonstrate anterior osteophytes; MRI/CT is selected for cartilage/soft-tissue or surgical planning.",
+    "MRI": "Use MRI when neural, soft-tissue, marrow, inflammatory, occult injury or other condition-specific assessment requires it.",
+    "radiographs": "Use radiographs and/or CT according to the condition-specific imaging pathway."
+  },
+  "management": {
+    "green": [
+      "Load modification",
+      "Mobility and strength rehabilitation"
+    ],
+    "amber": [
+      "Persistent mechanical impingement may require arthroscopic debridement."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Gulpha-Sandhi mechanical phenotype may be documented."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Painful anterior ankle compression during dorsiflexion caused by osteophytes, synovitis, scar tissue or repetitive athletic loading.",
+    "urgent": "Seek urgent assessment for acute/progressive neurological deficit, sphincter change, severe infection/systemic illness, major trauma, vascular compromise or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "FootCareMD",
+      "title": "Ankle Impingement resources",
+      "url": "https://www.footcaremd.org/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V2.7-BATCH-13",
+    "proposedGoldChapterNumber": 246
+  }
+}

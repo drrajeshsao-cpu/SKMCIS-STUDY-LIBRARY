@@ -1,0 +1,98 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-PED-AARS-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Atlantoaxial Rotatory Subluxation",
+  "synonyms": [],
+  "category": "Pediatric Orthopedics > Cervical Spine",
+  "tags": [
+    "atlantoaxial rotatory subluxation"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Rotational malalignment of C1 relative to C2, most often seen in children after minor trauma, infection or surgery and presenting with painful torticollis.",
+  "clinicalPattern": {
+    "typical": [
+      "Painful torticollis",
+      "Head held in cock-robin posture",
+      "Restricted rotation"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Neurological deficit"
+    },
+    {
+      "level": "RED",
+      "item": "High-energy trauma"
+    },
+    {
+      "level": "RED",
+      "item": "Fever with deep neck infection concern"
+    },
+    {
+      "level": "RED",
+      "item": "Persistent fixed deformity"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Neurological exam",
+      "Neck posture",
+      "Gentle ROM assessment",
+      "ENT/infection screen when relevant"
+    ]
+  },
+  "differentials": [
+    "Congenital muscular torticollis",
+    "Cervical fracture",
+    "Posterior fossa/ocular causes"
+  ],
+  "investigations": {
+    "principle": "CT can define rotational alignment; MRI is selected for neurological, ligamentous or infection concern.",
+    "MRI": "Use MRI when neural, soft-tissue, marrow, inflammatory, occult injury or other condition-specific assessment requires it.",
+    "radiographs": "Use radiographs and/or CT according to the condition-specific imaging pathway."
+  },
+  "management": {
+    "green": [
+      "Early specialist assessment",
+      "Gentle immobilization and cause-directed care"
+    ],
+    "amber": [
+      "Forceful manipulation should be avoided; persistent fixed cases may need traction or surgical treatment."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Greeva-stambha phenotype may be documented after modern instability assessment."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Rotational malalignment of C1 relative to C2, most often seen in children after minor trauma, infection or surgery and presenting with painful torticollis.",
+    "urgent": "Seek urgent assessment for acute/progressive neurological deficit, sphincter change, severe infection/systemic illness, major trauma, vascular compromise or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "POSNA",
+      "title": "Atlantoaxial Rotatory Subluxation resources",
+      "url": "https://posna.org/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V2.7-BATCH-13",
+    "proposedGoldChapterNumber": 231
+  }
+}

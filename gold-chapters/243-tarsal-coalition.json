@@ -1,0 +1,94 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-PED-TC-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Tarsal Coalition",
+  "synonyms": [],
+  "category": "Pediatric Orthopedics > Foot",
+  "tags": [
+    "tarsal coalition"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Abnormal fibrous, cartilaginous or bony connection between tarsal bones that can cause rigid flatfoot, pain and recurrent ankle sprains, often becoming symptomatic in adolescence.",
+  "clinicalPattern": {
+    "typical": [
+      "Rigid flatfoot",
+      "Hindfoot pain",
+      "Reduced subtalar motion",
+      "Recurrent sprains"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Acute severe trauma"
+    },
+    {
+      "level": "RED",
+      "item": "Neurological deficit"
+    },
+    {
+      "level": "RED",
+      "item": "Infection/tumor concern"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Subtalar motion",
+      "Heel inversion on tiptoe",
+      "Foot alignment"
+    ]
+  },
+  "differentials": [
+    "Flexible flatfoot",
+    "Peroneal spasm",
+    "Accessory navicular"
+  ],
+  "investigations": {
+    "principle": "CT defines bony coalition; MRI helps fibrous/cartilaginous coalition; radiographs may show characteristic signs.",
+    "MRI": "Use MRI when neural, soft-tissue, marrow, inflammatory, occult injury or other condition-specific assessment requires it.",
+    "radiographs": "Use radiographs and/or CT according to the condition-specific imaging pathway."
+  },
+  "management": {
+    "green": [
+      "Activity modification",
+      "Orthoses/immobilization in selected cases"
+    ],
+    "amber": [
+      "Persistent symptomatic coalition may require resection or corrective surgery."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Pada-Sandhi congenital/developmental phenotype may be documented."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Abnormal fibrous, cartilaginous or bony connection between tarsal bones that can cause rigid flatfoot, pain and recurrent ankle sprains, often becoming symptomatic in adolescence.",
+    "urgent": "Seek urgent assessment for acute/progressive neurological deficit, sphincter change, severe infection/systemic illness, major trauma, vascular compromise or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "AAOS OrthoInfo",
+      "title": "Tarsal Coalition",
+      "url": "https://orthoinfo.aaos.org/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V2.7-BATCH-13",
+    "proposedGoldChapterNumber": 243
+  }
+}

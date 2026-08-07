@@ -1,0 +1,93 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-SPN-SEH-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Spinal Epidural Hematoma",
+  "synonyms": [],
+  "category": "Spine > Emergency > Hemorrhage",
+  "tags": [
+    "spinal epidural hematoma"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Bleeding into the spinal epidural space causing acute or subacute neural compression, occurring spontaneously or after trauma, surgery, anticoagulation or procedures.",
+  "clinicalPattern": {
+    "typical": [
+      "Sudden severe spinal pain",
+      "Rapidly evolving weakness or sensory loss",
+      "Possible sphincter dysfunction"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Any progressive neurological deficit"
+    },
+    {
+      "level": "RED",
+      "item": "Anticoagulated patient with acute spinal pain"
+    },
+    {
+      "level": "RED",
+      "item": "Rapid cord/cauda equina syndrome"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Serial neurological exam",
+      "Motor/sensory/reflex assessment",
+      "Sphincter evaluation when indicated"
+    ]
+  },
+  "differentials": [
+    "Spinal epidural abscess",
+    "Acute disc herniation",
+    "Spinal infarction"
+  ],
+  "investigations": {
+    "principle": "Urgent MRI is the diagnostic test of choice; coagulation studies and cause-directed evaluation are required.",
+    "MRI": "Use MRI when neural, soft-tissue, marrow, inflammatory, occult injury or other condition-specific assessment requires it.",
+    "radiographs": "Use radiographs and/or CT according to the condition-specific imaging pathway."
+  },
+  "management": {
+    "green": [
+      "Emergency spine/neurosurgical pathway",
+      "Reverse coagulopathy when appropriate"
+    ],
+    "amber": [
+      "Neurological deficit may require urgent decompression; do not delay for conservative care."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Any Vata/Rakta framework is secondary to emergency modern management."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Bleeding into the spinal epidural space causing acute or subacute neural compression, occurring spontaneously or after trauma, surgery, anticoagulation or procedures.",
+    "urgent": "Seek urgent assessment for acute/progressive neurological deficit, sphincter change, severe infection/systemic illness, major trauma, vascular compromise or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "ACR",
+      "title": "Myelopathy Imaging",
+      "url": "https://acsearch.acr.org/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V2.7-BATCH-13",
+    "proposedGoldChapterNumber": 233
+  }
+}

@@ -1,0 +1,95 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-ORT-MMRT-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Medial Meniscus Root Tear",
+  "synonyms": [],
+  "category": "Orthopedics > Knee > Meniscus Root",
+  "tags": [
+    "medial meniscus root tear"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Tear of the medial meniscus root, often degenerative in middle-aged or older adults and biomechanically similar to meniscal loss.",
+  "clinicalPattern": {
+    "typical": [
+      "Posteromedial knee pain",
+      "Pain with deep flexion",
+      "Effusion",
+      "Possible sudden painful pop without major trauma"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Locked knee"
+    },
+    {
+      "level": "RED",
+      "item": "Rapid severe swelling after trauma"
+    },
+    {
+      "level": "RED",
+      "item": "Septic joint features"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Posteromedial joint-line tenderness",
+      "Meniscal testing",
+      "Alignment/OA assessment"
+    ]
+  },
+  "differentials": [
+    "Degenerative meniscal tear",
+    "Knee OA",
+    "MCL injury"
+  ],
+  "investigations": {
+    "principle": "MRI is preferred to identify root tear, extrusion and associated cartilage/OA.",
+    "MRI": "Use MRI when neural, soft-tissue, marrow, inflammatory, occult injury or other condition-specific assessment requires it.",
+    "radiographs": "Use radiographs and/or CT according to the condition-specific imaging pathway."
+  },
+  "management": {
+    "green": [
+      "Orthopedic evaluation",
+      "Load modification",
+      "Address alignment and OA factors"
+    ],
+    "amber": [
+      "Repair versus nonoperative care depends on OA severity, alignment, age and tissue quality."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Janu-Snayu phenotype may be documented."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Tear of the medial meniscus root, often degenerative in middle-aged or older adults and biomechanically similar to meniscal loss.",
+    "urgent": "Seek urgent assessment for acute/progressive neurological deficit, sphincter change, severe infection/systemic illness, major trauma, vascular compromise or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "AAOS",
+      "title": "Meniscal Pathology CPG",
+      "url": "https://www.aaos.org/quality/quality-programs/clinical-practice-guidelines/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V2.7-BATCH-13",
+    "proposedGoldChapterNumber": 237
+  }
+}

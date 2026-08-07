@@ -225,7 +225,27 @@
     "gold-chapters/224-scapholunate-ligament-injury.json",
     "gold-chapters/225-triangular-fibrocartilage-complex-injury.json",
     "gold-chapters/226-kienb-ck-disease.json",
-    "gold-chapters/227-ulnar-impaction-syndrome.json"
+    "gold-chapters/227-ulnar-impaction-syndrome.json",
+    "gold-chapters/228-adolescent-idiopathic-scoliosis.json",
+    "gold-chapters/229-congenital-scoliosis.json",
+    "gold-chapters/230-neuromuscular-scoliosis.json",
+    "gold-chapters/231-atlantoaxial-rotatory-subluxation.json",
+    "gold-chapters/232-spinal-arachnoiditis.json",
+    "gold-chapters/233-spinal-epidural-hematoma.json",
+    "gold-chapters/234-spinal-cord-infarction.json",
+    "gold-chapters/235-cervical-dystonia-spasmodic-torticollis.json",
+    "gold-chapters/236-lateral-meniscus-root-tear.json",
+    "gold-chapters/237-medial-meniscus-root-tear.json",
+    "gold-chapters/238-pes-anserine-bursitis-tendinobursitis.json",
+    "gold-chapters/239-iliotibial-band-syndrome.json",
+    "gold-chapters/240-posterior-tibial-tendon-dysfunction-progressive-collapsing-foot-deformity.json",
+    "gold-chapters/241-adult-acquired-flatfoot-flexible-pes-planovalgus.json",
+    "gold-chapters/242-pes-cavus-cavovarus-foot.json",
+    "gold-chapters/243-tarsal-coalition.json",
+    "gold-chapters/244-accessory-navicular-syndrome.json",
+    "gold-chapters/245-posterior-ankle-impingement.json",
+    "gold-chapters/246-anterior-ankle-impingement.json",
+    "gold-chapters/247-osteochondral-lesion-of-the-talus.json"
   ],
-  "expectedTotalGold": 228
+  "expectedTotalGold": 248
 }

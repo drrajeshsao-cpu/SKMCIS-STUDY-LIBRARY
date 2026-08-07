@@ -1,0 +1,94 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-ORT-PAB-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Pes Anserine Bursitis / Tendinobursitis",
+  "synonyms": [],
+  "category": "Orthopedics > Knee > Medial Soft Tissue",
+  "tags": [
+    "pes anserine bursitis / tendinobursitis"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Pain and tenderness at the pes anserine region on the anteromedial proximal tibia, related to bursal and/or tendon irritation.",
+  "clinicalPattern": {
+    "typical": [
+      "Medial knee pain below joint line",
+      "Pain with stairs or rising",
+      "Localized tenderness"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Hot swollen knee"
+    },
+    {
+      "level": "RED",
+      "item": "Fever"
+    },
+    {
+      "level": "RED",
+      "item": "Acute fracture or instability"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Pes-region tenderness",
+      "Knee stability",
+      "Hamstring and hip assessment"
+    ]
+  },
+  "differentials": [
+    "MCL injury",
+    "Medial meniscal tear",
+    "Knee OA"
+  ],
+  "investigations": {
+    "principle": "Usually clinical; ultrasound can help in atypical or injection-planning cases.",
+    "MRI": "Use MRI when neural, soft-tissue, marrow, inflammatory, occult injury or other condition-specific assessment requires it.",
+    "radiographs": "Use radiographs and/or CT according to the condition-specific imaging pathway."
+  },
+  "management": {
+    "green": [
+      "Load modification",
+      "Hamstring/hip rehabilitation",
+      "Address obesity/OA contributors"
+    ],
+    "amber": [
+      "Injection is selective after diagnosis is clear."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Janu-Snayu/Shotha phenotype may be documented."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Pain and tenderness at the pes anserine region on the anteromedial proximal tibia, related to bursal and/or tendon irritation.",
+    "urgent": "Seek urgent assessment for acute/progressive neurological deficit, sphincter change, severe infection/systemic illness, major trauma, vascular compromise or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "AAFP",
+      "title": "Knee pain differential resources",
+      "url": "https://www.aafp.org/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V2.7-BATCH-13",
+    "proposedGoldChapterNumber": 238
+  }
+}

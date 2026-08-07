@@ -1,0 +1,98 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-ORT-ITBS-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Iliotibial Band Syndrome",
+  "synonyms": [],
+  "category": "Orthopedics > Knee > Overuse",
+  "tags": [
+    "iliotibial band syndrome"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Overuse-related lateral knee pain associated with compression and irritation of tissues beneath the iliotibial band near the lateral femoral epicondyle.",
+  "clinicalPattern": {
+    "typical": [
+      "Lateral knee pain with running/cycling",
+      "Pain after a predictable distance",
+      "Tenderness near lateral femoral epicondyle"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Acute ligament injury"
+    },
+    {
+      "level": "RED",
+      "item": "Fracture"
+    },
+    {
+      "level": "RED",
+      "item": "Locked knee"
+    },
+    {
+      "level": "RED",
+      "item": "Systemic illness"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Lateral epicondyle tenderness",
+      "Running/hip biomechanics",
+      "Hip abductor strength"
+    ]
+  },
+  "differentials": [
+    "Lateral meniscal tear",
+    "LCL injury",
+    "Patellofemoral pain"
+  ],
+  "investigations": {
+    "principle": "Diagnosis is clinical; imaging is used only when alternative pathology is suspected.",
+    "MRI": "Use MRI when neural, soft-tissue, marrow, inflammatory, occult injury or other condition-specific assessment requires it.",
+    "radiographs": "Use radiographs and/or CT according to the condition-specific imaging pathway."
+  },
+  "management": {
+    "green": [
+      "Training-load modification",
+      "Hip and lower-limb strengthening",
+      "Running-form assessment"
+    ],
+    "amber": [
+      "Persistent symptoms require reassessment for alternative lateral-knee diagnoses."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Janu/Jangha Snayu overuse phenotype may be documented."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Overuse-related lateral knee pain associated with compression and irritation of tissues beneath the iliotibial band near the lateral femoral epicondyle.",
+    "urgent": "Seek urgent assessment for acute/progressive neurological deficit, sphincter change, severe infection/systemic illness, major trauma, vascular compromise or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "Sports medicine literature",
+      "title": "Iliotibial Band Syndrome reviews",
+      "url": "https://bjsm.bmj.com/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V2.7-BATCH-13",
+    "proposedGoldChapterNumber": 239
+  }
+}

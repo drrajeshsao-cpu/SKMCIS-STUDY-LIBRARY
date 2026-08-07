@@ -1,0 +1,95 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-ORT-CAV-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Pes Cavus / Cavovarus Foot",
+  "synonyms": [],
+  "category": "Orthopedics > Foot > Deformity",
+  "tags": [
+    "pes cavus / cavovarus foot"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "High-arched foot deformity, often with hindfoot varus, that may be idiopathic or associated with hereditary/neurological disease.",
+  "clinicalPattern": {
+    "typical": [
+      "High arch",
+      "Lateral foot overload",
+      "Recurrent ankle sprain",
+      "Claw toes/callus"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Progressive deformity with neurological signs"
+    },
+    {
+      "level": "RED",
+      "item": "New weakness"
+    },
+    {
+      "level": "RED",
+      "item": "Ulceration"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Arch and hindfoot alignment",
+      "Coleman block test",
+      "Neurological exam",
+      "Peroneal strength"
+    ]
+  },
+  "differentials": [
+    "Charcot-Marie-Tooth disease",
+    "Rigid flatfoot variants",
+    "Post-traumatic deformity"
+  ],
+  "investigations": {
+    "principle": "Weight-bearing radiographs assess alignment; neurological workup is required if progression or weakness is present.",
+    "MRI": "Use MRI when neural, soft-tissue, marrow, inflammatory, occult injury or other condition-specific assessment requires it.",
+    "radiographs": "Use radiographs and/or CT according to the condition-specific imaging pathway."
+  },
+  "management": {
+    "green": [
+      "Footwear/orthoses",
+      "Strength and balance rehabilitation"
+    ],
+    "amber": [
+      "Rigid painful deformity may require reconstructive surgery."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Pada-vikriti may be documented; neurological cause must remain explicit."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "High-arched foot deformity, often with hindfoot varus, that may be idiopathic or associated with hereditary/neurological disease.",
+    "urgent": "Seek urgent assessment for acute/progressive neurological deficit, sphincter change, severe infection/systemic illness, major trauma, vascular compromise or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "FootCareMD",
+      "title": "Cavus Foot",
+      "url": "https://www.footcaremd.org/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V2.7-BATCH-13",
+    "proposedGoldChapterNumber": 242
+  }
+}

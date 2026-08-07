@@ -1,0 +1,96 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-ORT-PTTD-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Posterior Tibial Tendon Dysfunction / Progressive Collapsing Foot Deformity",
+  "synonyms": [],
+  "category": "Orthopedics > Foot & Ankle > Tendon/Deformity",
+  "tags": [
+    "posterior tibial tendon dysfunction / progressive collapsing foot deformity"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Failure of the posterior tibial tendon and supporting structures leading to progressive adult-acquired flatfoot deformity.",
+  "clinicalPattern": {
+    "typical": [
+      "Medial ankle pain",
+      "Progressive flattening of arch",
+      "Difficulty single-leg heel raise",
+      "Later lateral impingement pain"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Acute rupture"
+    },
+    {
+      "level": "RED",
+      "item": "Severe ulceration/Charcot differential"
+    },
+    {
+      "level": "RED",
+      "item": "Neurovascular compromise"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Single-leg heel raise",
+      "Arch alignment",
+      "Hindfoot valgus",
+      "Posterior tibial tendon tenderness"
+    ]
+  },
+  "differentials": [
+    "Flexible flatfoot",
+    "Tarsal coalition",
+    "Charcot foot",
+    "Ankle arthritis"
+  ],
+  "investigations": {
+    "principle": "Weight-bearing radiographs assess alignment; ultrasound/MRI evaluate tendon integrity when needed.",
+    "MRI": "Use MRI when neural, soft-tissue, marrow, inflammatory, occult injury or other condition-specific assessment requires it.",
+    "radiographs": "Use radiographs and/or CT according to the condition-specific imaging pathway."
+  },
+  "management": {
+    "green": [
+      "Footwear/orthotic support",
+      "Progressive tendon and calf rehabilitation"
+    ],
+    "amber": [
+      "Progressive rigid deformity or tendon failure may require reconstruction."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Pada-Snayu and Sandhi deformity phenotype may be documented."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Failure of the posterior tibial tendon and supporting structures leading to progressive adult-acquired flatfoot deformity.",
+    "urgent": "Seek urgent assessment for acute/progressive neurological deficit, sphincter change, severe infection/systemic illness, major trauma, vascular compromise or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "FootCareMD",
+      "title": "Progressive Collapsing Foot Deformity",
+      "url": "https://www.footcaremd.org/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V2.7-BATCH-13",
+    "proposedGoldChapterNumber": 240
+  }
+}
