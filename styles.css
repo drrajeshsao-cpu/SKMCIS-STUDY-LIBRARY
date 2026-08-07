@@ -53,3 +53,16 @@ footer b{color:#526773;font-weight:750}
 .searchEmpty{background:#fff;border:1px dashed #cbd6dc;border-radius:10px;padding:12px;color:var(--muted)}
 .chapterPicker select{max-width:520px}
 @media(max-width:760px){.goldSearchPanel{grid-template-columns:1fr}.goldSearchResults{grid-template-columns:1fr}.readerActions{justify-content:flex-start}.readerProgress{grid-template-columns:1fr 1fr}.chapterPicker select{max-width:100%}}
+
+
+/* V4.4 Clinical Prescriber Foundation */
+.prescriberBand{display:flex;justify-content:space-between;gap:14px;align-items:center;background:#fff;border:1px solid #cfdde5;border-left:5px solid #2f6f91;border-radius:12px;padding:12px 14px;margin:10px 0 12px;box-shadow:0 2px 8px #123d590d}
+.prescriberBand>div:first-child{display:flex;flex-direction:column;gap:2px}.prescriberBand b{color:var(--navy);font-size:14px}.prescriberBand small{color:var(--muted)}
+.prescriberJump{display:flex;gap:7px;flex-wrap:wrap;justify-content:flex-end}.jumpBtn{border:1px solid transparent;border-radius:999px;padding:7px 10px;font-weight:800;font-size:12px;cursor:pointer}
+.examJump{background:#e9f4fb;color:#155f8d;border-color:#c8e0ef}.invJump{background:#eaf2ff;color:#225da8;border-color:#cfddf5}.txJump{background:#e9f6ee;color:#1f7a48;border-color:#c8e6d3}.fuJump{background:#fff3d9;color:#8c6100;border-color:#f0d99d}
+.kb#sec-exam{border-left:6px solid #2581b6;background:#f8fcff}.kb#sec-investigations{border-left:6px solid #386fc2;background:#f8fbff}.kb#sec-management{border-left:6px solid #2d8a54;background:#f8fcf9}.kb#sec-outcomes{border-left:6px solid #d59a24;background:#fffdf7}
+.kb#sec-exam h2::before{content:"🩺 ";}.kb#sec-investigations h2::before{content:"🔬 ";}.kb#sec-management h2::before{content:"💊 ";}.kb#sec-outcomes h2::before{content:"📅 ";}
+.prescriberTable{width:100%;border-collapse:collapse;margin-top:8px}.prescriberTable th,.prescriberTable td{border:1px solid var(--line);padding:8px 9px;text-align:left;vertical-align:top;font-size:13px}.prescriberTable th{background:#eef4f7;color:var(--navy)}
+.rxStatus{display:inline-block;padding:4px 7px;border-radius:999px;font-size:11px;font-weight:800}.rxStatus.green{background:#e9f6ee;color:#1f7a48}.rxStatus.amber{background:#fff3d6;color:#956200}.rxStatus.red{background:#fdebec;color:#b4232c}.rxStatus.blue{background:#e8f2fb;color:#1769aa}
+.prescriberNote{margin-top:10px;padding:10px 11px;border-radius:9px;background:#fff8e8;border:1px solid #efdfb1;color:#6b5417;font-size:12px}
+@media(max-width:760px){.prescriberBand{flex-direction:column;align-items:flex-start}.prescriberJump{justify-content:flex-start}}

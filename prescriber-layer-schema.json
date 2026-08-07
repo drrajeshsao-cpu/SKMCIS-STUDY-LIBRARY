@@ -1,0 +1,41 @@
+{
+  "schema": "SKMCIS-prescriber-layer-v1",
+  "purpose": "Structured clinician-reviewed point-of-care layer attached to each Gold Chapter.",
+  "fields": {
+    "examination": [
+      "Focused general/regional/neurological/orthopedic examination items"
+    ],
+    "investigations": [
+      {
+        "test": "e.g. X-ray Lumbosacral Spine AP & Lateral",
+        "indication": "Persistent/mechanical back pain when imaging is clinically indicated",
+        "priority": "Routine/Conditional/Urgent",
+        "level": "blue/amber/red"
+      }
+    ],
+    "medications": [
+      {
+        "generic": "Generic medicine",
+        "brandExamples": [
+          "Optional India-market examples after verification"
+        ],
+        "formulation": "tablet/capsule/injection/topical etc",
+        "dose": "Clinician-reviewed dose with route/frequency",
+        "duration": "Typical duration or reassessment interval",
+        "notes": "Contraindications, renal/hepatic/pregnancy/interactions"
+      }
+    ],
+    "nonDrug": [
+      "Rehabilitation, ergonomics, exercise, device/support, referral"
+    ],
+    "followUp": [
+      "Reassessment timing, outcome measure, escalation/referral criteria"
+    ]
+  },
+  "validationRules": [
+    "No medication becomes GREEN/validated without source and clinician review.",
+    "Brand names are examples only and must be market-verified.",
+    "Emergency red flags override routine prescribing.",
+    "Check allergy, pregnancy/lactation, renal/hepatic status, age, comorbidities and interactions."
+  ]
+}
