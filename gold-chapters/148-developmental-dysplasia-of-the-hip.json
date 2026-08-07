@@ -1,0 +1,103 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-PED-DDH-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Developmental Dysplasia of the Hip",
+  "synonyms": [
+    "DDH",
+    "Developmental hip dysplasia"
+  ],
+  "category": "Pediatric Orthopedics > Hip",
+  "tags": [
+    "DDH",
+    "hip dysplasia",
+    "pediatric",
+    "Ortolani",
+    "Barlow"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Abnormal development and stability of the hip joint in infancy or childhood, ranging from acetabular dysplasia to subluxation or dislocation.",
+  "clinicalPattern": {
+    "typical": [
+      "Hip instability in infancy",
+      "Limited hip abduction",
+      "Leg-length asymmetry",
+      "Later limp or gait asymmetry"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Irreducible dislocation"
+    },
+    {
+      "level": "RED",
+      "item": "Neurovascular compromise after treatment"
+    },
+    {
+      "level": "RED",
+      "item": "Delayed walking with marked asymmetry"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Barlow/Ortolani in appropriate age",
+      "Hip abduction symmetry",
+      "Galeazzi sign",
+      "Gait assessment in older child"
+    ]
+  },
+  "differentials": [
+    "Neuromuscular hip displacement",
+    "Leg-length discrepancy",
+    "Congenital femoral deficiency"
+  ],
+  "investigations": {
+    "principle": "Age-appropriate imaging is important.",
+    "MRI": "Ultrasound is preferred in young infants before ossification; MRI is selective.",
+    "radiographs": "AP pelvis radiographs are used later in infancy/childhood."
+  },
+  "management": {
+    "green": [
+      "Early pediatric orthopedic referral",
+      "Age-appropriate bracing or reduction pathway",
+      "Developmental follow-up"
+    ],
+    "amber": [
+      "Treatment timing matters; delayed diagnosis increases likelihood of operative intervention."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Sandhi-vikriti/developmental phenotype may be documented, but modern pediatric hip diagnosis remains primary."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Abnormal development and stability of the hip joint in infancy or childhood, ranging from acetabular dysplasia to subluxation or dislocation.",
+    "urgent": "Seek urgent assessment for acute/progressive neurological deficit, severe infection/systemic illness, major trauma, vascular compromise or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "AAOS",
+      "title": "Detection and Nonoperative Management of Pediatric DDH",
+      "url": "https://www.aaos.org/quality/quality-programs/clinical-practice-guidelines/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V2.3-BATCH-09",
+    "proposedGoldChapterNumber": 148
+  }
+}

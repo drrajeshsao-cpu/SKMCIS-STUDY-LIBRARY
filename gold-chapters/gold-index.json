@@ -145,7 +145,27 @@
     "gold-chapters/144-high-ankle-sprain-syndesmotic-injury.json",
     "gold-chapters/145-peroneal-tendinopathy.json",
     "gold-chapters/146-sacroiliitis.json",
-    "gold-chapters/147-charcot-neuroarthropathy-of-the-foot.json"
+    "gold-chapters/147-charcot-neuroarthropathy-of-the-foot.json",
+    "gold-chapters/148-developmental-dysplasia-of-the-hip.json",
+    "gold-chapters/149-slipped-capital-femoral-epiphysis.json",
+    "gold-chapters/150-legg-calv-perthes-disease.json",
+    "gold-chapters/151-juvenile-idiopathic-arthritis.json",
+    "gold-chapters/152-congenital-muscular-torticollis.json",
+    "gold-chapters/153-shoulder-dislocation-acute-anterior.json",
+    "gold-chapters/154-posterior-shoulder-dislocation.json",
+    "gold-chapters/155-elbow-dislocation.json",
+    "gold-chapters/156-hip-dislocation.json",
+    "gold-chapters/157-patellar-tendon-rupture.json",
+    "gold-chapters/158-quadriceps-tendon-rupture.json",
+    "gold-chapters/159-flexor-tendon-injury-of-the-hand.json",
+    "gold-chapters/160-extensor-tendon-injury-of-the-hand.json",
+    "gold-chapters/161-radial-nerve-palsy.json",
+    "gold-chapters/162-femoral-neuropathy.json",
+    "gold-chapters/163-sciatic-neuropathy.json",
+    "gold-chapters/164-thoracic-radiculopathy.json",
+    "gold-chapters/165-costochondritis.json",
+    "gold-chapters/166-tietze-syndrome.json",
+    "gold-chapters/167-prepatellar-bursitis.json"
   ],
-  "expectedTotalGold": 148
+  "expectedTotalGold": 168
 }

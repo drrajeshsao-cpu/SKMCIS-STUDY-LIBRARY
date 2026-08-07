@@ -1,0 +1,101 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-ORT-ED-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Elbow Dislocation",
+  "synonyms": [
+    "Simple elbow dislocation"
+  ],
+  "category": "Orthopedics > Elbow > Dislocation",
+  "tags": [
+    "elbow dislocation",
+    "trauma",
+    "reduction"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Displacement of the ulnohumeral/radiocapitellar articulation, commonly posterior, with risk of ligament injury, fracture and neurovascular compromise.",
+  "clinicalPattern": {
+    "typical": [
+      "Gross elbow deformity",
+      "Pain and inability to move",
+      "Swelling after trauma"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Absent pulse or nerve deficit"
+    },
+    {
+      "level": "RED",
+      "item": "Open injury"
+    },
+    {
+      "level": "RED",
+      "item": "Associated fracture-dislocation"
+    },
+    {
+      "level": "RED",
+      "item": "Compartment syndrome"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Pre/post-reduction neurovascular exam",
+      "Skin",
+      "Stability after reduction"
+    ]
+  },
+  "differentials": [
+    "Supracondylar fracture",
+    "Radial head fracture",
+    "Olecranon fracture"
+  ],
+  "investigations": {
+    "principle": "Radiographs are required.",
+    "MRI": "CT is useful for fracture-dislocations; MRI is rarely acute.",
+    "radiographs": "AP/lateral elbow radiographs confirm reduction and fracture."
+  },
+  "management": {
+    "green": [
+      "Urgent reduction",
+      "Short immobilization followed by early ROM when stable"
+    ],
+    "amber": [
+      "Persistent instability or complex fracture-dislocation needs surgery."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Kurpara-sandhi dislocation phenotype may be documented after orthopedic stabilization."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Displacement of the ulnohumeral/radiocapitellar articulation, commonly posterior, with risk of ligament injury, fracture and neurovascular compromise.",
+    "urgent": "Seek urgent assessment for acute/progressive neurological deficit, severe infection/systemic illness, major trauma, vascular compromise or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "AAOS OrthoInfo",
+      "title": "Elbow Dislocation",
+      "url": "https://orthoinfo.aaos.org/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V2.3-BATCH-09",
+    "proposedGoldChapterNumber": 155
+  }
+}

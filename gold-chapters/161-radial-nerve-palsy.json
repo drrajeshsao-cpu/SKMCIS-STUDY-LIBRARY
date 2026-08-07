@@ -1,0 +1,105 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-NEU-RNP-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Radial Nerve Palsy",
+  "synonyms": [
+    "Radial neuropathy"
+  ],
+  "category": "Neurology/Orthopedics > Peripheral Nerve > Radial",
+  "tags": [
+    "radial nerve",
+    "wrist drop",
+    "humeral fracture"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Radial nerve dysfunction causing variable wrist/finger extension weakness and sensory disturbance depending on lesion level.",
+  "clinicalPattern": {
+    "typical": [
+      "Wrist drop",
+      "Finger extension weakness",
+      "Dorsal first-web sensory symptoms",
+      "May follow humeral shaft fracture or compression"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Progressive deficit"
+    },
+    {
+      "level": "RED",
+      "item": "Open fracture/penetrating injury"
+    },
+    {
+      "level": "RED",
+      "item": "Vascular compromise"
+    },
+    {
+      "level": "RED",
+      "item": "Compartment syndrome"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Wrist/finger/thumb extension",
+      "Triceps depending on level",
+      "Sensory mapping",
+      "Reflexes",
+      "Cervical screen"
+    ]
+  },
+  "differentials": [
+    "C7 radiculopathy",
+    "Posterior interosseous neuropathy",
+    "Brachial plexopathy"
+  ],
+  "investigations": {
+    "principle": "Clinical localization guides testing.",
+    "MRI": "Electrodiagnostics and ultrasound/MRI are used according to timing and suspected lesion.",
+    "radiographs": "Radiographs if fracture is implicated."
+  },
+  "management": {
+    "green": [
+      "Protect weak wrist with splint",
+      "Maintain ROM and hand function",
+      "Treat compression/cause"
+    ],
+    "amber": [
+      "Open injury or persistent severe palsy may require surgical exploration."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Vata-neuropathy phenotype may be documented in parallel."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Radial nerve dysfunction causing variable wrist/finger extension weakness and sensory disturbance depending on lesion level.",
+    "urgent": "Seek urgent assessment for acute/progressive neurological deficit, severe infection/systemic illness, major trauma, vascular compromise or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "AANEM",
+      "title": "Peripheral nerve resources",
+      "url": "https://www.aanem.org/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V2.3-BATCH-09",
+    "proposedGoldChapterNumber": 161
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-ORT-PSD-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Posterior Shoulder Dislocation",
+  "synonyms": [
+    "Posterior glenohumeral dislocation"
+  ],
+  "category": "Orthopedics > Shoulder > Dislocation",
+  "tags": [
+    "posterior shoulder dislocation",
+    "seizure",
+    "electric shock"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Posterior displacement of the humeral head, uncommon and frequently missed, often associated with seizures, electrical injury or trauma.",
+  "clinicalPattern": {
+    "typical": [
+      "Shoulder pain after seizure/trauma",
+      "Arm fixed in internal rotation",
+      "Marked loss of external rotation"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Neurovascular compromise"
+    },
+    {
+      "level": "RED",
+      "item": "Associated proximal humeral fracture"
+    },
+    {
+      "level": "RED",
+      "item": "Bilateral injuries after seizure"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Shoulder contour and ROM",
+      "Neurovascular exam",
+      "Search for seizure/electrical injury context"
+    ]
+  },
+  "differentials": [
+    "Anterior dislocation",
+    "Fracture",
+    "Rotator cuff injury"
+  ],
+  "investigations": {
+    "principle": "Dedicated imaging is essential because AP radiographs can miss the diagnosis.",
+    "MRI": "CT helps define fracture-dislocation; MRI is used later for soft-tissue injury.",
+    "radiographs": "Axillary or scapular-Y views help establish diagnosis."
+  },
+  "management": {
+    "green": [
+      "Urgent orthopedic reduction pathway",
+      "Immobilization and rehabilitation"
+    ],
+    "amber": [
+      "Delayed or fracture-associated dislocations often require specialist operative management."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Amsa-sandhi displacement may be documented only after modern orthopedic diagnosis."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Posterior displacement of the humeral head, uncommon and frequently missed, often associated with seizures, electrical injury or trauma.",
+    "urgent": "Seek urgent assessment for acute/progressive neurological deficit, severe infection/systemic illness, major trauma, vascular compromise or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "AAOS OrthoInfo",
+      "title": "Shoulder Dislocation",
+      "url": "https://orthoinfo.aaos.org/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V2.3-BATCH-09",
+    "proposedGoldChapterNumber": 154
+  }
+}

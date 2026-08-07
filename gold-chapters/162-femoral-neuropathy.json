@@ -1,0 +1,102 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-NEU-FN-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Femoral Neuropathy",
+  "synonyms": [
+    "Femoral nerve palsy"
+  ],
+  "category": "Neurology > Peripheral Nerve > Femoral",
+  "tags": [
+    "femoral neuropathy",
+    "quadriceps weakness",
+    "knee reflex"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Femoral nerve dysfunction causing quadriceps weakness and sensory change over the anterior thigh/medial leg, often related to pelvic/retroperitoneal pathology, diabetes, surgery or trauma.",
+  "clinicalPattern": {
+    "typical": [
+      "Knee-extension weakness",
+      "Reduced patellar reflex",
+      "Anterior thigh/medial leg sensory symptoms"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Retroperitoneal hemorrhage"
+    },
+    {
+      "level": "RED",
+      "item": "Rapid progressive weakness"
+    },
+    {
+      "level": "RED",
+      "item": "Major trauma"
+    },
+    {
+      "level": "RED",
+      "item": "Severe pain with anticoagulation"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Quadriceps and hip-flexion strength",
+      "Patellar reflex",
+      "Sensory mapping",
+      "Lumbar/plexus screen"
+    ]
+  },
+  "differentials": [
+    "L2-L4 radiculopathy",
+    "Lumbosacral plexopathy",
+    "Meralgia paresthetica"
+  ],
+  "investigations": {
+    "principle": "Cause-directed evaluation is required.",
+    "MRI": "MRI/CT pelvis or lumbar spine and electrodiagnostics are selected based on suspected cause.",
+    "radiographs": "Radiographs are limited."
+  },
+  "management": {
+    "green": [
+      "Treat underlying cause",
+      "Knee-stability and gait rehabilitation"
+    ],
+    "amber": [
+      "Suspected retroperitoneal bleed or progressive deficit requires urgent assessment."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Vata-neuropathy phenotype may be documented only in parallel."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Femoral nerve dysfunction causing quadriceps weakness and sensory change over the anterior thigh/medial leg, often related to pelvic/retroperitoneal pathology, diabetes, surgery or trauma.",
+    "urgent": "Seek urgent assessment for acute/progressive neurological deficit, severe infection/systemic illness, major trauma, vascular compromise or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "AANEM",
+      "title": "Peripheral nerve electrodiagnostic resources",
+      "url": "https://www.aanem.org/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V2.3-BATCH-09",
+    "proposedGoldChapterNumber": 162
+  }
+}

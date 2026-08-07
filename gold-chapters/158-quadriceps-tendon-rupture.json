@@ -1,0 +1,99 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-ORT-QTR-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Quadriceps Tendon Rupture",
+  "synonyms": [
+    "Quadriceps tendon tear"
+  ],
+  "category": "Orthopedics > Knee > Extensor Mechanism",
+  "tags": [
+    "quadriceps tendon rupture",
+    "extensor mechanism",
+    "knee"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Partial or complete rupture of the quadriceps tendon above the patella, causing impaired active knee extension.",
+  "clinicalPattern": {
+    "typical": [
+      "Sudden pain above patella",
+      "Inability to straight-leg raise",
+      "Palpable suprapatellar gap",
+      "Swelling"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Open injury"
+    },
+    {
+      "level": "RED",
+      "item": "Associated fracture"
+    },
+    {
+      "level": "RED",
+      "item": "Neurovascular compromise"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Straight-leg raise",
+      "Quadriceps gap",
+      "Patellar position",
+      "Neurovascular exam"
+    ]
+  },
+  "differentials": [
+    "Patellar tendon rupture",
+    "Patellar fracture",
+    "Severe quadriceps strain"
+  ],
+  "investigations": {
+    "principle": "Clinical diagnosis is supported by imaging.",
+    "MRI": "Ultrasound/MRI confirms extent when needed.",
+    "radiographs": "Radiographs assess patellar position and fracture."
+  },
+  "management": {
+    "green": [
+      "Immobilize in extension",
+      "Urgent orthopedic referral"
+    ],
+    "amber": [
+      "Complete rupture generally requires surgical repair."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Janu/Snayu rupture phenotype may be documented only after orthopedic diagnosis."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Partial or complete rupture of the quadriceps tendon above the patella, causing impaired active knee extension.",
+    "urgent": "Seek urgent assessment for acute/progressive neurological deficit, severe infection/systemic illness, major trauma, vascular compromise or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "AAOS OrthoInfo",
+      "title": "Quadriceps Tendon Tear",
+      "url": "https://orthoinfo.aaos.org/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V2.3-BATCH-09",
+    "proposedGoldChapterNumber": 158
+  }
+}

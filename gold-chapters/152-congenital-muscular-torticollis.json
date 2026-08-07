@@ -1,0 +1,106 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-PED-CMT-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Congenital Muscular Torticollis",
+  "synonyms": [
+    "Infantile torticollis"
+  ],
+  "category": "Pediatric Orthopedics > Neck",
+  "tags": [
+    "torticollis",
+    "infant",
+    "SCM",
+    "neck"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Infant neck postural deformity usually related to sternocleidomastoid shortening, characterized by head tilt to one side and rotation to the opposite side.",
+  "clinicalPattern": {
+    "typical": [
+      "Persistent head tilt",
+      "Reduced cervical rotation",
+      "SCM tightness or mass",
+      "Associated plagiocephaly may occur"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Neurological deficit"
+    },
+    {
+      "level": "RED",
+      "item": "Acute painful torticollis with fever"
+    },
+    {
+      "level": "RED",
+      "item": "Atlantoaxial instability"
+    },
+    {
+      "level": "RED",
+      "item": "Ocular or posterior-fossa cause suspicion"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Passive and active cervical ROM",
+      "SCM palpation",
+      "Cranial shape",
+      "Neurological/ocular screen"
+    ]
+  },
+  "differentials": [
+    "Atlantoaxial rotatory subluxation",
+    "Ocular torticollis",
+    "Cervical anomaly",
+    "Posterior fossa pathology"
+  ],
+  "investigations": {
+    "principle": "Typical muscular torticollis is a clinical diagnosis.",
+    "MRI": "Imaging is reserved for atypical, refractory or red-flag cases.",
+    "radiographs": "Radiographs/ultrasound are selective, not routine."
+  },
+  "management": {
+    "green": [
+      "Early stretching/positioning program",
+      "Pediatric physiotherapy",
+      "Plagiocephaly prevention"
+    ],
+    "amber": [
+      "Persistent atypical cases need specialist reassessment before invasive treatment."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Greeva-stambha developmental phenotype may be documented descriptively."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Infant neck postural deformity usually related to sternocleidomastoid shortening, characterized by head tilt to one side and rotation to the opposite side.",
+    "urgent": "Seek urgent assessment for acute/progressive neurological deficit, severe infection/systemic illness, major trauma, vascular compromise or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "APTA Pediatrics",
+      "title": "Congenital Muscular Torticollis CPG",
+      "url": "https://pediatricapta.org/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V2.3-BATCH-09",
+    "proposedGoldChapterNumber": 152
+  }
+}

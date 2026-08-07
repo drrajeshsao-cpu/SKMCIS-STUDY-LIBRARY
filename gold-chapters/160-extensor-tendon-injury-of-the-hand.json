@@ -1,0 +1,101 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-ORT-ETI-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Extensor Tendon Injury of the Hand",
+  "synonyms": [
+    "Extensor tendon laceration"
+  ],
+  "category": "Orthopedics > Hand > Tendon Injury",
+  "tags": [
+    "extensor tendon",
+    "hand injury",
+    "finger extension"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Partial or complete injury of the extensor tendon mechanism, causing extension lag according to the injured zone.",
+  "clinicalPattern": {
+    "typical": [
+      "Extension weakness/lag",
+      "Open dorsal hand/finger wound",
+      "Pain with resisted extension"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Open joint injury"
+    },
+    {
+      "level": "RED",
+      "item": "Neurovascular compromise"
+    },
+    {
+      "level": "RED",
+      "item": "Associated fracture"
+    },
+    {
+      "level": "RED",
+      "item": "Contaminated bite wound"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Zone-specific extension testing",
+      "Wound and joint assessment",
+      "Neurovascular exam"
+    ]
+  },
+  "differentials": [
+    "Mallet finger",
+    "Central slip injury",
+    "Radial nerve palsy"
+  ],
+  "investigations": {
+    "principle": "Clinical examination is central.",
+    "MRI": "Ultrasound is selective.",
+    "radiographs": "Radiographs assess fracture/foreign body."
+  },
+  "management": {
+    "green": [
+      "Appropriate extension splinting",
+      "Early hand-surgery/therapy pathway"
+    ],
+    "amber": [
+      "Zone and associated joint injury determine operative versus nonoperative treatment."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Anguli-Snayu injury may be documented descriptively."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Partial or complete injury of the extensor tendon mechanism, causing extension lag according to the injured zone.",
+    "urgent": "Seek urgent assessment for acute/progressive neurological deficit, severe infection/systemic illness, major trauma, vascular compromise or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "BSSH",
+      "title": "Extensor Tendon Injuries",
+      "url": "https://www.bssh.ac.uk/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V2.3-BATCH-09",
+    "proposedGoldChapterNumber": 160
+  }
+}

@@ -1,0 +1,104 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-SPN-TRAD-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Thoracic Radiculopathy",
+  "synonyms": [
+    "Thoracic nerve-root pain"
+  ],
+  "category": "Spine > Thoracic > Radiculopathy",
+  "tags": [
+    "thoracic radiculopathy",
+    "band pain",
+    "thoracic spine",
+    "nerve root"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Thoracic nerve-root dysfunction causing dermatomal band-like pain or sensory symptoms around the chest or abdomen, with multiple spinal and non-spinal mimics.",
+  "clinicalPattern": {
+    "typical": [
+      "Band-like unilateral chest/abdominal pain",
+      "Dermatomal sensory change",
+      "Pain worsened by spinal movement or cough in some cases"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Myelopathy"
+    },
+    {
+      "level": "RED",
+      "item": "Cancer/infection features"
+    },
+    {
+      "level": "RED",
+      "item": "Cardiac/pulmonary/abdominal emergency"
+    },
+    {
+      "level": "RED",
+      "item": "Progressive neurological deficit"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Thoracic sensory mapping",
+      "Full neurological exam",
+      "Gait and long-tract screen",
+      "Visceral red-flag assessment"
+    ]
+  },
+  "differentials": [
+    "Herpes zoster",
+    "Thoracic disc herniation",
+    "Intercostal neuralgia",
+    "Cardiopulmonary or abdominal disease"
+  ],
+  "investigations": {
+    "principle": "Imaging depends on persistent symptoms and red flags.",
+    "MRI": "Thoracic MRI is preferred when structural root/cord disease is suspected.",
+    "radiographs": "Radiographs may show fracture or gross bony disease only."
+  },
+  "management": {
+    "green": [
+      "Treat underlying cause",
+      "Activity modification and rehabilitation when mechanical"
+    ],
+    "amber": [
+      "Do not label thoracic pain as radiculopathy before excluding visceral emergencies when appropriate."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Parshva/Prishtha Vata-radiating phenotype may be documented descriptively."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Thoracic nerve-root dysfunction causing dermatomal band-like pain or sensory symptoms around the chest or abdomen, with multiple spinal and non-spinal mimics.",
+    "urgent": "Seek urgent assessment for acute/progressive neurological deficit, severe infection/systemic illness, major trauma, vascular compromise or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "American College of Radiology (ACR)",
+      "title": "Thoracic Back Pain",
+      "url": "https://acsearch.acr.org/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V2.3-BATCH-09",
+    "proposedGoldChapterNumber": 164
+  }
+}

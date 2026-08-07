@@ -1,0 +1,103 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-ORT-ASD-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Shoulder Dislocation - Acute Anterior",
+  "synonyms": [
+    "Anterior glenohumeral dislocation"
+  ],
+  "category": "Orthopedics > Shoulder > Dislocation",
+  "tags": [
+    "shoulder dislocation",
+    "anterior",
+    "reduction",
+    "axillary nerve"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Acute displacement of the humeral head from the glenoid, most commonly anterior, usually after trauma.",
+  "clinicalPattern": {
+    "typical": [
+      "Severe shoulder pain/deformity",
+      "Arm held abducted/external rotation",
+      "Loss of normal shoulder contour"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Neurovascular compromise"
+    },
+    {
+      "level": "RED",
+      "item": "Associated fracture"
+    },
+    {
+      "level": "RED",
+      "item": "Open injury"
+    },
+    {
+      "level": "RED",
+      "item": "Irreducible dislocation"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Pre- and post-reduction axillary nerve exam",
+      "Distal neurovascular exam",
+      "Skin and deformity assessment"
+    ]
+  },
+  "differentials": [
+    "Proximal humerus fracture",
+    "AC injury",
+    "Posterior dislocation"
+  ],
+  "investigations": {
+    "principle": "Imaging before/after reduction is selected according to trauma pattern and local protocol.",
+    "MRI": "MRI is not routine acutely.",
+    "radiographs": "Radiographs confirm direction, reduction and associated fracture."
+  },
+  "management": {
+    "green": [
+      "Prompt reduction by trained clinician",
+      "Short period of immobilization then rehabilitation",
+      "Recurrent-instability prevention"
+    ],
+    "amber": [
+      "Sedation, reduction technique and post-reduction management require clinical safety assessment."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Amsa-sandhi dislocation phenotype may be documented only after modern reduction/stability care."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Acute displacement of the humeral head from the glenoid, most commonly anterior, usually after trauma.",
+    "urgent": "Seek urgent assessment for acute/progressive neurological deficit, severe infection/systemic illness, major trauma, vascular compromise or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "AAOS OrthoInfo",
+      "title": "Shoulder Dislocation",
+      "url": "https://orthoinfo.aaos.org/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V2.3-BATCH-09",
+    "proposedGoldChapterNumber": 153
+  }
+}

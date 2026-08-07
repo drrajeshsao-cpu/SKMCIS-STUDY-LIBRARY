@@ -1,0 +1,102 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-ORT-FTI-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Flexor Tendon Injury of the Hand",
+  "synonyms": [
+    "Flexor tendon laceration"
+  ],
+  "category": "Orthopedics > Hand > Tendon Injury",
+  "tags": [
+    "flexor tendon",
+    "hand injury",
+    "laceration",
+    "finger"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Partial or complete injury of a digital flexor tendon, usually from laceration, causing loss or weakness of finger flexion.",
+  "clinicalPattern": {
+    "typical": [
+      "Laceration with inability to flex DIP/PIP",
+      "Pain with tendon loading",
+      "Possible altered finger cascade"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Open contaminated injury"
+    },
+    {
+      "level": "RED",
+      "item": "Neurovascular deficit"
+    },
+    {
+      "level": "RED",
+      "item": "Associated fracture"
+    },
+    {
+      "level": "RED",
+      "item": "Human/animal bite"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Isolated FDP/FDS testing",
+      "Wound exam",
+      "Digital nerve and vascular exam"
+    ]
+  },
+  "differentials": [
+    "Fracture",
+    "Trigger finger",
+    "Neurological palsy"
+  ],
+  "investigations": {
+    "principle": "Diagnosis is mainly clinical; imaging is selective.",
+    "MRI": "Ultrasound can assess uncertain tendon continuity.",
+    "radiographs": "Radiographs for fracture/foreign body."
+  },
+  "management": {
+    "green": [
+      "Urgent hand-surgery assessment",
+      "Wound care and splinting"
+    ],
+    "amber": [
+      "Primary repair timing and rehabilitation protocol require specialist coordination."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Anguli-Snayu injury may be documented descriptively."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Partial or complete injury of a digital flexor tendon, usually from laceration, causing loss or weakness of finger flexion.",
+    "urgent": "Seek urgent assessment for acute/progressive neurological deficit, severe infection/systemic illness, major trauma, vascular compromise or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "BSSH",
+      "title": "Flexor Tendon Injury resources",
+      "url": "https://www.bssh.ac.uk/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V2.3-BATCH-09",
+    "proposedGoldChapterNumber": 159
+  }
+}

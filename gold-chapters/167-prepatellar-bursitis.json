@@ -1,0 +1,99 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-ORT-PPB-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Prepatellar Bursitis",
+  "synonyms": [
+    "Housemaid's knee"
+  ],
+  "category": "Orthopedics > Knee > Bursa",
+  "tags": [
+    "prepatellar bursitis",
+    "knee swelling",
+    "bursa"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Inflammation or swelling of the prepatellar bursa from repetitive kneeling, trauma, crystal disease or infection.",
+  "clinicalPattern": {
+    "typical": [
+      "Anterior knee swelling",
+      "Pain with kneeling",
+      "Localized tenderness"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Fever/erythema suggesting septic bursitis"
+    },
+    {
+      "level": "RED",
+      "item": "Septic arthritis concern"
+    },
+    {
+      "level": "RED",
+      "item": "Open wound"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Bursal swelling",
+      "Skin warmth",
+      "Knee ROM",
+      "Joint effusion assessment"
+    ]
+  },
+  "differentials": [
+    "Septic arthritis",
+    "Gout",
+    "Patellar fracture",
+    "Cellulitis"
+  ],
+  "investigations": {
+    "principle": "Usually clinical; aspiration is considered if infection/crystals are suspected.",
+    "MRI": "MRI is not routine.",
+    "radiographs": "Radiographs if trauma/bone disease is suspected."
+  },
+  "management": {
+    "green": [
+      "Pressure avoidance and padding",
+      "Treat underlying cause"
+    ],
+    "amber": [
+      "Suspected septic bursitis requires aspiration/culture and antibiotics."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Janu-shotha phenotype may be documented after infection is excluded."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Inflammation or swelling of the prepatellar bursa from repetitive kneeling, trauma, crystal disease or infection.",
+    "urgent": "Seek urgent assessment for acute/progressive neurological deficit, severe infection/systemic illness, major trauma, vascular compromise or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "AAFP",
+      "title": "Common Superficial Bursitis",
+      "url": "https://www.aafp.org/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V2.3-BATCH-09",
+    "proposedGoldChapterNumber": 167
+  }
+}

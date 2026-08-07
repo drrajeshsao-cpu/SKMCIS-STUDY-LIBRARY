@@ -1,0 +1,104 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-NEU-SN-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Sciatic Neuropathy",
+  "synonyms": [
+    "Sciatic nerve palsy"
+  ],
+  "category": "Neurology > Peripheral Nerve > Sciatic",
+  "tags": [
+    "sciatic neuropathy",
+    "foot drop",
+    "posterior thigh",
+    "nerve"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Peripheral sciatic nerve lesion causing weakness and sensory loss across tibial and fibular divisions, distinguished from lumbosacral radiculopathy.",
+  "clinicalPattern": {
+    "typical": [
+      "Foot drop or plantar-flexion weakness",
+      "Posterior thigh/leg pain or numbness",
+      "Broad sensory deficit below knee depending on lesion"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Rapid progressive weakness"
+    },
+    {
+      "level": "RED",
+      "item": "Pelvic/hip trauma"
+    },
+    {
+      "level": "RED",
+      "item": "Compartment syndrome"
+    },
+    {
+      "level": "RED",
+      "item": "Cauda equina symptoms"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Hamstring, ankle and toe motor testing",
+      "Sensory mapping",
+      "Reflexes",
+      "Lumbar and plexus localization"
+    ]
+  },
+  "differentials": [
+    "L5/S1 radiculopathy",
+    "Lumbosacral plexopathy",
+    "Common fibular neuropathy"
+  ],
+  "investigations": {
+    "principle": "Electrodiagnostics help localization.",
+    "MRI": "MRI pelvis/hip/spine or nerve imaging is selected according to cause.",
+    "radiographs": "Radiographs may assess trauma only."
+  },
+  "management": {
+    "green": [
+      "Treat cause",
+      "AFO/gait support",
+      "Progressive rehabilitation"
+    ],
+    "amber": [
+      "Traumatic transection/compressive mass requires early specialist evaluation."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Gridhrasi-like phenotype may occur but nerve-level diagnosis must remain explicit."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Peripheral sciatic nerve lesion causing weakness and sensory loss across tibial and fibular divisions, distinguished from lumbosacral radiculopathy.",
+    "urgent": "Seek urgent assessment for acute/progressive neurological deficit, severe infection/systemic illness, major trauma, vascular compromise or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "AANEM",
+      "title": "Peripheral nerve resources",
+      "url": "https://www.aanem.org/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V2.3-BATCH-09",
+    "proposedGoldChapterNumber": 163
+  }
+}

@@ -1,0 +1,105 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-MSK-COST-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Costochondritis",
+  "synonyms": [
+    "Chest wall syndrome"
+  ],
+  "category": "Musculoskeletal > Chest Wall",
+  "tags": [
+    "costochondritis",
+    "chest pain",
+    "rib",
+    "sternum"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Benign inflammatory or mechanical pain of the costochondral or chondrosternal junctions, diagnosed only after clinically important cardiac, pulmonary and other causes are considered.",
+  "clinicalPattern": {
+    "typical": [
+      "Localized anterior chest pain",
+      "Reproducible tenderness",
+      "Pain with upper-body movement or deep breathing"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Possible acute coronary syndrome"
+    },
+    {
+      "level": "RED",
+      "item": "Dyspnea/hypoxia"
+    },
+    {
+      "level": "RED",
+      "item": "Fever or systemic illness"
+    },
+    {
+      "level": "RED",
+      "item": "Trauma with fracture"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Chest-wall palpation",
+      "Cardiopulmonary assessment according to risk",
+      "Shoulder/thoracic screen"
+    ]
+  },
+  "differentials": [
+    "Acute coronary syndrome",
+    "Pulmonary embolism",
+    "Pneumonia",
+    "Rib fracture",
+    "Tietze syndrome"
+  ],
+  "investigations": {
+    "principle": "Diagnosis is clinical after appropriate exclusion of serious causes.",
+    "MRI": "MRI is rarely needed.",
+    "radiographs": "Chest radiography/testing depends on alternative diagnosis rather than costochondritis itself."
+  },
+  "management": {
+    "green": [
+      "Reassurance after serious causes excluded",
+      "Relative activity modification",
+      "Gentle mobility"
+    ],
+    "amber": [
+      "Persistent atypical chest pain requires reassessment rather than repeated symptomatic treatment."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Urah/Parshva-shoola phenotype may be documented only after emergency causes are excluded."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Benign inflammatory or mechanical pain of the costochondral or chondrosternal junctions, diagnosed only after clinically important cardiac, pulmonary and other causes are considered.",
+    "urgent": "Seek urgent assessment for acute/progressive neurological deficit, severe infection/systemic illness, major trauma, vascular compromise or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "AAFP",
+      "title": "Costochondritis: Rapid Evidence Review",
+      "url": "https://www.aafp.org/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V2.3-BATCH-09",
+    "proposedGoldChapterNumber": 165
+  }
+}

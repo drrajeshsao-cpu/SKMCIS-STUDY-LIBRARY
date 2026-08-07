@@ -1,0 +1,98 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-MSK-TIETZE-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Tietze Syndrome",
+  "synonyms": [
+    "Tietze disease"
+  ],
+  "category": "Musculoskeletal > Chest Wall",
+  "tags": [
+    "Tietze syndrome",
+    "costochondral swelling",
+    "chest wall"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Rare benign painful swelling of one or more upper costochondral junctions, distinguished from typical costochondritis by visible or palpable swelling.",
+  "clinicalPattern": {
+    "typical": [
+      "Localized chest-wall pain",
+      "Focal costochondral swelling",
+      "Tenderness"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Cardiopulmonary emergency features"
+    },
+    {
+      "level": "RED",
+      "item": "Fever/infection"
+    },
+    {
+      "level": "RED",
+      "item": "Rapidly enlarging mass"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Chest-wall inspection/palpation",
+      "Cardiopulmonary assessment as clinically indicated"
+    ]
+  },
+  "differentials": [
+    "Costochondritis",
+    "Septic costochondritis",
+    "Tumour",
+    "Rib fracture"
+  ],
+  "investigations": {
+    "principle": "Diagnosis is clinical after exclusion of serious alternatives.",
+    "MRI": "Ultrasound/MRI may be used for atypical swelling.",
+    "radiographs": "Radiographs are nonspecific."
+  },
+  "management": {
+    "green": [
+      "Reassurance",
+      "Activity modification",
+      "Symptom control"
+    ],
+    "amber": [
+      "Persistent/enlarging swelling requires reassessment for infection or tumour."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Urah-shotha phenotype may be documented descriptively after serious causes are excluded."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Rare benign painful swelling of one or more upper costochondral junctions, distinguished from typical costochondritis by visible or palpable swelling.",
+    "urgent": "Seek urgent assessment for acute/progressive neurological deficit, severe infection/systemic illness, major trauma, vascular compromise or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "PubMed",
+      "title": "Tietze syndrome review literature",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V2.3-BATCH-09",
+    "proposedGoldChapterNumber": 166
+  }
+}

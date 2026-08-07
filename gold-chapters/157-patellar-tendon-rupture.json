@@ -1,0 +1,99 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-ORT-PTR-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Patellar Tendon Rupture",
+  "synonyms": [
+    "Patellar tendon tear"
+  ],
+  "category": "Orthopedics > Knee > Extensor Mechanism",
+  "tags": [
+    "patellar tendon rupture",
+    "extensor mechanism",
+    "knee"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Disruption of the patellar tendon causing loss of active knee extension, often after sudden eccentric load or in patients with systemic/tendon risk factors.",
+  "clinicalPattern": {
+    "typical": [
+      "Sudden anterior knee pain",
+      "Inability to perform straight-leg raise",
+      "High-riding patella may occur",
+      "Palpable tendon gap"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Open injury"
+    },
+    {
+      "level": "RED",
+      "item": "Associated fracture"
+    },
+    {
+      "level": "RED",
+      "item": "Neurovascular compromise"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Straight-leg raise",
+      "Palpation",
+      "Patellar position",
+      "Neurovascular exam"
+    ]
+  },
+  "differentials": [
+    "Quadriceps tendon rupture",
+    "Patellar fracture",
+    "ACL injury"
+  ],
+  "investigations": {
+    "principle": "Diagnosis is often clinical plus radiographs.",
+    "MRI": "Ultrasound/MRI confirms uncertain tears and surgical anatomy.",
+    "radiographs": "Radiographs may show patella alta and associated fracture."
+  },
+  "management": {
+    "green": [
+      "Immediate immobilization in extension",
+      "Urgent orthopedic referral"
+    ],
+    "amber": [
+      "Complete rupture usually requires surgical repair."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Janu-Snayu rupture phenotype may be documented; modern extensor-mechanism repair remains primary."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Disruption of the patellar tendon causing loss of active knee extension, often after sudden eccentric load or in patients with systemic/tendon risk factors.",
+    "urgent": "Seek urgent assessment for acute/progressive neurological deficit, severe infection/systemic illness, major trauma, vascular compromise or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "AAOS OrthoInfo",
+      "title": "Patellar Tendon Tear",
+      "url": "https://orthoinfo.aaos.org/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V2.3-BATCH-09",
+    "proposedGoldChapterNumber": 157
+  }
+}

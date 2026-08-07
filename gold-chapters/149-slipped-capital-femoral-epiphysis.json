@@ -1,0 +1,102 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-PED-SCFE-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Slipped Capital Femoral Epiphysis",
+  "synonyms": [
+    "SCFE",
+    "Slipped upper femoral epiphysis"
+  ],
+  "category": "Pediatric Orthopedics > Hip",
+  "tags": [
+    "SCFE",
+    "adolescent hip",
+    "slipped epiphysis",
+    "limp"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Displacement through the proximal femoral physis in adolescents, often presenting with hip, groin, thigh or knee pain and limp.",
+  "clinicalPattern": {
+    "typical": [
+      "Adolescent with limp",
+      "Hip/groin or referred knee pain",
+      "Loss of internal rotation",
+      "Obligate external rotation with hip flexion"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Inability to bear weight suggesting unstable SCFE"
+    },
+    {
+      "level": "RED",
+      "item": "Acute severe pain"
+    },
+    {
+      "level": "RED",
+      "item": "Bilateral symptoms with endocrine concern"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Hip ROM",
+      "Gait",
+      "Obligate external rotation",
+      "Contralateral hip assessment"
+    ]
+  },
+  "differentials": [
+    "Perthes disease",
+    "Hip strain",
+    "Septic arthritis",
+    "Knee pathology"
+  ],
+  "investigations": {
+    "principle": "Urgent imaging is required when suspected.",
+    "MRI": "MRI can detect pre-slip changes in selected cases.",
+    "radiographs": "AP and frog-leg lateral radiographs are typical for stable cases; avoid frog-leg positioning in unstable SCFE."
+  },
+  "management": {
+    "green": [
+      "Immediate cessation of weight bearing",
+      "Urgent pediatric orthopedic fixation pathway"
+    ],
+    "amber": [
+      "Manipulative reduction should be avoided; unstable SCFE carries high AVN risk."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Asthi/Sandhi developmental pathology may be documented in parallel only."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Displacement through the proximal femoral physis in adolescents, often presenting with hip, groin, thigh or knee pain and limp.",
+    "urgent": "Seek urgent assessment for acute/progressive neurological deficit, severe infection/systemic illness, major trauma, vascular compromise or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "AAOS OrthoInfo",
+      "title": "Slipped Capital Femoral Epiphysis",
+      "url": "https://orthoinfo.aaos.org/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V2.3-BATCH-09",
+    "proposedGoldChapterNumber": 149
+  }
+}

@@ -1,0 +1,95 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-PED-LCPD-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Legg-Calvé-Perthes Disease",
+  "synonyms": [
+    "Perthes disease"
+  ],
+  "category": "Pediatric Orthopedics > Hip",
+  "tags": [
+    "Perthes",
+    "pediatric hip",
+    "osteonecrosis",
+    "limp"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Idiopathic osteonecrosis of the femoral head epiphysis in children, leading to variable collapse and remodeling during growth.",
+  "clinicalPattern": {
+    "typical": [
+      "Painless or painful limp",
+      "Hip/groin/thigh or knee pain",
+      "Reduced abduction/internal rotation"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Severe acute systemic symptoms suggesting infection"
+    },
+    {
+      "level": "RED",
+      "item": "Rapid functional deterioration"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Gait",
+      "Hip ROM",
+      "Leg-length and abductor function"
+    ]
+  },
+  "differentials": [
+    "SCFE",
+    "Septic arthritis",
+    "Transient synovitis",
+    "Juvenile idiopathic arthritis"
+  ],
+  "investigations": {
+    "principle": "Serial imaging helps stage disease and guide containment decisions.",
+    "MRI": "MRI can detect early disease before radiographic change.",
+    "radiographs": "AP pelvis and frog-leg lateral radiographs are commonly used."
+  },
+  "management": {
+    "green": [
+      "Activity modification and ROM maintenance",
+      "Pediatric orthopedic follow-up"
+    ],
+    "amber": [
+      "Containment surgery is individualized by age, extent and stage."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Asthi-dhatu/hip developmental phenotype may be documented only as correlation."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Idiopathic osteonecrosis of the femoral head epiphysis in children, leading to variable collapse and remodeling during growth.",
+    "urgent": "Seek urgent assessment for acute/progressive neurological deficit, severe infection/systemic illness, major trauma, vascular compromise or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "POSNA",
+      "title": "Legg-Calvé-Perthes Disease resources",
+      "url": "https://posna.org/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V2.3-BATCH-09",
+    "proposedGoldChapterNumber": 150
+  }
+}

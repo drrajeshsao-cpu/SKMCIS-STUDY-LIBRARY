@@ -1,0 +1,107 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-RHE-JIA-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Juvenile Idiopathic Arthritis",
+  "synonyms": [
+    "JIA"
+  ],
+  "category": "Rheumatology > Pediatric Inflammatory Arthritis",
+  "tags": [
+    "JIA",
+    "juvenile arthritis",
+    "pediatric",
+    "uveitis"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Chronic inflammatory arthritis beginning before age 16, encompassing several subtypes with variable joint, systemic and ocular manifestations.",
+  "clinicalPattern": {
+    "typical": [
+      "Persistent joint swelling or stiffness",
+      "Morning stiffness",
+      "Limp",
+      "Growth or functional impairment",
+      "Uveitis may be asymptomatic"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Septic arthritis"
+    },
+    {
+      "level": "RED",
+      "item": "Systemic JIA with severe systemic inflammation"
+    },
+    {
+      "level": "RED",
+      "item": "Acute painful red eye"
+    },
+    {
+      "level": "RED",
+      "item": "Macrophage activation syndrome features"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Joint count",
+      "Growth and function",
+      "Eye/uveitis screening pathway",
+      "Systemic examination"
+    ]
+  },
+  "differentials": [
+    "Septic arthritis",
+    "Reactive arthritis",
+    "Leukemia",
+    "Connective-tissue disease"
+  ],
+  "investigations": {
+    "principle": "Diagnosis is clinical after exclusion of mimics; labs support classification and safety monitoring.",
+    "MRI": "Ultrasound/MRI may show synovitis and joint damage.",
+    "radiographs": "Radiographs assess chronic structural change."
+  },
+  "management": {
+    "green": [
+      "Early pediatric rheumatology care",
+      "Exercise and function preservation",
+      "Scheduled ophthalmologic screening"
+    ],
+    "amber": [
+      "DMARD/biologic therapy requires specialist monitoring."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Balya Sandhi-shotha phenotype may be documented only in parallel with formal JIA classification."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Chronic inflammatory arthritis beginning before age 16, encompassing several subtypes with variable joint, systemic and ocular manifestations.",
+    "urgent": "Seek urgent assessment for acute/progressive neurological deficit, severe infection/systemic illness, major trauma, vascular compromise or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "ACR",
+      "title": "Juvenile Idiopathic Arthritis Guidelines",
+      "url": "https://rheumatology.org/clinical-practice-guidelines",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V2.3-BATCH-09",
+    "proposedGoldChapterNumber": 151
+  }
+}
