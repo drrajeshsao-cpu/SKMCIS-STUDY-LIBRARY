@@ -1,0 +1,108 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-RHE-FM-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Fibromyalgia",
+  "synonyms": [
+    "Fibromyalgia syndrome"
+  ],
+  "category": "Rheumatology/Pain > Centralized Pain",
+  "tags": [
+    "fibromyalgia",
+    "chronic widespread pain",
+    "fatigue",
+    "sleep"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Chronic widespread pain condition associated with altered pain processing, fatigue, sleep disturbance and cognitive symptoms, diagnosed clinically after appropriate assessment for important mimics.",
+  "clinicalPattern": {
+    "typical": [
+      "Widespread musculoskeletal pain",
+      "Fatigue",
+      "Non-restorative sleep",
+      "Cognitive symptoms",
+      "Variable sensory hypersensitivity"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "New focal neurological deficit"
+    },
+    {
+      "level": "RED",
+      "item": "Inflammatory joint swelling"
+    },
+    {
+      "level": "RED",
+      "item": "Marked weakness"
+    },
+    {
+      "level": "RED",
+      "item": "Fever/weight loss or other systemic red flags"
+    }
+  ],
+  "examination": {
+    "core": [
+      "General musculoskeletal and neurological screen",
+      "Assess objective inflammatory/neurological signs",
+      "Functional and sleep assessment"
+    ]
+  },
+  "differentials": [
+    "Inflammatory rheumatic disease",
+    "Hypothyroidism",
+    "Myopathy",
+    "Neuropathy",
+    "Sleep disorders",
+    "Depression/anxiety-related amplification"
+  ],
+  "investigations": {
+    "principle": "Testing is targeted to exclude plausible mimics rather than exhaustive imaging.",
+    "MRI": "MRI is not diagnostic.",
+    "radiographs": "Radiographs are not diagnostic."
+  },
+  "management": {
+    "green": [
+      "Education and graded aerobic/strength exercise",
+      "Sleep and activity pacing",
+      "Multimodal self-management"
+    ],
+    "amber": [
+      "Medication is individualized; opioids are generally poor long-term therapy for centralized pain."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Vata/Ama and Manas-related symptom frameworks may be explored carefully without implying structural disease."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Chronic widespread pain condition associated with altered pain processing, fatigue, sleep disturbance and cognitive symptoms, diagnosed clinically after appropriate assessment for important mimics.",
+    "urgent": "Seek urgent assessment for severe/progressive neurological deficit, vascular compromise, infection/systemic illness, major trauma, sphincter change or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "EULAR",
+      "title": "Revised recommendations for management of fibromyalgia",
+      "url": "https://ard.bmj.com/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V1.8-BATCH-04",
+    "proposedGoldChapterNumber": 67
+  }
+}

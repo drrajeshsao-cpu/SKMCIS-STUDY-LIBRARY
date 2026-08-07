@@ -1,0 +1,106 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-NEU-TOS-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Thoracic Outlet Syndrome",
+  "synonyms": [
+    "Neurogenic thoracic outlet syndrome"
+  ],
+  "category": "Neurology/Orthopedics > Brachial Plexus/Vascular",
+  "tags": [
+    "thoracic outlet",
+    "brachial plexus",
+    "arm numbness",
+    "vascular"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Compression or irritation of neurovascular structures traversing the thoracic outlet; neurogenic TOS is most common, while venous and arterial forms require distinct urgent pathways.",
+  "clinicalPattern": {
+    "typical": [
+      "Arm pain/paresthesia with overhead use",
+      "Hand weakness/fatigue",
+      "Symptoms often posture-dependent",
+      "Vascular swelling/color change suggests vascular TOS"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Acute arm swelling/cyanosis"
+    },
+    {
+      "level": "RED",
+      "item": "Ischemic hand symptoms"
+    },
+    {
+      "level": "RED",
+      "item": "Progressive neurological deficit"
+    },
+    {
+      "level": "RED",
+      "item": "Suspected thrombosis or embolism"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Neurological and vascular exam",
+      "Posture/scapular assessment",
+      "Provocative maneuvers interpreted cautiously",
+      "Cervical and peripheral nerve screen"
+    ]
+  },
+  "differentials": [
+    "Cervical radiculopathy",
+    "Ulnar neuropathy",
+    "Carpal tunnel syndrome",
+    "Pancoast tumour",
+    "Vascular thrombosis"
+  ],
+  "investigations": {
+    "principle": "Diagnosis is clinical and subtype-specific.",
+    "MRI": "MRI/vascular imaging or electrodiagnostics are selected according to suspected subtype.",
+    "radiographs": "Chest/cervical radiographs may identify cervical rib."
+  },
+  "management": {
+    "green": [
+      "Postural/scapular and breathing rehabilitation for selected neurogenic cases",
+      "Activity modification"
+    ],
+    "amber": [
+      "Vascular TOS or progressive neurological deficit needs specialist assessment; thrombosis is urgent."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Upper-limb Vata/neuromuscular phenotype may be documented only in parallel."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Compression or irritation of neurovascular structures traversing the thoracic outlet; neurogenic TOS is most common, while venous and arterial forms require distinct urgent pathways.",
+    "urgent": "Seek urgent assessment for severe/progressive neurological deficit, vascular compromise, infection/systemic illness, major trauma, sphincter change or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "Society for Vascular Surgery",
+      "title": "Thoracic Outlet Syndrome resources",
+      "url": "https://vascular.org/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V1.8-BATCH-04",
+    "proposedGoldChapterNumber": 56
+  }
+}

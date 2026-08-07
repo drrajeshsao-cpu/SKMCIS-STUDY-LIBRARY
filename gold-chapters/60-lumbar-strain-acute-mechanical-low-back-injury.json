@@ -1,0 +1,108 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-SPN-LS-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Lumbar Strain / Acute Mechanical Low Back Injury",
+  "synonyms": [
+    "Lumbar sprain",
+    "Back strain"
+  ],
+  "category": "Spine > Lumbar > Soft Tissue",
+  "tags": [
+    "lumbar strain",
+    "acute low back pain",
+    "mechanical",
+    "muscle"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Acute nonspecific mechanical low-back pain after overload or movement, without evidence of major neurological or structural pathology.",
+  "clinicalPattern": {
+    "typical": [
+      "Localized low-back pain",
+      "Muscle spasm/tenderness",
+      "Pain with movement",
+      "No objective neurological deficit"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Cauda equina symptoms"
+    },
+    {
+      "level": "RED",
+      "item": "Progressive weakness"
+    },
+    {
+      "level": "RED",
+      "item": "Fracture risk/major trauma"
+    },
+    {
+      "level": "RED",
+      "item": "Fever/infection or malignancy features"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Gait and lumbar movement",
+      "Neurological screen",
+      "Hip examination",
+      "Red-flag assessment"
+    ]
+  },
+  "differentials": [
+    "Disc herniation",
+    "Vertebral fracture",
+    "Pyelonephritis",
+    "Sacroiliac pain",
+    "Hip disease"
+  ],
+  "investigations": {
+    "principle": "Routine imaging is not indicated when red flags are absent.",
+    "MRI": "MRI only if persistent/progressive neurological symptoms or red flags emerge.",
+    "radiographs": "Radiographs for suspected fracture or other bony disease."
+  },
+  "management": {
+    "green": [
+      "Reassurance and continuation of normal activity as tolerated",
+      "Short-term symptom control",
+      "Progressive exercise"
+    ],
+    "amber": [
+      "Avoid unnecessary bed rest and routine imaging."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Kati-shoola/Kati-graha phenotype may be documented."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Acute nonspecific mechanical low-back pain after overload or movement, without evidence of major neurological or structural pathology.",
+    "urgent": "Seek urgent assessment for severe/progressive neurological deficit, vascular compromise, infection/systemic illness, major trauma, sphincter change or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "NICE",
+      "title": "Low back pain and sciatica NG59",
+      "url": "https://www.nice.org.uk/guidance/ng59",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V1.8-BATCH-04",
+    "proposedGoldChapterNumber": 60
+  }
+}

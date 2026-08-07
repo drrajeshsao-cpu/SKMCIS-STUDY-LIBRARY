@@ -1,0 +1,104 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-ORT-MCL-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Medial Collateral Ligament Injury",
+  "synonyms": [
+    "MCL sprain",
+    "Medial knee ligament injury"
+  ],
+  "category": "Orthopedics > Knee > Ligament",
+  "tags": [
+    "MCL",
+    "knee",
+    "ligament",
+    "valgus"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Injury of the medial collateral ligament from valgus stress, ranging from mild sprain to complete tear.",
+  "clinicalPattern": {
+    "typical": [
+      "Medial knee pain",
+      "Swelling/tenderness along MCL",
+      "Pain or laxity with valgus stress"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Knee dislocation"
+    },
+    {
+      "level": "RED",
+      "item": "Neurovascular compromise"
+    },
+    {
+      "level": "RED",
+      "item": "Associated major cruciate injury"
+    },
+    {
+      "level": "RED",
+      "item": "Fracture"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Valgus stress at 0 and 30 degrees",
+      "Joint-line and ligament palpation",
+      "ACL/PCL and neurovascular screen"
+    ]
+  },
+  "differentials": [
+    "Medial meniscal injury",
+    "ACL tear",
+    "Pes anserine pain",
+    "Tibial plateau fracture"
+  ],
+  "investigations": {
+    "principle": "Often a clinical diagnosis.",
+    "MRI": "MRI for severe, combined or uncertain injury.",
+    "radiographs": "Radiographs when fracture is suspected."
+  },
+  "management": {
+    "green": [
+      "Protected activity and early ROM",
+      "Progressive strengthening and stability training"
+    ],
+    "amber": [
+      "Brace and return-to-sport timing depend on grade and associated injuries."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Janu-sandhi/Snayu injury phenotype may be documented."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Injury of the medial collateral ligament from valgus stress, ranging from mild sprain to complete tear.",
+    "urgent": "Seek urgent assessment for severe/progressive neurological deficit, vascular compromise, infection/systemic illness, major trauma, sphincter change or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "AAOS",
+      "title": "Collateral Ligament Injuries",
+      "url": "https://orthoinfo.aaos.org/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V1.8-BATCH-04",
+    "proposedGoldChapterNumber": 49
+  }
+}

@@ -1,0 +1,108 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-ORT-PFPS-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Patellofemoral Pain Syndrome",
+  "synonyms": [
+    "Anterior knee pain",
+    "Runner's knee"
+  ],
+  "category": "Orthopedics > Knee > Patellofemoral",
+  "tags": [
+    "patellofemoral",
+    "anterior knee pain",
+    "stairs",
+    "squat"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Pain arising from the patellofemoral region, typically aggravated by activities that load the patellofemoral joint such as squatting, stairs or prolonged sitting.",
+  "clinicalPattern": {
+    "typical": [
+      "Anterior/retropatellar pain",
+      "Pain with stairs, squats or running",
+      "Pain after prolonged sitting",
+      "Crepitus may occur"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Acute traumatic dislocation"
+    },
+    {
+      "level": "RED",
+      "item": "Locked knee"
+    },
+    {
+      "level": "RED",
+      "item": "Large effusion"
+    },
+    {
+      "level": "RED",
+      "item": "Fracture or infection"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Squat/step-down assessment",
+      "Hip and knee strength",
+      "Patellar mobility",
+      "Foot/ankle and gait assessment"
+    ]
+  },
+  "differentials": [
+    "Patellar tendinopathy",
+    "Meniscal injury",
+    "Knee OA",
+    "Plica syndrome",
+    "Patellar instability"
+  ],
+  "investigations": {
+    "principle": "Diagnosis is usually clinical.",
+    "MRI": "MRI only for atypical/refractory symptoms or alternative pathology.",
+    "radiographs": "Radiographs if structural disease is suspected."
+  },
+  "management": {
+    "green": [
+      "Hip and quadriceps strengthening",
+      "Load modification and graded return",
+      "Movement retraining where indicated"
+    ],
+    "amber": [
+      "Taping/orthoses may help selected patients but should complement exercise."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Janu-shoola phenotype may be documented as a correlation."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Pain arising from the patellofemoral region, typically aggravated by activities that load the patellofemoral joint such as squatting, stairs or prolonged sitting.",
+    "urgent": "Seek urgent assessment for severe/progressive neurological deficit, vascular compromise, infection/systemic illness, major trauma, sphincter change or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "JOSPT",
+      "title": "Patellofemoral Pain Clinical Practice Guideline",
+      "url": "https://www.jospt.org/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V1.8-BATCH-04",
+    "proposedGoldChapterNumber": 51
+  }
+}

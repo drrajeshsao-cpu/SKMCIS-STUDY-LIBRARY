@@ -1,0 +1,108 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-ORT-OM-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Osteomyelitis of Long Bone",
+  "synonyms": [
+    "Bone infection",
+    "Long-bone osteomyelitis"
+  ],
+  "category": "Orthopedics > Bone Infection",
+  "tags": [
+    "osteomyelitis",
+    "bone infection",
+    "fever",
+    "MRI"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Infection of bone caused by hematogenous spread, contiguous infection, trauma or surgery, potentially leading to necrosis and chronic sinus formation.",
+  "clinicalPattern": {
+    "typical": [
+      "Localized bone pain",
+      "Swelling/warmth",
+      "Fever may occur",
+      "Persistent wound or sinus in chronic disease"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Sepsis"
+    },
+    {
+      "level": "RED",
+      "item": "Rapidly progressive infection"
+    },
+    {
+      "level": "RED",
+      "item": "Neurovascular compromise"
+    },
+    {
+      "level": "RED",
+      "item": "Prosthetic/hardware infection with systemic illness"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Local inspection",
+      "Wound/sinus assessment",
+      "Neurovascular exam",
+      "Systemic infection assessment"
+    ]
+  },
+  "differentials": [
+    "Septic arthritis",
+    "Cellulitis",
+    "Bone tumour",
+    "Stress fracture",
+    "Charcot arthropathy"
+  ],
+  "investigations": {
+    "principle": "Diagnosis requires clinical, laboratory, microbiological and imaging correlation.",
+    "MRI": "MRI is the most sensitive imaging test for many forms of osteomyelitis.",
+    "radiographs": "Radiographs may be initially normal but later show destruction/periosteal change."
+  },
+  "management": {
+    "green": [
+      "Urgent infection assessment",
+      "Culture-directed antimicrobial therapy",
+      "Surgical source control when required"
+    ],
+    "amber": [
+      "Do not delay antibiotics in septic/unstable patients; chronic infection often needs multidisciplinary orthopedic/infectious-disease care."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Asthi-gata infection should not be managed by Ayurvedic correlation alone; modern infection control is mandatory."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Infection of bone caused by hematogenous spread, contiguous infection, trauma or surgery, potentially leading to necrosis and chronic sinus formation.",
+    "urgent": "Seek urgent assessment for severe/progressive neurological deficit, vascular compromise, infection/systemic illness, major trauma, sphincter change or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "IDSA",
+      "title": "Osteomyelitis guidance and infectious disease resources",
+      "url": "https://www.idsociety.org/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V1.8-BATCH-04",
+    "proposedGoldChapterNumber": 63
+  }
+}

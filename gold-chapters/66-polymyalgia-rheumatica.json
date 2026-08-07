@@ -1,0 +1,98 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-RHE-PMR-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Polymyalgia Rheumatica",
+  "synonyms": [
+    "PMR"
+  ],
+  "category": "Rheumatology > Systemic Inflammatory",
+  "tags": [
+    "polymyalgia rheumatica",
+    "shoulder stiffness",
+    "hip stiffness",
+    "GCA"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Inflammatory syndrome in adults over 50 characterized by bilateral shoulder and often hip-girdle pain and prolonged morning stiffness, usually with elevated inflammatory markers.",
+  "clinicalPattern": {
+    "typical": [
+      "Bilateral shoulder aching",
+      "Morning stiffness >45 minutes",
+      "Hip-girdle symptoms",
+      "Systemic fatigue may occur"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "New headache, scalp tenderness, jaw claudication or visual symptoms suggesting giant cell arteritis"
+    },
+    {
+      "level": "RED",
+      "item": "Fever/weight loss raising concern for infection or malignancy"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Shoulder/hip ROM",
+      "Temporal artery/GCA symptom screen",
+      "Neurological and systemic assessment"
+    ]
+  },
+  "differentials": [
+    "Rheumatoid arthritis",
+    "Rotator cuff disease",
+    "Hypothyroidism",
+    "Inflammatory myopathy",
+    "Malignancy"
+  ],
+  "investigations": {
+    "principle": "ESR/CRP and clinical response support diagnosis after excluding mimics.",
+    "MRI": "Ultrasound may show bursitis/tenosynovitis; MRI rarely required.",
+    "radiographs": "Radiographs mainly assess alternative joint disease."
+  },
+  "management": {
+    "green": [
+      "Prompt medical assessment",
+      "Careful glucocorticoid treatment and monitoring when diagnosed",
+      "Bone protection and relapse monitoring"
+    ],
+    "amber": [
+      "Any GCA symptom requires same-day urgent pathway due to risk of irreversible visual loss."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Vata/Ama stiffness phenotype may be documented only in parallel with modern inflammatory evaluation."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Inflammatory syndrome in adults over 50 characterized by bilateral shoulder and often hip-girdle pain and prolonged morning stiffness, usually with elevated inflammatory markers.",
+    "urgent": "Seek urgent assessment for severe/progressive neurological deficit, vascular compromise, infection/systemic illness, major trauma, sphincter change or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "EULAR/ACR",
+      "title": "Recommendations for management of polymyalgia rheumatica",
+      "url": "https://ard.bmj.com/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V1.8-BATCH-04",
+    "proposedGoldChapterNumber": 66
+  }
+}

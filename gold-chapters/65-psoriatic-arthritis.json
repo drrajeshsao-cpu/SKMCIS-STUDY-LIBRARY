@@ -1,0 +1,113 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-RHE-PSA-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Psoriatic Arthritis",
+  "synonyms": [
+    "PsA"
+  ],
+  "category": "Rheumatology > Inflammatory Arthritis",
+  "tags": [
+    "psoriatic arthritis",
+    "psoriasis",
+    "dactylitis",
+    "enthesitis"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Immune-mediated inflammatory arthritis associated with psoriasis, with peripheral arthritis, enthesitis, dactylitis, axial disease and nail involvement.",
+  "clinicalPattern": {
+    "typical": [
+      "Joint pain/swelling",
+      "Dactylitis",
+      "Enthesitis",
+      "Psoriasis/nail changes",
+      "Possible inflammatory back pain"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Hot joint suggesting infection"
+    },
+    {
+      "level": "RED",
+      "item": "Acute uveitis"
+    },
+    {
+      "level": "RED",
+      "item": "Severe systemic infection on immunosuppression"
+    },
+    {
+      "level": "RED",
+      "item": "Neurological complications of axial disease"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Joint count",
+      "Skin/nail examination",
+      "Enthesitis and dactylitis assessment",
+      "Axial/neurological screen"
+    ]
+  },
+  "differentials": [
+    "Rheumatoid arthritis",
+    "Gout",
+    "Osteoarthritis",
+    "Axial spondyloarthritis",
+    "Reactive arthritis"
+  ],
+  "investigations": {
+    "principle": "Diagnosis is clinical supported by labs and imaging.",
+    "MRI": "MRI/ultrasound can demonstrate synovitis/enthesitis or axial inflammation.",
+    "radiographs": "Radiographs show structural change in established disease."
+  },
+  "management": {
+    "green": [
+      "Early rheumatology care",
+      "Exercise and cardiovascular/metabolic risk management"
+    ],
+    "amber": [
+      "DMARD, biologic and targeted therapy require specialist monitoring."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Ekakushtha/Psoriasis-related inflammatory joint phenotype may be documented; no single Ayurvedic label should replace PsA classification."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Immune-mediated inflammatory arthritis associated with psoriasis, with peripheral arthritis, enthesitis, dactylitis, axial disease and nail involvement.",
+    "urgent": "Seek urgent assessment for severe/progressive neurological deficit, vascular compromise, infection/systemic illness, major trauma, sphincter change or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "EULAR",
+      "title": "Psoriatic arthritis pharmacological management recommendations",
+      "url": "https://ard.bmj.com/",
+      "checked": "2026-08-07"
+    },
+    {
+      "organization": "NICE",
+      "title": "Psoriatic arthritis treatment pathways",
+      "url": "https://www.nice.org.uk/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V1.8-BATCH-04",
+    "proposedGoldChapterNumber": 65
+  }
+}

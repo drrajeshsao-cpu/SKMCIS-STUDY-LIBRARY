@@ -1,0 +1,108 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-CSP-CS-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Cervical Strain / Acute Mechanical Neck Pain",
+  "synonyms": [
+    "Neck strain",
+    "Acute mechanical neck pain"
+  ],
+  "category": "Spine > Cervical > Soft Tissue",
+  "tags": [
+    "neck strain",
+    "cervical",
+    "mechanical neck pain",
+    "muscle"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Acute neck pain related to muscular, ligamentous or nonspecific mechanical irritation without major neurological deficit or serious structural disease.",
+  "clinicalPattern": {
+    "typical": [
+      "Localized neck pain/stiffness",
+      "Muscle tenderness",
+      "Pain with motion",
+      "Possible referred shoulder pain"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Trauma with fracture risk"
+    },
+    {
+      "level": "RED",
+      "item": "Progressive neurological deficit"
+    },
+    {
+      "level": "RED",
+      "item": "Myelopathy"
+    },
+    {
+      "level": "RED",
+      "item": "Fever/infection or malignancy features"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Cervical ROM",
+      "Neurological screen",
+      "Shoulder screen",
+      "Trauma/red-flag assessment"
+    ]
+  },
+  "differentials": [
+    "Cervical radiculopathy",
+    "Disc herniation",
+    "Shoulder pathology",
+    "Meningitis",
+    "Fracture"
+  ],
+  "investigations": {
+    "principle": "Imaging is not routine in uncomplicated acute mechanical neck pain.",
+    "MRI": "MRI for neurological/red-flag concerns.",
+    "radiographs": "Radiographs/CT are used when trauma or bony pathology is suspected."
+  },
+  "management": {
+    "green": [
+      "Reassurance and normal activity as tolerated",
+      "Gentle ROM and graded exercise",
+      "Ergonomic correction"
+    ],
+    "amber": [
+      "Avoid prolonged collar use in uncomplicated cases."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Greeva-shoola/Greeva-stambha phenotype may be documented."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Acute neck pain related to muscular, ligamentous or nonspecific mechanical irritation without major neurological deficit or serious structural disease.",
+    "urgent": "Seek urgent assessment for severe/progressive neurological deficit, vascular compromise, infection/systemic illness, major trauma, sphincter change or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "ACR",
+      "title": "Cervical Neck Pain or Cervical Radiculopathy",
+      "url": "https://acsearch.acr.org/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V1.8-BATCH-04",
+    "proposedGoldChapterNumber": 61
+  }
+}

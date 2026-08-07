@@ -45,7 +45,27 @@
     "gold-chapters/44-diabetic-foot-ulcer.json",
     "gold-chapters/45-avascular-necrosis-osteonecrosis-of-the-femoral-head.json",
     "gold-chapters/46-meniscal-tear-of-the-knee.json",
-    "gold-chapters/47-anterior-cruciate-ligament-injury.json"
+    "gold-chapters/47-anterior-cruciate-ligament-injury.json",
+    "gold-chapters/48-posterior-cruciate-ligament-injury.json",
+    "gold-chapters/49-medial-collateral-ligament-injury.json",
+    "gold-chapters/50-lateral-collateral-ligament-posterolateral-corner-injury.json",
+    "gold-chapters/51-patellofemoral-pain-syndrome.json",
+    "gold-chapters/52-patellar-tendinopathy.json",
+    "gold-chapters/53-shoulder-instability-recurrent-dislocation.json",
+    "gold-chapters/54-acromioclavicular-joint-injury.json",
+    "gold-chapters/55-biceps-tendinopathy-long-head-of-biceps-pain.json",
+    "gold-chapters/56-thoracic-outlet-syndrome.json",
+    "gold-chapters/57-lumbar-pars-stress-reaction-spondylolysis-in-athlete.json",
+    "gold-chapters/58-scheuermann-kyphosis.json",
+    "gold-chapters/59-cervical-whiplash-associated-disorder.json",
+    "gold-chapters/60-lumbar-strain-acute-mechanical-low-back-injury.json",
+    "gold-chapters/61-cervical-strain-acute-mechanical-neck-pain.json",
+    "gold-chapters/62-temporomandibular-disorder.json",
+    "gold-chapters/63-osteomyelitis-of-long-bone.json",
+    "gold-chapters/64-septic-arthritis.json",
+    "gold-chapters/65-psoriatic-arthritis.json",
+    "gold-chapters/66-polymyalgia-rheumatica.json",
+    "gold-chapters/67-fibromyalgia.json"
   ],
-  "expectedTotalGold": 48
+  "expectedTotalGold": 68
 }

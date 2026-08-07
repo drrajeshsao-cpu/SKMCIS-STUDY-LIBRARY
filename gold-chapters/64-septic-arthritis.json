@@ -1,0 +1,112 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-RHE-SA-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Septic Arthritis",
+  "synonyms": [
+    "Infectious arthritis"
+  ],
+  "category": "Rheumatology/Orthopedics > Joint Infection",
+  "tags": [
+    "septic arthritis",
+    "hot joint",
+    "infection",
+    "joint aspiration"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Acute infection of a synovial joint that can rapidly destroy cartilage and cause sepsis; it is a medical/orthopedic emergency.",
+  "clinicalPattern": {
+    "typical": [
+      "Acute severe monoarticular pain",
+      "Swelling, warmth and restricted motion",
+      "Fever may be absent",
+      "Systemic illness may occur"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Any suspected septic joint"
+    },
+    {
+      "level": "RED",
+      "item": "Sepsis or hemodynamic instability"
+    },
+    {
+      "level": "RED",
+      "item": "Prosthetic joint infection"
+    },
+    {
+      "level": "RED",
+      "item": "Immunosuppressed patient with hot swollen joint"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Joint warmth/effusion",
+      "Pain with passive ROM",
+      "Systemic assessment",
+      "Adjacent skin/wound evaluation"
+    ]
+  },
+  "differentials": [
+    "Gout/CPPD",
+    "Inflammatory arthritis flare",
+    "Cellulitis",
+    "Hemarthrosis"
+  ],
+  "investigations": {
+    "principle": "Urgent joint aspiration is central when feasible before antibiotics in stable patients.",
+    "MRI": "MRI/ultrasound may help detect deep-joint effusion or osteomyelitis.",
+    "radiographs": "Radiographs assess baseline joint/bone change."
+  },
+  "management": {
+    "green": [
+      "Urgent aspiration/culture and specialist management",
+      "Prompt antimicrobial therapy",
+      "Drainage/washout when indicated"
+    ],
+    "amber": [
+      "Ayurvedic or conservative therapy must never delay emergency infection management."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Sandhi-shotha phenotype may be recorded only after emergency modern diagnosis/treatment is secured."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Acute infection of a synovial joint that can rapidly destroy cartilage and cause sepsis; it is a medical/orthopedic emergency.",
+    "urgent": "Seek urgent assessment for severe/progressive neurological deficit, vascular compromise, infection/systemic illness, major trauma, sphincter change or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "SANJO Guideline",
+      "title": "Septic arthritis in native joints",
+      "url": "https://jbji.copernicus.org/articles/8/29/2023/",
+      "checked": "2026-08-07"
+    },
+    {
+      "organization": "IDSA",
+      "title": "Infectious disease guidance",
+      "url": "https://www.idsociety.org/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V1.8-BATCH-04",
+    "proposedGoldChapterNumber": 64
+  }
+}

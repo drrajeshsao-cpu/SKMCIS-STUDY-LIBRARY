@@ -1,0 +1,107 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-ORT-SI-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Shoulder Instability / Recurrent Dislocation",
+  "synonyms": [
+    "Glenohumeral instability",
+    "Recurrent shoulder dislocation"
+  ],
+  "category": "Orthopedics > Shoulder > Instability",
+  "tags": [
+    "shoulder",
+    "instability",
+    "dislocation",
+    "labrum"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Symptomatic excessive translation of the humeral head relative to the glenoid, often following traumatic dislocation or due to multidirectional laxity.",
+  "clinicalPattern": {
+    "typical": [
+      "Apprehension with abduction/external rotation",
+      "Recurrent slipping/dislocation episodes",
+      "Pain after instability events",
+      "Reduced confidence using arm overhead"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Unreduced dislocation"
+    },
+    {
+      "level": "RED",
+      "item": "Neurovascular deficit"
+    },
+    {
+      "level": "RED",
+      "item": "Associated fracture"
+    },
+    {
+      "level": "RED",
+      "item": "Severe traumatic rotator cuff tear"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Apprehension/relocation tests",
+      "Sulcus sign when relevant",
+      "Rotator cuff strength",
+      "Axillary nerve and vascular exam"
+    ]
+  },
+  "differentials": [
+    "Rotator cuff tear",
+    "Labral tear without instability",
+    "Cervical radiculopathy",
+    "Frozen shoulder"
+  ],
+  "investigations": {
+    "principle": "Acute radiographs confirm reduction and exclude fracture.",
+    "MRI": "MRI/MR arthrogram evaluates labral/capsular injury when needed.",
+    "radiographs": "Radiographs may show Hill-Sachs or glenoid bone loss."
+  },
+  "management": {
+    "green": [
+      "Early protected motion after reduction",
+      "Rotator cuff and scapular stabilization",
+      "Proprioceptive rehabilitation"
+    ],
+    "amber": [
+      "Recurrent traumatic instability, major bone loss or high-risk athletes may require surgical stabilization."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Amsa-sandhi/Snayu injury phenotype may be documented."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Symptomatic excessive translation of the humeral head relative to the glenoid, often following traumatic dislocation or due to multidirectional laxity.",
+    "urgent": "Seek urgent assessment for severe/progressive neurological deficit, vascular compromise, infection/systemic illness, major trauma, sphincter change or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "AAOS OrthoInfo",
+      "title": "Shoulder Dislocation",
+      "url": "https://orthoinfo.aaos.org/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V1.8-BATCH-04",
+    "proposedGoldChapterNumber": 53
+  }
+}

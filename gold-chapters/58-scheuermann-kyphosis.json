@@ -1,0 +1,105 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-SPN-SK-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Scheuermann Kyphosis",
+  "synonyms": [
+    "Scheuermann disease"
+  ],
+  "category": "Spine > Deformity > Adolescent",
+  "tags": [
+    "scheuermann",
+    "kyphosis",
+    "adolescent",
+    "spine deformity"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Structural adolescent hyperkyphosis characterized by anterior vertebral wedging and endplate irregularity, usually affecting the thoracic or thoracolumbar spine.",
+  "clinicalPattern": {
+    "typical": [
+      "Rigid rounded back",
+      "Back pain/fatigue",
+      "Reduced extension correction",
+      "Often presents in adolescence"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Neurological deficit"
+    },
+    {
+      "level": "RED",
+      "item": "Severe/progressive deformity"
+    },
+    {
+      "level": "RED",
+      "item": "Respiratory compromise"
+    },
+    {
+      "level": "RED",
+      "item": "Alternative fracture/infection/tumour concern"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Standing posture",
+      "Flexible versus rigid kyphosis",
+      "Neurological exam",
+      "Hamstring and sagittal balance assessment"
+    ]
+  },
+  "differentials": [
+    "Postural kyphosis",
+    "Congenital kyphosis",
+    "Vertebral compression fracture",
+    "Ankylosing spondylitis"
+  ],
+  "investigations": {
+    "principle": "Diagnosis relies on clinical and standing radiographic assessment.",
+    "MRI": "MRI for neurological symptoms or atypical features.",
+    "radiographs": "Standing lateral radiographs show vertebral wedging and curve magnitude."
+  },
+  "management": {
+    "green": [
+      "Exercise/postural conditioning",
+      "Observation for mild stable cases"
+    ],
+    "amber": [
+      "Bracing may be used in skeletally immature progressive curves; severe deformity may require specialist surgical assessment."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Vakra-prishtha/deformity phenotype may be documented descriptively."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Structural adolescent hyperkyphosis characterized by anterior vertebral wedging and endplate irregularity, usually affecting the thoracic or thoracolumbar spine.",
+    "urgent": "Seek urgent assessment for severe/progressive neurological deficit, vascular compromise, infection/systemic illness, major trauma, sphincter change or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "Scoliosis Research Society",
+      "title": "Scheuermann Kyphosis resources",
+      "url": "https://www.srs.org/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V1.8-BATCH-04",
+    "proposedGoldChapterNumber": 58
+  }
+}

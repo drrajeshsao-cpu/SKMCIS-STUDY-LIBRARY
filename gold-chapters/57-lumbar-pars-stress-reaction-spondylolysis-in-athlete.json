@@ -1,0 +1,108 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-SPN-PSR-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Lumbar Pars Stress Reaction / Spondylolysis in Athlete",
+  "synonyms": [
+    "Pars stress fracture",
+    "Athletic spondylolysis"
+  ],
+  "category": "Spine > Lumbar > Stress Injury",
+  "tags": [
+    "pars",
+    "spondylolysis",
+    "athlete",
+    "stress fracture"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Stress injury or defect of the pars interarticularis, commonly affecting adolescent/young athletes exposed to repetitive extension and rotation.",
+  "clinicalPattern": {
+    "typical": [
+      "Extension-related low-back pain",
+      "Pain during sport",
+      "Usually no neurological deficit",
+      "Hamstring tightness may coexist"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Neurological deficit"
+    },
+    {
+      "level": "RED",
+      "item": "High-energy trauma"
+    },
+    {
+      "level": "RED",
+      "item": "Systemic illness"
+    },
+    {
+      "level": "RED",
+      "item": "Severe night pain or malignancy features"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Lumbar extension provocation",
+      "Hip/hamstring and kinetic-chain assessment",
+      "Neurological screen",
+      "Sport-specific load history"
+    ]
+  },
+  "differentials": [
+    "Mechanical low-back pain",
+    "Disc injury",
+    "Facet pain",
+    "Spondylolisthesis",
+    "Tumour/infection"
+  ],
+  "investigations": {
+    "principle": "Imaging is selected based on age, persistence and clinical suspicion.",
+    "MRI": "MRI can detect early stress reaction without radiation.",
+    "radiographs": "Radiographs may show established defects; CT defines bony healing when necessary."
+  },
+  "management": {
+    "green": [
+      "Relative load reduction from provocative sport",
+      "Progressive trunk/hip rehabilitation",
+      "Gradual return to sport"
+    ],
+    "amber": [
+      "Bracing and surgery are selective, not routine."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Kati/Snayu-Asthi stress phenotype may be documented."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Stress injury or defect of the pars interarticularis, commonly affecting adolescent/young athletes exposed to repetitive extension and rotation.",
+    "urgent": "Seek urgent assessment for severe/progressive neurological deficit, vascular compromise, infection/systemic illness, major trauma, sphincter change or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "American College of Radiology (ACR)",
+      "title": "Back pain imaging guidance",
+      "url": "https://acsearch.acr.org/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V1.8-BATCH-04",
+    "proposedGoldChapterNumber": 57
+  }
+}

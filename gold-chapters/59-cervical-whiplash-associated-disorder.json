@@ -1,0 +1,114 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-CSP-WAD-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Cervical Whiplash-Associated Disorder",
+  "synonyms": [
+    "Whiplash injury",
+    "WAD"
+  ],
+  "category": "Spine > Cervical > Trauma",
+  "tags": [
+    "whiplash",
+    "neck pain",
+    "trauma",
+    "WAD"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Clinical syndrome after acceleration-deceleration neck trauma, most commonly motor-vehicle collision, ranging from neck pain/stiffness to neurological symptoms depending on injury severity.",
+  "clinicalPattern": {
+    "typical": [
+      "Neck pain and stiffness",
+      "Headache",
+      "Shoulder/upper-back pain",
+      "Possible dizziness or sensory symptoms"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Fracture/instability"
+    },
+    {
+      "level": "RED",
+      "item": "Major neurological deficit"
+    },
+    {
+      "level": "RED",
+      "item": "Severe midline tenderness with high-risk trauma"
+    },
+    {
+      "level": "RED",
+      "item": "Vascular or brain injury features"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Cervical ROM",
+      "Neurological exam",
+      "Trauma decision-rule assessment",
+      "Cranial/vestibular screen when indicated"
+    ]
+  },
+  "differentials": [
+    "Cervical fracture",
+    "Disc injury/radiculopathy",
+    "Concussion",
+    "Cervical artery injury",
+    "Shoulder injury"
+  ],
+  "investigations": {
+    "principle": "Use validated cervical-spine trauma decision rules for imaging decisions.",
+    "MRI": "CT is preferred for high-risk acute bony injury; MRI for cord/ligament/neurological concerns.",
+    "radiographs": "Plain radiographs have a limited role depending on setting and guideline."
+  },
+  "management": {
+    "green": [
+      "Early reassurance and appropriate movement",
+      "Graded return to normal activity",
+      "Exercise-based rehabilitation"
+    ],
+    "amber": [
+      "Avoid prolonged immobilization in uncomplicated WAD; persistent severe symptoms require reassessment."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Greeva-abhighata phenotype may be documented while modern trauma screening remains primary."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Clinical syndrome after acceleration-deceleration neck trauma, most commonly motor-vehicle collision, ranging from neck pain/stiffness to neurological symptoms depending on injury severity.",
+    "urgent": "Seek urgent assessment for severe/progressive neurological deficit, vascular compromise, infection/systemic illness, major trauma, sphincter change or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "Canadian C-Spine Rule",
+      "title": "Cervical spine trauma decision guidance",
+      "url": "https://www.mdcalc.com/",
+      "checked": "2026-08-07"
+    },
+    {
+      "organization": "ACR",
+      "title": "Acute Spinal Trauma",
+      "url": "https://acsearch.acr.org/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V1.8-BATCH-04",
+    "proposedGoldChapterNumber": 59
+  }
+}

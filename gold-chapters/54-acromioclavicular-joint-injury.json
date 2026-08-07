@@ -1,0 +1,103 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-ORT-ACJ-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Acromioclavicular Joint Injury",
+  "synonyms": [
+    "AC joint separation"
+  ],
+  "category": "Orthopedics > Shoulder > AC Joint",
+  "tags": [
+    "AC joint",
+    "shoulder separation",
+    "trauma"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Traumatic injury of the acromioclavicular and coracoclavicular ligament complex, commonly from a direct fall onto the shoulder.",
+  "clinicalPattern": {
+    "typical": [
+      "Top-of-shoulder pain",
+      "Localized AC tenderness",
+      "Pain with cross-body adduction",
+      "Visible deformity in higher grades"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Open injury"
+    },
+    {
+      "level": "RED",
+      "item": "Neurovascular deficit"
+    },
+    {
+      "level": "RED",
+      "item": "Associated clavicle/scapula fracture"
+    },
+    {
+      "level": "RED",
+      "item": "High-energy chest trauma"
+    }
+  ],
+  "examination": {
+    "core": [
+      "AC joint palpation",
+      "Cross-body adduction",
+      "Shoulder ROM",
+      "Neurovascular exam"
+    ]
+  },
+  "differentials": [
+    "Distal clavicle fracture",
+    "Rotator cuff injury",
+    "Glenohumeral dislocation"
+  ],
+  "investigations": {
+    "principle": "Diagnosis combines examination and radiographs.",
+    "MRI": "MRI is rarely needed acutely.",
+    "radiographs": "AP/Zanca radiographs assess alignment and fracture."
+  },
+  "management": {
+    "green": [
+      "Sling briefly for comfort in low-grade injury",
+      "Early ROM and progressive strengthening"
+    ],
+    "amber": [
+      "Higher-grade injuries require individualized orthopedic assessment; surgery is not automatic."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Amsa-sandhi traumatic phenotype may be documented."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Traumatic injury of the acromioclavicular and coracoclavicular ligament complex, commonly from a direct fall onto the shoulder.",
+    "urgent": "Seek urgent assessment for severe/progressive neurological deficit, vascular compromise, infection/systemic illness, major trauma, sphincter change or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "AAOS OrthoInfo",
+      "title": "Shoulder Separation",
+      "url": "https://orthoinfo.aaos.org/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V1.8-BATCH-04",
+    "proposedGoldChapterNumber": 54
+  }
+}

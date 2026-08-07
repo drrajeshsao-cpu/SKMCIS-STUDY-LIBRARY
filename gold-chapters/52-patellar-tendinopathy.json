@@ -1,0 +1,105 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-ORT-PT-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Patellar Tendinopathy",
+  "synonyms": [
+    "Jumper's knee"
+  ],
+  "category": "Orthopedics > Knee > Tendon",
+  "tags": [
+    "patellar tendon",
+    "jumper's knee",
+    "knee",
+    "tendinopathy"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Load-related pain and dysfunction of the patellar tendon, commonly at the inferior pole of the patella.",
+  "clinicalPattern": {
+    "typical": [
+      "Anterior knee pain with jumping/running",
+      "Localized tendon tenderness",
+      "Pain with resisted knee extension or decline squat"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Acute extensor mechanism rupture"
+    },
+    {
+      "level": "RED",
+      "item": "Fracture"
+    },
+    {
+      "level": "RED",
+      "item": "Infection"
+    },
+    {
+      "level": "RED",
+      "item": "Large traumatic effusion"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Patellar tendon palpation",
+      "Single-leg decline squat",
+      "Quadriceps strength",
+      "Extensor mechanism integrity"
+    ]
+  },
+  "differentials": [
+    "Patellofemoral pain",
+    "Fat-pad pain",
+    "Osgood-Schlatter sequelae",
+    "Partial tendon tear"
+  ],
+  "investigations": {
+    "principle": "Usually clinical.",
+    "MRI": "Ultrasound/MRI for uncertain or severe cases.",
+    "radiographs": "Radiographs for calcification or bony pathology when indicated."
+  },
+  "management": {
+    "green": [
+      "Progressive tendon-loading program",
+      "Load management",
+      "Quadriceps and kinetic-chain rehabilitation"
+    ],
+    "amber": [
+      "Injection near tendon requires caution; surgery is rarely first-line."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Janu/Snayu phenotype may be documented."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Load-related pain and dysfunction of the patellar tendon, commonly at the inferior pole of the patella.",
+    "urgent": "Seek urgent assessment for severe/progressive neurological deficit, vascular compromise, infection/systemic illness, major trauma, sphincter change or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "JOSPT",
+      "title": "Patellar Tendinopathy rehabilitation evidence",
+      "url": "https://www.jospt.org/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V1.8-BATCH-04",
+    "proposedGoldChapterNumber": 52
+  }
+}

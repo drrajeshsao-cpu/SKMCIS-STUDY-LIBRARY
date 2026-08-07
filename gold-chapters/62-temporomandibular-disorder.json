@@ -1,0 +1,106 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-ORT-TMD-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Temporomandibular Disorder",
+  "synonyms": [
+    "TMD",
+    "TMJ pain dysfunction"
+  ],
+  "category": "Orofacial/Orthopedic > TMJ",
+  "tags": [
+    "TMJ",
+    "temporomandibular",
+    "jaw pain",
+    "facial pain"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Group of musculoskeletal and joint disorders affecting the temporomandibular joint and masticatory muscles, causing pain and/or impaired jaw function.",
+  "clinicalPattern": {
+    "typical": [
+      "Jaw/preauricular pain",
+      "Clicking or limited opening",
+      "Pain with chewing",
+      "Masticatory muscle tenderness"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Acute inability to close/open jaw"
+    },
+    {
+      "level": "RED",
+      "item": "Facial trauma"
+    },
+    {
+      "level": "RED",
+      "item": "Infection"
+    },
+    {
+      "level": "RED",
+      "item": "Neurological deficit or temporal arteritis features"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Jaw opening and deviation",
+      "TMJ/muscle palpation",
+      "Occlusion and cranial nerve screen"
+    ]
+  },
+  "differentials": [
+    "Dental disease",
+    "Trigeminal neuralgia",
+    "Otologic disease",
+    "Giant cell arteritis",
+    "Parotid pathology"
+  ],
+  "investigations": {
+    "principle": "Usually clinical.",
+    "MRI": "MRI evaluates disc/internal derangement when needed; CT for bony disease.",
+    "radiographs": "Routine radiographs have limited value."
+  },
+  "management": {
+    "green": [
+      "Education, soft diet temporarily and self-management",
+      "Jaw exercises and habit modification"
+    ],
+    "amber": [
+      "Occlusal devices, injections or surgery require dental/maxillofacial specialist assessment."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Hanu-sandhi/Vata musculoskeletal phenotype may be documented."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Group of musculoskeletal and joint disorders affecting the temporomandibular joint and masticatory muscles, causing pain and/or impaired jaw function.",
+    "urgent": "Seek urgent assessment for severe/progressive neurological deficit, vascular compromise, infection/systemic illness, major trauma, sphincter change or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "National Institute of Dental and Craniofacial Research",
+      "title": "TMD resources",
+      "url": "https://www.nidcr.nih.gov/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V1.8-BATCH-04",
+    "proposedGoldChapterNumber": 62
+  }
+}
