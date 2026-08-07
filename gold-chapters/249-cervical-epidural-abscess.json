@@ -1,0 +1,97 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-CSP-CEA-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Cervical Epidural Abscess",
+  "synonyms": [],
+  "category": "Spine > Cervical > Emergency Infection",
+  "tags": [
+    "cervical epidural abscess"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Purulent collection in the cervical epidural space causing potential spinal cord compression and rapid neurological deterioration.",
+  "clinicalPattern": {
+    "typical": [
+      "Severe neck pain",
+      "Fever may be variable",
+      "Arm or leg weakness",
+      "Myelopathic features"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Any progressive neurological deficit"
+    },
+    {
+      "level": "RED",
+      "item": "Sepsis"
+    },
+    {
+      "level": "RED",
+      "item": "Respiratory compromise"
+    },
+    {
+      "level": "RED",
+      "item": "New sphincter dysfunction"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Motor/sensory/reflex exam",
+      "Gait",
+      "Respiratory and sepsis assessment"
+    ]
+  },
+  "differentials": [
+    "Cervical discitis",
+    "Tumor",
+    "Acute disc herniation"
+  ],
+  "investigations": {
+    "principle": "Urgent contrast MRI is the diagnostic test of choice.",
+    "MRI": "Use MRI when neural, soft-tissue, marrow, inflammatory, infection, occult injury or other condition-specific assessment requires it.",
+    "radiographs": "Use radiographs and/or CT according to the condition-specific imaging pathway."
+  },
+  "management": {
+    "green": [
+      "Emergency spine/neurosurgical and infectious-disease pathway"
+    ],
+    "amber": [
+      "Neurological compromise may require urgent decompression plus antimicrobial therapy."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Emergency modern diagnosis and decompression take priority over Ayurvedic treatment."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Purulent collection in the cervical epidural space causing potential spinal cord compression and rapid neurological deterioration.",
+    "urgent": "Seek urgent assessment for acute/progressive neurological deficit, sphincter change, severe infection/systemic illness, major trauma, vascular compromise or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "ACR",
+      "title": "Suspected Spine Infection",
+      "url": "https://acsearch.acr.org/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V2.8-BATCH-14",
+    "proposedGoldChapterNumber": 249
+  }
+}

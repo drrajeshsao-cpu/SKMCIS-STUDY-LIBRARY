@@ -1,0 +1,98 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-NEU-BSS-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Brown-Séquard Syndrome",
+  "synonyms": [],
+  "category": "Neurology > Spinal Cord Syndrome",
+  "tags": [
+    "brown-séquard syndrome"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Incomplete spinal cord syndrome caused by hemicord dysfunction, producing ipsilateral motor/proprioceptive loss with contralateral pain-temperature loss below the lesion.",
+  "clinicalPattern": {
+    "typical": [
+      "Ipsilateral weakness",
+      "Ipsilateral vibration/proprioception loss",
+      "Contralateral pain-temperature loss"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Acute trauma"
+    },
+    {
+      "level": "RED",
+      "item": "Progressive deficit"
+    },
+    {
+      "level": "RED",
+      "item": "Cord compression"
+    },
+    {
+      "level": "RED",
+      "item": "Infection or tumor"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Motor exam",
+      "Proprioception/vibration",
+      "Pain-temperature sensory mapping",
+      "Neurological level"
+    ]
+  },
+  "differentials": [
+    "Transverse myelitis",
+    "Spinal cord infarction",
+    "Cord tumor"
+  ],
+  "investigations": {
+    "principle": "MRI is essential to identify structural or inflammatory cause.",
+    "MRI": "Use MRI when neural, soft-tissue, marrow, inflammatory, infection, occult injury or other condition-specific assessment requires it.",
+    "radiographs": "Use radiographs and/or CT according to the condition-specific imaging pathway."
+  },
+  "management": {
+    "green": [
+      "Urgent cause-directed neurology/spine management",
+      "Rehabilitation"
+    ],
+    "amber": [
+      "Traumatic or compressive causes may require surgical treatment."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Neurological Vata phenotype may be documented only in parallel."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Incomplete spinal cord syndrome caused by hemicord dysfunction, producing ipsilateral motor/proprioceptive loss with contralateral pain-temperature loss below the lesion.",
+    "urgent": "Seek urgent assessment for acute/progressive neurological deficit, sphincter change, severe infection/systemic illness, major trauma, vascular compromise or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "NINDS",
+      "title": "Spinal Cord Injury resources",
+      "url": "https://www.ninds.nih.gov/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V2.8-BATCH-14",
+    "proposedGoldChapterNumber": 251
+  }
+}

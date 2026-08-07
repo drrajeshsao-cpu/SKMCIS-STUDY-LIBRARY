@@ -1,0 +1,93 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-ORT-KCD-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Chondral Defect of the Knee",
+  "synonyms": [],
+  "category": "Orthopedics > Knee > Cartilage",
+  "tags": [
+    "chondral defect of the knee"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Focal articular cartilage damage of the knee, traumatic or degenerative, which may cause pain, swelling and mechanical symptoms.",
+  "clinicalPattern": {
+    "typical": [
+      "Activity-related knee pain",
+      "Effusion",
+      "Catching or swelling after loading"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Locked knee"
+    },
+    {
+      "level": "RED",
+      "item": "Major acute trauma"
+    },
+    {
+      "level": "RED",
+      "item": "Septic joint"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Joint-line and compartment assessment",
+      "ROM",
+      "Ligament/meniscus screen"
+    ]
+  },
+  "differentials": [
+    "Meniscal tear",
+    "Knee OA",
+    "Osteochondritis dissecans"
+  ],
+  "investigations": {
+    "principle": "MRI evaluates cartilage and subchondral bone; radiographs assess alignment and OA.",
+    "MRI": "Use MRI when neural, soft-tissue, marrow, inflammatory, infection, occult injury or other condition-specific assessment requires it.",
+    "radiographs": "Use radiographs and/or CT according to the condition-specific imaging pathway."
+  },
+  "management": {
+    "green": [
+      "Load modification",
+      "Strength and neuromuscular rehabilitation"
+    ],
+    "amber": [
+      "Cartilage restoration procedures are selective based on lesion size, age, alignment and symptoms."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Janu-Sandhi structural phenotype may be documented in parallel."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Focal articular cartilage damage of the knee, traumatic or degenerative, which may cause pain, swelling and mechanical symptoms.",
+    "urgent": "Seek urgent assessment for acute/progressive neurological deficit, sphincter change, severe infection/systemic illness, major trauma, vascular compromise or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "AAOS",
+      "title": "Articular Cartilage Restoration",
+      "url": "https://orthoinfo.aaos.org/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V2.8-BATCH-14",
+    "proposedGoldChapterNumber": 257
+  }
+}

@@ -1,0 +1,96 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-ORT-MTG-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Metatarsalgia",
+  "synonyms": [],
+  "category": "Orthopedics > Foot > Forefoot Pain",
+  "tags": [
+    "metatarsalgia"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Symptom complex of pain under one or more metatarsal heads due to mechanical overload or a range of underlying forefoot disorders.",
+  "clinicalPattern": {
+    "typical": [
+      "Plantar forefoot pain",
+      "Pain with standing/walking",
+      "Callus under metatarsal heads"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Stress fracture"
+    },
+    {
+      "level": "RED",
+      "item": "Ulcer/infection"
+    },
+    {
+      "level": "RED",
+      "item": "Acute inflammatory hot joint"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Metatarsal head tenderness",
+      "Callus pattern",
+      "MTP stability",
+      "Foot alignment"
+    ]
+  },
+  "differentials": [
+    "Morton neuroma",
+    "Stress fracture",
+    "MTP synovitis",
+    "Freiberg disease"
+  ],
+  "investigations": {
+    "principle": "Usually clinical; weight-bearing radiographs are used when structural causes are suspected.",
+    "MRI": "Use MRI when neural, soft-tissue, marrow, inflammatory, infection, occult injury or other condition-specific assessment requires it.",
+    "radiographs": "Use radiographs and/or CT according to the condition-specific imaging pathway."
+  },
+  "management": {
+    "green": [
+      "Footwear modification",
+      "Metatarsal off-loading",
+      "Address calf/foot mechanics"
+    ],
+    "amber": [
+      "Persistent symptoms require diagnosis-specific reassessment rather than generic treatment."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Pada-shoola mechanical phenotype may be documented."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Symptom complex of pain under one or more metatarsal heads due to mechanical overload or a range of underlying forefoot disorders.",
+    "urgent": "Seek urgent assessment for acute/progressive neurological deficit, sphincter change, severe infection/systemic illness, major trauma, vascular compromise or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "FootCareMD",
+      "title": "Metatarsalgia resources",
+      "url": "https://www.footcaremd.org/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V2.8-BATCH-14",
+    "proposedGoldChapterNumber": 267
+  }
+}

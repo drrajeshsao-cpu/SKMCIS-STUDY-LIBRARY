@@ -1,0 +1,98 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-CSP-CCS-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Cervical Central Cord Syndrome",
+  "synonyms": [],
+  "category": "Spine > Cervical > Spinal Cord Injury",
+  "tags": [
+    "cervical central cord syndrome"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Incomplete cervical spinal cord injury classically causing greater weakness in the upper limbs than lower limbs, often after hyperextension trauma in a stenotic cervical canal.",
+  "clinicalPattern": {
+    "typical": [
+      "Upper-limb weakness greater than leg weakness",
+      "Sensory disturbance",
+      "Possible bladder dysfunction"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Any acute cord syndrome"
+    },
+    {
+      "level": "RED",
+      "item": "Respiratory compromise"
+    },
+    {
+      "level": "RED",
+      "item": "Progressive weakness"
+    },
+    {
+      "level": "RED",
+      "item": "Unstable cervical injury"
+    }
+  ],
+  "examination": {
+    "core": [
+      "ASIA/ISNCSCI-style neurological exam",
+      "Upper/lower limb power",
+      "Sensory and sphincter assessment"
+    ]
+  },
+  "differentials": [
+    "Cervical myelopathy",
+    "Brachial plexopathy",
+    "Stroke"
+  ],
+  "investigations": {
+    "principle": "CT assesses fracture; MRI assesses cord edema, compression, disc and ligament injury.",
+    "MRI": "Use MRI when neural, soft-tissue, marrow, inflammatory, infection, occult injury or other condition-specific assessment requires it.",
+    "radiographs": "Use radiographs and/or CT according to the condition-specific imaging pathway."
+  },
+  "management": {
+    "green": [
+      "Acute spinal cord injury pathway",
+      "Immobilization/stability assessment",
+      "Early rehabilitation"
+    ],
+    "amber": [
+      "Surgical decompression is individualized according to compression, instability and neurological status."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Any Pakshaghata/Vata framework is secondary to modern spinal cord injury care."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Incomplete cervical spinal cord injury classically causing greater weakness in the upper limbs than lower limbs, often after hyperextension trauma in a stenotic cervical canal.",
+    "urgent": "Seek urgent assessment for acute/progressive neurological deficit, sphincter change, severe infection/systemic illness, major trauma, vascular compromise or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "AOSpine",
+      "title": "Acute Spinal Cord Injury resources",
+      "url": "https://www.aofoundation.org/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V2.8-BATCH-14",
+    "proposedGoldChapterNumber": 250
+  }
+}

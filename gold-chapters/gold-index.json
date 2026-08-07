@@ -245,7 +245,27 @@
     "gold-chapters/244-accessory-navicular-syndrome.json",
     "gold-chapters/245-posterior-ankle-impingement.json",
     "gold-chapters/246-anterior-ankle-impingement.json",
-    "gold-chapters/247-osteochondral-lesion-of-the-talus.json"
+    "gold-chapters/247-osteochondral-lesion-of-the-talus.json",
+    "gold-chapters/248-cervical-discitis.json",
+    "gold-chapters/249-cervical-epidural-abscess.json",
+    "gold-chapters/250-cervical-central-cord-syndrome.json",
+    "gold-chapters/251-brown-s-quard-syndrome.json",
+    "gold-chapters/252-spinal-dural-arteriovenous-fistula.json",
+    "gold-chapters/253-lumbar-epidural-lipomatosis.json",
+    "gold-chapters/254-hip-flexor-strain.json",
+    "gold-chapters/255-gluteus-medius-minimus-tendinopathy.json",
+    "gold-chapters/256-snapping-hip-syndrome-external.json",
+    "gold-chapters/257-chondral-defect-of-the-knee.json",
+    "gold-chapters/258-osteochondritis-dissecans-of-the-knee.json",
+    "gold-chapters/259-sinding-larsen-johansson-syndrome.json",
+    "gold-chapters/260-quadriceps-tendinopathy.json",
+    "gold-chapters/261-medial-epicondylalgia-golfer-s-elbow.json",
+    "gold-chapters/262-ulnar-collateral-ligament-injury-of-the-elbow.json",
+    "gold-chapters/263-extensor-carpi-ulnaris-tendinopathy-instability.json",
+    "gold-chapters/264-intersection-syndrome.json",
+    "gold-chapters/265-wartenberg-syndrome-superficial-radial-neuropathy.json",
+    "gold-chapters/266-digital-nerve-injury.json",
+    "gold-chapters/267-metatarsalgia.json"
   ],
-  "expectedTotalGold": 248
+  "expectedTotalGold": 268
 }

@@ -1,0 +1,93 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-ORT-OCDK-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Osteochondritis Dissecans of the Knee",
+  "synonyms": [],
+  "category": "Orthopedics > Knee > Osteochondral",
+  "tags": [
+    "osteochondritis dissecans of the knee"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Focal subchondral bone and overlying cartilage disorder, most often affecting the femoral condyle in adolescents or young adults.",
+  "clinicalPattern": {
+    "typical": [
+      "Activity-related knee pain",
+      "Swelling",
+      "Catching/locking when unstable"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Locked knee"
+    },
+    {
+      "level": "RED",
+      "item": "Loose body"
+    },
+    {
+      "level": "RED",
+      "item": "Rapid loss of motion"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Knee ROM",
+      "Effusion",
+      "Mechanical symptom assessment"
+    ]
+  },
+  "differentials": [
+    "Meniscal tear",
+    "Chondral defect",
+    "Patellofemoral pain"
+  ],
+  "investigations": {
+    "principle": "Radiographs and MRI assess lesion stability and healing potential.",
+    "MRI": "Use MRI when neural, soft-tissue, marrow, inflammatory, infection, occult injury or other condition-specific assessment requires it.",
+    "radiographs": "Use radiographs and/or CT according to the condition-specific imaging pathway."
+  },
+  "management": {
+    "green": [
+      "Activity restriction for stable juvenile lesions",
+      "Gradual rehabilitation"
+    ],
+    "amber": [
+      "Unstable lesions may require drilling, fixation or cartilage restoration."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Janu Asthi-Sandhi lesion may be documented descriptively."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Focal subchondral bone and overlying cartilage disorder, most often affecting the femoral condyle in adolescents or young adults.",
+    "urgent": "Seek urgent assessment for acute/progressive neurological deficit, sphincter change, severe infection/systemic illness, major trauma, vascular compromise or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "AAOS OrthoInfo",
+      "title": "Osteochondritis Dissecans",
+      "url": "https://orthoinfo.aaos.org/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V2.8-BATCH-14",
+    "proposedGoldChapterNumber": 258
+  }
+}

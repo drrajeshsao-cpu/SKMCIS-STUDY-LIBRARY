@@ -1,0 +1,92 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-ORT-ESH-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Snapping Hip Syndrome - External",
+  "synonyms": [],
+  "category": "Orthopedics > Hip > Snapping",
+  "tags": [
+    "snapping hip syndrome - external"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Audible or palpable lateral snapping caused most commonly by iliotibial band or gluteus maximus moving over the greater trochanter.",
+  "clinicalPattern": {
+    "typical": [
+      "Lateral hip snapping",
+      "Pain with repeated flexion-extension",
+      "Often activity-related"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Acute trauma"
+    },
+    {
+      "level": "RED",
+      "item": "Hip instability"
+    },
+    {
+      "level": "RED",
+      "item": "Severe weakness"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Reproduce snapping",
+      "Hip abductor and IT-band assessment"
+    ]
+  },
+  "differentials": [
+    "Internal snapping hip",
+    "Labral tear",
+    "GTPS"
+  ],
+  "investigations": {
+    "principle": "Usually clinical; dynamic ultrasound can demonstrate snapping.",
+    "MRI": "Use MRI when neural, soft-tissue, marrow, inflammatory, infection, occult injury or other condition-specific assessment requires it.",
+    "radiographs": "Use radiographs and/or CT according to the condition-specific imaging pathway."
+  },
+  "management": {
+    "green": [
+      "Activity modification",
+      "Hip/gluteal rehabilitation"
+    ],
+    "amber": [
+      "Surgery is rarely required and reserved for persistent disabling cases."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Shroni/Snayu mechanical phenotype may be documented."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Audible or palpable lateral snapping caused most commonly by iliotibial band or gluteus maximus moving over the greater trochanter.",
+    "urgent": "Seek urgent assessment for acute/progressive neurological deficit, sphincter change, severe infection/systemic illness, major trauma, vascular compromise or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "ACR",
+      "title": "Chronic Hip Pain",
+      "url": "https://acsearch.acr.org/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V2.8-BATCH-14",
+    "proposedGoldChapterNumber": 256
+  }
+}

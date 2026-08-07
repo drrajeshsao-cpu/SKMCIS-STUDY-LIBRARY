@@ -1,0 +1,95 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-ORT-GMT-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Gluteus Medius / Minimus Tendinopathy",
+  "synonyms": [],
+  "category": "Orthopedics > Hip > Tendon",
+  "tags": [
+    "gluteus medius / minimus tendinopathy"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Load-related tendinopathy of gluteus medius/minimus, a major cause of lateral hip pain and often part of greater trochanteric pain syndrome.",
+  "clinicalPattern": {
+    "typical": [
+      "Lateral hip pain",
+      "Pain lying on affected side",
+      "Pain with single-leg loading",
+      "Abductor weakness"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Hip fracture"
+    },
+    {
+      "level": "RED",
+      "item": "Septic bursitis"
+    },
+    {
+      "level": "RED",
+      "item": "Major acute tendon rupture"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Hip abductor strength",
+      "Single-leg stance",
+      "Greater trochanter palpation"
+    ]
+  },
+  "differentials": [
+    "Trochanteric bursitis",
+    "Lumbar radiculopathy",
+    "Hip OA"
+  ],
+  "investigations": {
+    "principle": "Usually clinical; ultrasound/MRI is used for persistent symptoms or suspected tear.",
+    "MRI": "Use MRI when neural, soft-tissue, marrow, inflammatory, infection, occult injury or other condition-specific assessment requires it.",
+    "radiographs": "Use radiographs and/or CT according to the condition-specific imaging pathway."
+  },
+  "management": {
+    "green": [
+      "Progressive hip abductor loading",
+      "Reduce compressive positions",
+      "Gait/load modification"
+    ],
+    "amber": [
+      "Injection or surgery is selective for refractory confirmed pathology."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Shroni/Snayu phenotype may be documented descriptively."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Load-related tendinopathy of gluteus medius/minimus, a major cause of lateral hip pain and often part of greater trochanteric pain syndrome.",
+    "urgent": "Seek urgent assessment for acute/progressive neurological deficit, sphincter change, severe infection/systemic illness, major trauma, vascular compromise or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "JOSPT",
+      "title": "Gluteal tendinopathy rehabilitation literature",
+      "url": "https://www.jospt.org/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V2.8-BATCH-14",
+    "proposedGoldChapterNumber": 255
+  }
+}

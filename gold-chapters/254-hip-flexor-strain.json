@@ -1,0 +1,95 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-ORT-HFS-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Hip Flexor Strain",
+  "synonyms": [],
+  "category": "Orthopedics > Hip > Muscle Injury",
+  "tags": [
+    "hip flexor strain"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Acute or subacute injury of the hip flexor musculotendinous unit, commonly involving iliopsoas or rectus femoris.",
+  "clinicalPattern": {
+    "typical": [
+      "Anterior hip/groin pain",
+      "Pain with resisted hip flexion",
+      "Pain after sprinting or kicking"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Avulsion fracture"
+    },
+    {
+      "level": "RED",
+      "item": "Inability to bear weight"
+    },
+    {
+      "level": "RED",
+      "item": "Large hematoma or neurovascular symptoms"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Resisted hip flexion",
+      "Hip ROM",
+      "Palpation",
+      "Lumbar/groin screen"
+    ]
+  },
+  "differentials": [
+    "FAI",
+    "Iliopsoas tendinopathy",
+    "Rectus femoris avulsion"
+  ],
+  "investigations": {
+    "principle": "Usually clinical; MRI/ultrasound is used for suspected high-grade tear or avulsion.",
+    "MRI": "Use MRI when neural, soft-tissue, marrow, inflammatory, infection, occult injury or other condition-specific assessment requires it.",
+    "radiographs": "Use radiographs and/or CT according to the condition-specific imaging pathway."
+  },
+  "management": {
+    "green": [
+      "Relative rest",
+      "Progressive loading",
+      "Return-to-sport rehabilitation"
+    ],
+    "amber": [
+      "Major avulsion or persistent weakness requires sports/orthopedic review."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Vankshana/Mamsa-Snayu injury phenotype may be documented."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Acute or subacute injury of the hip flexor musculotendinous unit, commonly involving iliopsoas or rectus femoris.",
+    "urgent": "Seek urgent assessment for acute/progressive neurological deficit, sphincter change, severe infection/systemic illness, major trauma, vascular compromise or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "Sports Medicine Australia",
+      "title": "Muscle injury resources",
+      "url": "https://sma.org.au/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V2.8-BATCH-14",
+    "proposedGoldChapterNumber": 254
+  }
+}

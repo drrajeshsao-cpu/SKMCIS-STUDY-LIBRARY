@@ -1,0 +1,94 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-ORT-ECU-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Extensor Carpi Ulnaris Tendinopathy / Instability",
+  "synonyms": [],
+  "category": "Orthopedics > Wrist > Tendon",
+  "tags": [
+    "extensor carpi ulnaris tendinopathy / instability"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Painful disorder of the extensor carpi ulnaris tendon ranging from tendinopathy to subsheath injury and tendon subluxation.",
+  "clinicalPattern": {
+    "typical": [
+      "Ulnar-sided wrist pain",
+      "Pain with resisted extension/ulnar deviation",
+      "Snapping may occur"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Acute tendon dislocation after trauma"
+    },
+    {
+      "level": "RED",
+      "item": "Fracture"
+    },
+    {
+      "level": "RED",
+      "item": "Neurovascular compromise"
+    }
+  ],
+  "examination": {
+    "core": [
+      "ECU synergy/resistance testing",
+      "Dynamic subluxation assessment",
+      "DRUJ/TFCC screen"
+    ]
+  },
+  "differentials": [
+    "TFCC injury",
+    "Ulnar impaction",
+    "Guyon canal syndrome"
+  ],
+  "investigations": {
+    "principle": "Dynamic ultrasound is useful; MRI evaluates tendon/subsheath and associated pathology.",
+    "MRI": "Use MRI when neural, soft-tissue, marrow, inflammatory, infection, occult injury or other condition-specific assessment requires it.",
+    "radiographs": "Use radiographs and/or CT according to the condition-specific imaging pathway."
+  },
+  "management": {
+    "green": [
+      "Activity modification",
+      "Wrist support",
+      "Progressive tendon loading"
+    ],
+    "amber": [
+      "Persistent instability may require surgical subsheath repair."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Manibandha-Snayu phenotype may be documented."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Painful disorder of the extensor carpi ulnaris tendon ranging from tendinopathy to subsheath injury and tendon subluxation.",
+    "urgent": "Seek urgent assessment for acute/progressive neurological deficit, sphincter change, severe infection/systemic illness, major trauma, vascular compromise or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "BSSH",
+      "title": "Ulnar-sided wrist pain resources",
+      "url": "https://www.bssh.ac.uk/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V2.8-BATCH-14",
+    "proposedGoldChapterNumber": 263
+  }
+}

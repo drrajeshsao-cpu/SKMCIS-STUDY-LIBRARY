@@ -1,0 +1,93 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-ORT-UCL-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Ulnar Collateral Ligament Injury of the Elbow",
+  "synonyms": [],
+  "category": "Orthopedics > Elbow > Ligament",
+  "tags": [
+    "ulnar collateral ligament injury of the elbow"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Injury of the medial ulnar collateral ligament of the elbow, common in throwing athletes exposed to repetitive valgus stress.",
+  "clinicalPattern": {
+    "typical": [
+      "Medial elbow pain during throwing",
+      "Reduced throwing velocity/control",
+      "Pain with valgus stress"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Acute fracture/dislocation"
+    },
+    {
+      "level": "RED",
+      "item": "Ulnar nerve deficit"
+    },
+    {
+      "level": "RED",
+      "item": "Gross instability"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Valgus stress tests",
+      "Moving valgus stress test",
+      "Ulnar nerve assessment"
+    ]
+  },
+  "differentials": [
+    "Medial epicondylalgia",
+    "Cubital tunnel syndrome",
+    "Flexor-pronator strain"
+  ],
+  "investigations": {
+    "principle": "MRI/MR arthrography can define ligament injury; radiographs assess avulsion/valgus extension overload.",
+    "MRI": "Use MRI when neural, soft-tissue, marrow, inflammatory, infection, occult injury or other condition-specific assessment requires it.",
+    "radiographs": "Use radiographs and/or CT according to the condition-specific imaging pathway."
+  },
+  "management": {
+    "green": [
+      "Throwing cessation and rehab",
+      "Kinetic-chain and flexor-pronator strengthening"
+    ],
+    "amber": [
+      "High-grade tears in competitive throwers may require reconstruction."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Kurpara-Snayu injury phenotype may be documented."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Injury of the medial ulnar collateral ligament of the elbow, common in throwing athletes exposed to repetitive valgus stress.",
+    "urgent": "Seek urgent assessment for acute/progressive neurological deficit, sphincter change, severe infection/systemic illness, major trauma, vascular compromise or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "AAOS OrthoInfo",
+      "title": "UCL Injury",
+      "url": "https://orthoinfo.aaos.org/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V2.8-BATCH-14",
+    "proposedGoldChapterNumber": 262
+  }
+}

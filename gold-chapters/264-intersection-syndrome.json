@@ -1,0 +1,93 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-ORT-IS-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Intersection Syndrome",
+  "synonyms": [],
+  "category": "Orthopedics > Wrist/Forearm > Tenosynovitis",
+  "tags": [
+    "intersection syndrome"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Overuse tenosynovitis where the first dorsal compartment tendons cross the second compartment tendons in the distal dorsal forearm.",
+  "clinicalPattern": {
+    "typical": [
+      "Dorsoradial distal forearm pain",
+      "Crepitus",
+      "Pain with repetitive wrist extension"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Acute fracture"
+    },
+    {
+      "level": "RED",
+      "item": "Infection"
+    },
+    {
+      "level": "RED",
+      "item": "Severe swelling after trauma"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Tenderness proximal to wrist joint",
+      "Crepitus with wrist/thumb motion"
+    ]
+  },
+  "differentials": [
+    "De Quervain tenosynovitis",
+    "Scaphoid injury",
+    "Superficial radial neuropathy"
+  ],
+  "investigations": {
+    "principle": "Usually clinical; ultrasound can demonstrate tenosynovitis.",
+    "MRI": "Use MRI when neural, soft-tissue, marrow, inflammatory, infection, occult injury or other condition-specific assessment requires it.",
+    "radiographs": "Use radiographs and/or CT according to the condition-specific imaging pathway."
+  },
+  "management": {
+    "green": [
+      "Activity modification",
+      "Short-term splinting",
+      "Gradual tendon loading"
+    ],
+    "amber": [
+      "Injection is selective for persistent cases."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Manibandha-Snayu overuse phenotype may be documented."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Overuse tenosynovitis where the first dorsal compartment tendons cross the second compartment tendons in the distal dorsal forearm.",
+    "urgent": "Seek urgent assessment for acute/progressive neurological deficit, sphincter change, severe infection/systemic illness, major trauma, vascular compromise or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "BSSH",
+      "title": "Wrist tendon disorder resources",
+      "url": "https://www.bssh.ac.uk/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V2.8-BATCH-14",
+    "proposedGoldChapterNumber": 264
+  }
+}

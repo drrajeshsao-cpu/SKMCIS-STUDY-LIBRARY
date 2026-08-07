@@ -1,0 +1,94 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-NEU-DNI-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Digital Nerve Injury",
+  "synonyms": [],
+  "category": "Orthopedics/Hand > Peripheral Nerve",
+  "tags": [
+    "digital nerve injury"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Traumatic injury of a proper or common digital nerve causing focal sensory loss, dysesthesia or painful neuroma.",
+  "clinicalPattern": {
+    "typical": [
+      "Numbness distal to finger laceration",
+      "Loss of two-point discrimination",
+      "Neuropathic pain"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Open contaminated injury"
+    },
+    {
+      "level": "RED",
+      "item": "Associated tendon/artery injury"
+    },
+    {
+      "level": "RED",
+      "item": "Severe crush injury"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Two-point discrimination",
+      "Light touch",
+      "Capillary refill",
+      "Tendon testing"
+    ]
+  },
+  "differentials": [
+    "Cervical radiculopathy",
+    "Median/ulnar neuropathy",
+    "Local contusion"
+  ],
+  "investigations": {
+    "principle": "Diagnosis is primarily clinical; ultrasound can assist in selected cases.",
+    "MRI": "Use MRI when neural, soft-tissue, marrow, inflammatory, infection, occult injury or other condition-specific assessment requires it.",
+    "radiographs": "Use radiographs and/or CT according to the condition-specific imaging pathway."
+  },
+  "management": {
+    "green": [
+      "Early hand-surgery assessment for complete laceration",
+      "Sensory re-education"
+    ],
+    "amber": [
+      "Primary microsurgical repair is considered for transected nerves."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Anguli/Vata nerve-injury phenotype may be documented."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Traumatic injury of a proper or common digital nerve causing focal sensory loss, dysesthesia or painful neuroma.",
+    "urgent": "Seek urgent assessment for acute/progressive neurological deficit, sphincter change, severe infection/systemic illness, major trauma, vascular compromise or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "BSSH",
+      "title": "Digital nerve injury resources",
+      "url": "https://www.bssh.ac.uk/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V2.8-BATCH-14",
+    "proposedGoldChapterNumber": 266
+  }
+}

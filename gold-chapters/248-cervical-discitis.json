@@ -1,0 +1,98 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-CSP-CDISC-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Cervical Discitis",
+  "synonyms": [],
+  "category": "Spine > Cervical > Infection",
+  "tags": [
+    "cervical discitis"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Infection involving a cervical intervertebral disc and adjacent endplates, with risk of epidural extension, instability and spinal cord compression.",
+  "clinicalPattern": {
+    "typical": [
+      "Neck pain",
+      "Fever may be absent",
+      "Restricted neck movement",
+      "Possible radiculopathy or myelopathy"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Progressive weakness"
+    },
+    {
+      "level": "RED",
+      "item": "Myelopathy"
+    },
+    {
+      "level": "RED",
+      "item": "Sepsis"
+    },
+    {
+      "level": "RED",
+      "item": "Epidural abscess"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Neurological exam",
+      "Neck tenderness",
+      "Systemic infection assessment"
+    ]
+  },
+  "differentials": [
+    "Cervical spondylosis",
+    "Spinal metastasis",
+    "Inflammatory spondylitis"
+  ],
+  "investigations": {
+    "principle": "Contrast MRI is the key imaging study; blood cultures and inflammatory markers support diagnosis.",
+    "MRI": "Use MRI when neural, soft-tissue, marrow, inflammatory, infection, occult injury or other condition-specific assessment requires it.",
+    "radiographs": "Use radiographs and/or CT according to the condition-specific imaging pathway."
+  },
+  "management": {
+    "green": [
+      "Urgent infectious-disease/spine assessment",
+      "Culture-directed antimicrobial therapy"
+    ],
+    "amber": [
+      "Surgery is considered for instability, abscess, progressive deficit or failed medical treatment."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Any Shotha/Asthi-Majja framework is secondary to modern infection management."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Infection involving a cervical intervertebral disc and adjacent endplates, with risk of epidural extension, instability and spinal cord compression.",
+    "urgent": "Seek urgent assessment for acute/progressive neurological deficit, sphincter change, severe infection/systemic illness, major trauma, vascular compromise or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "IDSA",
+      "title": "Vertebral Osteomyelitis Guideline",
+      "url": "https://www.idsociety.org/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V2.8-BATCH-14",
+    "proposedGoldChapterNumber": 248
+  }
+}

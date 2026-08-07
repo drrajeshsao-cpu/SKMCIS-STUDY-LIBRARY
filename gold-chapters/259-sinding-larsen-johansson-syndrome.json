@@ -1,0 +1,93 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-PED-SLJ-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Sinding-Larsen-Johansson Syndrome",
+  "synonyms": [],
+  "category": "Pediatric Orthopedics > Knee > Apophysitis",
+  "tags": [
+    "sinding-larsen-johansson syndrome"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Traction-related pain at the inferior pole of the patella in skeletally immature athletes, analogous to an apophyseal overuse injury.",
+  "clinicalPattern": {
+    "typical": [
+      "Inferior patellar pain",
+      "Pain with running/jumping",
+      "Localized tenderness"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Acute avulsion fracture"
+    },
+    {
+      "level": "RED",
+      "item": "Large effusion"
+    },
+    {
+      "level": "RED",
+      "item": "Systemic illness"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Inferior patellar tenderness",
+      "Quadriceps flexibility",
+      "Extensor mechanism"
+    ]
+  },
+  "differentials": [
+    "Patellar tendinopathy",
+    "Osgood-Schlatter disease",
+    "Patellar fracture"
+  ],
+  "investigations": {
+    "principle": "Usually clinical; radiographs are selective for atypical or traumatic presentations.",
+    "MRI": "Use MRI when neural, soft-tissue, marrow, inflammatory, infection, occult injury or other condition-specific assessment requires it.",
+    "radiographs": "Use radiographs and/or CT according to the condition-specific imaging pathway."
+  },
+  "management": {
+    "green": [
+      "Activity modification",
+      "Flexibility and progressive strength"
+    ],
+    "amber": [
+      "Symptoms usually resolve with maturity; persistent atypical pain needs reassessment."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Janu/Asthi-Snayu growth-related phenotype may be documented."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Traction-related pain at the inferior pole of the patella in skeletally immature athletes, analogous to an apophyseal overuse injury.",
+    "urgent": "Seek urgent assessment for acute/progressive neurological deficit, sphincter change, severe infection/systemic illness, major trauma, vascular compromise or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "POSNA",
+      "title": "Pediatric overuse knee resources",
+      "url": "https://posna.org/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V2.8-BATCH-14",
+    "proposedGoldChapterNumber": 259
+  }
+}

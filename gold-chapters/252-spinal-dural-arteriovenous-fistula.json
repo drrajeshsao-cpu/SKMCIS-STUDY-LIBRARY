@@ -1,0 +1,94 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-NEU-SDAVF-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Spinal Dural Arteriovenous Fistula",
+  "synonyms": [],
+  "category": "Neurology > Spinal Vascular Malformation",
+  "tags": [
+    "spinal dural arteriovenous fistula"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Abnormal arteriovenous shunt in the spinal dura causing venous hypertension and progressive congestive myelopathy, often affecting middle-aged or older adults.",
+  "clinicalPattern": {
+    "typical": [
+      "Progressive gait difficulty",
+      "Leg weakness",
+      "Sensory symptoms",
+      "Bladder dysfunction"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Rapid neurological decline"
+    },
+    {
+      "level": "RED",
+      "item": "Severe sphincter dysfunction"
+    },
+    {
+      "level": "RED",
+      "item": "Acute worsening after exertion"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Myelopathy exam",
+      "Gait",
+      "Reflexes",
+      "Sensory level"
+    ]
+  },
+  "differentials": [
+    "Degenerative myelopathy",
+    "Transverse myelitis",
+    "Peripheral neuropathy"
+  ],
+  "investigations": {
+    "principle": "MRI may show cord edema and perimedullary flow voids; spinal angiography confirms the fistula.",
+    "MRI": "Use MRI when neural, soft-tissue, marrow, inflammatory, infection, occult injury or other condition-specific assessment requires it.",
+    "radiographs": "Use radiographs and/or CT according to the condition-specific imaging pathway."
+  },
+  "management": {
+    "green": [
+      "Urgent neurosurgical/interventional neuroradiology referral"
+    ],
+    "amber": [
+      "Definitive treatment is endovascular embolization or surgical disconnection depending on anatomy."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Vata/myelopathy framework is secondary to vascular diagnosis."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Abnormal arteriovenous shunt in the spinal dura causing venous hypertension and progressive congestive myelopathy, often affecting middle-aged or older adults.",
+    "urgent": "Seek urgent assessment for acute/progressive neurological deficit, sphincter change, severe infection/systemic illness, major trauma, vascular compromise or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "AHA/ASA",
+      "title": "Spinal vascular malformation resources",
+      "url": "https://www.ahajournals.org/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V2.8-BATCH-14",
+    "proposedGoldChapterNumber": 252
+  }
+}

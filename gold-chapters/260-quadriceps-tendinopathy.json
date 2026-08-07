@@ -1,0 +1,93 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-ORT-QTEND-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Quadriceps Tendinopathy",
+  "synonyms": [],
+  "category": "Orthopedics > Knee > Tendon",
+  "tags": [
+    "quadriceps tendinopathy"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Load-related pain and dysfunction of the quadriceps tendon, typically near its insertion at the superior pole of the patella.",
+  "clinicalPattern": {
+    "typical": [
+      "Anterior superior patellar pain",
+      "Pain with jumping/squatting",
+      "Localized tendon tenderness"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Acute rupture"
+    },
+    {
+      "level": "RED",
+      "item": "Large traumatic effusion"
+    },
+    {
+      "level": "RED",
+      "item": "Extensor mechanism failure"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Quadriceps tendon palpation",
+      "Resisted knee extension",
+      "Straight-leg raise"
+    ]
+  },
+  "differentials": [
+    "Patellofemoral pain",
+    "Patellar tendinopathy",
+    "Quadriceps strain"
+  ],
+  "investigations": {
+    "principle": "Usually clinical; ultrasound/MRI is used when tear or refractory symptoms are suspected.",
+    "MRI": "Use MRI when neural, soft-tissue, marrow, inflammatory, infection, occult injury or other condition-specific assessment requires it.",
+    "radiographs": "Use radiographs and/or CT according to the condition-specific imaging pathway."
+  },
+  "management": {
+    "green": [
+      "Progressive tendon loading",
+      "Load management"
+    ],
+    "amber": [
+      "Injection around tendon and surgery are selective options only."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Janu/Snayu phenotype may be documented."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Load-related pain and dysfunction of the quadriceps tendon, typically near its insertion at the superior pole of the patella.",
+    "urgent": "Seek urgent assessment for acute/progressive neurological deficit, sphincter change, severe infection/systemic illness, major trauma, vascular compromise or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "JOSPT",
+      "title": "Tendinopathy rehabilitation resources",
+      "url": "https://www.jospt.org/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V2.8-BATCH-14",
+    "proposedGoldChapterNumber": 260
+  }
+}

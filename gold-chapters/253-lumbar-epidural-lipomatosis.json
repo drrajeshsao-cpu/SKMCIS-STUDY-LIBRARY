@@ -1,0 +1,94 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-LSP-LEL-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Lumbar Epidural Lipomatosis",
+  "synonyms": [],
+  "category": "Spine > Lumbar > Epidural Space",
+  "tags": [
+    "lumbar epidural lipomatosis"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Excess epidural fat in the lumbar canal causing neural compression, often associated with obesity, steroid exposure or endocrinopathy.",
+  "clinicalPattern": {
+    "typical": [
+      "Low-back pain",
+      "Neurogenic claudication",
+      "Radicular symptoms",
+      "Leg weakness in severe cases"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Progressive weakness"
+    },
+    {
+      "level": "RED",
+      "item": "Cauda equina symptoms"
+    },
+    {
+      "level": "RED",
+      "item": "Rapid functional decline"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Lumbar neurological exam",
+      "Gait",
+      "Root localization"
+    ]
+  },
+  "differentials": [
+    "Lumbar stenosis",
+    "Facet cyst",
+    "Epidural tumor"
+  ],
+  "investigations": {
+    "principle": "MRI demonstrates characteristic epidural fat and compression.",
+    "MRI": "Use MRI when neural, soft-tissue, marrow, inflammatory, infection, occult injury or other condition-specific assessment requires it.",
+    "radiographs": "Use radiographs and/or CT according to the condition-specific imaging pathway."
+  },
+  "management": {
+    "green": [
+      "Address steroid exposure and obesity where possible",
+      "Rehabilitation if stable"
+    ],
+    "amber": [
+      "Severe compression may require decompression."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Medo/Vata phenotype may be documented in parallel only."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Excess epidural fat in the lumbar canal causing neural compression, often associated with obesity, steroid exposure or endocrinopathy.",
+    "urgent": "Seek urgent assessment for acute/progressive neurological deficit, sphincter change, severe infection/systemic illness, major trauma, vascular compromise or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "ACR",
+      "title": "Low Back Pain / Stenosis Imaging",
+      "url": "https://acsearch.acr.org/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V2.8-BATCH-14",
+    "proposedGoldChapterNumber": 253
+  }
+}
