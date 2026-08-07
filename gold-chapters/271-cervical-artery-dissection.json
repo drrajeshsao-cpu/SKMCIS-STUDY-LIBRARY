@@ -1,0 +1,94 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-NEU-CAD-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Cervical Artery Dissection",
+  "synonyms": [],
+  "category": "Neurology > Vascular Emergency",
+  "tags": [
+    "cervical artery dissection"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Tear within a carotid or vertebral artery wall causing intramural hematoma, stenosis or embolism and potentially ischemic stroke.",
+  "clinicalPattern": {
+    "typical": [
+      "New unilateral neck pain or headache",
+      "Partial Horner syndrome",
+      "Posterior circulation symptoms",
+      "Stroke/TIA symptoms"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Any focal neurological deficit"
+    },
+    {
+      "level": "RED",
+      "item": "Thunderclap or severe unusual headache"
+    },
+    {
+      "level": "RED",
+      "item": "Horner syndrome with neck pain"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Cranial nerve exam",
+      "Horner signs",
+      "Full neurological exam"
+    ]
+  },
+  "differentials": [
+    "Migraine",
+    "Cervicogenic headache",
+    "Cluster headache",
+    "Stroke from other cause"
+  ],
+  "investigations": {
+    "principle": "CTA or MRA of head/neck is used according to emergency stroke pathway.",
+    "MRI": "Use MRI when neural, soft-tissue, marrow, vascular, occult injury or other condition-specific assessment requires it.",
+    "radiographs": "Use radiographs and/or CT according to the condition-specific imaging pathway."
+  },
+  "management": {
+    "green": [
+      "Urgent stroke/neurology pathway"
+    ],
+    "amber": [
+      "Neck manipulation should be avoided when dissection is suspected; antithrombotic strategy is specialist-directed."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Shirah/Greeva pain framework is secondary to vascular diagnosis."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Tear within a carotid or vertebral artery wall causing intramural hematoma, stenosis or embolism and potentially ischemic stroke.",
+    "urgent": "Seek urgent assessment for acute/progressive neurological deficit, severe vascular symptoms, infection/systemic illness, major trauma, sphincter change or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "AHA/ASA",
+      "title": "Cervical Artery Dissection scientific resources",
+      "url": "https://www.ahajournals.org/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V2.9-BATCH-15",
+    "proposedGoldChapterNumber": 271
+  }
+}

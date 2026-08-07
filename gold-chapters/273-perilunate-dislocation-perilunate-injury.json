@@ -1,0 +1,98 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-ORT-PLD-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Perilunate Dislocation / Perilunate Injury",
+  "synonyms": [],
+  "category": "Orthopedics > Wrist > Emergency Trauma",
+  "tags": [
+    "perilunate dislocation / perilunate injury"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "High-energy carpal injury with perilunate dislocation or fracture-dislocation, frequently associated with median nerve compression and missed on initial assessment.",
+  "clinicalPattern": {
+    "typical": [
+      "Severe wrist pain/swelling",
+      "Reduced motion",
+      "History of high-energy fall",
+      "Median nerve paresthesia may occur"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Median nerve deficit"
+    },
+    {
+      "level": "RED",
+      "item": "Open injury"
+    },
+    {
+      "level": "RED",
+      "item": "Associated scaphoid fracture"
+    },
+    {
+      "level": "RED",
+      "item": "Gross carpal instability"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Wrist deformity",
+      "Median nerve exam",
+      "Distal perfusion"
+    ]
+  },
+  "differentials": [
+    "Scaphoid fracture",
+    "Wrist sprain",
+    "Lunate dislocation"
+  ],
+  "investigations": {
+    "principle": "Urgent radiographs and CT characterize alignment and fractures.",
+    "MRI": "Use MRI when neural, soft-tissue, marrow, vascular, occult injury or other condition-specific assessment requires it.",
+    "radiographs": "Use radiographs and/or CT according to the condition-specific imaging pathway."
+  },
+  "management": {
+    "green": [
+      "Immediate immobilization",
+      "Urgent hand-surgery pathway"
+    ],
+    "amber": [
+      "Most perilunate injuries require reduction and operative stabilization."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Manibandha-bhagna/Sandhi displacement concepts are secondary to emergency modern care."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "High-energy carpal injury with perilunate dislocation or fracture-dislocation, frequently associated with median nerve compression and missed on initial assessment.",
+    "urgent": "Seek urgent assessment for acute/progressive neurological deficit, severe vascular symptoms, infection/systemic illness, major trauma, sphincter change or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "BSSH",
+      "title": "Perilunate injuries resources",
+      "url": "https://www.bssh.ac.uk/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V2.9-BATCH-15",
+    "proposedGoldChapterNumber": 273
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-ORT-MTOE-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Mallet Toe",
+  "synonyms": [],
+  "category": "Orthopedics > Foot > Toe Deformity",
+  "tags": [
+    "mallet toe"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Flexion deformity primarily at the distal interphalangeal joint of a lesser toe, often causing distal-tip pressure pain or callus.",
+  "clinicalPattern": {
+    "typical": [
+      "DIP flexion deformity",
+      "Toe-tip callus",
+      "Shoe discomfort"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Ulceration/infection"
+    },
+    {
+      "level": "RED",
+      "item": "Neuropathic ischemic foot"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Toe flexibility",
+      "Skin/callus",
+      "Neurovascular exam"
+    ]
+  },
+  "differentials": [
+    "Hammertoe",
+    "Claw toe",
+    "Arthritis"
+  ],
+  "investigations": {
+    "principle": "Radiographs are selective for rigid deformity or surgery planning.",
+    "MRI": "Use MRI when neural, soft-tissue, marrow, vascular, occult injury or other condition-specific assessment requires it.",
+    "radiographs": "Use radiographs and/or CT according to the condition-specific imaging pathway."
+  },
+  "management": {
+    "green": [
+      "Footwear modification",
+      "Padding",
+      "Flexible-toe exercises"
+    ],
+    "amber": [
+      "Persistent rigid painful deformity may require surgery."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Pada-anguli vikriti may be documented."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Flexion deformity primarily at the distal interphalangeal joint of a lesser toe, often causing distal-tip pressure pain or callus.",
+    "urgent": "Seek urgent assessment for acute/progressive neurological deficit, severe vascular symptoms, infection/systemic illness, major trauma, sphincter change or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "FootCareMD",
+      "title": "Lesser Toe Deformities",
+      "url": "https://www.footcaremd.org/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V2.9-BATCH-15",
+    "proposedGoldChapterNumber": 284
+  }
+}

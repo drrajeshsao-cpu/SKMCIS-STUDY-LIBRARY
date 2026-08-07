@@ -1,0 +1,99 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-NEU-DHS-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Dropped Head Syndrome",
+  "synonyms": [],
+  "category": "Neurology > Neuromuscular/Postural",
+  "tags": [
+    "dropped head syndrome"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Marked weakness of neck extensor muscles causing inability to maintain the head in an upright position, arising from neuromuscular, parkinsonian, inflammatory or structural causes.",
+  "clinicalPattern": {
+    "typical": [
+      "Chin-on-chest posture",
+      "Neck extensor weakness",
+      "Fatigue",
+      "Possible dysphagia or gait issues depending on cause"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Rapid progression"
+    },
+    {
+      "level": "RED",
+      "item": "Respiratory weakness"
+    },
+    {
+      "level": "RED",
+      "item": "Bulbar symptoms"
+    },
+    {
+      "level": "RED",
+      "item": "New myelopathy"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Neck flexor/extensor strength",
+      "Cranial/bulbar exam",
+      "Limb neurological exam"
+    ]
+  },
+  "differentials": [
+    "Myasthenia gravis",
+    "Inflammatory myopathy",
+    "Motor neuron disease",
+    "Parkinsonism"
+  ],
+  "investigations": {
+    "principle": "Cause-directed labs, EMG and cervical/brain imaging are selected according to phenotype.",
+    "MRI": "Use MRI when neural, soft-tissue, marrow, vascular, occult injury or other condition-specific assessment requires it.",
+    "radiographs": "Use radiographs and/or CT according to the condition-specific imaging pathway."
+  },
+  "management": {
+    "green": [
+      "Neuromuscular specialist assessment",
+      "Postural support and rehabilitation"
+    ],
+    "amber": [
+      "Treatment depends entirely on the underlying cause; avoid assuming a simple mechanical neck disorder."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Greeva/Bala-kshaya phenotype may be documented only as a parallel framework."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Marked weakness of neck extensor muscles causing inability to maintain the head in an upright position, arising from neuromuscular, parkinsonian, inflammatory or structural causes.",
+    "urgent": "Seek urgent assessment for acute/progressive neurological deficit, severe vascular symptoms, infection/systemic illness, major trauma, sphincter change or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "AANEM",
+      "title": "Neuromuscular resources",
+      "url": "https://www.aanem.org/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V2.9-BATCH-15",
+    "proposedGoldChapterNumber": 269
+  }
+}

@@ -1,0 +1,93 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-ORT-JF-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Jersey Finger",
+  "synonyms": [],
+  "category": "Orthopedics > Hand > Flexor Tendon Injury",
+  "tags": [
+    "jersey finger"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Avulsion of the flexor digitorum profundus tendon from the distal phalanx, classically during forced extension of an actively flexed finger.",
+  "clinicalPattern": {
+    "typical": [
+      "Inability to flex DIP joint",
+      "Pain at volar distal finger",
+      "Sports-related mechanism"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Open injury"
+    },
+    {
+      "level": "RED",
+      "item": "Associated fracture"
+    },
+    {
+      "level": "RED",
+      "item": "Neurovascular deficit"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Isolated FDP testing",
+      "Finger cascade",
+      "Neurovascular exam"
+    ]
+  },
+  "differentials": [
+    "Finger sprain",
+    "Distal phalanx fracture",
+    "FDS injury"
+  ],
+  "investigations": {
+    "principle": "Radiographs assess avulsion fragment; ultrasound/MRI is selective.",
+    "MRI": "Use MRI when neural, soft-tissue, marrow, vascular, occult injury or other condition-specific assessment requires it.",
+    "radiographs": "Use radiographs and/or CT according to the condition-specific imaging pathway."
+  },
+  "management": {
+    "green": [
+      "Urgent hand-surgery referral",
+      "Protect injured finger"
+    ],
+    "amber": [
+      "Early surgical repair is usually required for complete FDP avulsion."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Anguli-Snayu avulsion phenotype may be documented."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Avulsion of the flexor digitorum profundus tendon from the distal phalanx, classically during forced extension of an actively flexed finger.",
+    "urgent": "Seek urgent assessment for acute/progressive neurological deficit, severe vascular symptoms, infection/systemic illness, major trauma, sphincter change or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "BSSH",
+      "title": "Flexor tendon injuries",
+      "url": "https://www.bssh.ac.uk/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V2.9-BATCH-15",
+    "proposedGoldChapterNumber": 278
+  }
+}

@@ -1,0 +1,93 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-ORT-CSI-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Central Slip Injury of the Finger",
+  "synonyms": [],
+  "category": "Orthopedics > Hand > Extensor Mechanism",
+  "tags": [
+    "central slip injury of the finger"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Injury of the central slip of the extensor tendon at the PIP joint, which can progress to boutonnière deformity if missed.",
+  "clinicalPattern": {
+    "typical": [
+      "PIP pain/swelling after jammed finger",
+      "Weak PIP extension",
+      "Early deformity may be absent"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Open tendon injury"
+    },
+    {
+      "level": "RED",
+      "item": "Fracture-dislocation"
+    },
+    {
+      "level": "RED",
+      "item": "Neurovascular compromise"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Elson test",
+      "PIP extension",
+      "DIP motion"
+    ]
+  },
+  "differentials": [
+    "PIP sprain",
+    "Boutonnière deformity",
+    "Phalangeal fracture"
+  ],
+  "investigations": {
+    "principle": "Radiographs exclude avulsion fracture; ultrasound/MRI is selective.",
+    "MRI": "Use MRI when neural, soft-tissue, marrow, vascular, occult injury or other condition-specific assessment requires it.",
+    "radiographs": "Use radiographs and/or CT according to the condition-specific imaging pathway."
+  },
+  "management": {
+    "green": [
+      "Early PIP extension splinting when appropriate",
+      "Hand therapy"
+    ],
+    "amber": [
+      "Delayed diagnosis increases risk of fixed boutonnière deformity."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Anguli-Snayu injury phenotype may be documented."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Injury of the central slip of the extensor tendon at the PIP joint, which can progress to boutonnière deformity if missed.",
+    "urgent": "Seek urgent assessment for acute/progressive neurological deficit, severe vascular symptoms, infection/systemic illness, major trauma, sphincter change or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "BSSH",
+      "title": "Extensor tendon injury resources",
+      "url": "https://www.bssh.ac.uk/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V2.9-BATCH-15",
+    "proposedGoldChapterNumber": 277
+  }
+}

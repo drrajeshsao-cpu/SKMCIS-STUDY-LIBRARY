@@ -1,0 +1,93 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-ORT-LD-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Lunate Dislocation",
+  "synonyms": [],
+  "category": "Orthopedics > Wrist > Emergency Dislocation",
+  "tags": [
+    "lunate dislocation"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Carpal dislocation in which the lunate loses alignment with the radius/capitate, often producing acute median nerve compression.",
+  "clinicalPattern": {
+    "typical": [
+      "Severe wrist pain",
+      "Swelling",
+      "Median nerve symptoms",
+      "Reduced motion"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Acute carpal tunnel syndrome"
+    },
+    {
+      "level": "RED",
+      "item": "Open injury"
+    },
+    {
+      "level": "RED",
+      "item": "Neurovascular compromise"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Median nerve exam",
+      "Wrist deformity",
+      "Perfusion"
+    ]
+  },
+  "differentials": [
+    "Perilunate dislocation",
+    "Scaphoid fracture",
+    "Distal radius fracture"
+  ],
+  "investigations": {
+    "principle": "Radiographs establish diagnosis; CT defines associated fractures.",
+    "MRI": "Use MRI when neural, soft-tissue, marrow, vascular, occult injury or other condition-specific assessment requires it.",
+    "radiographs": "Use radiographs and/or CT according to the condition-specific imaging pathway."
+  },
+  "management": {
+    "green": [
+      "Urgent reduction and hand-surgery referral"
+    ],
+    "amber": [
+      "Definitive ligamentous repair/stabilization is usually required."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Manibandha Sandhi displacement phenotype may be documented after emergency reduction."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Carpal dislocation in which the lunate loses alignment with the radius/capitate, often producing acute median nerve compression.",
+    "urgent": "Seek urgent assessment for acute/progressive neurological deficit, severe vascular symptoms, infection/systemic illness, major trauma, sphincter change or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "BSSH",
+      "title": "Carpal dislocation resources",
+      "url": "https://www.bssh.ac.uk/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V2.9-BATCH-15",
+    "proposedGoldChapterNumber": 274
+  }
+}

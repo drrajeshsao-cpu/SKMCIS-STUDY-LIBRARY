@@ -1,0 +1,93 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-ORT-STS-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Sinus Tarsi Syndrome",
+  "synonyms": [],
+  "category": "Orthopedics > Foot & Ankle > Hindfoot",
+  "tags": [
+    "sinus tarsi syndrome"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Lateral hindfoot pain arising from structures within the sinus tarsi, often after ankle sprain or with subtalar instability.",
+  "clinicalPattern": {
+    "typical": [
+      "Pain anterolateral to lateral malleolus",
+      "Pain on uneven ground",
+      "Feeling of hindfoot instability"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Fracture"
+    },
+    {
+      "level": "RED",
+      "item": "Infection"
+    },
+    {
+      "level": "RED",
+      "item": "Acute severe instability"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Sinus tarsi tenderness",
+      "Subtalar motion/stability",
+      "Ankle ligament assessment"
+    ]
+  },
+  "differentials": [
+    "Lateral ankle instability",
+    "Subtalar OA",
+    "Peroneal tendinopathy"
+  ],
+  "investigations": {
+    "principle": "Usually clinical; MRI can assess synovitis, scar, ligament and subtalar pathology.",
+    "MRI": "Use MRI when neural, soft-tissue, marrow, vascular, occult injury or other condition-specific assessment requires it.",
+    "radiographs": "Use radiographs and/or CT according to the condition-specific imaging pathway."
+  },
+  "management": {
+    "green": [
+      "Ankle/subtalar stability rehabilitation",
+      "Footwear/orthotic support"
+    ],
+    "amber": [
+      "Persistent symptoms may need injection or arthroscopic assessment."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Gulpha/Pada mechanical phenotype may be documented."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Lateral hindfoot pain arising from structures within the sinus tarsi, often after ankle sprain or with subtalar instability.",
+    "urgent": "Seek urgent assessment for acute/progressive neurological deficit, severe vascular symptoms, infection/systemic illness, major trauma, sphincter change or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "FootCareMD",
+      "title": "Hindfoot pain resources",
+      "url": "https://www.footcaremd.org/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V2.9-BATCH-15",
+    "proposedGoldChapterNumber": 287
+  }
+}

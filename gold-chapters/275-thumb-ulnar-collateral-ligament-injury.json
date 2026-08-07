@@ -1,0 +1,97 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-ORT-TUCL-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Thumb Ulnar Collateral Ligament Injury",
+  "synonyms": [],
+  "category": "Orthopedics > Hand > Thumb Ligament",
+  "tags": [
+    "thumb ulnar collateral ligament injury"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Injury of the thumb MCP ulnar collateral ligament, acute (skier's thumb) or chronic (gamekeeper's thumb), with possible Stener lesion.",
+  "clinicalPattern": {
+    "typical": [
+      "Pain/swelling at ulnar thumb MCP",
+      "Weak pinch",
+      "Instability with valgus stress"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Open injury"
+    },
+    {
+      "level": "RED",
+      "item": "Associated fracture"
+    },
+    {
+      "level": "RED",
+      "item": "Gross instability"
+    },
+    {
+      "level": "RED",
+      "item": "Neurovascular deficit"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Valgus stress at MCP in appropriate setting",
+      "Pinch strength",
+      "Neurovascular exam"
+    ]
+  },
+  "differentials": [
+    "Thumb fracture",
+    "CMC OA",
+    "De Quervain tenosynovitis"
+  ],
+  "investigations": {
+    "principle": "Radiographs exclude avulsion fracture; ultrasound/MRI can identify complete tear/Stener lesion.",
+    "MRI": "Use MRI when neural, soft-tissue, marrow, vascular, occult injury or other condition-specific assessment requires it.",
+    "radiographs": "Use radiographs and/or CT according to the condition-specific imaging pathway."
+  },
+  "management": {
+    "green": [
+      "Thumb-spica protection for suitable partial tears",
+      "Early hand follow-up"
+    ],
+    "amber": [
+      "Complete displaced tears or Stener lesions usually require repair."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Angushtha-Snayu injury phenotype may be documented."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Injury of the thumb MCP ulnar collateral ligament, acute (skier's thumb) or chronic (gamekeeper's thumb), with possible Stener lesion.",
+    "urgent": "Seek urgent assessment for acute/progressive neurological deficit, severe vascular symptoms, infection/systemic illness, major trauma, sphincter change or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "BSSH",
+      "title": "Skier's Thumb resources",
+      "url": "https://www.bssh.ac.uk/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V2.9-BATCH-15",
+    "proposedGoldChapterNumber": 275
+  }
+}

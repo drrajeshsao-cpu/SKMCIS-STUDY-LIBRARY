@@ -1,0 +1,94 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-ORT-FREI-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Freiberg Disease",
+  "synonyms": [],
+  "category": "Orthopedics > Foot > Metatarsal Osteonecrosis",
+  "tags": [
+    "freiberg disease"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Osteonecrosis and collapse of a metatarsal head, most commonly the second, causing forefoot pain in adolescents or young adults.",
+  "clinicalPattern": {
+    "typical": [
+      "Localized forefoot pain",
+      "MTP stiffness",
+      "Pain with push-off"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Infection"
+    },
+    {
+      "level": "RED",
+      "item": "Stress fracture"
+    },
+    {
+      "level": "RED",
+      "item": "Rapid destructive arthritis"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Metatarsal head tenderness",
+      "MTP ROM",
+      "Forefoot alignment"
+    ]
+  },
+  "differentials": [
+    "Metatarsalgia",
+    "Morton neuroma",
+    "Stress fracture"
+  ],
+  "investigations": {
+    "principle": "Radiographs show flattening/sclerosis in established disease; MRI detects early changes.",
+    "MRI": "Use MRI when neural, soft-tissue, marrow, vascular, occult injury or other condition-specific assessment requires it.",
+    "radiographs": "Use radiographs and/or CT according to the condition-specific imaging pathway."
+  },
+  "management": {
+    "green": [
+      "Activity modification",
+      "Forefoot off-loading",
+      "Stiff-soled footwear"
+    ],
+    "amber": [
+      "Advanced collapse may require surgical debridement/osteotomy or reconstruction."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Pada Asthi-Sandhi phenotype may be documented descriptively."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Osteonecrosis and collapse of a metatarsal head, most commonly the second, causing forefoot pain in adolescents or young adults.",
+    "urgent": "Seek urgent assessment for acute/progressive neurological deficit, severe vascular symptoms, infection/systemic illness, major trauma, sphincter change or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "FootCareMD",
+      "title": "Freiberg Disease resources",
+      "url": "https://www.footcaremd.org/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V2.9-BATCH-15",
+    "proposedGoldChapterNumber": 281
+  }
+}

@@ -1,0 +1,93 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-CSP-CRIB-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Cervical Rib Syndrome",
+  "synonyms": [],
+  "category": "Spine/Thoracic Outlet > Congenital Variant",
+  "tags": [
+    "cervical rib syndrome"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Symptoms caused by a cervical rib or elongated C7 transverse process contributing to neurovascular compression at the thoracic outlet.",
+  "clinicalPattern": {
+    "typical": [
+      "Arm paresthesia",
+      "Hand weakness or fatigue",
+      "Symptoms with overhead activity",
+      "Possible vascular symptoms"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Acute limb ischemia"
+    },
+    {
+      "level": "RED",
+      "item": "Venous thrombosis"
+    },
+    {
+      "level": "RED",
+      "item": "Progressive neurological deficit"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Neurovascular exam",
+      "Thoracic outlet provocative maneuvers interpreted cautiously",
+      "Cervical and peripheral nerve screen"
+    ]
+  },
+  "differentials": [
+    "Cervical radiculopathy",
+    "Ulnar neuropathy",
+    "Thoracic outlet syndrome without cervical rib"
+  ],
+  "investigations": {
+    "principle": "Radiographs/CT identify cervical rib anatomy; vascular imaging or electrodiagnostics are selected according to subtype.",
+    "MRI": "Use MRI when neural, soft-tissue, marrow, vascular, occult injury or other condition-specific assessment requires it.",
+    "radiographs": "Use radiographs and/or CT according to the condition-specific imaging pathway."
+  },
+  "management": {
+    "green": [
+      "Postural/scapular rehabilitation in stable neurogenic cases"
+    ],
+    "amber": [
+      "Vascular compromise or persistent severe neurogenic symptoms require specialist thoracic/vascular assessment."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Upper-limb Vata phenotype may be documented while structural compression remains explicit."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Symptoms caused by a cervical rib or elongated C7 transverse process contributing to neurovascular compression at the thoracic outlet.",
+    "urgent": "Seek urgent assessment for acute/progressive neurological deficit, severe vascular symptoms, infection/systemic illness, major trauma, sphincter change or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "Society for Vascular Surgery",
+      "title": "Thoracic Outlet Syndrome resources",
+      "url": "https://vascular.org/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V2.9-BATCH-15",
+    "proposedGoldChapterNumber": 270
+  }
+}

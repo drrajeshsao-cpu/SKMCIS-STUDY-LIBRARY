@@ -1,0 +1,95 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-ORT-PPT-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Plantar Plate Tear of the Lesser MTP Joint",
+  "synonyms": [],
+  "category": "Orthopedics > Foot > Lesser MTP",
+  "tags": [
+    "plantar plate tear of the lesser mtp joint"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Partial or complete injury of the lesser metatarsophalangeal plantar plate, often causing forefoot pain and progressive toe deviation.",
+  "clinicalPattern": {
+    "typical": [
+      "Plantar forefoot pain",
+      "MTP instability",
+      "Floating/crossover toe",
+      "Pain with push-off"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Acute dislocation"
+    },
+    {
+      "level": "RED",
+      "item": "Stress fracture"
+    },
+    {
+      "level": "RED",
+      "item": "Septic joint"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Drawer test of lesser MTP",
+      "Toe alignment",
+      "Plantar tenderness"
+    ]
+  },
+  "differentials": [
+    "Morton neuroma",
+    "Metatarsalgia",
+    "Stress fracture"
+  ],
+  "investigations": {
+    "principle": "Ultrasound/MRI can demonstrate plantar-plate tear; weight-bearing radiographs assess alignment.",
+    "MRI": "Use MRI when neural, soft-tissue, marrow, vascular, occult injury or other condition-specific assessment requires it.",
+    "radiographs": "Use radiographs and/or CT according to the condition-specific imaging pathway."
+  },
+  "management": {
+    "green": [
+      "Toe taping",
+      "Off-loading",
+      "Footwear modification"
+    ],
+    "amber": [
+      "Persistent unstable deformity may require surgical repair."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Pada-anguli Snayu/Sandhi phenotype may be documented."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Partial or complete injury of the lesser metatarsophalangeal plantar plate, often causing forefoot pain and progressive toe deviation.",
+    "urgent": "Seek urgent assessment for acute/progressive neurological deficit, severe vascular symptoms, infection/systemic illness, major trauma, sphincter change or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "FootCareMD",
+      "title": "Lesser MTP instability resources",
+      "url": "https://www.footcaremd.org/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V2.9-BATCH-15",
+    "proposedGoldChapterNumber": 282
+  }
+}

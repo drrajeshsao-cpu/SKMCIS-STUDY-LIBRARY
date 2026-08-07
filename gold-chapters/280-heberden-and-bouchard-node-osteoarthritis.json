@@ -1,0 +1,95 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-ORT-HBOA-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Heberden and Bouchard Node Osteoarthritis",
+  "synonyms": [],
+  "category": "Orthopedics > Hand > Interphalangeal OA",
+  "tags": [
+    "heberden and bouchard node osteoarthritis"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Osteoarthritis of DIP and PIP joints producing characteristic bony enlargement known as Heberden and Bouchard nodes.",
+  "clinicalPattern": {
+    "typical": [
+      "DIP/PIP bony nodes",
+      "Pain/stiffness",
+      "Reduced fine hand function"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Acute hot joint"
+    },
+    {
+      "level": "RED",
+      "item": "Marked inflammatory swelling"
+    },
+    {
+      "level": "RED",
+      "item": "Rapid erosive change"
+    }
+  ],
+  "examination": {
+    "core": [
+      "DIP/PIP alignment",
+      "ROM",
+      "Tenderness",
+      "Nail/psoriasis screen"
+    ]
+  },
+  "differentials": [
+    "Psoriatic arthritis",
+    "Rheumatoid arthritis",
+    "Gout"
+  ],
+  "investigations": {
+    "principle": "Radiographs are used when diagnosis is uncertain or erosive/inflammatory disease is suspected.",
+    "MRI": "Use MRI when neural, soft-tissue, marrow, vascular, occult injury or other condition-specific assessment requires it.",
+    "radiographs": "Use radiographs and/or CT according to the condition-specific imaging pathway."
+  },
+  "management": {
+    "green": [
+      "Hand exercise",
+      "Joint protection",
+      "Topical/local symptom strategies"
+    ],
+    "amber": [
+      "Persistent severe disease may require specialist hand/rheumatology review."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Anguli Sandhigata-Vata phenotype may be documented."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Osteoarthritis of DIP and PIP joints producing characteristic bony enlargement known as Heberden and Bouchard nodes.",
+    "urgent": "Seek urgent assessment for acute/progressive neurological deficit, severe vascular symptoms, infection/systemic illness, major trauma, sphincter change or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "NICE",
+      "title": "Osteoarthritis NG226",
+      "url": "https://www.nice.org/guidance/ng226",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V2.9-BATCH-15",
+    "proposedGoldChapterNumber": 280
+  }
+}

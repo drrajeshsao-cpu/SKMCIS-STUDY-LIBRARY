@@ -1,0 +1,95 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-ORT-STOA-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Subtalar Joint Osteoarthritis",
+  "synonyms": [],
+  "category": "Orthopedics > Foot & Ankle > Subtalar Joint",
+  "tags": [
+    "subtalar joint osteoarthritis"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Degenerative arthritis of the subtalar joint, commonly post-traumatic after calcaneal fracture or associated with hindfoot deformity.",
+  "clinicalPattern": {
+    "typical": [
+      "Hindfoot pain",
+      "Pain on uneven surfaces",
+      "Reduced inversion/eversion",
+      "Stiffness"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Acute fracture"
+    },
+    {
+      "level": "RED",
+      "item": "Infection"
+    },
+    {
+      "level": "RED",
+      "item": "Charcot arthropathy"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Subtalar ROM",
+      "Hindfoot alignment",
+      "Gait"
+    ]
+  },
+  "differentials": [
+    "Peroneal tendinopathy",
+    "Ankle OA",
+    "Sinus tarsi syndrome"
+  ],
+  "investigations": {
+    "principle": "Weight-bearing radiographs and CT define joint degeneration; MRI is selective.",
+    "MRI": "Use MRI when neural, soft-tissue, marrow, vascular, occult injury or other condition-specific assessment requires it.",
+    "radiographs": "Use radiographs and/or CT according to the condition-specific imaging pathway."
+  },
+  "management": {
+    "green": [
+      "Footwear/orthotic modification",
+      "Activity management",
+      "Rehabilitation"
+    ],
+    "amber": [
+      "Persistent severe disease may require subtalar fusion."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Pada/Gulpha Sandhigata phenotype may be documented."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Degenerative arthritis of the subtalar joint, commonly post-traumatic after calcaneal fracture or associated with hindfoot deformity.",
+    "urgent": "Seek urgent assessment for acute/progressive neurological deficit, severe vascular symptoms, infection/systemic illness, major trauma, sphincter change or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "FootCareMD",
+      "title": "Subtalar Arthritis resources",
+      "url": "https://www.footcaremd.org/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V2.9-BATCH-15",
+    "proposedGoldChapterNumber": 286
+  }
+}

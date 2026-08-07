@@ -1,0 +1,92 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-ORT-TRCL-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Thumb Radial Collateral Ligament Injury",
+  "synonyms": [],
+  "category": "Orthopedics > Hand > Thumb Ligament",
+  "tags": [
+    "thumb radial collateral ligament injury"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Injury of the thumb MCP radial collateral ligament causing pain and instability on the radial side of the joint.",
+  "clinicalPattern": {
+    "typical": [
+      "Radial MCP pain",
+      "Pinch weakness",
+      "Instability after trauma"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Open injury"
+    },
+    {
+      "level": "RED",
+      "item": "Associated fracture"
+    },
+    {
+      "level": "RED",
+      "item": "Gross instability"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Varus stress assessment",
+      "MCP stability",
+      "Neurovascular exam"
+    ]
+  },
+  "differentials": [
+    "UCL injury",
+    "MCP fracture",
+    "Arthritis"
+  ],
+  "investigations": {
+    "principle": "Radiographs assess avulsion; ultrasound/MRI may characterize complete tears.",
+    "MRI": "Use MRI when neural, soft-tissue, marrow, vascular, occult injury or other condition-specific assessment requires it.",
+    "radiographs": "Use radiographs and/or CT according to the condition-specific imaging pathway."
+  },
+  "management": {
+    "green": [
+      "Thumb-spica support for partial stable injuries"
+    ],
+    "amber": [
+      "Complete unstable tears may need surgical repair."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Angushtha-Snayu injury phenotype may be documented."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Injury of the thumb MCP radial collateral ligament causing pain and instability on the radial side of the joint.",
+    "urgent": "Seek urgent assessment for acute/progressive neurological deficit, severe vascular symptoms, infection/systemic illness, major trauma, sphincter change or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "BSSH",
+      "title": "Thumb ligament injury resources",
+      "url": "https://www.bssh.ac.uk/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V2.9-BATCH-15",
+    "proposedGoldChapterNumber": 276
+  }
+}

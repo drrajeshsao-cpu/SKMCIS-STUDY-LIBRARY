@@ -1,0 +1,95 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-CSP-CSA-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Cervical Spondylotic Amyotrophy",
+  "synonyms": [],
+  "category": "Spine > Cervical > Motor Syndrome",
+  "tags": [
+    "cervical spondylotic amyotrophy"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Motor-predominant cervical degenerative syndrome causing weakness and muscle wasting of one or more upper-limb myotomes with relatively limited sensory symptoms.",
+  "clinicalPattern": {
+    "typical": [
+      "Focal arm weakness",
+      "Muscle wasting",
+      "Reduced reflexes in affected myotomes",
+      "Minimal sensory loss"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Progressive weakness"
+    },
+    {
+      "level": "RED",
+      "item": "Myelopathic signs"
+    },
+    {
+      "level": "RED",
+      "item": "Respiratory or widespread neurological deficit"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Myotomal strength",
+      "Reflexes",
+      "Sensory exam",
+      "Myelopathy screen"
+    ]
+  },
+  "differentials": [
+    "Motor neuron disease",
+    "Brachial plexopathy",
+    "Cervical radiculopathy"
+  ],
+  "investigations": {
+    "principle": "MRI cervical spine plus electrodiagnostic testing helps distinguish root/anterior horn pathology and mimics.",
+    "MRI": "Use MRI when neural, soft-tissue, marrow, vascular, occult injury or other condition-specific assessment requires it.",
+    "radiographs": "Use radiographs and/or CT according to the condition-specific imaging pathway."
+  },
+  "management": {
+    "green": [
+      "Spine/neurology review",
+      "Targeted rehabilitation"
+    ],
+    "amber": [
+      "Progressive motor deficit or significant compression may require surgical decompression."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Vata-neuromuscular phenotype may be documented only in parallel."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Motor-predominant cervical degenerative syndrome causing weakness and muscle wasting of one or more upper-limb myotomes with relatively limited sensory symptoms.",
+    "urgent": "Seek urgent assessment for acute/progressive neurological deficit, severe vascular symptoms, infection/systemic illness, major trauma, sphincter change or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "ACR",
+      "title": "Cervical Neck Pain or Cervical Radiculopathy",
+      "url": "https://acsearch.acr.org/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V2.9-BATCH-15",
+    "proposedGoldChapterNumber": 268
+  }
+}

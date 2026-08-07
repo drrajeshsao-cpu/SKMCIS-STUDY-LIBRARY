@@ -1,0 +1,94 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-ORT-MCI-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Carpal Instability - Midcarpal",
+  "synonyms": [],
+  "category": "Orthopedics > Wrist > Instability",
+  "tags": [
+    "carpal instability - midcarpal"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Dynamic or static instability involving abnormal motion between proximal and distal carpal rows, producing pain, clunking or weakness.",
+  "clinicalPattern": {
+    "typical": [
+      "Wrist clunk",
+      "Pain with loading",
+      "Weak grip",
+      "Sense of instability"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Acute perilunate injury"
+    },
+    {
+      "level": "RED",
+      "item": "Fracture"
+    },
+    {
+      "level": "RED",
+      "item": "Neurovascular deficit"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Midcarpal shift/clunk assessment",
+      "Grip",
+      "Scapholunate and TFCC screen"
+    ]
+  },
+  "differentials": [
+    "Scapholunate injury",
+    "TFCC injury",
+    "Wrist OA"
+  ],
+  "investigations": {
+    "principle": "Dynamic radiographs, fluoroscopy and MRI/arthroscopy are selected according to suspected instability.",
+    "MRI": "Use MRI when neural, soft-tissue, marrow, vascular, occult injury or other condition-specific assessment requires it.",
+    "radiographs": "Use radiographs and/or CT according to the condition-specific imaging pathway."
+  },
+  "management": {
+    "green": [
+      "Activity modification",
+      "Wrist stabilization therapy"
+    ],
+    "amber": [
+      "Persistent symptomatic mechanical instability may require hand-surgery reconstruction."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Manibandha-Sandhi instability phenotype may be documented."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Dynamic or static instability involving abnormal motion between proximal and distal carpal rows, producing pain, clunking or weakness.",
+    "urgent": "Seek urgent assessment for acute/progressive neurological deficit, severe vascular symptoms, infection/systemic illness, major trauma, sphincter change or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "BSSH",
+      "title": "Carpal instability resources",
+      "url": "https://www.bssh.ac.uk/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V2.9-BATCH-15",
+    "proposedGoldChapterNumber": 272
+  }
+}

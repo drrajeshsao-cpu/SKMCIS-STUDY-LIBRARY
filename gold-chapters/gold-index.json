@@ -265,7 +265,27 @@
     "gold-chapters/264-intersection-syndrome.json",
     "gold-chapters/265-wartenberg-syndrome-superficial-radial-neuropathy.json",
     "gold-chapters/266-digital-nerve-injury.json",
-    "gold-chapters/267-metatarsalgia.json"
+    "gold-chapters/267-metatarsalgia.json",
+    "gold-chapters/268-cervical-spondylotic-amyotrophy.json",
+    "gold-chapters/269-dropped-head-syndrome.json",
+    "gold-chapters/270-cervical-rib-syndrome.json",
+    "gold-chapters/271-cervical-artery-dissection.json",
+    "gold-chapters/272-carpal-instability-midcarpal.json",
+    "gold-chapters/273-perilunate-dislocation-perilunate-injury.json",
+    "gold-chapters/274-lunate-dislocation.json",
+    "gold-chapters/275-thumb-ulnar-collateral-ligament-injury.json",
+    "gold-chapters/276-thumb-radial-collateral-ligament-injury.json",
+    "gold-chapters/277-central-slip-injury-of-the-finger.json",
+    "gold-chapters/278-jersey-finger.json",
+    "gold-chapters/279-mcp-joint-osteoarthritis-of-the-hand.json",
+    "gold-chapters/280-heberden-and-bouchard-node-osteoarthritis.json",
+    "gold-chapters/281-freiberg-disease.json",
+    "gold-chapters/282-plantar-plate-tear-of-the-lesser-mtp-joint.json",
+    "gold-chapters/283-hammertoe-claw-toe-deformity.json",
+    "gold-chapters/284-mallet-toe.json",
+    "gold-chapters/285-ankle-osteoarthritis.json",
+    "gold-chapters/286-subtalar-joint-osteoarthritis.json",
+    "gold-chapters/287-sinus-tarsi-syndrome.json"
   ],
-  "expectedTotalGold": 268
+  "expectedTotalGold": 288
 }

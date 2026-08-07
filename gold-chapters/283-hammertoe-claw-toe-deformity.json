@@ -1,0 +1,95 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-ORT-HCT-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Hammertoe / Claw Toe Deformity",
+  "synonyms": [],
+  "category": "Orthopedics > Foot > Toe Deformity",
+  "tags": [
+    "hammertoe / claw toe deformity"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Flexion deformity of one or more lesser toes caused by imbalance of intrinsic/extrinsic tendons and joints, ranging from flexible to rigid.",
+  "clinicalPattern": {
+    "typical": [
+      "Bent toe",
+      "Shoe pressure pain",
+      "Callus/corn",
+      "Forefoot discomfort"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Ulceration/infection"
+    },
+    {
+      "level": "RED",
+      "item": "Neuropathic foot"
+    },
+    {
+      "level": "RED",
+      "item": "Rapidly progressive neurological deformity"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Flexible versus rigid deformity",
+      "MTP stability",
+      "Callus and neurovascular assessment"
+    ]
+  },
+  "differentials": [
+    "Plantar plate tear",
+    "Charcot-Marie-Tooth-related clawing",
+    "MTP arthritis"
+  ],
+  "investigations": {
+    "principle": "Weight-bearing radiographs are used for structural/surgical assessment.",
+    "MRI": "Use MRI when neural, soft-tissue, marrow, vascular, occult injury or other condition-specific assessment requires it.",
+    "radiographs": "Use radiographs and/or CT according to the condition-specific imaging pathway."
+  },
+  "management": {
+    "green": [
+      "Wide footwear",
+      "Padding",
+      "Stretching and toe exercises"
+    ],
+    "amber": [
+      "Rigid painful deformity may require tendon/bony correction."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Pada-anguli vikriti may be documented descriptively."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Flexion deformity of one or more lesser toes caused by imbalance of intrinsic/extrinsic tendons and joints, ranging from flexible to rigid.",
+    "urgent": "Seek urgent assessment for acute/progressive neurological deficit, severe vascular symptoms, infection/systemic illness, major trauma, sphincter change or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "AAOS OrthoInfo",
+      "title": "Hammertoe",
+      "url": "https://orthoinfo.aaos.org/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V2.9-BATCH-15",
+    "proposedGoldChapterNumber": 283
+  }
+}
