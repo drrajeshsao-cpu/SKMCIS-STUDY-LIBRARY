@@ -1,0 +1,114 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-NEU-ALS-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Amyotrophic Lateral Sclerosis / Motor Neuron Disease",
+  "synonyms": [
+    "ALS",
+    "Motor neuron disease",
+    "MND"
+  ],
+  "category": "Neurology > Motor Neuron Disease",
+  "tags": [
+    "ALS",
+    "motor neuron disease",
+    "weakness",
+    "fasciculation",
+    "upper motor neuron"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Progressive neurodegenerative disease affecting upper and lower motor neurons, causing weakness, muscle wasting, bulbar and respiratory dysfunction while sensation is usually relatively preserved.",
+  "clinicalPattern": {
+    "typical": [
+      "Progressive focal weakness",
+      "Muscle wasting/fasciculations",
+      "Hyperreflexia/spasticity",
+      "Bulbar dysfunction",
+      "Respiratory weakness"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Respiratory compromise"
+    },
+    {
+      "level": "RED",
+      "item": "Severe dysphagia/aspiration"
+    },
+    {
+      "level": "RED",
+      "item": "Rapid progression or inability to manage secretions"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Upper and lower motor-neuron signs",
+      "Bulbar function",
+      "Respiratory assessment",
+      "Gait and functional status",
+      "Sensory exam"
+    ]
+  },
+  "differentials": [
+    "Cervical myelopathy",
+    "Multifocal motor neuropathy",
+    "Myasthenia gravis",
+    "CIDP",
+    "Structural brain/spinal lesions"
+  ],
+  "investigations": {
+    "principle": "Diagnosis requires specialist neurological assessment and exclusion of mimics.",
+    "MRI": "MRI brain/spine helps exclude structural mimics; electrodiagnostic testing supports diagnosis.",
+    "radiographs": "Radiographs are not diagnostic."
+  },
+  "management": {
+    "green": [
+      "Early multidisciplinary neuromuscular care",
+      "Respiratory, nutrition, communication and mobility support",
+      "Disease-modifying therapy where appropriate"
+    ],
+    "amber": [
+      "Ayurvedic or supportive therapy must not delay respiratory, swallowing, nutrition or neurology pathways."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Progressive Vata-neuromuscular phenotype may be described only as a parallel framework; ALS/MND remains a distinct modern diagnosis."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Progressive neurodegenerative disease affecting upper and lower motor neurons, causing weakness, muscle wasting, bulbar and respiratory dysfunction while sensation is usually relatively preserved.",
+    "urgent": "Seek urgent assessment for acute/progressive neurological deficit, breathing/swallowing difficulty, sphincter change, severe infection/systemic illness, major trauma, vascular compromise or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "NICE",
+      "title": "Motor neurone disease NG42",
+      "url": "https://www.nice.org.uk/guidance/ng42",
+      "checked": "2026-08-07"
+    },
+    {
+      "organization": "AAN",
+      "title": "ALS care guidance",
+      "url": "https://www.aan.com/Guidelines/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V2.0-BATCH-06",
+    "proposedGoldChapterNumber": 107
+  }
+}

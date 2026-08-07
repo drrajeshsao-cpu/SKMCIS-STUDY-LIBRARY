@@ -1,0 +1,111 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-ORT-TSF-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Tibial Shaft Fracture",
+  "synonyms": [
+    "Tibia shaft fracture"
+  ],
+  "category": "Orthopedics > Leg > Fracture",
+  "tags": [
+    "tibia",
+    "shaft fracture",
+    "compartment syndrome",
+    "open fracture"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Fracture of the tibial diaphysis, often high-energy and at risk of open injury, compartment syndrome, infection and delayed union.",
+  "clinicalPattern": {
+    "typical": [
+      "Leg pain/deformity",
+      "Swelling",
+      "Inability to bear weight",
+      "Open wound may be present"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Open fracture"
+    },
+    {
+      "level": "RED",
+      "item": "Compartment syndrome"
+    },
+    {
+      "level": "RED",
+      "item": "Vascular compromise"
+    },
+    {
+      "level": "RED",
+      "item": "Severe soft-tissue injury"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Skin/open wound",
+      "Serial compartment assessment",
+      "Distal pulses and nerves",
+      "Knee/ankle assessment"
+    ]
+  },
+  "differentials": [
+    "Fibular fracture",
+    "Ankle/knee fracture",
+    "Stress fracture"
+  ],
+  "investigations": {
+    "principle": "Urgent radiographs define pattern; open injuries need trauma pathway.",
+    "MRI": "CT for articular extension; MRI is not routine acute shaft fracture.",
+    "radiographs": "AP/lateral tibia including knee and ankle."
+  },
+  "management": {
+    "green": [
+      "Urgent stabilization",
+      "Open-fracture antibiotics/debridement pathway when applicable",
+      "Definitive fixation and rehabilitation"
+    ],
+    "amber": [
+      "Repeated neurovascular/compartment checks are essential; do not delay fasciotomy when compartment syndrome is suspected."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Bhagna principles may support later rehabilitation, not substitute for urgent fracture and wound management."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Fracture of the tibial diaphysis, often high-energy and at risk of open injury, compartment syndrome, infection and delayed union.",
+    "urgent": "Seek urgent assessment for acute/progressive neurological deficit, breathing/swallowing difficulty, sphincter change, severe infection/systemic illness, major trauma, vascular compromise or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "BOAST",
+      "title": "Open Fractures Standards",
+      "url": "https://www.boa.ac.uk/",
+      "checked": "2026-08-07"
+    },
+    {
+      "organization": "AAOS",
+      "title": "Tibial Shaft Fractures",
+      "url": "https://orthoinfo.aaos.org/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V2.0-BATCH-06",
+    "proposedGoldChapterNumber": 104
+  }
+}

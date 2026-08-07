@@ -1,0 +1,111 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-ORT-DRF-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Distal Radius Fracture",
+  "synonyms": [
+    "Colles fracture",
+    "Wrist fracture"
+  ],
+  "category": "Orthopedics > Wrist > Fracture",
+  "tags": [
+    "distal radius",
+    "wrist fracture",
+    "Colles",
+    "fall"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Fracture of the distal radius, commonly after a fall on an outstretched hand and frequently associated with osteoporosis in older adults.",
+  "clinicalPattern": {
+    "typical": [
+      "Wrist pain/swelling",
+      "Deformity",
+      "Reduced wrist motion",
+      "Tenderness after fall"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Open fracture"
+    },
+    {
+      "level": "RED",
+      "item": "Median nerve compromise"
+    },
+    {
+      "level": "RED",
+      "item": "Vascular compromise"
+    },
+    {
+      "level": "RED",
+      "item": "Compartment syndrome"
+    },
+    {
+      "level": "RED",
+      "item": "Irreducible severe deformity"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Skin and deformity",
+      "Median/ulnar/radial nerve exam",
+      "Circulation",
+      "Elbow/hand assessment"
+    ]
+  },
+  "differentials": [
+    "Scaphoid fracture",
+    "Carpal injury",
+    "Distal ulna fracture",
+    "Wrist sprain"
+  ],
+  "investigations": {
+    "principle": "Radiographs characterize displacement, comminution and articular involvement.",
+    "MRI": "CT can assist complex intra-articular planning; MRI is not routine.",
+    "radiographs": "AP/lateral wrist radiographs are standard."
+  },
+  "management": {
+    "green": [
+      "Immediate immobilization and analgesia",
+      "Reduction when indicated",
+      "Hand/wrist rehabilitation after stabilization"
+    ],
+    "amber": [
+      "Operative fixation depends on alignment, stability, articular involvement, age and functional demand."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Bhagna principles may support rehabilitation only after reduction/stability assessment."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Fracture of the distal radius, commonly after a fall on an outstretched hand and frequently associated with osteoporosis in older adults.",
+    "urgent": "Seek urgent assessment for acute/progressive neurological deficit, breathing/swallowing difficulty, sphincter change, severe infection/systemic illness, major trauma, vascular compromise or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "AAOS",
+      "title": "Distal Radius Fractures CPG",
+      "url": "https://www.aaos.org/quality/quality-programs/clinical-practice-guidelines/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V2.0-BATCH-06",
+    "proposedGoldChapterNumber": 100
+  }
+}

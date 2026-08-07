@@ -1,0 +1,106 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-ORT-PHT-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Proximal Hamstring Tendinopathy",
+  "synonyms": [
+    "High hamstring tendinopathy"
+  ],
+  "category": "Orthopedics > Hip/Thigh > Tendon",
+  "tags": [
+    "hamstring",
+    "tendinopathy",
+    "ischial pain",
+    "running"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Load-related tendinopathy at the proximal hamstring origin near the ischial tuberosity, common in running and prolonged sitting sports.",
+  "clinicalPattern": {
+    "typical": [
+      "Deep lower-buttock pain",
+      "Pain with running, hinging or prolonged sitting",
+      "Tenderness near ischial tuberosity",
+      "Pain with resisted knee flexion or stretch"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Acute avulsion with major weakness/bruising"
+    },
+    {
+      "level": "RED",
+      "item": "Neurological deficit"
+    },
+    {
+      "level": "RED",
+      "item": "Pelvic fracture"
+    },
+    {
+      "level": "RED",
+      "item": "Tumour/infection concern"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Hamstring strength",
+      "Provocation under stretch/load",
+      "Lumbar and neural screen",
+      "Hip examination"
+    ]
+  },
+  "differentials": [
+    "Deep gluteal syndrome",
+    "Lumbar radiculopathy",
+    "Ischiogluteal bursitis",
+    "Ischiofemoral impingement"
+  ],
+  "investigations": {
+    "principle": "Typical diagnosis is clinical.",
+    "MRI": "MRI/ultrasound is used for severe, refractory or suspected tear/avulsion.",
+    "radiographs": "Radiographs may detect bony avulsion in acute trauma."
+  },
+  "management": {
+    "green": [
+      "Progressive hamstring loading",
+      "Reduce prolonged compression early",
+      "Graded return to running/sport"
+    ],
+    "amber": [
+      "Injection/surgery is selective; acute major avulsion needs early orthopedic review."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Snayu/Kandara Vata phenotype may be documented descriptively."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Load-related tendinopathy at the proximal hamstring origin near the ischial tuberosity, common in running and prolonged sitting sports.",
+    "urgent": "Seek urgent assessment for acute/progressive neurological deficit, breathing/swallowing difficulty, sphincter change, severe infection/systemic illness, major trauma, vascular compromise or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "JOSPT",
+      "title": "Tendinopathy rehabilitation principles",
+      "url": "https://www.jospt.org/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V2.0-BATCH-06",
+    "proposedGoldChapterNumber": 94
+  }
+}

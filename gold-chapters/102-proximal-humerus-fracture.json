@@ -1,0 +1,103 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-ORT-PHF-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Proximal Humerus Fracture",
+  "synonyms": [
+    "Proximal humeral fracture"
+  ],
+  "category": "Orthopedics > Shoulder > Fracture",
+  "tags": [
+    "proximal humerus",
+    "shoulder fracture",
+    "fragility"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Fracture of the proximal humerus, commonly a fragility fracture after a fall in older adults.",
+  "clinicalPattern": {
+    "typical": [
+      "Shoulder pain/swelling",
+      "Bruising",
+      "Reduced movement",
+      "Possible deformity"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Open fracture"
+    },
+    {
+      "level": "RED",
+      "item": "Axillary nerve or vascular deficit"
+    },
+    {
+      "level": "RED",
+      "item": "Fracture-dislocation"
+    },
+    {
+      "level": "RED",
+      "item": "Severe polytrauma"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Skin",
+      "Axillary nerve sensation/deltoid function",
+      "Distal neurovascular exam",
+      "Shoulder/elbow assessment"
+    ]
+  },
+  "differentials": [
+    "Shoulder dislocation",
+    "Clavicle fracture",
+    "Rotator cuff tear"
+  ],
+  "investigations": {
+    "principle": "Radiographs define fracture pattern.",
+    "MRI": "CT helps complex fracture/surgical planning.",
+    "radiographs": "AP/scapular-Y/axillary views as tolerated."
+  },
+  "management": {
+    "green": [
+      "Sling and early guided motion for many minimally displaced fractures",
+      "Analgesia and osteoporosis assessment"
+    ],
+    "amber": [
+      "Operative treatment depends on displacement, fracture-dislocation, vascularity, age and functional needs."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Bhagna rehabilitation may be integrated only after modern fracture stability is secured."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Fracture of the proximal humerus, commonly a fragility fracture after a fall in older adults.",
+    "urgent": "Seek urgent assessment for acute/progressive neurological deficit, breathing/swallowing difficulty, sphincter change, severe infection/systemic illness, major trauma, vascular compromise or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "AAOS",
+      "title": "Proximal Humerus Fractures",
+      "url": "https://orthoinfo.aaos.org/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V2.0-BATCH-06",
+    "proposedGoldChapterNumber": 102
+  }
+}

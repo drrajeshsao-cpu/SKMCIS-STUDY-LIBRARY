@@ -1,0 +1,112 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-ORT-AF-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Ankle Fracture",
+  "synonyms": [
+    "Malleolar fracture"
+  ],
+  "category": "Orthopedics > Foot & Ankle > Fracture",
+  "tags": [
+    "ankle fracture",
+    "malleolus",
+    "Ottawa ankle",
+    "fracture"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Fracture involving one or more malleoli and/or distal tibiofibular stabilizers, ranging from stable isolated fractures to unstable fracture-dislocations.",
+  "clinicalPattern": {
+    "typical": [
+      "Ankle pain/swelling after trauma",
+      "Inability to bear weight",
+      "Deformity in displaced injury",
+      "Bony tenderness"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Open fracture"
+    },
+    {
+      "level": "RED",
+      "item": "Neurovascular compromise"
+    },
+    {
+      "level": "RED",
+      "item": "Fracture-dislocation"
+    },
+    {
+      "level": "RED",
+      "item": "Skin threatened by deformity"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Skin and deformity",
+      "Ottawa criteria",
+      "Neurovascular exam",
+      "Proximal fibula and syndesmosis assessment"
+    ]
+  },
+  "differentials": [
+    "Lateral ankle sprain",
+    "Syndesmotic injury",
+    "Base fifth-metatarsal fracture",
+    "Maisonneuve injury"
+  ],
+  "investigations": {
+    "principle": "Radiographs are guided by clinical suspicion/Ottawa rules.",
+    "MRI": "CT for complex posterior malleolar or pilon-type planning; MRI is not routine.",
+    "radiographs": "AP/lateral/mortise ankle views."
+  },
+  "management": {
+    "green": [
+      "Urgent reduction if dislocated/threatened skin",
+      "Immobilization and weight-bearing plan according to stability",
+      "Rehabilitation after healing"
+    ],
+    "amber": [
+      "Operative fixation depends on instability, displacement, syndesmotic injury and fracture pattern."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Gulpha-bhagna principles may be integrated only after modern fracture alignment/stability management."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Fracture involving one or more malleoli and/or distal tibiofibular stabilizers, ranging from stable isolated fractures to unstable fracture-dislocations.",
+    "urgent": "Seek urgent assessment for acute/progressive neurological deficit, breathing/swallowing difficulty, sphincter change, severe infection/systemic illness, major trauma, vascular compromise or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "BOAST",
+      "title": "Management of Ankle Fractures",
+      "url": "https://www.boa.ac.uk/",
+      "checked": "2026-08-07"
+    },
+    {
+      "organization": "Ottawa Ankle Rules",
+      "title": "Imaging decision rule",
+      "url": "https://www.ohri.ca/emerg/cdr/ankle_rule.aspx",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V2.0-BATCH-06",
+    "proposedGoldChapterNumber": 105
+  }
+}

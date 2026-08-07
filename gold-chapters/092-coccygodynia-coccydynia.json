@@ -1,0 +1,107 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-SPN-COC-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Coccygodynia / Coccydynia",
+  "synonyms": [
+    "Coccydynia",
+    "Coccygeal pain"
+  ],
+  "category": "Spine/Pelvis > Coccyx",
+  "tags": [
+    "coccyx",
+    "coccydynia",
+    "tailbone pain",
+    "sitting pain"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Pain localized to the coccyx, commonly aggravated by sitting or rising from sitting and sometimes related to trauma, childbirth or coccygeal mobility abnormalities.",
+  "clinicalPattern": {
+    "typical": [
+      "Focal tailbone pain",
+      "Pain with prolonged sitting",
+      "Pain rising from seated position",
+      "Local tenderness"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Constitutional symptoms or tumour concern"
+    },
+    {
+      "level": "RED",
+      "item": "Infection"
+    },
+    {
+      "level": "RED",
+      "item": "Major trauma/fracture"
+    },
+    {
+      "level": "RED",
+      "item": "Neurological or sphincter symptoms not explained by isolated coccygeal pain"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Coccygeal tenderness",
+      "Pelvic/lumbar/hip screen",
+      "Neurological examination when symptoms extend beyond local pain"
+    ]
+  },
+  "differentials": [
+    "Sacroiliac pain",
+    "Lumbar referred pain",
+    "Pelvic floor disorder",
+    "Pilonidal disease",
+    "Tumour/infection"
+  ],
+  "investigations": {
+    "principle": "Most uncomplicated cases are diagnosed clinically.",
+    "MRI": "MRI may be used for atypical pain, tumour/infection concern or persistent unexplained symptoms.",
+    "radiographs": "Dynamic sitting/standing radiographs can demonstrate abnormal coccygeal mobility in selected cases."
+  },
+  "management": {
+    "green": [
+      "Seat modification/cushion",
+      "Activity and bowel-habit optimization",
+      "Pelvic floor or musculoskeletal rehabilitation when appropriate"
+    ],
+    "amber": [
+      "Injection, manipulation or coccygectomy are reserved for selected persistent cases."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Kati/Guda-region pain phenotype may be documented descriptively; serious pelvic/spinal causes must first be excluded."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Pain localized to the coccyx, commonly aggravated by sitting or rising from sitting and sometimes related to trauma, childbirth or coccygeal mobility abnormalities.",
+    "urgent": "Seek urgent assessment for acute/progressive neurological deficit, breathing/swallowing difficulty, sphincter change, severe infection/systemic illness, major trauma, vascular compromise or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "European Spine Journal",
+      "title": "Coccydynia reviews and management evidence",
+      "url": "https://link.springer.com/journal/586",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V2.0-BATCH-06",
+    "proposedGoldChapterNumber": 92
+  }
+}

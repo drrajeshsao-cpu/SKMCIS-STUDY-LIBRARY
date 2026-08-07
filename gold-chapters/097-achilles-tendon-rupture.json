@@ -1,0 +1,101 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-ORT-ATR-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Achilles Tendon Rupture",
+  "synonyms": [
+    "Ruptured Achilles tendon"
+  ],
+  "category": "Orthopedics > Foot & Ankle > Tendon Rupture",
+  "tags": [
+    "Achilles rupture",
+    "Thompson test",
+    "tendon rupture"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Complete or partial rupture of the Achilles tendon, often occurring during sudden push-off, jumping or acceleration.",
+  "clinicalPattern": {
+    "typical": [
+      "Sudden snap or kick sensation in posterior ankle",
+      "Weak plantar flexion",
+      "Difficulty toe walking",
+      "Palpable gap may be present"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Open rupture"
+    },
+    {
+      "level": "RED",
+      "item": "Neurovascular compromise"
+    },
+    {
+      "level": "RED",
+      "item": "Associated fracture or major trauma"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Thompson/Simmonds test",
+      "Resting ankle position",
+      "Palpation and plantar-flexion strength",
+      "Neurovascular exam"
+    ]
+  },
+  "differentials": [
+    "Severe Achilles tendinopathy",
+    "Calf strain",
+    "DVT",
+    "Ankle injury"
+  ],
+  "investigations": {
+    "principle": "Diagnosis is commonly clinical.",
+    "MRI": "Ultrasound/MRI helps when diagnosis is uncertain or for selected planning.",
+    "radiographs": "Radiographs if associated fracture is suspected."
+  },
+  "management": {
+    "green": [
+      "Early functional immobilization in plantar flexion",
+      "Prompt orthopedic pathway",
+      "Structured progressive rehabilitation"
+    ],
+    "amber": [
+      "Operative versus nonoperative treatment is individualized by age, activity, gap, comorbidity and local expertise."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Snayu/Kandara bhagna-like injury phenotype may be documented; modern rupture management remains primary."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Complete or partial rupture of the Achilles tendon, often occurring during sudden push-off, jumping or acceleration.",
+    "urgent": "Seek urgent assessment for acute/progressive neurological deficit, breathing/swallowing difficulty, sphincter change, severe infection/systemic illness, major trauma, vascular compromise or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "AAOS",
+      "title": "Achilles Tendon Rupture",
+      "url": "https://orthoinfo.aaos.org/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V2.0-BATCH-06",
+    "proposedGoldChapterNumber": 97
+  }
+}

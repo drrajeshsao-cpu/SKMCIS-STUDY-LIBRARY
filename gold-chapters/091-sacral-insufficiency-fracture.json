@@ -1,0 +1,113 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-SPN-SIF-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Sacral Insufficiency Fracture",
+  "synonyms": [
+    "Sacral stress insufficiency fracture"
+  ],
+  "category": "Spine/Pelvis > Fragility Fracture",
+  "tags": [
+    "sacral fracture",
+    "insufficiency fracture",
+    "osteoporosis",
+    "pelvic pain"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Fragility fracture of the sacrum resulting from normal physiological stress on weakened bone, commonly in older adults with osteoporosis.",
+  "clinicalPattern": {
+    "typical": [
+      "Low-back, sacral or buttock pain",
+      "Pain with standing/walking",
+      "Often minimal or no trauma history",
+      "Possible difficulty mobilizing"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Neurological deficit or sphincter dysfunction"
+    },
+    {
+      "level": "RED",
+      "item": "High-energy trauma"
+    },
+    {
+      "level": "RED",
+      "item": "Severe uncontrolled pain or inability to mobilize"
+    },
+    {
+      "level": "RED",
+      "item": "Concern for malignancy or infection"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Sacral/pelvic tenderness",
+      "Gait and weight-bearing tolerance",
+      "Neurological examination",
+      "Hip examination"
+    ]
+  },
+  "differentials": [
+    "Lumbar stenosis",
+    "SI joint pain",
+    "Hip fracture",
+    "Metastasis",
+    "Sacral infection"
+  ],
+  "investigations": {
+    "principle": "Plain radiographs may miss sacral insufficiency fractures.",
+    "MRI": "MRI is highly sensitive and shows marrow edema; CT depicts fracture lines and healing.",
+    "radiographs": "Pelvic radiographs are often insensitive."
+  },
+  "management": {
+    "green": [
+      "Analgesia and early protected mobilization",
+      "Osteoporosis evaluation/treatment",
+      "Falls prevention and rehabilitation"
+    ],
+    "amber": [
+      "Persistent severe pain or unstable patterns require specialist assessment; sacroplasty is selective."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Bhagna/Asthi-kshaya principles may be considered only after modern fracture/stability assessment."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Fragility fracture of the sacrum resulting from normal physiological stress on weakened bone, commonly in older adults with osteoporosis.",
+    "urgent": "Seek urgent assessment for acute/progressive neurological deficit, breathing/swallowing difficulty, sphincter change, severe infection/systemic illness, major trauma, vascular compromise or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "American College of Radiology (ACR)",
+      "title": "Stress/Insufficiency Fracture Imaging",
+      "url": "https://acsearch.acr.org/",
+      "checked": "2026-08-07"
+    },
+    {
+      "organization": "NOGG",
+      "title": "Osteoporosis Guideline",
+      "url": "https://www.nogg.org.uk/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V2.0-BATCH-06",
+    "proposedGoldChapterNumber": 91
+  }
+}

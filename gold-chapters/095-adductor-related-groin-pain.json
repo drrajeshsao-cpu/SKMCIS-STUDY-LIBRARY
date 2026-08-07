@@ -1,0 +1,108 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-ORT-AGP-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Adductor-Related Groin Pain",
+  "synonyms": [
+    "Adductor tendinopathy",
+    "Athletic groin pain"
+  ],
+  "category": "Orthopedics > Hip/Groin > Muscle-Tendon",
+  "tags": [
+    "adductor",
+    "groin pain",
+    "sports",
+    "tendinopathy"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Groin pain reproduced by adductor palpation and resisted adduction, often occurring in athletes and requiring differentiation from hip, inguinal and pubic causes.",
+  "clinicalPattern": {
+    "typical": [
+      "Groin pain with running/cutting",
+      "Pain on resisted adduction",
+      "Adductor tenderness",
+      "Reduced sport tolerance"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Acute fracture/avulsion"
+    },
+    {
+      "level": "RED",
+      "item": "Inability to bear weight"
+    },
+    {
+      "level": "RED",
+      "item": "Testicular/abdominal emergency"
+    },
+    {
+      "level": "RED",
+      "item": "Infection or tumour concern"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Adductor squeeze/resisted adduction",
+      "Hip ROM",
+      "Inguinal and pubic assessment",
+      "Lumbar and neurological screen"
+    ]
+  },
+  "differentials": [
+    "Femoroacetabular impingement",
+    "Hip OA",
+    "Inguinal-related groin pain",
+    "Pubic aponeurosis injury",
+    "Stress fracture"
+  ],
+  "investigations": {
+    "principle": "Clinical classification guides imaging.",
+    "MRI": "MRI/ultrasound can help when symptoms persist or diagnosis is uncertain.",
+    "radiographs": "Radiographs assess hip/pelvic bony pathology."
+  },
+  "management": {
+    "green": [
+      "Progressive adductor and hip strengthening",
+      "Graded running/cutting return",
+      "Load management"
+    ],
+    "amber": [
+      "Surgery or injection is rarely first-line and depends on confirmed structural pathology."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Vankshana/Snayu musculoskeletal phenotype may be documented."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Groin pain reproduced by adductor palpation and resisted adduction, often occurring in athletes and requiring differentiation from hip, inguinal and pubic causes.",
+    "urgent": "Seek urgent assessment for acute/progressive neurological deficit, breathing/swallowing difficulty, sphincter change, severe infection/systemic illness, major trauma, vascular compromise or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "Doha Agreement",
+      "title": "Terminology and definitions in groin pain in athletes",
+      "url": "https://bjsm.bmj.com/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V2.0-BATCH-06",
+    "proposedGoldChapterNumber": 95
+  }
+}

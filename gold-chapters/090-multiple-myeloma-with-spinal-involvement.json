@@ -1,0 +1,116 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-ONC-MM-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Multiple Myeloma with Spinal Involvement",
+  "synonyms": [
+    "Plasma cell myeloma",
+    "Myeloma spine"
+  ],
+  "category": "Oncology/Hematology > Spine/Bone",
+  "tags": [
+    "multiple myeloma",
+    "spine",
+    "lytic lesion",
+    "vertebral fracture",
+    "plasma cell"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Clonal plasma-cell malignancy that may involve vertebrae and other bones, causing lytic lesions, pathological fractures, anemia, renal dysfunction, hypercalcemia and neural compression.",
+  "clinicalPattern": {
+    "typical": [
+      "Persistent bone or back pain",
+      "Pathological vertebral fracture",
+      "Fatigue/anemia",
+      "Recurrent infection",
+      "Renal dysfunction or hypercalcemia symptoms"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Spinal cord/cauda equina compression"
+    },
+    {
+      "level": "RED",
+      "item": "Severe hypercalcemia"
+    },
+    {
+      "level": "RED",
+      "item": "Acute kidney injury"
+    },
+    {
+      "level": "RED",
+      "item": "Sepsis or pathological fracture with instability"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Neurological examination",
+      "Spinal tenderness/deformity",
+      "General examination for anemia, dehydration and infection",
+      "Functional status"
+    ]
+  },
+  "differentials": [
+    "Metastatic bone disease",
+    "Osteoporosis",
+    "Lymphoma",
+    "Vertebral osteomyelitis",
+    "MGUS/smoldering myeloma"
+  ],
+  "investigations": {
+    "principle": "Diagnosis requires hematologic evaluation including monoclonal protein studies, marrow assessment and modern skeletal imaging.",
+    "MRI": "Whole-body low-dose CT, PET/CT or MRI is selected according to guideline and clinical question.",
+    "radiographs": "Plain skeletal survey is less sensitive than modern imaging and is no longer preferred in many pathways."
+  },
+  "management": {
+    "green": [
+      "Urgent hematology/oncology assessment",
+      "Treat complications such as hypercalcemia, renal dysfunction, infection and fracture",
+      "Spine stabilization/radiotherapy when indicated"
+    ],
+    "amber": [
+      "Ayurvedic/supportive therapies must not delay oncologic treatment or cord-compression pathways."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Asthi/Majja-dhatu involvement may be described as a parallel framework only; myeloma remains a specific hematologic malignancy."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Clonal plasma-cell malignancy that may involve vertebrae and other bones, causing lytic lesions, pathological fractures, anemia, renal dysfunction, hypercalcemia and neural compression.",
+    "urgent": "Seek urgent assessment for acute/progressive neurological deficit, breathing/swallowing difficulty, sphincter change, severe infection/systemic illness, major trauma, vascular compromise or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "International Myeloma Working Group",
+      "title": "Myeloma diagnostic and imaging guidance",
+      "url": "https://www.myeloma.org/",
+      "checked": "2026-08-07"
+    },
+    {
+      "organization": "NCCN",
+      "title": "Multiple Myeloma Guidelines",
+      "url": "https://www.nccn.org/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V2.0-BATCH-06",
+    "proposedGoldChapterNumber": 90
+  }
+}

@@ -1,0 +1,106 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-ORT-FNF-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Femoral Neck Fracture",
+  "synonyms": [
+    "Intracapsular hip fracture"
+  ],
+  "category": "Orthopedics > Hip > Fracture",
+  "tags": [
+    "femoral neck fracture",
+    "hip fracture",
+    "elderly",
+    "fragility"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Intracapsular fracture of the proximal femur, commonly a fragility fracture in older adults and associated with substantial morbidity and mortality.",
+  "clinicalPattern": {
+    "typical": [
+      "Acute groin/hip pain after fall",
+      "Inability to bear weight",
+      "Shortened externally rotated limb in displaced fractures",
+      "Occult fracture may allow partial weight bearing"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Any suspected hip fracture requires urgent assessment"
+    },
+    {
+      "level": "RED",
+      "item": "Neurovascular compromise"
+    },
+    {
+      "level": "RED",
+      "item": "Polytrauma"
+    },
+    {
+      "level": "RED",
+      "item": "Delirium/sepsis or anticoagulation-related complexity"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Hip pain and limb position",
+      "Neurovascular examination",
+      "General geriatric/trauma assessment",
+      "Falls and delirium assessment"
+    ]
+  },
+  "differentials": [
+    "Intertrochanteric fracture",
+    "Hip dislocation",
+    "Pelvic fracture",
+    "Occult insufficiency fracture"
+  ],
+  "investigations": {
+    "principle": "Prompt imaging is required.",
+    "MRI": "MRI is preferred for suspected occult fracture when radiographs are negative; CT may be used when MRI unavailable.",
+    "radiographs": "AP pelvis and lateral hip radiographs are first-line."
+  },
+  "management": {
+    "green": [
+      "Urgent orthopedic management",
+      "Early surgery when appropriate",
+      "Multidisciplinary analgesia, delirium, thrombosis and rehabilitation care"
+    ],
+    "amber": [
+      "Displaced fractures and patient factors determine fixation versus arthroplasty; avoid delaying surgery without medical reason."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Bhagna management principles may complement recovery only after modern fracture stabilization and surgical decision-making."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Intracapsular fracture of the proximal femur, commonly a fragility fracture in older adults and associated with substantial morbidity and mortality.",
+    "urgent": "Seek urgent assessment for acute/progressive neurological deficit, breathing/swallowing difficulty, sphincter change, severe infection/systemic illness, major trauma, vascular compromise or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "NICE",
+      "title": "Hip fracture management CG124",
+      "url": "https://www.nice.org.uk/guidance/cg124",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V2.0-BATCH-06",
+    "proposedGoldChapterNumber": 98
+  }
+}

@@ -1,0 +1,107 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-NEU-ET-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Essential Tremor",
+  "synonyms": [
+    "Essential tremor syndrome"
+  ],
+  "category": "Neurology > Movement Disorder",
+  "tags": [
+    "essential tremor",
+    "tremor",
+    "action tremor",
+    "hand tremor"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Common neurological syndrome characterized mainly by bilateral upper-limb action tremor, with or without head or voice tremor, in the absence of another better explanation.",
+  "clinicalPattern": {
+    "typical": [
+      "Action/postural hand tremor",
+      "Difficulty writing, eating or pouring",
+      "Head/voice tremor may occur",
+      "Often gradual progression"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Sudden onset tremor"
+    },
+    {
+      "level": "RED",
+      "item": "Focal neurological deficit"
+    },
+    {
+      "level": "RED",
+      "item": "Marked rigidity/bradykinesia or cerebellar signs"
+    },
+    {
+      "level": "RED",
+      "item": "Drug/toxin or metabolic emergency"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Tremor at rest, posture and action",
+      "Bradykinesia/rigidity screen",
+      "Cerebellar examination",
+      "Thyroid/drug history"
+    ]
+  },
+  "differentials": [
+    "Parkinson disease",
+    "Enhanced physiologic tremor",
+    "Drug-induced tremor",
+    "Dystonic tremor",
+    "Cerebellar tremor"
+  ],
+  "investigations": {
+    "principle": "Diagnosis is clinical; laboratory testing targets mimics.",
+    "MRI": "MRI is used when atypical neurological features are present.",
+    "radiographs": "Radiographs are not diagnostic."
+  },
+  "management": {
+    "green": [
+      "Reduce aggravating stimulants when relevant",
+      "Occupational/adaptive strategies",
+      "Neurology-directed treatment when functionally limiting"
+    ],
+    "amber": [
+      "Propranolol/primidone and advanced therapies require individualized contraindication and specialist review."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Kampa phenotype may be documented, but essential tremor should remain distinct from Parkinson disease and other causes."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Common neurological syndrome characterized mainly by bilateral upper-limb action tremor, with or without head or voice tremor, in the absence of another better explanation.",
+    "urgent": "Seek urgent assessment for acute/progressive neurological deficit, breathing/swallowing difficulty, sphincter change, severe infection/systemic illness, major trauma, vascular compromise or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "American Academy of Neurology",
+      "title": "Essential Tremor Guidance",
+      "url": "https://www.aan.com/Guidelines/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V2.0-BATCH-06",
+    "proposedGoldChapterNumber": 106
+  }
+}

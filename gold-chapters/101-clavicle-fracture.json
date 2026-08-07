@@ -1,0 +1,103 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-ORT-CLF-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Clavicle Fracture",
+  "synonyms": [
+    "Broken collarbone"
+  ],
+  "category": "Orthopedics > Shoulder Girdle > Fracture",
+  "tags": [
+    "clavicle fracture",
+    "shoulder",
+    "fracture"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Fracture of the clavicle, most commonly the middle third, usually after direct shoulder impact or fall.",
+  "clinicalPattern": {
+    "typical": [
+      "Localized clavicular pain",
+      "Swelling/deformity",
+      "Pain with shoulder movement",
+      "Possible skin tenting"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Open fracture or threatened skin"
+    },
+    {
+      "level": "RED",
+      "item": "Neurovascular injury"
+    },
+    {
+      "level": "RED",
+      "item": "Pneumothorax/chest trauma"
+    },
+    {
+      "level": "RED",
+      "item": "Severe displacement with compromise"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Skin integrity",
+      "Neurovascular exam",
+      "Chest/shoulder assessment"
+    ]
+  },
+  "differentials": [
+    "AC joint injury",
+    "Shoulder dislocation",
+    "Proximal humerus fracture",
+    "Rib injury"
+  ],
+  "investigations": {
+    "principle": "Diagnosis is usually radiographic.",
+    "MRI": "CT for complex medial fractures or associated injury.",
+    "radiographs": "Clavicle radiographs confirm location/displacement."
+  },
+  "management": {
+    "green": [
+      "Sling for comfort in suitable fractures",
+      "Early elbow/hand movement and progressive shoulder rehabilitation"
+    ],
+    "amber": [
+      "Surgery is considered for selected markedly displaced, open, neurovascular or nonunion-risk patterns."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Bhagna principles may complement rehabilitation after modern stability assessment."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Fracture of the clavicle, most commonly the middle third, usually after direct shoulder impact or fall.",
+    "urgent": "Seek urgent assessment for acute/progressive neurological deficit, breathing/swallowing difficulty, sphincter change, severe infection/systemic illness, major trauma, vascular compromise or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "AAOS",
+      "title": "Clavicle Fractures",
+      "url": "https://orthoinfo.aaos.org/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V2.0-BATCH-06",
+    "proposedGoldChapterNumber": 101
+  }
+}

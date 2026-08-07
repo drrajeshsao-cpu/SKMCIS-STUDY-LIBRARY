@@ -1,0 +1,108 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-SPN-DGS-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Deep Gluteal Syndrome / Piriformis Syndrome",
+  "synonyms": [
+    "Piriformis syndrome",
+    "Extraspinal sciatic nerve entrapment"
+  ],
+  "category": "Spine/Hip > Deep Gluteal",
+  "tags": [
+    "deep gluteal syndrome",
+    "piriformis",
+    "sciatic nerve",
+    "buttock pain"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Pain and/or sciatic-nerve symptoms arising from non-discogenic entrapment or irritation within the deep gluteal space.",
+  "clinicalPattern": {
+    "typical": [
+      "Deep buttock pain",
+      "Pain worsened by sitting",
+      "Possible posterior thigh/leg paresthesia",
+      "Tenderness in deep gluteal region"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Progressive motor weakness"
+    },
+    {
+      "level": "RED",
+      "item": "Cauda equina symptoms"
+    },
+    {
+      "level": "RED",
+      "item": "Major trauma"
+    },
+    {
+      "level": "RED",
+      "item": "Fever, tumour or vascular red flags"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Lumbar neurological screen",
+      "Hip ROM",
+      "Deep gluteal provocation tests interpreted in context",
+      "Gait and peripheral nerve assessment"
+    ]
+  },
+  "differentials": [
+    "Lumbar radiculopathy",
+    "SI joint pain",
+    "Hamstring tendinopathy",
+    "Hip OA",
+    "Ischiofemoral impingement"
+  ],
+  "investigations": {
+    "principle": "Diagnosis is clinical and exclusionary; overdiagnosis should be avoided.",
+    "MRI": "MRI pelvis/lumbar spine or electrodiagnostic testing is selected for atypical or persistent cases.",
+    "radiographs": "Radiographs may assess hip/pelvic bony pathology."
+  },
+  "management": {
+    "green": [
+      "Load/posture modification",
+      "Hip and neural mobility rehabilitation",
+      "Treat contributing lumbar/hip factors"
+    ],
+    "amber": [
+      "Image-guided injection or surgery is reserved for selected confirmed persistent entrapment."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Gridhrasi-like symptoms may occur, but lumbar nerve-root disease and other causes must be differentiated."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Pain and/or sciatic-nerve symptoms arising from non-discogenic entrapment or irritation within the deep gluteal space.",
+    "urgent": "Seek urgent assessment for acute/progressive neurological deficit, breathing/swallowing difficulty, sphincter change, severe infection/systemic illness, major trauma, vascular compromise or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "International Hip Preservation Society literature",
+      "title": "Deep Gluteal Syndrome reviews",
+      "url": "https://www.jisakos.com/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V2.0-BATCH-06",
+    "proposedGoldChapterNumber": 93
+  }
+}

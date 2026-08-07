@@ -1,0 +1,104 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-ORT-HSF-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Humeral Shaft Fracture",
+  "synonyms": [
+    "Humerus shaft fracture"
+  ],
+  "category": "Orthopedics > Arm > Fracture",
+  "tags": [
+    "humeral shaft",
+    "fracture",
+    "radial nerve"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Fracture of the humeral diaphysis, caused by direct trauma, falls or twisting mechanisms and associated with risk of radial nerve palsy.",
+  "clinicalPattern": {
+    "typical": [
+      "Arm pain/deformity",
+      "Swelling",
+      "Pain with movement",
+      "Possible wrist/finger extension weakness if radial nerve injured"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Open fracture"
+    },
+    {
+      "level": "RED",
+      "item": "Vascular compromise"
+    },
+    {
+      "level": "RED",
+      "item": "Progressive nerve deficit"
+    },
+    {
+      "level": "RED",
+      "item": "Compartment syndrome or polytrauma"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Skin and deformity",
+      "Radial/median/ulnar nerve exam",
+      "Vascular exam",
+      "Shoulder and elbow assessment"
+    ]
+  },
+  "differentials": [
+    "Shoulder/elbow fracture",
+    "Pathological fracture",
+    "Brachial plexus injury"
+  ],
+  "investigations": {
+    "principle": "Radiographs usually establish diagnosis.",
+    "MRI": "CT only for selected complex extension into joints; MRI for pathological lesion when indicated.",
+    "radiographs": "AP/lateral humerus including shoulder and elbow."
+  },
+  "management": {
+    "green": [
+      "Immobilization then functional bracing for suitable patterns",
+      "Early hand/elbow movement",
+      "Rehabilitation after stability"
+    ],
+    "amber": [
+      "Surgery is selected for open, unstable, vascular, polytrauma or nonunion-risk cases."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Bhagna principles may complement rehabilitation after orthopedic stabilization."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Fracture of the humeral diaphysis, caused by direct trauma, falls or twisting mechanisms and associated with risk of radial nerve palsy.",
+    "urgent": "Seek urgent assessment for acute/progressive neurological deficit, breathing/swallowing difficulty, sphincter change, severe infection/systemic illness, major trauma, vascular compromise or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "AAOS",
+      "title": "Humeral Shaft Fractures",
+      "url": "https://orthoinfo.aaos.org/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V2.0-BATCH-06",
+    "proposedGoldChapterNumber": 103
+  }
+}

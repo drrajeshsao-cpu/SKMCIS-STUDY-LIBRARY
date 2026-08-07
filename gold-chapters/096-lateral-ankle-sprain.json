@@ -1,0 +1,114 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-ORT-LAS-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Lateral Ankle Sprain",
+  "synonyms": [
+    "Ankle inversion sprain",
+    "ATFL/CFL sprain"
+  ],
+  "category": "Orthopedics > Foot & Ankle > Ligament",
+  "tags": [
+    "ankle sprain",
+    "ATFL",
+    "CFL",
+    "inversion injury"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Traumatic injury of the lateral ankle ligament complex, most commonly the anterior talofibular ligament, after inversion/plantar-flexion injury.",
+  "clinicalPattern": {
+    "typical": [
+      "Lateral ankle pain/swelling",
+      "Bruising",
+      "Pain with weight bearing",
+      "Possible instability"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Neurovascular compromise"
+    },
+    {
+      "level": "RED",
+      "item": "Open injury"
+    },
+    {
+      "level": "RED",
+      "item": "Fracture suspicion by Ottawa criteria"
+    },
+    {
+      "level": "RED",
+      "item": "Syndesmotic/high ankle injury with severe instability"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Ottawa ankle/foot rule assessment",
+      "Ligament tenderness",
+      "Anterior drawer/talar tilt after acute pain permits",
+      "Neurovascular exam"
+    ]
+  },
+  "differentials": [
+    "Ankle fracture",
+    "Syndesmotic sprain",
+    "Peroneal tendon injury",
+    "Osteochondral lesion",
+    "Base of fifth metatarsal fracture"
+  ],
+  "investigations": {
+    "principle": "Use validated Ottawa rules to guide radiography.",
+    "MRI": "MRI is not routine initially; used for persistent symptoms or suspected osteochondral/tendon injury.",
+    "radiographs": "Radiographs when Ottawa criteria or clinical suspicion indicate."
+  },
+  "management": {
+    "green": [
+      "Early protected weight bearing as tolerated",
+      "Functional bracing/taping when appropriate",
+      "ROM, strength and proprioception rehabilitation"
+    ],
+    "amber": [
+      "Persistent instability or high-grade syndesmotic injury requires specialist assessment."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Gulpha-sandhi/Snayu injury phenotype may be documented."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Traumatic injury of the lateral ankle ligament complex, most commonly the anterior talofibular ligament, after inversion/plantar-flexion injury.",
+    "urgent": "Seek urgent assessment for acute/progressive neurological deficit, breathing/swallowing difficulty, sphincter change, severe infection/systemic illness, major trauma, vascular compromise or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "JOSPT",
+      "title": "Lateral Ankle Ligament Sprains CPG",
+      "url": "https://www.jospt.org/",
+      "checked": "2026-08-07"
+    },
+    {
+      "organization": "Ottawa Ankle Rules",
+      "title": "Validated imaging decision rule",
+      "url": "https://www.ohri.ca/emerg/cdr/ankle_rule.aspx",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V2.0-BATCH-06",
+    "proposedGoldChapterNumber": 96
+  }
+}

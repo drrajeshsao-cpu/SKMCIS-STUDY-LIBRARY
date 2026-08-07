@@ -1,0 +1,109 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-ORT-ITF-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Intertrochanteric Hip Fracture",
+  "synonyms": [
+    "Extracapsular hip fracture"
+  ],
+  "category": "Orthopedics > Hip > Fracture",
+  "tags": [
+    "intertrochanteric fracture",
+    "hip fracture",
+    "fragility"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Extracapsular fracture through the intertrochanteric region of the proximal femur, usually following a low-energy fall in older adults.",
+  "clinicalPattern": {
+    "typical": [
+      "Severe hip/groin pain",
+      "Inability to bear weight",
+      "Shortened externally rotated limb",
+      "Swelling/bruising may occur"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Any suspected hip fracture"
+    },
+    {
+      "level": "RED",
+      "item": "Polytrauma"
+    },
+    {
+      "level": "RED",
+      "item": "Neurovascular compromise"
+    },
+    {
+      "level": "RED",
+      "item": "Hemodynamic instability"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Limb position",
+      "Neurovascular exam",
+      "General trauma/geriatric assessment"
+    ]
+  },
+  "differentials": [
+    "Femoral neck fracture",
+    "Subtrochanteric fracture",
+    "Pelvic fracture"
+  ],
+  "investigations": {
+    "principle": "Urgent radiographic diagnosis is standard.",
+    "MRI": "MRI for occult fracture if radiographs are negative and suspicion persists.",
+    "radiographs": "AP pelvis and lateral hip radiographs are first-line."
+  },
+  "management": {
+    "green": [
+      "Urgent orthopedic fixation pathway",
+      "Early mobilization after stabilization",
+      "Osteoporosis and falls management"
+    ],
+    "amber": [
+      "Implant choice depends on fracture pattern and stability."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Bhagna rehabilitation may be considered only after modern fixation/stability management."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Extracapsular fracture through the intertrochanteric region of the proximal femur, usually following a low-energy fall in older adults.",
+    "urgent": "Seek urgent assessment for acute/progressive neurological deficit, breathing/swallowing difficulty, sphincter change, severe infection/systemic illness, major trauma, vascular compromise or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "NICE",
+      "title": "Hip fracture management CG124",
+      "url": "https://www.nice.org.uk/guidance/cg124",
+      "checked": "2026-08-07"
+    },
+    {
+      "organization": "AAOS",
+      "title": "Management of Hip Fractures in Older Adults",
+      "url": "https://www.aaos.org/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V2.0-BATCH-06",
+    "proposedGoldChapterNumber": 99
+  }
+}

@@ -85,7 +85,27 @@
     "gold-chapters/84-thoracic-disc-herniation.json",
     "gold-chapters/85-cervical-facet-mediated-pain.json",
     "gold-chapters/86-glenohumeral-osteoarthritis.json",
-    "gold-chapters/87-myasthenia-gravis.json"
+    "gold-chapters/87-myasthenia-gravis.json",
+    "gold-chapters/088-spinal-epidural-abscess.json",
+    "gold-chapters/089-spinal-tuberculosis-pott-disease.json",
+    "gold-chapters/090-multiple-myeloma-with-spinal-involvement.json",
+    "gold-chapters/091-sacral-insufficiency-fracture.json",
+    "gold-chapters/092-coccygodynia-coccydynia.json",
+    "gold-chapters/093-deep-gluteal-syndrome-piriformis-syndrome.json",
+    "gold-chapters/094-proximal-hamstring-tendinopathy.json",
+    "gold-chapters/095-adductor-related-groin-pain.json",
+    "gold-chapters/096-lateral-ankle-sprain.json",
+    "gold-chapters/097-achilles-tendon-rupture.json",
+    "gold-chapters/098-femoral-neck-fracture.json",
+    "gold-chapters/099-intertrochanteric-hip-fracture.json",
+    "gold-chapters/100-distal-radius-fracture.json",
+    "gold-chapters/101-clavicle-fracture.json",
+    "gold-chapters/102-proximal-humerus-fracture.json",
+    "gold-chapters/103-humeral-shaft-fracture.json",
+    "gold-chapters/104-tibial-shaft-fracture.json",
+    "gold-chapters/105-ankle-fracture.json",
+    "gold-chapters/106-essential-tremor.json",
+    "gold-chapters/107-amyotrophic-lateral-sclerosis-motor-neuron-disease.json"
   ],
-  "expectedTotalGold": 88
+  "expectedTotalGold": 108
 }

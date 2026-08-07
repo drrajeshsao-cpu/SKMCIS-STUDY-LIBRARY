@@ -1,0 +1,115 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-SPN-SEA-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Spinal Epidural Abscess",
+  "synonyms": [
+    "Epidural spinal abscess"
+  ],
+  "category": "Spine > Emergency > Infection",
+  "tags": [
+    "spinal epidural abscess",
+    "SEA",
+    "infection",
+    "fever",
+    "neurological deficit"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Purulent infection in the spinal epidural space that can cause rapidly progressive neural compression, sepsis and permanent neurological injury.",
+  "clinicalPattern": {
+    "typical": [
+      "Severe focal spinal pain",
+      "Fever may be present or absent",
+      "Radicular pain",
+      "Progressive weakness or sensory loss",
+      "Possible bladder/bowel dysfunction"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Any suspected spinal epidural abscess with neurological deficit"
+    },
+    {
+      "level": "RED",
+      "item": "Sepsis or hemodynamic instability"
+    },
+    {
+      "level": "RED",
+      "item": "New sphincter dysfunction"
+    },
+    {
+      "level": "RED",
+      "item": "Rapidly progressive weakness"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Full neurological examination",
+      "Spinal tenderness",
+      "Temperature and sepsis assessment",
+      "Motor/sensory/reflex/gait examination"
+    ]
+  },
+  "differentials": [
+    "Vertebral osteomyelitis/discitis",
+    "Spinal metastasis",
+    "Acute disc herniation",
+    "Meningitis",
+    "Psoas abscess"
+  ],
+  "investigations": {
+    "principle": "Urgent laboratory and imaging assessment is required when SEA is suspected.",
+    "MRI": "Contrast-enhanced MRI of the relevant spine is the preferred test; image more extensive regions when clinically indicated.",
+    "radiographs": "Plain radiographs are insensitive early and cannot exclude SEA."
+  },
+  "management": {
+    "green": [
+      "Immediate emergency/spine/infectious-disease pathway",
+      "Blood cultures and source identification",
+      "Prompt antimicrobial therapy and surgical evaluation when indicated"
+    ],
+    "amber": [
+      "Do not delay emergency imaging or decompression for conservative or Ayurvedic therapy."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Any Vata/Shotha or infection-related Ayurvedic description is secondary; emergency modern infection and neural-compression management takes priority."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Purulent infection in the spinal epidural space that can cause rapidly progressive neural compression, sepsis and permanent neurological injury.",
+    "urgent": "Seek urgent assessment for acute/progressive neurological deficit, breathing/swallowing difficulty, sphincter change, severe infection/systemic illness, major trauma, vascular compromise or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "IDSA",
+      "title": "Vertebral Osteomyelitis/Infectious Spine Guidance",
+      "url": "https://www.idsociety.org/",
+      "checked": "2026-08-07"
+    },
+    {
+      "organization": "American College of Radiology (ACR)",
+      "title": "Suspected Spine Infection",
+      "url": "https://acsearch.acr.org/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V2.0-BATCH-06",
+    "proposedGoldChapterNumber": 88
+  }
+}

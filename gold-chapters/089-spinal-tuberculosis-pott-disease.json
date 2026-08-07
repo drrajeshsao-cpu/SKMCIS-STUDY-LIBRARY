@@ -1,0 +1,115 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-SPN-TB-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Spinal Tuberculosis / Pott Disease",
+  "synonyms": [
+    "Pott spine",
+    "Tuberculous spondylitis"
+  ],
+  "category": "Spine > Infection > Tuberculosis",
+  "tags": [
+    "spinal tuberculosis",
+    "Pott disease",
+    "TB spine",
+    "spondylitis"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Extrapulmonary tuberculosis involving vertebral bodies, discs and/or paraspinal tissues, potentially causing collapse, deformity, abscess and spinal cord or nerve-root compression.",
+  "clinicalPattern": {
+    "typical": [
+      "Chronic back pain",
+      "Constitutional symptoms may be mild or absent",
+      "Progressive kyphotic deformity",
+      "Neurological deficit in advanced disease",
+      "Paraspinal or psoas abscess may occur"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Progressive weakness or myelopathy"
+    },
+    {
+      "level": "RED",
+      "item": "New bladder/bowel dysfunction"
+    },
+    {
+      "level": "RED",
+      "item": "Severe deformity/instability"
+    },
+    {
+      "level": "RED",
+      "item": "Sepsis or large compressive abscess"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Full neurological examination",
+      "Spinal deformity and tenderness",
+      "Constitutional/TB risk assessment",
+      "Gait and sphincter history"
+    ]
+  },
+  "differentials": [
+    "Pyogenic spondylodiscitis",
+    "Spinal malignancy",
+    "Brucellosis",
+    "Degenerative Modic change",
+    "Compression fracture"
+  ],
+  "investigations": {
+    "principle": "Microbiological confirmation and drug-susceptibility testing are important where feasible.",
+    "MRI": "MRI defines vertebral/disc, epidural and paraspinal involvement and neural compression.",
+    "radiographs": "Radiographs/CT help define collapse, deformity and bony destruction."
+  },
+  "management": {
+    "green": [
+      "Prompt tuberculosis treatment under national/local protocol",
+      "Nutritional and neurological monitoring",
+      "Orthopedic/spine review for instability, deformity or deficit"
+    ],
+    "amber": [
+      "Surgery is indicated selectively for severe/progressive neurological compression, instability, deformity or failure of medical management."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Asthi/Majja-gata infection-related frameworks may be documented only in parallel; anti-tubercular therapy must not be delayed."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Extrapulmonary tuberculosis involving vertebral bodies, discs and/or paraspinal tissues, potentially causing collapse, deformity, abscess and spinal cord or nerve-root compression.",
+    "urgent": "Seek urgent assessment for acute/progressive neurological deficit, breathing/swallowing difficulty, sphincter change, severe infection/systemic illness, major trauma, vascular compromise or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "WHO",
+      "title": "Tuberculosis treatment guidance",
+      "url": "https://www.who.int/teams/global-tuberculosis-programme",
+      "checked": "2026-08-07"
+    },
+    {
+      "organization": "Central TB Division India",
+      "title": "National TB Elimination Programme",
+      "url": "https://tbcindia.gov.in/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V2.0-BATCH-06",
+    "proposedGoldChapterNumber": 89
+  }
+}
