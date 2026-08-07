@@ -1,0 +1,96 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-ORT-MU-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Fracture Malunion",
+  "synonyms": [],
+  "category": "Orthopedics > Fracture Healing Complication",
+  "tags": [
+    "fracture malunion"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Healing of a fracture in a suboptimal position producing angulation, rotation, shortening or articular incongruity that may impair function.",
+  "clinicalPattern": {
+    "typical": [
+      "Visible deformity",
+      "Limb-length discrepancy",
+      "Reduced ROM",
+      "Pain or altered gait"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Progressive neurovascular symptoms"
+    },
+    {
+      "level": "RED",
+      "item": "Severe joint incongruity"
+    },
+    {
+      "level": "RED",
+      "item": "Skin compromise"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Alignment",
+      "Rotation",
+      "Limb length",
+      "Adjacent joint ROM",
+      "Neurovascular exam"
+    ]
+  },
+  "differentials": [
+    "Nonunion",
+    "Post-traumatic arthritis",
+    "Growth disturbance"
+  ],
+  "investigations": {
+    "principle": "Standing/alignment radiographs and CT are used according to deformity and joint involvement.",
+    "MRI": "Use MRI when neural, soft-tissue, marrow, vascular, occult injury or other condition-specific assessment requires it.",
+    "radiographs": "Use radiographs and/or CT according to the condition-specific imaging pathway."
+  },
+  "management": {
+    "green": [
+      "Functional assessment",
+      "Rehabilitation for mild acceptable deformity"
+    ],
+    "amber": [
+      "Corrective osteotomy is considered when deformity causes meaningful pain, dysfunction or future joint risk."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Bhagna-vakrata phenotype may be documented after modern alignment assessment."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Healing of a fracture in a suboptimal position producing angulation, rotation, shortening or articular incongruity that may impair function.",
+    "urgent": "Seek urgent assessment for acute/progressive neurological deficit, severe vascular symptoms, infection/systemic illness, major trauma, sphincter change or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "AAOS OrthoInfo",
+      "title": "Fracture Healing Complications",
+      "url": "https://orthoinfo.aaos.org/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V2.9-BATCH-15",
+    "proposedGoldChapterNumber": 325
+  }
+}

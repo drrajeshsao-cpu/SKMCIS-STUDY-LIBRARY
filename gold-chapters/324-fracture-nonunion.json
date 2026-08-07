@@ -1,0 +1,94 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-ORT-NU-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Fracture Nonunion",
+  "synonyms": [],
+  "category": "Orthopedics > Fracture Healing Complication",
+  "tags": [
+    "fracture nonunion"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Failure of a fracture to achieve progressive union within an expected timeframe, commonly due to inadequate biology, stability, infection or a combination.",
+  "clinicalPattern": {
+    "typical": [
+      "Persistent pain at fracture site",
+      "Motion at fracture",
+      "Absent/progressive failure of bridging callus"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Infected nonunion"
+    },
+    {
+      "level": "RED",
+      "item": "Implant breakage"
+    },
+    {
+      "level": "RED",
+      "item": "Neurovascular compromise"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Alignment",
+      "Abnormal motion",
+      "Wound/sinus tract",
+      "Neurovascular exam"
+    ]
+  },
+  "differentials": [
+    "Delayed union",
+    "Malunion",
+    "Chronic osteomyelitis"
+  ],
+  "investigations": {
+    "principle": "Radiographs and often CT assess union; infection and metabolic evaluation are essential when indicated.",
+    "MRI": "Use MRI when neural, soft-tissue, marrow, vascular, occult injury or other condition-specific assessment requires it.",
+    "radiographs": "Use radiographs and/or CT according to the condition-specific imaging pathway."
+  },
+  "management": {
+    "green": [
+      "Identify mechanical, biological and infection causes",
+      "Orthopedic reconstruction planning"
+    ],
+    "amber": [
+      "Definitive treatment may require revision fixation, debridement, bone grafting and infection control."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Bhagna sandhana concepts may support rehabilitation but cannot replace mechanical/infectious correction."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Failure of a fracture to achieve progressive union within an expected timeframe, commonly due to inadequate biology, stability, infection or a combination.",
+    "urgent": "Seek urgent assessment for acute/progressive neurological deficit, severe vascular symptoms, infection/systemic illness, major trauma, sphincter change or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "AAOS OrthoInfo",
+      "title": "Nonunions",
+      "url": "https://orthoinfo.aaos.org/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V2.9-BATCH-15",
+    "proposedGoldChapterNumber": 324
+  }
+}

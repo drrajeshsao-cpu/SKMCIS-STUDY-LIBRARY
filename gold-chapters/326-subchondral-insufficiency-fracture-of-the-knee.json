@@ -1,0 +1,95 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-ORT-SIFK-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Subchondral Insufficiency Fracture of the Knee",
+  "synonyms": [],
+  "category": "Orthopedics > Knee > Subchondral Bone",
+  "tags": [
+    "subchondral insufficiency fracture of the knee"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Stress-related subchondral fracture, usually of the femoral condyle in older adults, causing acute or subacute knee pain and sometimes progressing to osteonecrosis-like collapse.",
+  "clinicalPattern": {
+    "typical": [
+      "Sudden or subacute medial knee pain",
+      "Pain with weight bearing",
+      "Often minimal trauma",
+      "Night pain may occur"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Rapid collapse"
+    },
+    {
+      "level": "RED",
+      "item": "Inability to bear weight"
+    },
+    {
+      "level": "RED",
+      "item": "Septic joint differential"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Focal condylar tenderness",
+      "Effusion",
+      "Weight-bearing tolerance"
+    ]
+  },
+  "differentials": [
+    "Meniscal root tear",
+    "Knee OA",
+    "Osteonecrosis",
+    "Stress fracture"
+  ],
+  "investigations": {
+    "principle": "Early radiographs can be normal; MRI is the key test for subchondral fracture and marrow edema.",
+    "MRI": "Use MRI when neural, soft-tissue, marrow, vascular, occult injury or other condition-specific assessment requires it.",
+    "radiographs": "Use radiographs and/or CT according to the condition-specific imaging pathway."
+  },
+  "management": {
+    "green": [
+      "Protected weight bearing",
+      "Analgesia and bone-health assessment"
+    ],
+    "amber": [
+      "Large lesions or collapse require orthopedic evaluation and may need surgery."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Janu/Asthi-kshaya phenotype may be documented only in parallel."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Stress-related subchondral fracture, usually of the femoral condyle in older adults, causing acute or subacute knee pain and sometimes progressing to osteonecrosis-like collapse.",
+    "urgent": "Seek urgent assessment for acute/progressive neurological deficit, severe vascular symptoms, infection/systemic illness, major trauma, sphincter change or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "ACR",
+      "title": "Chronic Knee Pain / Stress Injury Imaging",
+      "url": "https://acsearch.acr.org/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V2.9-BATCH-15",
+    "proposedGoldChapterNumber": 326
+  }
+}

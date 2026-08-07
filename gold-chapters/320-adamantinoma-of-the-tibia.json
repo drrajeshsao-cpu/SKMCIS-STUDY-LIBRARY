@@ -1,0 +1,92 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-ONC-ADAM-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Adamantinoma of the Tibia",
+  "synonyms": [],
+  "category": "Orthopedic Oncology > Primary Bone Malignancy",
+  "tags": [
+    "adamantinoma of the tibia"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Rare low-grade malignant bone tumor usually arising in the tibial diaphysis of young to middle-aged adults.",
+  "clinicalPattern": {
+    "typical": [
+      "Slowly progressive tibial pain",
+      "Anterior leg swelling",
+      "Possible deformity"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Pathological fracture"
+    },
+    {
+      "level": "RED",
+      "item": "Rapid progression"
+    },
+    {
+      "level": "RED",
+      "item": "Suspicious cortical destructive lesion"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Tibial mass/tenderness",
+      "Neurovascular exam"
+    ]
+  },
+  "differentials": [
+    "Osteofibrous dysplasia",
+    "Fibrous dysplasia",
+    "Osteosarcoma"
+  ],
+  "investigations": {
+    "principle": "Radiographs and MRI define extent; biopsy must be planned by an orthopedic oncology team.",
+    "MRI": "Use MRI when neural, soft-tissue, marrow, vascular, occult injury or other condition-specific assessment requires it.",
+    "radiographs": "Use radiographs and/or CT according to the condition-specific imaging pathway."
+  },
+  "management": {
+    "green": [
+      "Sarcoma-center referral",
+      "Wide surgical resection planning"
+    ],
+    "amber": [
+      "Unplanned curettage or biopsy can compromise definitive surgery."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Asthi-vikara phenotype may be documented only in parallel."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Rare low-grade malignant bone tumor usually arising in the tibial diaphysis of young to middle-aged adults.",
+    "urgent": "Seek urgent assessment for acute/progressive neurological deficit, severe vascular symptoms, infection/systemic illness, major trauma, sphincter change or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "NCCN",
+      "title": "Bone Cancer Guidelines",
+      "url": "https://www.nccn.org/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V2.9-BATCH-15",
+    "proposedGoldChapterNumber": 320
+  }
+}

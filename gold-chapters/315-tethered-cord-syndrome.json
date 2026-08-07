@@ -1,0 +1,96 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-PED-TCS-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Tethered Cord Syndrome",
+  "synonyms": [],
+  "category": "Pediatric Neurosurgery/Spine > Tethered Cord",
+  "tags": [
+    "tethered cord syndrome"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Neurological syndrome caused by pathological traction on the spinal cord, congenital or acquired, often associated with spinal dysraphism.",
+  "clinicalPattern": {
+    "typical": [
+      "Back/leg pain",
+      "Progressive weakness",
+      "Foot deformity",
+      "Bladder dysfunction",
+      "Scoliosis may occur"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Progressive bladder dysfunction"
+    },
+    {
+      "level": "RED",
+      "item": "New weakness"
+    },
+    {
+      "level": "RED",
+      "item": "Rapid deformity progression"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Motor/sensory/reflex exam",
+      "Foot deformity",
+      "Spine/skin markers",
+      "Bladder history"
+    ]
+  },
+  "differentials": [
+    "Cauda equina syndrome",
+    "Peripheral neuropathy",
+    "Spina bifida without tethering"
+  ],
+  "investigations": {
+    "principle": "MRI lumbosacral spine is the principal study; urodynamics may be used when bladder dysfunction is suspected.",
+    "MRI": "Use MRI when neural, soft-tissue, marrow, vascular, occult injury or other condition-specific assessment requires it.",
+    "radiographs": "Use radiographs and/or CT according to the condition-specific imaging pathway."
+  },
+  "management": {
+    "green": [
+      "Neurosurgical/urologic assessment",
+      "Rehabilitation and orthopedic surveillance"
+    ],
+    "amber": [
+      "Surgical untethering is considered for progressive or clearly symptomatic tethering."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Vata/neurodevelopmental phenotype may be documented only as a parallel layer."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Neurological syndrome caused by pathological traction on the spinal cord, congenital or acquired, often associated with spinal dysraphism.",
+    "urgent": "Seek urgent assessment for acute/progressive neurological deficit, severe vascular symptoms, infection/systemic illness, major trauma, sphincter change or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "Congress of Neurological Surgeons",
+      "title": "Spinal Dysraphism resources",
+      "url": "https://www.cns.org/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V2.9-BATCH-15",
+    "proposedGoldChapterNumber": 315
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-NEU-MOGAD-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "MOG Antibody-Associated Disease",
+  "synonyms": [],
+  "category": "Neurology > Neuroimmunology",
+  "tags": [
+    "mog antibody-associated disease"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Inflammatory demyelinating disorder associated with antibodies against myelin oligodendrocyte glycoprotein, presenting with optic neuritis, myelitis, ADEM or other CNS syndromes.",
+  "clinicalPattern": {
+    "typical": [
+      "Optic neuritis",
+      "Transverse myelitis",
+      "ADEM-like presentation",
+      "Brainstem or cortical syndromes may occur"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Acute visual loss"
+    },
+    {
+      "level": "RED",
+      "item": "Rapid paralysis"
+    },
+    {
+      "level": "RED",
+      "item": "Respiratory/cervical cord involvement"
+    },
+    {
+      "level": "RED",
+      "item": "Severe encephalopathy"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Visual/optic nerve exam",
+      "Full neurological exam",
+      "Myelopathy and brainstem assessment"
+    ]
+  },
+  "differentials": [
+    "Neuromyelitis optica spectrum disorder",
+    "Multiple sclerosis",
+    "Transverse myelitis"
+  ],
+  "investigations": {
+    "principle": "Serum MOG-IgG testing with an appropriate cell-based assay plus MRI brain/spine is central to diagnosis.",
+    "MRI": "Use MRI when neural, soft-tissue, marrow, vascular, occult injury or other condition-specific assessment requires it.",
+    "radiographs": "Use radiographs and/or CT according to the condition-specific imaging pathway."
+  },
+  "management": {
+    "green": [
+      "Urgent neuroimmunology assessment during attacks",
+      "Rehabilitation after stabilization"
+    ],
+    "amber": [
+      "Relapse-prevention strategy is individualized; diagnosis should not be inferred from MRI alone."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Vata-neurological phenotype may be documented only in parallel with modern neuroimmunologic diagnosis."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Inflammatory demyelinating disorder associated with antibodies against myelin oligodendrocyte glycoprotein, presenting with optic neuritis, myelitis, ADEM or other CNS syndromes.",
+    "urgent": "Seek urgent assessment for acute/progressive neurological deficit, severe vascular symptoms, infection/systemic illness, major trauma, sphincter change or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "International MOGAD Panel",
+      "title": "MOGAD diagnostic criteria and resources",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V2.9-BATCH-15",
+    "proposedGoldChapterNumber": 327
+  }
+}

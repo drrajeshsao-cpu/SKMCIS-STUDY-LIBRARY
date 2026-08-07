@@ -1,0 +1,95 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-NEU-LEMS-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Lambert-Eaton Myasthenic Syndrome",
+  "synonyms": [],
+  "category": "Neurology > Neuromuscular Junction",
+  "tags": [
+    "lambert-eaton myasthenic syndrome"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Autoimmune presynaptic neuromuscular-junction disorder causing proximal weakness, autonomic symptoms and reduced reflexes, sometimes associated with small-cell lung cancer.",
+  "clinicalPattern": {
+    "typical": [
+      "Proximal leg weakness",
+      "Reduced reflexes",
+      "Dry mouth/autonomic symptoms",
+      "Transient facilitation after exercise"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Respiratory weakness"
+    },
+    {
+      "level": "RED",
+      "item": "Bulbar dysfunction"
+    },
+    {
+      "level": "RED",
+      "item": "Possible underlying malignancy"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Proximal power",
+      "Reflexes before/after activation",
+      "Cranial/bulbar exam"
+    ]
+  },
+  "differentials": [
+    "Myasthenia gravis",
+    "Myopathy",
+    "Motor neuron disease"
+  ],
+  "investigations": {
+    "principle": "Electrodiagnostic testing and voltage-gated calcium-channel antibodies support diagnosis; cancer screening is important.",
+    "MRI": "Use MRI when neural, soft-tissue, marrow, vascular, occult injury or other condition-specific assessment requires it.",
+    "radiographs": "Use radiographs and/or CT according to the condition-specific imaging pathway."
+  },
+  "management": {
+    "green": [
+      "Neuromuscular specialist care",
+      "Malignancy evaluation",
+      "Function rehabilitation"
+    ],
+    "amber": [
+      "Immunotherapy and symptomatic treatment are specialist-directed."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Bala/Vata-neuromuscular phenotype may be documented only in parallel."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Autoimmune presynaptic neuromuscular-junction disorder causing proximal weakness, autonomic symptoms and reduced reflexes, sometimes associated with small-cell lung cancer.",
+    "urgent": "Seek urgent assessment for acute/progressive neurological deficit, severe vascular symptoms, infection/systemic illness, major trauma, sphincter change or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "AANEM",
+      "title": "Neuromuscular Junction Disorders resources",
+      "url": "https://www.aanem.org/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V2.9-BATCH-15",
+    "proposedGoldChapterNumber": 313
+  }
+}

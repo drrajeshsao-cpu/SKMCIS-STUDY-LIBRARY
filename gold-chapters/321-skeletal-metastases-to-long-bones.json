@@ -1,0 +1,98 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-ONC-SMB-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Skeletal Metastases to Long Bones",
+  "synonyms": [],
+  "category": "Orthopedic Oncology > Metastatic Bone Disease",
+  "tags": [
+    "skeletal metastases to long bones"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Metastatic cancer deposits in long bones causing pain, cortical destruction and risk of impending or completed pathological fracture.",
+  "clinicalPattern": {
+    "typical": [
+      "Progressive focal bone pain",
+      "Night/rest pain",
+      "Known malignancy",
+      "Functional pain on weight bearing"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Impending fracture"
+    },
+    {
+      "level": "RED",
+      "item": "Completed pathological fracture"
+    },
+    {
+      "level": "RED",
+      "item": "Hypercalcemia"
+    },
+    {
+      "level": "RED",
+      "item": "Unknown primary malignancy"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Local tenderness",
+      "Function/weight-bearing pain",
+      "Neurovascular exam"
+    ]
+  },
+  "differentials": [
+    "Primary bone tumor",
+    "Osteomyelitis",
+    "Insufficiency fracture"
+  ],
+  "investigations": {
+    "principle": "Radiographs of the entire bone, CT/MRI and systemic staging guide management; fracture-risk scoring may assist.",
+    "MRI": "Use MRI when neural, soft-tissue, marrow, vascular, occult injury or other condition-specific assessment requires it.",
+    "radiographs": "Use radiographs and/or CT according to the condition-specific imaging pathway."
+  },
+  "management": {
+    "green": [
+      "Oncology and orthopedic oncology referral",
+      "Protect weight bearing when fracture risk is high"
+    ],
+    "amber": [
+      "Prophylactic fixation may be preferable to waiting for a complete fracture in selected high-risk lesions."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Asthi-vikara phenotype may be documented only in parallel."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Metastatic cancer deposits in long bones causing pain, cortical destruction and risk of impending or completed pathological fracture.",
+    "urgent": "Seek urgent assessment for acute/progressive neurological deficit, severe vascular symptoms, infection/systemic illness, major trauma, sphincter change or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "NCCN",
+      "title": "Cancer-Related Bone Disease resources",
+      "url": "https://www.nccn.org/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V2.9-BATCH-15",
+    "proposedGoldChapterNumber": 321
+  }
+}

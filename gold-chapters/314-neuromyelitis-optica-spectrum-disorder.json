@@ -1,0 +1,94 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-NEU-NMOSD-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Neuromyelitis Optica Spectrum Disorder",
+  "synonyms": [],
+  "category": "Neurology > Neuroimmunology",
+  "tags": [
+    "neuromyelitis optica spectrum disorder"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Autoimmune astrocytopathy, commonly associated with aquaporin-4 antibodies, characterized by optic neuritis, longitudinally extensive myelitis and other characteristic CNS syndromes.",
+  "clinicalPattern": {
+    "typical": [
+      "Optic neuritis",
+      "Longitudinally extensive myelitis",
+      "Severe sensory/motor deficits",
+      "Area postrema syndrome may occur"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Acute visual loss"
+    },
+    {
+      "level": "RED",
+      "item": "Rapid paralysis"
+    },
+    {
+      "level": "RED",
+      "item": "Respiratory/cervical cord involvement"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Visual/optic nerve exam",
+      "Full myelopathy exam",
+      "Brainstem assessment"
+    ]
+  },
+  "differentials": [
+    "Multiple sclerosis",
+    "MOG-associated disease",
+    "Transverse myelitis"
+  ],
+  "investigations": {
+    "principle": "MRI brain/spine plus AQP4-IgG testing are central; CSF and additional antibody testing may assist.",
+    "MRI": "Use MRI when neural, soft-tissue, marrow, vascular, occult injury or other condition-specific assessment requires it.",
+    "radiographs": "Use radiographs and/or CT according to the condition-specific imaging pathway."
+  },
+  "management": {
+    "green": [
+      "Urgent neuroimmunology assessment during attacks",
+      "Relapse-prevention therapy"
+    ],
+    "amber": [
+      "Some MS therapies may be ineffective or harmful in NMOSD, so correct classification matters."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Vata-neurological phenotype may be documented only in parallel."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Autoimmune astrocytopathy, commonly associated with aquaporin-4 antibodies, characterized by optic neuritis, longitudinally extensive myelitis and other characteristic CNS syndromes.",
+    "urgent": "Seek urgent assessment for acute/progressive neurological deficit, severe vascular symptoms, infection/systemic illness, major trauma, sphincter change or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "Neuromyelitis Optica Study Group",
+      "title": "NMOSD recommendations",
+      "url": "https://www.nemos-net.de/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V2.9-BATCH-15",
+    "proposedGoldChapterNumber": 314
+  }
+}

@@ -1,0 +1,96 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-ONC-STS-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Soft Tissue Sarcoma of the Limb",
+  "synonyms": [],
+  "category": "Orthopedic Oncology > Soft Tissue Malignancy",
+  "tags": [
+    "soft tissue sarcoma of the limb"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Malignant mesenchymal tumor of soft tissue, often presenting as a painless enlarging mass and requiring planned imaging and biopsy in a sarcoma center.",
+  "clinicalPattern": {
+    "typical": [
+      "Enlarging soft-tissue mass",
+      "Deep location",
+      "Pain may be absent",
+      "Functional pressure symptoms"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Mass >5 cm"
+    },
+    {
+      "level": "RED",
+      "item": "Deep to fascia"
+    },
+    {
+      "level": "RED",
+      "item": "Rapid growth"
+    },
+    {
+      "level": "RED",
+      "item": "Recurrence after prior excision"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Mass size/depth/fixity",
+      "Neurovascular exam"
+    ]
+  },
+  "differentials": [
+    "Lipoma",
+    "Hematoma",
+    "Abscess"
+  ],
+  "investigations": {
+    "principle": "MRI with contrast defines local anatomy; biopsy should be performed along a planned surgical tract by the treating sarcoma team.",
+    "MRI": "Use MRI when neural, soft-tissue, marrow, vascular, occult injury or other condition-specific assessment requires it.",
+    "radiographs": "Use radiographs and/or CT according to the condition-specific imaging pathway."
+  },
+  "management": {
+    "green": [
+      "Urgent sarcoma-center referral"
+    ],
+    "amber": [
+      "Avoid unplanned excision of an unexplained enlarging soft-tissue mass."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Mamsa-granthi phenotype may be documented only in parallel."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Malignant mesenchymal tumor of soft tissue, often presenting as a painless enlarging mass and requiring planned imaging and biopsy in a sarcoma center.",
+    "urgent": "Seek urgent assessment for acute/progressive neurological deficit, severe vascular symptoms, infection/systemic illness, major trauma, sphincter change or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "NCCN",
+      "title": "Soft Tissue Sarcoma Guidelines",
+      "url": "https://www.nccn.org/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V2.9-BATCH-15",
+    "proposedGoldChapterNumber": 322
+  }
+}

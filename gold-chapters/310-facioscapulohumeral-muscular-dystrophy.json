@@ -1,0 +1,96 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-NEU-FSHD-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Facioscapulohumeral Muscular Dystrophy",
+  "synonyms": [],
+  "category": "Neurology > Neuromuscular > Muscular Dystrophy",
+  "tags": [
+    "facioscapulohumeral muscular dystrophy"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Inherited muscular dystrophy characterized by facial weakness, scapular winging and humeral/upper-limb weakness with variable lower-limb involvement.",
+  "clinicalPattern": {
+    "typical": [
+      "Facial weakness",
+      "Scapular winging",
+      "Difficulty raising arms",
+      "Asymmetric weakness may occur"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Respiratory weakness"
+    },
+    {
+      "level": "RED",
+      "item": "Rapid functional decline"
+    },
+    {
+      "level": "RED",
+      "item": "Severe pain or atypical sensory loss"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Facial strength",
+      "Scapular stabilizers",
+      "Upper/lower limb power",
+      "Gait"
+    ]
+  },
+  "differentials": [
+    "Limb-girdle muscular dystrophy",
+    "Long thoracic neuropathy",
+    "Inflammatory myopathy"
+  ],
+  "investigations": {
+    "principle": "Genetic testing confirms typical disease; pulmonary function is assessed in higher-risk patients.",
+    "MRI": "Use MRI when neural, soft-tissue, marrow, vascular, occult injury or other condition-specific assessment requires it.",
+    "radiographs": "Use radiographs and/or CT according to the condition-specific imaging pathway."
+  },
+  "management": {
+    "green": [
+      "Strength/function rehabilitation",
+      "Scapular and postural support",
+      "Respiratory surveillance when indicated"
+    ],
+    "amber": [
+      "Scapular fixation is selective for carefully chosen patients."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Mamsa/Bala-kshaya phenotype may be documented only in parallel."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Inherited muscular dystrophy characterized by facial weakness, scapular winging and humeral/upper-limb weakness with variable lower-limb involvement.",
+    "urgent": "Seek urgent assessment for acute/progressive neurological deficit, severe vascular symptoms, infection/systemic illness, major trauma, sphincter change or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "GeneReviews",
+      "title": "Facioscapulohumeral Muscular Dystrophy",
+      "url": "https://www.ncbi.nlm.nih.gov/books/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V2.9-BATCH-15",
+    "proposedGoldChapterNumber": 310
+  }
+}

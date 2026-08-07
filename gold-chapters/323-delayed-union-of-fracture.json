@@ -1,0 +1,98 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-ORT-DU-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Delayed Union of Fracture",
+  "synonyms": [],
+  "category": "Orthopedics > Fracture Healing Complication",
+  "tags": [
+    "delayed union of fracture"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Fracture healing that is slower than expected for the specific bone, pattern, biology and treatment context but still shows potential for union.",
+  "clinicalPattern": {
+    "typical": [
+      "Persistent fracture-site pain",
+      "Delayed radiographic callus progression",
+      "Prolonged functional limitation"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Infection"
+    },
+    {
+      "level": "RED",
+      "item": "Implant failure"
+    },
+    {
+      "level": "RED",
+      "item": "Increasing deformity"
+    },
+    {
+      "level": "RED",
+      "item": "Neurovascular compromise"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Fracture-site tenderness",
+      "Alignment",
+      "Stability",
+      "Soft tissue/wound assessment"
+    ]
+  },
+  "differentials": [
+    "Nonunion",
+    "Occult infection",
+    "Malunion"
+  ],
+  "investigations": {
+    "principle": "Serial radiographs are central; CT, inflammatory markers and metabolic evaluation are used selectively.",
+    "MRI": "Use MRI when neural, soft-tissue, marrow, vascular, occult injury or other condition-specific assessment requires it.",
+    "radiographs": "Use radiographs and/or CT according to the condition-specific imaging pathway."
+  },
+  "management": {
+    "green": [
+      "Optimize stability, nutrition, smoking cessation and metabolic factors",
+      "Appropriate protected loading"
+    ],
+    "amber": [
+      "Surgical revision/bone stimulation depends on biology, stability and time course."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Bhagna sandhana principles may complement modern healing assessment."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Fracture healing that is slower than expected for the specific bone, pattern, biology and treatment context but still shows potential for union.",
+    "urgent": "Seek urgent assessment for acute/progressive neurological deficit, severe vascular symptoms, infection/systemic illness, major trauma, sphincter change or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "AAOS OrthoInfo",
+      "title": "Nonunions",
+      "url": "https://orthoinfo.aaos.org/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V2.9-BATCH-15",
+    "proposedGoldChapterNumber": 323
+  }
+}

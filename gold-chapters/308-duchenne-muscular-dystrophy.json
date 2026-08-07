@@ -1,0 +1,102 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-NEU-DMD-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Duchenne Muscular Dystrophy",
+  "synonyms": [],
+  "category": "Neurology > Neuromuscular > Muscular Dystrophy",
+  "tags": [
+    "duchenne muscular dystrophy"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "X-linked dystrophinopathy causing progressive childhood-onset proximal weakness, Gowers sign, calf pseudohypertrophy and later cardiopulmonary complications.",
+  "clinicalPattern": {
+    "typical": [
+      "Delayed motor milestones",
+      "Gowers sign",
+      "Proximal weakness",
+      "Calf pseudohypertrophy",
+      "Progressive loss of ambulation"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Respiratory compromise"
+    },
+    {
+      "level": "RED",
+      "item": "Cardiomyopathy"
+    },
+    {
+      "level": "RED",
+      "item": "Acute loss of function"
+    },
+    {
+      "level": "RED",
+      "item": "Severe scoliosis"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Proximal power",
+      "Gait/Gowers",
+      "Contractures",
+      "Spine",
+      "Respiratory assessment"
+    ]
+  },
+  "differentials": [
+    "Becker muscular dystrophy",
+    "Spinal muscular atrophy",
+    "Limb-girdle muscular dystrophy"
+  ],
+  "investigations": {
+    "principle": "CK is usually markedly elevated; genetic testing confirms diagnosis; cardiac and respiratory surveillance are essential.",
+    "MRI": "Use MRI when neural, soft-tissue, marrow, vascular, occult injury or other condition-specific assessment requires it.",
+    "radiographs": "Use radiographs and/or CT according to the condition-specific imaging pathway."
+  },
+  "management": {
+    "green": [
+      "Neuromuscular multidisciplinary care",
+      "Contracture prevention",
+      "Cardiac and respiratory surveillance"
+    ],
+    "amber": [
+      "Disease-modifying and steroid strategies require specialist protocols and monitoring."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Bala/Mamsa-kshaya phenotype may be documented only in parallel."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "X-linked dystrophinopathy causing progressive childhood-onset proximal weakness, Gowers sign, calf pseudohypertrophy and later cardiopulmonary complications.",
+    "urgent": "Seek urgent assessment for acute/progressive neurological deficit, severe vascular symptoms, infection/systemic illness, major trauma, sphincter change or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "GeneReviews",
+      "title": "Dystrophinopathies",
+      "url": "https://www.ncbi.nlm.nih.gov/books/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V2.9-BATCH-15",
+    "proposedGoldChapterNumber": 308
+  }
+}

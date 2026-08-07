@@ -1,0 +1,96 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-NEU-LGMD-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Limb-Girdle Muscular Dystrophy",
+  "synonyms": [],
+  "category": "Neurology > Neuromuscular > Muscular Dystrophy",
+  "tags": [
+    "limb-girdle muscular dystrophy"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Heterogeneous group of inherited muscular dystrophies causing predominantly shoulder- and pelvic-girdle weakness with variable cardiac and respiratory involvement.",
+  "clinicalPattern": {
+    "typical": [
+      "Proximal weakness",
+      "Difficulty climbing stairs",
+      "Scapular winging",
+      "Pelvic-girdle weakness"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Respiratory failure"
+    },
+    {
+      "level": "RED",
+      "item": "Cardiomyopathy"
+    },
+    {
+      "level": "RED",
+      "item": "Rapid deterioration"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Shoulder/pelvic strength",
+      "Gait",
+      "Contractures",
+      "Cardiac/respiratory screen"
+    ]
+  },
+  "differentials": [
+    "Inflammatory myopathy",
+    "Dystrophinopathy",
+    "Spinal muscular atrophy"
+  ],
+  "investigations": {
+    "principle": "CK, EMG, muscle MRI and genetic testing are subtype-directed.",
+    "MRI": "Use MRI when neural, soft-tissue, marrow, vascular, occult injury or other condition-specific assessment requires it.",
+    "radiographs": "Use radiographs and/or CT according to the condition-specific imaging pathway."
+  },
+  "management": {
+    "green": [
+      "Neuromuscular specialist care",
+      "Function-preserving rehabilitation",
+      "Cardiac/respiratory surveillance"
+    ],
+    "amber": [
+      "Treatment and prognosis vary substantially by genetic subtype."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Mamsa/Bala-kshaya phenotype may be documented only in parallel."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Heterogeneous group of inherited muscular dystrophies causing predominantly shoulder- and pelvic-girdle weakness with variable cardiac and respiratory involvement.",
+    "urgent": "Seek urgent assessment for acute/progressive neurological deficit, severe vascular symptoms, infection/systemic illness, major trauma, sphincter change or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "GeneReviews",
+      "title": "Limb-Girdle Muscular Dystrophy Overview",
+      "url": "https://www.ncbi.nlm.nih.gov/books/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V2.9-BATCH-15",
+    "proposedGoldChapterNumber": 311
+  }
+}

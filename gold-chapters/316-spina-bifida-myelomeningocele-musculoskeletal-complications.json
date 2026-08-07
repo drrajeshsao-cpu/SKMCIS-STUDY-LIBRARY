@@ -1,0 +1,100 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-PED-SBMSK-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Spina Bifida / Myelomeningocele - Musculoskeletal Complications",
+  "synonyms": [],
+  "category": "Pediatric Orthopedics > Spinal Dysraphism",
+  "tags": [
+    "spina bifida / myelomeningocele - musculoskeletal complications"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Musculoskeletal consequences of spina bifida/myelomeningocele including paralysis, contractures, hip instability, scoliosis, foot deformity, fractures and pressure injury.",
+  "clinicalPattern": {
+    "typical": [
+      "Lower-limb weakness",
+      "Contractures",
+      "Hip displacement",
+      "Scoliosis",
+      "Foot deformities"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Tethered cord progression"
+    },
+    {
+      "level": "RED",
+      "item": "Pressure ulcer/infection"
+    },
+    {
+      "level": "RED",
+      "item": "Acute fracture"
+    },
+    {
+      "level": "RED",
+      "item": "New bladder/neurological decline"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Neurological level",
+      "Hip/knee/foot ROM",
+      "Spine alignment",
+      "Skin/pressure areas"
+    ]
+  },
+  "differentials": [
+    "Cerebral palsy musculoskeletal complications",
+    "Other neuromuscular scoliosis"
+  ],
+  "investigations": {
+    "principle": "Imaging is problem-directed; hip/spine surveillance and MRI for tethering are used according to clinical change.",
+    "MRI": "Use MRI when neural, soft-tissue, marrow, vascular, occult injury or other condition-specific assessment requires it.",
+    "radiographs": "Use radiographs and/or CT according to the condition-specific imaging pathway."
+  },
+  "management": {
+    "green": [
+      "Multidisciplinary mobility/orthotic care",
+      "Skin protection",
+      "Contracture prevention"
+    ],
+    "amber": [
+      "Orthopedic surgery is individualized to improve function, positioning and skin safety."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Vata/neurodevelopmental phenotype may be documented only in parallel."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Musculoskeletal consequences of spina bifida/myelomeningocele including paralysis, contractures, hip instability, scoliosis, foot deformity, fractures and pressure injury.",
+    "urgent": "Seek urgent assessment for acute/progressive neurological deficit, severe vascular symptoms, infection/systemic illness, major trauma, sphincter change or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "Spina Bifida Association",
+      "title": "Clinical Guidelines",
+      "url": "https://www.spinabifidaassociation.org/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V2.9-BATCH-15",
+    "proposedGoldChapterNumber": 316
+  }
+}

@@ -305,7 +305,27 @@
     "gold-chapters/304-aneurysmal-bone-cyst.json",
     "gold-chapters/305-pathological-fracture-due-to-bone-tumor.json",
     "gold-chapters/306-heterotopic-ossification.json",
-    "gold-chapters/307-fibrous-dysplasia.json"
+    "gold-chapters/307-fibrous-dysplasia.json",
+    "gold-chapters/308-duchenne-muscular-dystrophy.json",
+    "gold-chapters/309-becker-muscular-dystrophy.json",
+    "gold-chapters/310-facioscapulohumeral-muscular-dystrophy.json",
+    "gold-chapters/311-limb-girdle-muscular-dystrophy.json",
+    "gold-chapters/312-myotonic-dystrophy.json",
+    "gold-chapters/313-lambert-eaton-myasthenic-syndrome.json",
+    "gold-chapters/314-neuromyelitis-optica-spectrum-disorder.json",
+    "gold-chapters/315-tethered-cord-syndrome.json",
+    "gold-chapters/316-spina-bifida-myelomeningocele-musculoskeletal-complications.json",
+    "gold-chapters/317-osteoid-osteoma.json",
+    "gold-chapters/318-osteoblastoma.json",
+    "gold-chapters/319-chondroblastoma.json",
+    "gold-chapters/320-adamantinoma-of-the-tibia.json",
+    "gold-chapters/321-skeletal-metastases-to-long-bones.json",
+    "gold-chapters/322-soft-tissue-sarcoma-of-the-limb.json",
+    "gold-chapters/323-delayed-union-of-fracture.json",
+    "gold-chapters/324-fracture-nonunion.json",
+    "gold-chapters/325-fracture-malunion.json",
+    "gold-chapters/326-subchondral-insufficiency-fracture-of-the-knee.json",
+    "gold-chapters/327-mog-antibody-associated-disease.json"
   ],
-  "expectedTotalGold": 308
+  "expectedTotalGold": 328
 }

@@ -1,0 +1,95 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-NEU-MD-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Myotonic Dystrophy",
+  "synonyms": [],
+  "category": "Neurology > Neuromuscular > Myotonic Disorder",
+  "tags": [
+    "myotonic dystrophy"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Multisystem genetic disorder characterized by myotonia, progressive weakness and potential cardiac, respiratory, endocrine and ocular complications.",
+  "clinicalPattern": {
+    "typical": [
+      "Delayed muscle relaxation",
+      "Distal/facial weakness",
+      "Daytime sleepiness",
+      "Cataracts",
+      "Cardiac conduction disease"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Arrhythmia/syncope"
+    },
+    {
+      "level": "RED",
+      "item": "Respiratory compromise"
+    },
+    {
+      "level": "RED",
+      "item": "Severe dysphagia"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Grip/percussion myotonia",
+      "Facial/distal strength",
+      "Respiratory and cardiac screen"
+    ]
+  },
+  "differentials": [
+    "Nondystrophic myotonia",
+    "Motor neuron disease",
+    "Other muscular dystrophy"
+  ],
+  "investigations": {
+    "principle": "Genetic testing confirms diagnosis; ECG/cardiac and respiratory surveillance are essential.",
+    "MRI": "Use MRI when neural, soft-tissue, marrow, vascular, occult injury or other condition-specific assessment requires it.",
+    "radiographs": "Use radiographs and/or CT according to the condition-specific imaging pathway."
+  },
+  "management": {
+    "green": [
+      "Multisystem specialist follow-up",
+      "Exercise and mobility support"
+    ],
+    "amber": [
+      "Anesthesia and sedative risk requires special planning."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Mamsa/Vata-stambha phenotype may be documented only in parallel."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Multisystem genetic disorder characterized by myotonia, progressive weakness and potential cardiac, respiratory, endocrine and ocular complications.",
+    "urgent": "Seek urgent assessment for acute/progressive neurological deficit, severe vascular symptoms, infection/systemic illness, major trauma, sphincter change or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "GeneReviews",
+      "title": "Myotonic Dystrophy Type 1",
+      "url": "https://www.ncbi.nlm.nih.gov/books/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V2.9-BATCH-15",
+    "proposedGoldChapterNumber": 312
+  }
+}
