@@ -1,0 +1,109 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-ORT-PFT-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Pyogenic Flexor Tenosynovitis of the Hand",
+  "synonyms": [],
+  "category": "Orthopedics > Hand > Infection Emergency",
+  "tags": [
+    "pyogenic flexor tenosynovitis of the hand"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Closed-space infection of a digital flexor tendon sheath that can rapidly damage tendon and soft tissues.",
+  "clinicalPattern": {
+    "typical": [
+      "Finger held flexed",
+      "Fusiform swelling",
+      "Tenderness along flexor sheath",
+      "Pain with passive extension"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Any suspected flexor-sheath infection"
+    },
+    {
+      "level": "RED",
+      "item": "Sepsis"
+    },
+    {
+      "level": "RED",
+      "item": "Immunocompromised patient"
+    },
+    {
+      "level": "RED",
+      "item": "Rapidly progressive swelling"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Kanavel-sign pattern",
+      "Neurovascular exam",
+      "Wound/puncture search"
+    ]
+  },
+  "differentials": [
+    "Cellulitis",
+    "Septic PIP/MCP joint",
+    "Crystal arthritis"
+  ],
+  "investigations": {
+    "principle": "Diagnosis is primarily clinical; labs and imaging support but should not delay urgent hand-surgery assessment.",
+    "MRI": "Use MRI when neural, soft-tissue, labral, tendon, ligament, infection, occult injury or other condition-specific assessment requires it.",
+    "radiographs": "Use radiographs and/or CT according to the condition-specific diagnostic pathway."
+  },
+  "management": {
+    "green": [
+      "Urgent hand-surgery and antimicrobial pathway"
+    ],
+    "amber": [
+      "Early cases may occasionally be treated nonoperatively under specialist supervision, but delayed treatment risks tendon necrosis."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Hasta-Shotha framework is secondary to emergency infection control."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Closed-space infection of a digital flexor tendon sheath that can rapidly damage tendon and soft tissues.",
+    "urgent": "Seek urgent assessment for acute neurovascular compromise, major trauma, rapidly progressive weakness, suspected serious infection, airway/vascular symptoms, unreduced dislocation or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "BSSH",
+      "title": "Hand Infection resources",
+      "url": "https://www.bssh.ac.uk/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V4.1-BATCH-27",
+    "proposedGoldChapterNumber": 512,
+    "doNotOverwriteLegacyIds": [
+      "DIS-0006",
+      "DIS-0007",
+      "DIS-0008",
+      "DIS-0009",
+      "DIS-0010",
+      "DIS-0011",
+      "DIS-0012",
+      "DIS-0013",
+      "DIS-0014",
+      "DIS-0015"
+    ]
+  }
+}

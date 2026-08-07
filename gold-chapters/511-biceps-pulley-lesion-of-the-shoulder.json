@@ -1,0 +1,106 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-ORT-BPL-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Biceps Pulley Lesion of the Shoulder",
+  "synonyms": [],
+  "category": "Orthopedics > Shoulder > Biceps/Rotator Interval",
+  "tags": [
+    "biceps pulley lesion of the shoulder"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Injury of the stabilizing soft tissues around the long head of biceps tendon in the rotator interval, often associated with subscapularis or labral pathology.",
+  "clinicalPattern": {
+    "typical": [
+      "Anterior shoulder pain",
+      "Clicking",
+      "Pain with overhead or lifting",
+      "Biceps instability symptoms"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Acute traumatic subscapularis tear"
+    },
+    {
+      "level": "RED",
+      "item": "Dislocation"
+    },
+    {
+      "level": "RED",
+      "item": "Marked weakness"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Biceps tests",
+      "Subscapularis testing",
+      "Instability and labral screen"
+    ]
+  },
+  "differentials": [
+    "Biceps tendinopathy",
+    "SLAP lesion",
+    "Subscapularis tear"
+  ],
+  "investigations": {
+    "principle": "MRI/MR arthrography or ultrasound may identify biceps instability and associated cuff injury.",
+    "MRI": "Use MRI when neural, soft-tissue, labral, tendon, ligament, infection, occult injury or other condition-specific assessment requires it.",
+    "radiographs": "Use radiographs and/or CT according to the condition-specific diagnostic pathway."
+  },
+  "management": {
+    "green": [
+      "Activity modification",
+      "Rotator cuff/scapular rehabilitation"
+    ],
+    "amber": [
+      "Persistent structural biceps instability may require tenodesis or repair depending on associated pathology."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Amsa-Snayu/biceps phenotype may be documented."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Injury of the stabilizing soft tissues around the long head of biceps tendon in the rotator interval, often associated with subscapularis or labral pathology.",
+    "urgent": "Seek urgent assessment for acute neurovascular compromise, major trauma, rapidly progressive weakness, suspected serious infection, airway/vascular symptoms, unreduced dislocation or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "AAOS",
+      "title": "Biceps Tendon and Shoulder resources",
+      "url": "https://orthoinfo.aaos.org/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V4.1-BATCH-27",
+    "proposedGoldChapterNumber": 511,
+    "doNotOverwriteLegacyIds": [
+      "DIS-0006",
+      "DIS-0007",
+      "DIS-0008",
+      "DIS-0009",
+      "DIS-0010",
+      "DIS-0011",
+      "DIS-0012",
+      "DIS-0013",
+      "DIS-0014",
+      "DIS-0015"
+    ]
+  }
+}

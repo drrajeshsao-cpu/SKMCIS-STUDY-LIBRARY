@@ -1,0 +1,111 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-PED-TSH-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Transient Synovitis of the Hip",
+  "synonyms": [],
+  "category": "Pediatric Orthopedics > Hip > Acute Limp",
+  "tags": [
+    "transient synovitis of the hip"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Self-limited sterile inflammation of the hip joint, usually in young children and often following a viral illness.",
+  "clinicalPattern": {
+    "typical": [
+      "Acute limp",
+      "Hip/groin pain",
+      "Mild ROM limitation",
+      "Child often systemically well"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Fever/toxic appearance"
+    },
+    {
+      "level": "RED",
+      "item": "Inability to bear weight"
+    },
+    {
+      "level": "RED",
+      "item": "Marked inflammatory markers"
+    },
+    {
+      "level": "RED",
+      "item": "Concern for septic arthritis"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Hip ROM",
+      "Gait/weight bearing",
+      "Systemic assessment"
+    ]
+  },
+  "differentials": [
+    "Septic arthritis",
+    "Perthes disease",
+    "Occult fracture"
+  ],
+  "investigations": {
+    "principle": "Diagnosis is clinical after excluding serious causes; ultrasound and labs are used according to septic-arthritis risk.",
+    "MRI": "Use MRI when neural, soft-tissue, labral, tendon, ligament, infection, occult injury or other condition-specific assessment requires it.",
+    "radiographs": "Use radiographs and/or CT according to the condition-specific diagnostic pathway."
+  },
+  "management": {
+    "green": [
+      "Rest",
+      "Simple analgesia",
+      "Short-interval reassessment"
+    ],
+    "amber": [
+      "Failure to improve or development of fever requires urgent reassessment for septic arthritis or other pathology."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Balaka Shroni-Shotha phenotype may be documented only after modern exclusion of infection."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Self-limited sterile inflammation of the hip joint, usually in young children and often following a viral illness.",
+    "urgent": "Seek urgent assessment for acute neurovascular compromise, major trauma, rapidly progressive weakness, suspected serious infection, airway/vascular symptoms, unreduced dislocation or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "NICE",
+      "title": "Limping Child / infection assessment resources",
+      "url": "https://www.nice.org.uk/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V4.1-BATCH-27",
+    "proposedGoldChapterNumber": 518,
+    "doNotOverwriteLegacyIds": [
+      "DIS-0006",
+      "DIS-0007",
+      "DIS-0008",
+      "DIS-0009",
+      "DIS-0010",
+      "DIS-0011",
+      "DIS-0012",
+      "DIS-0013",
+      "DIS-0014",
+      "DIS-0015"
+    ]
+  }
+}

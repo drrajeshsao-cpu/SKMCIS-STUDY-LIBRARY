@@ -1,0 +1,105 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-PED-ISCHA-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Ischial Apophysitis",
+  "synonyms": [],
+  "category": "Pediatric Orthopedics > Pelvis > Apophysitis",
+  "tags": [
+    "ischial apophysitis"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Chronic traction-related irritation of the ischial apophysis at the hamstring origin in skeletally immature athletes.",
+  "clinicalPattern": {
+    "typical": [
+      "Gradual buttock pain",
+      "Pain with running/sprinting",
+      "Tender ischial tuberosity"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Acute displaced avulsion"
+    },
+    {
+      "level": "RED",
+      "item": "Sciatic nerve symptoms"
+    },
+    {
+      "level": "RED",
+      "item": "Persistent night pain"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Ischial tenderness",
+      "Hamstring flexibility/strength",
+      "Sciatic nerve screen"
+    ]
+  },
+  "differentials": [
+    "Ischial tuberosity avulsion fracture",
+    "Proximal hamstring tendinopathy",
+    "Deep gluteal syndrome"
+  ],
+  "investigations": {
+    "principle": "Radiographs/MRI are selective when avulsion or stress injury is suspected.",
+    "MRI": "Use MRI when neural, soft-tissue, labral, tendon, ligament, infection, occult injury or other condition-specific assessment requires it.",
+    "radiographs": "Use radiographs and/or CT according to the condition-specific diagnostic pathway."
+  },
+  "management": {
+    "green": [
+      "Relative rest",
+      "Progressive hamstring rehabilitation"
+    ],
+    "amber": [
+      "Sudden severe pain after sprinting warrants reassessment for avulsion fracture."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Shroni/Asthi-Snayu growth phenotype may be documented."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Chronic traction-related irritation of the ischial apophysis at the hamstring origin in skeletally immature athletes.",
+    "urgent": "Seek urgent assessment for acute neurovascular compromise, major trauma, rapidly progressive weakness, suspected serious infection, airway/vascular symptoms, unreduced dislocation or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "POSNA",
+      "title": "Pelvic Apophyseal Injury resources",
+      "url": "https://posna.org/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V4.1-BATCH-27",
+    "proposedGoldChapterNumber": 520,
+    "doNotOverwriteLegacyIds": [
+      "DIS-0006",
+      "DIS-0007",
+      "DIS-0008",
+      "DIS-0009",
+      "DIS-0010",
+      "DIS-0011",
+      "DIS-0012",
+      "DIS-0013",
+      "DIS-0014",
+      "DIS-0015"
+    ]
+  }
+}

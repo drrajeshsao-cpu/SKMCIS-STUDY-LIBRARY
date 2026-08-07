@@ -1,0 +1,105 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-ORT-MCLC-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "MCP Collateral Ligament Injury of the Finger",
+  "synonyms": [],
+  "category": "Orthopedics > Hand > Ligament Injury",
+  "tags": [
+    "mcp collateral ligament injury of the finger"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Sprain or rupture of a finger metacarpophalangeal collateral ligament after lateral stress or trauma.",
+  "clinicalPattern": {
+    "typical": [
+      "MCP pain/swelling",
+      "Pain with lateral stress",
+      "Grip discomfort"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Gross instability"
+    },
+    {
+      "level": "RED",
+      "item": "Associated fracture-dislocation"
+    },
+    {
+      "level": "RED",
+      "item": "Open injury"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Collateral stress testing in flexion/extension",
+      "Neurovascular exam",
+      "Extensor mechanism"
+    ]
+  },
+  "differentials": [
+    "Sagittal band injury",
+    "Phalangeal fracture",
+    "MCP dislocation"
+  ],
+  "investigations": {
+    "principle": "Radiographs exclude avulsion fracture; ultrasound/MRI is selective for high-grade tears.",
+    "MRI": "Use MRI when neural, soft-tissue, labral, tendon, ligament, infection, occult injury or other condition-specific assessment requires it.",
+    "radiographs": "Use radiographs and/or CT according to the condition-specific diagnostic pathway."
+  },
+  "management": {
+    "green": [
+      "Buddy support/splinting for stable sprains",
+      "Early motion when safe"
+    ],
+    "amber": [
+      "Complete unstable tears require hand-surgery review."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Anguli-Snayu injury phenotype may be documented."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Sprain or rupture of a finger metacarpophalangeal collateral ligament after lateral stress or trauma.",
+    "urgent": "Seek urgent assessment for acute neurovascular compromise, major trauma, rapidly progressive weakness, suspected serious infection, airway/vascular symptoms, unreduced dislocation or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "BSSH",
+      "title": "Finger Ligament Injury resources",
+      "url": "https://www.bssh.ac.uk/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V4.1-BATCH-27",
+    "proposedGoldChapterNumber": 515,
+    "doNotOverwriteLegacyIds": [
+      "DIS-0006",
+      "DIS-0007",
+      "DIS-0008",
+      "DIS-0009",
+      "DIS-0010",
+      "DIS-0011",
+      "DIS-0012",
+      "DIS-0013",
+      "DIS-0014",
+      "DIS-0015"
+    ]
+  }
+}

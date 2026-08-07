@@ -505,7 +505,27 @@
     "gold-chapters/504-medial-patellofemoral-ligament-injury.json",
     "gold-chapters/505-patella-alta.json",
     "gold-chapters/506-patella-baja.json",
-    "gold-chapters/507-trochlear-dysplasia.json"
+    "gold-chapters/507-trochlear-dysplasia.json",
+    "gold-chapters/508-posterior-labral-tear-of-the-shoulder.json",
+    "gold-chapters/509-multidirectional-instability-of-the-shoulder.json",
+    "gold-chapters/510-scapular-dyskinesis.json",
+    "gold-chapters/511-biceps-pulley-lesion-of-the-shoulder.json",
+    "gold-chapters/512-pyogenic-flexor-tenosynovitis-of-the-hand.json",
+    "gold-chapters/513-fight-bite-human-bite-injury-of-the-hand.json",
+    "gold-chapters/514-sagittal-band-rupture-boxer-knuckle.json",
+    "gold-chapters/515-mcp-collateral-ligament-injury-of-the-finger.json",
+    "gold-chapters/516-dorsal-scapular-neuropathy.json",
+    "gold-chapters/517-lateral-femoral-cutaneous-neuropathy-iatrogenic-postsurgical.json",
+    "gold-chapters/518-transient-synovitis-of-the-hip.json",
+    "gold-chapters/519-iliac-crest-apophysitis.json",
+    "gold-chapters/520-ischial-apophysitis.json",
+    "gold-chapters/521-sapho-syndrome.json",
+    "gold-chapters/522-relapsing-polychondritis.json",
+    "gold-chapters/523-hypermobility-spectrum-disorder.json",
+    "gold-chapters/524-hypermobile-ehlers-danlos-syndrome.json",
+    "gold-chapters/525-chronic-syndesmotic-ankle-instability.json",
+    "gold-chapters/526-lateral-ankle-instability-chronic.json",
+    "gold-chapters/527-subtalar-instability.json"
   ],
-  "expectedTotalGold": 508
+  "expectedTotalGold": 528
 }

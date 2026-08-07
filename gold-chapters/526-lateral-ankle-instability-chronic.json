@@ -1,0 +1,108 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-ORT-CAI-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Lateral Ankle Instability - Chronic",
+  "synonyms": [],
+  "category": "Orthopedics > Ankle > Chronic Instability",
+  "tags": [
+    "lateral ankle instability - chronic"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Recurrent giving-way and/or mechanical instability after lateral ankle sprain, involving functional sensorimotor deficits and sometimes persistent ligament laxity.",
+  "clinicalPattern": {
+    "typical": [
+      "Recurrent ankle giving-way",
+      "Repeated sprains",
+      "Reduced balance/confidence",
+      "Lateral ankle pain"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Osteochondral lesion"
+    },
+    {
+      "level": "RED",
+      "item": "Peroneal tendon tear"
+    },
+    {
+      "level": "RED",
+      "item": "Syndesmotic instability"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Anterior drawer/talar tilt",
+      "Balance/proprioception",
+      "Peroneal strength",
+      "Foot alignment"
+    ]
+  },
+  "differentials": [
+    "Chronic syndesmotic instability",
+    "Peroneal tendon pathology",
+    "Subtalar instability"
+  ],
+  "investigations": {
+    "principle": "Diagnosis is mainly clinical; radiographs/MRI are used for persistent symptoms or associated structural lesions.",
+    "MRI": "Use MRI when neural, soft-tissue, labral, tendon, ligament, infection, occult injury or other condition-specific assessment requires it.",
+    "radiographs": "Use radiographs and/or CT according to the condition-specific diagnostic pathway."
+  },
+  "management": {
+    "green": [
+      "Balance/proprioception training",
+      "Peroneal/calf strengthening",
+      "Bracing for selected activities"
+    ],
+    "amber": [
+      "Persistent mechanical instability despite rehabilitation may require ligament reconstruction."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Gulpha-Snayu asthirata phenotype may be documented."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Recurrent giving-way and/or mechanical instability after lateral ankle sprain, involving functional sensorimotor deficits and sometimes persistent ligament laxity.",
+    "urgent": "Seek urgent assessment for acute neurovascular compromise, major trauma, rapidly progressive weakness, suspected serious infection, airway/vascular symptoms, unreduced dislocation or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "JOSPT",
+      "title": "Lateral Ankle Sprain Clinical Practice Guideline",
+      "url": "https://www.jospt.org/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V4.1-BATCH-27",
+    "proposedGoldChapterNumber": 526,
+    "doNotOverwriteLegacyIds": [
+      "DIS-0006",
+      "DIS-0007",
+      "DIS-0008",
+      "DIS-0009",
+      "DIS-0010",
+      "DIS-0011",
+      "DIS-0012",
+      "DIS-0013",
+      "DIS-0014",
+      "DIS-0015"
+    ]
+  }
+}

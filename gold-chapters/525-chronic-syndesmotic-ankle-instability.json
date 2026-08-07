@@ -1,0 +1,106 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-ORT-CSA-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Chronic Syndesmotic Ankle Instability",
+  "synonyms": [],
+  "category": "Orthopedics > Ankle > Syndesmosis",
+  "tags": [
+    "chronic syndesmotic ankle instability"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Persistent instability or pain of the distal tibiofibular syndesmosis after incompletely healed high-ankle sprain or trauma.",
+  "clinicalPattern": {
+    "typical": [
+      "Persistent pain above ankle",
+      "Pain with pivoting",
+      "Reduced push-off",
+      "Sense of instability"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Unrecognized Maisonneuve injury"
+    },
+    {
+      "level": "RED",
+      "item": "Ankle mortise widening"
+    },
+    {
+      "level": "RED",
+      "item": "Neurovascular compromise"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Syndesmotic tenderness",
+      "External rotation/squeeze tests",
+      "Ankle stability"
+    ]
+  },
+  "differentials": [
+    "Lateral ankle instability",
+    "Deltoid injury",
+    "Anterior ankle impingement"
+  ],
+  "investigations": {
+    "principle": "Weight-bearing radiographs, stress imaging, CT or MRI are selected to assess persistent syndesmotic instability.",
+    "MRI": "Use MRI when neural, soft-tissue, labral, tendon, ligament, infection, occult injury or other condition-specific assessment requires it.",
+    "radiographs": "Use radiographs and/or CT according to the condition-specific diagnostic pathway."
+  },
+  "management": {
+    "green": [
+      "Structured ankle rehabilitation",
+      "Load modification"
+    ],
+    "amber": [
+      "Mechanical instability with diastasis may require operative stabilization."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Gulpha-Snayu asthirata phenotype may be documented."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Persistent instability or pain of the distal tibiofibular syndesmosis after incompletely healed high-ankle sprain or trauma.",
+    "urgent": "Seek urgent assessment for acute neurovascular compromise, major trauma, rapidly progressive weakness, suspected serious infection, airway/vascular symptoms, unreduced dislocation or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "BOAST",
+      "title": "Ankle/Syndesmosis resources",
+      "url": "https://www.boa.ac.uk/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V4.1-BATCH-27",
+    "proposedGoldChapterNumber": 525,
+    "doNotOverwriteLegacyIds": [
+      "DIS-0006",
+      "DIS-0007",
+      "DIS-0008",
+      "DIS-0009",
+      "DIS-0010",
+      "DIS-0011",
+      "DIS-0012",
+      "DIS-0013",
+      "DIS-0014",
+      "DIS-0015"
+    ]
+  }
+}

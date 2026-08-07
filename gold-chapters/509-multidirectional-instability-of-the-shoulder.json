@@ -1,0 +1,101 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-ORT-MDI-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Multidirectional Instability of the Shoulder",
+  "synonyms": [],
+  "category": "Orthopedics > Shoulder > Instability",
+  "tags": [
+    "multidirectional instability of the shoulder"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Symptomatic instability of the glenohumeral joint in more than one direction, often related to capsular laxity and impaired dynamic stabilization.",
+  "clinicalPattern": {
+    "typical": [
+      "Atraumatic recurrent subluxation",
+      "Pain with overhead use",
+      "Generalized laxity may coexist"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Acute dislocation with neurovascular deficit"
+    },
+    {
+      "level": "RED",
+      "item": "Major traumatic structural lesion"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Sulcus sign",
+      "Load-and-shift",
+      "Scapular control",
+      "Generalized laxity"
+    ]
+  },
+  "differentials": [
+    "Unidirectional traumatic instability",
+    "Labral tear",
+    "Voluntary instability"
+  ],
+  "investigations": {
+    "principle": "Imaging is selective; diagnosis is primarily clinical with MRI used to evaluate structural lesions when needed.",
+    "MRI": "Use MRI when neural, soft-tissue, labral, tendon, ligament, infection, occult injury or other condition-specific assessment requires it.",
+    "radiographs": "Use radiographs and/or CT according to the condition-specific diagnostic pathway."
+  },
+  "management": {
+    "green": [
+      "Structured scapular and rotator-cuff stabilization rehabilitation"
+    ],
+    "amber": [
+      "Surgery is reserved for persistent disabling instability after high-quality rehabilitation."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Amsa-Sandhi asthirata phenotype may be documented descriptively."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Symptomatic instability of the glenohumeral joint in more than one direction, often related to capsular laxity and impaired dynamic stabilization.",
+    "urgent": "Seek urgent assessment for acute neurovascular compromise, major trauma, rapidly progressive weakness, suspected serious infection, airway/vascular symptoms, unreduced dislocation or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "AAOS",
+      "title": "Shoulder Instability resources",
+      "url": "https://orthoinfo.aaos.org/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V4.1-BATCH-27",
+    "proposedGoldChapterNumber": 509,
+    "doNotOverwriteLegacyIds": [
+      "DIS-0006",
+      "DIS-0007",
+      "DIS-0008",
+      "DIS-0009",
+      "DIS-0010",
+      "DIS-0011",
+      "DIS-0012",
+      "DIS-0013",
+      "DIS-0014",
+      "DIS-0015"
+    ]
+  }
+}

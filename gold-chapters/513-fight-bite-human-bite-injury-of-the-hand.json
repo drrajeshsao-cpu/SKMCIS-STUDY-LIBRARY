@@ -1,0 +1,110 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-ORT-FBITE-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Fight Bite / Human Bite Injury of the Hand",
+  "synonyms": [],
+  "category": "Orthopedics > Hand > Infection/Trauma Emergency",
+  "tags": [
+    "fight bite / human bite injury of the hand"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Human-bite injury, especially clenched-fist laceration over an MCP joint, with high risk of joint, tendon and deep-space infection.",
+  "clinicalPattern": {
+    "typical": [
+      "Small dorsal MCP wound",
+      "History of punching teeth",
+      "Pain/swelling may initially be mild"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Any clenched-fist bite"
+    },
+    {
+      "level": "RED",
+      "item": "Septic joint"
+    },
+    {
+      "level": "RED",
+      "item": "Extensor tendon injury"
+    },
+    {
+      "level": "RED",
+      "item": "Spreading infection"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Inspect wound through full finger motion",
+      "Joint/tendon assessment",
+      "Neurovascular exam"
+    ]
+  },
+  "differentials": [
+    "Simple laceration",
+    "Cellulitis",
+    "MCP sprain"
+  ],
+  "investigations": {
+    "principle": "Radiographs assess foreign body/tooth fragment or fracture; cultures are obtained when infection/debridement is present.",
+    "MRI": "Use MRI when neural, soft-tissue, labral, tendon, ligament, infection, occult injury or other condition-specific assessment requires it.",
+    "radiographs": "Use radiographs and/or CT according to the condition-specific diagnostic pathway."
+  },
+  "management": {
+    "green": [
+      "Urgent irrigation/debridement assessment",
+      "Appropriate antibiotics",
+      "Tetanus review"
+    ],
+    "amber": [
+      "Do not close high-risk contaminated fight-bite wounds casually."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Vrana/Shotha concepts are secondary to modern wound and infection management."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Human-bite injury, especially clenched-fist laceration over an MCP joint, with high risk of joint, tendon and deep-space infection.",
+    "urgent": "Seek urgent assessment for acute neurovascular compromise, major trauma, rapidly progressive weakness, suspected serious infection, airway/vascular symptoms, unreduced dislocation or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "BSSH",
+      "title": "Bite Injury resources",
+      "url": "https://www.bssh.ac.uk/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V4.1-BATCH-27",
+    "proposedGoldChapterNumber": 513,
+    "doNotOverwriteLegacyIds": [
+      "DIS-0006",
+      "DIS-0007",
+      "DIS-0008",
+      "DIS-0009",
+      "DIS-0010",
+      "DIS-0011",
+      "DIS-0012",
+      "DIS-0013",
+      "DIS-0014",
+      "DIS-0015"
+    ]
+  }
+}

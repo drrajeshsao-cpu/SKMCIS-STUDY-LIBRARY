@@ -1,0 +1,106 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-RHE-SAPHO-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "SAPHO Syndrome",
+  "synonyms": [],
+  "category": "Rheumatology > Autoinflammatory/Osteoarticular",
+  "tags": [
+    "sapho syndrome"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Rare inflammatory syndrome combining osteitis/hyperostosis with acne or pustular skin disease, often involving the anterior chest wall, spine or sacroiliac joints.",
+  "clinicalPattern": {
+    "typical": [
+      "Anterior chest wall pain",
+      "Osteitis/hyperostosis",
+      "Acne or palmoplantar pustulosis",
+      "Spinal/SI pain"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Infection or malignancy mimic"
+    },
+    {
+      "level": "RED",
+      "item": "Neurological compression"
+    },
+    {
+      "level": "RED",
+      "item": "Severe systemic illness"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Chest wall",
+      "Spine/SI joints",
+      "Skin examination"
+    ]
+  },
+  "differentials": [
+    "Chronic osteomyelitis",
+    "Axial spondyloarthritis",
+    "Bone tumor"
+  ],
+  "investigations": {
+    "principle": "Imaging may show osteitis/hyperostosis; labs and biopsy/culture are used when infection or tumor cannot be excluded.",
+    "MRI": "Use MRI when neural, soft-tissue, labral, tendon, ligament, infection, occult injury or other condition-specific assessment requires it.",
+    "radiographs": "Use radiographs and/or CT according to the condition-specific diagnostic pathway."
+  },
+  "management": {
+    "green": [
+      "Rheumatology/dermatology care",
+      "Exercise after active inflammation is controlled"
+    ],
+    "amber": [
+      "Diagnosis requires careful exclusion of infection and malignancy."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Asthi-Shotha/Rakta phenotype may be documented only in parallel."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Rare inflammatory syndrome combining osteitis/hyperostosis with acne or pustular skin disease, often involving the anterior chest wall, spine or sacroiliac joints.",
+    "urgent": "Seek urgent assessment for acute neurovascular compromise, major trauma, rapidly progressive weakness, suspected serious infection, airway/vascular symptoms, unreduced dislocation or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "EULAR",
+      "title": "Rare inflammatory musculoskeletal disease resources",
+      "url": "https://ard.bmj.com/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V4.1-BATCH-27",
+    "proposedGoldChapterNumber": 521,
+    "doNotOverwriteLegacyIds": [
+      "DIS-0006",
+      "DIS-0007",
+      "DIS-0008",
+      "DIS-0009",
+      "DIS-0010",
+      "DIS-0011",
+      "DIS-0012",
+      "DIS-0013",
+      "DIS-0014",
+      "DIS-0015"
+    ]
+  }
+}

@@ -1,0 +1,106 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-RHE-RPC-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Relapsing Polychondritis",
+  "synonyms": [],
+  "category": "Rheumatology > Systemic Autoimmune",
+  "tags": [
+    "relapsing polychondritis"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Rare immune-mediated disease causing recurrent inflammation of cartilage, especially ears, nose, respiratory tract and sometimes joints.",
+  "clinicalPattern": {
+    "typical": [
+      "Painful red pinna sparing lobule",
+      "Nasal chondritis",
+      "Arthritis",
+      "Airway symptoms"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Stridor/airway compromise"
+    },
+    {
+      "level": "RED",
+      "item": "Aortic/cardiac involvement"
+    },
+    {
+      "level": "RED",
+      "item": "Severe ocular inflammation"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Auricular/nasal cartilage",
+      "Airway assessment",
+      "Joint and ocular screen"
+    ]
+  },
+  "differentials": [
+    "Cellulitis",
+    "GPA/vasculitis",
+    "Septic chondritis"
+  ],
+  "investigations": {
+    "principle": "Diagnosis is clinical with organ-directed imaging/labs and exclusion of mimics.",
+    "MRI": "Use MRI when neural, soft-tissue, labral, tendon, ligament, infection, occult injury or other condition-specific assessment requires it.",
+    "radiographs": "Use radiographs and/or CT according to the condition-specific diagnostic pathway."
+  },
+  "management": {
+    "green": [
+      "Urgent rheumatology assessment",
+      "Airway monitoring when involved"
+    ],
+    "amber": [
+      "Airway disease can be life-threatening and requires specialist immunosuppression/intervention."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Asthi-upadhatu/cartilage inflammatory phenotype may be documented only in parallel."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Rare immune-mediated disease causing recurrent inflammation of cartilage, especially ears, nose, respiratory tract and sometimes joints.",
+    "urgent": "Seek urgent assessment for acute neurovascular compromise, major trauma, rapidly progressive weakness, suspected serious infection, airway/vascular symptoms, unreduced dislocation or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "Orphanet",
+      "title": "Relapsing Polychondritis resources",
+      "url": "https://www.orpha.net/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V4.1-BATCH-27",
+    "proposedGoldChapterNumber": 522,
+    "doNotOverwriteLegacyIds": [
+      "DIS-0006",
+      "DIS-0007",
+      "DIS-0008",
+      "DIS-0009",
+      "DIS-0010",
+      "DIS-0011",
+      "DIS-0012",
+      "DIS-0013",
+      "DIS-0014",
+      "DIS-0015"
+    ]
+  }
+}

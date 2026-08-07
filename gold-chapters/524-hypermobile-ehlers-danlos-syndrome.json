@@ -1,0 +1,108 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-RHE-HEDS-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Hypermobile Ehlers-Danlos Syndrome",
+  "synonyms": [],
+  "category": "Rheumatology/Genetics > Heritable Connective Tissue",
+  "tags": [
+    "hypermobile ehlers-danlos syndrome"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Heritable connective-tissue disorder characterized by generalized joint hypermobility, instability, soft-tissue symptoms and characteristic systemic features, diagnosed clinically after exclusion of alternatives.",
+  "clinicalPattern": {
+    "typical": [
+      "Generalized hypermobility",
+      "Recurrent subluxations",
+      "Chronic pain",
+      "Soft-tissue fragility features"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Features suggesting vascular EDS"
+    },
+    {
+      "level": "RED",
+      "item": "Major unexplained vascular event"
+    },
+    {
+      "level": "RED",
+      "item": "Severe cervical instability symptoms"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Generalized hypermobility",
+      "Skin/scar assessment",
+      "Joint instability",
+      "Systemic criteria review"
+    ]
+  },
+  "differentials": [
+    "Hypermobility spectrum disorder",
+    "Marfan syndrome",
+    "Other EDS subtypes"
+  ],
+  "investigations": {
+    "principle": "No single confirmatory genetic test exists for hEDS; testing is directed at alternative genetic disorders when suspected.",
+    "MRI": "Use MRI when neural, soft-tissue, labral, tendon, ligament, infection, occult injury or other condition-specific assessment requires it.",
+    "radiographs": "Use radiographs and/or CT according to the condition-specific diagnostic pathway."
+  },
+  "management": {
+    "green": [
+      "Progressive strength/proprioception rehabilitation",
+      "Joint protection",
+      "Multidisciplinary symptom management"
+    ],
+    "amber": [
+      "High-velocity manipulation and unnecessary invasive procedures should be approached cautiously when significant instability exists."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Sandhi-asthirata/Dhatu-daurbalya phenotype may be documented only in parallel."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Heritable connective-tissue disorder characterized by generalized joint hypermobility, instability, soft-tissue symptoms and characteristic systemic features, diagnosed clinically after exclusion of alternatives.",
+    "urgent": "Seek urgent assessment for acute neurovascular compromise, major trauma, rapidly progressive weakness, suspected serious infection, airway/vascular symptoms, unreduced dislocation or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "GeneReviews",
+      "title": "Hypermobile Ehlers-Danlos Syndrome",
+      "url": "https://www.ncbi.nlm.nih.gov/books/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V4.1-BATCH-27",
+    "proposedGoldChapterNumber": 524,
+    "doNotOverwriteLegacyIds": [
+      "DIS-0006",
+      "DIS-0007",
+      "DIS-0008",
+      "DIS-0009",
+      "DIS-0010",
+      "DIS-0011",
+      "DIS-0012",
+      "DIS-0013",
+      "DIS-0014",
+      "DIS-0015"
+    ]
+  }
+}

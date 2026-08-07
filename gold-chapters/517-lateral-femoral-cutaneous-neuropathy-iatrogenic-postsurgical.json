@@ -1,0 +1,107 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-NEU-LFCNI-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Lateral Femoral Cutaneous Neuropathy - Iatrogenic/Postsurgical",
+  "synonyms": [],
+  "category": "Neurology > Peripheral Nerve > Hip/Thigh",
+  "tags": [
+    "lateral femoral cutaneous neuropathy - iatrogenic/postsurgical"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Injury of the lateral femoral cutaneous nerve after pelvic, hip or abdominal procedures, producing anterolateral thigh sensory pain without motor deficit.",
+  "clinicalPattern": {
+    "typical": [
+      "Burning anterolateral thigh pain",
+      "Numbness",
+      "No motor weakness",
+      "Temporal relation to surgery"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Motor weakness suggesting femoral neuropathy"
+    },
+    {
+      "level": "RED",
+      "item": "Retroperitoneal hematoma"
+    },
+    {
+      "level": "RED",
+      "item": "Progressive widespread deficit"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Anterolateral thigh sensory mapping",
+      "Normal motor/reflex exam",
+      "Hip/inguinal scar assessment"
+    ]
+  },
+  "differentials": [
+    "Meralgia paresthetica from compression",
+    "Femoral neuropathy",
+    "L2-L3 radiculopathy"
+  ],
+  "investigations": {
+    "principle": "Diagnosis is mainly clinical; electrodiagnostics or ultrasound are selective.",
+    "MRI": "Use MRI when neural, soft-tissue, labral, tendon, ligament, infection, occult injury or other condition-specific assessment requires it.",
+    "radiographs": "Use radiographs and/or CT according to the condition-specific diagnostic pathway."
+  },
+  "management": {
+    "green": [
+      "Pressure avoidance",
+      "Desensitization",
+      "Neuropathic pain management"
+    ],
+    "amber": [
+      "Persistent focal neuroma/entrapment symptoms may require specialist intervention."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Uru/Vata-neuralgic phenotype may be documented."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Injury of the lateral femoral cutaneous nerve after pelvic, hip or abdominal procedures, producing anterolateral thigh sensory pain without motor deficit.",
+    "urgent": "Seek urgent assessment for acute neurovascular compromise, major trauma, rapidly progressive weakness, suspected serious infection, airway/vascular symptoms, unreduced dislocation or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "AANEM",
+      "title": "Peripheral Nerve resources",
+      "url": "https://www.aanem.org/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V4.1-BATCH-27",
+    "proposedGoldChapterNumber": 517,
+    "doNotOverwriteLegacyIds": [
+      "DIS-0006",
+      "DIS-0007",
+      "DIS-0008",
+      "DIS-0009",
+      "DIS-0010",
+      "DIS-0011",
+      "DIS-0012",
+      "DIS-0013",
+      "DIS-0014",
+      "DIS-0015"
+    ]
+  }
+}
