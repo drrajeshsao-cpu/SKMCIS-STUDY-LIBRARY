@@ -1,0 +1,105 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-ORT-PTPT-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Patellar Tendon Partial Tear",
+  "synonyms": [],
+  "category": "Orthopedics > Knee > Tendon Injury",
+  "tags": [
+    "patellar tendon partial tear"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Partial disruption of the patellar tendon with preserved but painful extensor mechanism.",
+  "clinicalPattern": {
+    "typical": [
+      "Anterior knee pain after load",
+      "Tender patellar tendon",
+      "Weak/painful extension"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Complete rupture"
+    },
+    {
+      "level": "RED",
+      "item": "Extensor lag"
+    },
+    {
+      "level": "RED",
+      "item": "Large traumatic hematoma"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Straight-leg raise",
+      "Extensor lag",
+      "Patellar tendon palpation"
+    ]
+  },
+  "differentials": [
+    "Patellar tendinopathy",
+    "Patellar fracture",
+    "Quadriceps tendon injury"
+  ],
+  "investigations": {
+    "principle": "Ultrasound or MRI defines tear extent.",
+    "MRI": "Use MRI when neural, soft-tissue, tendon, cartilage, occult injury or other condition-specific assessment requires it.",
+    "radiographs": "Use radiographs and/or CT according to the condition-specific diagnostic pathway."
+  },
+  "management": {
+    "green": [
+      "Protected loading",
+      "Progressive rehabilitation when extensor mechanism is intact"
+    ],
+    "amber": [
+      "High-grade partial tears or failed conservative care require orthopedic review."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Janu-Snayu tear phenotype may be documented."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Partial disruption of the patellar tendon with preserved but painful extensor mechanism.",
+    "urgent": "Seek urgent assessment for acute neurovascular compromise, major trauma, severe deformity, progressive weakness, tendon rupture, infection or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "AAOS OrthoInfo",
+      "title": "Patellar Tendon Tear resources",
+      "url": "https://orthoinfo.aaos.org/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V3.9-BATCH-25",
+    "proposedGoldChapterNumber": 477,
+    "doNotOverwriteLegacyIds": [
+      "DIS-0006",
+      "DIS-0007",
+      "DIS-0008",
+      "DIS-0009",
+      "DIS-0010",
+      "DIS-0011",
+      "DIS-0012",
+      "DIS-0013",
+      "DIS-0014",
+      "DIS-0015"
+    ]
+  }
+}

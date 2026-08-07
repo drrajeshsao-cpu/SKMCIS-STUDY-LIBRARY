@@ -1,0 +1,104 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-ORT-APCF-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Anterior Process of Calcaneus Fracture",
+  "synonyms": [],
+  "category": "Orthopedics > Foot & Ankle > Fracture",
+  "tags": [
+    "anterior process of calcaneus fracture"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Fracture of the anterior calcaneal process near the calcaneocuboid joint, often mistaken for a lateral ankle sprain.",
+  "clinicalPattern": {
+    "typical": [
+      "Lateral midfoot pain",
+      "Pain after inversion injury",
+      "Tenderness anterior/inferior to lateral malleolus"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Large displaced fragment"
+    },
+    {
+      "level": "RED",
+      "item": "Calcaneocuboid joint involvement"
+    },
+    {
+      "level": "RED",
+      "item": "Associated midfoot injury"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Anterior calcaneal tenderness",
+      "Midfoot stability",
+      "Neurovascular exam"
+    ]
+  },
+  "differentials": [
+    "Lateral ankle sprain",
+    "Cuboid fracture",
+    "Chopart injury"
+  ],
+  "investigations": {
+    "principle": "Radiographs may miss small fractures; CT or MRI is useful when suspicion remains high.",
+    "MRI": "Use MRI when neural, soft-tissue, tendon, cartilage, occult injury or other condition-specific assessment requires it.",
+    "radiographs": "Use radiographs and/or CT according to the condition-specific diagnostic pathway."
+  },
+  "management": {
+    "green": [
+      "Immobilization/protected weight bearing for stable fractures"
+    ],
+    "amber": [
+      "Large articular fragments may require fixation."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Pada-bhagna phenotype may be documented after imaging."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Fracture of the anterior calcaneal process near the calcaneocuboid joint, often mistaken for a lateral ankle sprain.",
+    "urgent": "Seek urgent assessment for acute neurovascular compromise, major trauma, severe deformity, progressive weakness, tendon rupture, infection or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "FootCareMD",
+      "title": "Calcaneus Fracture resources",
+      "url": "https://www.footcaremd.org/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V3.9-BATCH-25",
+    "proposedGoldChapterNumber": 474,
+    "doNotOverwriteLegacyIds": [
+      "DIS-0006",
+      "DIS-0007",
+      "DIS-0008",
+      "DIS-0009",
+      "DIS-0010",
+      "DIS-0011",
+      "DIS-0012",
+      "DIS-0013",
+      "DIS-0014",
+      "DIS-0015"
+    ]
+  }
+}

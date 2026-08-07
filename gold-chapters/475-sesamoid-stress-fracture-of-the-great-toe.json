@@ -1,0 +1,106 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-ORT-SSFGT-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Sesamoid Stress Fracture of the Great Toe",
+  "synonyms": [],
+  "category": "Orthopedics > Foot > Sesamoid",
+  "tags": [
+    "sesamoid stress fracture of the great toe"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Stress injury or fracture of a hallux sesamoid caused by repetitive forefoot loading, common in dancers and runners.",
+  "clinicalPattern": {
+    "typical": [
+      "Plantar first-MTP pain",
+      "Pain with toe-off",
+      "Localized sesamoid tenderness"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Displaced fracture"
+    },
+    {
+      "level": "RED",
+      "item": "Avascular necrosis"
+    },
+    {
+      "level": "RED",
+      "item": "Septic sesamoiditis"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Sesamoid palpation",
+      "First-MTP ROM",
+      "Gait/toe-off assessment"
+    ]
+  },
+  "differentials": [
+    "Sesamoiditis",
+    "Turf toe",
+    "First-MTP OA"
+  ],
+  "investigations": {
+    "principle": "Radiographs and MRI help distinguish acute fracture, stress injury and bipartite sesamoid.",
+    "MRI": "Use MRI when neural, soft-tissue, tendon, cartilage, occult injury or other condition-specific assessment requires it.",
+    "radiographs": "Use radiographs and/or CT according to the condition-specific diagnostic pathway."
+  },
+  "management": {
+    "green": [
+      "Off-loading",
+      "Stiff-soled footwear",
+      "Activity modification"
+    ],
+    "amber": [
+      "Persistent nonunion or displaced fracture may need surgery."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Pada/Asthi stress-injury phenotype may be documented."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Stress injury or fracture of a hallux sesamoid caused by repetitive forefoot loading, common in dancers and runners.",
+    "urgent": "Seek urgent assessment for acute neurovascular compromise, major trauma, severe deformity, progressive weakness, tendon rupture, infection or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "FootCareMD",
+      "title": "Sesamoid Injuries resources",
+      "url": "https://www.footcaremd.org/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V3.9-BATCH-25",
+    "proposedGoldChapterNumber": 475,
+    "doNotOverwriteLegacyIds": [
+      "DIS-0006",
+      "DIS-0007",
+      "DIS-0008",
+      "DIS-0009",
+      "DIS-0010",
+      "DIS-0011",
+      "DIS-0012",
+      "DIS-0013",
+      "DIS-0014",
+      "DIS-0015"
+    ]
+  }
+}

@@ -1,0 +1,106 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-ORT-RCB-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Retrocalcaneal Bursitis",
+  "synonyms": [],
+  "category": "Orthopedics > Foot & Ankle > Bursa",
+  "tags": [
+    "retrocalcaneal bursitis"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Inflammation of the retrocalcaneal bursa between the Achilles tendon and posterior calcaneus, often coexisting with insertional Achilles pathology.",
+  "clinicalPattern": {
+    "typical": [
+      "Posterior heel pain",
+      "Swelling anterior to Achilles insertion",
+      "Pain in tight shoes"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Septic bursitis"
+    },
+    {
+      "level": "RED",
+      "item": "Acute Achilles rupture"
+    },
+    {
+      "level": "RED",
+      "item": "Inflammatory arthritis flare"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Posterior heel tenderness",
+      "Achilles integrity",
+      "Local swelling"
+    ]
+  },
+  "differentials": [
+    "Insertional Achilles tendinopathy",
+    "Haglund deformity",
+    "Calcaneal stress fracture"
+  ],
+  "investigations": {
+    "principle": "Usually clinical; ultrasound or MRI may help when persistent or atypical.",
+    "MRI": "Use MRI when neural, soft-tissue, tendon, cartilage, occult injury or other condition-specific assessment requires it.",
+    "radiographs": "Use radiographs and/or CT according to the condition-specific diagnostic pathway."
+  },
+  "management": {
+    "green": [
+      "Heel counter modification",
+      "Activity reduction",
+      "Calf rehabilitation"
+    ],
+    "amber": [
+      "Injection requires caution because of Achilles tendon proximity."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Gulpha-Shotha phenotype may be documented."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Inflammation of the retrocalcaneal bursa between the Achilles tendon and posterior calcaneus, often coexisting with insertional Achilles pathology.",
+    "urgent": "Seek urgent assessment for acute neurovascular compromise, major trauma, severe deformity, progressive weakness, tendon rupture, infection or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "FootCareMD",
+      "title": "Heel Pain resources",
+      "url": "https://www.footcaremd.org/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V3.9-BATCH-25",
+    "proposedGoldChapterNumber": 472,
+    "doNotOverwriteLegacyIds": [
+      "DIS-0006",
+      "DIS-0007",
+      "DIS-0008",
+      "DIS-0009",
+      "DIS-0010",
+      "DIS-0011",
+      "DIS-0012",
+      "DIS-0013",
+      "DIS-0014",
+      "DIS-0015"
+    ]
+  }
+}

@@ -1,0 +1,107 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-ORT-1MTPS-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "First MTP Joint Synovitis",
+  "synonyms": [],
+  "category": "Orthopedics > Foot > First MTP",
+  "tags": [
+    "first mtp joint synovitis"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Inflammatory irritation of the first metatarsophalangeal joint causing pain, swelling and painful dorsiflexion, due to overuse, arthritis, crystal disease or trauma.",
+  "clinicalPattern": {
+    "typical": [
+      "First-MTP pain",
+      "Swelling",
+      "Pain with toe-off",
+      "Painful dorsiflexion"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Hot red joint"
+    },
+    {
+      "level": "RED",
+      "item": "Septic arthritis"
+    },
+    {
+      "level": "RED",
+      "item": "Acute gout with systemic illness"
+    }
+  ],
+  "examination": {
+    "core": [
+      "First-MTP ROM",
+      "Swelling/warmth",
+      "Sesamoid and plantar-plate assessment"
+    ]
+  },
+  "differentials": [
+    "Gout",
+    "Hallux rigidus",
+    "Turf toe"
+  ],
+  "investigations": {
+    "principle": "Diagnosis is clinical; radiographs, ultrasound or aspiration are used according to suspected cause.",
+    "MRI": "Use MRI when neural, soft-tissue, tendon, cartilage, occult injury or other condition-specific assessment requires it.",
+    "radiographs": "Use radiographs and/or CT according to the condition-specific diagnostic pathway."
+  },
+  "management": {
+    "green": [
+      "Load modification",
+      "Footwear adjustment",
+      "Cause-directed treatment"
+    ],
+    "amber": [
+      "A hot acutely swollen joint may need aspiration before anti-inflammatory treatment is assumed sufficient."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Pada-anguli Sandhi-Shotha phenotype may be documented."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Inflammatory irritation of the first metatarsophalangeal joint causing pain, swelling and painful dorsiflexion, due to overuse, arthritis, crystal disease or trauma.",
+    "urgent": "Seek urgent assessment for acute neurovascular compromise, major trauma, severe deformity, progressive weakness, tendon rupture, infection or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "NICE",
+      "title": "Gout NG219 / joint assessment resources",
+      "url": "https://www.nice.org.uk/guidance/ng219",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V3.9-BATCH-25",
+    "proposedGoldChapterNumber": 476,
+    "doNotOverwriteLegacyIds": [
+      "DIS-0006",
+      "DIS-0007",
+      "DIS-0008",
+      "DIS-0009",
+      "DIS-0010",
+      "DIS-0011",
+      "DIS-0012",
+      "DIS-0013",
+      "DIS-0014",
+      "DIS-0015"
+    ]
+  }
+}

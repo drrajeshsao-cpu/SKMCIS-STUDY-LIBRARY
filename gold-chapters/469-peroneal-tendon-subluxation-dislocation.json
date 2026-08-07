@@ -1,0 +1,105 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-ORT-PERS-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Peroneal Tendon Subluxation / Dislocation",
+  "synonyms": [],
+  "category": "Orthopedics > Foot & Ankle > Peroneal Tendon",
+  "tags": [
+    "peroneal tendon subluxation / dislocation"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Instability of the peroneal tendons behind the lateral malleolus, typically due to superior peroneal retinaculum injury.",
+  "clinicalPattern": {
+    "typical": [
+      "Snapping behind lateral malleolus",
+      "Pain with eversion",
+      "Symptoms after ankle trauma"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Irreducible tendon dislocation"
+    },
+    {
+      "level": "RED",
+      "item": "Associated fracture"
+    },
+    {
+      "level": "RED",
+      "item": "Neurovascular compromise"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Dynamic subluxation with dorsiflexion/eversion",
+      "Tenderness behind fibula",
+      "Ankle instability"
+    ]
+  },
+  "differentials": [
+    "Peroneal tendon tear",
+    "Lateral ankle sprain",
+    "Os peroneum syndrome"
+  ],
+  "investigations": {
+    "principle": "Dynamic ultrasound is especially useful; MRI assesses retinaculum and tendon injury.",
+    "MRI": "Use MRI when neural, soft-tissue, tendon, cartilage, occult injury or other condition-specific assessment requires it.",
+    "radiographs": "Use radiographs and/or CT according to the condition-specific diagnostic pathway."
+  },
+  "management": {
+    "green": [
+      "Immobilization/support in selected acute cases",
+      "Rehabilitation"
+    ],
+    "amber": [
+      "Recurrent symptomatic dislocation commonly requires surgical stabilization."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Gulpha-Snayu instability phenotype may be documented."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Instability of the peroneal tendons behind the lateral malleolus, typically due to superior peroneal retinaculum injury.",
+    "urgent": "Seek urgent assessment for acute neurovascular compromise, major trauma, severe deformity, progressive weakness, tendon rupture, infection or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "FootCareMD",
+      "title": "Peroneal Tendon Instability resources",
+      "url": "https://www.footcaremd.org/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V3.9-BATCH-25",
+    "proposedGoldChapterNumber": 469,
+    "doNotOverwriteLegacyIds": [
+      "DIS-0006",
+      "DIS-0007",
+      "DIS-0008",
+      "DIS-0009",
+      "DIS-0010",
+      "DIS-0011",
+      "DIS-0012",
+      "DIS-0013",
+      "DIS-0014",
+      "DIS-0015"
+    ]
+  }
+}

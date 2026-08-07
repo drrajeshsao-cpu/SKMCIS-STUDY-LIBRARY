@@ -1,0 +1,105 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-ORT-SMT-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Semimembranosus Tendinopathy",
+  "synonyms": [],
+  "category": "Orthopedics > Knee > Medial Hamstring Tendon",
+  "tags": [
+    "semimembranosus tendinopathy"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Load-related pain at the distal semimembranosus tendon near the posteromedial knee.",
+  "clinicalPattern": {
+    "typical": [
+      "Posteromedial knee pain",
+      "Pain with resisted knee flexion",
+      "Tender distal semimembranosus"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "DVT"
+    },
+    {
+      "level": "RED",
+      "item": "Meniscal tear with locking"
+    },
+    {
+      "level": "RED",
+      "item": "Acute tendon rupture"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Posteromedial tenderness",
+      "Resisted knee flexion",
+      "Meniscal and ligament screen"
+    ]
+  },
+  "differentials": [
+    "Medial meniscus tear",
+    "Pes anserine bursitis",
+    "MCL injury"
+  ],
+  "investigations": {
+    "principle": "Usually clinical; ultrasound/MRI is selective.",
+    "MRI": "Use MRI when neural, soft-tissue, tendon, cartilage, occult injury or other condition-specific assessment requires it.",
+    "radiographs": "Use radiographs and/or CT according to the condition-specific diagnostic pathway."
+  },
+  "management": {
+    "green": [
+      "Progressive hamstring loading",
+      "Load management"
+    ],
+    "amber": [
+      "Persistent symptoms need reassessment for intra-articular pathology."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Janu/Jangha-Snayu phenotype may be documented."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Load-related pain at the distal semimembranosus tendon near the posteromedial knee.",
+    "urgent": "Seek urgent assessment for acute neurovascular compromise, major trauma, severe deformity, progressive weakness, tendon rupture, infection or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "Sports medicine literature",
+      "title": "Hamstring Tendon resources",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V3.9-BATCH-25",
+    "proposedGoldChapterNumber": 480,
+    "doNotOverwriteLegacyIds": [
+      "DIS-0006",
+      "DIS-0007",
+      "DIS-0008",
+      "DIS-0009",
+      "DIS-0010",
+      "DIS-0011",
+      "DIS-0012",
+      "DIS-0013",
+      "DIS-0014",
+      "DIS-0015"
+    ]
+  }
+}

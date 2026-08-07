@@ -1,0 +1,105 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-NEU-SNE-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Saphenous Nerve Entrapment",
+  "synonyms": [],
+  "category": "Neurology/Orthopedics > Peripheral Nerve > Lower Limb",
+  "tags": [
+    "saphenous nerve entrapment"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Entrapment or irritation of the saphenous nerve, often in the adductor canal or infrapatellar branch, producing medial knee/leg sensory pain without motor deficit.",
+  "clinicalPattern": {
+    "typical": [
+      "Medial knee or leg burning pain",
+      "Allodynia",
+      "No motor weakness"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "DVT"
+    },
+    {
+      "level": "RED",
+      "item": "Progressive broader neurological deficit"
+    },
+    {
+      "level": "RED",
+      "item": "Mass lesion"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Sensory mapping",
+      "Tinel along adductor canal/infrapatellar branch",
+      "Motor exam to exclude femoral neuropathy"
+    ]
+  },
+  "differentials": [
+    "MCL injury",
+    "Medial meniscus tear",
+    "Femoral neuropathy"
+  ],
+  "investigations": {
+    "principle": "Diagnosis is mainly clinical; ultrasound/electrodiagnostics or diagnostic block are selective.",
+    "MRI": "Use MRI when neural, soft-tissue, tendon, cartilage, occult injury or other condition-specific assessment requires it.",
+    "radiographs": "Use radiographs and/or CT according to the condition-specific diagnostic pathway."
+  },
+  "management": {
+    "green": [
+      "Remove compression",
+      "Desensitization and nerve-focused rehabilitation"
+    ],
+    "amber": [
+      "Persistent focal entrapment may require nerve specialist intervention."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Janu/Jangha Vata-neuralgic phenotype may be documented."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Entrapment or irritation of the saphenous nerve, often in the adductor canal or infrapatellar branch, producing medial knee/leg sensory pain without motor deficit.",
+    "urgent": "Seek urgent assessment for acute neurovascular compromise, major trauma, severe deformity, progressive weakness, tendon rupture, infection or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "AANEM",
+      "title": "Peripheral Nerve resources",
+      "url": "https://www.aanem.org/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V3.9-BATCH-25",
+    "proposedGoldChapterNumber": 485,
+    "doNotOverwriteLegacyIds": [
+      "DIS-0006",
+      "DIS-0007",
+      "DIS-0008",
+      "DIS-0009",
+      "DIS-0010",
+      "DIS-0011",
+      "DIS-0012",
+      "DIS-0013",
+      "DIS-0014",
+      "DIS-0015"
+    ]
+  }
+}

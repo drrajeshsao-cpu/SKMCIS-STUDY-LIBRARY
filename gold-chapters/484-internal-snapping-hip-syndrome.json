@@ -1,0 +1,105 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-ORT-ISH-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Internal Snapping Hip Syndrome",
+  "synonyms": [],
+  "category": "Orthopedics > Hip > Snapping",
+  "tags": [
+    "internal snapping hip syndrome"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Audible or palpable anterior hip snapping, usually caused by iliopsoas tendon movement over anterior bony structures.",
+  "clinicalPattern": {
+    "typical": [
+      "Anterior hip snap",
+      "Pain with hip flexion-extension",
+      "Snapping during dance/sport"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Hip instability"
+    },
+    {
+      "level": "RED",
+      "item": "Acute major trauma"
+    },
+    {
+      "level": "RED",
+      "item": "Associated labral symptoms with locking"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Reproduction of snap",
+      "Iliopsoas testing",
+      "Hip impingement/labral screen"
+    ]
+  },
+  "differentials": [
+    "External snapping hip",
+    "Iliopsoas tendinopathy",
+    "Labral tear"
+  ],
+  "investigations": {
+    "principle": "Dynamic ultrasound can demonstrate snapping; MRI is used when intra-articular pathology is suspected.",
+    "MRI": "Use MRI when neural, soft-tissue, tendon, cartilage, occult injury or other condition-specific assessment requires it.",
+    "radiographs": "Use radiographs and/or CT according to the condition-specific diagnostic pathway."
+  },
+  "management": {
+    "green": [
+      "Activity modification",
+      "Iliopsoas/hip rehabilitation"
+    ],
+    "amber": [
+      "Persistent disabling snapping may require injection or surgical lengthening/release."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Shroni-Snayu mechanical phenotype may be documented."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Audible or palpable anterior hip snapping, usually caused by iliopsoas tendon movement over anterior bony structures.",
+    "urgent": "Seek urgent assessment for acute neurovascular compromise, major trauma, severe deformity, progressive weakness, tendon rupture, infection or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "ACR",
+      "title": "Chronic Hip Pain",
+      "url": "https://acsearch.acr.org/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V3.9-BATCH-25",
+    "proposedGoldChapterNumber": 484,
+    "doNotOverwriteLegacyIds": [
+      "DIS-0006",
+      "DIS-0007",
+      "DIS-0008",
+      "DIS-0009",
+      "DIS-0010",
+      "DIS-0011",
+      "DIS-0012",
+      "DIS-0013",
+      "DIS-0014",
+      "DIS-0015"
+    ]
+  }
+}

@@ -465,7 +465,27 @@
     "gold-chapters/464-anterior-tibialis-tendinopathy.json",
     "gold-chapters/465-flexor-hallucis-longus-tenosynovitis.json",
     "gold-chapters/466-extensor-tendinopathy-of-foot-and-ankle.json",
-    "gold-chapters/467-second-mtp-synovitis-predislocation-syndrome.json"
+    "gold-chapters/467-second-mtp-synovitis-predislocation-syndrome.json",
+    "gold-chapters/468-peroneal-tendon-tear.json",
+    "gold-chapters/469-peroneal-tendon-subluxation-dislocation.json",
+    "gold-chapters/470-os-peroneum-syndrome.json",
+    "gold-chapters/471-achilles-insertional-tendinopathy.json",
+    "gold-chapters/472-retrocalcaneal-bursitis.json",
+    "gold-chapters/473-haglund-deformity.json",
+    "gold-chapters/474-anterior-process-of-calcaneus-fracture.json",
+    "gold-chapters/475-sesamoid-stress-fracture-of-the-great-toe.json",
+    "gold-chapters/476-first-mtp-joint-synovitis.json",
+    "gold-chapters/477-patellar-tendon-partial-tear.json",
+    "gold-chapters/478-quadriceps-tendon-partial-tear.json",
+    "gold-chapters/479-popliteus-tendinopathy-injury.json",
+    "gold-chapters/480-semimembranosus-tendinopathy.json",
+    "gold-chapters/481-biceps-femoris-tendinopathy.json",
+    "gold-chapters/482-obturator-internus-deep-hip-rotator-strain.json",
+    "gold-chapters/483-ischiofemoral-impingement.json",
+    "gold-chapters/484-internal-snapping-hip-syndrome.json",
+    "gold-chapters/485-saphenous-nerve-entrapment.json",
+    "gold-chapters/486-infrapatellar-branch-of-saphenous-neuropathy.json",
+    "gold-chapters/487-medial-plantar-nerve-entrapment-jogger-s-foot.json"
   ],
-  "expectedTotalGold": 468
+  "expectedTotalGold": 488
 }

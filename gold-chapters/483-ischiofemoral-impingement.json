@@ -1,0 +1,105 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-ORT-IFI-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Ischiofemoral Impingement",
+  "synonyms": [],
+  "category": "Orthopedics > Hip > Extra-Articular Impingement",
+  "tags": [
+    "ischiofemoral impingement"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Extra-articular hip pain associated with narrowing between the ischium and lesser trochanter and irritation of quadratus femoris.",
+  "clinicalPattern": {
+    "typical": [
+      "Deep buttock/groin pain",
+      "Pain with long-stride walking",
+      "Pain with hip extension/adduction"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Tumor"
+    },
+    {
+      "level": "RED",
+      "item": "Fracture"
+    },
+    {
+      "level": "RED",
+      "item": "Severe neurological deficit"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Provocative long-stride/extension-adduction tests",
+      "Hip ROM",
+      "Neurological screen"
+    ]
+  },
+  "differentials": [
+    "Deep gluteal syndrome",
+    "Hamstring tendinopathy",
+    "Hip OA"
+  ],
+  "investigations": {
+    "principle": "MRI assesses ischiofemoral space and quadratus femoris edema; imaging must correlate with symptoms.",
+    "MRI": "Use MRI when neural, soft-tissue, tendon, cartilage, occult injury or other condition-specific assessment requires it.",
+    "radiographs": "Use radiographs and/or CT according to the condition-specific diagnostic pathway."
+  },
+  "management": {
+    "green": [
+      "Stride/load modification",
+      "Hip strengthening and movement retraining"
+    ],
+    "amber": [
+      "Injection or surgery is selective for persistent clearly correlated cases."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Shroni mechanical-compression phenotype may be documented."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Extra-articular hip pain associated with narrowing between the ischium and lesser trochanter and irritation of quadratus femoris.",
+    "urgent": "Seek urgent assessment for acute neurovascular compromise, major trauma, severe deformity, progressive weakness, tendon rupture, infection or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "ACR",
+      "title": "Chronic Hip Pain",
+      "url": "https://acsearch.acr.org/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V3.9-BATCH-25",
+    "proposedGoldChapterNumber": 483,
+    "doNotOverwriteLegacyIds": [
+      "DIS-0006",
+      "DIS-0007",
+      "DIS-0008",
+      "DIS-0009",
+      "DIS-0010",
+      "DIS-0011",
+      "DIS-0012",
+      "DIS-0013",
+      "DIS-0014",
+      "DIS-0015"
+    ]
+  }
+}

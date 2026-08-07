@@ -1,0 +1,106 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-NEU-MPNE-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Medial Plantar Nerve Entrapment / Jogger's Foot",
+  "synonyms": [],
+  "category": "Neurology/Orthopedics > Peripheral Nerve > Foot",
+  "tags": [
+    "medial plantar nerve entrapment / jogger's foot"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Compression of the medial plantar nerve causing burning pain or numbness in the medial arch and plantar forefoot, often in runners.",
+  "clinicalPattern": {
+    "typical": [
+      "Burning medial arch pain",
+      "Plantar great/second-toe sensory symptoms",
+      "Worse with running"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Tarsal tunnel with motor deficit"
+    },
+    {
+      "level": "RED",
+      "item": "Stress fracture"
+    },
+    {
+      "level": "RED",
+      "item": "Vascular compromise"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Medial plantar sensory mapping",
+      "Tinel near navicular/abductor hallucis",
+      "Foot mechanics"
+    ]
+  },
+  "differentials": [
+    "Plantar fasciitis",
+    "Tarsal tunnel syndrome",
+    "Navicular stress fracture"
+  ],
+  "investigations": {
+    "principle": "Diagnosis is primarily clinical; electrodiagnostics or ultrasound are selective.",
+    "MRI": "Use MRI when neural, soft-tissue, tendon, cartilage, occult injury or other condition-specific assessment requires it.",
+    "radiographs": "Use radiographs and/or CT according to the condition-specific diagnostic pathway."
+  },
+  "management": {
+    "green": [
+      "Footwear/orthotic modification",
+      "Reduce running load",
+      "Nerve and foot rehabilitation"
+    ],
+    "amber": [
+      "Persistent focal entrapment may require specialist decompression."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Pada Vata-neuralgic phenotype may be documented."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Compression of the medial plantar nerve causing burning pain or numbness in the medial arch and plantar forefoot, often in runners.",
+    "urgent": "Seek urgent assessment for acute neurovascular compromise, major trauma, severe deformity, progressive weakness, tendon rupture, infection or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "AANEM",
+      "title": "Peripheral Nerve resources",
+      "url": "https://www.aanem.org/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V3.9-BATCH-25",
+    "proposedGoldChapterNumber": 487,
+    "doNotOverwriteLegacyIds": [
+      "DIS-0006",
+      "DIS-0007",
+      "DIS-0008",
+      "DIS-0009",
+      "DIS-0010",
+      "DIS-0011",
+      "DIS-0012",
+      "DIS-0013",
+      "DIS-0014",
+      "DIS-0015"
+    ]
+  }
+}

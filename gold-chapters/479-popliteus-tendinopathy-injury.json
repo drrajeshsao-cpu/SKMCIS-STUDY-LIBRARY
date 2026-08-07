@@ -1,0 +1,105 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-ORT-POP-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Popliteus Tendinopathy / Injury",
+  "synonyms": [],
+  "category": "Orthopedics > Knee > Posterolateral Tendon",
+  "tags": [
+    "popliteus tendinopathy / injury"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Painful overuse or injury of the popliteus muscle-tendon unit, contributing to posterolateral knee pain and rotational control.",
+  "clinicalPattern": {
+    "typical": [
+      "Posterolateral knee pain",
+      "Pain downhill/running",
+      "Tenderness near lateral femoral condyle"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "PLC injury"
+    },
+    {
+      "level": "RED",
+      "item": "Knee dislocation"
+    },
+    {
+      "level": "RED",
+      "item": "DVT differential"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Posterolateral tenderness",
+      "Rotational stability",
+      "Resisted knee flexion/internal rotation"
+    ]
+  },
+  "differentials": [
+    "LCL/PLC injury",
+    "Lateral meniscus tear",
+    "Hamstring injury"
+  ],
+  "investigations": {
+    "principle": "Usually clinical; MRI is used when structural injury or associated ligament damage is suspected.",
+    "MRI": "Use MRI when neural, soft-tissue, tendon, cartilage, occult injury or other condition-specific assessment requires it.",
+    "radiographs": "Use radiographs and/or CT according to the condition-specific diagnostic pathway."
+  },
+  "management": {
+    "green": [
+      "Load modification",
+      "Progressive lower-limb rehabilitation"
+    ],
+    "amber": [
+      "Persistent instability symptoms require reassessment for PLC injury."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Janu-Snayu posterolateral phenotype may be documented."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Painful overuse or injury of the popliteus muscle-tendon unit, contributing to posterolateral knee pain and rotational control.",
+    "urgent": "Seek urgent assessment for acute neurovascular compromise, major trauma, severe deformity, progressive weakness, tendon rupture, infection or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "Sports medicine literature",
+      "title": "Popliteus Injury reviews",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V3.9-BATCH-25",
+    "proposedGoldChapterNumber": 479,
+    "doNotOverwriteLegacyIds": [
+      "DIS-0006",
+      "DIS-0007",
+      "DIS-0008",
+      "DIS-0009",
+      "DIS-0010",
+      "DIS-0011",
+      "DIS-0012",
+      "DIS-0013",
+      "DIS-0014",
+      "DIS-0015"
+    ]
+  }
+}
