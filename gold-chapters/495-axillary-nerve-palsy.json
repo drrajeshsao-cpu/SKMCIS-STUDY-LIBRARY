@@ -1,0 +1,107 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-NEU-AXN-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Axillary Nerve Palsy",
+  "synonyms": [],
+  "category": "Neurology/Orthopedics > Peripheral Nerve > Shoulder",
+  "tags": [
+    "axillary nerve palsy"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Axillary neuropathy causing deltoid weakness and sensory loss over the lateral shoulder, commonly after shoulder dislocation or proximal humerus trauma.",
+  "clinicalPattern": {
+    "typical": [
+      "Deltoid weakness",
+      "Reduced shoulder abduction",
+      "Lateral shoulder numbness"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Complete palsy after high-energy trauma"
+    },
+    {
+      "level": "RED",
+      "item": "Associated vascular injury"
+    },
+    {
+      "level": "RED",
+      "item": "Progressive plexopathy"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Deltoid power",
+      "Teres minor",
+      "Regimental-badge sensation",
+      "Shoulder stability"
+    ]
+  },
+  "differentials": [
+    "C5 radiculopathy",
+    "Upper trunk brachial plexopathy",
+    "Rotator cuff tear"
+  ],
+  "investigations": {
+    "principle": "Electrodiagnostics are used for persistent deficits; imaging is cause-directed.",
+    "MRI": "Use MRI when neural, soft-tissue, labral, tendon, cartilage, ligament or occult injury assessment requires it.",
+    "radiographs": "Use radiographs and/or CT according to the condition-specific diagnostic pathway."
+  },
+  "management": {
+    "green": [
+      "Protect shoulder ROM",
+      "Deltoid/scapular rehabilitation",
+      "Serial neurological review"
+    ],
+    "amber": [
+      "Persistent severe denervation may require nerve-surgery evaluation."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Amsa/Vata-neuropathy phenotype may be documented."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Axillary neuropathy causing deltoid weakness and sensory loss over the lateral shoulder, commonly after shoulder dislocation or proximal humerus trauma.",
+    "urgent": "Seek urgent assessment for acute neurovascular compromise, unreduced dislocation, major trauma, rapidly progressive weakness, suspected tendon rupture, infection or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "AANEM",
+      "title": "Axillary Neuropathy resources",
+      "url": "https://www.aanem.org/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V4.0-BATCH-26",
+    "proposedGoldChapterNumber": 495,
+    "doNotOverwriteLegacyIds": [
+      "DIS-0006",
+      "DIS-0007",
+      "DIS-0008",
+      "DIS-0009",
+      "DIS-0010",
+      "DIS-0011",
+      "DIS-0012",
+      "DIS-0013",
+      "DIS-0014",
+      "DIS-0015"
+    ]
+  }
+}

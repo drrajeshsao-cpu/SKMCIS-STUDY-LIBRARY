@@ -1,0 +1,104 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-ORT-HAGL-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Humeral Avulsion of Glenohumeral Ligament / HAGL Lesion",
+  "synonyms": [],
+  "category": "Orthopedics > Shoulder > Ligament Instability",
+  "tags": [
+    "humeral avulsion of glenohumeral ligament / hagl lesion"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Avulsion of the inferior glenohumeral ligament from its humeral attachment, an important cause of persistent shoulder instability.",
+  "clinicalPattern": {
+    "typical": [
+      "Instability after traumatic dislocation",
+      "Pain with overhead/abducted positions",
+      "Recurrent giving-way"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Acute unreduced dislocation"
+    },
+    {
+      "level": "RED",
+      "item": "Neurovascular compromise"
+    },
+    {
+      "level": "RED",
+      "item": "Associated major bone loss"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Instability tests",
+      "Apprehension",
+      "Axillary nerve exam"
+    ]
+  },
+  "differentials": [
+    "Bankart lesion",
+    "Rotator cuff tear",
+    "Capsular laxity"
+  ],
+  "investigations": {
+    "principle": "MRI or MR arthrography is used to identify humeral-sided capsuloligamentous avulsion.",
+    "MRI": "Use MRI when neural, soft-tissue, labral, tendon, cartilage, ligament or occult injury assessment requires it.",
+    "radiographs": "Use radiographs and/or CT according to the condition-specific diagnostic pathway."
+  },
+  "management": {
+    "green": [
+      "Instability rehabilitation when stable"
+    ],
+    "amber": [
+      "Persistent symptomatic HAGL lesions commonly require surgical repair."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Amsa-Snayu instability phenotype may be documented."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Avulsion of the inferior glenohumeral ligament from its humeral attachment, an important cause of persistent shoulder instability.",
+    "urgent": "Seek urgent assessment for acute neurovascular compromise, unreduced dislocation, major trauma, rapidly progressive weakness, suspected tendon rupture, infection or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "AAOS",
+      "title": "Shoulder Instability resources",
+      "url": "https://orthoinfo.aaos.org/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V4.0-BATCH-26",
+    "proposedGoldChapterNumber": 492,
+    "doNotOverwriteLegacyIds": [
+      "DIS-0006",
+      "DIS-0007",
+      "DIS-0008",
+      "DIS-0009",
+      "DIS-0010",
+      "DIS-0011",
+      "DIS-0012",
+      "DIS-0013",
+      "DIS-0014",
+      "DIS-0015"
+    ]
+  }
+}

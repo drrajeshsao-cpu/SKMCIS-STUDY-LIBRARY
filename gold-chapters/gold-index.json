@@ -485,7 +485,27 @@
     "gold-chapters/484-internal-snapping-hip-syndrome.json",
     "gold-chapters/485-saphenous-nerve-entrapment.json",
     "gold-chapters/486-infrapatellar-branch-of-saphenous-neuropathy.json",
-    "gold-chapters/487-medial-plantar-nerve-entrapment-jogger-s-foot.json"
+    "gold-chapters/487-medial-plantar-nerve-entrapment-jogger-s-foot.json",
+    "gold-chapters/488-posterior-shoulder-impingement-internal-impingement.json",
+    "gold-chapters/489-bankart-lesion.json",
+    "gold-chapters/490-hill-sachs-lesion.json",
+    "gold-chapters/491-reverse-hill-sachs-lesion.json",
+    "gold-chapters/492-humeral-avulsion-of-glenohumeral-ligament-hagl-lesion.json",
+    "gold-chapters/493-subscapularis-tendon-tear.json",
+    "gold-chapters/494-quadrilateral-space-syndrome.json",
+    "gold-chapters/495-axillary-nerve-palsy.json",
+    "gold-chapters/496-musculocutaneous-neuropathy.json",
+    "gold-chapters/497-superficial-peroneal-neuropathy.json",
+    "gold-chapters/498-deep-peroneal-neuropathy-anterior-tarsal-tunnel-syndrome.json",
+    "gold-chapters/499-baxter-nerve-entrapment.json",
+    "gold-chapters/500-plantar-fascia-rupture.json",
+    "gold-chapters/501-spring-ligament-injury.json",
+    "gold-chapters/502-deltoid-ligament-injury-of-the-ankle.json",
+    "gold-chapters/503-meniscal-ramp-lesion.json",
+    "gold-chapters/504-medial-patellofemoral-ligament-injury.json",
+    "gold-chapters/505-patella-alta.json",
+    "gold-chapters/506-patella-baja.json",
+    "gold-chapters/507-trochlear-dysplasia.json"
   ],
-  "expectedTotalGold": 488
+  "expectedTotalGold": 508
 }

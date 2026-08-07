@@ -1,0 +1,105 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-ORT-MRL-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Meniscal Ramp Lesion",
+  "synonyms": [],
+  "category": "Orthopedics > Knee > Meniscus",
+  "tags": [
+    "meniscal ramp lesion"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Tear at the posteromedial meniscocapsular or meniscotibial attachment of the medial meniscus, commonly associated with ACL injury.",
+  "clinicalPattern": {
+    "typical": [
+      "ACL injury context",
+      "Posteromedial knee pain",
+      "Instability symptoms"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Locked knee"
+    },
+    {
+      "level": "RED",
+      "item": "Acute major multiligament injury"
+    },
+    {
+      "level": "RED",
+      "item": "Neurovascular compromise"
+    }
+  ],
+  "examination": {
+    "core": [
+      "ACL assessment",
+      "Posteromedial joint-line tenderness",
+      "Meniscal tests"
+    ]
+  },
+  "differentials": [
+    "Medial meniscus tear",
+    "Medial meniscus root tear",
+    "MCL injury"
+  ],
+  "investigations": {
+    "principle": "MRI may miss some ramp lesions; arthroscopic assessment can be required in ACL surgery.",
+    "MRI": "Use MRI when neural, soft-tissue, labral, tendon, cartilage, ligament or occult injury assessment requires it.",
+    "radiographs": "Use radiographs and/or CT according to the condition-specific diagnostic pathway."
+  },
+  "management": {
+    "green": [
+      "Sports orthopedic evaluation",
+      "ACL/meniscal rehabilitation planning"
+    ],
+    "amber": [
+      "Unstable ramp lesions may require arthroscopic repair."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Janu-Sandhi/meniscal phenotype may be documented."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Tear at the posteromedial meniscocapsular or meniscotibial attachment of the medial meniscus, commonly associated with ACL injury.",
+    "urgent": "Seek urgent assessment for acute neurovascular compromise, unreduced dislocation, major trauma, rapidly progressive weakness, suspected tendon rupture, infection or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "AAOS",
+      "title": "Meniscus and ACL resources",
+      "url": "https://orthoinfo.aaos.org/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V4.0-BATCH-26",
+    "proposedGoldChapterNumber": 503,
+    "doNotOverwriteLegacyIds": [
+      "DIS-0006",
+      "DIS-0007",
+      "DIS-0008",
+      "DIS-0009",
+      "DIS-0010",
+      "DIS-0011",
+      "DIS-0012",
+      "DIS-0013",
+      "DIS-0014",
+      "DIS-0015"
+    ]
+  }
+}

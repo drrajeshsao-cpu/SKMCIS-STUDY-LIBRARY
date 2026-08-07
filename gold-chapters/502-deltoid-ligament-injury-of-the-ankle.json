@@ -1,0 +1,109 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-ORT-DLI-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Deltoid Ligament Injury of the Ankle",
+  "synonyms": [],
+  "category": "Orthopedics > Ankle > Medial Ligament",
+  "tags": [
+    "deltoid ligament injury of the ankle"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Sprain or rupture of the medial deltoid-ligament complex, often associated with ankle fracture or syndesmotic injury.",
+  "clinicalPattern": {
+    "typical": [
+      "Medial ankle pain",
+      "Swelling",
+      "Pain after eversion/external rotation trauma"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Unstable ankle fracture"
+    },
+    {
+      "level": "RED",
+      "item": "Syndesmotic disruption"
+    },
+    {
+      "level": "RED",
+      "item": "Open injury"
+    },
+    {
+      "level": "RED",
+      "item": "Neurovascular compromise"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Medial tenderness",
+      "Ankle stability",
+      "Syndesmosis assessment"
+    ]
+  },
+  "differentials": [
+    "Medial malleolus fracture",
+    "High ankle sprain",
+    "Posterior tibial tendon injury"
+  ],
+  "investigations": {
+    "principle": "Radiographs assess fracture/mortise; stress imaging or MRI is used selectively.",
+    "MRI": "Use MRI when neural, soft-tissue, labral, tendon, cartilage, ligament or occult injury assessment requires it.",
+    "radiographs": "Use radiographs and/or CT according to the condition-specific diagnostic pathway."
+  },
+  "management": {
+    "green": [
+      "Immobilization/support for stable sprain",
+      "Progressive rehabilitation"
+    ],
+    "amber": [
+      "Instability from combined deltoid/syndesmotic injury may require fixation."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Gulpha-Snayu injury phenotype may be documented."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Sprain or rupture of the medial deltoid-ligament complex, often associated with ankle fracture or syndesmotic injury.",
+    "urgent": "Seek urgent assessment for acute neurovascular compromise, unreduced dislocation, major trauma, rapidly progressive weakness, suspected tendon rupture, infection or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "BOAST",
+      "title": "Ankle Injury Standards",
+      "url": "https://www.boa.ac.uk/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V4.0-BATCH-26",
+    "proposedGoldChapterNumber": 502,
+    "doNotOverwriteLegacyIds": [
+      "DIS-0006",
+      "DIS-0007",
+      "DIS-0008",
+      "DIS-0009",
+      "DIS-0010",
+      "DIS-0011",
+      "DIS-0012",
+      "DIS-0013",
+      "DIS-0014",
+      "DIS-0015"
+    ]
+  }
+}

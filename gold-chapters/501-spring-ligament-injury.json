@@ -1,0 +1,108 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-ORT-SLI-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Spring Ligament Injury",
+  "synonyms": [],
+  "category": "Orthopedics > Foot > Medial Ligament",
+  "tags": [
+    "spring ligament injury"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Injury or degeneration of the plantar calcaneonavicular spring-ligament complex, often contributing to progressive collapsing flatfoot deformity.",
+  "clinicalPattern": {
+    "typical": [
+      "Medial midfoot pain",
+      "Arch collapse",
+      "Pain with prolonged standing",
+      "Often coexists with PTT dysfunction"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Acute major midfoot instability"
+    },
+    {
+      "level": "RED",
+      "item": "Rapid deformity"
+    },
+    {
+      "level": "RED",
+      "item": "Neurovascular compromise"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Arch height",
+      "Hindfoot valgus",
+      "Single-leg heel rise",
+      "Medial midfoot tenderness"
+    ]
+  },
+  "differentials": [
+    "Posterior tibial tendon dysfunction",
+    "Adult acquired flatfoot",
+    "Navicular pathology"
+  ],
+  "investigations": {
+    "principle": "Weight-bearing radiographs assess deformity; MRI evaluates spring ligament and PTT.",
+    "MRI": "Use MRI when neural, soft-tissue, labral, tendon, cartilage, ligament or occult injury assessment requires it.",
+    "radiographs": "Use radiographs and/or CT according to the condition-specific diagnostic pathway."
+  },
+  "management": {
+    "green": [
+      "Orthotic support",
+      "Posterior tibial/foot strengthening",
+      "Load modification"
+    ],
+    "amber": [
+      "Progressive deformity may require reconstructive surgery."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Pada-Snayu/Sandhi support failure phenotype may be documented."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Injury or degeneration of the plantar calcaneonavicular spring-ligament complex, often contributing to progressive collapsing flatfoot deformity.",
+    "urgent": "Seek urgent assessment for acute neurovascular compromise, unreduced dislocation, major trauma, rapidly progressive weakness, suspected tendon rupture, infection or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "FootCareMD",
+      "title": "Progressive Collapsing Foot Deformity resources",
+      "url": "https://www.footcaremd.org/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V4.0-BATCH-26",
+    "proposedGoldChapterNumber": 501,
+    "doNotOverwriteLegacyIds": [
+      "DIS-0006",
+      "DIS-0007",
+      "DIS-0008",
+      "DIS-0009",
+      "DIS-0010",
+      "DIS-0011",
+      "DIS-0012",
+      "DIS-0013",
+      "DIS-0014",
+      "DIS-0015"
+    ]
+  }
+}

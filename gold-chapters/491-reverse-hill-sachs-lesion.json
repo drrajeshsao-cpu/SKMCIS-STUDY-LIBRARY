@@ -1,0 +1,104 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-ORT-RHSL-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Reverse Hill-Sachs Lesion",
+  "synonyms": [],
+  "category": "Orthopedics > Shoulder > Posterior Instability",
+  "tags": [
+    "reverse hill-sachs lesion"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Impaction defect of the anteromedial humeral head produced during posterior shoulder dislocation.",
+  "clinicalPattern": {
+    "typical": [
+      "History of posterior dislocation",
+      "Pain and instability",
+      "Restricted external rotation may occur"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Locked posterior dislocation"
+    },
+    {
+      "level": "RED",
+      "item": "Large articular defect"
+    },
+    {
+      "level": "RED",
+      "item": "Neurovascular compromise"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Posterior instability exam",
+      "Shoulder contour",
+      "Neurovascular assessment"
+    ]
+  },
+  "differentials": [
+    "Posterior labral tear",
+    "Proximal humerus fracture",
+    "Rotator cuff tear"
+  ],
+  "investigations": {
+    "principle": "CT quantifies humeral-head defect; MRI assesses associated labral/soft-tissue injury.",
+    "MRI": "Use MRI when neural, soft-tissue, labral, tendon, cartilage, ligament or occult injury assessment requires it.",
+    "radiographs": "Use radiographs and/or CT according to the condition-specific diagnostic pathway."
+  },
+  "management": {
+    "green": [
+      "Rehabilitation after stable reduction in selected small lesions"
+    ],
+    "amber": [
+      "Large defects or recurrent instability may need reconstructive surgery."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Amsa/Asthi-Sandhi traumatic phenotype may be documented."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Impaction defect of the anteromedial humeral head produced during posterior shoulder dislocation.",
+    "urgent": "Seek urgent assessment for acute neurovascular compromise, unreduced dislocation, major trauma, rapidly progressive weakness, suspected tendon rupture, infection or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "AAOS",
+      "title": "Posterior Shoulder Dislocation resources",
+      "url": "https://orthoinfo.aaos.org/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V4.0-BATCH-26",
+    "proposedGoldChapterNumber": 491,
+    "doNotOverwriteLegacyIds": [
+      "DIS-0006",
+      "DIS-0007",
+      "DIS-0008",
+      "DIS-0009",
+      "DIS-0010",
+      "DIS-0011",
+      "DIS-0012",
+      "DIS-0013",
+      "DIS-0014",
+      "DIS-0015"
+    ]
+  }
+}

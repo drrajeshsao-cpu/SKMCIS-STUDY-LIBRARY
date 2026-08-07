@@ -1,0 +1,107 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-ORT-PSI-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Posterior Shoulder Impingement / Internal Impingement",
+  "synonyms": [],
+  "category": "Orthopedics > Shoulder > Sports",
+  "tags": [
+    "posterior shoulder impingement / internal impingement"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Contact-related pain between the posterosuperior glenoid and rotator cuff/labral structures, classically occurring in overhead athletes during late cocking.",
+  "clinicalPattern": {
+    "typical": [
+      "Posterior shoulder pain in overhead position",
+      "Pain during late cocking",
+      "Reduced throwing performance"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Acute dislocation"
+    },
+    {
+      "level": "RED",
+      "item": "Major rotator cuff tear"
+    },
+    {
+      "level": "RED",
+      "item": "Neurological deficit"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Posterior impingement position",
+      "Rotator cuff strength",
+      "Scapular mechanics",
+      "GIRD assessment"
+    ]
+  },
+  "differentials": [
+    "SLAP lesion",
+    "Rotator cuff tear",
+    "Posterior labral injury"
+  ],
+  "investigations": {
+    "principle": "MRI/MR arthrography is used when structural labral or cuff injury is suspected.",
+    "MRI": "Use MRI when neural, soft-tissue, labral, tendon, cartilage, ligament or occult injury assessment requires it.",
+    "radiographs": "Use radiographs and/or CT according to the condition-specific diagnostic pathway."
+  },
+  "management": {
+    "green": [
+      "Throwing-load modification",
+      "Posterior shoulder mobility",
+      "Scapular/rotator cuff rehabilitation"
+    ],
+    "amber": [
+      "Persistent structural symptoms may require sports-shoulder specialist assessment."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Amsa-Snayu mechanical pain phenotype may be documented only in parallel."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Contact-related pain between the posterosuperior glenoid and rotator cuff/labral structures, classically occurring in overhead athletes during late cocking.",
+    "urgent": "Seek urgent assessment for acute neurovascular compromise, unreduced dislocation, major trauma, rapidly progressive weakness, suspected tendon rupture, infection or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "AAOS",
+      "title": "Shoulder Sports Injury resources",
+      "url": "https://orthoinfo.aaos.org/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V4.0-BATCH-26",
+    "proposedGoldChapterNumber": 488,
+    "doNotOverwriteLegacyIds": [
+      "DIS-0006",
+      "DIS-0007",
+      "DIS-0008",
+      "DIS-0009",
+      "DIS-0010",
+      "DIS-0011",
+      "DIS-0012",
+      "DIS-0013",
+      "DIS-0014",
+      "DIS-0015"
+    ]
+  }
+}

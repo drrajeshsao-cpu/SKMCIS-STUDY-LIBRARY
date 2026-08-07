@@ -1,0 +1,106 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-NEU-SPN-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Superficial Peroneal Neuropathy",
+  "synonyms": [],
+  "category": "Neurology > Peripheral Nerve > Lower Limb",
+  "tags": [
+    "superficial peroneal neuropathy"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Entrapment or injury of the superficial peroneal nerve causing dorsum-of-foot sensory symptoms and possible eversion weakness.",
+  "clinicalPattern": {
+    "typical": [
+      "Dorsal foot paresthesia",
+      "Anterolateral leg pain",
+      "Symptoms with exercise or tight footwear"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Progressive weakness"
+    },
+    {
+      "level": "RED",
+      "item": "Acute compartment syndrome"
+    },
+    {
+      "level": "RED",
+      "item": "Common peroneal nerve injury"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Dorsal foot sensation",
+      "Eversion strength",
+      "Tinel at fascial exit"
+    ]
+  },
+  "differentials": [
+    "L5 radiculopathy",
+    "Common peroneal neuropathy",
+    "Deep peroneal neuropathy"
+  ],
+  "investigations": {
+    "principle": "Electrodiagnostics and ultrasound are used selectively for localization.",
+    "MRI": "Use MRI when neural, soft-tissue, labral, tendon, cartilage, ligament or occult injury assessment requires it.",
+    "radiographs": "Use radiographs and/or CT according to the condition-specific diagnostic pathway."
+  },
+  "management": {
+    "green": [
+      "Remove compression",
+      "Footwear modification",
+      "Nerve rehabilitation"
+    ],
+    "amber": [
+      "Persistent focal entrapment may require decompression."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Jangha/Pada Vata-neuropathy phenotype may be documented."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Entrapment or injury of the superficial peroneal nerve causing dorsum-of-foot sensory symptoms and possible eversion weakness.",
+    "urgent": "Seek urgent assessment for acute neurovascular compromise, unreduced dislocation, major trauma, rapidly progressive weakness, suspected tendon rupture, infection or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "AANEM",
+      "title": "Peripheral Nerve resources",
+      "url": "https://www.aanem.org/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V4.0-BATCH-26",
+    "proposedGoldChapterNumber": 497,
+    "doNotOverwriteLegacyIds": [
+      "DIS-0006",
+      "DIS-0007",
+      "DIS-0008",
+      "DIS-0009",
+      "DIS-0010",
+      "DIS-0011",
+      "DIS-0012",
+      "DIS-0013",
+      "DIS-0014",
+      "DIS-0015"
+    ]
+  }
+}
