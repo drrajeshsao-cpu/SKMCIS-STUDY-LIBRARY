@@ -1,0 +1,89 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-PED-CVT-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Congenital Vertical Talus",
+  "synonyms": [],
+  "category": "Pediatric Orthopedics > Foot > Congenital Deformity",
+  "tags": [
+    "congenital vertical talus"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Rigid congenital flatfoot deformity with dorsal dislocation of the navicular on the talus, sometimes associated with neuromuscular or syndromic disease.",
+  "clinicalPattern": {
+    "typical": [
+      "Rigid rocker-bottom foot",
+      "Prominent talar head",
+      "Limited plantar flexion"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Associated neurological/syndromic disease"
+    },
+    {
+      "level": "RED",
+      "item": "Skin compromise from rigid deformity"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Foot rigidity",
+      "Hindfoot position",
+      "Neurological and syndromic screen"
+    ]
+  },
+  "differentials": [
+    "Flexible flatfoot",
+    "Oblique talus",
+    "Tarsal coalition"
+  ],
+  "investigations": {
+    "principle": "Specialized radiographs in forced plantar flexion help confirm diagnosis.",
+    "MRI": "Use MRI when neural, soft-tissue, physeal, occult injury or other condition-specific assessment requires it.",
+    "radiographs": "Use radiographs and/or CT according to the condition-specific diagnostic pathway."
+  },
+  "management": {
+    "green": [
+      "Early pediatric orthopedic referral",
+      "Serial casting/manipulation protocols"
+    ],
+    "amber": [
+      "Surgery is often required after initial casting to maintain correction."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Pada congenital deformity may be documented only in parallel with structural diagnosis."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Rigid congenital flatfoot deformity with dorsal dislocation of the navicular on the talus, sometimes associated with neuromuscular or syndromic disease.",
+    "urgent": "Seek urgent assessment for acute neurovascular compromise, major trauma, open injury, severe deformity, rapidly progressive neurological symptoms, suspected infection or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "POSNA",
+      "title": "Congenital Vertical Talus resources",
+      "url": "https://posna.org/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V3.5-BATCH-21",
+    "proposedGoldChapterNumber": 407
+  }
+}

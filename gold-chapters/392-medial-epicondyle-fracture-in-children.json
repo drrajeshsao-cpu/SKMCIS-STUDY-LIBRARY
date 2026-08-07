@@ -1,0 +1,92 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-PED-MEF-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Medial Epicondyle Fracture in Children",
+  "synonyms": [],
+  "category": "Pediatric Orthopedics > Elbow > Fracture",
+  "tags": [
+    "medial epicondyle fracture in children"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Avulsion-type fracture of the medial epicondyle in children/adolescents, often associated with elbow dislocation and valgus stress.",
+  "clinicalPattern": {
+    "typical": [
+      "Medial elbow pain",
+      "Swelling",
+      "Throwing or traumatic mechanism"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Elbow dislocation"
+    },
+    {
+      "level": "RED",
+      "item": "Ulnar nerve deficit"
+    },
+    {
+      "level": "RED",
+      "item": "Fragment incarceration in joint"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Ulnar nerve exam",
+      "Medial tenderness",
+      "Elbow stability"
+    ]
+  },
+  "differentials": [
+    "UCL injury",
+    "Medial epicondylalgia",
+    "Elbow dislocation"
+  ],
+  "investigations": {
+    "principle": "Radiographs assess displacement and joint congruity.",
+    "MRI": "Use MRI when neural, soft-tissue, physeal, occult injury or other condition-specific assessment requires it.",
+    "radiographs": "Use radiographs and/or CT according to the condition-specific diagnostic pathway."
+  },
+  "management": {
+    "green": [
+      "Immobilization and pediatric orthopedic review"
+    ],
+    "amber": [
+      "Surgery is considered for incarcerated fragment, open injury, instability or selected displaced fractures."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Kurpara-bhagna phenotype may be documented."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Avulsion-type fracture of the medial epicondyle in children/adolescents, often associated with elbow dislocation and valgus stress.",
+    "urgent": "Seek urgent assessment for acute neurovascular compromise, major trauma, open injury, severe deformity, rapidly progressive neurological symptoms, suspected infection or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "POSNA",
+      "title": "Medial Epicondyle Fracture resources",
+      "url": "https://posna.org/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V3.5-BATCH-21",
+    "proposedGoldChapterNumber": 392
+  }
+}

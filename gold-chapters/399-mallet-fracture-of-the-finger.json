@@ -1,0 +1,91 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-ORT-MALF-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Mallet Fracture of the Finger",
+  "synonyms": [],
+  "category": "Orthopedics > Hand > Avulsion Fracture",
+  "tags": [
+    "mallet fracture of the finger"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Bony avulsion injury at the dorsal base of the distal phalanx associated with terminal extensor tendon dysfunction.",
+  "clinicalPattern": {
+    "typical": [
+      "Drooping DIP joint",
+      "Pain/swelling after forced flexion",
+      "Inability to actively extend DIP"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Volar subluxation of distal phalanx"
+    },
+    {
+      "level": "RED",
+      "item": "Open injury"
+    },
+    {
+      "level": "RED",
+      "item": "Large articular fragment"
+    }
+  ],
+  "examination": {
+    "core": [
+      "DIP extension",
+      "Skin",
+      "Neurovascular exam"
+    ]
+  },
+  "differentials": [
+    "Soft-tissue mallet finger",
+    "Distal phalanx fracture"
+  ],
+  "investigations": {
+    "principle": "Finger radiographs assess avulsion size and joint alignment.",
+    "MRI": "Use MRI when neural, soft-tissue, physeal, occult injury or other condition-specific assessment requires it.",
+    "radiographs": "Use radiographs and/or CT according to the condition-specific diagnostic pathway."
+  },
+  "management": {
+    "green": [
+      "Continuous DIP extension splinting for suitable stable injuries"
+    ],
+    "amber": [
+      "Large articular fragments or volar subluxation may require surgery."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Anguli-bhagna/Snayu phenotype may be documented."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Bony avulsion injury at the dorsal base of the distal phalanx associated with terminal extensor tendon dysfunction.",
+    "urgent": "Seek urgent assessment for acute neurovascular compromise, major trauma, open injury, severe deformity, rapidly progressive neurological symptoms, suspected infection or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "BSSH",
+      "title": "Mallet Finger resources",
+      "url": "https://www.bssh.ac.uk/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V3.5-BATCH-21",
+    "proposedGoldChapterNumber": 399
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-PED-SEV-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Sever Disease / Calcaneal Apophysitis",
+  "synonyms": [],
+  "category": "Pediatric Orthopedics > Foot > Apophysitis",
+  "tags": [
+    "sever disease / calcaneal apophysitis"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Traction-related pain at the calcaneal apophysis in growing children, commonly associated with running and jumping sports.",
+  "clinicalPattern": {
+    "typical": [
+      "Heel pain with activity",
+      "Tender calcaneal apophysis",
+      "Pain improves with rest"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Night/rest pain"
+    },
+    {
+      "level": "RED",
+      "item": "Fever"
+    },
+    {
+      "level": "RED",
+      "item": "Traumatic fracture"
+    },
+    {
+      "level": "RED",
+      "item": "Unable to bear weight"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Calcaneal squeeze",
+      "Achilles/calf flexibility",
+      "Foot alignment"
+    ]
+  },
+  "differentials": [
+    "Calcaneal stress fracture",
+    "Plantar fasciitis",
+    "Infection"
+  ],
+  "investigations": {
+    "principle": "Usually clinical; imaging is reserved for atypical presentations.",
+    "MRI": "Use MRI when neural, soft-tissue, physeal, occult injury or other condition-specific assessment requires it.",
+    "radiographs": "Use radiographs and/or CT according to the condition-specific diagnostic pathway."
+  },
+  "management": {
+    "green": [
+      "Activity modification",
+      "Heel cushioning",
+      "Calf flexibility and gradual return"
+    ],
+    "amber": [
+      "Persistent atypical pain needs reassessment for alternative pathology."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Pada/Asthi growth-related phenotype may be documented."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Traction-related pain at the calcaneal apophysis in growing children, commonly associated with running and jumping sports.",
+    "urgent": "Seek urgent assessment for acute neurovascular compromise, major trauma, open injury, severe deformity, rapidly progressive neurological symptoms, suspected infection or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "AAOS OrthoInfo",
+      "title": "Sever's Disease",
+      "url": "https://orthoinfo.aaos.org/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V3.5-BATCH-21",
+    "proposedGoldChapterNumber": 404
+  }
+}

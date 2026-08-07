@@ -1,0 +1,93 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-ORT-DRUJI-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Distal Radioulnar Joint Instability",
+  "synonyms": [],
+  "category": "Orthopedics > Wrist > Instability",
+  "tags": [
+    "distal radioulnar joint instability"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Pathological instability of the distal radioulnar joint, often after trauma, TFCC injury or malunited distal radius fracture.",
+  "clinicalPattern": {
+    "typical": [
+      "Ulnar-sided wrist pain",
+      "Clicking",
+      "Pain with pronation-supination",
+      "Sense of instability"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Acute fracture-dislocation"
+    },
+    {
+      "level": "RED",
+      "item": "Neurovascular compromise"
+    },
+    {
+      "level": "RED",
+      "item": "Gross instability"
+    }
+  ],
+  "examination": {
+    "core": [
+      "DRUJ ballottement",
+      "Forearm rotation",
+      "TFCC assessment"
+    ]
+  },
+  "differentials": [
+    "TFCC tear",
+    "Ulnar impaction",
+    "ECU instability"
+  ],
+  "investigations": {
+    "principle": "Radiographs and CT assess alignment; MRI evaluates TFCC and soft tissues.",
+    "MRI": "Use MRI when neural, soft-tissue, physeal, occult injury or other condition-specific assessment requires it.",
+    "radiographs": "Use radiographs and/or CT according to the condition-specific diagnostic pathway."
+  },
+  "management": {
+    "green": [
+      "Immobilization/rehab for suitable stable injury"
+    ],
+    "amber": [
+      "Persistent structural instability may require TFCC repair or corrective reconstruction."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Manibandha-Sandhi instability phenotype may be documented."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Pathological instability of the distal radioulnar joint, often after trauma, TFCC injury or malunited distal radius fracture.",
+    "urgent": "Seek urgent assessment for acute neurovascular compromise, major trauma, open injury, severe deformity, rapidly progressive neurological symptoms, suspected infection or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "BSSH",
+      "title": "DRUJ Instability resources",
+      "url": "https://www.bssh.ac.uk/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V3.5-BATCH-21",
+    "proposedGoldChapterNumber": 397
+  }
+}

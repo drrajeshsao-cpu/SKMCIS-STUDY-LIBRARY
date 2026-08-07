@@ -1,0 +1,92 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-PED-GSF-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Greenstick Forearm Fracture",
+  "synonyms": [],
+  "category": "Pediatric Orthopedics > Forearm > Fracture",
+  "tags": [
+    "greenstick forearm fracture"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Incomplete pediatric fracture in which one cortex breaks while the opposite cortex bends, commonly involving radius and/or ulna.",
+  "clinicalPattern": {
+    "typical": [
+      "Forearm pain",
+      "Mild deformity",
+      "Fall-related injury"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Neurovascular compromise"
+    },
+    {
+      "level": "RED",
+      "item": "Open injury"
+    },
+    {
+      "level": "RED",
+      "item": "Marked angulation"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Forearm alignment",
+      "Distal neurovascular exam",
+      "Adjacent joints"
+    ]
+  },
+  "differentials": [
+    "Buckle fracture",
+    "Complete forearm fracture"
+  ],
+  "investigations": {
+    "principle": "Forearm radiographs are diagnostic.",
+    "MRI": "Use MRI when neural, soft-tissue, physeal, occult injury or other condition-specific assessment requires it.",
+    "radiographs": "Use radiographs and/or CT according to the condition-specific diagnostic pathway."
+  },
+  "management": {
+    "green": [
+      "Immobilization",
+      "Pediatric fracture follow-up"
+    ],
+    "amber": [
+      "Angulated greenstick fractures may require reduction and monitoring for re-angulation."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Hasta-bhagna phenotype may be documented."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Incomplete pediatric fracture in which one cortex breaks while the opposite cortex bends, commonly involving radius and/or ulna.",
+    "urgent": "Seek urgent assessment for acute neurovascular compromise, major trauma, open injury, severe deformity, rapidly progressive neurological symptoms, suspected infection or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "AAOS OrthoInfo",
+      "title": "Forearm Fractures in Children",
+      "url": "https://orthoinfo.aaos.org/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V3.5-BATCH-21",
+    "proposedGoldChapterNumber": 395
+  }
+}

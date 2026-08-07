@@ -1,0 +1,92 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-ORT-GTF-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Greater Tuberosity Fracture of Humerus",
+  "synonyms": [],
+  "category": "Orthopedics > Shoulder > Fracture",
+  "tags": [
+    "greater tuberosity fracture of humerus"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Fracture of the greater tuberosity of the proximal humerus, often occurring with shoulder dislocation and affecting rotator cuff attachment.",
+  "clinicalPattern": {
+    "typical": [
+      "Shoulder pain",
+      "Weak abduction/external rotation",
+      "History of fall or dislocation"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Associated dislocation"
+    },
+    {
+      "level": "RED",
+      "item": "Neurovascular compromise"
+    },
+    {
+      "level": "RED",
+      "item": "Marked displacement"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Rotator cuff function",
+      "Axillary nerve",
+      "Shoulder contour"
+    ]
+  },
+  "differentials": [
+    "Rotator cuff tear",
+    "Proximal humerus fracture",
+    "Shoulder dislocation"
+  ],
+  "investigations": {
+    "principle": "Radiographs are first-line; CT/MRI is selected for displacement or associated cuff injury.",
+    "MRI": "Use MRI when neural, soft-tissue, physeal, occult injury or other condition-specific assessment requires it.",
+    "radiographs": "Use radiographs and/or CT according to the condition-specific diagnostic pathway."
+  },
+  "management": {
+    "green": [
+      "Sling and early guided ROM for suitable stable fractures"
+    ],
+    "amber": [
+      "Displaced fragments may require fixation to restore cuff mechanics."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Amsa-bhagna/Snayu phenotype may be documented after imaging."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Fracture of the greater tuberosity of the proximal humerus, often occurring with shoulder dislocation and affecting rotator cuff attachment.",
+    "urgent": "Seek urgent assessment for acute neurovascular compromise, major trauma, open injury, severe deformity, rapidly progressive neurological symptoms, suspected infection or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "AAOS OrthoInfo",
+      "title": "Proximal Humerus Fractures",
+      "url": "https://orthoinfo.aaos.org/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V3.5-BATCH-21",
+    "proposedGoldChapterNumber": 389
+  }
+}

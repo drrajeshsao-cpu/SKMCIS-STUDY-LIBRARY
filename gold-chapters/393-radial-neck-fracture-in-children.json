@@ -1,0 +1,92 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-PED-RNF-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Radial Neck Fracture in Children",
+  "synonyms": [],
+  "category": "Pediatric Orthopedics > Elbow > Fracture",
+  "tags": [
+    "radial neck fracture in children"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Pediatric fracture of the radial neck, usually after a fall, with treatment based on angulation, displacement and forearm motion.",
+  "clinicalPattern": {
+    "typical": [
+      "Lateral elbow pain",
+      "Pain with pronation-supination",
+      "Reduced motion"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Severe displacement"
+    },
+    {
+      "level": "RED",
+      "item": "Associated elbow dislocation"
+    },
+    {
+      "level": "RED",
+      "item": "Neurovascular compromise"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Forearm rotation",
+      "Lateral elbow tenderness",
+      "Neurovascular exam"
+    ]
+  },
+  "differentials": [
+    "Lateral condyle fracture",
+    "Radial head fracture",
+    "Elbow sprain"
+  ],
+  "investigations": {
+    "principle": "Elbow radiographs are standard.",
+    "MRI": "Use MRI when neural, soft-tissue, physeal, occult injury or other condition-specific assessment requires it.",
+    "radiographs": "Use radiographs and/or CT according to the condition-specific diagnostic pathway."
+  },
+  "management": {
+    "green": [
+      "Immobilization for suitable minimally displaced fractures"
+    ],
+    "amber": [
+      "Greater angulation/displacement may require reduction or fixation."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Kurpara-bhagna phenotype may be documented after modern alignment assessment."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Pediatric fracture of the radial neck, usually after a fall, with treatment based on angulation, displacement and forearm motion.",
+    "urgent": "Seek urgent assessment for acute neurovascular compromise, major trauma, open injury, severe deformity, rapidly progressive neurological symptoms, suspected infection or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "POSNA",
+      "title": "Radial Neck Fracture resources",
+      "url": "https://posna.org/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V3.5-BATCH-21",
+    "proposedGoldChapterNumber": 393
+  }
+}

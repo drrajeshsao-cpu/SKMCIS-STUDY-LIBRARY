@@ -1,0 +1,93 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-ORT-ELI-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Essex-Lopresti Injury",
+  "synonyms": [],
+  "category": "Orthopedics > Forearm > Complex Injury",
+  "tags": [
+    "essex-lopresti injury"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Axial forearm injury involving radial head fracture, interosseous membrane disruption and distal radioulnar joint instability.",
+  "clinicalPattern": {
+    "typical": [
+      "Elbow pain with wrist/forearm pain",
+      "Radial head fracture",
+      "Loss of forearm stability"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Missed longitudinal instability"
+    },
+    {
+      "level": "RED",
+      "item": "Neurovascular compromise"
+    },
+    {
+      "level": "RED",
+      "item": "Associated open injury"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Radial head",
+      "Forearm interosseous membrane tenderness",
+      "DRUJ stability",
+      "Neurovascular exam"
+    ]
+  },
+  "differentials": [
+    "Isolated radial head fracture",
+    "Galeazzi injury",
+    "DRUJ sprain"
+  ],
+  "investigations": {
+    "principle": "Radiographs of elbow, forearm and wrist are required; CT/MRI may define associated injury.",
+    "MRI": "Use MRI when neural, soft-tissue, physeal, occult injury or other condition-specific assessment requires it.",
+    "radiographs": "Use radiographs and/or CT according to the condition-specific diagnostic pathway."
+  },
+  "management": {
+    "green": [
+      "Urgent upper-limb orthopedic review"
+    ],
+    "amber": [
+      "Treating the radial head alone without recognizing longitudinal forearm instability leads to poor outcomes."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Hasta-bhagna/Snayu instability phenotype may be documented after modern diagnosis."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Axial forearm injury involving radial head fracture, interosseous membrane disruption and distal radioulnar joint instability.",
+    "urgent": "Seek urgent assessment for acute neurovascular compromise, major trauma, open injury, severe deformity, rapidly progressive neurological symptoms, suspected infection or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "AAOS",
+      "title": "Radial Head and Forearm Injury resources",
+      "url": "https://orthoinfo.aaos.org/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V3.5-BATCH-21",
+    "proposedGoldChapterNumber": 398
+  }
+}

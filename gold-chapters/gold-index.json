@@ -385,7 +385,27 @@
     "gold-chapters/384-lumbosacral-radiculoplexus-neuropathy.json",
     "gold-chapters/385-traumatic-neuroma.json",
     "gold-chapters/386-acute-osteomyelitis-in-children.json",
-    "gold-chapters/387-chronic-osteomyelitis.json"
+    "gold-chapters/387-chronic-osteomyelitis.json",
+    "gold-chapters/388-glenoid-fracture.json",
+    "gold-chapters/389-greater-tuberosity-fracture-of-humerus.json",
+    "gold-chapters/390-surgical-neck-fracture-of-humerus.json",
+    "gold-chapters/391-lateral-condyle-fracture-of-humerus-in-children.json",
+    "gold-chapters/392-medial-epicondyle-fracture-in-children.json",
+    "gold-chapters/393-radial-neck-fracture-in-children.json",
+    "gold-chapters/394-both-bone-forearm-fracture.json",
+    "gold-chapters/395-greenstick-forearm-fracture.json",
+    "gold-chapters/396-torus-buckle-fracture-of-distal-radius.json",
+    "gold-chapters/397-distal-radioulnar-joint-instability.json",
+    "gold-chapters/398-essex-lopresti-injury.json",
+    "gold-chapters/399-mallet-fracture-of-the-finger.json",
+    "gold-chapters/400-volar-plate-injury-of-the-pip-joint.json",
+    "gold-chapters/401-flexor-pulley-injury-of-the-finger.json",
+    "gold-chapters/402-little-league-elbow-medial-apophysitis.json",
+    "gold-chapters/403-little-league-shoulder-proximal-humeral-epiphysiolysis.json",
+    "gold-chapters/404-sever-disease-calcaneal-apophysitis.json",
+    "gold-chapters/405-k-hler-disease.json",
+    "gold-chapters/406-flexible-flatfoot-in-children.json",
+    "gold-chapters/407-congenital-vertical-talus.json"
   ],
-  "expectedTotalGold": 388
+  "expectedTotalGold": 408
 }

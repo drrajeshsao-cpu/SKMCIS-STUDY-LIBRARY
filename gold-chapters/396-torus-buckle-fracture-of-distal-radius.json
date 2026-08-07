@@ -1,0 +1,91 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-PED-BUCKLE-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Torus / Buckle Fracture of Distal Radius",
+  "synonyms": [],
+  "category": "Pediatric Orthopedics > Wrist > Fracture",
+  "tags": [
+    "torus / buckle fracture of distal radius"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Stable pediatric compression injury of the distal radius metaphysis with cortical buckling and no complete break.",
+  "clinicalPattern": {
+    "typical": [
+      "Wrist pain after fall",
+      "Mild swelling",
+      "Minimal deformity"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Unexpected deformity"
+    },
+    {
+      "level": "RED",
+      "item": "Neurovascular compromise"
+    },
+    {
+      "level": "RED",
+      "item": "Concern for complete fracture"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Distal radius tenderness",
+      "Neurovascular exam"
+    ]
+  },
+  "differentials": [
+    "Greenstick fracture",
+    "Complete distal radius fracture"
+  ],
+  "investigations": {
+    "principle": "Wrist radiographs confirm stable buckle pattern.",
+    "MRI": "Use MRI when neural, soft-tissue, physeal, occult injury or other condition-specific assessment requires it.",
+    "radiographs": "Use radiographs and/or CT according to the condition-specific diagnostic pathway."
+  },
+  "management": {
+    "green": [
+      "Removable splint/support in appropriate stable cases",
+      "Simple activity guidance"
+    ],
+    "amber": [
+      "Do not misclassify a complete or angulated fracture as a buckle injury."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Manibandha-bhagna phenotype may be documented."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Stable pediatric compression injury of the distal radius metaphysis with cortical buckling and no complete break.",
+    "urgent": "Seek urgent assessment for acute neurovascular compromise, major trauma, open injury, severe deformity, rapidly progressive neurological symptoms, suspected infection or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "NICE",
+      "title": "Fractures (non-complex) NG38",
+      "url": "https://www.nice.org.uk/guidance/ng38",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V3.5-BATCH-21",
+    "proposedGoldChapterNumber": 396
+  }
+}

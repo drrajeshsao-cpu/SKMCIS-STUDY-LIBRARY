@@ -1,0 +1,93 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-ORT-VPI-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Volar Plate Injury of the PIP Joint",
+  "synonyms": [],
+  "category": "Orthopedics > Hand > PIP Injury",
+  "tags": [
+    "volar plate injury of the pip joint"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Hyperextension injury of the PIP joint causing volar plate sprain or avulsion, with risk of instability and stiffness.",
+  "clinicalPattern": {
+    "typical": [
+      "PIP pain/swelling",
+      "Volar tenderness",
+      "Hyperextension mechanism"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Fracture-dislocation"
+    },
+    {
+      "level": "RED",
+      "item": "Gross instability"
+    },
+    {
+      "level": "RED",
+      "item": "Neurovascular compromise"
+    }
+  ],
+  "examination": {
+    "core": [
+      "PIP stability",
+      "Volar tenderness",
+      "ROM"
+    ]
+  },
+  "differentials": [
+    "Central slip injury",
+    "PIP dislocation",
+    "Phalangeal fracture"
+  ],
+  "investigations": {
+    "principle": "Radiographs assess avulsion fracture and alignment.",
+    "MRI": "Use MRI when neural, soft-tissue, physeal, occult injury or other condition-specific assessment requires it.",
+    "radiographs": "Use radiographs and/or CT according to the condition-specific diagnostic pathway."
+  },
+  "management": {
+    "green": [
+      "Early protected motion",
+      "Buddy support or extension-block splint as appropriate"
+    ],
+    "amber": [
+      "Unstable fracture-dislocations require hand-surgery review."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Anguli-Sandhi/Snayu injury phenotype may be documented."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Hyperextension injury of the PIP joint causing volar plate sprain or avulsion, with risk of instability and stiffness.",
+    "urgent": "Seek urgent assessment for acute neurovascular compromise, major trauma, open injury, severe deformity, rapidly progressive neurological symptoms, suspected infection or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "BSSH",
+      "title": "Volar Plate Injury resources",
+      "url": "https://www.bssh.ac.uk/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V3.5-BATCH-21",
+    "proposedGoldChapterNumber": 400
+  }
+}

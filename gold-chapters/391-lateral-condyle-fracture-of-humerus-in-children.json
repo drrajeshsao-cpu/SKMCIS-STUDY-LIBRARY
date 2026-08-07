@@ -1,0 +1,92 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-PED-LCFH-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Lateral Condyle Fracture of Humerus in Children",
+  "synonyms": [],
+  "category": "Pediatric Orthopedics > Elbow > Fracture",
+  "tags": [
+    "lateral condyle fracture of humerus in children"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Pediatric intra-articular fracture of the lateral humeral condyle with risk of displacement, nonunion and growth disturbance.",
+  "clinicalPattern": {
+    "typical": [
+      "Lateral elbow pain/swelling",
+      "Reduced motion",
+      "Fall-related injury"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Displaced fracture"
+    },
+    {
+      "level": "RED",
+      "item": "Open injury"
+    },
+    {
+      "level": "RED",
+      "item": "Neurovascular compromise"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Lateral condyle tenderness",
+      "Elbow ROM",
+      "Neurovascular exam"
+    ]
+  },
+  "differentials": [
+    "Supracondylar fracture",
+    "Radial neck fracture",
+    "Elbow sprain"
+  ],
+  "investigations": {
+    "principle": "AP/lateral and oblique elbow radiographs assess displacement.",
+    "MRI": "Use MRI when neural, soft-tissue, physeal, occult injury or other condition-specific assessment requires it.",
+    "radiographs": "Use radiographs and/or CT according to the condition-specific diagnostic pathway."
+  },
+  "management": {
+    "green": [
+      "Prompt pediatric orthopedic evaluation"
+    ],
+    "amber": [
+      "Displaced fractures commonly require fixation; close radiographic follow-up is essential even when initially treated nonoperatively."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Kurpara-bhagna phenotype may be documented after modern fracture care."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Pediatric intra-articular fracture of the lateral humeral condyle with risk of displacement, nonunion and growth disturbance.",
+    "urgent": "Seek urgent assessment for acute neurovascular compromise, major trauma, open injury, severe deformity, rapidly progressive neurological symptoms, suspected infection or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "AAOS",
+      "title": "Pediatric Elbow Fracture resources",
+      "url": "https://www.aaos.org/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V3.5-BATCH-21",
+    "proposedGoldChapterNumber": 391
+  }
+}

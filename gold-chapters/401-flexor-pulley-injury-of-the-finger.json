@@ -1,0 +1,94 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-ORT-FPI-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Flexor Pulley Injury of the Finger",
+  "synonyms": [],
+  "category": "Orthopedics > Hand > Tendon Pulley",
+  "tags": [
+    "flexor pulley injury of the finger"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Injury to the digital flexor pulley system, especially A2/A4, commonly in climbers and capable of causing bowstringing.",
+  "clinicalPattern": {
+    "typical": [
+      "Sudden finger pain during crimp grip",
+      "Tenderness over pulley",
+      "Possible bowstringing"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Associated tendon rupture"
+    },
+    {
+      "level": "RED",
+      "item": "Fracture"
+    },
+    {
+      "level": "RED",
+      "item": "Severe loss of finger flexion"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Pulley tenderness",
+      "Resisted flexion",
+      "Bowstringing assessment"
+    ]
+  },
+  "differentials": [
+    "Flexor tendon injury",
+    "Trigger finger",
+    "Phalangeal fracture"
+  ],
+  "investigations": {
+    "principle": "Dynamic ultrasound or MRI can define pulley rupture.",
+    "MRI": "Use MRI when neural, soft-tissue, physeal, occult injury or other condition-specific assessment requires it.",
+    "radiographs": "Use radiographs and/or CT according to the condition-specific diagnostic pathway."
+  },
+  "management": {
+    "green": [
+      "Activity cessation from provocative load",
+      "Ring/taping support",
+      "Progressive return"
+    ],
+    "amber": [
+      "Multiple complete pulley ruptures may require surgical reconstruction."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Anguli-Snayu injury phenotype may be documented."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Injury to the digital flexor pulley system, especially A2/A4, commonly in climbers and capable of causing bowstringing.",
+    "urgent": "Seek urgent assessment for acute neurovascular compromise, major trauma, open injury, severe deformity, rapidly progressive neurological symptoms, suspected infection or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "BSSH",
+      "title": "Flexor System Injury resources",
+      "url": "https://www.bssh.ac.uk/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V3.5-BATCH-21",
+    "proposedGoldChapterNumber": 401
+  }
+}

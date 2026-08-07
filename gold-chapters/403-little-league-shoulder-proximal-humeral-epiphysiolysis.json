@@ -1,0 +1,93 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-PED-LLS-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Little League Shoulder / Proximal Humeral Epiphysiolysis",
+  "synonyms": [],
+  "category": "Pediatric Orthopedics > Shoulder > Overuse",
+  "tags": [
+    "little league shoulder / proximal humeral epiphysiolysis"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Stress injury of the proximal humeral physis in adolescent overhead athletes, caused by repetitive rotational stress.",
+  "clinicalPattern": {
+    "typical": [
+      "Lateral shoulder pain with throwing",
+      "Reduced velocity",
+      "Proximal humerus tenderness"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Acute fracture"
+    },
+    {
+      "level": "RED",
+      "item": "Severe deformity"
+    },
+    {
+      "level": "RED",
+      "item": "Neurovascular compromise"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Proximal humerus tenderness",
+      "Shoulder ROM/strength",
+      "Throwing mechanics"
+    ]
+  },
+  "differentials": [
+    "Rotator cuff overuse",
+    "Labral injury",
+    "Proximal humerus fracture"
+  ],
+  "investigations": {
+    "principle": "Radiographs may show physeal widening; MRI is reserved for unclear cases.",
+    "MRI": "Use MRI when neural, soft-tissue, physeal, occult injury or other condition-specific assessment requires it.",
+    "radiographs": "Use radiographs and/or CT according to the condition-specific diagnostic pathway."
+  },
+  "management": {
+    "green": [
+      "Complete throwing rest",
+      "Gradual rehab and mechanics correction"
+    ],
+    "amber": [
+      "Return to throwing only after pain-free strength and motion recover."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Amsa/Asthi-Snayu overuse phenotype may be documented."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Stress injury of the proximal humeral physis in adolescent overhead athletes, caused by repetitive rotational stress.",
+    "urgent": "Seek urgent assessment for acute neurovascular compromise, major trauma, open injury, severe deformity, rapidly progressive neurological symptoms, suspected infection or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "AAOS OrthoInfo",
+      "title": "Little League Shoulder",
+      "url": "https://orthoinfo.aaos.org/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V3.5-BATCH-21",
+    "proposedGoldChapterNumber": 403
+  }
+}

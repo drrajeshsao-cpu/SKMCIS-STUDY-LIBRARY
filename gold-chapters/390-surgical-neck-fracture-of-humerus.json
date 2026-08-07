@@ -1,0 +1,98 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-ORT-SNHF-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Surgical Neck Fracture of Humerus",
+  "synonyms": [],
+  "category": "Orthopedics > Shoulder > Fracture",
+  "tags": [
+    "surgical neck fracture of humerus"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Fracture through the surgical neck region of the proximal humerus, common in older adults after low-energy falls.",
+  "clinicalPattern": {
+    "typical": [
+      "Shoulder pain/swelling",
+      "Bruising",
+      "Reduced arm movement"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Axillary nerve injury"
+    },
+    {
+      "level": "RED",
+      "item": "Vascular compromise"
+    },
+    {
+      "level": "RED",
+      "item": "Open fracture"
+    },
+    {
+      "level": "RED",
+      "item": "Fracture-dislocation"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Axillary nerve sensation/deltoid",
+      "Distal pulses",
+      "Shoulder contour"
+    ]
+  },
+  "differentials": [
+    "Shoulder dislocation",
+    "Greater tuberosity fracture",
+    "Rotator cuff tear"
+  ],
+  "investigations": {
+    "principle": "Radiographs establish diagnosis; CT is used for complex fracture patterns.",
+    "MRI": "Use MRI when neural, soft-tissue, physeal, occult injury or other condition-specific assessment requires it.",
+    "radiographs": "Use radiographs and/or CT according to the condition-specific diagnostic pathway."
+  },
+  "management": {
+    "green": [
+      "Immobilization",
+      "Early orthopedic review",
+      "Progressive ROM when stable"
+    ],
+    "amber": [
+      "Surgery depends on displacement, fracture pattern, bone quality and patient function."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Amsa-bhagna phenotype may be documented after modern fracture planning."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Fracture through the surgical neck region of the proximal humerus, common in older adults after low-energy falls.",
+    "urgent": "Seek urgent assessment for acute neurovascular compromise, major trauma, open injury, severe deformity, rapidly progressive neurological symptoms, suspected infection or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "AAOS OrthoInfo",
+      "title": "Proximal Humerus Fractures",
+      "url": "https://orthoinfo.aaos.org/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V3.5-BATCH-21",
+    "proposedGoldChapterNumber": 390
+  }
+}
