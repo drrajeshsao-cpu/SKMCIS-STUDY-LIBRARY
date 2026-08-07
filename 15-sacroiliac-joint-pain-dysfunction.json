@@ -1,0 +1,125 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-SPN-SIJ-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Sacroiliac Joint Pain / Dysfunction",
+  "synonyms": [
+    "SI joint pain",
+    "Sacroiliac pain",
+    "Posterior pelvic girdle pain"
+  ],
+  "category": "Spine > Pelvis/Sacroiliac",
+  "tags": [
+    "sacroiliac",
+    "SI joint",
+    "pelvic girdle",
+    "buttock pain"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Pain arising from the sacroiliac joint complex or adjacent ligamentous structures. Diagnosis is clinical and probabilistic; clusters of provocation tests are more useful than a single maneuver.",
+  "clinicalPattern": {
+    "typical": [
+      "Pain near the posterior superior iliac spine or buttock",
+      "Pain with transfers, stairs, prolonged standing or turning in bed",
+      "Possible groin or thigh referral"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Fever or suspected septic sacroiliitis"
+    },
+    {
+      "level": "RED",
+      "item": "Significant trauma or stress fracture"
+    },
+    {
+      "level": "RED",
+      "item": "Inflammatory spondyloarthritis features"
+    },
+    {
+      "level": "RED",
+      "item": "Major neurological deficit or malignancy concern"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Lumbar and hip screen",
+      "SI provocation-test cluster",
+      "Gait and load-transfer assessment"
+    ]
+  },
+  "differentials": [
+    "Lumbar radiculopathy",
+    "Lumbar facet pain",
+    "Hip pathology",
+    "Greater trochanteric pain syndrome",
+    "Inflammatory sacroiliitis",
+    "Pelvic or sacral fracture"
+  ],
+  "investigations": {
+    "principle": "Routine imaging does not confirm mechanical SI pain.",
+    "MRI": "Use MRI when inflammatory sacroiliitis, infection or stress fracture is suspected.",
+    "radiographs": "Radiographs may help characterize structural/inflammatory change in context."
+  },
+  "management": {
+    "green": [
+      "Education, graded activity and hip/trunk rehabilitation",
+      "Address biomechanical and pregnancy/postpartum factors when relevant"
+    ],
+    "amber": [
+      "Image-guided diagnostic or therapeutic injection may be considered in selected persistent cases after adequate assessment."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Kati/Shroni-region pain may be documented as a phenotype correlation only."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Pain arising from the sacroiliac joint complex or adjacent ligamentous structures. Diagnosis is clinical and probabilistic; clusters of provocation tests are more useful than a single maneuver.",
+    "urgent": "Seek urgent assessment for new/progressive major weakness, gait deterioration, bladder/bowel dysfunction, saddle sensory loss, fever/systemic illness with severe spinal/joint pain, major trauma, or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "NICE",
+      "title": "Spondyloarthritis in over 16s: NG65",
+      "url": "https://www.nice.org.uk/guidance/ng65",
+      "checked": "2026-08-07"
+    },
+    {
+      "organization": "American College of Radiology (ACR)",
+      "title": "Musculoskeletal imaging guidance",
+      "url": "https://acsearch.acr.org/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V1.6-BATCH-15",
+    "doNotOverwriteLegacyIds": [
+      "DIS-0006",
+      "DIS-0007",
+      "DIS-0008",
+      "DIS-0009",
+      "DIS-0010",
+      "DIS-0011",
+      "DIS-0012",
+      "DIS-0013",
+      "DIS-0014",
+      "DIS-0015"
+    ],
+    "proposedGoldChapterNumber": 15
+  }
+}

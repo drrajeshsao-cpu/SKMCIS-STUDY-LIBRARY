@@ -1,0 +1,124 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-RHE-AS-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Ankylosing Spondylitis / Radiographic Axial Spondyloarthritis",
+  "synonyms": [
+    "Ankylosing spondylitis",
+    "Radiographic axial spondyloarthritis",
+    "AS"
+  ],
+  "category": "Rheumatology > Axial Spondyloarthritis",
+  "tags": [
+    "ankylosing spondylitis",
+    "axial spondyloarthritis",
+    "sacroiliitis",
+    "inflammatory back pain"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Chronic immune-mediated inflammatory disease predominantly affecting the sacroiliac joints and axial skeleton, with possible enthesitis, peripheral arthritis and extra-articular disease.",
+  "clinicalPattern": {
+    "typical": [
+      "Chronic back pain often beginning before age 45",
+      "Morning stiffness and improvement with exercise",
+      "Night pain or alternating buttock pain",
+      "Possible uveitis, psoriasis or inflammatory bowel disease"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Acute painful red photophobic eye suggesting uveitis"
+    },
+    {
+      "level": "RED",
+      "item": "Neurological symptoms after minor trauma in an ankylosed spine"
+    },
+    {
+      "level": "RED",
+      "item": "Cauda equina or severe cardiopulmonary complication"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Spinal mobility",
+      "Chest expansion",
+      "Sacroiliac/hip assessment",
+      "Enthesitis and peripheral joints",
+      "Neurological screen"
+    ]
+  },
+  "differentials": [
+    "Mechanical low-back pain",
+    "DISH",
+    "Psoriatic axial disease",
+    "Infection",
+    "Degenerative sacroiliac disease"
+  ],
+  "investigations": {
+    "principle": "Diagnosis combines clinical pattern, imaging and laboratory context.",
+    "MRI": "SI-joint MRI can demonstrate active sacroiliitis in appropriate diagnostic pathways.",
+    "radiographs": "Pelvic/SI radiographs identify structural sacroiliitis in radiographic disease."
+  },
+  "management": {
+    "green": [
+      "Rheumatology-led care",
+      "Regular exercise and physiotherapy",
+      "Cardiovascular, bone-health and smoking risk management"
+    ],
+    "amber": [
+      "NSAIDs and biologic/targeted therapies require individualized medical assessment and monitoring."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Inflammatory axial disease should not be reduced to one Ayurvedic label; Ama/Vata and inflammatory features may be recorded as a parallel assessment."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Chronic immune-mediated inflammatory disease predominantly affecting the sacroiliac joints and axial skeleton, with possible enthesitis, peripheral arthritis and extra-articular disease.",
+    "urgent": "Seek urgent assessment for new/progressive major weakness, gait deterioration, bladder/bowel dysfunction, saddle sensory loss, fever/systemic illness with severe spinal/joint pain, major trauma, or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "ASAS-EULAR",
+      "title": "Recommendations for management of axial spondyloarthritis — 2022 update",
+      "url": "https://ard.bmj.com/content/82/1/19",
+      "checked": "2026-08-07"
+    },
+    {
+      "organization": "NICE",
+      "title": "Spondyloarthritis in over 16s NG65",
+      "url": "https://www.nice.org.uk/guidance/ng65",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V1.6-BATCH-15",
+    "doNotOverwriteLegacyIds": [
+      "DIS-0006",
+      "DIS-0007",
+      "DIS-0008",
+      "DIS-0009",
+      "DIS-0010",
+      "DIS-0011",
+      "DIS-0012",
+      "DIS-0013",
+      "DIS-0014",
+      "DIS-0015"
+    ],
+    "proposedGoldChapterNumber": 19
+  }
+}

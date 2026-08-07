@@ -1,0 +1,128 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-ORT-RCT-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Rotator Cuff Tendinopathy / Rotator Cuff Related Shoulder Pain",
+  "synonyms": [
+    "Rotator cuff related shoulder pain",
+    "Subacromial pain syndrome"
+  ],
+  "category": "Orthopedics > Shoulder > Rotator Cuff",
+  "tags": [
+    "shoulder",
+    "rotator cuff",
+    "tendinopathy",
+    "subacromial",
+    "exercise"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Shoulder pain related to rotator-cuff tendons and associated subacromial structures, usually diagnosed clinically; structural imaging findings may exist without symptoms.",
+  "clinicalPattern": {
+    "typical": [
+      "Pain with overhead or reaching activity",
+      "Painful arc",
+      "Night pain",
+      "Pain-related weakness",
+      "Often gradual onset"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Acute traumatic inability to raise the arm with suspected major tear"
+    },
+    {
+      "level": "RED",
+      "item": "Fracture/dislocation"
+    },
+    {
+      "level": "RED",
+      "item": "Infection or tumour"
+    },
+    {
+      "level": "RED",
+      "item": "Progressive neurological deficit"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Active/passive ROM",
+      "Resisted abduction and external rotation",
+      "Painful arc",
+      "Strength and scapular function",
+      "Cervical screen"
+    ]
+  },
+  "differentials": [
+    "Adhesive capsulitis",
+    "Glenohumeral OA",
+    "Cervical radiculopathy",
+    "Full-thickness cuff tear",
+    "Calcific tendinopathy"
+  ],
+  "investigations": {
+    "principle": "Imaging is not routinely required initially.",
+    "MRI": "Ultrasound/MRI is appropriate for significant weakness, trauma, failed rehabilitation or surgical planning.",
+    "radiographs": "Radiographs can identify arthritis or calcific disease."
+  },
+  "management": {
+    "green": [
+      "Education and progressive rotator-cuff/scapular exercise",
+      "Activity modification and graded return to overhead function"
+    ],
+    "amber": [
+      "Injection or surgical options require individualized assessment; repeated corticosteroid exposure should be used cautiously."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Amsa-shoola symptom correlation may be documented; tendon pathology remains a modern diagnosis."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Shoulder pain related to rotator-cuff tendons and associated subacromial structures, usually diagnosed clinically; structural imaging findings may exist without symptoms.",
+    "urgent": "Seek urgent assessment for new/progressive major weakness, gait deterioration, bladder/bowel dysfunction, saddle sensory loss, fever/systemic illness with severe spinal/joint pain, major trauma, or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "JOSPT",
+      "title": "Rotator Cuff Tendinopathy Clinical Practice Guideline 2025",
+      "url": "https://www.jospt.org/doi/10.2519/jospt.2025.13182",
+      "checked": "2026-08-07"
+    },
+    {
+      "organization": "AAOS",
+      "title": "Clinical Practice Guideline on Management of Rotator Cuff Injuries 2025",
+      "url": "https://www.aaos.org/quality/quality-programs/clinical-practice-guidelines/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V1.6-BATCH-15",
+    "doNotOverwriteLegacyIds": [
+      "DIS-0006",
+      "DIS-0007",
+      "DIS-0008",
+      "DIS-0009",
+      "DIS-0010",
+      "DIS-0011",
+      "DIS-0012",
+      "DIS-0013",
+      "DIS-0014",
+      "DIS-0015"
+    ],
+    "proposedGoldChapterNumber": 25
+  }
+}

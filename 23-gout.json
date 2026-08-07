@@ -1,0 +1,117 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-RHE-GOU-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Gout",
+  "synonyms": [
+    "Monosodium urate crystal arthritis"
+  ],
+  "category": "Rheumatology > Crystal Arthritis",
+  "tags": [
+    "gout",
+    "urate",
+    "podagra",
+    "tophi",
+    "crystal arthritis"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Inflammatory arthritis caused by monosodium urate crystal deposition, presenting with acute flares, intercritical disease and sometimes tophi or chronic arthropathy.",
+  "clinicalPattern": {
+    "typical": [
+      "Abrupt severe joint pain, swelling, warmth and erythema",
+      "First MTP is common but any joint may be affected",
+      "Tophi may occur in chronic disease"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Septic arthritis must be excluded in an acutely hot swollen joint, especially with fever or immunosuppression"
+    },
+    {
+      "level": "RED",
+      "item": "Gout and joint infection can coexist"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Joint warmth/swelling/tenderness",
+      "Tophi",
+      "Joint damage",
+      "Renal, cardiovascular and metabolic comorbidity assessment"
+    ]
+  },
+  "differentials": [
+    "Septic arthritis",
+    "CPPD",
+    "Cellulitis",
+    "Trauma",
+    "Inflammatory arthritis"
+  ],
+  "investigations": {
+    "principle": "Synovial-fluid crystal identification is the diagnostic standard when feasible and uncertainty exists.",
+    "MRI": "MRI is not routine for typical gout.",
+    "radiographs": "Ultrasound or dual-energy CT may support selected difficult diagnoses; radiographs show chronic erosive change."
+  },
+  "management": {
+    "green": [
+      "Treat acute flares promptly using an appropriate anti-inflammatory strategy",
+      "Address weight, alcohol and dietary factors as adjuncts",
+      "Long-term urate-lowering therapy when indicated"
+    ],
+    "amber": [
+      "NSAID, colchicine, corticosteroid and urate-lowering choices require renal, hepatic, cardiovascular, interaction and comorbidity review."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Vatarakta may be a useful Ayurvedic clinical correlation in selected presentations; crystal disease remains the modern diagnosis."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Inflammatory arthritis caused by monosodium urate crystal deposition, presenting with acute flares, intercritical disease and sometimes tophi or chronic arthropathy.",
+    "urgent": "Seek urgent assessment for new/progressive major weakness, gait deterioration, bladder/bowel dysfunction, saddle sensory loss, fever/systemic illness with severe spinal/joint pain, major trauma, or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "NICE",
+      "title": "Gout: diagnosis and management NG219",
+      "url": "https://www.nice.org.uk/guidance/ng219",
+      "checked": "2026-08-07"
+    },
+    {
+      "organization": "American College of Rheumatology",
+      "title": "2020 Guideline for the Management of Gout",
+      "url": "https://rheumatology.org/gout-guideline",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V1.6-BATCH-15",
+    "doNotOverwriteLegacyIds": [
+      "DIS-0006",
+      "DIS-0007",
+      "DIS-0008",
+      "DIS-0009",
+      "DIS-0010",
+      "DIS-0011",
+      "DIS-0012",
+      "DIS-0013",
+      "DIS-0014",
+      "DIS-0015"
+    ],
+    "proposedGoldChapterNumber": 23
+  }
+}

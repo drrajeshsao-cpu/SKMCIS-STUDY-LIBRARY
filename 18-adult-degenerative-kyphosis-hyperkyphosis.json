@@ -1,0 +1,126 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-SPN-KYP-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Adult Degenerative Kyphosis / Hyperkyphosis",
+  "synonyms": [
+    "Thoracic hyperkyphosis",
+    "Adult kyphotic deformity"
+  ],
+  "category": "Spine > Deformity",
+  "tags": [
+    "kyphosis",
+    "hyperkyphosis",
+    "deformity",
+    "sagittal balance"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Excessive sagittal spinal curvature that may be postural, degenerative, osteoporotic, fracture-related, Scheuermann-related or secondary to other disease.",
+  "clinicalPattern": {
+    "typical": [
+      "Rounded posture",
+      "Back fatigue or pain",
+      "Reduced sagittal balance",
+      "Functional or respiratory limitation in severe deformity"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "New neurological deficit"
+    },
+    {
+      "level": "RED",
+      "item": "Suspected acute vertebral fracture"
+    },
+    {
+      "level": "RED",
+      "item": "Infection, tumour or rapidly progressive deformity"
+    },
+    {
+      "level": "RED",
+      "item": "Major respiratory compromise"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Standing sagittal posture",
+      "Flexible versus fixed curve",
+      "Neurological examination",
+      "Balance and compensatory hip/knee posture"
+    ]
+  },
+  "differentials": [
+    "Osteoporotic vertebral fractures",
+    "Scheuermann disease",
+    "Ankylosing spondylitis",
+    "Postural kyphosis",
+    "Spinal tumour or infection"
+  ],
+  "investigations": {
+    "principle": "Imaging depends on deformity severity and suspected cause.",
+    "MRI": "Use MRI for neurological symptoms or suspected tumour/infection/fracture-related neural compromise.",
+    "radiographs": "Standing lateral/full-spine radiographs quantify sagittal alignment."
+  },
+  "management": {
+    "green": [
+      "Treat underlying cause",
+      "Postural and back-extensor strengthening",
+      "Balance and falls prevention"
+    ],
+    "amber": [
+      "Severe progressive or neurologically complicated deformity requires spine-specialist review."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Postural/deformity phenotype can be documented descriptively; no automatic classical equivalence."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Excessive sagittal spinal curvature that may be postural, degenerative, osteoporotic, fracture-related, Scheuermann-related or secondary to other disease.",
+    "urgent": "Seek urgent assessment for new/progressive major weakness, gait deterioration, bladder/bowel dysfunction, saddle sensory loss, fever/systemic illness with severe spinal/joint pain, major trauma, or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "Scoliosis Research Society",
+      "title": "Adult spinal deformity resources",
+      "url": "https://www.srs.org/",
+      "checked": "2026-08-07"
+    },
+    {
+      "organization": "NOGG",
+      "title": "Osteoporosis and vertebral fracture guidance",
+      "url": "https://www.nogg.org.uk/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V1.6-BATCH-15",
+    "doNotOverwriteLegacyIds": [
+      "DIS-0006",
+      "DIS-0007",
+      "DIS-0008",
+      "DIS-0009",
+      "DIS-0010",
+      "DIS-0011",
+      "DIS-0012",
+      "DIS-0013",
+      "DIS-0014",
+      "DIS-0015"
+    ],
+    "proposedGoldChapterNumber": 18
+  }
+}

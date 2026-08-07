@@ -1,0 +1,127 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-ORT-ACF-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Adhesive Capsulitis / Frozen Shoulder",
+  "synonyms": [
+    "Frozen shoulder",
+    "Adhesive capsulitis"
+  ],
+  "category": "Orthopedics > Shoulder > Adhesive Capsulitis",
+  "tags": [
+    "shoulder",
+    "frozen shoulder",
+    "adhesive capsulitis",
+    "stiffness",
+    "Avabahuka"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Painful shoulder disorder with marked restriction of both active and passive glenohumeral movement, especially external rotation, often evolving through painful, stiff and recovery phases.",
+  "clinicalPattern": {
+    "typical": [
+      "Gradual shoulder pain and night pain",
+      "Progressive stiffness",
+      "Difficulty dressing, grooming and reaching",
+      "Diabetes and thyroid disease increase risk"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Acute trauma/fracture"
+    },
+    {
+      "level": "RED",
+      "item": "Infection or tumour"
+    },
+    {
+      "level": "RED",
+      "item": "Major neurological deficit"
+    },
+    {
+      "level": "RED",
+      "item": "Unreduced dislocation"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Compare active and passive range of motion",
+      "External rotation restriction",
+      "Strength interpreted in pain context",
+      "Cervical and rotator-cuff screen"
+    ]
+  },
+  "differentials": [
+    "Rotator cuff tear",
+    "Glenohumeral OA",
+    "Calcific tendinopathy",
+    "Cervical radiculopathy",
+    "Tumour"
+  ],
+  "investigations": {
+    "principle": "Diagnosis is usually clinical after excluding major mimics.",
+    "MRI": "MRI is not routine; use when alternative pathology is suspected.",
+    "radiographs": "Plain radiograph can exclude arthritis or other bony disease when needed."
+  },
+  "management": {
+    "green": [
+      "Education on natural history",
+      "Pain-limited staged mobility and physiotherapy",
+      "Progressive functional restoration"
+    ],
+    "amber": [
+      "Intra-articular corticosteroid, hydrodilatation, manipulation or arthroscopic release require individualized phase/severity assessment."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Avabahuka is a commonly considered correlation; modern capsular restriction and exclusion of mimics remain essential."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Painful shoulder disorder with marked restriction of both active and passive glenohumeral movement, especially external rotation, often evolving through painful, stiff and recovery phases.",
+    "urgent": "Seek urgent assessment for new/progressive major weakness, gait deterioration, bladder/bowel dysfunction, saddle sensory loss, fever/systemic illness with severe spinal/joint pain, major trauma, or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "JOSPT/APTA",
+      "title": "Adhesive Capsulitis Clinical Practice Guideline",
+      "url": "https://www.jospt.org/",
+      "checked": "2026-08-07"
+    },
+    {
+      "organization": "AAOS OrthoInfo",
+      "title": "Frozen Shoulder",
+      "url": "https://orthoinfo.aaos.org/en/diseases--conditions/frozen-shoulder/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V1.6-BATCH-15",
+    "doNotOverwriteLegacyIds": [
+      "DIS-0006",
+      "DIS-0007",
+      "DIS-0008",
+      "DIS-0009",
+      "DIS-0010",
+      "DIS-0011",
+      "DIS-0012",
+      "DIS-0013",
+      "DIS-0014",
+      "DIS-0015"
+    ],
+    "proposedGoldChapterNumber": 24
+  }
+}

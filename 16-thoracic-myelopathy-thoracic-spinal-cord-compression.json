@@ -1,0 +1,120 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-SPN-TMY-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Thoracic Myelopathy / Thoracic Spinal Cord Compression",
+  "synonyms": [
+    "Thoracic cord compression",
+    "Thoracic myelopathy"
+  ],
+  "category": "Spine > Thoracic > Myelopathy",
+  "tags": [
+    "thoracic",
+    "myelopathy",
+    "cord compression",
+    "gait",
+    "sensory level"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Spinal cord dysfunction caused by thoracic canal compromise from degenerative, ossific, neoplastic, infectious, vascular or other lesions.",
+  "clinicalPattern": {
+    "typical": [
+      "Gait imbalance or spasticity",
+      "Leg weakness/heaviness",
+      "Sensory level or band-like trunk symptoms",
+      "Hyperreflexia",
+      "Possible sphincter disturbance"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Any acute or progressive myelopathy"
+    },
+    {
+      "level": "RED",
+      "item": "New bladder/bowel dysfunction"
+    },
+    {
+      "level": "RED",
+      "item": "Acute weakness, fever/infection, cancer or trauma with cord symptoms"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Full neurological examination",
+      "Sensory level",
+      "Tone, reflexes, Babinski and clonus",
+      "Gait and balance",
+      "Cervical and lumbar screening for tandem disease"
+    ]
+  },
+  "differentials": [
+    "Degenerative cervical myelopathy",
+    "Lumbar stenosis",
+    "Peripheral neuropathy",
+    "Multiple sclerosis",
+    "Transverse myelitis",
+    "B12/copper deficiency",
+    "Spinal vascular disease"
+  ],
+  "investigations": {
+    "principle": "Suspected thoracic myelopathy requires prompt cause-directed imaging.",
+    "MRI": "Thoracic MRI is the key test; contrast when infection, tumour or inflammation is suspected.",
+    "radiographs": "Radiographs are limited for cord assessment; CT better characterizes ossification/bony lesions."
+  },
+  "management": {
+    "green": [
+      "Urgent cause-specific specialist assessment",
+      "Rehabilitation only after cord stability and treatment plan are established"
+    ],
+    "amber": [
+      "Do not use forceful spinal manipulation when unexplained cord compression is possible."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Individualized Vata-vyadhi neurological phenotype may be documented only in parallel with the modern cord-compression diagnosis."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Spinal cord dysfunction caused by thoracic canal compromise from degenerative, ossific, neoplastic, infectious, vascular or other lesions.",
+    "urgent": "Seek urgent assessment for new/progressive major weakness, gait deterioration, bladder/bowel dysfunction, saddle sensory loss, fever/systemic illness with severe spinal/joint pain, major trauma, or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "American College of Radiology (ACR)",
+      "title": "ACR Appropriateness Criteria® Myelopathy",
+      "url": "https://acsearch.acr.org/docs/69484/Narrative/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V1.6-BATCH-15",
+    "doNotOverwriteLegacyIds": [
+      "DIS-0006",
+      "DIS-0007",
+      "DIS-0008",
+      "DIS-0009",
+      "DIS-0010",
+      "DIS-0011",
+      "DIS-0012",
+      "DIS-0013",
+      "DIS-0014",
+      "DIS-0015"
+    ],
+    "proposedGoldChapterNumber": 16
+  }
+}

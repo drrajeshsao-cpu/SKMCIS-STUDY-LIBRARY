@@ -1,164 +1,312 @@
 [
   {
-    "canonicalId": "SKM-SPN-CSP-001",
-    "name": "Cervical Spondylosis",
-    "category": "Spine > Cervical > Degenerative",
+    "canonicalId": "SKM-SPN-LSD-001",
+    "name": "Lumbar Spondylosis / Degenerative Disc-Facet Disease",
+    "category": "Spine > Lumbar > Degenerative",
     "synonyms": [
-      "Cervical osteoarthritis",
-      "Degenerative cervical spondylosis"
+      "Lumbar spondylosis",
+      "Lumbar degenerative disease"
     ],
     "tags": [
-      "cervical",
+      "lumbar",
+      "spondylosis",
       "degenerative",
-      "neck pain",
-      "spondylosis"
+      "facet",
+      "disc"
     ],
     "goldChapter": true,
-    "goldChapterFile": "gold-chapters/05-cervical-spondylosis.json",
+    "goldChapterFile": "gold-chapters/13-lumbar-spondylosis-degenerative-disc-facet-disease.json",
     "validationStatus": "AMBER_CLINICIAN_REVIEW",
     "provenance": "NEW_SOURCE_CHECKED_DRAFT",
     "legacyId": null
   },
   {
-    "canonicalId": "SKM-SPN-DCM-001",
-    "name": "Degenerative Cervical Myelopathy",
-    "category": "Spine > Cervical > Myelopathy",
+    "canonicalId": "SKM-SPN-LFP-001",
+    "name": "Lumbar Facet-Mediated Pain",
+    "category": "Spine > Lumbar > Pain Generator",
     "synonyms": [
-      "Cervical spondylotic myelopathy",
-      "Degenerative cervical cord compression"
+      "Lumbar facet joint pain",
+      "Zygapophyseal joint pain"
     ],
     "tags": [
-      "cervical",
+      "lumbar",
+      "facet",
+      "zygapophyseal",
+      "axial back pain"
+    ],
+    "goldChapter": true,
+    "goldChapterFile": "gold-chapters/14-lumbar-facet-mediated-pain.json",
+    "validationStatus": "AMBER_CLINICIAN_REVIEW",
+    "provenance": "NEW_SOURCE_CHECKED_DRAFT",
+    "legacyId": null
+  },
+  {
+    "canonicalId": "SKM-SPN-SIJ-001",
+    "name": "Sacroiliac Joint Pain / Dysfunction",
+    "category": "Spine > Pelvis/Sacroiliac",
+    "synonyms": [
+      "SI joint pain",
+      "Sacroiliac pain",
+      "Posterior pelvic girdle pain"
+    ],
+    "tags": [
+      "sacroiliac",
+      "SI joint",
+      "pelvic girdle",
+      "buttock pain"
+    ],
+    "goldChapter": true,
+    "goldChapterFile": "gold-chapters/15-sacroiliac-joint-pain-dysfunction.json",
+    "validationStatus": "AMBER_CLINICIAN_REVIEW",
+    "provenance": "NEW_SOURCE_CHECKED_DRAFT",
+    "legacyId": null
+  },
+  {
+    "canonicalId": "SKM-SPN-TMY-001",
+    "name": "Thoracic Myelopathy / Thoracic Spinal Cord Compression",
+    "category": "Spine > Thoracic > Myelopathy",
+    "synonyms": [
+      "Thoracic cord compression",
+      "Thoracic myelopathy"
+    ],
+    "tags": [
+      "thoracic",
       "myelopathy",
       "cord compression",
       "gait",
-      "hand clumsiness"
+      "sensory level"
     ],
     "goldChapter": true,
-    "goldChapterFile": "gold-chapters/06-degenerative-cervical-myelopathy.json",
+    "goldChapterFile": "gold-chapters/16-thoracic-myelopathy-thoracic-spinal-cord-compression.json",
     "validationStatus": "AMBER_CLINICIAN_REVIEW",
     "provenance": "NEW_SOURCE_CHECKED_DRAFT",
     "legacyId": null
   },
   {
-    "canonicalId": "SKM-SPN-SLY-001",
-    "name": "Lumbar Spondylolysis",
-    "category": "Spine > Lumbar > Structural",
+    "canonicalId": "SKM-MET-OST-001",
+    "name": "Osteoporosis",
+    "category": "Metabolic Bone > Osteoporosis",
     "synonyms": [
-      "Pars interarticularis stress fracture",
-      "Pars defect"
+      "Low bone strength",
+      "Skeletal fragility"
     ],
     "tags": [
-      "lumbar",
-      "spondylolysis",
-      "pars defect",
-      "stress fracture"
-    ],
-    "goldChapter": true,
-    "goldChapterFile": "gold-chapters/07-lumbar-spondylolysis.json",
-    "validationStatus": "AMBER_CLINICIAN_REVIEW",
-    "provenance": "NEW_SOURCE_CHECKED_DRAFT",
-    "legacyId": null
-  },
-  {
-    "canonicalId": "SKM-SPN-SPL-001",
-    "name": "Adult Lumbar Spondylolisthesis",
-    "category": "Spine > Lumbar > Structural/Degenerative",
-    "synonyms": [
-      "Degenerative spondylolisthesis",
-      "Isthmic spondylolisthesis"
-    ],
-    "tags": [
-      "lumbar",
-      "spondylolisthesis",
-      "slip",
-      "stenosis"
-    ],
-    "goldChapter": true,
-    "goldChapterFile": "gold-chapters/08-adult-lumbar-spondylolisthesis.json",
-    "validationStatus": "AMBER_CLINICIAN_REVIEW",
-    "provenance": "NEW_SOURCE_CHECKED_DRAFT",
-    "legacyId": null
-  },
-  {
-    "canonicalId": "SKM-SPN-VCF-001",
-    "name": "Vertebral Compression Fracture",
-    "category": "Spine > Thoracolumbar > Fracture",
-    "synonyms": [
-      "Osteoporotic vertebral compression fracture",
-      "Vertebral wedge fracture"
-    ],
-    "tags": [
-      "fracture",
-      "vertebral compression fracture",
       "osteoporosis",
-      "wedge"
+      "DXA",
+      "fragility fracture",
+      "bone density",
+      "fracture risk"
     ],
     "goldChapter": true,
-    "goldChapterFile": "gold-chapters/09-vertebral-compression-fracture.json",
+    "goldChapterFile": "gold-chapters/17-osteoporosis.json",
     "validationStatus": "AMBER_CLINICIAN_REVIEW",
     "provenance": "NEW_SOURCE_CHECKED_DRAFT",
     "legacyId": null
   },
   {
-    "canonicalId": "SKM-SPN-SCO-001",
-    "name": "Scoliosis",
+    "canonicalId": "SKM-SPN-KYP-001",
+    "name": "Adult Degenerative Kyphosis / Hyperkyphosis",
     "category": "Spine > Deformity",
     "synonyms": [
-      "Spinal scoliosis",
-      "Coronal spinal curvature"
+      "Thoracic hyperkyphosis",
+      "Adult kyphotic deformity"
     ],
     "tags": [
+      "kyphosis",
+      "hyperkyphosis",
       "deformity",
-      "scoliosis",
-      "Cobb angle",
-      "curve"
+      "sagittal balance"
     ],
     "goldChapter": true,
-    "goldChapterFile": "gold-chapters/10-scoliosis.json",
+    "goldChapterFile": "gold-chapters/18-adult-degenerative-kyphosis-hyperkyphosis.json",
     "validationStatus": "AMBER_CLINICIAN_REVIEW",
     "provenance": "NEW_SOURCE_CHECKED_DRAFT",
     "legacyId": null
   },
   {
-    "canonicalId": "SKM-SPN-NVO-001",
-    "name": "Native Vertebral Osteomyelitis / Discitis",
-    "category": "Spine > Infection",
+    "canonicalId": "SKM-RHE-AS-001",
+    "name": "Ankylosing Spondylitis / Radiographic Axial Spondyloarthritis",
+    "category": "Rheumatology > Axial Spondyloarthritis",
     "synonyms": [
-      "Spondylodiscitis",
-      "Vertebral osteomyelitis",
-      "Spinal discitis"
+      "Ankylosing spondylitis",
+      "Radiographic axial spondyloarthritis",
+      "AS"
     ],
     "tags": [
-      "infection",
-      "discitis",
-      "vertebral osteomyelitis",
-      "spondylodiscitis"
+      "ankylosing spondylitis",
+      "axial spondyloarthritis",
+      "sacroiliitis",
+      "inflammatory back pain"
     ],
     "goldChapter": true,
-    "goldChapterFile": "gold-chapters/11-native-vertebral-osteomyelitis-discitis.json",
+    "goldChapterFile": "gold-chapters/19-ankylosing-spondylitis-radiographic-axial-spondyloarthritis.json",
     "validationStatus": "AMBER_CLINICIAN_REVIEW",
     "provenance": "NEW_SOURCE_CHECKED_DRAFT",
     "legacyId": null
   },
   {
-    "canonicalId": "SKM-SPN-MET-001",
-    "name": "Spinal Metastases / Metastatic Spinal Cord Compression",
-    "category": "Spine > Oncology/Emergency",
+    "canonicalId": "SKM-ORT-KOA-001",
+    "name": "Knee Osteoarthritis",
+    "category": "Orthopedics > Knee > Osteoarthritis",
     "synonyms": [
-      "Spinal metastasis",
-      "MSCC",
-      "Metastatic spinal cord compression"
+      "Knee OA",
+      "Gonarthrosis"
     ],
     "tags": [
-      "oncology",
-      "metastasis",
-      "MSCC",
-      "cord compression",
-      "emergency"
+      "knee",
+      "osteoarthritis",
+      "OA",
+      "pain",
+      "WOMAC"
     ],
     "goldChapter": true,
-    "goldChapterFile": "gold-chapters/12-spinal-metastases-metastatic-spinal-cord-compression.json",
+    "goldChapterFile": "gold-chapters/20-knee-osteoarthritis.json",
+    "validationStatus": "AMBER_CLINICIAN_REVIEW",
+    "provenance": "NEW_SOURCE_CHECKED_DRAFT",
+    "legacyId": null
+  },
+  {
+    "canonicalId": "SKM-ORT-HOA-001",
+    "name": "Hip Osteoarthritis",
+    "category": "Orthopedics > Hip > Osteoarthritis",
+    "synonyms": [
+      "Hip OA",
+      "Coxarthrosis"
+    ],
+    "tags": [
+      "hip",
+      "osteoarthritis",
+      "OA",
+      "groin pain",
+      "HOOS"
+    ],
+    "goldChapter": true,
+    "goldChapterFile": "gold-chapters/21-hip-osteoarthritis.json",
+    "validationStatus": "AMBER_CLINICIAN_REVIEW",
+    "provenance": "NEW_SOURCE_CHECKED_DRAFT",
+    "legacyId": null
+  },
+  {
+    "canonicalId": "SKM-RHE-RA-001",
+    "name": "Rheumatoid Arthritis",
+    "category": "Rheumatology > Inflammatory Arthritis",
+    "synonyms": [
+      "RA",
+      "Inflammatory polyarthritis"
+    ],
+    "tags": [
+      "rheumatoid arthritis",
+      "RA",
+      "inflammatory arthritis",
+      "anti-CCP",
+      "DMARD"
+    ],
+    "goldChapter": true,
+    "goldChapterFile": "gold-chapters/22-rheumatoid-arthritis.json",
+    "validationStatus": "AMBER_CLINICIAN_REVIEW",
+    "provenance": "NEW_SOURCE_CHECKED_DRAFT",
+    "legacyId": null
+  },
+  {
+    "canonicalId": "SKM-RHE-GOU-001",
+    "name": "Gout",
+    "category": "Rheumatology > Crystal Arthritis",
+    "synonyms": [
+      "Monosodium urate crystal arthritis"
+    ],
+    "tags": [
+      "gout",
+      "urate",
+      "podagra",
+      "tophi",
+      "crystal arthritis"
+    ],
+    "goldChapter": true,
+    "goldChapterFile": "gold-chapters/23-gout.json",
+    "validationStatus": "AMBER_CLINICIAN_REVIEW",
+    "provenance": "NEW_SOURCE_CHECKED_DRAFT",
+    "legacyId": null
+  },
+  {
+    "canonicalId": "SKM-ORT-ACF-001",
+    "name": "Adhesive Capsulitis / Frozen Shoulder",
+    "category": "Orthopedics > Shoulder > Adhesive Capsulitis",
+    "synonyms": [
+      "Frozen shoulder",
+      "Adhesive capsulitis"
+    ],
+    "tags": [
+      "shoulder",
+      "frozen shoulder",
+      "adhesive capsulitis",
+      "stiffness",
+      "Avabahuka"
+    ],
+    "goldChapter": true,
+    "goldChapterFile": "gold-chapters/24-adhesive-capsulitis-frozen-shoulder.json",
+    "validationStatus": "AMBER_CLINICIAN_REVIEW",
+    "provenance": "NEW_SOURCE_CHECKED_DRAFT",
+    "legacyId": null
+  },
+  {
+    "canonicalId": "SKM-ORT-RCT-001",
+    "name": "Rotator Cuff Tendinopathy / Rotator Cuff Related Shoulder Pain",
+    "category": "Orthopedics > Shoulder > Rotator Cuff",
+    "synonyms": [
+      "Rotator cuff related shoulder pain",
+      "Subacromial pain syndrome"
+    ],
+    "tags": [
+      "shoulder",
+      "rotator cuff",
+      "tendinopathy",
+      "subacromial",
+      "exercise"
+    ],
+    "goldChapter": true,
+    "goldChapterFile": "gold-chapters/25-rotator-cuff-tendinopathy-rotator-cuff-related-shoulder-pain.json",
+    "validationStatus": "AMBER_CLINICIAN_REVIEW",
+    "provenance": "NEW_SOURCE_CHECKED_DRAFT",
+    "legacyId": null
+  },
+  {
+    "canonicalId": "SKM-NEU-CTS-001",
+    "name": "Carpal Tunnel Syndrome",
+    "category": "Neurology/Orthopedics > Peripheral Nerve > Median Nerve",
+    "synonyms": [
+      "Median neuropathy at the wrist",
+      "CTS"
+    ],
+    "tags": [
+      "carpal tunnel",
+      "median nerve",
+      "hand numbness",
+      "thenar weakness",
+      "nerve compression"
+    ],
+    "goldChapter": true,
+    "goldChapterFile": "gold-chapters/26-carpal-tunnel-syndrome.json",
+    "validationStatus": "AMBER_CLINICIAN_REVIEW",
+    "provenance": "NEW_SOURCE_CHECKED_DRAFT",
+    "legacyId": null
+  },
+  {
+    "canonicalId": "SKM-NEU-PNP-001",
+    "name": "Peripheral Polyneuropathy",
+    "category": "Neurology > Peripheral Neuropathy",
+    "synonyms": [
+      "Distal symmetric polyneuropathy",
+      "Peripheral neuropathy"
+    ],
+    "tags": [
+      "polyneuropathy",
+      "neuropathy",
+      "stocking glove",
+      "diabetes",
+      "sensory loss"
+    ],
+    "goldChapter": true,
+    "goldChapterFile": "gold-chapters/27-peripheral-polyneuropathy.json",
     "validationStatus": "AMBER_CLINICIAN_REVIEW",
     "provenance": "NEW_SOURCE_CHECKED_DRAFT",
     "legacyId": null

@@ -1,0 +1,139 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-NEU-PNP-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Peripheral Polyneuropathy",
+  "synonyms": [
+    "Distal symmetric polyneuropathy",
+    "Peripheral neuropathy"
+  ],
+  "category": "Neurology > Peripheral Neuropathy",
+  "tags": [
+    "polyneuropathy",
+    "neuropathy",
+    "stocking glove",
+    "diabetes",
+    "sensory loss"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Diffuse peripheral nerve disorder, commonly length-dependent, causing sensory, motor and/or autonomic dysfunction. Diabetes is common but metabolic, toxic, nutritional, immune and hereditary causes also occur.",
+  "clinicalPattern": {
+    "typical": [
+      "Stocking-glove numbness or burning",
+      "Reduced vibration/proprioception",
+      "Reduced ankle reflexes",
+      "Balance difficulty",
+      "Weakness or autonomic symptoms in more advanced/atypical disease"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Rapid progression"
+    },
+    {
+      "level": "RED",
+      "item": "Marked asymmetry or predominant motor weakness"
+    },
+    {
+      "level": "RED",
+      "item": "Respiratory/bulbar symptoms"
+    },
+    {
+      "level": "RED",
+      "item": "Severe autonomic failure"
+    },
+    {
+      "level": "RED",
+      "item": "Acute areflexic weakness"
+    },
+    {
+      "level": "RED",
+      "item": "New cord/sphincter signs"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Motor power and reflexes",
+      "Pin, vibration and proprioception",
+      "Foot/skin assessment",
+      "Gait and Romberg",
+      "Autonomic features when relevant"
+    ]
+  },
+  "differentials": [
+    "Radiculopathy",
+    "Myelopathy",
+    "Entrapment neuropathies",
+    "B12 deficiency",
+    "GBS/CIDP",
+    "Motor neuron disease",
+    "Vascular limb disease"
+  ],
+  "investigations": {
+    "principle": "Evaluation should be cause-directed and guided by pattern.",
+    "MRI": "MRI is not routine for typical distal symmetric polyneuropathy but may assess suspected root/cord disease.",
+    "radiographs": "Electrodiagnostic testing is useful for atypical, motor, asymmetric or diagnostically uncertain cases."
+  },
+  "management": {
+    "green": [
+      "Treat the underlying cause",
+      "Foot care and falls prevention",
+      "Balance, strength and gait rehabilitation"
+    ],
+    "amber": [
+      "Neuropathic-pain medicines and further laboratory/electrodiagnostic testing require individualized assessment."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Individualized Vata/Dhatu/Srotas assessment may be documented in parallel; cause-specific modern diagnosis remains essential."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Diffuse peripheral nerve disorder, commonly length-dependent, causing sensory, motor and/or autonomic dysfunction. Diabetes is common but metabolic, toxic, nutritional, immune and hereditary causes also occur.",
+    "urgent": "Seek urgent assessment for new/progressive major weakness, gait deterioration, bladder/bowel dysfunction, saddle sensory loss, fever/systemic illness with severe spinal/joint pain, major trauma, or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "American Academy of Neurology",
+      "title": "Distal symmetric polyneuropathy evaluation guidance",
+      "url": "https://www.aan.com/Guidelines/",
+      "checked": "2026-08-07"
+    },
+    {
+      "organization": "American Diabetes Association",
+      "title": "Standards of Care — diabetic neuropathy principles",
+      "url": "https://diabetesjournals.org/care/issue",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V1.6-BATCH-15",
+    "doNotOverwriteLegacyIds": [
+      "DIS-0006",
+      "DIS-0007",
+      "DIS-0008",
+      "DIS-0009",
+      "DIS-0010",
+      "DIS-0011",
+      "DIS-0012",
+      "DIS-0013",
+      "DIS-0014",
+      "DIS-0015"
+    ],
+    "proposedGoldChapterNumber": 27
+  }
+}

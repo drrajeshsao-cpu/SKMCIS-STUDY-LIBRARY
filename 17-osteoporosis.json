@@ -1,0 +1,123 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-MET-OST-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Osteoporosis",
+  "synonyms": [
+    "Low bone strength",
+    "Skeletal fragility"
+  ],
+  "category": "Metabolic Bone > Osteoporosis",
+  "tags": [
+    "osteoporosis",
+    "DXA",
+    "fragility fracture",
+    "bone density",
+    "fracture risk"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Systemic skeletal disorder characterized by reduced bone strength and increased fragility-fracture risk. It is often silent until fracture.",
+  "clinicalPattern": {
+    "typical": [
+      "Often asymptomatic",
+      "Fragility vertebral, hip or wrist fracture",
+      "Height loss or kyphosis after vertebral fractures"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Acute suspected hip or vertebral fracture"
+    },
+    {
+      "level": "RED",
+      "item": "Neurological compromise from vertebral fracture"
+    },
+    {
+      "level": "RED",
+      "item": "Features of malignancy, myeloma or severe secondary metabolic disease"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Height and posture",
+      "Gait and balance",
+      "Falls risk",
+      "Muscle strength",
+      "Secondary-cause clues"
+    ]
+  },
+  "differentials": [
+    "Osteomalacia",
+    "Metastatic bone disease",
+    "Multiple myeloma",
+    "Hyperparathyroidism",
+    "Other secondary bone disorders"
+  ],
+  "investigations": {
+    "principle": "Use fracture history, DXA and clinical risk assessment together.",
+    "MRI": "MRI is not routine for osteoporosis itself; useful for acute vertebral-fracture characterization.",
+    "radiographs": "Radiographs are useful for vertebral-fracture assessment when indicated."
+  },
+  "management": {
+    "green": [
+      "Adequate nutrition, protein, calcium and vitamin D sufficiency",
+      "Progressive resistance, balance and weight-bearing exercise appropriate to fracture risk",
+      "Falls prevention"
+    ],
+    "amber": [
+      "Anti-fracture pharmacotherapy is individualized according to fracture risk, renal function, prior fracture and guideline criteria."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Asthi-dhatu-kshaya phenotype may be explored as a correlation but does not replace DXA/fracture-risk diagnosis."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Systemic skeletal disorder characterized by reduced bone strength and increased fragility-fracture risk. It is often silent until fracture.",
+    "urgent": "Seek urgent assessment for new/progressive major weakness, gait deterioration, bladder/bowel dysfunction, saddle sensory loss, fever/systemic illness with severe spinal/joint pain, major trauma, or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "NOGG",
+      "title": "Clinical guideline for prevention and treatment of osteoporosis — updated Dec 2024",
+      "url": "https://www.nogg.org.uk/full-guideline",
+      "checked": "2026-08-07"
+    },
+    {
+      "organization": "Endocrine Society",
+      "title": "Pharmacological Management of Osteoporosis",
+      "url": "https://www.endocrine.org/clinical-practice-guidelines/osteoporosis-in-postmenopausal-women",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V1.6-BATCH-15",
+    "doNotOverwriteLegacyIds": [
+      "DIS-0006",
+      "DIS-0007",
+      "DIS-0008",
+      "DIS-0009",
+      "DIS-0010",
+      "DIS-0011",
+      "DIS-0012",
+      "DIS-0013",
+      "DIS-0014",
+      "DIS-0015"
+    ],
+    "proposedGoldChapterNumber": 17
+  }
+}

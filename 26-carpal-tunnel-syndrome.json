@@ -1,0 +1,126 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-NEU-CTS-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Carpal Tunnel Syndrome",
+  "synonyms": [
+    "Median neuropathy at the wrist",
+    "CTS"
+  ],
+  "category": "Neurology/Orthopedics > Peripheral Nerve > Median Nerve",
+  "tags": [
+    "carpal tunnel",
+    "median nerve",
+    "hand numbness",
+    "thenar weakness",
+    "nerve compression"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Compression neuropathy of the median nerve within the carpal tunnel at the wrist.",
+  "clinicalPattern": {
+    "typical": [
+      "Numbness or tingling in the median-nerve hand distribution",
+      "Nocturnal symptoms",
+      "Symptoms with driving/phone use",
+      "Thenar weakness in advanced disease"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Rapidly progressive weakness or thenar wasting"
+    },
+    {
+      "level": "RED",
+      "item": "Severe constant numbness"
+    },
+    {
+      "level": "RED",
+      "item": "Trauma/mass"
+    },
+    {
+      "level": "RED",
+      "item": "Proximal neurological signs suggesting cervical cord/root disease"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Median sensory distribution",
+      "Thenar power and atrophy",
+      "Phalen/Durkan/Tinel interpreted collectively",
+      "Cervical and ulnar neuropathy screen"
+    ]
+  },
+  "differentials": [
+    "Cervical radiculopathy",
+    "Pronator syndrome",
+    "Polyneuropathy",
+    "Ulnar neuropathy",
+    "Thumb CMC OA"
+  ],
+  "investigations": {
+    "principle": "Diagnosis may be clinical in typical cases; testing is selected by severity and uncertainty.",
+    "MRI": "MRI is not routine.",
+    "radiographs": "Electrodiagnostic testing is useful when diagnosis is uncertain, severe/atypical or before some surgical decisions; ultrasound may support diagnosis."
+  },
+  "management": {
+    "green": [
+      "Neutral-position night wrist splint",
+      "Activity modification and ergonomic review"
+    ],
+    "amber": [
+      "Local corticosteroid injection and carpal tunnel release require individualized severity and risk assessment."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Peripheral Vata/neuropathy phenotype may be documented; median neuropathy at the wrist remains the modern diagnosis."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Compression neuropathy of the median nerve within the carpal tunnel at the wrist.",
+    "urgent": "Seek urgent assessment for new/progressive major weakness, gait deterioration, bladder/bowel dysfunction, saddle sensory loss, fever/systemic illness with severe spinal/joint pain, major trauma, or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "AAOS",
+      "title": "Clinical Practice Guideline on Management of Carpal Tunnel Syndrome — 2024",
+      "url": "https://www.aaos.org/quality/quality-programs/upper-extremity-programs/carpal-tunnel-syndrome/",
+      "checked": "2026-08-07"
+    },
+    {
+      "organization": "AANEM",
+      "title": "Electrodiagnostic guidance",
+      "url": "https://www.aanem.org/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V1.6-BATCH-15",
+    "doNotOverwriteLegacyIds": [
+      "DIS-0006",
+      "DIS-0007",
+      "DIS-0008",
+      "DIS-0009",
+      "DIS-0010",
+      "DIS-0011",
+      "DIS-0012",
+      "DIS-0013",
+      "DIS-0014",
+      "DIS-0015"
+    ],
+    "proposedGoldChapterNumber": 26
+  }
+}

@@ -1,116 +1,145 @@
 {
-  "batchId": "SKMCIS-V1.5-BATCH-8",
+  "batchId": "SKMCIS-V1.6-BATCH-15",
   "batchVersion": "1.0.0",
-  "prepared": "2026-08-06",
-  "expectedExistingGoldChapters": 4,
-  "newGoldChapters": 8,
-  "expectedGoldChapterCountAfterIntegration": 12,
+  "prepared": "2026-08-07",
+  "expectedExistingGoldChapters": 12,
+  "newGoldChapters": 15,
+  "expectedGoldChapterCountAfterIntegration": 27,
   "records": [
     {
-      "chapterNumber": 5,
-      "canonicalId": "SKM-SPN-CSP-001",
-      "name": "Cervical Spondylosis",
-      "category": "Spine > Cervical > Degenerative",
-      "file": "gold-chapters/05-cervical-spondylosis.json",
+      "chapterNumber": 13,
+      "canonicalId": "SKM-SPN-LSD-001",
+      "name": "Lumbar Spondylosis / Degenerative Disc-Facet Disease",
+      "category": "Spine > Lumbar > Degenerative",
+      "file": "gold-chapters/13-lumbar-spondylosis-degenerative-disc-facet-disease.json",
       "validationStatus": "AMBER_CLINICIAN_REVIEW",
-      "provenance": "NEW_SOURCE_CHECKED_DRAFT",
-      "ayurvedaStatus": "GRAY_UNVALIDATED_CORRELATION"
+      "contentStatus": "NEW_SOURCE_CHECKED_DRAFT"
     },
     {
-      "chapterNumber": 6,
-      "canonicalId": "SKM-SPN-DCM-001",
-      "name": "Degenerative Cervical Myelopathy",
-      "category": "Spine > Cervical > Myelopathy",
-      "file": "gold-chapters/06-degenerative-cervical-myelopathy.json",
+      "chapterNumber": 14,
+      "canonicalId": "SKM-SPN-LFP-001",
+      "name": "Lumbar Facet-Mediated Pain",
+      "category": "Spine > Lumbar > Pain Generator",
+      "file": "gold-chapters/14-lumbar-facet-mediated-pain.json",
       "validationStatus": "AMBER_CLINICIAN_REVIEW",
-      "provenance": "NEW_SOURCE_CHECKED_DRAFT",
-      "ayurvedaStatus": "GRAY_UNVALIDATED_CORRELATION"
+      "contentStatus": "NEW_SOURCE_CHECKED_DRAFT"
     },
     {
-      "chapterNumber": 7,
-      "canonicalId": "SKM-SPN-SLY-001",
-      "name": "Lumbar Spondylolysis",
-      "category": "Spine > Lumbar > Structural",
-      "file": "gold-chapters/07-lumbar-spondylolysis.json",
+      "chapterNumber": 15,
+      "canonicalId": "SKM-SPN-SIJ-001",
+      "name": "Sacroiliac Joint Pain / Dysfunction",
+      "category": "Spine > Pelvis/Sacroiliac",
+      "file": "gold-chapters/15-sacroiliac-joint-pain-dysfunction.json",
       "validationStatus": "AMBER_CLINICIAN_REVIEW",
-      "provenance": "NEW_SOURCE_CHECKED_DRAFT",
-      "ayurvedaStatus": "GRAY_UNVALIDATED_CORRELATION"
+      "contentStatus": "NEW_SOURCE_CHECKED_DRAFT"
     },
     {
-      "chapterNumber": 8,
-      "canonicalId": "SKM-SPN-SPL-001",
-      "name": "Adult Lumbar Spondylolisthesis",
-      "category": "Spine > Lumbar > Structural/Degenerative",
-      "file": "gold-chapters/08-adult-lumbar-spondylolisthesis.json",
+      "chapterNumber": 16,
+      "canonicalId": "SKM-SPN-TMY-001",
+      "name": "Thoracic Myelopathy / Thoracic Spinal Cord Compression",
+      "category": "Spine > Thoracic > Myelopathy",
+      "file": "gold-chapters/16-thoracic-myelopathy-thoracic-spinal-cord-compression.json",
       "validationStatus": "AMBER_CLINICIAN_REVIEW",
-      "provenance": "NEW_SOURCE_CHECKED_DRAFT",
-      "ayurvedaStatus": "GRAY_UNVALIDATED_CORRELATION"
+      "contentStatus": "NEW_SOURCE_CHECKED_DRAFT"
     },
     {
-      "chapterNumber": 9,
-      "canonicalId": "SKM-SPN-VCF-001",
-      "name": "Vertebral Compression Fracture",
-      "category": "Spine > Thoracolumbar > Fracture",
-      "file": "gold-chapters/09-vertebral-compression-fracture.json",
+      "chapterNumber": 17,
+      "canonicalId": "SKM-MET-OST-001",
+      "name": "Osteoporosis",
+      "category": "Metabolic Bone > Osteoporosis",
+      "file": "gold-chapters/17-osteoporosis.json",
       "validationStatus": "AMBER_CLINICIAN_REVIEW",
-      "provenance": "NEW_SOURCE_CHECKED_DRAFT",
-      "ayurvedaStatus": "GRAY_UNVALIDATED_CORRELATION"
+      "contentStatus": "NEW_SOURCE_CHECKED_DRAFT"
     },
     {
-      "chapterNumber": 10,
-      "canonicalId": "SKM-SPN-SCO-001",
-      "name": "Scoliosis",
+      "chapterNumber": 18,
+      "canonicalId": "SKM-SPN-KYP-001",
+      "name": "Adult Degenerative Kyphosis / Hyperkyphosis",
       "category": "Spine > Deformity",
-      "file": "gold-chapters/10-scoliosis.json",
+      "file": "gold-chapters/18-adult-degenerative-kyphosis-hyperkyphosis.json",
       "validationStatus": "AMBER_CLINICIAN_REVIEW",
-      "provenance": "NEW_SOURCE_CHECKED_DRAFT",
-      "ayurvedaStatus": "GRAY_UNVALIDATED_CORRELATION"
+      "contentStatus": "NEW_SOURCE_CHECKED_DRAFT"
     },
     {
-      "chapterNumber": 11,
-      "canonicalId": "SKM-SPN-NVO-001",
-      "name": "Native Vertebral Osteomyelitis / Discitis",
-      "category": "Spine > Infection",
-      "file": "gold-chapters/11-native-vertebral-osteomyelitis-discitis.json",
+      "chapterNumber": 19,
+      "canonicalId": "SKM-RHE-AS-001",
+      "name": "Ankylosing Spondylitis / Radiographic Axial Spondyloarthritis",
+      "category": "Rheumatology > Axial Spondyloarthritis",
+      "file": "gold-chapters/19-ankylosing-spondylitis-radiographic-axial-spondyloarthritis.json",
       "validationStatus": "AMBER_CLINICIAN_REVIEW",
-      "provenance": "NEW_SOURCE_CHECKED_DRAFT",
-      "ayurvedaStatus": "GRAY_UNVALIDATED_CORRELATION"
+      "contentStatus": "NEW_SOURCE_CHECKED_DRAFT"
     },
     {
-      "chapterNumber": 12,
-      "canonicalId": "SKM-SPN-MET-001",
-      "name": "Spinal Metastases / Metastatic Spinal Cord Compression",
-      "category": "Spine > Oncology/Emergency",
-      "file": "gold-chapters/12-spinal-metastases-metastatic-spinal-cord-compression.json",
+      "chapterNumber": 20,
+      "canonicalId": "SKM-ORT-KOA-001",
+      "name": "Knee Osteoarthritis",
+      "category": "Orthopedics > Knee > Osteoarthritis",
+      "file": "gold-chapters/20-knee-osteoarthritis.json",
       "validationStatus": "AMBER_CLINICIAN_REVIEW",
-      "provenance": "NEW_SOURCE_CHECKED_DRAFT",
-      "ayurvedaStatus": "GRAY_UNVALIDATED_CORRELATION"
+      "contentStatus": "NEW_SOURCE_CHECKED_DRAFT"
+    },
+    {
+      "chapterNumber": 21,
+      "canonicalId": "SKM-ORT-HOA-001",
+      "name": "Hip Osteoarthritis",
+      "category": "Orthopedics > Hip > Osteoarthritis",
+      "file": "gold-chapters/21-hip-osteoarthritis.json",
+      "validationStatus": "AMBER_CLINICIAN_REVIEW",
+      "contentStatus": "NEW_SOURCE_CHECKED_DRAFT"
+    },
+    {
+      "chapterNumber": 22,
+      "canonicalId": "SKM-RHE-RA-001",
+      "name": "Rheumatoid Arthritis",
+      "category": "Rheumatology > Inflammatory Arthritis",
+      "file": "gold-chapters/22-rheumatoid-arthritis.json",
+      "validationStatus": "AMBER_CLINICIAN_REVIEW",
+      "contentStatus": "NEW_SOURCE_CHECKED_DRAFT"
+    },
+    {
+      "chapterNumber": 23,
+      "canonicalId": "SKM-RHE-GOU-001",
+      "name": "Gout",
+      "category": "Rheumatology > Crystal Arthritis",
+      "file": "gold-chapters/23-gout.json",
+      "validationStatus": "AMBER_CLINICIAN_REVIEW",
+      "contentStatus": "NEW_SOURCE_CHECKED_DRAFT"
+    },
+    {
+      "chapterNumber": 24,
+      "canonicalId": "SKM-ORT-ACF-001",
+      "name": "Adhesive Capsulitis / Frozen Shoulder",
+      "category": "Orthopedics > Shoulder > Adhesive Capsulitis",
+      "file": "gold-chapters/24-adhesive-capsulitis-frozen-shoulder.json",
+      "validationStatus": "AMBER_CLINICIAN_REVIEW",
+      "contentStatus": "NEW_SOURCE_CHECKED_DRAFT"
+    },
+    {
+      "chapterNumber": 25,
+      "canonicalId": "SKM-ORT-RCT-001",
+      "name": "Rotator Cuff Tendinopathy / Rotator Cuff Related Shoulder Pain",
+      "category": "Orthopedics > Shoulder > Rotator Cuff",
+      "file": "gold-chapters/25-rotator-cuff-tendinopathy-rotator-cuff-related-shoulder-pain.json",
+      "validationStatus": "AMBER_CLINICIAN_REVIEW",
+      "contentStatus": "NEW_SOURCE_CHECKED_DRAFT"
+    },
+    {
+      "chapterNumber": 26,
+      "canonicalId": "SKM-NEU-CTS-001",
+      "name": "Carpal Tunnel Syndrome",
+      "category": "Neurology/Orthopedics > Peripheral Nerve > Median Nerve",
+      "file": "gold-chapters/26-carpal-tunnel-syndrome.json",
+      "validationStatus": "AMBER_CLINICIAN_REVIEW",
+      "contentStatus": "NEW_SOURCE_CHECKED_DRAFT"
+    },
+    {
+      "chapterNumber": 27,
+      "canonicalId": "SKM-NEU-PNP-001",
+      "name": "Peripheral Polyneuropathy",
+      "category": "Neurology > Peripheral Neuropathy",
+      "file": "gold-chapters/27-peripheral-polyneuropathy.json",
+      "validationStatus": "AMBER_CLINICIAN_REVIEW",
+      "contentStatus": "NEW_SOURCE_CHECKED_DRAFT"
     }
-  ],
-  "colorSemantics": {
-    "GREEN": "Safe/ready",
-    "AMBER": "Caution/review",
-    "RED": "Urgent/red flag",
-    "BLUE": "Diagnostic information",
-    "GRAY": "Unvalidated/unresolved"
-  },
-  "legacyProtection": {
-    "unresolvedIds": [
-      "DIS-0006",
-      "DIS-0007",
-      "DIS-0008",
-      "DIS-0009",
-      "DIS-0010",
-      "DIS-0011",
-      "DIS-0012",
-      "DIS-0013",
-      "DIS-0014",
-      "DIS-0015"
-    ],
-    "action": "DO_NOT_MAP_DO_NOT_RENUMBER"
-  },
-  "compatibility": {
-    "schema": "SKMCIS-disease-schema-v1.1",
-    "strategy": "manifest + individual JSON files"
-  }
+  ]
 }

@@ -1,0 +1,128 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-RHE-RA-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Rheumatoid Arthritis",
+  "synonyms": [
+    "RA",
+    "Inflammatory polyarthritis"
+  ],
+  "category": "Rheumatology > Inflammatory Arthritis",
+  "tags": [
+    "rheumatoid arthritis",
+    "RA",
+    "inflammatory arthritis",
+    "anti-CCP",
+    "DMARD"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Chronic systemic autoimmune inflammatory arthritis that can cause persistent synovitis, erosive joint damage, disability and extra-articular disease.",
+  "clinicalPattern": {
+    "typical": [
+      "Persistent symmetrical small-joint pain and swelling",
+      "Prolonged morning stiffness",
+      "Reduced grip and function",
+      "Fatigue or extra-articular manifestations"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Suspected septic joint"
+    },
+    {
+      "level": "RED",
+      "item": "Cervical instability/myelopathy symptoms"
+    },
+    {
+      "level": "RED",
+      "item": "Severe infection during immunosuppression"
+    },
+    {
+      "level": "RED",
+      "item": "Vasculitis or acute cardiopulmonary complication"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Tender and swollen joint count",
+      "Joint deformity and function",
+      "Grip",
+      "Extra-articular features",
+      "Cervical neurological screen when indicated"
+    ]
+  },
+  "differentials": [
+    "Psoriatic arthritis",
+    "SLE arthritis",
+    "Viral arthritis",
+    "Gout",
+    "Osteoarthritis",
+    "Reactive arthritis"
+  ],
+  "investigations": {
+    "principle": "Diagnosis is clinical supported by serology/inflammation and imaging; serology alone is insufficient.",
+    "MRI": "MRI can identify synovitis/erosion in selected uncertain cases.",
+    "radiographs": "Baseline/follow-up hand and foot radiographs may document structural damage."
+  },
+  "management": {
+    "green": [
+      "Early rheumatology referral",
+      "Exercise, joint protection, vaccination and cardiovascular/bone-health management"
+    ],
+    "amber": [
+      "DMARD and glucocorticoid strategies require rheumatology-led monitoring and contraindication review."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Amavata is a commonly discussed correlation for some phenotypes but must not replace formal RA diagnosis and treat-to-target management."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Chronic systemic autoimmune inflammatory arthritis that can cause persistent synovitis, erosive joint damage, disability and extra-articular disease.",
+    "urgent": "Seek urgent assessment for new/progressive major weakness, gait deterioration, bladder/bowel dysfunction, saddle sensory loss, fever/systemic illness with severe spinal/joint pain, major trauma, or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "EULAR",
+      "title": "Recommendations for management of rheumatoid arthritis",
+      "url": "https://ard.bmj.com/",
+      "checked": "2026-08-07"
+    },
+    {
+      "organization": "NICE",
+      "title": "Rheumatoid arthritis in adults NG100",
+      "url": "https://www.nice.org.uk/guidance/ng100",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V1.6-BATCH-15",
+    "doNotOverwriteLegacyIds": [
+      "DIS-0006",
+      "DIS-0007",
+      "DIS-0008",
+      "DIS-0009",
+      "DIS-0010",
+      "DIS-0011",
+      "DIS-0012",
+      "DIS-0013",
+      "DIS-0014",
+      "DIS-0015"
+    ],
+    "proposedGoldChapterNumber": 22
+  }
+}

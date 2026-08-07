@@ -1,0 +1,131 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-ORT-KOA-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Knee Osteoarthritis",
+  "synonyms": [
+    "Knee OA",
+    "Gonarthrosis"
+  ],
+  "category": "Orthopedics > Knee > Osteoarthritis",
+  "tags": [
+    "knee",
+    "osteoarthritis",
+    "OA",
+    "pain",
+    "WOMAC"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Degenerative whole-joint disorder characterized by cartilage loss, subchondral and osteophyte change, synovial involvement and pain/function impairment.",
+  "clinicalPattern": {
+    "typical": [
+      "Activity-related knee pain",
+      "Brief morning stiffness",
+      "Crepitus",
+      "Reduced range of motion",
+      "Difficulty with stairs, walking or rising from chair"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Hot swollen joint with fever"
+    },
+    {
+      "level": "RED",
+      "item": "Acute locked knee or major trauma"
+    },
+    {
+      "level": "RED",
+      "item": "Rapidly progressive severe pain"
+    },
+    {
+      "level": "RED",
+      "item": "Neurovascular compromise or suspected DVT"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Gait and alignment",
+      "Effusion and range of motion",
+      "Joint-line tenderness and crepitus",
+      "Stability",
+      "Hip examination",
+      "Functional sit-to-stand"
+    ]
+  },
+  "differentials": [
+    "Septic or inflammatory arthritis",
+    "Gout/CPPD",
+    "Meniscal injury",
+    "Referred hip/spine pain",
+    "Osteonecrosis",
+    "Fracture"
+  ],
+  "investigations": {
+    "principle": "Typical OA is often diagnosed clinically; image when diagnosis, severity or planning requires it.",
+    "MRI": "MRI is not routine for typical knee OA.",
+    "radiographs": "Weight-bearing radiographs assess joint-space loss, osteophytes and alignment."
+  },
+  "management": {
+    "green": [
+      "Education, exercise and weight management when relevant",
+      "Strength and aerobic conditioning",
+      "Appropriate assistive devices"
+    ],
+    "amber": [
+      "Topical/oral medicines, injections and arthroplasty decisions depend on patient-specific risk and persistent disability."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Sandhigata Vata is a common clinical correlation; individualized assessment remains necessary."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Degenerative whole-joint disorder characterized by cartilage loss, subchondral and osteophyte change, synovial involvement and pain/function impairment.",
+    "urgent": "Seek urgent assessment for new/progressive major weakness, gait deterioration, bladder/bowel dysfunction, saddle sensory loss, fever/systemic illness with severe spinal/joint pain, major trauma, or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "NICE",
+      "title": "Osteoarthritis in over 16s NG226",
+      "url": "https://www.nice.org.uk/guidance/ng226",
+      "checked": "2026-08-07"
+    },
+    {
+      "organization": "AAOS",
+      "title": "Clinical Practice Guidelines — Knee Osteoarthritis",
+      "url": "https://www.aaos.org/quality/quality-programs/clinical-practice-guidelines/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V1.6-BATCH-15",
+    "doNotOverwriteLegacyIds": [
+      "DIS-0006",
+      "DIS-0007",
+      "DIS-0008",
+      "DIS-0009",
+      "DIS-0010",
+      "DIS-0011",
+      "DIS-0012",
+      "DIS-0013",
+      "DIS-0014",
+      "DIS-0015"
+    ],
+    "proposedGoldChapterNumber": 20
+  }
+}

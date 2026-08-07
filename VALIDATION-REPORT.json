@@ -1,9 +1,25 @@
 {
+  "schema": "SKMCIS-disease-schema-v1.1",
+  "recordsValidated": 15,
+  "duplicateAgainstUploadedBatch8": [],
   "jsonParse": "PASS",
-  "chapterCount": 8,
   "uniqueCanonicalIds": "PASS",
-  "legacyDIS0006to0015Touched": false,
-  "allModernDraftsAmber": true,
-  "allAyurvedaGray": true,
-  "errors": []
+  "chapterNumbers": [
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27
+  ],
+  "status": "PASS_WITH_AMBER_CLINICIAN_REVIEW"
 }

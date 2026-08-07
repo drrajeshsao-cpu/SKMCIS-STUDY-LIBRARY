@@ -1,0 +1,118 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-SPN-LFP-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Lumbar Facet-Mediated Pain",
+  "synonyms": [
+    "Lumbar facet joint pain",
+    "Zygapophyseal joint pain"
+  ],
+  "category": "Spine > Lumbar > Pain Generator",
+  "tags": [
+    "lumbar",
+    "facet",
+    "zygapophyseal",
+    "axial back pain"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Axial low-back pain suspected to arise from lumbar zygapophyseal joints. History, examination and imaging cannot reliably confirm the facet joint as the pain source by themselves.",
+  "clinicalPattern": {
+    "typical": [
+      "Predominantly axial low-back pain",
+      "Pain may increase with extension/rotation or prolonged standing",
+      "Buttock or proximal-thigh referral may occur",
+      "Usually no true dermatomal neurological deficit"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Neurological deficit or cauda equina features"
+    },
+    {
+      "level": "RED",
+      "item": "Trauma/fracture risk, systemic infection or malignancy features"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Lumbar range of motion",
+      "Extension-rotation provocation interpreted cautiously",
+      "Neurological screen",
+      "Hip and sacroiliac examination"
+    ]
+  },
+  "differentials": [
+    "Discogenic/nonspecific low-back pain",
+    "Sacroiliac pain",
+    "Hip osteoarthritis",
+    "Lumbar stenosis",
+    "Radiculopathy",
+    "Vertebral fracture"
+  ],
+  "investigations": {
+    "principle": "Imaging may identify degeneration but does not prove a painful facet origin.",
+    "MRI": "Use MRI for red flags or alternative neural/structural pathology.",
+    "radiographs": "Radiographs may show facet arthropathy but are not diagnostic of facet-mediated pain."
+  },
+  "management": {
+    "green": [
+      "Education and exercise-based back-pain rehabilitation",
+      "Maintain appropriate activity"
+    ],
+    "amber": [
+      "Diagnostic medial branch blocks and radiofrequency procedures are specialist options for carefully selected persistent cases."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Possible Kati-shoola/Kati-graha symptom correlation; no one-to-one classical equivalence."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Axial low-back pain suspected to arise from lumbar zygapophyseal joints. History, examination and imaging cannot reliably confirm the facet joint as the pain source by themselves.",
+    "urgent": "Seek urgent assessment for new/progressive major weakness, gait deterioration, bladder/bowel dysfunction, saddle sensory loss, fever/systemic illness with severe spinal/joint pain, major trauma, or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "NICE",
+      "title": "Low back pain and sciatica NG59",
+      "url": "https://www.nice.org.uk/guidance/ng59",
+      "checked": "2026-08-07"
+    },
+    {
+      "organization": "Regional Anesthesia & Pain Medicine",
+      "title": "Consensus practice guidelines on lumbar facet joint pain",
+      "url": "https://rapm.bmj.com/content/45/6/424",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V1.6-BATCH-15",
+    "doNotOverwriteLegacyIds": [
+      "DIS-0006",
+      "DIS-0007",
+      "DIS-0008",
+      "DIS-0009",
+      "DIS-0010",
+      "DIS-0011",
+      "DIS-0012",
+      "DIS-0013",
+      "DIS-0014",
+      "DIS-0015"
+    ],
+    "proposedGoldChapterNumber": 14
+  }
+}

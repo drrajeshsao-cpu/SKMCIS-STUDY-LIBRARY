@@ -1,0 +1,122 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-SPN-LSD-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Lumbar Spondylosis / Degenerative Disc-Facet Disease",
+  "synonyms": [
+    "Lumbar spondylosis",
+    "Lumbar degenerative disease"
+  ],
+  "category": "Spine > Lumbar > Degenerative",
+  "tags": [
+    "lumbar",
+    "spondylosis",
+    "degenerative",
+    "facet",
+    "disc"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Degenerative change involving lumbar discs, vertebral endplates, osteophytes and facet joints. Imaging abnormalities are common in asymptomatic adults and require clinical correlation.",
+  "clinicalPattern": {
+    "typical": [
+      "Axial low-back pain or stiffness",
+      "Activity/posture-related symptoms",
+      "Reduced lumbar motion",
+      "May coexist with radiculopathy or stenosis"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "New bladder/bowel dysfunction, saddle sensory loss or progressive weakness"
+    },
+    {
+      "level": "RED",
+      "item": "Fever/systemic illness, major trauma, cancer-related red flags or suspected fracture"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Gait and posture",
+      "Lumbar range of motion",
+      "Lower-limb neurological screen",
+      "Hip and sacroiliac screening",
+      "Functional movement assessment"
+    ]
+  },
+  "differentials": [
+    "Nonspecific mechanical low-back pain",
+    "Lumbar disc herniation",
+    "Lumbar spinal stenosis",
+    "Facet-mediated pain",
+    "Inflammatory spondyloarthritis",
+    "Hip or sacroiliac pathology",
+    "Fracture, infection or malignancy"
+  ],
+  "investigations": {
+    "principle": "Do not image routine uncomplicated low-back pain solely to document degeneration.",
+    "MRI": "Use MRI when neurological deficit, red flags or persistent symptoms would change management.",
+    "radiographs": "Radiographs may show disc-height loss, osteophytes, alignment and facet degeneration."
+  },
+  "management": {
+    "green": [
+      "Education and continuation of appropriate activity",
+      "Individualized exercise-based rehabilitation",
+      "Ergonomic and lifestyle risk-factor management"
+    ],
+    "amber": [
+      "Medication, injection or procedural decisions require individualized risk review; imaging findings alone must not determine treatment."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Possible Kati-shoola/Kati-graha or Vata-dominant symptom overlap may be documented as correlation only."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Degenerative change involving lumbar discs, vertebral endplates, osteophytes and facet joints. Imaging abnormalities are common in asymptomatic adults and require clinical correlation.",
+    "urgent": "Seek urgent assessment for new/progressive major weakness, gait deterioration, bladder/bowel dysfunction, saddle sensory loss, fever/systemic illness with severe spinal/joint pain, major trauma, or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "NICE",
+      "title": "Low back pain and sciatica in over 16s: NG59",
+      "url": "https://www.nice.org.uk/guidance/ng59",
+      "checked": "2026-08-07"
+    },
+    {
+      "organization": "American College of Radiology (ACR)",
+      "title": "ACR Appropriateness Criteria® Low Back Pain",
+      "url": "https://acsearch.acr.org/docs/69483/Narrative/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V1.6-BATCH-15",
+    "doNotOverwriteLegacyIds": [
+      "DIS-0006",
+      "DIS-0007",
+      "DIS-0008",
+      "DIS-0009",
+      "DIS-0010",
+      "DIS-0011",
+      "DIS-0012",
+      "DIS-0013",
+      "DIS-0014",
+      "DIS-0015"
+    ],
+    "proposedGoldChapterNumber": 13
+  }
+}
