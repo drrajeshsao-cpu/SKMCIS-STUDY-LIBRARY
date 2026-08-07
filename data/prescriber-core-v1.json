@@ -1,0 +1,379 @@
+{
+  "schema": "SKMCIS-prescriber-layer-v1.1",
+  "updated": "2026-08-07",
+  "validationStatus": "SOURCE_CHECKED_DRAFT_CLINICIAN_REVIEW",
+  "chapters": {
+    "SKM-SPN-0001": {
+      "examination": [
+        "Gait and posture; observe antalgic gait, foot drop and heel/toe walking where safe.",
+        "Lumbar range of motion; note reproduction/peripheralization of leg symptoms.",
+        "Straight Leg Raise (SLR/Lasegue): reproduce concordant radicular pain; document angle and side.",
+        "Crossed SLR: reproduction of symptomatic-leg pain when the opposite leg is raised.",
+        "Slump test where appropriate as an additional neurodynamic test.",
+        "Motor: hip flexion (L2-3), knee extension (L3-4), ankle dorsiflexion (L4-5), great-toe extension (L5), plantar flexion (S1).",
+        "Sensory mapping: L4 medial leg/ankle, L5 dorsum foot/great toe tendency, S1 lateral foot/sole tendency.",
+        "Reflexes: patellar L3-4 and Achilles S1; compare sides.",
+        "Screen hip/SI joint and peripheral pulses if the pattern is atypical or vascular/hip disease is possible.",
+        "Always document bladder/bowel/saddle symptoms and progressive motor deficit."
+      ],
+      "investigations": [
+        {
+          "test": "No routine imaging initially",
+          "indication": "Uncomplicated acute low-back pain/sciatica without red flags; imaging rarely changes initial management.",
+          "priority": "Preferred default",
+          "level": "green"
+        },
+        {
+          "test": "X-ray Lumbosacral Spine — AP & Lateral views",
+          "indication": "Consider when fracture/structural bony pathology is plausible: significant or low-velocity trauma with osteoporosis/older age, chronic steroid exposure, or selected persistent structural symptoms. Not a routine sciatica test.",
+          "priority": "Conditional",
+          "level": "amber"
+        },
+        {
+          "test": "MRI Lumbosacral Spine — without contrast",
+          "indication": "Persistent/progressive radicular symptoms when intervention/surgery is being considered, or objective neurological deficit; correlate level and side with examination.",
+          "priority": "Conditional / usually preferred advanced test",
+          "level": "blue"
+        },
+        {
+          "test": "Urgent MRI Lumbosacral Spine",
+          "indication": "Suspected cauda equina syndrome or rapidly progressive major neurological deficit.",
+          "priority": "URGENT",
+          "level": "red"
+        },
+        {
+          "test": "CBC, ESR/CRP ± targeted cultures",
+          "indication": "Only when infection/systemic inflammatory pathology is suspected.",
+          "priority": "Red-flag directed",
+          "level": "red"
+        }
+      ],
+      "medications": [
+        {
+          "generic": "Ibuprofen",
+          "brandExamples": [
+            "Brufen (Abbott India; ibuprofen)"
+          ],
+          "formulation": "Tablet 400 mg",
+          "dose": "400 mg orally up to three times daily with/after food; use the lowest effective dose.",
+          "duration": "Shortest appropriate course; reassess early (typically within days, not an open-ended prescription).",
+          "notes": "NSAID option, not disease-modifying. Avoid/modify for peptic ulcer or GI bleed risk, CKD/AKI, significant cardiovascular risk, anticoagulants, NSAID hypersensitivity and pregnancy-related contraindications. Do not combine with another NSAID."
+        },
+        {
+          "generic": "Diclofenac",
+          "brandExamples": [
+            "Voveran 50 GE / Voveran-D (diclofenac 50 mg; India-market examples)"
+          ],
+          "formulation": "Tablet 50 mg",
+          "dose": "Typical adult oral total 75–150 mg/day in divided doses; e.g. 50 mg twice daily, only if clinically appropriate.",
+          "duration": "Lowest effective dose for the shortest period; early reassessment.",
+          "notes": "Alternative NSAID, NOT together with ibuprofen/naproxen. Consider GI, renal, hepatic and cardiovascular risk and gastroprotection where indicated."
+        }
+      ],
+      "nonDrug": [
+        "Explain favorable natural history where appropriate and encourage normal activity within tolerance; avoid prolonged bed rest.",
+        "Individualized exercise/rehabilitation based on irritability, neurological deficit and function.",
+        "Manual therapy, if used, should be part of an exercise-based package rather than stand-alone care.",
+        "Acute severe sciatica: image-guided/specialist epidural local anaesthetic + corticosteroid can be considered in selected patients.",
+        "Do NOT routinely use gabapentinoids/other antiepileptics, oral corticosteroids or benzodiazepines for sciatica; avoid chronic opioids."
+      ],
+      "followUp": [
+        "Reassess pain distribution, SLR, motor power, sensory deficit, reflexes and gait.",
+        "Immediate escalation for new bladder/bowel/saddle symptoms or progressive motor weakness.",
+        "If disabling symptoms persist despite appropriate conservative care, obtain concordant imaging and consider spine specialist referral."
+      ]
+    },
+    "SKM-LSP-0002": {
+      "examination": [
+        "Observe posture, gait and functional transitions (sit-to-stand, bending, walking).",
+        "Lumbar flexion, extension and side-bending; document painful/restricted patterns.",
+        "Palpation is supportive only; do not diagnose a pain generator from tenderness alone.",
+        "Neurological screen: motor, dermatomes, patellar/Achilles reflexes.",
+        "SLR if leg symptoms are present to screen radiculopathy.",
+        "Hip examination and SI screening when history suggests a non-lumbar source.",
+        "Red-flag screen: trauma, cancer, infection, inflammatory disease and cauda equina symptoms."
+      ],
+      "investigations": [
+        {
+          "test": "No routine X-ray or MRI",
+          "indication": "Acute or subacute non-specific/mechanical low-back pain without red flags.",
+          "priority": "Preferred default",
+          "level": "green"
+        },
+        {
+          "test": "X-ray Lumbosacral Spine — AP & Lateral views",
+          "indication": "Low-velocity/significant trauma, osteoporosis, older age, chronic steroid use, suspected compression fracture or selected structural concern.",
+          "priority": "Conditional",
+          "level": "amber"
+        },
+        {
+          "test": "MRI Lumbosacral Spine — without contrast",
+          "indication": "Persistent/progressive symptoms after an adequate conservative trial when intervention is being considered, or new objective neurological findings.",
+          "priority": "Conditional",
+          "level": "blue"
+        },
+        {
+          "test": "MRI with contrast / targeted labs",
+          "indication": "Only when cancer, infection, inflammatory disease or postoperative complication is suspected.",
+          "priority": "Red-flag directed",
+          "level": "red"
+        }
+      ],
+      "medications": [
+        {
+          "generic": "Ibuprofen",
+          "brandExamples": [
+            "Brufen"
+          ],
+          "formulation": "Tablet 400 mg",
+          "dose": "400 mg orally up to three times daily with/after food when an NSAID is appropriate.",
+          "duration": "Lowest effective dose for the shortest period; reassess within days.",
+          "notes": "Assess GI, renal, cardiovascular, allergy, anticoagulant and pregnancy risks; do not combine NSAIDs."
+        },
+        {
+          "generic": "Diclofenac",
+          "brandExamples": [
+            "Voveran 50 GE / Voveran-D"
+          ],
+          "formulation": "Tablet 50 mg",
+          "dose": "75–150 mg/day in divided doses; commonly 50 mg twice daily when selected.",
+          "duration": "Shortest possible course.",
+          "notes": "Alternative NSAID. Consider gastroprotection based on risk. Avoid duplicate NSAID therapy."
+        }
+      ],
+      "nonDrug": [
+        "Education, self-management and continuation of normal activity as tolerated.",
+        "Exercise programme tailored to capability; include trunk/hip strength, mobility and graded aerobic activity.",
+        "Manual therapy only as part of a package including exercise.",
+        "Avoid routine traction, TENS, ultrasound and prolonged bed rest for non-specific LBP."
+      ],
+      "followUp": [
+        "Early review if pain is severe or function is deteriorating; otherwise reassess response over the next few weeks.",
+        "Re-screen for red flags if symptoms change.",
+        "Persistent disabling symptoms: reassess diagnosis, psychosocial barriers and need for imaging/specialist opinion."
+      ]
+    },
+    "SKM-LSP-0003": {
+      "examination": [
+        "Straight Leg Raise and Crossed SLR; document concordant radicular pain and side.",
+        "Slump test where appropriate.",
+        "Motor testing focused on L4/L5/S1, especially ankle dorsiflexion, great-toe extension and plantar flexion.",
+        "Dermatomal sensory mapping and patellar/Achilles reflexes.",
+        "Heel/toe walking and gait; quantify foot-drop weakness if present.",
+        "Screen cauda equina symptoms at every significant deterioration."
+      ],
+      "investigations": [
+        {
+          "test": "No routine plain X-ray for confirming disc herniation",
+          "indication": "Disc herniation is a soft-tissue/neural diagnosis; X-ray does not show the herniated disc.",
+          "priority": "Do not use as confirmatory test",
+          "level": "amber"
+        },
+        {
+          "test": "X-ray Lumbosacral Spine — AP & Lateral views",
+          "indication": "Use only for associated fracture/instability/bony structural concern, not simply because radicular pain is present.",
+          "priority": "Conditional",
+          "level": "amber"
+        },
+        {
+          "test": "MRI Lumbosacral Spine — without contrast",
+          "indication": "Persistent/progressive radiculopathy, objective deficit, or when injection/surgery is being considered; document morphology and nerve-root concordance.",
+          "priority": "Preferred advanced test",
+          "level": "blue"
+        },
+        {
+          "test": "Urgent MRI Lumbosacral Spine",
+          "indication": "Suspected cauda equina syndrome or rapidly progressive major motor deficit.",
+          "priority": "URGENT",
+          "level": "red"
+        }
+      ],
+      "medications": [
+        {
+          "generic": "Ibuprofen",
+          "brandExamples": [
+            "Brufen"
+          ],
+          "formulation": "Tablet 400 mg",
+          "dose": "400 mg orally up to TID with food if NSAID appropriate.",
+          "duration": "Shortest appropriate course with early reassessment.",
+          "notes": "Use one NSAID only; screen GI/renal/CV/pregnancy/anticoagulant risks."
+        },
+        {
+          "generic": "Diclofenac",
+          "brandExamples": [
+            "Voveran 50 GE / Voveran-D"
+          ],
+          "formulation": "Tablet 50 mg",
+          "dose": "Typical total 75–150 mg/day divided; e.g. 50 mg BD if selected.",
+          "duration": "Shortest period.",
+          "notes": "Alternative to ibuprofen, not in combination. Risk assessment and gastroprotection as appropriate."
+        }
+      ],
+      "nonDrug": [
+        "Stay active within tolerance; avoid prolonged bed rest.",
+        "Graded rehabilitation with symptom-guided mobility and strengthening.",
+        "Selected acute severe radicular pain may be referred for epidural local anaesthetic + corticosteroid.",
+        "Surgical decompression/discectomy opinion when non-surgical care fails and imaging matches symptoms, or earlier for progressive neurological deficit."
+      ],
+      "followUp": [
+        "Repeat motor examination and document any change in dorsiflexion/great-toe extension/plantar flexion.",
+        "Track pain/function plus neurological signs rather than MRI appearance alone.",
+        "Urgent referral for CES symptoms or progressive major weakness."
+      ]
+    },
+    "SKM-LSP-0004": {
+      "examination": [
+        "Walking tolerance: distance/time to leg symptoms; document relief with sitting/flexion.",
+        "Compare standing/extension-provoked symptoms with sitting/flexion relief (shopping-cart phenotype).",
+        "Full lower-limb neurological exam: power, sensation, reflexes and gait.",
+        "Peripheral pulses and vascular examination to distinguish vascular claudication.",
+        "Hip examination for OA/hip mimic.",
+        "Assess balance and screen cervical/thoracic myelopathy if gait is disproportionate."
+      ],
+      "investigations": [
+        {
+          "test": "X-ray Lumbosacral Spine — standing AP & Lateral views",
+          "indication": "Useful for alignment, degenerative spondylolisthesis, scoliosis and bony degeneration when structural assessment is needed.",
+          "priority": "Conditional / structural",
+          "level": "blue"
+        },
+        {
+          "test": "Flexion–extension lumbar radiographs",
+          "indication": "Selected cases when dynamic instability/spondylolisthesis is suspected and the result would change management.",
+          "priority": "Selected",
+          "level": "amber"
+        },
+        {
+          "test": "MRI Lumbosacral Spine — without contrast",
+          "indication": "Preferred test to define central/lateral recess/foraminal stenosis when symptoms are clinically concordant and intervention is being considered.",
+          "priority": "Preferred advanced test",
+          "level": "blue"
+        },
+        {
+          "test": "ABI / vascular assessment",
+          "indication": "If vascular claudication is a meaningful differential: diminished pulses, non-postural exertional symptoms or vascular risk profile.",
+          "priority": "Differential-directed",
+          "level": "amber"
+        },
+        {
+          "test": "Urgent MRI",
+          "indication": "New cauda equina symptoms or rapidly progressive neurological deficit.",
+          "priority": "URGENT",
+          "level": "red"
+        }
+      ],
+      "medications": [
+        {
+          "generic": "Ibuprofen",
+          "brandExamples": [
+            "Brufen"
+          ],
+          "formulation": "Tablet 400 mg",
+          "dose": "400 mg orally up to TID with/after food if clinically appropriate.",
+          "duration": "Shortest period; reassess symptom response and toxicity.",
+          "notes": "Symptom control only; does not reverse stenosis. Assess GI/renal/CV/pregnancy/anticoagulant risk."
+        },
+        {
+          "generic": "Diclofenac",
+          "brandExamples": [
+            "Voveran 50 GE / Voveran-D"
+          ],
+          "formulation": "Tablet 50 mg",
+          "dose": "75–150 mg/day divided; e.g. 50 mg BD when selected.",
+          "duration": "Shortest appropriate course.",
+          "notes": "Alternative NSAID only; avoid concurrent NSAIDs."
+        }
+      ],
+      "nonDrug": [
+        "Education and flexion-tolerant/activity-based rehabilitation; progressive walking/cycling conditioning as tolerated.",
+        "Strength and balance programme individualized for age, frailty and neurological status.",
+        "Do not use epidural injections for neurogenic claudication due to central canal stenosis as routine treatment under NICE NG59.",
+        "Consider decompression opinion for persistent function-limiting neurogenic claudication with concordant imaging after appropriate non-surgical care."
+      ],
+      "followUp": [
+        "Track walking distance/time, ODI or similar disability measure, neurological examination and falls risk.",
+        "Reassess vascular/hip differential if symptoms do not fit the postural neurogenic pattern.",
+        "Escalate immediately for CES or progressive motor deficit."
+      ]
+    },
+    "SKM-CSP-0001": {
+      "examination": [
+        "Cervical active range of motion; note reproduction of arm symptoms.",
+        "Spurling test: reproduce concordant ipsilateral radicular arm pain with foraminal loading.",
+        "Upper Limb Tension Test (ULTT): useful as a sensitive neurodynamic test.",
+        "Shoulder abduction relief test where appropriate.",
+        "Motor examination by cervical myotomes (C5–T1), including deltoid, biceps, wrist extensors, triceps, finger flexors and hand intrinsics.",
+        "Sensory examination in root-related upper-limb distribution.",
+        "Reflexes: biceps C5-6, brachioradialis C6, triceps C7.",
+        "Mandatory myelopathy screen: gait, hand dexterity, hyperreflexia, Hoffmann/clonus where indicated."
+      ],
+      "investigations": [
+        {
+          "test": "No routine imaging initially",
+          "indication": "Typical uncomplicated cervical radiculopathy without trauma/red flags and with a short symptom duration.",
+          "priority": "Preferred default",
+          "level": "green"
+        },
+        {
+          "test": "X-ray Cervical Spine — AP & Lateral ± oblique views",
+          "indication": "Trauma, suspected bony/degenerative foraminal disease, malignancy red flag, or symptoms failing to improve after ~4–6 weeks. Oblique view can show bony foraminal narrowing.",
+          "priority": "Conditional",
+          "level": "amber"
+        },
+        {
+          "test": "MRI Cervical Spine — without contrast",
+          "indication": "Persistent symptoms after 4–6 weeks, progressive objective neurological deficit, suspected myelopathy, or when injection/surgery is considered.",
+          "priority": "Preferred advanced test",
+          "level": "blue"
+        },
+        {
+          "test": "EMG/NCS",
+          "indication": "When peripheral entrapment neuropathy or plexopathy is a significant competing diagnosis; not routinely required when clinical diagnosis is clear.",
+          "priority": "Differential-directed",
+          "level": "amber"
+        },
+        {
+          "test": "Urgent MRI / specialist pathway",
+          "indication": "Myelopathy signs, rapidly progressive weakness, abscess/infection or other serious pathology.",
+          "priority": "URGENT",
+          "level": "red"
+        }
+      ],
+      "medications": [
+        {
+          "generic": "Ibuprofen",
+          "brandExamples": [
+            "Brufen"
+          ],
+          "formulation": "Tablet 400 mg",
+          "dose": "400 mg orally up to TID with food if an NSAID is appropriate.",
+          "duration": "Shortest appropriate period with early reassessment.",
+          "notes": "Symptomatic analgesic/anti-inflammatory option. Screen GI/renal/CV/pregnancy/anticoagulant risk; do not combine NSAIDs."
+        },
+        {
+          "generic": "Diclofenac",
+          "brandExamples": [
+            "Voveran 50 GE / Voveran-D"
+          ],
+          "formulation": "Tablet 50 mg",
+          "dose": "Typical adult total 75–150 mg/day in divided doses; e.g. 50 mg BD if clinically selected.",
+          "duration": "Shortest appropriate period.",
+          "notes": "Alternative NSAID. Avoid duplicate NSAIDs; use individualized GI/CV/renal risk assessment."
+        }
+      ],
+      "nonDrug": [
+        "Reassure that many cases improve with nonoperative care.",
+        "Physical therapy emphasizing cervical/shoulder/scapular strengthening and stretching.",
+        "Avoid forceful cervical manipulation if myelopathy, instability, fracture, infection or major neurological deficit is suspected.",
+        "Consider epidural/selective nerve-root intervention only after specialist review because of potential serious complications.",
+        "Spine referral if progressive deficit or persistent disabling symptoms with concordant imaging."
+      ],
+      "followUp": [
+        "Repeat motor power, sensation and reflexes; progression of an objective neurological deficit should trigger MRI/referral.",
+        "Re-check gait, hand clumsiness and upper-motor-neuron signs for evolving myelopathy.",
+        "If not improving after 4–6 weeks, reassess diagnosis and imaging need."
+      ]
+    }
+  }
+}

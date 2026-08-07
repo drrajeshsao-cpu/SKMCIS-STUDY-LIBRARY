@@ -1,5 +1,5 @@
 const $=id=>document.getElementById(id);
-let INDEX=[],CHAPTERS={},activeGold='SKM-SPN-0001';let deferredPrompt=null;
+let INDEX=[],CHAPTERS={},activeGold='SKM-SPN-0001',PRESCRIBER={};let deferredPrompt=null;
 const stateKey='skmcis-study-v1';
 function state(){try{return JSON.parse(localStorage.getItem(stateKey)||'{}')}catch{return {}}}
 function saveState(s){localStorage.setItem(stateKey,JSON.stringify(s))}
@@ -24,6 +24,11 @@ async function load(){
  INDEX=await fetch('./data/master-index.json',{cache:'no-store'}).then(r=>r.json());await loadGoldIndex();
  for(const f of CORE_FILES){try{const d=await fetchJSON(f);CHAPTERS[d.id]=d}catch(e){console.warn('Core chapter load failed',e)}}
  for(const f of EXPANSION_FILES){try{const raw=await fetchJSON(f);if(!raw?.canonicalId)continue;const d=normalizeV11(raw);CHAPTERS[d.id]=d;addIndexForGold(d,raw)}catch(e){console.warn('Expansion chapter load failed',e)}}
+ try{
+   const pr=await fetchJSON('data/prescriber-core-v1.json');
+   PRESCRIBER=pr?.chapters||{};
+   Object.keys(PRESCRIBER).forEach(id=>{if(CHAPTERS[id])CHAPTERS[id].prescriber=PRESCRIBER[id]});
+ }catch(e){console.warn('Prescriber core load failed',e)}
  init();
 }
 function progressOf(id){return (state().progress||{})[id]||'unread'}
