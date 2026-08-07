@@ -1,0 +1,99 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-SPN-CMS-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Conus Medullaris Syndrome",
+  "synonyms": [],
+  "category": "Spine > Emergency > Conus Medullaris",
+  "tags": [
+    "conus medullaris syndrome"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Neurological syndrome caused by injury or compression of the terminal spinal cord near the conus, often producing mixed upper/lower motor-neuron findings with early sphincter and saddle sensory dysfunction.",
+  "clinicalPattern": {
+    "typical": [
+      "Acute or subacute bilateral leg symptoms",
+      "Saddle sensory change",
+      "Early bladder/bowel dysfunction",
+      "Possible symmetric weakness"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Any suspected conus syndrome is an emergency"
+    },
+    {
+      "level": "RED",
+      "item": "New urinary retention"
+    },
+    {
+      "level": "RED",
+      "item": "Rapidly progressive bilateral weakness"
+    },
+    {
+      "level": "RED",
+      "item": "Saddle anesthesia"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Motor/sensory/reflex exam",
+      "Perineal sensation",
+      "Bladder assessment",
+      "Gait if safe"
+    ]
+  },
+  "differentials": [
+    "Cauda equina syndrome",
+    "Thoracic myelopathy",
+    "Peripheral neuropathy"
+  ],
+  "investigations": {
+    "principle": "Urgent MRI of the thoracolumbar junction/lumbar spine is central when compression is suspected.",
+    "MRI": "Use MRI when neural, soft-tissue, marrow, tumor, occult injury or condition-specific assessment requires it.",
+    "radiographs": "Use radiographs and/or CT according to the condition-specific imaging pathway."
+  },
+  "management": {
+    "green": [
+      "Immediate emergency/spine-neurosurgical pathway",
+      "Bladder and pressure-area care when required"
+    ],
+    "amber": [
+      "Do not delay imaging or decompression for conservative or Ayurvedic treatment."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Any Vata-neurological framework is secondary to emergency modern diagnosis and decompression pathway."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Neurological syndrome caused by injury or compression of the terminal spinal cord near the conus, often producing mixed upper/lower motor-neuron findings with early sphincter and saddle sensory dysfunction.",
+    "urgent": "Seek urgent assessment for acute/progressive neurological deficit, sphincter change, severe infection/systemic illness, major trauma, vascular compromise or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "ACR",
+      "title": "Myelopathy / Spine Emergency Imaging",
+      "url": "https://acsearch.acr.org/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V2.6-BATCH-12",
+    "proposedGoldChapterNumber": 208
+  }
+}

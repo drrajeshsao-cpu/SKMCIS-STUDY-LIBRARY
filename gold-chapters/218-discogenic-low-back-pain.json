@@ -1,0 +1,95 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-SPN-DLBP-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Discogenic Low Back Pain",
+  "synonyms": [],
+  "category": "Spine > Lumbar > Discogenic Pain",
+  "tags": [
+    "discogenic low back pain"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Axial low-back pain suspected to arise from a degenerative or disrupted intervertebral disc after exclusion of other important pain generators and serious pathology.",
+  "clinicalPattern": {
+    "typical": [
+      "Central low-back pain",
+      "Pain with sitting/flexion in some patients",
+      "Limited neurological findings"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Cauda equina symptoms"
+    },
+    {
+      "level": "RED",
+      "item": "Progressive deficit"
+    },
+    {
+      "level": "RED",
+      "item": "Infection/malignancy/fracture red flags"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Lumbar ROM",
+      "Neurological screen",
+      "Hip/SI differentiation"
+    ]
+  },
+  "differentials": [
+    "Facet pain",
+    "SI joint pain",
+    "Myofascial pain",
+    "Compression fracture"
+  ],
+  "investigations": {
+    "principle": "MRI may show degeneration or annular changes but imaging alone cannot prove the pain source.",
+    "MRI": "Use MRI when neural, soft-tissue, marrow, tumor, occult injury or condition-specific assessment requires it.",
+    "radiographs": "Use radiographs and/or CT according to the condition-specific imaging pathway."
+  },
+  "management": {
+    "green": [
+      "Education",
+      "Graded activity",
+      "Exercise-based rehabilitation"
+    ],
+    "amber": [
+      "Discography and invasive procedures are highly selective and should not be routine."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Kati-shoola/Vata phenotype may be documented only as a parallel assessment."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Axial low-back pain suspected to arise from a degenerative or disrupted intervertebral disc after exclusion of other important pain generators and serious pathology.",
+    "urgent": "Seek urgent assessment for acute/progressive neurological deficit, sphincter change, severe infection/systemic illness, major trauma, vascular compromise or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "NICE",
+      "title": "Low back pain and sciatica NG59",
+      "url": "https://www.nice.org.uk/guidance/ng59",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V2.6-BATCH-12",
+    "proposedGoldChapterNumber": 218
+  }
+}

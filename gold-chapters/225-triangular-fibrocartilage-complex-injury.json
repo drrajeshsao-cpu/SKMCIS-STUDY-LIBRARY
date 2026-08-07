@@ -1,0 +1,96 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-ORT-TFCC-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Triangular Fibrocartilage Complex Injury",
+  "synonyms": [],
+  "category": "Orthopedics > Wrist > Ulnar-Sided Pain",
+  "tags": [
+    "triangular fibrocartilage complex injury"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Traumatic or degenerative injury of the triangular fibrocartilage complex, an important stabilizer of the distal radioulnar and ulnocarpal region.",
+  "clinicalPattern": {
+    "typical": [
+      "Ulnar-sided wrist pain",
+      "Clicking",
+      "Pain with forearm rotation or load",
+      "Possible DRUJ instability"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Fracture"
+    },
+    {
+      "level": "RED",
+      "item": "Gross DRUJ instability"
+    },
+    {
+      "level": "RED",
+      "item": "Neurovascular deficit"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Ulnar fovea tenderness",
+      "DRUJ stability",
+      "Forearm rotation",
+      "Grip"
+    ]
+  },
+  "differentials": [
+    "ECU tendinopathy",
+    "Ulnar impaction syndrome",
+    "Guyon canal syndrome"
+  ],
+  "investigations": {
+    "principle": "MRI/MR arthrography and radiographs are selected based on suspected tear and ulnar variance.",
+    "MRI": "Use MRI when neural, soft-tissue, marrow, tumor, occult injury or condition-specific assessment requires it.",
+    "radiographs": "Use radiographs and/or CT according to the condition-specific imaging pathway."
+  },
+  "management": {
+    "green": [
+      "Activity modification",
+      "Wrist support",
+      "Hand therapy"
+    ],
+    "amber": [
+      "Persistent unstable tears may require arthroscopic repair/debridement."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Manibandha-Snayu phenotype may be documented descriptively."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Traumatic or degenerative injury of the triangular fibrocartilage complex, an important stabilizer of the distal radioulnar and ulnocarpal region.",
+    "urgent": "Seek urgent assessment for acute/progressive neurological deficit, sphincter change, severe infection/systemic illness, major trauma, vascular compromise or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "BSSH",
+      "title": "TFCC/wrist injury resources",
+      "url": "https://www.bssh.ac.uk/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V2.6-BATCH-12",
+    "proposedGoldChapterNumber": 225
+  }
+}

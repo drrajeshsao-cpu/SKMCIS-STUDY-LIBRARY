@@ -1,0 +1,93 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-ORT-SLL-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Scapholunate Ligament Injury",
+  "synonyms": [],
+  "category": "Orthopedics > Wrist > Ligament",
+  "tags": [
+    "scapholunate ligament injury"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Injury of the scapholunate interosseous ligament causing carpal instability and potential progression to scapholunate advanced collapse arthritis.",
+  "clinicalPattern": {
+    "typical": [
+      "Dorsal wrist pain",
+      "Pain with loading/push-up",
+      "Clicking or weakness after fall"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Associated fracture/dislocation"
+    },
+    {
+      "level": "RED",
+      "item": "Neurovascular compromise"
+    },
+    {
+      "level": "RED",
+      "item": "Gross carpal instability"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Scapholunate tenderness",
+      "Watson/scaphoid-shift test in context",
+      "Grip and neurovascular exam"
+    ]
+  },
+  "differentials": [
+    "Scaphoid fracture",
+    "TFCC injury",
+    "Wrist sprain"
+  ],
+  "investigations": {
+    "principle": "Stress radiographs and MRI/MR arthrography may help; arthroscopy is the reference assessment in selected cases.",
+    "MRI": "Use MRI when neural, soft-tissue, marrow, tumor, occult injury or condition-specific assessment requires it.",
+    "radiographs": "Use radiographs and/or CT according to the condition-specific imaging pathway."
+  },
+  "management": {
+    "green": [
+      "Immobilization for acute stable injury",
+      "Early hand specialist review"
+    ],
+    "amber": [
+      "Complete or unstable injuries may require surgical repair/reconstruction."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Manibandha-Snayu injury phenotype may be documented."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Injury of the scapholunate interosseous ligament causing carpal instability and potential progression to scapholunate advanced collapse arthritis.",
+    "urgent": "Seek urgent assessment for acute/progressive neurological deficit, sphincter change, severe infection/systemic illness, major trauma, vascular compromise or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "BSSH",
+      "title": "Scapholunate ligament injury resources",
+      "url": "https://www.bssh.ac.uk/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V2.6-BATCH-12",
+    "proposedGoldChapterNumber": 224
+  }
+}

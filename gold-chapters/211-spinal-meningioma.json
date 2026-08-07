@@ -1,0 +1,94 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-ONC-SMEN-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Spinal Meningioma",
+  "synonyms": [],
+  "category": "Oncology/Neurosurgery > Intradural Extramedullary",
+  "tags": [
+    "spinal meningioma"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Usually benign intradural extramedullary tumor arising from arachnoid cap cells, commonly in the thoracic spine and capable of progressive cord compression.",
+  "clinicalPattern": {
+    "typical": [
+      "Slowly progressive myelopathy",
+      "Back/radicular pain",
+      "Gait imbalance",
+      "Sensory change"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Progressive cord dysfunction"
+    },
+    {
+      "level": "RED",
+      "item": "New sphincter dysfunction"
+    },
+    {
+      "level": "RED",
+      "item": "Rapid decline"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Long-tract signs",
+      "Motor/sensory exam",
+      "Gait"
+    ]
+  },
+  "differentials": [
+    "Schwannoma",
+    "Thoracic stenosis",
+    "Metastatic epidural disease"
+  ],
+  "investigations": {
+    "principle": "Contrast MRI is the principal diagnostic study.",
+    "MRI": "Use MRI when neural, soft-tissue, marrow, tumor, occult injury or condition-specific assessment requires it.",
+    "radiographs": "Use radiographs and/or CT according to the condition-specific imaging pathway."
+  },
+  "management": {
+    "green": [
+      "Neurosurgical evaluation",
+      "Rehabilitation for stable deficits"
+    ],
+    "amber": [
+      "Symptomatic compressive lesions are commonly treated surgically; observation is selective."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Modern structural diagnosis and decompression planning take priority."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Usually benign intradural extramedullary tumor arising from arachnoid cap cells, commonly in the thoracic spine and capable of progressive cord compression.",
+    "urgent": "Seek urgent assessment for acute/progressive neurological deficit, sphincter change, severe infection/systemic illness, major trauma, vascular compromise or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "EANO",
+      "title": "Meningioma clinical guidance",
+      "url": "https://www.eano.eu/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V2.6-BATCH-12",
+    "proposedGoldChapterNumber": 211
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-ORT-DBTR-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Distal Biceps Tendon Rupture",
+  "synonyms": [],
+  "category": "Orthopedics > Elbow > Tendon Rupture",
+  "tags": [
+    "distal biceps tendon rupture"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Partial or complete rupture of the distal biceps tendon from the radial tuberosity, typically after sudden eccentric load.",
+  "clinicalPattern": {
+    "typical": [
+      "Sudden antecubital pain",
+      "Bruising",
+      "Weak supination",
+      "Abnormal biceps contour"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Neurovascular compromise"
+    },
+    {
+      "level": "RED",
+      "item": "Associated fracture/open injury"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Hook test",
+      "Supination strength",
+      "Elbow flexion strength",
+      "Neurovascular exam"
+    ]
+  },
+  "differentials": [
+    "Biceps strain",
+    "Radial head injury",
+    "Musculocutaneous neuropathy"
+  ],
+  "investigations": {
+    "principle": "Ultrasound or MRI confirms uncertain tears and retraction.",
+    "MRI": "Use MRI when neural, soft-tissue, marrow, tumor, occult injury or condition-specific assessment requires it.",
+    "radiographs": "Use radiographs and/or CT according to the condition-specific imaging pathway."
+  },
+  "management": {
+    "green": [
+      "Early orthopedic assessment",
+      "Activity protection"
+    ],
+    "amber": [
+      "Complete tears in active patients are commonly repaired surgically, ideally without excessive delay."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Snayu rupture phenotype may be documented after modern tendon diagnosis."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Partial or complete rupture of the distal biceps tendon from the radial tuberosity, typically after sudden eccentric load.",
+    "urgent": "Seek urgent assessment for acute/progressive neurological deficit, sphincter change, severe infection/systemic illness, major trauma, vascular compromise or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "AAOS OrthoInfo",
+      "title": "Biceps Tendon Tear at the Elbow",
+      "url": "https://orthoinfo.aaos.org/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V2.6-BATCH-12",
+    "proposedGoldChapterNumber": 222
+  }
+}

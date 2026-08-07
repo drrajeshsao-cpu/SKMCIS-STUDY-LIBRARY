@@ -1,0 +1,94 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-SPN-LFSC-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Lumbar Facet Synovial Cyst",
+  "synonyms": [],
+  "category": "Spine > Lumbar > Facet Degenerative",
+  "tags": [
+    "lumbar facet synovial cyst"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Degenerative synovial cyst arising from a lumbar facet joint that may narrow the canal or foramen and compress a nerve root.",
+  "clinicalPattern": {
+    "typical": [
+      "Radicular leg pain",
+      "Neurogenic claudication",
+      "Back pain",
+      "Symptoms may fluctuate"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Progressive motor deficit"
+    },
+    {
+      "level": "RED",
+      "item": "Cauda equina symptoms"
+    },
+    {
+      "level": "RED",
+      "item": "Severe bilateral neurological symptoms"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Lumbar/root neurological exam",
+      "Gait",
+      "SLR/femoral stretch as appropriate"
+    ]
+  },
+  "differentials": [
+    "Disc herniation",
+    "Foraminal stenosis",
+    "Tumor"
+  ],
+  "investigations": {
+    "principle": "MRI demonstrates cyst and neural compression; CT can define facet degeneration/calcification.",
+    "MRI": "Use MRI when neural, soft-tissue, marrow, tumor, occult injury or condition-specific assessment requires it.",
+    "radiographs": "Use radiographs and/or CT according to the condition-specific imaging pathway."
+  },
+  "management": {
+    "green": [
+      "Conservative management for stable mild symptoms",
+      "Rehabilitation"
+    ],
+    "amber": [
+      "Persistent severe radiculopathy, instability or deficit may require injection or decompression."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Kati/Vata-radicular phenotype may be documented in parallel."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Degenerative synovial cyst arising from a lumbar facet joint that may narrow the canal or foramen and compress a nerve root.",
+    "urgent": "Seek urgent assessment for acute/progressive neurological deficit, sphincter change, severe infection/systemic illness, major trauma, vascular compromise or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "ACR",
+      "title": "Low Back Pain",
+      "url": "https://acsearch.acr.org/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V2.6-BATCH-12",
+    "proposedGoldChapterNumber": 215
+  }
+}

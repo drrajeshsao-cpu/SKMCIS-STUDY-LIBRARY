@@ -1,0 +1,92 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-SPN-AFISS-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Annular Fissure of Intervertebral Disc",
+  "synonyms": [],
+  "category": "Spine > Disc > Annular Lesion",
+  "tags": [
+    "annular fissure of intervertebral disc"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Fissuring of the annulus fibrosus, commonly seen on MRI and often asymptomatic; clinical significance requires correlation with symptoms and exclusion of other causes.",
+  "clinicalPattern": {
+    "typical": [
+      "May be asymptomatic",
+      "Axial pain in some patients",
+      "Possible association with disc herniation"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Neurological deficit"
+    },
+    {
+      "level": "RED",
+      "item": "Cauda equina"
+    },
+    {
+      "level": "RED",
+      "item": "Infection/tumor features"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Neurological screen",
+      "Lumbar/cervical movement assessment depending on level"
+    ]
+  },
+  "differentials": [
+    "Disc herniation",
+    "Facet pain",
+    "Myofascial pain"
+  ],
+  "investigations": {
+    "principle": "MRI can demonstrate high-intensity-zone/annular changes but cannot by itself establish causation.",
+    "MRI": "Use MRI when neural, soft-tissue, marrow, tumor, occult injury or condition-specific assessment requires it.",
+    "radiographs": "Use radiographs and/or CT according to the condition-specific imaging pathway."
+  },
+  "management": {
+    "green": [
+      "Treat the clinical syndrome, not the MRI finding",
+      "Exercise and activity restoration"
+    ],
+    "amber": [
+      "Avoid overdiagnosis and unnecessary procedures based only on annular fissure imaging."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Anatomical MRI finding should remain separate from Ayurvedic phenotype assessment."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Fissuring of the annulus fibrosus, commonly seen on MRI and often asymptomatic; clinical significance requires correlation with symptoms and exclusion of other causes.",
+    "urgent": "Seek urgent assessment for acute/progressive neurological deficit, sphincter change, severe infection/systemic illness, major trauma, vascular compromise or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "ACR",
+      "title": "Low Back Pain",
+      "url": "https://acsearch.acr.org/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V2.6-BATCH-12",
+    "proposedGoldChapterNumber": 219
+  }
+}

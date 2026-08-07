@@ -1,0 +1,88 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-SPN-BERT-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Bertolotti Syndrome",
+  "synonyms": [],
+  "category": "Spine > Lumbosacral Junction",
+  "tags": [
+    "bertolotti syndrome"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Low-back pain associated with a lumbosacral transitional vertebra and a symptomatic pseudoarticulation or altered adjacent-segment biomechanics.",
+  "clinicalPattern": {
+    "typical": [
+      "Chronic unilateral or bilateral low-back pain",
+      "Pain near lumbosacral junction",
+      "Possible referred buttock pain"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Neurological deficit"
+    },
+    {
+      "level": "RED",
+      "item": "Systemic or trauma red flags"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Lumbar/hip/SI assessment",
+      "Neurological screen"
+    ]
+  },
+  "differentials": [
+    "SI joint pain",
+    "Facet pain",
+    "Discogenic pain"
+  ],
+  "investigations": {
+    "principle": "Radiographs/CT identify transitional anatomy; MRI evaluates adjacent disc/root pathology.",
+    "MRI": "Use MRI when neural, soft-tissue, marrow, tumor, occult injury or condition-specific assessment requires it.",
+    "radiographs": "Use radiographs and/or CT according to the condition-specific imaging pathway."
+  },
+  "management": {
+    "green": [
+      "Exercise and movement rehabilitation",
+      "Identify dominant pain generator"
+    ],
+    "amber": [
+      "Diagnostic injections or surgery are selective and require careful correlation."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Kati-shoola phenotype may be documented without equating anatomy to a classical disease."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Low-back pain associated with a lumbosacral transitional vertebra and a symptomatic pseudoarticulation or altered adjacent-segment biomechanics.",
+    "urgent": "Seek urgent assessment for acute/progressive neurological deficit, sphincter change, severe infection/systemic illness, major trauma, vascular compromise or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "ACR",
+      "title": "Low Back Pain",
+      "url": "https://acsearch.acr.org/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V2.6-BATCH-12",
+    "proposedGoldChapterNumber": 216
+  }
+}

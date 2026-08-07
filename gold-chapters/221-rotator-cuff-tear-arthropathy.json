@@ -1,0 +1,94 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-ORT-RCTA-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Rotator Cuff Tear Arthropathy",
+  "synonyms": [],
+  "category": "Orthopedics > Shoulder > Cuff Arthropathy",
+  "tags": [
+    "rotator cuff tear arthropathy"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Advanced shoulder dysfunction caused by chronic massive rotator cuff deficiency with superior humeral migration and secondary glenohumeral degenerative change.",
+  "clinicalPattern": {
+    "typical": [
+      "Chronic shoulder pain",
+      "Marked weakness",
+      "Loss of active elevation",
+      "Crepitus"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Acute fracture/dislocation"
+    },
+    {
+      "level": "RED",
+      "item": "Infection"
+    },
+    {
+      "level": "RED",
+      "item": "New neurological deficit"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Active/passive ROM",
+      "Rotator cuff strength",
+      "Deltoid/axillary nerve function"
+    ]
+  },
+  "differentials": [
+    "Glenohumeral OA",
+    "Frozen shoulder",
+    "Cervical radiculopathy"
+  ],
+  "investigations": {
+    "principle": "Radiographs show superior migration and arthropathy; ultrasound/MRI evaluates cuff if needed.",
+    "MRI": "Use MRI when neural, soft-tissue, marrow, tumor, occult injury or condition-specific assessment requires it.",
+    "radiographs": "Use radiographs and/or CT according to the condition-specific imaging pathway."
+  },
+  "management": {
+    "green": [
+      "Function-focused rehabilitation",
+      "Activity modification"
+    ],
+    "amber": [
+      "Reverse shoulder arthroplasty is considered for selected severe cases with preserved deltoid function."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Amsa Sandhigata-Vata-like phenotype may be documented only in parallel."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Advanced shoulder dysfunction caused by chronic massive rotator cuff deficiency with superior humeral migration and secondary glenohumeral degenerative change.",
+    "urgent": "Seek urgent assessment for acute/progressive neurological deficit, sphincter change, severe infection/systemic illness, major trauma, vascular compromise or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "AAOS",
+      "title": "Rotator Cuff and Shoulder Arthroplasty resources",
+      "url": "https://www.aaos.org/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V2.6-BATCH-12",
+    "proposedGoldChapterNumber": 221
+  }
+}

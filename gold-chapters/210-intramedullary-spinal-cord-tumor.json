@@ -1,0 +1,95 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-ONC-IMSCT-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Intramedullary Spinal Cord Tumor",
+  "synonyms": [],
+  "category": "Oncology/Neurosurgery > Spinal Cord Tumor",
+  "tags": [
+    "intramedullary spinal cord tumor"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Neoplasm arising within the spinal cord substance, including ependymoma, astrocytoma and other lesions, capable of causing progressive myelopathy.",
+  "clinicalPattern": {
+    "typical": [
+      "Progressive limb weakness",
+      "Sensory level",
+      "Spinal pain",
+      "Sphincter symptoms in advanced disease"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Rapid neurological deterioration"
+    },
+    {
+      "level": "RED",
+      "item": "Respiratory compromise"
+    },
+    {
+      "level": "RED",
+      "item": "Acute sphincter dysfunction"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Full myelopathy exam",
+      "Sensory level",
+      "Gait",
+      "Cranial/brainstem screen when relevant"
+    ]
+  },
+  "differentials": [
+    "Syringomyelia",
+    "Transverse myelitis",
+    "Degenerative myelopathy"
+  ],
+  "investigations": {
+    "principle": "Contrast MRI of the involved spinal cord is the key study; brain/whole-neuraxis imaging is selected by tumor type.",
+    "MRI": "Use MRI when neural, soft-tissue, marrow, tumor, occult injury or condition-specific assessment requires it.",
+    "radiographs": "Use radiographs and/or CT according to the condition-specific imaging pathway."
+  },
+  "management": {
+    "green": [
+      "Urgent neurosurgical/oncology assessment",
+      "Rehabilitation after stabilization/treatment"
+    ],
+    "amber": [
+      "Biopsy/resection strategy depends on tumor type, location, neurological status and resectability."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Any Majja/Vata framework is secondary to modern oncological diagnosis and treatment."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Neoplasm arising within the spinal cord substance, including ependymoma, astrocytoma and other lesions, capable of causing progressive myelopathy.",
+    "urgent": "Seek urgent assessment for acute/progressive neurological deficit, sphincter change, severe infection/systemic illness, major trauma, vascular compromise or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "NCCN",
+      "title": "Central Nervous System Cancers",
+      "url": "https://www.nccn.org/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V2.6-BATCH-12",
+    "proposedGoldChapterNumber": 210
+  }
+}

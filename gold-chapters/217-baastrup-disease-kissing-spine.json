@@ -1,0 +1,89 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-SPN-BAAS-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Baastrup Disease / Kissing Spine",
+  "synonyms": [],
+  "category": "Spine > Lumbar > Interspinous Degenerative",
+  "tags": [
+    "baastrup disease / kissing spine"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Degenerative approximation and remodeling of adjacent spinous processes, sometimes associated with interspinous bursitis and extension-related midline back pain.",
+  "clinicalPattern": {
+    "typical": [
+      "Midline lumbar pain",
+      "Pain worse with extension",
+      "Local interspinous tenderness"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Neurological deficit"
+    },
+    {
+      "level": "RED",
+      "item": "Fracture/infection/tumor red flags"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Lumbar extension provocation",
+      "Midline palpation",
+      "Neurological screen"
+    ]
+  },
+  "differentials": [
+    "Facet pain",
+    "Compression fracture",
+    "Discogenic pain"
+  ],
+  "investigations": {
+    "principle": "Radiographs/CT show approximation and sclerosis; MRI can demonstrate interspinous edema/bursitis.",
+    "MRI": "Use MRI when neural, soft-tissue, marrow, tumor, occult injury or condition-specific assessment requires it.",
+    "radiographs": "Use radiographs and/or CT according to the condition-specific imaging pathway."
+  },
+  "management": {
+    "green": [
+      "Flexion-tolerant rehabilitation",
+      "Posture/load modification"
+    ],
+    "amber": [
+      "Imaging findings may be incidental; intervention requires strong clinical correlation."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Kati-shoola phenotype may be documented descriptively."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Degenerative approximation and remodeling of adjacent spinous processes, sometimes associated with interspinous bursitis and extension-related midline back pain.",
+    "urgent": "Seek urgent assessment for acute/progressive neurological deficit, sphincter change, severe infection/systemic illness, major trauma, vascular compromise or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "ACR",
+      "title": "Low Back Pain",
+      "url": "https://acsearch.acr.org/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V2.6-BATCH-12",
+    "proposedGoldChapterNumber": 217
+  }
+}

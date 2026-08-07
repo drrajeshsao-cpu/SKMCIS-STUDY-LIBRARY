@@ -205,7 +205,27 @@
     "gold-chapters/204-iliopsoas-tendinopathy-internal-snapping-hip.json",
     "gold-chapters/205-trochanteric-bursitis.json",
     "gold-chapters/206-ischial-bursitis.json",
-    "gold-chapters/207-spondyloarthritis-associated-enthesitis.json"
+    "gold-chapters/207-spondyloarthritis-associated-enthesitis.json",
+    "gold-chapters/208-conus-medullaris-syndrome.json",
+    "gold-chapters/209-transverse-myelitis.json",
+    "gold-chapters/210-intramedullary-spinal-cord-tumor.json",
+    "gold-chapters/211-spinal-meningioma.json",
+    "gold-chapters/212-spinal-schwannoma.json",
+    "gold-chapters/213-sacral-spinal-chordoma.json",
+    "gold-chapters/214-spinal-epidural-lipomatosis.json",
+    "gold-chapters/215-lumbar-facet-synovial-cyst.json",
+    "gold-chapters/216-bertolotti-syndrome.json",
+    "gold-chapters/217-baastrup-disease-kissing-spine.json",
+    "gold-chapters/218-discogenic-low-back-pain.json",
+    "gold-chapters/219-annular-fissure-of-intervertebral-disc.json",
+    "gold-chapters/220-slap-lesion-of-the-shoulder.json",
+    "gold-chapters/221-rotator-cuff-tear-arthropathy.json",
+    "gold-chapters/222-distal-biceps-tendon-rupture.json",
+    "gold-chapters/223-triceps-tendon-rupture.json",
+    "gold-chapters/224-scapholunate-ligament-injury.json",
+    "gold-chapters/225-triangular-fibrocartilage-complex-injury.json",
+    "gold-chapters/226-kienb-ck-disease.json",
+    "gold-chapters/227-ulnar-impaction-syndrome.json"
   ],
-  "expectedTotalGold": 208
+  "expectedTotalGold": 228
 }

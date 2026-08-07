@@ -1,0 +1,94 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-ORT-TTR-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Triceps Tendon Rupture",
+  "synonyms": [],
+  "category": "Orthopedics > Elbow > Tendon Rupture",
+  "tags": [
+    "triceps tendon rupture"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Partial or complete disruption of the distal triceps tendon, causing weakness of elbow extension.",
+  "clinicalPattern": {
+    "typical": [
+      "Posterior elbow pain",
+      "Bruising/swelling",
+      "Weak active extension",
+      "Palpable gap may occur"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Open injury"
+    },
+    {
+      "level": "RED",
+      "item": "Associated fracture"
+    },
+    {
+      "level": "RED",
+      "item": "Neurovascular compromise"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Active elbow extension",
+      "Triceps gap",
+      "Neurovascular exam"
+    ]
+  },
+  "differentials": [
+    "Olecranon fracture",
+    "Radial nerve palsy",
+    "Severe triceps strain"
+  ],
+  "investigations": {
+    "principle": "Ultrasound/MRI confirms extent; radiographs can show avulsion fragment.",
+    "MRI": "Use MRI when neural, soft-tissue, marrow, tumor, occult injury or condition-specific assessment requires it.",
+    "radiographs": "Use radiographs and/or CT according to the condition-specific imaging pathway."
+  },
+  "management": {
+    "green": [
+      "Protect in extension",
+      "Early orthopedic referral"
+    ],
+    "amber": [
+      "Complete rupture generally requires surgical repair in suitable patients."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Kurpara/Snayu rupture phenotype may be documented."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Partial or complete disruption of the distal triceps tendon, causing weakness of elbow extension.",
+    "urgent": "Seek urgent assessment for acute/progressive neurological deficit, sphincter change, severe infection/systemic illness, major trauma, vascular compromise or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "AAOS OrthoInfo",
+      "title": "Elbow Tendon Injuries",
+      "url": "https://orthoinfo.aaos.org/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V2.6-BATCH-12",
+    "proposedGoldChapterNumber": 223
+  }
+}

@@ -1,0 +1,94 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-ORT-KIEN-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Kienböck Disease",
+  "synonyms": [],
+  "category": "Orthopedics > Wrist > Osteonecrosis",
+  "tags": [
+    "kienböck disease"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Osteonecrosis of the lunate causing progressive wrist pain, collapse and secondary carpal arthritis.",
+  "clinicalPattern": {
+    "typical": [
+      "Dorsal central wrist pain",
+      "Reduced grip strength",
+      "Stiffness",
+      "Symptoms often insidious"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Acute fracture"
+    },
+    {
+      "level": "RED",
+      "item": "Rapid destructive process"
+    },
+    {
+      "level": "RED",
+      "item": "Neurovascular deficit"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Lunate-region tenderness",
+      "Wrist ROM",
+      "Grip strength"
+    ]
+  },
+  "differentials": [
+    "Wrist sprain",
+    "Scapholunate injury",
+    "Inflammatory arthritis"
+  ],
+  "investigations": {
+    "principle": "MRI detects early lunate osteonecrosis; radiographs/CT stage collapse and carpal architecture.",
+    "MRI": "Use MRI when neural, soft-tissue, marrow, tumor, occult injury or condition-specific assessment requires it.",
+    "radiographs": "Use radiographs and/or CT according to the condition-specific imaging pathway."
+  },
+  "management": {
+    "green": [
+      "Early hand-surgery assessment",
+      "Activity protection"
+    ],
+    "amber": [
+      "Treatment ranges from immobilization to unloading/revascularization or salvage procedures depending on stage."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Asthi-dhatu wrist pathology may be documented only as a parallel framework."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Osteonecrosis of the lunate causing progressive wrist pain, collapse and secondary carpal arthritis.",
+    "urgent": "Seek urgent assessment for acute/progressive neurological deficit, sphincter change, severe infection/systemic illness, major trauma, vascular compromise or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "AAOS OrthoInfo",
+      "title": "Kienbock's Disease",
+      "url": "https://orthoinfo.aaos.org/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V2.6-BATCH-12",
+    "proposedGoldChapterNumber": 226
+  }
+}

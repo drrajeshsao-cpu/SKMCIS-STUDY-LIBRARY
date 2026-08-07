@@ -1,0 +1,94 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-ORT-UIS-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Ulnar Impaction Syndrome",
+  "synonyms": [],
+  "category": "Orthopedics > Wrist > Ulnocarpal",
+  "tags": [
+    "ulnar impaction syndrome"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Degenerative overload of the ulnocarpal joint, often associated with positive ulnar variance and TFCC/ulnar-sided carpal injury.",
+  "clinicalPattern": {
+    "typical": [
+      "Ulnar-sided wrist pain",
+      "Pain with pronation/grip/loading",
+      "Possible clicking"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Acute fracture"
+    },
+    {
+      "level": "RED",
+      "item": "Gross DRUJ instability"
+    },
+    {
+      "level": "RED",
+      "item": "Neurovascular deficit"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Ulnocarpal stress",
+      "DRUJ stability",
+      "TFCC/ECU assessment"
+    ]
+  },
+  "differentials": [
+    "TFCC tear",
+    "ECU tendinopathy",
+    "Guyon canal syndrome"
+  ],
+  "investigations": {
+    "principle": "Weight-bearing/variance-sensitive radiographs plus MRI may demonstrate ulnocarpal degeneration and TFCC changes.",
+    "MRI": "Use MRI when neural, soft-tissue, marrow, tumor, occult injury or condition-specific assessment requires it.",
+    "radiographs": "Use radiographs and/or CT according to the condition-specific imaging pathway."
+  },
+  "management": {
+    "green": [
+      "Activity modification",
+      "Wrist support",
+      "Hand therapy"
+    ],
+    "amber": [
+      "Persistent structural overload may require ulnar-shortening or arthroscopic procedures."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Manibandha-Sandhi overload phenotype may be documented descriptively."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Degenerative overload of the ulnocarpal joint, often associated with positive ulnar variance and TFCC/ulnar-sided carpal injury.",
+    "urgent": "Seek urgent assessment for acute/progressive neurological deficit, sphincter change, severe infection/systemic illness, major trauma, vascular compromise or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "BSSH",
+      "title": "Ulnar-sided wrist pain resources",
+      "url": "https://www.bssh.ac.uk/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V2.6-BATCH-12",
+    "proposedGoldChapterNumber": 227
+  }
+}
