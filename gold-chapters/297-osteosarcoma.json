@@ -1,0 +1,93 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-ONC-OSARC-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Osteosarcoma",
+  "synonyms": [],
+  "category": "Orthopedic Oncology > Primary Bone Malignancy",
+  "tags": [
+    "osteosarcoma"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "High-grade primary malignant bone-forming tumor, commonly affecting metaphyseal regions around the knee in adolescents and young adults.",
+  "clinicalPattern": {
+    "typical": [
+      "Progressive bone pain",
+      "Night pain",
+      "Swelling or mass"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Rapidly enlarging mass"
+    },
+    {
+      "level": "RED",
+      "item": "Pathological fracture"
+    },
+    {
+      "level": "RED",
+      "item": "Pulmonary metastasis symptoms"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Mass/tenderness",
+      "Neurovascular exam",
+      "Joint function"
+    ]
+  },
+  "differentials": [
+    "Ewing sarcoma",
+    "Osteomyelitis",
+    "Giant cell tumor"
+  ],
+  "investigations": {
+    "principle": "Radiographs and MRI of the entire involved bone plus staging are standard; biopsy must be sarcoma-team planned.",
+    "MRI": "Use MRI when neural, soft-tissue, marrow, tumor or occult-injury assessment requires it.",
+    "radiographs": "Use radiographs and/or CT according to the condition-specific pathway."
+  },
+  "management": {
+    "green": [
+      "Urgent sarcoma-center referral",
+      "Multidisciplinary oncologic treatment"
+    ],
+    "amber": [
+      "Do not perform unplanned biopsy or excision."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Asthi-vikara framework may be documented only in parallel."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "High-grade primary malignant bone-forming tumor, commonly affecting metaphyseal regions around the knee in adolescents and young adults.",
+    "urgent": "Seek urgent assessment for rapidly progressive weakness, respiratory/swallowing compromise, major vascular symptoms, suspected malignancy/pathological fracture, severe systemic illness or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "NCCN",
+      "title": "Bone Cancer Guidelines",
+      "url": "https://www.nccn.org/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V3.0-BATCH-16",
+    "proposedGoldChapterNumber": 297
+  }
+}

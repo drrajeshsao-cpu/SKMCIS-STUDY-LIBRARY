@@ -1,0 +1,92 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-ONC-PFX-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Pathological Fracture due to Bone Tumor",
+  "synonyms": [],
+  "category": "Orthopedic Oncology > Pathological Fracture",
+  "tags": [
+    "pathological fracture due to bone tumor"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Fracture occurring through bone weakened by primary tumor, metastasis or other neoplastic lesion rather than normal traumatic loading.",
+  "clinicalPattern": {
+    "typical": [
+      "Fracture after minimal trauma",
+      "Preceding bone pain",
+      "Known or occult tumor"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Unknown primary lesion"
+    },
+    {
+      "level": "RED",
+      "item": "Impending fracture in weight-bearing bone"
+    },
+    {
+      "level": "RED",
+      "item": "Neurological compromise"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Fracture/neurovascular exam",
+      "Mass/systemic cancer clues"
+    ]
+  },
+  "differentials": [
+    "Osteoporotic fracture",
+    "Insufficiency fracture",
+    "Infection"
+  ],
+  "investigations": {
+    "principle": "Radiographs of the entire bone plus oncologic staging are required before definitive fixation when malignancy is suspected.",
+    "MRI": "Use MRI when neural, soft-tissue, marrow, tumor or occult-injury assessment requires it.",
+    "radiographs": "Use radiographs and/or CT according to the condition-specific pathway."
+  },
+  "management": {
+    "green": [
+      "Immobilize safely",
+      "Orthopedic oncology referral"
+    ],
+    "amber": [
+      "Biopsy and fixation sequence must be planned oncologically."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Bhagna care is secondary to oncologic diagnosis and stabilization strategy."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Fracture occurring through bone weakened by primary tumor, metastasis or other neoplastic lesion rather than normal traumatic loading.",
+    "urgent": "Seek urgent assessment for rapidly progressive weakness, respiratory/swallowing compromise, major vascular symptoms, suspected malignancy/pathological fracture, severe systemic illness or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "NCCN",
+      "title": "Bone Cancer Guidelines",
+      "url": "https://www.nccn.org/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V3.0-BATCH-16",
+    "proposedGoldChapterNumber": 305
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-ONC-ENCH-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Enchondroma",
+  "synonyms": [],
+  "category": "Orthopedic Oncology > Benign Cartilage Tumor",
+  "tags": [
+    "enchondroma"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Benign intramedullary cartilage tumor, commonly found incidentally in the hand or long bones.",
+  "clinicalPattern": {
+    "typical": [
+      "Often asymptomatic",
+      "Incidental lesion",
+      "Pathological fracture in hand lesions"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Progressive pain"
+    },
+    {
+      "level": "RED",
+      "item": "Cortical destruction"
+    },
+    {
+      "level": "RED",
+      "item": "Soft-tissue mass"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Local tenderness",
+      "Function"
+    ]
+  },
+  "differentials": [
+    "Low-grade chondrosarcoma",
+    "Bone infarct"
+  ],
+  "investigations": {
+    "principle": "Radiographs are primary; MRI/CT is used for aggressive features or uncertainty.",
+    "MRI": "Use MRI when neural, soft-tissue, marrow, tumor or occult-injury assessment requires it.",
+    "radiographs": "Use radiographs and/or CT according to the condition-specific pathway."
+  },
+  "management": {
+    "green": [
+      "Observation for typical asymptomatic lesions"
+    ],
+    "amber": [
+      "Biopsy or surgery is considered for symptomatic, fracturing or suspicious lesions."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Asthi-granthi phenotype may be documented only in parallel."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Benign intramedullary cartilage tumor, commonly found incidentally in the hand or long bones.",
+    "urgent": "Seek urgent assessment for rapidly progressive weakness, respiratory/swallowing compromise, major vascular symptoms, suspected malignancy/pathological fracture, severe systemic illness or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "AAOS OrthoInfo",
+      "title": "Enchondroma",
+      "url": "https://orthoinfo.aaos.org/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V3.0-BATCH-16",
+    "proposedGoldChapterNumber": 302
+  }
+}

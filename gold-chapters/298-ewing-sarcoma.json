@@ -1,0 +1,91 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-ONC-EWS-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Ewing Sarcoma",
+  "synonyms": [],
+  "category": "Orthopedic Oncology > Primary Bone Malignancy",
+  "tags": [
+    "ewing sarcoma"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Aggressive small-round-cell malignancy of bone or soft tissue, common in children and adolescents.",
+  "clinicalPattern": {
+    "typical": [
+      "Progressive bone pain",
+      "Swelling",
+      "Fever may occur"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Rapid mass growth"
+    },
+    {
+      "level": "RED",
+      "item": "Pathological fracture"
+    },
+    {
+      "level": "RED",
+      "item": "Systemic illness"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Mass/tenderness",
+      "Neurovascular exam"
+    ]
+  },
+  "differentials": [
+    "Osteomyelitis",
+    "Osteosarcoma",
+    "Lymphoma"
+  ],
+  "investigations": {
+    "principle": "Radiographs, MRI and systemic staging are required; biopsy should be sarcoma-team planned.",
+    "MRI": "Use MRI when neural, soft-tissue, marrow, tumor or occult-injury assessment requires it.",
+    "radiographs": "Use radiographs and/or CT according to the condition-specific pathway."
+  },
+  "management": {
+    "green": [
+      "Urgent pediatric/orthopedic oncology referral"
+    ],
+    "amber": [
+      "Do not assume infection if the course or imaging is atypical."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Asthi/Majja framework may be documented only in parallel."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Aggressive small-round-cell malignancy of bone or soft tissue, common in children and adolescents.",
+    "urgent": "Seek urgent assessment for rapidly progressive weakness, respiratory/swallowing compromise, major vascular symptoms, suspected malignancy/pathological fracture, severe systemic illness or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "NCCN",
+      "title": "Bone Cancer Guidelines",
+      "url": "https://www.nccn.org/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V3.0-BATCH-16",
+    "proposedGoldChapterNumber": 298
+  }
+}

@@ -285,7 +285,27 @@
     "gold-chapters/284-mallet-toe.json",
     "gold-chapters/285-ankle-osteoarthritis.json",
     "gold-chapters/286-subtalar-joint-osteoarthritis.json",
-    "gold-chapters/287-sinus-tarsi-syndrome.json"
+    "gold-chapters/287-sinus-tarsi-syndrome.json",
+    "gold-chapters/288-systemic-sclerosis.json",
+    "gold-chapters/289-sj-gren-syndrome.json",
+    "gold-chapters/290-beh-et-disease.json",
+    "gold-chapters/291-adult-onset-still-disease.json",
+    "gold-chapters/292-inclusion-body-myositis.json",
+    "gold-chapters/293-charcot-marie-tooth-disease.json",
+    "gold-chapters/294-spinal-muscular-atrophy.json",
+    "gold-chapters/295-hereditary-spastic-paraplegia.json",
+    "gold-chapters/296-cerebral-palsy-musculoskeletal-complications.json",
+    "gold-chapters/297-osteosarcoma.json",
+    "gold-chapters/298-ewing-sarcoma.json",
+    "gold-chapters/299-chondrosarcoma.json",
+    "gold-chapters/300-giant-cell-tumor-of-bone.json",
+    "gold-chapters/301-osteochondroma.json",
+    "gold-chapters/302-enchondroma.json",
+    "gold-chapters/303-unicameral-bone-cyst.json",
+    "gold-chapters/304-aneurysmal-bone-cyst.json",
+    "gold-chapters/305-pathological-fracture-due-to-bone-tumor.json",
+    "gold-chapters/306-heterotopic-ossification.json",
+    "gold-chapters/307-fibrous-dysplasia.json"
   ],
-  "expectedTotalGold": 288
+  "expectedTotalGold": 308
 }

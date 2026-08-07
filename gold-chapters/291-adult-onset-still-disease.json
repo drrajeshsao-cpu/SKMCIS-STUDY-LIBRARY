@@ -1,0 +1,95 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-RHE-AOSD-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Adult-Onset Still Disease",
+  "synonyms": [],
+  "category": "Rheumatology > Autoinflammatory",
+  "tags": [
+    "adult-onset still disease"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Systemic inflammatory disease with spiking fever, inflammatory arthritis and evanescent rash after excluding infection and malignancy.",
+  "clinicalPattern": {
+    "typical": [
+      "Spiking fever",
+      "Inflammatory arthritis",
+      "Salmon rash",
+      "High ferritin may occur"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Macrophage activation syndrome"
+    },
+    {
+      "level": "RED",
+      "item": "Severe hepatitis"
+    },
+    {
+      "level": "RED",
+      "item": "Sepsis differential"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Joint exam",
+      "Rash",
+      "Lymph nodes",
+      "Liver/spleen"
+    ]
+  },
+  "differentials": [
+    "Sepsis",
+    "Lymphoma",
+    "SLE"
+  ],
+  "investigations": {
+    "principle": "Diagnosis is clinical with exclusion of infection/malignancy; inflammatory markers and ferritin support assessment.",
+    "MRI": "Use MRI when neural, soft-tissue, marrow, tumor or occult-injury assessment requires it.",
+    "radiographs": "Use radiographs and/or CT according to the condition-specific pathway."
+  },
+  "management": {
+    "green": [
+      "Urgent rheumatology assessment",
+      "Rehabilitation after inflammation control"
+    ],
+    "amber": [
+      "Immunomodulators/biologics require specialist care."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Jwara/Shotha phenotype may be documented only after modern exclusion of infection/malignancy."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Systemic inflammatory disease with spiking fever, inflammatory arthritis and evanescent rash after excluding infection and malignancy.",
+    "urgent": "Seek urgent assessment for rapidly progressive weakness, respiratory/swallowing compromise, major vascular symptoms, suspected malignancy/pathological fracture, severe systemic illness or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "EULAR/PReS",
+      "title": "Still Disease Recommendations",
+      "url": "https://ard.bmj.com/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V3.0-BATCH-16",
+    "proposedGoldChapterNumber": 291
+  }
+}

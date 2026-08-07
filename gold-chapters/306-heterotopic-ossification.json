@@ -1,0 +1,93 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-ORT-HO-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Heterotopic Ossification",
+  "synonyms": [],
+  "category": "Orthopedics > Post-Traumatic/Neurological",
+  "tags": [
+    "heterotopic ossification"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Formation of mature lamellar bone in soft tissues, commonly after major trauma, hip surgery, spinal cord injury or traumatic brain injury.",
+  "clinicalPattern": {
+    "typical": [
+      "Progressive painful stiffness",
+      "Reduced ROM",
+      "Warm swelling early"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "DVT/infection differential"
+    },
+    {
+      "level": "RED",
+      "item": "Neurovascular compression"
+    },
+    {
+      "level": "RED",
+      "item": "Severe ankylosis"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Joint ROM",
+      "Soft-tissue mass",
+      "Neurovascular exam"
+    ]
+  },
+  "differentials": [
+    "DVT",
+    "Cellulitis",
+    "Myositis ossificans"
+  ],
+  "investigations": {
+    "principle": "Radiographs and CT show mature ossification; earlier imaging is selected according to context.",
+    "MRI": "Use MRI when neural, soft-tissue, marrow, tumor or occult-injury assessment requires it.",
+    "radiographs": "Use radiographs and/or CT according to the condition-specific pathway."
+  },
+  "management": {
+    "green": [
+      "Maintain safe ROM",
+      "Pressure/function management"
+    ],
+    "amber": [
+      "Excision is planned selectively when mature and functionally limiting."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Mamsa/Asthi ectopic ossification phenotype may be documented only descriptively."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Formation of mature lamellar bone in soft tissues, commonly after major trauma, hip surgery, spinal cord injury or traumatic brain injury.",
+    "urgent": "Seek urgent assessment for rapidly progressive weakness, respiratory/swallowing compromise, major vascular symptoms, suspected malignancy/pathological fracture, severe systemic illness or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "AAOS",
+      "title": "Heterotopic Ossification resources",
+      "url": "https://orthoinfo.aaos.org/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V3.0-BATCH-16",
+    "proposedGoldChapterNumber": 306
+  }
+}

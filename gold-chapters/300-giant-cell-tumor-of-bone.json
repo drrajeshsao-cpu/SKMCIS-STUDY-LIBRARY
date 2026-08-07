@@ -1,0 +1,87 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-ONC-GCTB-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Giant Cell Tumor of Bone",
+  "synonyms": [],
+  "category": "Orthopedic Oncology > Intermediate Bone Tumor",
+  "tags": [
+    "giant cell tumor of bone"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Locally aggressive osteolytic bone tumor usually arising in the epiphysis of skeletally mature young adults.",
+  "clinicalPattern": {
+    "typical": [
+      "Joint-adjacent bone pain",
+      "Swelling",
+      "Reduced ROM"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Pathological fracture"
+    },
+    {
+      "level": "RED",
+      "item": "Rapid expansion"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Local swelling",
+      "Joint function",
+      "Neurovascular exam"
+    ]
+  },
+  "differentials": [
+    "Aneurysmal bone cyst",
+    "Chondroblastoma"
+  ],
+  "investigations": {
+    "principle": "Radiographs and MRI define lesion; biopsy confirms diagnosis before definitive treatment.",
+    "MRI": "Use MRI when neural, soft-tissue, marrow, tumor or occult-injury assessment requires it.",
+    "radiographs": "Use radiographs and/or CT according to the condition-specific pathway."
+  },
+  "management": {
+    "green": [
+      "Orthopedic oncology referral"
+    ],
+    "amber": [
+      "Curettage, resection and systemic options are selected case-by-case."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Asthi-granthi phenotype may be documented only in parallel."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Locally aggressive osteolytic bone tumor usually arising in the epiphysis of skeletally mature young adults.",
+    "urgent": "Seek urgent assessment for rapidly progressive weakness, respiratory/swallowing compromise, major vascular symptoms, suspected malignancy/pathological fracture, severe systemic illness or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "NCCN",
+      "title": "Bone Cancer Guidelines",
+      "url": "https://www.nccn.org/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V3.0-BATCH-16",
+    "proposedGoldChapterNumber": 300
+  }
+}

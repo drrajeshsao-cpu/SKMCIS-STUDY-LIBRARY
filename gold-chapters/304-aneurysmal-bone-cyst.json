@@ -1,0 +1,90 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-ONC-ABC-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Aneurysmal Bone Cyst",
+  "synonyms": [],
+  "category": "Orthopedic Oncology > Benign/Intermediate Bone Lesion",
+  "tags": [
+    "aneurysmal bone cyst"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Expansile blood-filled bone lesion, usually in children or young adults, capable of rapid growth and mimicking malignancy.",
+  "clinicalPattern": {
+    "typical": [
+      "Pain",
+      "Swelling",
+      "Expansile lesion"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Rapid enlargement"
+    },
+    {
+      "level": "RED",
+      "item": "Neurological compression"
+    },
+    {
+      "level": "RED",
+      "item": "Pathological fracture"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Mass/tenderness",
+      "Neurovascular exam"
+    ]
+  },
+  "differentials": [
+    "Giant cell tumor",
+    "Telangiectatic osteosarcoma"
+  ],
+  "investigations": {
+    "principle": "MRI often shows fluid-fluid levels, but biopsy may be required because malignant mimics exist.",
+    "MRI": "Use MRI when neural, soft-tissue, marrow, tumor or occult-injury assessment requires it.",
+    "radiographs": "Use radiographs and/or CT according to the condition-specific pathway."
+  },
+  "management": {
+    "green": [
+      "Orthopedic oncology referral"
+    ],
+    "amber": [
+      "Do not assume MRI fluid levels are diagnostic without excluding malignant mimics."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Asthi-granthi phenotype may be documented only in parallel."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Expansile blood-filled bone lesion, usually in children or young adults, capable of rapid growth and mimicking malignancy.",
+    "urgent": "Seek urgent assessment for rapidly progressive weakness, respiratory/swallowing compromise, major vascular symptoms, suspected malignancy/pathological fracture, severe systemic illness or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "NCCN",
+      "title": "Bone Tumor resources",
+      "url": "https://www.nccn.org/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V3.0-BATCH-16",
+    "proposedGoldChapterNumber": 304
+  }
+}

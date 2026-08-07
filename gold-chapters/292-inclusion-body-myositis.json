@@ -1,0 +1,95 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-NEU-IBM-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Inclusion Body Myositis",
+  "synonyms": [],
+  "category": "Neurology > Neuromuscular > Myopathy",
+  "tags": [
+    "inclusion body myositis"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Progressive inflammatory-degenerative myopathy, typically in older adults, with finger-flexor and quadriceps weakness.",
+  "clinicalPattern": {
+    "typical": [
+      "Finger flexor weakness",
+      "Quadriceps weakness",
+      "Falls",
+      "Dysphagia may occur"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Severe dysphagia"
+    },
+    {
+      "level": "RED",
+      "item": "Aspiration"
+    },
+    {
+      "level": "RED",
+      "item": "Frequent injurious falls"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Finger-flexor strength",
+      "Knee extension",
+      "Gait",
+      "Swallowing"
+    ]
+  },
+  "differentials": [
+    "Polymyositis",
+    "Motor neuron disease"
+  ],
+  "investigations": {
+    "principle": "CK, EMG, muscle MRI and biopsy are used to confirm diagnosis and exclude mimics.",
+    "MRI": "Use MRI when neural, soft-tissue, marrow, tumor or occult-injury assessment requires it.",
+    "radiographs": "Use radiographs and/or CT according to the condition-specific pathway."
+  },
+  "management": {
+    "green": [
+      "Neuromuscular care",
+      "Falls prevention",
+      "Function rehabilitation"
+    ],
+    "amber": [
+      "Conventional immunosuppression is often ineffective."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Mamsa/Bala-kshaya phenotype may be documented only in parallel."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Progressive inflammatory-degenerative myopathy, typically in older adults, with finger-flexor and quadriceps weakness.",
+    "urgent": "Seek urgent assessment for rapidly progressive weakness, respiratory/swallowing compromise, major vascular symptoms, suspected malignancy/pathological fracture, severe systemic illness or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "AANEM",
+      "title": "Inflammatory Myopathy resources",
+      "url": "https://www.aanem.org/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V3.0-BATCH-16",
+    "proposedGoldChapterNumber": 292
+  }
+}

@@ -1,0 +1,93 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-NEU-SMA-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Spinal Muscular Atrophy",
+  "synonyms": [],
+  "category": "Neurology > Genetic Motor Neuron",
+  "tags": [
+    "spinal muscular atrophy"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Genetic lower motor-neuron disorder, most commonly SMN1-related, producing progressive proximal weakness with variable respiratory and bulbar involvement.",
+  "clinicalPattern": {
+    "typical": [
+      "Symmetric proximal weakness",
+      "Reduced reflexes",
+      "Muscle atrophy"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Respiratory compromise"
+    },
+    {
+      "level": "RED",
+      "item": "Bulbar dysfunction"
+    },
+    {
+      "level": "RED",
+      "item": "Rapid loss of function"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Motor strength",
+      "Reflexes",
+      "Respiratory/bulbar assessment"
+    ]
+  },
+  "differentials": [
+    "Muscular dystrophy",
+    "Congenital myopathy"
+  ],
+  "investigations": {
+    "principle": "Genetic testing confirms most cases; respiratory and nutritional assessments guide management.",
+    "MRI": "Use MRI when neural, soft-tissue, marrow, tumor or occult-injury assessment requires it.",
+    "radiographs": "Use radiographs and/or CT according to the condition-specific pathway."
+  },
+  "management": {
+    "green": [
+      "Neuromuscular multidisciplinary care",
+      "Respiratory support",
+      "Physiotherapy"
+    ],
+    "amber": [
+      "Disease-modifying genetic therapies are specialist-directed and time-sensitive."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Bala/Mamsa-kshaya phenotype may be documented only in parallel."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Genetic lower motor-neuron disorder, most commonly SMN1-related, producing progressive proximal weakness with variable respiratory and bulbar involvement.",
+    "urgent": "Seek urgent assessment for rapidly progressive weakness, respiratory/swallowing compromise, major vascular symptoms, suspected malignancy/pathological fracture, severe systemic illness or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "GeneReviews",
+      "title": "Spinal Muscular Atrophy",
+      "url": "https://www.ncbi.nlm.nih.gov/books/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V3.0-BATCH-16",
+    "proposedGoldChapterNumber": 294
+  }
+}

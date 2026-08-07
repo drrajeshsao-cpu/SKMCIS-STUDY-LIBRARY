@@ -1,0 +1,94 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-RHE-SSC-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Systemic Sclerosis",
+  "synonyms": [],
+  "category": "Rheumatology > Systemic Autoimmune",
+  "tags": [
+    "systemic sclerosis"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Systemic autoimmune connective-tissue disease characterized by vasculopathy, immune dysregulation and fibrosis affecting skin and internal organs.",
+  "clinicalPattern": {
+    "typical": [
+      "Raynaud phenomenon",
+      "Skin thickening",
+      "Digital ulcers",
+      "Joint stiffness"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Scleroderma renal crisis"
+    },
+    {
+      "level": "RED",
+      "item": "Progressive dyspnea"
+    },
+    {
+      "level": "RED",
+      "item": "Severe digital ischemia"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Skin pattern",
+      "Digital vascular exam",
+      "Joint ROM",
+      "Cardiopulmonary assessment"
+    ]
+  },
+  "differentials": [
+    "Mixed connective-tissue disease",
+    "SLE"
+  ],
+  "investigations": {
+    "principle": "Autoantibodies and organ-directed testing guide diagnosis and severity assessment.",
+    "MRI": "Use MRI when neural, soft-tissue, marrow, tumor or occult-injury assessment requires it.",
+    "radiographs": "Use radiographs and/or CT according to the condition-specific pathway."
+  },
+  "management": {
+    "green": [
+      "Rheumatology-led surveillance",
+      "ROM/hand rehabilitation"
+    ],
+    "amber": [
+      "Organ-specific therapy requires specialist monitoring."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Twak/Rakta/Snayu fibrotic phenotype may be documented only in parallel."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Systemic autoimmune connective-tissue disease characterized by vasculopathy, immune dysregulation and fibrosis affecting skin and internal organs.",
+    "urgent": "Seek urgent assessment for rapidly progressive weakness, respiratory/swallowing compromise, major vascular symptoms, suspected malignancy/pathological fracture, severe systemic illness or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "EULAR",
+      "title": "Systemic Sclerosis Recommendations",
+      "url": "https://ard.bmj.com/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V3.0-BATCH-16",
+    "proposedGoldChapterNumber": 288
+  }
+}

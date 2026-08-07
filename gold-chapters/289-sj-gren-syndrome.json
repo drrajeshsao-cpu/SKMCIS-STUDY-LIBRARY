@@ -1,0 +1,94 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-RHE-SJS-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Sjögren Syndrome",
+  "synonyms": [],
+  "category": "Rheumatology > Systemic Autoimmune",
+  "tags": [
+    "sjögren syndrome"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Systemic autoimmune disease primarily affecting exocrine glands, causing sicca symptoms with possible musculoskeletal, neurological and pulmonary involvement.",
+  "clinicalPattern": {
+    "typical": [
+      "Dry eyes",
+      "Dry mouth",
+      "Fatigue",
+      "Arthralgia"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Severe neuropathy"
+    },
+    {
+      "level": "RED",
+      "item": "Lymphoma warning features"
+    },
+    {
+      "level": "RED",
+      "item": "Interstitial lung disease"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Oral/ocular dryness",
+      "Joint exam",
+      "Neurological/systemic screen"
+    ]
+  },
+  "differentials": [
+    "Medication-induced sicca",
+    "SLE",
+    "RA"
+  ],
+  "investigations": {
+    "principle": "Autoantibodies and objective ocular/salivary testing are used according to clinical need.",
+    "MRI": "Use MRI when neural, soft-tissue, marrow, tumor or occult-injury assessment requires it.",
+    "radiographs": "Use radiographs and/or CT according to the condition-specific pathway."
+  },
+  "management": {
+    "green": [
+      "Rheumatology and ocular/dental care",
+      "Exercise"
+    ],
+    "amber": [
+      "Systemic immunomodulation depends on organ involvement."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Rasa/Rakta dryness phenotype may be documented only in parallel."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Systemic autoimmune disease primarily affecting exocrine glands, causing sicca symptoms with possible musculoskeletal, neurological and pulmonary involvement.",
+    "urgent": "Seek urgent assessment for rapidly progressive weakness, respiratory/swallowing compromise, major vascular symptoms, suspected malignancy/pathological fracture, severe systemic illness or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "EULAR",
+      "title": "Sjögren Syndrome Recommendations",
+      "url": "https://ard.bmj.com/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V3.0-BATCH-16",
+    "proposedGoldChapterNumber": 289
+  }
+}

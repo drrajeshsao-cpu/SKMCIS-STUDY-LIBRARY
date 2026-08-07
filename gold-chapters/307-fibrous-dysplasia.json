@@ -1,0 +1,98 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-ONC-FD-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Fibrous Dysplasia",
+  "synonyms": [],
+  "category": "Orthopedic Oncology > Fibro-Osseous Bone Lesion",
+  "tags": [
+    "fibrous dysplasia"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Benign developmental fibro-osseous bone disorder caused by post-zygotic GNAS mutation, affecting one or multiple bones and sometimes associated with endocrine abnormalities.",
+  "clinicalPattern": {
+    "typical": [
+      "Bone pain",
+      "Deformity",
+      "Pathological fracture",
+      "Incidental ground-glass lesion"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Rapid new pain/swelling"
+    },
+    {
+      "level": "RED",
+      "item": "Pathological fracture"
+    },
+    {
+      "level": "RED",
+      "item": "Neurological compression"
+    },
+    {
+      "level": "RED",
+      "item": "Rare malignant transformation concern"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Bone deformity/tenderness",
+      "Limb alignment",
+      "Neurological exam when cranio-spinal involvement exists"
+    ]
+  },
+  "differentials": [
+    "Osteofibrous dysplasia",
+    "Paget disease",
+    "Bone tumor"
+  ],
+  "investigations": {
+    "principle": "Radiographs/CT show characteristic ground-glass matrix; MRI is used selectively; endocrine evaluation is needed when syndromic disease is suspected.",
+    "MRI": "Use MRI when neural, soft-tissue, marrow, tumor or occult-injury assessment requires it.",
+    "radiographs": "Use radiographs and/or CT according to the condition-specific pathway."
+  },
+  "management": {
+    "green": [
+      "Fracture/deformity management",
+      "Bone-health and endocrine assessment"
+    ],
+    "amber": [
+      "Surgery is individualized for fracture, deformity or functional compromise; biopsy is reserved for atypical lesions."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Asthi-vikriti phenotype may be documented only in parallel."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Benign developmental fibro-osseous bone disorder caused by post-zygotic GNAS mutation, affecting one or multiple bones and sometimes associated with endocrine abnormalities.",
+    "urgent": "Seek urgent assessment for rapidly progressive weakness, respiratory/swallowing compromise, major vascular symptoms, suspected malignancy/pathological fracture, severe systemic illness or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "Orphanet/GeneReviews",
+      "title": "Fibrous Dysplasia / McCune-Albright resources",
+      "url": "https://www.ncbi.nlm.nih.gov/books/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V3.0-BATCH-16",
+    "proposedGoldChapterNumber": 307
+  }
+}

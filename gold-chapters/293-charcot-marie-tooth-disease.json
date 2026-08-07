@@ -1,0 +1,92 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-NEU-CMT-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Charcot-Marie-Tooth Disease",
+  "synonyms": [],
+  "category": "Neurology > Hereditary Peripheral Neuropathy",
+  "tags": [
+    "charcot-marie-tooth disease"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Inherited motor-sensory peripheral neuropathy causing distal weakness, sensory loss, foot deformity and gait impairment.",
+  "clinicalPattern": {
+    "typical": [
+      "Distal leg weakness",
+      "Pes cavus",
+      "Foot drop",
+      "Reduced reflexes"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Rapid atypical progression"
+    },
+    {
+      "level": "RED",
+      "item": "Respiratory involvement"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Distal power",
+      "Reflexes",
+      "Sensory exam",
+      "Foot deformity",
+      "Gait"
+    ]
+  },
+  "differentials": [
+    "CIDP",
+    "Hereditary spastic paraplegia"
+  ],
+  "investigations": {
+    "principle": "Electrodiagnostics and genetic testing classify subtype.",
+    "MRI": "Use MRI when neural, soft-tissue, marrow, tumor or occult-injury assessment requires it.",
+    "radiographs": "Use radiographs and/or CT according to the condition-specific pathway."
+  },
+  "management": {
+    "green": [
+      "AFO/orthoses",
+      "Foot/balance rehabilitation",
+      "Genetic counseling"
+    ],
+    "amber": [
+      "Progressive deformity may require orthopedic reconstruction."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Vata-neuropathy phenotype may be documented only in parallel."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Inherited motor-sensory peripheral neuropathy causing distal weakness, sensory loss, foot deformity and gait impairment.",
+    "urgent": "Seek urgent assessment for rapidly progressive weakness, respiratory/swallowing compromise, major vascular symptoms, suspected malignancy/pathological fracture, severe systemic illness or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "GeneReviews",
+      "title": "Charcot-Marie-Tooth Overview",
+      "url": "https://www.ncbi.nlm.nih.gov/books/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V3.0-BATCH-16",
+    "proposedGoldChapterNumber": 293
+  }
+}

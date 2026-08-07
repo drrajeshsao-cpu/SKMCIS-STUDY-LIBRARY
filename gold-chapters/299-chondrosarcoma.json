@@ -1,0 +1,93 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-ONC-CHSA-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Chondrosarcoma",
+  "synonyms": [],
+  "category": "Orthopedic Oncology > Primary Bone Malignancy",
+  "tags": [
+    "chondrosarcoma"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Malignant cartilage-producing bone tumor, more common in adults and frequently involving pelvis, proximal femur, shoulder girdle or ribs.",
+  "clinicalPattern": {
+    "typical": [
+      "Deep progressive bone pain",
+      "Mass/swelling",
+      "Rest/night pain"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Rapid growth"
+    },
+    {
+      "level": "RED",
+      "item": "Pathological fracture"
+    },
+    {
+      "level": "RED",
+      "item": "Neurological/visceral compression"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Mass",
+      "Local tenderness",
+      "Neurovascular status"
+    ]
+  },
+  "differentials": [
+    "Enchondroma",
+    "Osteosarcoma",
+    "Metastasis"
+  ],
+  "investigations": {
+    "principle": "Radiographs/CT assess mineralized matrix; MRI defines local extent; biopsy requires sarcoma planning.",
+    "MRI": "Use MRI when neural, soft-tissue, marrow, tumor or occult-injury assessment requires it.",
+    "radiographs": "Use radiographs and/or CT according to the condition-specific pathway."
+  },
+  "management": {
+    "green": [
+      "Sarcoma-center referral",
+      "Surgical oncologic planning"
+    ],
+    "amber": [
+      "Treatment is subtype-specific and surgery is central for many conventional lesions."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Asthi-vikara phenotype may be documented only in parallel."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Malignant cartilage-producing bone tumor, more common in adults and frequently involving pelvis, proximal femur, shoulder girdle or ribs.",
+    "urgent": "Seek urgent assessment for rapidly progressive weakness, respiratory/swallowing compromise, major vascular symptoms, suspected malignancy/pathological fracture, severe systemic illness or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "NCCN",
+      "title": "Bone Cancer Guidelines",
+      "url": "https://www.nccn.org/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V3.0-BATCH-16",
+    "proposedGoldChapterNumber": 299
+  }
+}

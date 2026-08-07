@@ -1,0 +1,94 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-RHE-BEH-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Behçet Disease",
+  "synonyms": [],
+  "category": "Rheumatology > Vasculitis/Autoinflammatory",
+  "tags": [
+    "behçet disease"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Multisystem inflammatory disorder characterized by recurrent oral ulcers with variable genital, ocular, vascular, neurological and joint manifestations.",
+  "clinicalPattern": {
+    "typical": [
+      "Recurrent oral ulcers",
+      "Genital ulcers",
+      "Uveitis",
+      "Arthritis"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Acute visual symptoms"
+    },
+    {
+      "level": "RED",
+      "item": "Major thrombosis/aneurysm"
+    },
+    {
+      "level": "RED",
+      "item": "Neurological involvement"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Oral/genital lesions",
+      "Eye",
+      "Joint",
+      "Vascular/neurological screen"
+    ]
+  },
+  "differentials": [
+    "Reactive arthritis",
+    "SLE",
+    "IBD"
+  ],
+  "investigations": {
+    "principle": "Diagnosis is clinical with organ-directed testing and exclusion of mimics.",
+    "MRI": "Use MRI when neural, soft-tissue, marrow, tumor or occult-injury assessment requires it.",
+    "radiographs": "Use radiographs and/or CT according to the condition-specific pathway."
+  },
+  "management": {
+    "green": [
+      "Rheumatology-led multidisciplinary care"
+    ],
+    "amber": [
+      "Ocular, vascular or neurological disease needs urgent specialist treatment."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Mukha/Rakta/Shotha phenotype may be documented only in parallel."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Multisystem inflammatory disorder characterized by recurrent oral ulcers with variable genital, ocular, vascular, neurological and joint manifestations.",
+    "urgent": "Seek urgent assessment for rapidly progressive weakness, respiratory/swallowing compromise, major vascular symptoms, suspected malignancy/pathological fracture, severe systemic illness or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "EULAR",
+      "title": "Behçet Syndrome Recommendations",
+      "url": "https://ard.bmj.com/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V3.0-BATCH-16",
+    "proposedGoldChapterNumber": 290
+  }
+}

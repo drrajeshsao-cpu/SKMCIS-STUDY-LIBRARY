@@ -1,0 +1,85 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-ONC-OC-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Osteochondroma",
+  "synonyms": [],
+  "category": "Orthopedic Oncology > Benign Bone Tumor",
+  "tags": [
+    "osteochondroma"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Cartilage-capped bony exostosis arising near a growth plate, usually benign and often discovered in adolescence.",
+  "clinicalPattern": {
+    "typical": [
+      "Painless bony lump",
+      "Mechanical irritation"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "New pain/growth after maturity"
+    },
+    {
+      "level": "RED",
+      "item": "Neurovascular symptoms"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Mass size/location",
+      "Joint ROM",
+      "Neurovascular exam"
+    ]
+  },
+  "differentials": [
+    "Chondrosarcoma"
+  ],
+  "investigations": {
+    "principle": "Radiographs usually diagnose; MRI evaluates cartilage cap and neurovascular compression.",
+    "MRI": "Use MRI when neural, soft-tissue, marrow, tumor or occult-injury assessment requires it.",
+    "radiographs": "Use radiographs and/or CT according to the condition-specific pathway."
+  },
+  "management": {
+    "green": [
+      "Observation for asymptomatic stable lesions"
+    ],
+    "amber": [
+      "Excision is considered for pain, function compromise or malignant concern."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Asthi-vriddhi phenotype may be documented descriptively."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Cartilage-capped bony exostosis arising near a growth plate, usually benign and often discovered in adolescence.",
+    "urgent": "Seek urgent assessment for rapidly progressive weakness, respiratory/swallowing compromise, major vascular symptoms, suspected malignancy/pathological fracture, severe systemic illness or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "AAOS OrthoInfo",
+      "title": "Osteochondroma",
+      "url": "https://orthoinfo.aaos.org/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V3.0-BATCH-16",
+    "proposedGoldChapterNumber": 301
+  }
+}

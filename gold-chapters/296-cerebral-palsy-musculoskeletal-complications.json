@@ -1,0 +1,97 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-PED-CPMSK-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Cerebral Palsy - Musculoskeletal Complications",
+  "synonyms": [],
+  "category": "Pediatric Neurology/Orthopedics > Cerebral Palsy",
+  "tags": [
+    "cerebral palsy - musculoskeletal complications"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Musculoskeletal consequences of cerebral palsy including spasticity, contractures, hip displacement, scoliosis and gait dysfunction.",
+  "clinicalPattern": {
+    "typical": [
+      "Spasticity",
+      "Contractures",
+      "Hip migration",
+      "Gait abnormality",
+      "Scoliosis"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Painful hip dislocation"
+    },
+    {
+      "level": "RED",
+      "item": "Rapid loss of function"
+    },
+    {
+      "level": "RED",
+      "item": "Pressure sores"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Function",
+      "Hip ROM",
+      "Contractures",
+      "Spine/pelvis",
+      "Gait"
+    ]
+  },
+  "differentials": [
+    "Hereditary spastic paraplegia",
+    "Other neuromuscular scoliosis"
+  ],
+  "investigations": {
+    "principle": "Hip surveillance radiographs and condition-specific imaging are used according to age/function.",
+    "MRI": "Use MRI when neural, soft-tissue, marrow, tumor or occult-injury assessment requires it.",
+    "radiographs": "Use radiographs and/or CT according to the condition-specific pathway."
+  },
+  "management": {
+    "green": [
+      "Multidisciplinary tone/therapy care",
+      "Hip surveillance",
+      "Orthotics"
+    ],
+    "amber": [
+      "Surgery is considered for progressive hip displacement, contractures or deformity affecting function/care."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Vata/Bala-related phenotype may be documented only in parallel."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Musculoskeletal consequences of cerebral palsy including spasticity, contractures, hip displacement, scoliosis and gait dysfunction.",
+    "urgent": "Seek urgent assessment for rapidly progressive weakness, respiratory/swallowing compromise, major vascular symptoms, suspected malignancy/pathological fracture, severe systemic illness or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "AACPDM",
+      "title": "Cerebral Palsy Care Pathways",
+      "url": "https://www.aacpdm.org/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V3.0-BATCH-16",
+    "proposedGoldChapterNumber": 296
+  }
+}
