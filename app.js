@@ -6,7 +6,16 @@ function saveState(s){localStorage.setItem(stateKey,JSON.stringify(s))}
 function esc(s=''){return String(s).replace(/[&<>"']/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[m]))}
 
 const CORE_FILES=["data/sciatica.json", "data/cervical-radiculopathy.json", "data/mechanical-low-back-pain.json", "data/lumbar-disc-herniation-radiculopathy.json", "data/lumbar-spinal-stenosis-neurogenic-claudication.json"];
-const EXPANSION_FILES=["gold-chapters/05-cervical-spondylosis.json", "gold-chapters/06-degenerative-cervical-myelopathy.json", "gold-chapters/07-lumbar-spondylolysis.json", "gold-chapters/08-adult-lumbar-spondylolisthesis.json", "gold-chapters/09-vertebral-compression-fracture.json", "gold-chapters/10-scoliosis.json", "gold-chapters/11-native-vertebral-osteomyelitis-discitis.json", "gold-chapters/12-spinal-metastases-metastatic-spinal-cord-compression.json", "13-lumbar-spondylosis-degenerative-disc-facet-disease.json", "14-lumbar-facet-mediated-pain.json", "15-sacroiliac-joint-pain-dysfunction.json", "16-thoracic-myelopathy-thoracic-spinal-cord-compression.json", "17-osteoporosis.json", "18-adult-degenerative-kyphosis-hyperkyphosis.json", "19-ankylosing-spondylitis-radiographic-axial-spondyloarthritis.json", "20-knee-osteoarthritis.json", "21-hip-osteoarthritis.json", "22-rheumatoid-arthritis.json", "23-gout.json", "24-adhesive-capsulitis-frozen-shoulder.json", "25-rotator-cuff-tendinopathy-rotator-cuff-related-shoulder-pain.json", "26-carpal-tunnel-syndrome.json", "27-peripheral-polyneuropathy.json"];
+let EXPANSION_FILES=[];
+async function loadGoldIndex(){
+  try{
+    const idx=await fetchJSON("gold-chapters/gold-index.json");
+    EXPANSION_FILES=Array.isArray(idx.expansionFiles)?idx.expansionFiles:[];
+  }catch(e){
+    console.warn("Gold index load failed",e);
+    EXPANSION_FILES=[];
+  }
+}
 
 function normalizeV11(d){
   const red=(d.redFlags||[]).map(x=>typeof x==='string'?x:x.item).filter(Boolean);
@@ -85,6 +94,7 @@ async function fetchJSON(path){
 
 async function load(){
   INDEX=await fetch('./data/master-index.json',{cache:'no-store'}).then(r=>r.json());
+  await loadGoldIndex();
 
   for(const f of CORE_FILES){
     try{
