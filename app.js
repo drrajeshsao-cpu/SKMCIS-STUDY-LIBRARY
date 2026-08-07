@@ -59,17 +59,20 @@ function renderGold(){const D=CHAPTERS[activeGold];if(!D)return;$('goldTitle').t
 function renderStudyUI(){const p=progressOf(activeGold),gold=$('gold'),badge=$('currentStudyBadge');if(!gold||!badge)return;gold.classList.toggle('study-reading',p==='reading');gold.classList.toggle('study-completed',p==='completed');badge.className='studyBadge '+p;badge.textContent=p==='completed'?'✓ COMPLETED':p==='reading'?'◐ READING':'○ UNREAD'}
 function openGold(id,mark=true){if(!CHAPTERS[id])return;activeGold=id;$('goldSelect').value=id;if(mark)rememberChapter(id);renderGold();renderPatient();renderSources();renderGoldSearch();renderReaderProgress();go('gold');let s=state();if(s.lastSection){setTimeout(()=>document.getElementById('sec-'+s.lastSection)?.scrollIntoView({behavior:'smooth',block:'start'}),100)}}
 $('favGold').onclick=()=>{const D=CHAPTERS[activeGold];let s=state();s.favorites=s.favorites||[];s.favorites=s.favorites.includes(D.id)?s.favorites.filter(x=>x!==D.id):[...s.favorites,D.id];saveState(s);renderGold();renderGoldSearch();renderReaderProgress()}
-$('markReading').onclick=()=>setProgress(activeGold,'reading');
-$('markCompleted').onclick=()=>setProgress(activeGold,'completed');
-$('markUnread').onclick=()=>setProgress(activeGold,'unread');
+if($('markReading')) $('markReading').onclick=()=>setProgress(activeGold,'reading');
+if($('markCompleted')) $('markCompleted').onclick=()=>setProgress(activeGold,'completed');
+if($('markUnread')) $('markUnread').onclick=()=>setProgress(activeGold,'unread');
 $('printGold').onclick=()=>window.print();
-$('quicknav').addEventListener('click',e=>{let a=e.target.closest('[data-section]');if(!a)return;let s=state();s.lastGold=activeGold;s.lastSection=a.dataset.section;saveState(s)});
+if($('quicknav')) $('quicknav').addEventListener('click',e=>{let a=e.target.closest('[data-section]');if(!a)return;let s=state();s.lastGold=activeGold;s.lastSection=a.dataset.section;saveState(s)});
 function searchable(D){return [D.id,D.name,D.category,D.ayurveda,...(D.synonyms||[])].join(' ').toLowerCase()}
 function renderGoldSearch(){if(!$('goldSearch'))return;let q=$('goldSearch').value.trim().toLowerCase(),f=$('studyFilter').value,s=state(),favorites=s.favorites||[];let arr=Object.values(CHAPTERS).filter(D=>{let p=progressOf(D.id);if(q&&!searchable(D).includes(q))return false;if(f==='favorite'&&!favorites.includes(D.id))return false;if(f&&f!=='favorite'&&p!==f)return false;return true}).sort((a,b)=>a.name.localeCompare(b.name));$('goldSearchMeta').textContent=`${arr.length} of ${Object.keys(CHAPTERS).length} Gold Chapters`;let show=(q||f)?arr.slice(0,80):[];$('goldSearchResults').innerHTML=show.length?show.map(D=>{let p=progressOf(D.id),fav=favorites.includes(D.id);return `<div class="goldResult ${p} ${fav?'favorite':''}" data-open-gold="${esc(D.id)}" tabindex="0"><div><b>${esc(D.name)}</b><small>${esc(D.id)} • ${esc(D.category)}</small></div><div class="resultRight"><span class="studyBadge ${p}">${p==='completed'?'✓ Completed':p==='reading'?'◐ Reading':'○ Unread'}</span>${fav?'<small>★ Bookmark</small>':''}</div></div>`}).join(''):(q||f?'<div class="searchEmpty">No matching Gold Chapter found.</div>':'')}
-$('goldSearch').addEventListener('input',renderGoldSearch);$('studyFilter').addEventListener('change',renderGoldSearch);
-$('goldSearchResults').addEventListener('click',e=>{let r=e.target.closest('[data-open-gold]');if(r)openGold(r.dataset.openGold,true)});
-$('goldSearchResults').addEventListener('keydown',e=>{if((e.key==='Enter'||e.key===' ')&&e.target.closest('[data-open-gold]')){e.preventDefault();openGold(e.target.closest('[data-open-gold]').dataset.openGold,true)}});
-$('continueReading').onclick=()=>{let s=state(),id=s.lastGold&&CHAPTERS[s.lastGold]?s.lastGold:activeGold;openGold(id,true)};
+if($('goldSearch')) $('goldSearch').addEventListener('input',renderGoldSearch);
+if($('studyFilter')) $('studyFilter').addEventListener('change',renderGoldSearch);
+if($('goldSearchResults')){
+ $('goldSearchResults').addEventListener('click',e=>{let r=e.target.closest('[data-open-gold]');if(r)openGold(r.dataset.openGold,true)});
+ $('goldSearchResults').addEventListener('keydown',e=>{if((e.key==='Enter'||e.key===' ')&&e.target.closest('[data-open-gold]')){e.preventDefault();openGold(e.target.closest('[data-open-gold]').dataset.openGold,true)}});
+}
+if($('continueReading')) $('continueReading').onclick=()=>{let s=state(),id=s.lastGold&&CHAPTERS[s.lastGold]?s.lastGold:activeGold;openGold(id,true)};
 function renderReaderProgress(){if(!$('readerProgress'))return;let ids=Object.keys(CHAPTERS),s=state(),fav=(s.favorites||[]).filter(id=>CHAPTERS[id]).length,reading=ids.filter(id=>progressOf(id)==='reading').length,completed=ids.filter(id=>progressOf(id)==='completed').length,unread=ids.length-reading-completed,pct=ids.length?Math.round(completed*100/ids.length):0;$('readerProgress').innerHTML=`<div class=progressMini><b>${unread}</b><span>Unread</span></div><div class=progressMini><b>${reading}</b><span>Reading</span></div><div class=progressMini><b>${completed}</b><span>Completed</span></div><div class=progressMini><b>${fav}</b><span>Bookmarked</span></div><div class=progressBarWrap title="${pct}% completed"><div class=progressBar style="width:${pct}%"></div></div>`}
 function renderPatient(){const D=CHAPTERS[activeGold];if(!D)return;$('patientTitle').textContent=`${D.name} — simple patient explanation`;$('patientHandout').innerHTML=list(D.patientHandout||[])}
 $('printHandout').onclick=()=>{go('patient');window.print()}
@@ -81,4 +84,8 @@ $('clearState').onclick=()=>{if(confirm('Clear bookmarks and local study progres
 window.addEventListener('beforeinstallprompt',e=>{e.preventDefault();deferredPrompt=e;$('installBtn').hidden=false});
 $('installBtn').onclick=async()=>{if(deferredPrompt){deferredPrompt.prompt();await deferredPrompt.userChoice;deferredPrompt=null;$('installBtn').hidden=true}}
 if('serviceWorker'in navigator)window.addEventListener('load',()=>navigator.serviceWorker.register('./sw.js').catch(console.error));
-load();
+load().catch(err=>{
+ console.error('SKMCIS load failed',err);
+ const g=document.getElementById('goldContent');
+ if(g) g.innerHTML='<div class="card redbox"><h2>Library load error</h2><p>Please press Ctrl + F5 once. If the problem continues, reopen the site after GitHub Pages deployment turns green.</p><p class="muted">'+esc(err.message||String(err))+'</p></div>';
+});
