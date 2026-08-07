@@ -35,6 +35,7 @@
     <div class="legend"><span class="green">Safe / ready</span><span class="amber">Caution / review</span><span class="red">Urgent / red flag</span><span class="blue">Diagnostic / information</span><span class="gray">Unvalidated / unresolved</span></div>
   </div>
   <div class="stats" id="stats"></div>
+  <div class="readerProgress" id="readerProgress"></div>
   <div class="grid2">
     <article class="card">
       <h2>Production workflow</h2>
@@ -63,9 +64,46 @@
   <div id="libraryRows" class="libraryRows"></div>
 </section>
 <section id="gold" class="view hidden">
-  <div class="sectionHead"><div><span class="pill green">GOLD CHAPTER DRAFT</span><h1 id="goldTitle"></h1><p id="goldMeta"></p><label class="chapterPicker">Gold Chapter <select id="goldSelect"></select></label></div>
-    <div class="actions"><button class="btn" id="favGold">☆ Favorite</button><button class="btn" id="printGold">Print</button></div>
+  <div class="goldSearchPanel">
+    <div class="goldSearchMain">
+      <label for="goldSearch"><b>Search within 550 Gold Chapters</b></label>
+      <input id="goldSearch" type="search" placeholder="Type disease, ID, category, Ayurveda term…">
+    </div>
+    <select id="studyFilter" aria-label="Study status filter">
+      <option value="">All chapters</option>
+      <option value="unread">Unread</option>
+      <option value="reading">Reading</option>
+      <option value="completed">Completed</option>
+      <option value="favorite">★ Favorites</option>
+    </select>
+    <button class="btn primary" id="continueReading">Continue reading</button>
   </div>
+  <div id="goldSearchMeta" class="muted"></div>
+  <div id="goldSearchResults" class="goldSearchResults"></div>
+
+  <div class="sectionHead goldReaderHead">
+    <div>
+      <div class="readerStatusLine">
+        <span class="pill green">GOLD CHAPTER DRAFT</span>
+        <span id="currentStudyBadge" class="studyBadge unread">UNREAD</span>
+      </div>
+      <h1 id="goldTitle"></h1>
+      <p id="goldMeta"></p>
+      <label class="chapterPicker">Chapter selector <select id="goldSelect"></select></label>
+    </div>
+    <div class="readerActions">
+      <button class="btn" id="favGold">☆ Bookmark</button>
+      <button class="btn studyBtn" id="markReading">◐ Mark Reading</button>
+      <button class="btn studyBtn success" id="markCompleted">✓ Mark Completed</button>
+      <button class="btn studyBtn" id="markUnread">○ Reset Unread</button>
+      <button class="btn" id="printGold">Print</button>
+    </div>
+  </div>
+
+  <div class="readerHint">
+    <b>Reader memory:</b> last opened chapter and last section are saved locally on this device, so “Continue reading” can bring you back.
+  </div>
+
   <div class="quicknav" id="quicknav"></div>
   <div id="goldContent"></div>
 </section>
@@ -93,6 +131,6 @@
   <article class="card"><h2>V1 safety boundary</h2><p>No login, prescriptions, patient records, cloud sync, AI diagnosis or medication dosing are included in this study-only foundation. Those require separate security and clinical validation.</p></article>
 </section>
 </main>
-<footer><b>SKMCIS Study Library • V4.2 • Ortho–Spine–Neuro V1 Complete • 550 Gold Chapters</b><br>Study & clinical decision-support knowledge only • Final clinical decisions require qualified clinician judgment.</footer>
+<footer><b>SKMCIS Study Library • V4.3 Reader • Ortho–Spine–Neuro V1 Complete • 550 Gold Chapters</b><br>Study & clinical decision-support knowledge only • Final clinical decisions require qualified clinician judgment.</footer>
 <script src="app.js"></script>
 </body></html>
