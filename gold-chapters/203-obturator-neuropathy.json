@@ -1,0 +1,94 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-NEU-OBT-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Obturator Neuropathy",
+  "synonyms": [],
+  "category": "Neurology > Peripheral Nerve > Obturator",
+  "tags": [
+    "obturator neuropathy"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Neuropathy of the obturator nerve causing groin/medial-thigh pain and weakness of hip adduction, often from pelvic surgery, trauma, mass or entrapment.",
+  "clinicalPattern": {
+    "typical": [
+      "Medial thigh pain/numbness",
+      "Hip adduction weakness",
+      "Groin symptoms"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Pelvic mass"
+    },
+    {
+      "level": "RED",
+      "item": "Retroperitoneal hemorrhage"
+    },
+    {
+      "level": "RED",
+      "item": "Rapid progressive weakness"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Hip adductor strength",
+      "Medial-thigh sensory exam",
+      "Lumbar/plexus localization"
+    ]
+  },
+  "differentials": [
+    "L2-L4 radiculopathy",
+    "Adductor injury",
+    "Hip joint disease",
+    "Femoral neuropathy"
+  ],
+  "investigations": {
+    "principle": "Electrodiagnostics and pelvic imaging are selected according to suspected cause.",
+    "MRI": "Use MRI when soft-tissue, neural, marrow, occult injury, infection or other condition-specific questions require it.",
+    "radiographs": "Use radiographs and/or CT according to the condition-specific imaging pathway."
+  },
+  "management": {
+    "green": [
+      "Treat underlying cause",
+      "Hip adductor and gait rehabilitation"
+    ],
+    "amber": [
+      "Mass, surgical injury or persistent severe deficit requires specialist review."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Vankshana/Vata-neuropathy phenotype may be documented in parallel."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Neuropathy of the obturator nerve causing groin/medial-thigh pain and weakness of hip adduction, often from pelvic surgery, trauma, mass or entrapment.",
+    "urgent": "Seek urgent assessment for major trauma, acute/progressive neurological deficit, severe infection/systemic illness, vascular compromise or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "AANEM",
+      "title": "Peripheral nerve resources",
+      "url": "https://www.aanem.org/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V2.5-BATCH-11",
+    "proposedGoldChapterNumber": 203
+  }
+}

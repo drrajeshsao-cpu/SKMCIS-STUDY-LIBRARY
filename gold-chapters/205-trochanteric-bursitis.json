@@ -1,0 +1,99 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-ORT-TBURS-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Trochanteric Bursitis",
+  "synonyms": [],
+  "category": "Orthopedics > Hip > Bursa",
+  "tags": [
+    "trochanteric bursitis"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Inflammation or irritation of a trochanteric bursa causing lateral hip pain; many cases overlap with greater trochanteric pain syndrome and gluteal tendinopathy.",
+  "clinicalPattern": {
+    "typical": [
+      "Lateral hip pain",
+      "Tenderness over greater trochanter",
+      "Pain lying on affected side"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Hip fracture"
+    },
+    {
+      "level": "RED",
+      "item": "Septic bursitis"
+    },
+    {
+      "level": "RED",
+      "item": "Inability to bear weight"
+    },
+    {
+      "level": "RED",
+      "item": "Severe systemic illness"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Greater-trochanter tenderness",
+      "Hip abductor assessment",
+      "Lumbar/hip joint screen"
+    ]
+  },
+  "differentials": [
+    "Gluteal tendinopathy",
+    "Hip OA",
+    "Lumbar radiculopathy",
+    "Stress fracture"
+  ],
+  "investigations": {
+    "principle": "Diagnosis is usually clinical; ultrasound/MRI is reserved for atypical or persistent cases.",
+    "MRI": "Use MRI when soft-tissue, neural, marrow, occult injury, infection or other condition-specific questions require it.",
+    "radiographs": "Use radiographs and/or CT according to the condition-specific imaging pathway."
+  },
+  "management": {
+    "green": [
+      "Load modification",
+      "Hip abductor rehabilitation",
+      "Avoid prolonged local compression"
+    ],
+    "amber": [
+      "Injection may be considered selectively but should complement rehabilitation."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Shroni/Kati lateral pain phenotype may be documented."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Inflammation or irritation of a trochanteric bursa causing lateral hip pain; many cases overlap with greater trochanteric pain syndrome and gluteal tendinopathy.",
+    "urgent": "Seek urgent assessment for major trauma, acute/progressive neurological deficit, severe infection/systemic illness, vascular compromise or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "JOSPT",
+      "title": "Hip rehabilitation literature",
+      "url": "https://www.jospt.org/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V2.5-BATCH-11",
+    "proposedGoldChapterNumber": 205
+  }
+}

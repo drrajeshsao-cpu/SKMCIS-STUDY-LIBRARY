@@ -1,0 +1,99 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-ORT-IPT-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Iliopsoas Tendinopathy / Internal Snapping Hip",
+  "synonyms": [],
+  "category": "Orthopedics > Hip > Tendon",
+  "tags": [
+    "iliopsoas tendinopathy / internal snapping hip"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Painful iliopsoas tendon disorder that may produce anterior hip/groin pain and internal snapping during hip movement.",
+  "clinicalPattern": {
+    "typical": [
+      "Anterior hip/groin pain",
+      "Snapping with hip motion",
+      "Pain with resisted hip flexion"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Hip fracture"
+    },
+    {
+      "level": "RED",
+      "item": "Septic arthritis"
+    },
+    {
+      "level": "RED",
+      "item": "AVN"
+    },
+    {
+      "level": "RED",
+      "item": "Abdominal/pelvic emergency"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Resisted hip flexion",
+      "Hip ROM",
+      "Snapping reproduction",
+      "Lumbar/groin screen"
+    ]
+  },
+  "differentials": [
+    "FAI",
+    "Labral tear",
+    "Adductor-related groin pain",
+    "Hip OA"
+  ],
+  "investigations": {
+    "principle": "Usually clinical; ultrasound or MRI is used for persistent or uncertain cases.",
+    "MRI": "Use MRI when soft-tissue, neural, marrow, occult injury, infection or other condition-specific questions require it.",
+    "radiographs": "Use radiographs and/or CT according to the condition-specific imaging pathway."
+  },
+  "management": {
+    "green": [
+      "Load modification",
+      "Progressive hip-flexor and kinetic-chain rehabilitation"
+    ],
+    "amber": [
+      "Injection or surgery is selective for persistent confirmed snapping/pain."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Vankshana/Snayu phenotype may be documented descriptively."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Painful iliopsoas tendon disorder that may produce anterior hip/groin pain and internal snapping during hip movement.",
+    "urgent": "Seek urgent assessment for major trauma, acute/progressive neurological deficit, severe infection/systemic illness, vascular compromise or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "ACR",
+      "title": "Chronic Hip Pain",
+      "url": "https://acsearch.acr.org/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V2.5-BATCH-11",
+    "proposedGoldChapterNumber": 204
+  }
+}

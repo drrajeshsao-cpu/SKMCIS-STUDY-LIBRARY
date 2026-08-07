@@ -1,0 +1,93 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-ORT-MONT-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Monteggia Fracture-Dislocation",
+  "synonyms": [],
+  "category": "Orthopedics > Forearm > Fracture-Dislocation",
+  "tags": [
+    "monteggia fracture-dislocation"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Fracture of the proximal ulna with dislocation of the radial head, requiring recognition of both components to restore forearm and elbow alignment.",
+  "clinicalPattern": {
+    "typical": [
+      "Forearm/elbow pain",
+      "Deformity",
+      "Reduced pronation-supination"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Posterior interosseous/radial nerve deficit"
+    },
+    {
+      "level": "RED",
+      "item": "Open fracture"
+    },
+    {
+      "level": "RED",
+      "item": "Neurovascular compromise"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Elbow and forearm alignment",
+      "Radial nerve exam",
+      "Distal neurovascular assessment"
+    ]
+  },
+  "differentials": [
+    "Isolated ulna fracture",
+    "Elbow dislocation",
+    "Radial head fracture"
+  ],
+  "investigations": {
+    "principle": "Forearm radiographs must include elbow and wrist; CT is selective for complex injury.",
+    "MRI": "Use MRI when soft-tissue, neural, marrow, occult injury, infection or other condition-specific questions require it.",
+    "radiographs": "Use radiographs and/or CT according to the condition-specific imaging pathway."
+  },
+  "management": {
+    "green": [
+      "Immobilization",
+      "Urgent orthopedic management"
+    ],
+    "amber": [
+      "Most adult Monteggia injuries require operative fixation and radial-head reduction."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Bhagna-Sandhi displacement phenotype may be documented only after orthopedic stabilization."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Fracture of the proximal ulna with dislocation of the radial head, requiring recognition of both components to restore forearm and elbow alignment.",
+    "urgent": "Seek urgent assessment for major trauma, acute/progressive neurological deficit, severe infection/systemic illness, vascular compromise or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "AAOS OrthoInfo",
+      "title": "Forearm Fractures",
+      "url": "https://orthoinfo.aaos.org/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V2.5-BATCH-11",
+    "proposedGoldChapterNumber": 194
+  }
+}

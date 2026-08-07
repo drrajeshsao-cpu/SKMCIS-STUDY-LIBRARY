@@ -1,0 +1,93 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-ORT-IBURS-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Ischial Bursitis",
+  "synonyms": [],
+  "category": "Orthopedics > Hip/Buttock > Bursa",
+  "tags": [
+    "ischial bursitis"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Inflammation or irritation of the ischiogluteal bursa near the ischial tuberosity, causing focal lower-buttock pain, often worsened by prolonged sitting.",
+  "clinicalPattern": {
+    "typical": [
+      "Lower buttock pain",
+      "Pain with prolonged sitting",
+      "Local ischial tenderness"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Tumour/infection"
+    },
+    {
+      "level": "RED",
+      "item": "Acute avulsion"
+    },
+    {
+      "level": "RED",
+      "item": "Neurological deficit"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Ischial palpation",
+      "Hamstring testing",
+      "Lumbar and neural screen"
+    ]
+  },
+  "differentials": [
+    "Proximal hamstring tendinopathy",
+    "Deep gluteal syndrome",
+    "Lumbar radiculopathy"
+  ],
+  "investigations": {
+    "principle": "Usually clinical; ultrasound/MRI is selected for persistent or atypical cases.",
+    "MRI": "Use MRI when soft-tissue, neural, marrow, occult injury, infection or other condition-specific questions require it.",
+    "radiographs": "Use radiographs and/or CT according to the condition-specific imaging pathway."
+  },
+  "management": {
+    "green": [
+      "Reduce prolonged compression",
+      "Progressive mobility/strength rehabilitation"
+    ],
+    "amber": [
+      "Injection is selective after diagnosis is secure."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Kati/Shroni local Shotha phenotype may be documented."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Inflammation or irritation of the ischiogluteal bursa near the ischial tuberosity, causing focal lower-buttock pain, often worsened by prolonged sitting.",
+    "urgent": "Seek urgent assessment for major trauma, acute/progressive neurological deficit, severe infection/systemic illness, vascular compromise or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "Sports medicine literature",
+      "title": "Ischiogluteal bursitis reviews",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V2.5-BATCH-11",
+    "proposedGoldChapterNumber": 206
+  }
+}

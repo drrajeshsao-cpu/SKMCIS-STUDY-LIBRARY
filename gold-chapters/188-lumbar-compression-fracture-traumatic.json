@@ -1,0 +1,93 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-SPN-LCFX-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Lumbar Compression Fracture - Traumatic",
+  "synonyms": [],
+  "category": "Spine > Lumbar > Trauma",
+  "tags": [
+    "lumbar compression fracture - traumatic"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Acute traumatic compression fracture of a lumbar vertebral body, typically involving anterior column failure without the burst-fracture pattern of retropulsion.",
+  "clinicalPattern": {
+    "typical": [
+      "Acute focal low-back pain after trauma",
+      "Midline tenderness",
+      "Pain with movement"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Neurological deficit"
+    },
+    {
+      "level": "RED",
+      "item": "High-energy trauma"
+    },
+    {
+      "level": "RED",
+      "item": "Suspected burst or unstable fracture"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Neurological exam",
+      "Spinal tenderness",
+      "Trauma survey"
+    ]
+  },
+  "differentials": [
+    "Osteoporotic compression fracture",
+    "Burst fracture",
+    "Lumbar strain"
+  ],
+  "investigations": {
+    "principle": "CT defines morphology and excludes posterior involvement; MRI is selected for neural or ligamentous concern.",
+    "MRI": "Use MRI when soft-tissue, neural, marrow, occult injury, infection or other condition-specific questions require it.",
+    "radiographs": "Use radiographs and/or CT according to the condition-specific imaging pathway."
+  },
+  "management": {
+    "green": [
+      "Spine trauma evaluation",
+      "Analgesia and mobilization plan after stability assessment"
+    ],
+    "amber": [
+      "If posterior wall involvement, neurological symptoms or instability is suspected, manage as a higher-risk fracture."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Bhagna concepts may complement rehabilitation only after modern stability assessment."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Acute traumatic compression fracture of a lumbar vertebral body, typically involving anterior column failure without the burst-fracture pattern of retropulsion.",
+    "urgent": "Seek urgent assessment for major trauma, acute/progressive neurological deficit, severe infection/systemic illness, vascular compromise or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "ACR",
+      "title": "Acute Spinal Trauma",
+      "url": "https://acsearch.acr.org/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V2.5-BATCH-11",
+    "proposedGoldChapterNumber": 188
+  }
+}

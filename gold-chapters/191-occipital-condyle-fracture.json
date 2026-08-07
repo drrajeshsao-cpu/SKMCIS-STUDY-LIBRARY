@@ -1,0 +1,92 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-CSP-OCF-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Occipital Condyle Fracture",
+  "synonyms": [],
+  "category": "Spine > Craniovertebral Junction > Trauma",
+  "tags": [
+    "occipital condyle fracture"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Fracture of one or both occipital condyles after high-energy head or cervical trauma, with variable craniovertebral stability.",
+  "clinicalPattern": {
+    "typical": [
+      "Upper neck/occipital pain",
+      "High-energy cranio-cervical trauma"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Lower cranial nerve deficit"
+    },
+    {
+      "level": "RED",
+      "item": "Atlanto-occipital instability"
+    },
+    {
+      "level": "RED",
+      "item": "Severe polytrauma"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Cranial nerve exam",
+      "Neurological exam",
+      "Trauma survey"
+    ]
+  },
+  "differentials": [
+    "C1 fracture",
+    "Odontoid fracture",
+    "Skull-base fracture"
+  ],
+  "investigations": {
+    "principle": "CT is the key diagnostic test; MRI is used for ligamentous and neural assessment when instability is suspected.",
+    "MRI": "Use MRI when soft-tissue, neural, marrow, occult injury, infection or other condition-specific questions require it.",
+    "radiographs": "Use radiographs and/or CT according to the condition-specific imaging pathway."
+  },
+  "management": {
+    "green": [
+      "Cervical immobilization until stability assessed",
+      "Specialist craniovertebral review"
+    ],
+    "amber": [
+      "Unstable craniovertebral injury may require operative stabilization."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Modern trauma and stability management takes priority."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Fracture of one or both occipital condyles after high-energy head or cervical trauma, with variable craniovertebral stability.",
+    "urgent": "Seek urgent assessment for major trauma, acute/progressive neurological deficit, severe infection/systemic illness, vascular compromise or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "ACR",
+      "title": "Acute Spinal Trauma",
+      "url": "https://acsearch.acr.org/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V2.5-BATCH-11",
+    "proposedGoldChapterNumber": 191
+  }
+}

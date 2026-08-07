@@ -1,0 +1,95 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-RHE-ENTH-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Spondyloarthritis-Associated Enthesitis",
+  "synonyms": [],
+  "category": "Rheumatology > Enthesitis",
+  "tags": [
+    "spondyloarthritis-associated enthesitis"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Inflammation at tendon or ligament insertions, commonly affecting Achilles, plantar fascia and other entheses in the spondyloarthritis spectrum.",
+  "clinicalPattern": {
+    "typical": [
+      "Heel or insertional pain",
+      "Morning stiffness",
+      "Multiple enthesitis sites",
+      "May coexist with psoriasis, IBD or axial symptoms"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Septic enthesitis/bursitis"
+    },
+    {
+      "level": "RED",
+      "item": "Acute rupture"
+    },
+    {
+      "level": "RED",
+      "item": "Hot swollen joint suggesting infection"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Enthesis palpation",
+      "Joint/skin/nail/eye assessment",
+      "Axial spondyloarthritis screen"
+    ]
+  },
+  "differentials": [
+    "Mechanical tendinopathy",
+    "Gout",
+    "Plantar fasciitis",
+    "Reactive arthritis"
+  ],
+  "investigations": {
+    "principle": "Diagnosis is clinical; ultrasound/MRI may demonstrate active enthesitis in selected cases.",
+    "MRI": "Use MRI when soft-tissue, neural, marrow, occult injury, infection or other condition-specific questions require it.",
+    "radiographs": "Use radiographs and/or CT according to the condition-specific imaging pathway."
+  },
+  "management": {
+    "green": [
+      "Rheumatology-directed disease control",
+      "Load-aware rehabilitation"
+    ],
+    "amber": [
+      "Persistent inflammatory enthesitis may require systemic therapy rather than repeated local procedures."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Snayu/Sandhi Shotha phenotype may be documented only in parallel with inflammatory classification."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Inflammation at tendon or ligament insertions, commonly affecting Achilles, plantar fascia and other entheses in the spondyloarthritis spectrum.",
+    "urgent": "Seek urgent assessment for major trauma, acute/progressive neurological deficit, severe infection/systemic illness, vascular compromise or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "NICE",
+      "title": "Spondyloarthritis NG65",
+      "url": "https://www.nice.org.uk/guidance/ng65",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V2.5-BATCH-11",
+    "proposedGoldChapterNumber": 207
+  }
+}

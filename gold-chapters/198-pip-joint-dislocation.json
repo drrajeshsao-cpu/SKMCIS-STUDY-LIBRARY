@@ -1,0 +1,93 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-ORT-PIPD-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "PIP Joint Dislocation",
+  "synonyms": [],
+  "category": "Orthopedics > Hand > Dislocation",
+  "tags": [
+    "pip joint dislocation"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Dislocation of the proximal interphalangeal joint, most often dorsal, with possible volar-plate, collateral-ligament or central-slip injury.",
+  "clinicalPattern": {
+    "typical": [
+      "Finger deformity after trauma",
+      "Pain/swelling",
+      "Loss of motion"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Open dislocation"
+    },
+    {
+      "level": "RED",
+      "item": "Neurovascular compromise"
+    },
+    {
+      "level": "RED",
+      "item": "Associated unstable fracture"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Pre/post-reduction neurovascular exam",
+      "Joint stability",
+      "Central-slip assessment"
+    ]
+  },
+  "differentials": [
+    "Phalangeal fracture",
+    "Central-slip injury",
+    "Collateral-ligament sprain"
+  ],
+  "investigations": {
+    "principle": "Radiographs are required before/after reduction when feasible and to assess fracture.",
+    "MRI": "Use MRI when soft-tissue, neural, marrow, occult injury, infection or other condition-specific questions require it.",
+    "radiographs": "Use radiographs and/or CT according to the condition-specific imaging pathway."
+  },
+  "management": {
+    "green": [
+      "Prompt reduction by trained clinician",
+      "Early protected motion when stable"
+    ],
+    "amber": [
+      "Unstable fracture-dislocation requires hand-surgery assessment."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Anguli-Sandhi displacement phenotype may be documented after modern reduction."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Dislocation of the proximal interphalangeal joint, most often dorsal, with possible volar-plate, collateral-ligament or central-slip injury.",
+    "urgent": "Seek urgent assessment for major trauma, acute/progressive neurological deficit, severe infection/systemic illness, vascular compromise or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "BSSH",
+      "title": "Finger joint injury resources",
+      "url": "https://www.bssh.ac.uk/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V2.5-BATCH-11",
+    "proposedGoldChapterNumber": 198
+  }
+}

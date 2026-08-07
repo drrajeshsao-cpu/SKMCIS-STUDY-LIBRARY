@@ -1,0 +1,89 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-ORT-SCJD-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Sternoclavicular Joint Dislocation",
+  "synonyms": [],
+  "category": "Orthopedics > Shoulder Girdle > Dislocation",
+  "tags": [
+    "sternoclavicular joint dislocation"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Dislocation of the sternoclavicular joint, anterior or posterior; posterior dislocation can threaten mediastinal structures.",
+  "clinicalPattern": {
+    "typical": [
+      "Pain/swelling at sternoclavicular joint",
+      "Visible prominence or depression",
+      "Pain with shoulder movement"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Posterior dislocation with dyspnea, dysphagia or vascular symptoms"
+    },
+    {
+      "level": "RED",
+      "item": "Neurovascular compromise"
+    }
+  ],
+  "examination": {
+    "core": [
+      "SC joint contour",
+      "Upper-limb neurovascular exam",
+      "Airway/swallowing assessment when posterior injury suspected"
+    ]
+  },
+  "differentials": [
+    "Medial clavicle fracture",
+    "AC joint injury",
+    "Chest-wall injury"
+  ],
+  "investigations": {
+    "principle": "CT is preferred to define dislocation and mediastinal relationships.",
+    "MRI": "Use MRI when soft-tissue, neural, marrow, occult injury, infection or other condition-specific questions require it.",
+    "radiographs": "Use radiographs and/or CT according to the condition-specific imaging pathway."
+  },
+  "management": {
+    "green": [
+      "Urgent orthopedic assessment",
+      "Protect shoulder girdle"
+    ],
+    "amber": [
+      "Posterior dislocation requires urgent reduction in an appropriate monitored setting because of mediastinal risk."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Sandhi displacement phenotype may be documented only after emergency modern assessment."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Dislocation of the sternoclavicular joint, anterior or posterior; posterior dislocation can threaten mediastinal structures.",
+    "urgent": "Seek urgent assessment for major trauma, acute/progressive neurological deficit, severe infection/systemic illness, vascular compromise or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "AAOS OrthoInfo",
+      "title": "Sternoclavicular Joint Disorders",
+      "url": "https://orthoinfo.aaos.org/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V2.5-BATCH-11",
+    "proposedGoldChapterNumber": 193
+  }
+}

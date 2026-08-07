@@ -1,0 +1,96 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-ORT-SCAPF-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Scapular Fracture",
+  "synonyms": [],
+  "category": "Orthopedics > Shoulder Girdle > Fracture",
+  "tags": [
+    "scapular fracture"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Fracture of the scapula, usually associated with high-energy trauma and sometimes accompanied by chest, clavicle or neurovascular injuries.",
+  "clinicalPattern": {
+    "typical": [
+      "Posterior shoulder pain",
+      "Pain with shoulder movement",
+      "Bruising after trauma"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Associated chest trauma"
+    },
+    {
+      "level": "RED",
+      "item": "Neurovascular deficit"
+    },
+    {
+      "level": "RED",
+      "item": "Open fracture"
+    },
+    {
+      "level": "RED",
+      "item": "Glenoid/neck instability"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Shoulder girdle and chest exam",
+      "Neurovascular assessment"
+    ]
+  },
+  "differentials": [
+    "Clavicle fracture",
+    "Rib fracture",
+    "Shoulder dislocation"
+  ],
+  "investigations": {
+    "principle": "Radiographs are initial; CT is important for glenoid, neck and complex fracture planning.",
+    "MRI": "Use MRI when soft-tissue, neural, marrow, occult injury, infection or other condition-specific questions require it.",
+    "radiographs": "Use radiographs and/or CT according to the condition-specific imaging pathway."
+  },
+  "management": {
+    "green": [
+      "Trauma assessment",
+      "Sling and early guided motion for suitable stable fractures"
+    ],
+    "amber": [
+      "Displaced glenoid or unstable shoulder-girdle injuries require specialist surgical assessment."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Amsa-bhagna principles may complement rehabilitation after orthopedic stabilization."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Fracture of the scapula, usually associated with high-energy trauma and sometimes accompanied by chest, clavicle or neurovascular injuries.",
+    "urgent": "Seek urgent assessment for major trauma, acute/progressive neurological deficit, severe infection/systemic illness, vascular compromise or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "AAOS OrthoInfo",
+      "title": "Scapula Fracture",
+      "url": "https://orthoinfo.aaos.org/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V2.5-BATCH-11",
+    "proposedGoldChapterNumber": 192
+  }
+}

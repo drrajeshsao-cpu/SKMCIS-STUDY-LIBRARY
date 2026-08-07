@@ -185,7 +185,27 @@
     "gold-chapters/184-swan-neck-deformity.json",
     "gold-chapters/185-boutonni-re-deformity.json",
     "gold-chapters/186-idiopathic-inflammatory-myopathy.json",
-    "gold-chapters/187-dermatomyositis.json"
+    "gold-chapters/187-dermatomyositis.json",
+    "gold-chapters/188-lumbar-compression-fracture-traumatic.json",
+    "gold-chapters/189-odontoid-fracture.json",
+    "gold-chapters/190-jefferson-fracture-of-c1.json",
+    "gold-chapters/191-occipital-condyle-fracture.json",
+    "gold-chapters/192-scapular-fracture.json",
+    "gold-chapters/193-sternoclavicular-joint-dislocation.json",
+    "gold-chapters/194-monteggia-fracture-dislocation.json",
+    "gold-chapters/195-galeazzi-fracture-dislocation.json",
+    "gold-chapters/196-boxer-s-fracture-fifth-metacarpal-neck-fracture.json",
+    "gold-chapters/197-phalangeal-fracture-of-the-hand.json",
+    "gold-chapters/198-pip-joint-dislocation.json",
+    "gold-chapters/199-posterior-interosseous-nerve-syndrome.json",
+    "gold-chapters/200-anterior-interosseous-nerve-syndrome.json",
+    "gold-chapters/201-guyon-canal-syndrome.json",
+    "gold-chapters/202-sural-neuropathy.json",
+    "gold-chapters/203-obturator-neuropathy.json",
+    "gold-chapters/204-iliopsoas-tendinopathy-internal-snapping-hip.json",
+    "gold-chapters/205-trochanteric-bursitis.json",
+    "gold-chapters/206-ischial-bursitis.json",
+    "gold-chapters/207-spondyloarthritis-associated-enthesitis.json"
   ],
-  "expectedTotalGold": 188
+  "expectedTotalGold": 208
 }

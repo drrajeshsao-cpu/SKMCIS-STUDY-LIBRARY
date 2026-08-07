@@ -1,0 +1,93 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-ORT-GAL-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Galeazzi Fracture-Dislocation",
+  "synonyms": [],
+  "category": "Orthopedics > Forearm > Fracture-Dislocation",
+  "tags": [
+    "galeazzi fracture-dislocation"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Fracture of the radial shaft associated with distal radioulnar joint disruption or instability.",
+  "clinicalPattern": {
+    "typical": [
+      "Forearm pain/deformity",
+      "Wrist pain",
+      "Reduced forearm rotation"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Open fracture"
+    },
+    {
+      "level": "RED",
+      "item": "Neurovascular compromise"
+    },
+    {
+      "level": "RED",
+      "item": "Marked DRUJ instability"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Forearm alignment",
+      "DRUJ tenderness/stability",
+      "Distal neurovascular exam"
+    ]
+  },
+  "differentials": [
+    "Isolated radius fracture",
+    "Distal radius fracture",
+    "Essex-Lopresti injury"
+  ],
+  "investigations": {
+    "principle": "Radiographs must include wrist and elbow; CT may assist DRUJ or complex fracture assessment.",
+    "MRI": "Use MRI when soft-tissue, neural, marrow, occult injury, infection or other condition-specific questions require it.",
+    "radiographs": "Use radiographs and/or CT according to the condition-specific imaging pathway."
+  },
+  "management": {
+    "green": [
+      "Immobilization",
+      "Urgent orthopedic review"
+    ],
+    "amber": [
+      "Adult Galeazzi injuries usually require operative fixation and DRUJ assessment."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Bhagna/Sandhi instability concepts may be documented only after modern management."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Fracture of the radial shaft associated with distal radioulnar joint disruption or instability.",
+    "urgent": "Seek urgent assessment for major trauma, acute/progressive neurological deficit, severe infection/systemic illness, vascular compromise or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "AAOS OrthoInfo",
+      "title": "Forearm Fractures",
+      "url": "https://orthoinfo.aaos.org/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V2.5-BATCH-11",
+    "proposedGoldChapterNumber": 195
+  }
+}

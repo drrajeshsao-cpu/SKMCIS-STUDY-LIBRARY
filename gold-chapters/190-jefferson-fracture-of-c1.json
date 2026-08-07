@@ -1,0 +1,93 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-CSP-C1J-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Jefferson Fracture of C1",
+  "synonyms": [],
+  "category": "Spine > Cervical > Upper Cervical Trauma",
+  "tags": [
+    "jefferson fracture of c1"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Burst-type fracture of the atlas (C1), often caused by axial loading and potentially associated with transverse ligament injury.",
+  "clinicalPattern": {
+    "typical": [
+      "Upper neck pain after axial trauma",
+      "Occipital pain",
+      "Cervical tenderness"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Neurological deficit"
+    },
+    {
+      "level": "RED",
+      "item": "Suspected transverse ligament disruption"
+    },
+    {
+      "level": "RED",
+      "item": "Associated craniovertebral injury"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Neurological exam",
+      "Trauma survey",
+      "Upper cervical tenderness"
+    ]
+  },
+  "differentials": [
+    "Odontoid fracture",
+    "Occipital condyle fracture",
+    "Cervical strain"
+  ],
+  "investigations": {
+    "principle": "CT defines C1 fracture morphology; MRI evaluates transverse ligament and neural structures when needed.",
+    "MRI": "Use MRI when soft-tissue, neural, marrow, occult injury, infection or other condition-specific questions require it.",
+    "radiographs": "Use radiographs and/or CT according to the condition-specific imaging pathway."
+  },
+  "management": {
+    "green": [
+      "Spinal precautions",
+      "Urgent spine/neurosurgical assessment"
+    ],
+    "amber": [
+      "Stability depends substantially on ligament integrity, not fracture appearance alone."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Bhagna concepts remain secondary to modern upper-cervical stability assessment."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Burst-type fracture of the atlas (C1), often caused by axial loading and potentially associated with transverse ligament injury.",
+    "urgent": "Seek urgent assessment for major trauma, acute/progressive neurological deficit, severe infection/systemic illness, vascular compromise or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "ACR",
+      "title": "Acute Spinal Trauma",
+      "url": "https://acsearch.acr.org/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V2.5-BATCH-11",
+    "proposedGoldChapterNumber": 190
+  }
+}

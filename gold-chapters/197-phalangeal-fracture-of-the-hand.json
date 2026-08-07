@@ -1,0 +1,98 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-ORT-PHFING-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Phalangeal Fracture of the Hand",
+  "synonyms": [],
+  "category": "Orthopedics > Hand > Fracture",
+  "tags": [
+    "phalangeal fracture of the hand"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Fracture of a proximal, middle or distal phalanx, with functional risk from rotation, joint involvement or tendon injury.",
+  "clinicalPattern": {
+    "typical": [
+      "Finger pain/swelling",
+      "Bruising",
+      "Reduced motion",
+      "Possible deformity"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Rotational deformity"
+    },
+    {
+      "level": "RED",
+      "item": "Open fracture"
+    },
+    {
+      "level": "RED",
+      "item": "Tendon injury"
+    },
+    {
+      "level": "RED",
+      "item": "Neurovascular compromise"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Finger cascade",
+      "Joint motion",
+      "Tendon and neurovascular assessment"
+    ]
+  },
+  "differentials": [
+    "PIP/DIP sprain",
+    "Tendon injury",
+    "Dislocation"
+  ],
+  "investigations": {
+    "principle": "Finger radiographs characterize fracture and joint involvement.",
+    "MRI": "Use MRI when soft-tissue, neural, marrow, occult injury, infection or other condition-specific questions require it.",
+    "radiographs": "Use radiographs and/or CT according to the condition-specific imaging pathway."
+  },
+  "management": {
+    "green": [
+      "Appropriate splinting/buddy support",
+      "Early hand therapy when stable"
+    ],
+    "amber": [
+      "Intra-articular, rotated, unstable or open fractures require specialist care."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Anguli-bhagna principles may complement rehabilitation after modern stabilization."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Fracture of a proximal, middle or distal phalanx, with functional risk from rotation, joint involvement or tendon injury.",
+    "urgent": "Seek urgent assessment for major trauma, acute/progressive neurological deficit, severe infection/systemic illness, vascular compromise or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "BSSH",
+      "title": "Finger fracture resources",
+      "url": "https://www.bssh.ac.uk/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V2.5-BATCH-11",
+    "proposedGoldChapterNumber": 197
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-NEU-GUYON-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Guyon Canal Syndrome",
+  "synonyms": [],
+  "category": "Neurology/Orthopedics > Peripheral Nerve > Ulnar Wrist",
+  "tags": [
+    "guyon canal syndrome"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Ulnar nerve compression at the wrist within Guyon canal, causing sensory and/or intrinsic hand motor symptoms depending on the lesion zone.",
+  "clinicalPattern": {
+    "typical": [
+      "Numbness of little/ring fingers",
+      "Intrinsic hand weakness",
+      "Symptoms may relate to cycling or mass lesion"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Progressive weakness"
+    },
+    {
+      "level": "RED",
+      "item": "Mass lesion"
+    },
+    {
+      "level": "RED",
+      "item": "Trauma"
+    },
+    {
+      "level": "RED",
+      "item": "Severe muscle wasting"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Ulnar sensory mapping",
+      "Intrinsic hand strength",
+      "Differentiate from cubital tunnel and C8-T1 disease"
+    ]
+  },
+  "differentials": [
+    "Cubital tunnel syndrome",
+    "C8-T1 radiculopathy",
+    "Carpal tunnel syndrome"
+  ],
+  "investigations": {
+    "principle": "Electrodiagnostics help localization; ultrasound/MRI evaluates ganglion or structural causes.",
+    "MRI": "Use MRI when soft-tissue, neural, marrow, occult injury, infection or other condition-specific questions require it.",
+    "radiographs": "Use radiographs and/or CT according to the condition-specific imaging pathway."
+  },
+  "management": {
+    "green": [
+      "Avoid local compression",
+      "Ergonomic/activity modification"
+    ],
+    "amber": [
+      "Space-occupying lesions or progressive motor deficit may require surgery."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Hasta/Vata-neuropathy phenotype may be documented only in parallel."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Ulnar nerve compression at the wrist within Guyon canal, causing sensory and/or intrinsic hand motor symptoms depending on the lesion zone.",
+    "urgent": "Seek urgent assessment for major trauma, acute/progressive neurological deficit, severe infection/systemic illness, vascular compromise or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "AANEM",
+      "title": "Entrapment neuropathy resources",
+      "url": "https://www.aanem.org/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V2.5-BATCH-11",
+    "proposedGoldChapterNumber": 201
+  }
+}

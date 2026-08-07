@@ -1,0 +1,94 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-NEU-PIN-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Posterior Interosseous Nerve Syndrome",
+  "synonyms": [],
+  "category": "Neurology/Orthopedics > Peripheral Nerve > Radial Motor Branch",
+  "tags": [
+    "posterior interosseous nerve syndrome"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Motor neuropathy of the posterior interosseous nerve causing finger and thumb extension weakness, typically without cutaneous sensory loss.",
+  "clinicalPattern": {
+    "typical": [
+      "Finger-drop",
+      "Weak thumb extension",
+      "Wrist extension may be preserved with radial deviation",
+      "No major sensory loss"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Rapid progressive weakness"
+    },
+    {
+      "level": "RED",
+      "item": "Mass lesion"
+    },
+    {
+      "level": "RED",
+      "item": "Trauma/open injury"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Finger/thumb extension",
+      "Wrist extension pattern",
+      "Radial nerve localization"
+    ]
+  },
+  "differentials": [
+    "C7 radiculopathy",
+    "Radial nerve palsy",
+    "Motor neuron disease"
+  ],
+  "investigations": {
+    "principle": "Electrodiagnostic testing and ultrasound/MRI are used to localize compression or mass when needed.",
+    "MRI": "Use MRI when soft-tissue, neural, marrow, occult injury, infection or other condition-specific questions require it.",
+    "radiographs": "Use radiographs and/or CT according to the condition-specific imaging pathway."
+  },
+  "management": {
+    "green": [
+      "Activity modification",
+      "Splinting and motor rehabilitation"
+    ],
+    "amber": [
+      "Persistent severe motor deficit or structural compression may require surgical decompression."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Vata-neuropathy phenotype may be documented only in parallel."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Motor neuropathy of the posterior interosseous nerve causing finger and thumb extension weakness, typically without cutaneous sensory loss.",
+    "urgent": "Seek urgent assessment for major trauma, acute/progressive neurological deficit, severe infection/systemic illness, vascular compromise or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "AANEM",
+      "title": "Peripheral nerve resources",
+      "url": "https://www.aanem.org/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V2.5-BATCH-11",
+    "proposedGoldChapterNumber": 199
+  }
+}

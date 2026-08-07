@@ -1,0 +1,92 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-CSP-ODO-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Odontoid Fracture",
+  "synonyms": [],
+  "category": "Spine > Cervical > Upper Cervical Trauma",
+  "tags": [
+    "odontoid fracture"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Fracture of the odontoid process of C2, common in older adults after low-energy falls and in younger patients after high-energy trauma.",
+  "clinicalPattern": {
+    "typical": [
+      "Upper neck pain",
+      "Occipital pain",
+      "Pain after fall or trauma"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Neurological deficit"
+    },
+    {
+      "level": "RED",
+      "item": "Displacement/instability"
+    },
+    {
+      "level": "RED",
+      "item": "Elderly patient with persistent neck pain after fall"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Neurological exam",
+      "Upper cervical tenderness",
+      "Trauma assessment"
+    ]
+  },
+  "differentials": [
+    "Cervical strain",
+    "C1 fracture",
+    "Atlantoaxial instability"
+  ],
+  "investigations": {
+    "principle": "CT is central for diagnosis; MRI assesses ligament, cord and occult instability when indicated.",
+    "MRI": "Use MRI when soft-tissue, neural, marrow, occult injury, infection or other condition-specific questions require it.",
+    "radiographs": "Use radiographs and/or CT according to the condition-specific imaging pathway."
+  },
+  "management": {
+    "green": [
+      "Immobilization and urgent spine review"
+    ],
+    "amber": [
+      "Treatment depends on fracture type, displacement, age, healing potential and stability."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Greeva-bhagna phenotype may be documented only after modern fracture care."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Fracture of the odontoid process of C2, common in older adults after low-energy falls and in younger patients after high-energy trauma.",
+    "urgent": "Seek urgent assessment for major trauma, acute/progressive neurological deficit, severe infection/systemic illness, vascular compromise or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "ACR",
+      "title": "Acute Spinal Trauma",
+      "url": "https://acsearch.acr.org/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V2.5-BATCH-11",
+    "proposedGoldChapterNumber": 189
+  }
+}

@@ -1,0 +1,93 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-NEU-AIN-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Anterior Interosseous Nerve Syndrome",
+  "synonyms": [],
+  "category": "Neurology/Orthopedics > Peripheral Nerve > Median Motor Branch",
+  "tags": [
+    "anterior interosseous nerve syndrome"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Motor neuropathy affecting the anterior interosseous branch of the median nerve, producing weakness of FPL, FDP to index and pronator quadratus without cutaneous sensory loss.",
+  "clinicalPattern": {
+    "typical": [
+      "Weak pinch/abnormal OK sign",
+      "No cutaneous sensory deficit",
+      "Forearm pain may precede weakness"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Progressive weakness"
+    },
+    {
+      "level": "RED",
+      "item": "Mass/trauma"
+    },
+    {
+      "level": "RED",
+      "item": "Broader median neuropathy"
+    }
+  ],
+  "examination": {
+    "core": [
+      "OK sign",
+      "FPL/FDP-index testing",
+      "Median nerve and cervical screen"
+    ]
+  },
+  "differentials": [
+    "Median neuropathy",
+    "C8-T1 radiculopathy",
+    "Flexor tendon rupture"
+  ],
+  "investigations": {
+    "principle": "Electrodiagnostics and imaging are selected according to localization and suspected cause.",
+    "MRI": "Use MRI when soft-tissue, neural, marrow, occult injury, infection or other condition-specific questions require it.",
+    "radiographs": "Use radiographs and/or CT according to the condition-specific imaging pathway."
+  },
+  "management": {
+    "green": [
+      "Observation/activity modification in selected cases",
+      "Hand therapy"
+    ],
+    "amber": [
+      "Persistent deficit or compressive lesion may need specialist decompression."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Vata-neuropathy phenotype may be documented in parallel."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Motor neuropathy affecting the anterior interosseous branch of the median nerve, producing weakness of FPL, FDP to index and pronator quadratus without cutaneous sensory loss.",
+    "urgent": "Seek urgent assessment for major trauma, acute/progressive neurological deficit, severe infection/systemic illness, vascular compromise or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "AANEM",
+      "title": "Peripheral nerve resources",
+      "url": "https://www.aanem.org/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V2.5-BATCH-11",
+    "proposedGoldChapterNumber": 200
+  }
+}

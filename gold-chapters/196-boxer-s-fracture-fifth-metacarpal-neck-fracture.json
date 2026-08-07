@@ -1,0 +1,93 @@
+{
+  "schemaVersion": "SKMCIS-disease-schema-v1.1",
+  "contentVersion": "1.0.0",
+  "canonicalId": "SKM-ORT-BXF-001",
+  "legacyId": null,
+  "legacyIdStatus": "NEW_CANONICAL_RECORD_NO_LEGACY_MAPPING",
+  "name": "Boxer's Fracture / Fifth Metacarpal Neck Fracture",
+  "synonyms": [],
+  "category": "Orthopedics > Hand > Fracture",
+  "tags": [
+    "boxer's fracture / fifth metacarpal neck fracture"
+  ],
+  "contentStatus": "NEW_SOURCE_CHECKED_DRAFT",
+  "validationStatus": "AMBER_CLINICIAN_REVIEW",
+  "provenance": {
+    "recoveredLegacyContent": false,
+    "newlyAuthoredEvidenceBasedContent": true,
+    "ayurvedaCorrelationValidated": false,
+    "lastEvidenceCheck": "2026-08-07"
+  },
+  "definition": "Fracture of the fifth metacarpal neck, commonly caused by punching a hard object.",
+  "clinicalPattern": {
+    "typical": [
+      "Ulnar hand pain/swelling",
+      "Loss of knuckle prominence",
+      "Pain with gripping"
+    ]
+  },
+  "redFlags": [
+    {
+      "level": "RED",
+      "item": "Rotational deformity"
+    },
+    {
+      "level": "RED",
+      "item": "Open 'fight-bite' wound"
+    },
+    {
+      "level": "RED",
+      "item": "Neurovascular compromise"
+    }
+  ],
+  "examination": {
+    "core": [
+      "Finger cascade/rotation",
+      "Skin/wound assessment",
+      "Neurovascular exam"
+    ]
+  },
+  "differentials": [
+    "CMC injury",
+    "Metacarpal shaft fracture",
+    "Soft-tissue contusion"
+  ],
+  "investigations": {
+    "principle": "Hand radiographs establish angulation and fracture pattern.",
+    "MRI": "Use MRI when soft-tissue, neural, marrow, occult injury, infection or other condition-specific questions require it.",
+    "radiographs": "Use radiographs and/or CT according to the condition-specific imaging pathway."
+  },
+  "management": {
+    "green": [
+      "Appropriate immobilization",
+      "Early hand follow-up"
+    ],
+    "amber": [
+      "Rotational deformity, open injury or unacceptable alignment requires reduction/surgical assessment."
+    ],
+    "red": [
+      "Urgent red-flag features override routine conservative or Ayurvedic pathways."
+    ]
+  },
+  "ayurvedaFramework": {
+    "status": "GRAY_UNVALIDATED_CORRELATION",
+    "text": "Hasta-bhagna principles may complement healing after alignment assessment."
+  },
+  "patientEducation": {
+    "status": "BLUE_INFORMATION",
+    "summary": "Fracture of the fifth metacarpal neck, commonly caused by punching a hard object.",
+    "urgent": "Seek urgent assessment for major trauma, acute/progressive neurological deficit, severe infection/systemic illness, vascular compromise or other listed red flags."
+  },
+  "sources": [
+    {
+      "organization": "BSSH",
+      "title": "Metacarpal fractures resources",
+      "url": "https://www.bssh.ac.uk/",
+      "checked": "2026-08-07"
+    }
+  ],
+  "integration": {
+    "batch": "SKMCIS-V2.5-BATCH-11",
+    "proposedGoldChapterNumber": 196
+  }
+}
